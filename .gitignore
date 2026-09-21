@@ -5,3 +5,8 @@ data/raw/
 logs/
 saidas/**/midia/*.mp4
 .perf-*
+
+# repositório público: fichas de produto ficam só na sua máquina
+produtos/*
+!produtos/_TEMPLATE.md
+!produtos/README.md
