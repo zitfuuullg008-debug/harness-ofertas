@@ -1,0 +1,15 @@
+{
+  "name": "harness-ofertas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Harness de mineração de ofertas escaladas no Meta Ads + geração semanal de ângulos de criativos.",
+  "scripts": {
+    "minerar": "node scripts/minerar.mjs",
+    "minerar:teste": "node scripts/minerar.mjs --nicho receitas --max 15"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}

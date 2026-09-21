@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node scripts/minerar.mjs*)",
+      "Bash(node scripts/*)",
+      "Bash(ls*)",
+      "Bash(dir*)",
+      "Read",
+      "Write(saidas/**)",
+      "Write(data/**)",
+      "Glob",
+      "Grep",
+      "Agent",
+      "Skill",
+      "WebSearch",
+      "WebFetch"
+    ]
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "data": "2026-09-21",
+  "resumo": "4 nichos, 649 anúncios de 408 anunciantes; 12 ofertas low-ticket digitais passaram no filtro (topo bruto era político, InfinitePay, Natura, restaurante, máquinas). Destaques: Guia Pet Comilão (120 anúncios ativos, mesmo criativo em 118), Pudim sem Fogo da Roberta Carvalho (25 anúncios no lote, 154 dias) e o funil 'receba no WhatsApp, pague depois' a R$ 9,90–19,90 repetido em 8+ anunciantes.",
+  "nichosFaltando": ["cristao", "maternidade", "fitness"],
+  "padroes": [
+    "Funil dominante: receba no WhatsApp antes, pague depois, R$ 9,90–19,90 (8+ anunciantes)",
+    "Mecanismo 'sem forno, sem fogo, sem ovo' validado — 3 players no pudim, dá pra levar a outro doce",
+    "Hook = número + produto + público: '+50 pães para diabéticos', '80 cafés sem pão', '+2.500 atividades'",
+    "'Para consumir ou vender' liga receitas a renda extra e faz o anúncio aparecer em 2 nichos",
+    "Vídeo em 100% das 12 principais; copy curta com bullets de emoji, sem storytelling",
+    "Ferramenta dentro do PDF (lista semáforo, calculadora, planilha de precificação) sobe valor sem subir ticket",
+    "Quem escala replica página, não copy: Receitas sem Culpa roda a mesma oferta em 3 páginas"
+  ],
+  "nichos": [
+    {
+      "id": "receitas",
+      "nome": "Receitas",
+      "totalAnuncios": 165,
+      "totalAnunciantes": 117,
+      "ofertas": [
+        {
+          "pagina": "Silvia Araújo",
+          "paginaId": "809123965625317",
+          "adId": "1429156299266417",
+          "keyword": "receitas fáceis",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 113,
+          "anunciosAtivos": 31,
+          "mesmoCriativo": 18,
+          "diasRodando": 28,
+          "produto": "Receituário de conservas caseiras (alho, ervas, pimenta, legumes) em passo a passo, entregue no WhatsApp",
+          "preco": "R$ 9,90–19,90 (inferido)",
+          "promessa": "Aprenda a fazer conservas caseiras deliciosas e muito procuradas, para consumir ou até vender",
+          "hook": "🥒 Aprenda a fazer conservas caseiras deliciosas e muito procuradas!",
+          "porqueEscala": [
+            "Sub-nicho quase sem concorrência dentro de receitas, ingrediente barato",
+            "Vende o pote pronto, não a habilidade — 'ideal para iniciantes'",
+            "Aparece em 2 nichos com a mesma copy: dona de casa e renda extra"
+          ],
+          "comoModelar": [
+            "Ângulo 'coisa de despensa que todo mundo compra pronta mas é barata de fazer'",
+            "Frase 'para consumir ou até vender' como ponte entre receitas e renda extra"
+          ],
+          "linkVenda": null,
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1429156299266417"
+        },
+        {
+          "pagina": "Receitas sem Culpa",
+          "paginaId": "959266110608655",
+          "adId": "2033858064171155",
+          "keyword": "receitas fáceis",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 59,
+          "anunciosAtivos": null,
+          "mesmoCriativo": 8,
+          "diasRodando": 109,
+          "produto": "PDF com +50 receitas de pães para diabéticos + cafés, pratos e chás; entrega em 30s no WhatsApp",
+          "preco": "não aparece — receba antes, pague depois",
+          "promessa": "+50 receitas de pães para diabéticos que querem comer bem, sem medo e sem erro",
+          "hook": "+50 RECEITAS de PÃES para DIABÉTICOS que querem comer BEM!",
+          "porqueEscala": [
+            "Dor específica (diabético sem pão) + entrega instantânea + risco zero",
+            "Mesma copy roda em 2 páginas clone (Comer Sem Culpa 1.0 e 2.0) há 96–115 dias",
+            "Copy escaneável, sem storytelling — funciona em público 45+"
+          ],
+          "comoModelar": [
+            "Fórmula '[N] receitas de [alimento proibido] para [restrição]'",
+            "Abrir com 'Receba ANTES, pague DEPOIS' na 2ª linha",
+            "Clonar página pra escalar sem queimar a conta principal"
+          ],
+          "linkVenda": null,
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2033858064171155"
+        },
+        {
+          "pagina": "Luana Oliveira (Chef Luana)",
+          "paginaId": "1108439012356829",
+          "adId": "1035546349164375",
+          "keyword": "receitas fáceis",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 44,
+          "anunciosAtivos": null,
+          "mesmoCriativo": 2,
+          "diasRodando": 83,
+          "produto": "'80 Cafés da Manhã Saudáveis para Substituir o Pão' — um de 5 receituários da mesma chef (365 sem açúcar, 200 air fryer, 365 proteicas)",
+          "preco": "não aparece (avaliação 4.9/5 no link)",
+          "promessa": "Nunca mais fique sem ideias para substituir o pão",
+          "hook": "Todo dia a mesma pergunta: 'o que comer no café da manhã no lugar do pão?' 😩",
+          "porqueEscala": [
+            "Hook é a pergunta que o público faz pra si mesmo todo dia",
+            "Absolve: 'não é falta de força de vontade, é falta de ideias'",
+            "Um anunciante testando 5 ângulos com a mesma estrutura em páginas lovable"
+          ],
+          "comoModelar": [
+            "Estrutura '[N] receitas para substituir [X]' com absolvição no início",
+            "Multiplicar receituários por ângulo reaproveitando a copy-base"
+          ],
+          "linkVenda": "https://sempaochefluana.lovable.app/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1035546349164375"
+        }
+      ],
+      "descartados": [
+        { "pagina": "Paparoto Cucina", "motivo": "restaurante" },
+        { "pagina": "Renata Brugnera - Nutrição", "motivo": "app de receitas, 78 anúncios — reserva, verificar se é assinatura" },
+        { "pagina": "Lavigner Food", "motivo": "marmitas delivery" },
+        { "pagina": "Delícias de Lalita", "motivo": "marmitas vegetarianas" },
+        { "pagina": "Doces de Sucesso DG", "motivo": "reserva: apostilas a R$ 1, 546 dias, sem copy" },
+        { "pagina": "Misturas do Bem", "motivo": "reserva: cardápios, 435 dias, sem copy" },
+        { "pagina": "Mila Reichert Low Carb", "motivo": "curso provável mid-ticket" },
+        { "pagina": "Marmiteipf, Sabores da Ju, bemlevesabores", "motivo": "marmitaria" },
+        { "pagina": "Bistrô Armazém, BECO SP, Casaburgerfries, Ping pao", "motivo": "restaurante local" },
+        { "pagina": "Okoshi, Guarani, Farias, Imbaúba, Nadir", "motivo": "marca de alimento" },
+        { "pagina": "Patty Goes", "motivo": "programa gratuito" }
+      ]
+    },
+    {
+      "id": "receitas_infantis",
+      "nome": "Receitas para criança e bebê",
+      "totalAnuncios": 166,
+      "totalAnunciantes": 112,
+      "ofertas": [
+        {
+          "pagina": "Fernanda Soares — Guia Pet Comilão",
+          "paginaId": "928100827052211",
+          "adId": "1554803922995221",
+          "keyword": "meu filho não come",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 365,
+          "anunciosAtivos": 120,
+          "mesmoCriativo": 118,
+          "diasRodando": 22,
+          "produto": "Guia de comida natural pra cachorro: +100 receitas, Lista Semáforo (pode/não pode) e calculadora de porção. Fora do nicho (pet), entrou por 'filho de quatro patas'",
+          "preco": "R$ 15 — paga depois de receber",
+          "promessa": "Comida de verdade para o seu cachorro sem medo de errar na quantidade",
+          "hook": "Quer dar comida de verdade para o seu cachorro, mas tem medo de errar na quantidade ou de dar algum alimento proibido?",
+          "porqueEscala": [
+            "Sinal mais forte da coleta: 120 anúncios, mesmo criativo em 118",
+            "Lista Semáforo + calculadora transformam PDF em ferramenta de decisão",
+            "R$ 15 enquadrado como 'contribuição pra ajudar o projeto'"
+          ],
+          "comoModelar": [
+            "Guia de introdução alimentar com semáforo por idade + porção por peso",
+            "Hook 'quer X mas tem medo de errar em Y'",
+            "Preço apresentado como contribuição simbólica"
+          ],
+          "linkVenda": null,
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1554803922995221"
+        },
+        {
+          "pagina": "Doc João Migowski — Crianças Modo Turbo",
+          "paginaId": "873331792536765",
+          "adId": "1435902308445497",
+          "keyword": "meu filho não come",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 50,
+          "anunciosAtivos": null,
+          "mesmoCriativo": 2,
+          "diasRodando": 105,
+          "produto": "Programa de suplementação infantil (11 suplementos, dose por peso) com aula + suporte WhatsApp; página com 164 mil curtidas",
+          "preco": "R$ 39,90 (primeiro lote / combo de entrada)",
+          "promessa": "Os 11 suplementos para transformar o seu filho em uma super criança",
+          "hook": "Primeiro Lote por 39,90",
+          "porqueEscala": [
+            "Autoridade médica + promessa ampla (imunidade, sono, foco)",
+            "Garantia devolve o programa E o gasto com suplementos",
+            "Funil 'comenta AULA/COMBO' no Instagram baixa o custo por lead"
+          ],
+          "comoModelar": [
+            "Mecânica 'comenta X pra receber a aula' pra receituário infantil",
+            "Garantia que cobre o custo dos ingredientes",
+            "Promessa 'mais sono/imunidade' via receitas"
+          ],
+          "linkVenda": "http://criancasmodoturbo.com.br/combo1",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1435902308445497"
+        },
+        {
+          "pagina": "Foco Total Vip — Kit de Atividades",
+          "paginaId": "645880351937742",
+          "adId": "975726005127780",
+          "keyword": "lanche escolar",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 43,
+          "anunciosAtivos": null,
+          "mesmoCriativo": 2,
+          "diasRodando": 164,
+          "produto": "Kit PDF com +2.500 atividades de alfabetização, leitura, escrita e matemática pra imprimir (nicho maternidade)",
+          "preco": "R$ 9,90 / R$ 19,90 (dois anúncios testando preço)",
+          "promessa": "Ajude seu filho ou aluno a aprender a ler e escrever em casa, com 15 a 30 minutos por dia",
+          "hook": "📚✨ Kit de Atividades Educativas Infantil — aprender a ler, escrever e desenvolver o raciocínio, mesmo em casa!",
+          "porqueEscala": [
+            "Volume (2.500 atividades) por preço de lanche, 5 meses no ar",
+            "Dupla audiência na mesma copy: mãe e professora",
+            "Compromisso de tempo baixo como mecanismo (15 min/dia)"
+          ],
+          "comoModelar": [
+            "'+N em PDF pronto pra imprimir por R$ 9,90'",
+            "Split de preço 9,90 vs 19,90 rodando em paralelo"
+          ],
+          "linkVenda": "https://atividades.pacotespremium.com/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=975726005127780"
+        }
+      ],
+      "descartados": [
+        { "pagina": "Eduardo Riedel, Patricia Luciane, Oziel Batatinha, W. Stecanela, Lula da Fonte, Perdeu Piá, J. Silva, D. Saadi, D. Leite, Dep. Pepa", "motivo": "político" },
+        { "pagina": "InfinitePay", "motivo": "maquininha/app" },
+        { "pagina": "Ai-EpicReels, Ns-ST-YD22, Melolo", "motivo": "app de série curta" },
+        { "pagina": "Gourmet Nenem, Papa Rica", "motivo": "papinha delivery" },
+        { "pagina": "Liu Baby, Paraíso do Bebê, Criaturas, Petit Piá, Biscut", "motivo": "loja/produto físico" },
+        { "pagina": "Bia Castilho", "motivo": "consulta presencial" },
+        { "pagina": "Dr. Suguita, Dr. Murilo, Dr. Paschoal", "motivo": "marca pessoal médica" },
+        { "pagina": "Bebê de Nutri", "motivo": "reserva: curso com 2 anos de acompanhamento, provável mid-ticket" },
+        { "pagina": "thalitamullernutri", "motivo": "reserva: e-book de introdução alimentar, 1 anúncio, 122 dias" },
+        { "pagina": "Professora Luana Ferreira", "motivo": "reserva: apostilas de matemática, nicho educação" },
+        { "pagina": "Isadora Nogueira, NutriVida, Evogard, Samuel Corvo", "motivo": "fora do nicho" }
+      ]
+    },
+    {
+      "id": "comida_caseira",
+      "nome": "Renda extra com comida caseira",
+      "totalAnuncios": 183,
+      "totalAnunciantes": 97,
+      "ofertas": [
+        {
+          "pagina": "Roberta Carvalho — Pudim sem Fogo",
+          "paginaId": "1158143547370846",
+          "adId": "1278554277204757",
+          "keyword": "fazer e vender",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 164,
+          "anunciosAtivos": 25,
+          "mesmoCriativo": 14,
+          "diasRodando": 154,
+          "produto": "Passo a passo do pudim sem forno, sem fogo e sem ovo, pra fazer e vender; entregue no WhatsApp",
+          "preco": "R$ 9,90 — recebe, testa, depois decide se paga",
+          "promessa": "Pudim perfeito, sem forno, sem fogo e sem ovo — pronto direto na geladeira, pra fazer e vender",
+          "hook": "Pudim perfeito, sem forno, sem fogo e sem ovo — pronto direto na geladeira... 😍",
+          "porqueEscala": [
+            "25 anúncios no lote (recorde), 5 criativos em rotação há 5 meses",
+            "Promessa visual: pudim liso cabe em 6 segundos de vídeo",
+            "'Sem fogo' corta custo de gás — dor real do público"
+          ],
+          "comoModelar": [
+            "Fórmula '[doce popular] sem [3 barreiras]' + 'receba, teste, depois paga'",
+            "Mecanismo 'sem forno' já tem 3 players no pudim — levar pra outro doce"
+          ],
+          "linkVenda": null,
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1278554277204757"
+        },
+        {
+          "pagina": "Maria Receitas — Apostila de Salgados",
+          "paginaId": "1009778382216594",
+          "adId": "1352847569928832",
+          "keyword": "salgados para vender",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 34,
+          "anunciosAtivos": 7,
+          "mesmoCriativo": 2,
+          "diasRodando": 89,
+          "produto": "Apostila com +50 salgados, montagem de bandeja, congelamento e apresentação; WhatsApp. Ângulo novo (congelar em bandeja) com 7 anúncios em 2 semanas",
+          "preco": "não aparece (4.9/5 no link)",
+          "promessa": "Bandejas bonitas, variadas, com salgados que chamam atenção — pra vender todos os dias",
+          "hook": "🚨 Tem salgadeira vendendo todos os dias… enquanto outras ficam esperando cliente aparecer 😳",
+          "porqueEscala": [
+            "Fala com quem já é salgadeira, vende o diferencial (bandeja, congelamento)",
+            "Lançando 2º ângulo agora: 'pare de fazer massa do zero a cada pedido'",
+            "Apareceu em 2 nichos com 2 copies diferentes"
+          ],
+          "comoModelar": [
+            "Hook de contraste 'tem X vendendo todo dia… enquanto outras esperam'",
+            "Reposicionar receituário como 'apresentação que vende' ou 'produção adiantada'"
+          ],
+          "linkVenda": null,
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1352847569928832"
+        },
+        {
+          "pagina": "Recheio Fácil — 20 Recheios Lucrativos",
+          "paginaId": "882907418246764",
+          "adId": "1702943824237988",
+          "keyword": "bolo no pote",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 33,
+          "anunciosAtivos": null,
+          "mesmoCriativo": 1,
+          "diasRodando": 104,
+          "produto": "Receituário de 20 recheios sem fogo pra bolo no pote, Páscoa e sobremesas; WhatsApp",
+          "preco": "R$ 9,90 — receba antes, pague depois",
+          "promessa": "Produza mais doces sem passar horas no fogão, mais lucro sem mais trabalho",
+          "hook": "🚨 Produza mais doces sem passar horas no fogão!",
+          "porqueEscala": [
+            "Produto complementar: vende pra quem já faz bolo no pote",
+            "Ângulo de tempo/lucro, não de sabor",
+            "Mesma copy há 3+ meses em 2 nichos sem alterar"
+          ],
+          "comoModelar": [
+            "Receituário 'componente' (recheios, massas, molhos) pra quem já produz",
+            "Hook de produtividade: 'produza mais sem X'"
+          ],
+          "linkVenda": null,
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1702943824237988"
+        }
+      ],
+      "descartados": [
+        { "pagina": "Interlaser Máquinas", "motivo": "máquina de salgados" },
+        { "pagina": "Karamell Store", "motivo": "loja de guloseimas" },
+        { "pagina": "Natura, Avon, Boticário", "motivo": "consultoria de beleza" },
+        { "pagina": "Lilih, Elô Provin, Miss Semijoias, Rei das Joias", "motivo": "semijoias consignação" },
+        { "pagina": "Distribuidora JH, Ferraz Fernandes, Ye No Pan, Aikifome", "motivo": "distribuidora B2B" },
+        { "pagina": "Ateliê Vanessa Calheiros, Instituto Gourmet (3), Sonho da Festa", "motivo": "curso presencial" },
+        { "pagina": "sheillavences, Divino Brigadeiro, Casa de Bolos, Dandoce, Sodiê, Raisa e +6", "motivo": "confeitaria local" },
+        { "pagina": "Etna Gráfica", "motivo": "embalagem" },
+        { "pagina": "Ale Negrini", "motivo": "reserva: Curso de Espetinho R$ 7, 99 dias" },
+        { "pagina": "Lúcia Melo, Best cookies, Alessandra Santos, Alan Baker", "motivo": "reserva: receituários R$ 10–14,90" },
+        { "pagina": "Fábrica de Doces Lucrativos, ChefLuiza", "motivo": "reserva: pudim sem forno (concorrentes da Roberta)" },
+        { "pagina": "Sueli dos Santos, Vovó Alice, Finger Foods, Biscoitos Caseiros", "motivo": "reserva: receituários recentes" },
+        { "pagina": "Beatriz Concretos, Doce de Sabão", "motivo": "digital, fora de comida" }
+      ]
+    },
+    {
+      "id": "renda_extra",
+      "nome": "Renda extra (geral)",
+      "totalAnuncios": 135,
+      "totalAnunciantes": 82,
+      "ofertas": [
+        {
+          "pagina": "Le Bron Brownie",
+          "paginaId": "110766695940554",
+          "adId": "1951215335592378",
+          "keyword": "aprenda a fazer renda extra",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 276,
+          "anunciosAtivos": 105,
+          "mesmoCriativo": 16,
+          "diasRodando": 71,
+          "produto": "Curso digital de brownie pra fazer e vender (página categoria 'Curso', 38 mil curtidas). Copy não capturada — anúncio só vídeo. Confiança média",
+          "preco": "não aparece — abrir a página antes de modelar",
+          "promessa": "Aprenda a fazer brownie e tenha renda extra (inferida da keyword e categoria)",
+          "hook": "(sem texto — vídeo puro)",
+          "porqueEscala": [
+            "105 anúncios ativos sem uma linha de copy: o vídeo vende sozinho",
+            "Brownie é o produto de entrada mais simples da confeitaria",
+            "Marca com anos de autoridade no nicho"
+          ],
+          "comoModelar": [
+            "Oferta de entrada com um produto só, que qualquer um faz",
+            "Testar anúncio sem texto, só vídeo com legenda embutida"
+          ],
+          "linkVenda": "https://www.lebronbrownie.com.br/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1951215335592378"
+        },
+        {
+          "pagina": "Jeff. O Editor — Curso de Edição",
+          "paginaId": "440761149123673",
+          "adId": "2147762902458726",
+          "keyword": "aprenda a fazer dinheiro",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 245,
+          "anunciosAtivos": 104,
+          "mesmoCriativo": 7,
+          "diasRodando": 116,
+          "produto": "Curso de edição de vídeo no celular pra viralizar; acesso vitalício, atualizações mensais",
+          "preco": "12x de R$ 6,93 (~R$ 83)",
+          "promessa": "Aprenda a viralizar seus vídeos usando apenas o seu celular",
+          "hook": "Aprenda a VIRALIZAR seus vídeos usando apenas o seu CELULAR por apenas 12x de 6,93 🔥",
+          "porqueEscala": [
+            "Parcela em dígito único ('6,93') faz curso parecer tripwire",
+            "Público enorme e ciente: todo mundo quer viralizar",
+            "104 anúncios por 4 meses = ROI comprovado"
+          ],
+          "comoModelar": [
+            "Preço parcelado no hook, junto com a ferramenta que a pessoa já tem",
+            "Nomear cada parte do produto como mecanismo ('ganchos virais', 'legendas que viralizam')"
+          ],
+          "linkVenda": "https://edicaoviral.com.br/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2147762902458726"
+        },
+        {
+          "pagina": "Laura Fagundes — Caseirinhos",
+          "paginaId": "118985541170105",
+          "adId": "2825901444451164",
+          "keyword": "aprenda a fazer dinheiro",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 66,
+          "anunciosAtivos": null,
+          "mesmoCriativo": 10,
+          "diasRodando": 111,
+          "produto": "120 caseirinhos + 100 recheios + 50 massas + apostila de precificação + receitas de Natal + 12 videoaulas; WhatsApp",
+          "preco": "não aparece (inferido R$ 19,90–29,90)",
+          "promessa": "Aprenda a fazer caseirinhos que vendem rápido, mesmo sem experiência",
+          "hook": "Aprenda fazer caseirinhos que vendem rápido, mesmo sem experiência 😍👇🏻",
+          "porqueEscala": [
+            "Copy inteira é lista numérica — volume percebido decide",
+            "Apostila de precificação ataca a maior insegurança de quem nunca vendeu",
+            "Gancho de Natal plantado em setembro"
+          ],
+          "comoModelar": [
+            "Empilhar números (receitas + recheios + massas) no corpo da copy",
+            "Precificação como bônus padrão em oferta 'pra vender'",
+            "Plantar sazonal 3 meses antes"
+          ],
+          "linkVenda": null,
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2825901444451164"
+        }
+      ],
+      "descartados": [
+        { "pagina": "ThiagoLobos.Ofc", "motivo": "120 anúncios, funil de aula gratuita, provável high-ticket — sem copy" },
+        { "pagina": "Instituto Gourmet, Celular Academy, Treinar na Oficina, CPEA", "motivo": "curso presencial" },
+        { "pagina": "Luciano Fernandes", "motivo": "desafio → mentoria de investimentos" },
+        { "pagina": "Método Áquila, Dr. Euro, Gisele Lima, Leonardoolivr", "motivo": "mentoria high-ticket B2B" },
+        { "pagina": "Pedro Haddad, Eduardo Moreira, Osney Cola", "motivo": "marca pessoal sem oferta clara" },
+        { "pagina": "12min", "motivo": "app por assinatura" },
+        { "pagina": "Silvia Araújo", "motivo": "reserva: mesma oferta de conservas do nicho receitas (11 anúncios aqui)" },
+        { "pagina": "Eletrônica Fácil", "motivo": "reserva: curso reparo em 10 dias, 126 mil curtidas" },
+        { "pagina": "VFM Play", "motivo": "reserva: cerâmica R$ 47 (URL), 393 dias, sem copy" },
+        { "pagina": "Esther Miranda, Aisne Morelli, Math terê, La doceria, Mayara Campos", "motivo": "reserva: low-ticket R$ 37–67 ou sem preço" },
+        { "pagina": "Croche Lucrativo, Ana Boni, Fernanda Lopes", "motivo": "reserva: artesanato pra vender" },
+        { "pagina": "Pianista, Alex Herbich, Juliana Cílios, Maximus, Arte em Flores, Rudolph", "motivo": "fora do escopo" }
+      ]
+    }
+  ]
+}

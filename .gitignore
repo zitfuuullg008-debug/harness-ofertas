@@ -1,0 +1,7 @@
+node_modules/
+.browser-data/
+data/raw/
+*.log
+logs/
+saidas/**/midia/*.mp4
+.perf-*

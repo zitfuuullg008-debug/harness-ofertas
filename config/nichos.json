@@ -1,0 +1,190 @@
+{
+  "_doc": "Nichos e keywords que o minerador vasculha na Biblioteca de Anúncios da Meta. 'exato' = frase exata. 'pais' = ISO-2 ou ALL. 'ofertasNoTotal' = quantas ofertas o relatório entrega no total (as melhores entre todos os nichos). 'anunciosPorKeyword' = quantos anúncios coletar por keyword (30 vem sem rolar a página). 'enriquecerPorNicho' = quantas páginas por nicho visitar pra contar anúncios (cada visita é 1 pedido à Meta).",
+  "ofertasNoTotal": 4,
+  "anunciosPorKeyword": 30,
+  "enriquecerPorNicho": 5,
+  "nichos": [
+    {
+      "id": "receitas",
+      "nome": "Receitas",
+      "keywords": [
+        {
+          "keyword": "receitas fáceis",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "cardápio semanal",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "receita sobremesa",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "receitas low carb",
+          "exato": false,
+          "pais": "BR"
+        }
+      ]
+    },
+    {
+      "id": "receitas_infantis",
+      "nome": "Receitas para criança e bebê",
+      "keywords": [
+        {
+          "keyword": "introdução alimentar",
+          "exato": true,
+          "pais": "BR"
+        },
+        {
+          "keyword": "receitas para bebê",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "meu filho não come",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "lanche escolar",
+          "exato": false,
+          "pais": "BR"
+        }
+      ]
+    },
+    {
+      "id": "comida_caseira",
+      "nome": "Renda extra com comida caseira",
+      "keywords": [
+        {
+          "keyword": "fazer e vender",
+          "exato": true,
+          "pais": "BR"
+        },
+        {
+          "keyword": "renda extra vendendo",
+          "exato": true,
+          "pais": "BR"
+        },
+        {
+          "keyword": "bolo no pote",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "salgados para vender",
+          "exato": false,
+          "pais": "BR"
+        }
+      ]
+    },
+    {
+      "id": "renda_extra",
+      "nome": "Renda extra (geral)",
+      "keywords": [
+        {
+          "keyword": "aprenda a fazer renda extra",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "vivendo de renda extra",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "aprenda a fazer dinheiro",
+          "exato": false,
+          "pais": "BR"
+        }
+      ]
+    },
+    {
+      "id": "cristao",
+      "nome": "Cristão / Espiritualidade",
+      "keywords": [
+        {
+          "keyword": "estudo bíblico",
+          "exato": true,
+          "pais": "BR"
+        },
+        {
+          "keyword": "leitura bíblica",
+          "exato": true,
+          "pais": "BR"
+        },
+        {
+          "keyword": "entenda a bíblia",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "devocional",
+          "exato": false,
+          "pais": "BR"
+        }
+      ]
+    },
+    {
+      "id": "maternidade",
+      "nome": "Maternidade e família",
+      "keywords": [
+        {
+          "keyword": "alfabetização",
+          "exato": true,
+          "pais": "BR"
+        },
+        {
+          "keyword": "atividades infantis",
+          "exato": true,
+          "pais": "BR"
+        },
+        {
+          "keyword": "atividades tdah",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "rotina do seu filho",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "birra",
+          "exato": false,
+          "pais": "BR"
+        }
+      ]
+    },
+    {
+      "id": "fitness",
+      "nome": "Fitness e emagrecimento",
+      "keywords": [
+        {
+          "keyword": "receita dieta",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "menopausa",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "perder peso",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "remédio natural",
+          "exato": true,
+          "pais": "BR"
+        }
+      ]
+    }
+  ]
+}

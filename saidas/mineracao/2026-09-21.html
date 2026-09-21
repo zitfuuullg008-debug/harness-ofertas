@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ofertas escaladas — 21 de setembro de 2026</title>
+<style>
+  :root { --bg:#0f1115; --card:#171a21; --line:#262a33; --txt:#e8eaf0; --mut:#9aa1ad; --acc:#8b5cf6; --ok:#22c55e; --warn:#f59e0b; }
+  * { box-sizing:border-box }
+  body { margin:0; background:var(--bg); color:var(--txt); font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+  .wrap { max-width:1280px; margin:0 auto; padding:24px 16px 80px; }
+  h1 { font-size:26px; margin:0 0 4px } h1 small { color:var(--mut); font-weight:400; font-size:15px; display:block }
+  .resumo { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 18px; margin:18px 0; }
+  .aviso { border-color:var(--warn); color:#fcd34d }
+  nav { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0 28px }
+  nav a { color:var(--txt); text-decoration:none; background:var(--card); border:1px solid var(--line); padding:6px 12px; border-radius:999px; font-size:13px }
+  nav a:hover { border-color:var(--acc) }
+  h2 { font-size:20px; margin:36px 0 14px; padding-top:12px; border-top:1px solid var(--line) } h2 small { color:var(--mut); font-size:13px; font-weight:400; margin-left:8px }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:16px }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; overflow:hidden; display:flex; flex-direction:column }
+  .card header { display:flex; justify-content:space-between; align-items:flex-start; gap:8px; padding:14px 16px 10px }
+  .quem strong { display:block; font-size:16px } .quem small { color:var(--mut); font-size:12px }
+  .badge { font-size:11px; padding:3px 8px; border-radius:999px; white-space:nowrap; font-weight:600 }
+  .badge.novo { background:rgba(34,197,94,.15); color:var(--ok) } .badge.rec { background:rgba(245,158,11,.15); color:var(--warn) }
+  .media { background:#000; aspect-ratio:4/5; display:flex; align-items:center; justify-content:center }
+  .media video, .media img { width:100%; height:100%; object-fit:contain; display:block }
+  .media a { position:relative; display:block; width:100%; height:100% }
+  .media .play { position:absolute; inset:0; margin:auto; width:64px; height:64px; border-radius:50%; background:rgba(139,92,246,.85); color:#fff; font-size:26px; display:flex; align-items:center; justify-content:center; pointer-events:none }
+  .sem-midia { color:var(--mut); text-align:center; font-size:13px }
+  .stats { display:grid; grid-template-columns:repeat(3,1fr); border-top:1px solid var(--line); border-bottom:1px solid var(--line) }
+  .stat { padding:10px 6px; text-align:center; border-right:1px solid var(--line) } .stat:last-child { border-right:0 }
+  .stat b { display:block; font-size:18px; color:var(--acc) } .stat span { font-size:11px; color:var(--mut); text-transform:uppercase; letter-spacing:.03em }
+  dl { margin:0; padding:14px 16px 4px; flex:1 }
+  dt { font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--mut); margin-top:12px } dt:first-child { margin-top:0 }
+  .preco { text-transform:none; letter-spacing:0; color:var(--ok); font-weight:600 }
+  dd { margin:3px 0 0 } dd.hook { font-style:italic; color:#c4b5fd }
+  dd ul { margin:0; padding-left:18px } dd li { margin:2px 0 } ul.modelar li::marker { color:var(--ok) }
+  details { padding:0 16px 10px } summary { cursor:pointer; color:var(--mut); font-size:13px }
+  pre { white-space:pre-wrap; font:13px/1.45 inherit; background:#0f1115; border:1px solid var(--line); border-radius:8px; padding:10px; margin:8px 0 0; max-height:260px; overflow:auto }
+  footer { display:flex; flex-wrap:wrap; gap:8px; padding:12px 16px 16px; border-top:1px solid var(--line) }
+  footer a { color:var(--txt); text-decoration:none; font-size:13px; background:#1f2330; border:1px solid var(--line); padding:8px 12px; border-radius:8px }
+  footer a:hover { border-color:var(--acc) }
+  .descartados { margin-top:14px; color:var(--mut) } .descartados ul { columns:2; gap:24px; font-size:13px } .descartados b { color:var(--txt); font-weight:500 }
+  .padroes ul { margin:6px 0 0; padding-left:20px }
+  @media (max-width:640px) { .descartados ul { columns:1 } }
+</style>
+</head>
+<body><div class="wrap">
+<h1>Ofertas escaladas <small>21 de setembro de 2026 · 12 ofertas em 4 nichos</small></h1>
+<div class="resumo">4 nichos, 649 anúncios de 408 anunciantes; 12 ofertas low-ticket digitais passaram no filtro (topo bruto era político, InfinitePay, Natura, restaurante, máquinas). Destaques: Guia Pet Comilão (120 anúncios ativos, mesmo criativo em 118), Pudim sem Fogo da Roberta Carvalho (25 anúncios no lote, 154 dias) e o funil 'receba no WhatsApp, pague depois' a R$ 9,90–19,90 repetido em 8+ anunciantes.</div>
+<div class="resumo aviso">⚠ Nichos que não entraram nesta rodada: cristao, maternidade, fitness. Rode <code>node scripts/minerar.mjs --reaproveitar</code> pra completar.</div>
+<nav><a href="#receitas">Receitas</a><a href="#receitas_infantis">Receitas para criança e bebê</a><a href="#comida_caseira">Renda extra com comida caseira</a><a href="#renda_extra">Renda extra (geral)</a></nav>
+
+<section class="nicho" id="receitas">
+  <h2>Receitas <small>165 anúncios · 117 anunciantes · 3 ofertas</small></h2>
+  <div class="grid">
+<article class="card">
+  <header>
+    <div class="quem">
+      <strong>Silvia Araújo</strong>
+      <small>25.173 curtidas · 1 oferta na página · receitas fáceis</small>
+    </div>
+    <span class="badge novo">novo</span>
+  </header>
+  <div class="media"><div class="sem-midia">sem mídia salva<br><small>abra no Ads Library</small></div></div>
+  <div class="stats">
+    <div class="stat"><b>61</b><span>anúncios na página</span></div>
+    <div class="stat"><b>≈61</b><span>criativos da oferta</span></div>
+    <div class="stat"><b>28d</b><span>rodando</span></div>
+  </div>
+  <dl>
+    <dt>Produto · <span class="preco">R$ 9,90–19,90 (inferido)</span></dt><dd>Receituário de conservas caseiras (alho, ervas, pimenta, legumes) em passo a passo, entregue no WhatsApp</dd>
+    <dt>Promessa</dt><dd>“Aprenda a fazer conservas caseiras deliciosas e muito procuradas, para consumir ou até vender”</dd>
+    <dt>Hook</dt><dd class="hook">“🥒 Aprenda a fazer conservas caseiras deliciosas e muito procuradas!”</dd>
+    <dt>Por que está escalando</dt><dd><ul><li>Sub-nicho quase sem concorrência dentro de receitas, ingrediente barato</li><li>Vende o pote pronto, não a habilidade — 'ideal para iniciantes'</li><li>Aparece em 2 nichos com a mesma copy: dona de casa e renda extra</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Ângulo 'coisa de despensa que todo mundo compra pronta mas é barata de fazer'</li><li>Frase 'para consumir ou até vender' como ponte entre receitas e renda extra</li></ul></dd>
+  </dl>
+  <details><summary>Copy do anúncio</summary><pre>🥒 Aprenda a fazer conservas caseiras deliciosas e muito procuradas!
+Descubra receitas práticas de alho no vinagre, ervas em conserva, pimentas, cebola, legumes e muito mais.
+Tudo com passo a passo simples, ideal para fazer em casa, consumir ou até vender.
+Me chama no WhatsApp e veja como funciona 💬</pre></details>
+  <footer>
+    <a href="https://api.whatsapp.com/send" target="_blank" rel="noopener">Link de venda ↗</a>
+    <a href="https://www.facebook.com/809123965625317" target="_blank" rel="noopener">Perfil do Facebook</a>
+    <a href="https://www.facebook.com/ads/library/?id=1429156299266417" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
+    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=809123965625317&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
+  </footer>
+</article>
+<article class="card">
+  <header>
+    <div class="quem">
+      <strong>Receitas sem Culpa</strong>
+      <small>receitas fáceis</small>
+    </div>
+    <span class="badge novo">novo</span>
+  </header>
+  <div class="media"><div class="sem-midia">sem mídia salva<br><small>abra no Ads Library</small></div></div>
+  <div class="stats">
+    <div class="stat"><b>—</b><span>anúncios na página</span></div>
+    <div class="stat"><b>—</b><span>criativos da oferta</span></div>
+    <div class="stat"><b>109d</b><span>rodando</span></div>
+  </div>
+  <dl>
+    <dt>Produto · <span class="preco">não aparece — receba antes, pague depois</span></dt><dd>PDF com +50 receitas de pães para diabéticos + cafés, pratos e chás; entrega em 30s no WhatsApp</dd>
+    <dt>Promessa</dt><dd>“+50 receitas de pães para diabéticos que querem comer bem, sem medo e sem erro”</dd>
+    <dt>Hook</dt><dd class="hook">“+50 RECEITAS de PÃES para DIABÉTICOS que querem comer BEM!”</dd>
+    <dt>Por que está escalando</dt><dd><ul><li>Dor específica (diabético sem pão) + entrega instantânea + risco zero</li><li>Mesma copy roda em 2 páginas clone (Comer Sem Culpa 1.0 e 2.0) há 96–115 dias</li><li>Copy escaneável, sem storytelling — funciona em público 45+</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Fórmula '[N] receitas de [alimento proibido] para [restrição]'</li><li>Abrir com 'Receba ANTES, pague DEPOIS' na 2ª linha</li><li>Clonar página pra escalar sem queimar a conta principal</li></ul></dd>
+  </dl>
+  
+  <footer>
+    
+    <a href="https://www.facebook.com/959266110608655" target="_blank" rel="noopener">Perfil do Facebook</a>
+    <a href="https://www.facebook.com/ads/library/?id=2033858064171155" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
+    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=959266110608655&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
+  </footer>
+</article>
+<article class="card">
+  <header>
+    <div class="quem">
+      <strong>Luana Oliveira (Chef Luana)</strong>
+      <small>3.339 curtidas · 1 oferta na página · receitas fáceis</small>
+    </div>
+    <span class="badge novo">novo</span>
+  </header>
+  <div class="media"><div class="sem-midia">sem mídia salva<br><small>abra no Ads Library</small></div></div>
+  <div class="stats">
+    <div class="stat"><b>—</b><span>anúncios na página</span></div>
+    <div class="stat"><b>1</b><span>criativos da oferta</span></div>
+    <div class="stat"><b>83d</b><span>rodando</span></div>
+  </div>
+  <dl>
+    <dt>Produto · <span class="preco">não aparece (avaliação 4.9/5 no link)</span></dt><dd>'80 Cafés da Manhã Saudáveis para Substituir o Pão' — um de 5 receituários da mesma chef (365 sem açúcar, 200 air fryer, 365 proteicas)</dd>
+    <dt>Promessa</dt><dd>“Nunca mais fique sem ideias para substituir o pão”</dd>
+    <dt>Hook</dt><dd class="hook">“Todo dia a mesma pergunta: 'o que comer no café da manhã no lugar do pão?' 😩”</dd>
+    <dt>Por que está escalando</dt><dd><ul><li>Hook é a pergunta que o público faz pra si mesmo todo dia</li><li>Absolve: 'não é falta de força de vontade, é falta de ideias'</li><li>Um anunciante testando 5 ângulos com a mesma estrutura em páginas lovable</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Estrutura '[N] receitas para substituir [X]' com absolvição no início</li><li>Multiplicar receituários por ângulo reaproveitando a copy-base</li></ul></dd>
+  </dl>
+  <details><summary>Copy do anúncio</summary><pre>Dia dos Namorados chegando e você ainda sem ideia do que preparar? 👀
+
+Porque muita gente quer fazer algo especial...
+
+mas acaba caindo sempre na mesma coisa.
+
+Ou então pensa que precisa gastar uma fortuna em restaurante.
+
+A verdade é que um jantar marcante não precisa ser caro.
+
+Às vezes, tudo o que falta é saber o que preparar.
+
+Foi por isso que reunimos +101 Jantares Românticos.
+
+🍝 Massas irresistíveis
+🥩 Pratos para impressionar
+🍰 Sobremesas especiais
+🍷 Ideias para encontros em casa
+
+Tudo com ingredientes fáceis de encontrar e preparo simples.
+
+📲 Acesso imediato.
+
+👉 Clique em Saiba Mais e veja tudo.</pre></details>
+  <footer>
+    <a href="https://sempaochefluana.lovable.app/" target="_blank" rel="noopener">Link de venda ↗</a>
+    <a href="https://www.facebook.com/1108439012356829" target="_blank" rel="noopener">Perfil do Facebook</a>
+    <a href="https://www.facebook.com/ads/library/?id=1035546349164375" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
+    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=1108439012356829&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
+  </footer>
+</article></div>
+  <details class="descartados"><summary>Descartados (11)</summary><ul><li><b>Paparoto Cucina</b> — restaurante</li><li><b>Renata Brugnera - Nutrição</b> — app de receitas, 78 anúncios — reserva, verificar se é assinatura</li><li><b>Lavigner Food</b> — marmitas delivery</li><li><b>Delícias de Lalita</b> — marmitas vegetarianas</li><li><b>Doces de Sucesso DG</b> — reserva: apostilas a R$ 1, 546 dias, sem copy</li><li><b>Misturas do Bem</b> — reserva: cardápios, 435 dias, sem copy</li><li><b>Mila Reichert Low Carb</b> — curso provável mid-ticket</li><li><b>Marmiteipf, Sabores da Ju, bemlevesabores</b> — marmitaria</li><li><b>Bistrô Armazém, BECO SP, Casaburgerfries, Ping pao</b> — restaurante local</li><li><b>Okoshi, Guarani, Farias, Imbaúba, Nadir</b> — marca de alimento</li><li><b>Patty Goes</b> — programa gratuito</li></ul></details>
+</section>
+<section class="nicho" id="receitas_infantis">
+  <h2>Receitas para criança e bebê <small>166 anúncios · 112 anunciantes · 3 ofertas</small></h2>
+  <div class="grid">
+<article class="card">
+  <header>
+    <div class="quem">
+      <strong>Fernanda Soares — Guia Pet Comilão</strong>
+      <small>1.223 curtidas · meu filho não come</small>
+    </div>
+    <span class="badge novo">novo</span>
+  </header>
+  <div class="media"><video controls preload="metadata" poster="midia/1554803922995221.jpg" src="midia/1554803922995221.mp4"></video></div>
+  <div class="stats">
+    <div class="stat"><b>120</b><span>anúncios na página</span></div>
+    <div class="stat"><b>1</b><span>criativos da oferta</span></div>
+    <div class="stat"><b>22d</b><span>rodando</span></div>
+  </div>
+  <dl>
+    <dt>Produto · <span class="preco">R$ 15 — paga depois de receber</span></dt><dd>Guia de comida natural pra cachorro: +100 receitas, Lista Semáforo (pode/não pode) e calculadora de porção. Fora do nicho (pet), entrou por 'filho de quatro patas'</dd>
+    <dt>Promessa</dt><dd>“Comida de verdade para o seu cachorro sem medo de errar na quantidade”</dd>
+    <dt>Hook</dt><dd class="hook">“Quer dar comida de verdade para o seu cachorro, mas tem medo de errar na quantidade ou de dar algum alimento proibido?”</dd>
+    <dt>Por que está escalando</dt><dd><ul><li>Sinal mais forte da coleta: 120 anúncios, mesmo criativo em 118</li><li>Lista Semáforo + calculadora transformam PDF em ferramenta de decisão</li><li>R$ 15 enquadrado como 'contribuição pra ajudar o projeto'</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Guia de introdução alimentar com semáforo por idade + porção por peso</li><li>Hook 'quer X mas tem medo de errar em Y'</li><li>Preço apresentado como contribuição simbólica</li></ul></dd>
+  </dl>
+  <details><summary>Copy do anúncio</summary><pre>Quer dar comida de verdade para o seu cachorro, mas tem medo de errar na quantidade ou de dar algum alimento proibido?
+
+O Guia Pet Comilão foi feito para pegar você pela mão! Chega de dúvidas na hora de preparar a refeição do seu melhor amigo.
+
+Com esse material, você tem acesso a:
+🥩 Mais de 100 opções de receitas fáceis (com e sem osso).
+🚦 Lista Semáforo: um guia visual rápido do que pode, o que exige cuidado e o que nunca dar.
+⚖️ Calculadora de Medidas: coloque o peso do seu doguinho e saiba a porção exata na hora!
+
+É mais saúde, menos ida ao veterinário e o fim daquele cocô fedido! Milhares de tutores já estão transformando a vida dos seus filhos de quatro patas.
+
+📱 Risco Zero para você: Me chame no WhatsApp e eu te envio o material completo na hora, sem cobrar nada antecipado. Você confere tudo com calma e, se gostar e decidir usar, contribui com um valor simbólico de só R$ 15 para ajudar o projeto.</pre></details>
+  <footer>
+    <a href="https://api.whatsapp.com/send" target="_blank" rel="noopener">Link de venda ↗</a>
+    <a href="https://www.facebook.com/928100827052211" target="_blank" rel="noopener">Perfil do Facebook</a>
+    <a href="https://www.facebook.com/ads/library/?id=1554803922995221" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
+    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=928100827052211&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
+  </footer>
+</article>
+<article class="card">
+  <header>
+    <div class="quem">
+      <strong>Doc João Migowski — Crianças Modo Turbo</strong>
+      <small>164.544 curtidas · meu filho não come</small>
+    </div>
+    <span class="badge novo">novo</span>
+  </header>
+  <div class="media"><video controls preload="metadata" poster="midia/1435902308445497.jpg" src="midia/1435902308445497.mp4"></video></div>
+  <div class="stats">
+    <div class="stat"><b>—</b><span>anúncios na página</span></div>
+    <div class="stat"><b>5</b><span>criativos da oferta</span></div>
+    <div class="stat"><b>105d</b><span>rodando</span></div>
+  </div>
+  <dl>
+    <dt>Produto · <span class="preco">R$ 39,90 (primeiro lote / combo de entrada)</span></dt><dd>Programa de suplementação infantil (11 suplementos, dose por peso) com aula + suporte WhatsApp; página com 164 mil curtidas</dd>
+    <dt>Promessa</dt><dd>“Os 11 suplementos para transformar o seu filho em uma super criança”</dd>
+    <dt>Hook</dt><dd class="hook">“Primeiro Lote por 39,90”</dd>
+    <dt>Por que está escalando</dt><dd><ul><li>Autoridade médica + promessa ampla (imunidade, sono, foco)</li><li>Garantia devolve o programa E o gasto com suplementos</li><li>Funil 'comenta AULA/COMBO' no Instagram baixa o custo por lead</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Mecânica 'comenta X pra receber a aula' pra receituário infantil</li><li>Garantia que cobre o custo dos ingredientes</li><li>Promessa 'mais sono/imunidade' via receitas</li></ul></dd>
+  </dl>
+  <details><summary>Copy do anúncio</summary><pre>Primeiro Lote por 39,90</pre></details>
+  <footer>
+    <a href="http://criancasmodoturbo.com.br/combo1" target="_blank" rel="noopener">Link de venda ↗</a>
+    <a href="https://www.facebook.com/873331792536765" target="_blank" rel="noopener">Perfil do Facebook</a>
+    <a href="https://www.facebook.com/ads/library/?id=1435902308445497" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
+    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=873331792536765&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
+  </footer>
+</article>
+<article class="card">
+  <header>
+    <div class="quem">
+      <strong>Foco Total Vip — Kit de Atividades</strong>
+      <small>1.702 curtidas · lanche escolar</small>
+    </div>
+    <span class="badge novo">novo</span>
+  </header>
+  <div class="media"><video controls preload="metadata" poster="midia/975726005127780.jpg" src="midia/975726005127780.mp4"></video></div>
+  <div class="stats">
+    <div class="stat"><b>—</b><span>anúncios na página</span></div>
+    <div class="stat"><b>2</b><span>criativos da oferta</span></div>
+    <div class="stat"><b>164d</b><span>rodando</span></div>
+  </div>
+  <dl>
+    <dt>Produto · <span class="preco">R$ 9,90 / R$ 19,90 (dois anúncios testando preço)</span></dt><dd>Kit PDF com +2.500 atividades de alfabetização, leitura, escrita e matemática pra imprimir (nicho maternidade)</dd>
+    <dt>Promessa</dt><dd>“Ajude seu filho ou aluno a aprender a ler e escrever em casa, com 15 a 30 minutos por dia”</dd>
+    <dt>Hook</dt><dd class="hook">“📚✨ Kit de Atividades Educativas Infantil — aprender a ler, escrever e desenvolver o raciocínio, mesmo em casa!”</dd>
+    <dt>Por que está escalando</dt><dd><ul><li>Volume (2.500 atividades) por preço de lanche, 5 meses no ar</li><li>Dupla audiência na mesma copy: mãe e professora</li><li>Compromisso de tempo baixo como mecanismo (15 min/dia)</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>'+N em PDF pronto pra imprimir por R$ 9,90'</li><li>Split de preço 9,90 vs 19,90 rodando em paralelo</li></ul></dd>
+  </dl>
+  <details><summary>Copy do anúncio</summary><pre>📚✨ Kit de Atividades Educativas Infantil ✨📚
+Ajude seu filho ou aluno a aprender a ler, escrever e desenvolver o raciocínio de forma simples e divertida — mesmo em casa! 👧🧒💛
+
+✔ Mais de 2.500 atividades educativas
+✔ Alfabetização, leitura, escrita e matemática
+✔ Material em PDF pronto para imprimir
+✔ Ideal para reforço escolar e apoio nos estudos
+
+⏰ Com apenas 15 a 30 minutos por dia, você já percebe a evolução da criança!
+
+🔥 Aproveite agora por apenas R$ 9,90 e transforme o aprendizado em algo leve e prazeroso!
+
+👉 Garanta já o seu Kit e comece hoje mesmo!</pre></details>
+  <footer>
+    <a href="https://atividades.pacotespremium.com/" target="_blank" rel="noopener">Link de venda ↗</a>
+    <a href="https://www.facebook.com/645880351937742" target="_blank" rel="noopener">Perfil do Facebook</a>
+    <a href="https://www.facebook.com/ads/library/?id=975726005127780" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
+    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=645880351937742&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
+  </footer>
+</article></div>
+  <details class="descartados"><summary>Descartados (11)</summary><ul><li><b>Eduardo Riedel, Patricia Luciane, Oziel Batatinha, W. Stecanela, Lula da Fonte, Perdeu Piá, J. Silva, D. Saadi, D. Leite, Dep. Pepa</b> — político</li><li><b>InfinitePay</b> — maquininha/app</li><li><b>Ai-EpicReels, Ns-ST-YD22, Melolo</b> — app de série curta</li><li><b>Gourmet Nenem, Papa Rica</b> — papinha delivery</li><li><b>Liu Baby, Paraíso do Bebê, Criaturas, Petit Piá, Biscut</b> — loja/produto físico</li><li><b>Bia Castilho</b> — consulta presencial</li><li><b>Dr. Suguita, Dr. Murilo, Dr. Paschoal</b> — marca pessoal médica</li><li><b>Bebê de Nutri</b> — reserva: curso com 2 anos de acompanhamento, provável mid-ticket</li><li><b>thalitamullernutri</b> — reserva: e-book de introdução alimentar, 1 anúncio, 122 dias</li><li><b>Professora Luana Ferreira</b> — reserva: apostilas de matemática, nicho educação</li><li><b>Isadora Nogueira, NutriVida, Evogard, Samuel Corvo</b> — fora do nicho</li></ul></details>
+</section>
+<section class="nicho" id="comida_caseira">
+  <h2>Renda extra com comida caseira <small>183 anúncios · 97 anunciantes · 3 ofertas</small></h2>
+  <div class="grid">
+<article class="card">
+  <header>
+    <div class="quem">
+      <strong>Roberta Carvalho — Pudim sem Fogo</strong>
+      <small>550 curtidas · fazer e vender</small>
+    </div>
+    <span class="badge novo">novo</span>
+  </header>
+  <div class="media"><video controls preload="metadata" poster="midia/1278554277204757.jpg" src="midia/1278554277204757.mp4"></video></div>
+  <div class="stats">
+    <div class="stat"><b>25</b><span>anúncios na página</span></div>
+    <div class="stat"><b>25</b><span>criativos da oferta</span></div>
+    <div class="stat"><b>154d</b><span>rodando</span></div>
+  </div>
+  <dl>
+    <dt>Produto · <span class="preco">R$ 9,90 — recebe, testa, depois decide se paga</span></dt><dd>Passo a passo do pudim sem forno, sem fogo e sem ovo, pra fazer e vender; entregue no WhatsApp</dd>
+    <dt>Promessa</dt><dd>“Pudim perfeito, sem forno, sem fogo e sem ovo — pronto direto na geladeira, pra fazer e vender”</dd>
+    <dt>Hook</dt><dd class="hook">“Pudim perfeito, sem forno, sem fogo e sem ovo — pronto direto na geladeira... 😍”</dd>
+    <dt>Por que está escalando</dt><dd><ul><li>25 anúncios no lote (recorde), 5 criativos em rotação há 5 meses</li><li>Promessa visual: pudim liso cabe em 6 segundos de vídeo</li><li>'Sem fogo' corta custo de gás — dor real do público</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Fórmula '[doce popular] sem [3 barreiras]' + 'receba, teste, depois paga'</li><li>Mecanismo 'sem forno' já tem 3 players no pudim — levar pra outro doce</li></ul></dd>
+  </dl>
+  <details><summary>Copy do anúncio</summary><pre>Pudim perfeito, sem forno, sem fogo e sem ovo — pronto direto na geladeira... 😍
+
+Aprenda o passo a passo para fazer e vender usando ingredientes baratos e um método simples que qualquer pessoa consegue aplicar.
+
+Receba primeiro no WhatsApp, teste… e só depois decide se paga R$ 9,90.</pre></details>
+  <footer>
+    <a href="https://api.whatsapp.com/send" target="_blank" rel="noopener">Link de venda ↗</a>
+    <a href="https://www.facebook.com/1158143547370846" target="_blank" rel="noopener">Perfil do Facebook</a>
+    <a href="https://www.facebook.com/ads/library/?id=1278554277204757" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
+    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=1158143547370846&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
+  </footer>
+</article>
+<article class="card">
+  <header>
+    <div class="quem">
+      <strong>Maria Receitas — Apostila de Salgados</strong>
+      <small>7.430 curtidas · salgados para vender</small>
+    </div>
+    <span class="badge novo">novo</span>
+  </header>
+  <div class="media"><video controls preload="metadata" poster="midia/1352847569928832.jpg" src="midia/1352847569928832.mp4"></video></div>
+  <div class="stats">
+    <div class="stat"><b>7</b><span>anúncios na página</span></div>
+    <div class="stat"><b>7</b><span>criativos da oferta</span></div>
+    <div class="stat"><b>89d</b><span>rodando</span></div>
+  </div>
+  <dl>
+    <dt>Produto · <span class="preco">não aparece (4.9/5 no link)</span></dt><dd>Apostila com +50 salgados, montagem de bandeja, congelamento e apresentação; WhatsApp. Ângulo novo (congelar em bandeja) com 7 anúncios em 2 semanas</dd>
+    <dt>Promessa</dt><dd>“Bandejas bonitas, variadas, com salgados que chamam atenção — pra vender todos os dias”</dd>
+    <dt>Hook</dt><dd class="hook">“🚨 Tem salgadeira vendendo todos os dias… enquanto outras ficam esperando cliente aparecer 😳”</dd>
+    <dt>Por que está escalando</dt><dd><ul><li>Fala com quem já é salgadeira, vende o diferencial (bandeja, congelamento)</li><li>Lançando 2º ângulo agora: 'pare de fazer massa do zero a cada pedido'</li><li>Apareceu em 2 nichos com 2 copies diferentes</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Hook de contraste 'tem X vendendo todo dia… enquanto outras esperam'</li><li>Reposicionar receituário como 'apresentação que vende' ou 'produção adiantada'</li></ul></dd>
+  </dl>
+  <details><summary>Copy do anúncio</summary><pre>⏰ PARE DE PERDER HORAS FAZENDO MASSA E SALGADOS DO ZERO A CADA PEDIDO!
+
+Se toda vez que aparece uma encomenda você precisa preparar massa, fazer os salgados e começar toda a produção novamente, está na hora de mudar sua forma de trabalhar. 😩
+
+Aprendendo a preparar e congelar seus salgados nas bandejas, você pode produzir com antecedência e deixar tudo organizado para quando os pedidos chegarem. ❄️
+
+Nessa apostila você aprende:
+
+🥟 Mais de 50 receitas de salgados fritos e assados
+❄️ Como preparar e congelar seus salgados
+🧺 Como montar bandejas variadas
+📝 Modo de preparo explicado passo a passo
+🔥 Receitas diferenciadas e lucrativas
+⏰ Como produzir antes e ganhar muito mais tempo
+
+🎁 E quem chamar HOJE pode receber bônus exclusivos!
+
+Pare de ficar horas na cozinha toda vez que surgir uma encomenda.
+
+👇 Comente “EU QUERO” ou me chama agora no WhatsApp!</pre></details>
+  <footer>
+    <a href="https://api.whatsapp.com/send" target="_blank" rel="noopener">Link de venda ↗</a>
+    <a href="https://www.facebook.com/1009778382216594" target="_blank" rel="noopener">Perfil do Facebook</a>
+    <a href="https://www.facebook.com/ads/library/?id=1352847569928832" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
+    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=1009778382216594&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
+  </footer>
+</article>
+<article class="card">
+  <header>
+    <div class="quem">
+      <strong>Recheio Fácil — 20 Recheios Lucrativos</strong>
+      <small>1.183 curtidas · bolo no pote</small>
+    </div>
+    <span class="badge novo">novo</span>
+  </header>
+  <div class="media"><video controls preload="metadata" poster="midia/1702943824237988.jpg" src="midia/1702943824237988.mp4"></video></div>
+  <div class="stats">
+    <div class="stat"><b>—</b><span>anúncios na página</span></div>
+    <div class="stat"><b>1</b><span>criativos da oferta</span></div>
+    <div class="stat"><b>104d</b><span>rodando</span></div>
+  </div>
+  <dl>
+    <dt>Produto · <span class="preco">R$ 9,90 — receba antes, pague depois</span></dt><dd>Receituário de 20 recheios sem fogo pra bolo no pote, Páscoa e sobremesas; WhatsApp</dd>
+    <dt>Promessa</dt><dd>“Produza mais doces sem passar horas no fogão, mais lucro sem mais trabalho”</dd>
+    <dt>Hook</dt><dd class="hook">“🚨 Produza mais doces sem passar horas no fogão!”</dd>
+    <dt>Por que está escalando</dt><dd><ul><li>Produto complementar: vende pra quem já faz bolo no pote</li><li>Ângulo de tempo/lucro, não de sabor</li><li>Mesma copy há 3+ meses em 2 nichos sem alterar</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Receituário 'componente' (recheios, massas, molhos) pra quem já produz</li><li>Hook de produtividade: 'produza mais sem X'</li></ul></dd>
+  </dl>
+  <details><summary>Copy do anúncio</summary><pre>🚨 Produza mais doces sem passar horas no fogão!
+
+Com os recheios sem fogo, você ganha muito mais praticidade, produz mais rápido e aumenta seus lucros sem aumentar seu trabalho.
+
+✅ Recheios super cremosos
+✅ Fáceis de preparar
+✅ Ideais para bolos no pote, ovos de Páscoa e sobremesas
+✅ Mais produção em menos tempo
+
+💰 Receba as receitas primeiro e só depois faça o pagamento de apenas R$ 9,90.
+
+👉 Clique no botão do WhatsApp e receba agora mesmo!</pre></details>
+  <footer>
+    <a href="https://api.whatsapp.com/send" target="_blank" rel="noopener">Link de venda ↗</a>
+    <a href="https://www.facebook.com/882907418246764" target="_blank" rel="noopener">Perfil do Facebook</a>
+    <a href="https://www.facebook.com/ads/library/?id=1702943824237988" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
+    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=882907418246764&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
+  </footer>
+</article></div>
+  <details class="descartados"><summary>Descartados (13)</summary><ul><li><b>Interlaser Máquinas</b> — máquina de salgados</li><li><b>Karamell Store</b> — loja de guloseimas</li><li><b>Natura, Avon, Boticário</b> — consultoria de beleza</li><li><b>Lilih, Elô Provin, Miss Semijoias, Rei das Joias</b> — semijoias consignação</li><li><b>Distribuidora JH, Ferraz Fernandes, Ye No Pan, Aikifome</b> — distribuidora B2B</li><li><b>Ateliê Vanessa Calheiros, Instituto Gourmet (3), Sonho da Festa</b> — curso presencial</li><li><b>sheillavences, Divino Brigadeiro, Casa de Bolos, Dandoce, Sodiê, Raisa e +6</b> — confeitaria local</li><li><b>Etna Gráfica</b> — embalagem</li><li><b>Ale Negrini</b> — reserva: Curso de Espetinho R$ 7, 99 dias</li><li><b>Lúcia Melo, Best cookies, Alessandra Santos, Alan Baker</b> — reserva: receituários R$ 10–14,90</li><li><b>Fábrica de Doces Lucrativos, ChefLuiza</b> — reserva: pudim sem forno (concorrentes da Roberta)</li><li><b>Sueli dos Santos, Vovó Alice, Finger Foods, Biscoitos Caseiros</b> — reserva: receituários recentes</li><li><b>Beatriz Concretos, Doce de Sabão</b> — digital, fora de comida</li></ul></details>
+</section>
+<section class="nicho" id="renda_extra">
+  <h2>Renda extra (geral) <small>135 anúncios · 82 anunciantes · 3 ofertas</small></h2>
+  <div class="grid">
+<article class="card">
+  <header>
+    <div class="quem">
+      <strong>Le Bron Brownie</strong>
+      <small>38.170 curtidas · aprenda a fazer renda extra</small>
+    </div>
+    <span class="badge novo">novo</span>
+  </header>
+  <div class="media"><video controls preload="metadata" poster="midia/1951215335592378.jpg" src="midia/1951215335592378.mp4"></video></div>
+  <div class="stats">
+    <div class="stat"><b>105</b><span>anúncios na página</span></div>
+    <div class="stat"><b>1</b><span>criativos da oferta</span></div>
+    <div class="stat"><b>71d</b><span>rodando</span></div>
+  </div>
+  <dl>
+    <dt>Produto · <span class="preco">não aparece — abrir a página antes de modelar</span></dt><dd>Curso digital de brownie pra fazer e vender (página categoria 'Curso', 38 mil curtidas). Copy não capturada — anúncio só vídeo. Confiança média</dd>
+    <dt>Promessa</dt><dd>“Aprenda a fazer brownie e tenha renda extra (inferida da keyword e categoria)”</dd>
+    <dt>Hook</dt><dd class="hook">“(sem texto — vídeo puro)”</dd>
+    <dt>Por que está escalando</dt><dd><ul><li>105 anúncios ativos sem uma linha de copy: o vídeo vende sozinho</li><li>Brownie é o produto de entrada mais simples da confeitaria</li><li>Marca com anos de autoridade no nicho</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Oferta de entrada com um produto só, que qualquer um faz</li><li>Testar anúncio sem texto, só vídeo com legenda embutida</li></ul></dd>
+  </dl>
+  
+  <footer>
+    <a href="https://www.lebronbrownie.com.br/" target="_blank" rel="noopener">Link de venda ↗</a>
+    <a href="https://www.facebook.com/110766695940554" target="_blank" rel="noopener">Perfil do Facebook</a>
+    <a href="https://www.facebook.com/ads/library/?id=1951215335592378" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
+    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=110766695940554&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
+  </footer>
+</article>
+<article class="card">
+  <header>
+    <div class="quem">
+      <strong>Jeff. O Editor — Curso de Edição</strong>
+      <small>29.736 curtidas · aprenda a fazer dinheiro</small>
+    </div>
+    <span class="badge novo">novo</span>
+  </header>
+  <div class="media"><video controls preload="metadata" poster="midia/2147762902458726.jpg" src="midia/2147762902458726.mp4"></video></div>
+  <div class="stats">
+    <div class="stat"><b>104</b><span>anúncios na página</span></div>
+    <div class="stat"><b>2</b><span>criativos da oferta</span></div>
+    <div class="stat"><b>116d</b><span>rodando</span></div>
+  </div>
+  <dl>
+    <dt>Produto · <span class="preco">12x de R$ 6,93 (~R$ 83)</span></dt><dd>Curso de edição de vídeo no celular pra viralizar; acesso vitalício, atualizações mensais</dd>
+    <dt>Promessa</dt><dd>“Aprenda a viralizar seus vídeos usando apenas o seu celular”</dd>
+    <dt>Hook</dt><dd class="hook">“Aprenda a VIRALIZAR seus vídeos usando apenas o seu CELULAR por apenas 12x de 6,93 🔥”</dd>
+    <dt>Por que está escalando</dt><dd><ul><li>Parcela em dígito único ('6,93') faz curso parecer tripwire</li><li>Público enorme e ciente: todo mundo quer viralizar</li><li>104 anúncios por 4 meses = ROI comprovado</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Preço parcelado no hook, junto com a ferramenta que a pessoa já tem</li><li>Nomear cada parte do produto como mecanismo ('ganchos virais', 'legendas que viralizam')</li></ul></dd>
+  </dl>
+  <details><summary>Copy do anúncio</summary><pre>Aprenda a VIRALIZAR seus vídeos usando apenas o seu CELULAR por apenas 12x de 6,93 🔥
+
+Se liga em tudo o que você terá de acesso:
+
+✅ Aulas do Zero ao Avançado
+✅ Atualizações Mensais
+✅ Legendas que Viralizam
+✅ Efeitos que Mais Engajam 
+✅ Ganchos Virais
+✅ ACESSO VITALÍCIO
+
+Clica em Saiba Mais e acesse a página para fazer parte 🔥</pre></details>
+  <footer>
+    <a href="https://edicaoviral.com.br/" target="_blank" rel="noopener">Link de venda ↗</a>
+    <a href="https://www.facebook.com/440761149123673" target="_blank" rel="noopener">Perfil do Facebook</a>
+    <a href="https://www.facebook.com/ads/library/?id=2147762902458726" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
+    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=440761149123673&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
+  </footer>
+</article>
+<article class="card">
+  <header>
+    <div class="quem">
+      <strong>Laura Fagundes — Caseirinhos</strong>
+      <small>13.643 curtidas · aprenda a fazer dinheiro</small>
+    </div>
+    <span class="badge novo">novo</span>
+  </header>
+  <div class="media"><video controls preload="metadata" poster="midia/2825901444451164.jpg" src="midia/2825901444451164.mp4"></video></div>
+  <div class="stats">
+    <div class="stat"><b>—</b><span>anúncios na página</span></div>
+    <div class="stat"><b>5</b><span>criativos da oferta</span></div>
+    <div class="stat"><b>111d</b><span>rodando</span></div>
+  </div>
+  <dl>
+    <dt>Produto · <span class="preco">não aparece (inferido R$ 19,90–29,90)</span></dt><dd>120 caseirinhos + 100 recheios + 50 massas + apostila de precificação + receitas de Natal + 12 videoaulas; WhatsApp</dd>
+    <dt>Promessa</dt><dd>“Aprenda a fazer caseirinhos que vendem rápido, mesmo sem experiência”</dd>
+    <dt>Hook</dt><dd class="hook">“Aprenda fazer caseirinhos que vendem rápido, mesmo sem experiência 😍👇🏻”</dd>
+    <dt>Por que está escalando</dt><dd><ul><li>Copy inteira é lista numérica — volume percebido decide</li><li>Apostila de precificação ataca a maior insegurança de quem nunca vendeu</li><li>Gancho de Natal plantado em setembro</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Empilhar números (receitas + recheios + massas) no corpo da copy</li><li>Precificação como bônus padrão em oferta 'pra vender'</li><li>Plantar sazonal 3 meses antes</li></ul></dd>
+  </dl>
+  <details><summary>Copy do anúncio</summary><pre>Aprenda fazer caseirinhos que vendem rápido, mesmo sem experiência 😍👇🏻
+✅ 120 receitas de caseirinhos
+✅ 100 recheios irresistíveis
+✅  50 massas de bolo fofinhas e lucrativas
+✅ Apostila de precificação (saiba quanto cobrar)
+✅ Receitas especiais para o Natal
+🎬 12 vídeo aulas passo a passo
+
+Clique no botão do WhatsApp agora e veja como fazer 🍮👇</pre></details>
+  <footer>
+    <a href="https://api.whatsapp.com/send" target="_blank" rel="noopener">Link de venda ↗</a>
+    <a href="https://www.facebook.com/118985541170105" target="_blank" rel="noopener">Perfil do Facebook</a>
+    <a href="https://www.facebook.com/ads/library/?id=2825901444451164" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
+    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=118985541170105&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
+  </footer>
+</article></div>
+  <details class="descartados"><summary>Descartados (12)</summary><ul><li><b>ThiagoLobos.Ofc</b> — 120 anúncios, funil de aula gratuita, provável high-ticket — sem copy</li><li><b>Instituto Gourmet, Celular Academy, Treinar na Oficina, CPEA</b> — curso presencial</li><li><b>Luciano Fernandes</b> — desafio → mentoria de investimentos</li><li><b>Método Áquila, Dr. Euro, Gisele Lima, Leonardoolivr</b> — mentoria high-ticket B2B</li><li><b>Pedro Haddad, Eduardo Moreira, Osney Cola</b> — marca pessoal sem oferta clara</li><li><b>12min</b> — app por assinatura</li><li><b>Silvia Araújo</b> — reserva: mesma oferta de conservas do nicho receitas (11 anúncios aqui)</li><li><b>Eletrônica Fácil</b> — reserva: curso reparo em 10 dias, 126 mil curtidas</li><li><b>VFM Play</b> — reserva: cerâmica R$ 47 (URL), 393 dias, sem copy</li><li><b>Esther Miranda, Aisne Morelli, Math terê, La doceria, Mayara Campos</b> — reserva: low-ticket R$ 37–67 ou sem preço</li><li><b>Croche Lucrativo, Ana Boni, Fernanda Lopes</b> — reserva: artesanato pra vender</li><li><b>Pianista, Alex Herbich, Juliana Cílios, Maximus, Arte em Flores, Rudolph</b> — fora do escopo</li></ul></details>
+</section>
+<section class="resumo padroes"><strong>Padrões da semana</strong><ul><li>Funil dominante: receba no WhatsApp antes, pague depois, R$ 9,90–19,90 (8+ anunciantes)</li><li>Mecanismo 'sem forno, sem fogo, sem ovo' validado — 3 players no pudim, dá pra levar a outro doce</li><li>Hook = número + produto + público: '+50 pães para diabéticos', '80 cafés sem pão', '+2.500 atividades'</li><li>'Para consumir ou vender' liga receitas a renda extra e faz o anúncio aparecer em 2 nichos</li><li>Vídeo em 100% das 12 principais; copy curta com bullets de emoji, sem storytelling</li><li>Ferramenta dentro do PDF (lista semáforo, calculadora, planilha de precificação) sobe valor sem subir ticket</li><li>Quem escala replica página, não copy: Receitas sem Culpa roda a mesma oferta em 3 páginas</li></ul></section>
+</div></body></html>
