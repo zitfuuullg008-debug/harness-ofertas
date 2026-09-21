@@ -1,0 +1,40 @@
+# Publica o site (index.html + saidas/) no GitHub Pages a cada push na main.
+# `enablement: true` liga o Pages sozinho na primeira execução.
+name: Publicar site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Montar pasta do site
+        run: |
+          mkdir -p _site/saidas
+          cp index.html _site/
+          cp -r saidas/mineracao _site/saidas/
+          rm -f _site/saidas/mineracao/midia/*.mp4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
