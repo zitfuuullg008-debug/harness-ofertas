@@ -46,6 +46,7 @@ Para **cada nicho** que tem coleta, escolha as 2 ofertas mais escaladas que pass
 - **Anti-repetição:** das 2 de um nicho, no máximo 1 pode ter aparecido no relatório anterior. Uma recorrente no topo é sinal forte — marque `novo: false` e o `vezesVisto`.
 - Se um nicho não tem 2 ofertas aprovadas, vá mais fundo em `data/raw/<hoje>/<nicho>.json` (campo `ofertas`, ordenado por score). Se mesmo assim não houver, entregue as que houver e diga no `resumo`.
 - Nicho sem coleta (0 anúncios) entra em `nichosFaltando`, não no corpo do relatório.
+- **Rodízio:** o scraper roda só `nichosPorDia` (config) nichos por dia, girando a lista — economia de banda do proxy pago e de bloqueio da Meta. Nicho que não estava no rodízio de hoje NÃO é falha: em `nichosFaltando` diga "fora do rodízio de hoje" e, se o relatório anterior tiver ele, cite o destaque de lá numa linha no `resumo`.
 
 ## Passo 3 — Ler o histórico
 

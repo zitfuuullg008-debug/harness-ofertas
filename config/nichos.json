@@ -1,8 +1,8 @@
 {
-  "_doc": "Nichos e keywords que o minerador vasculha na Biblioteca de Anúncios da Meta. 'exato' = frase exata. 'pais' = ISO-2 ou ALL. 'ofertasPorNicho' = quantas ofertas o relatório entrega POR nicho. 'anunciosPorKeyword' = quantos anúncios coletar por keyword (30 vem sem rolar a página). 'enriquecerPorNicho' = quantas páginas por nicho visitar pra contar anúncios (cada visita é 1 pedido à Meta). Valores conservadores de propósito: cada pedido a mais é chance de bloqueio da Meta.",
+  "_doc": "Nichos e keywords que o minerador vasculha na Biblioteca de Anúncios da Meta. 'exato' = frase exata. 'pais' = ISO-2 ou ALL. 'ofertasPorNicho' = quantas ofertas o relatório entrega POR nicho. 'anunciosPorKeyword' = quantos anúncios coletar por keyword. 'enriquecerPorNicho' = quantas páginas por nicho visitar pra contar anúncios. 'nichosPorDia' = quantos nichos rodam por dia (rodízio automático: cada nicho entra a cada N dias). ECONOMIA: o proxy residencial é pago por GB e a Meta bloqueia depois de ~12 buscas seguidas. Menos keywords e menos nichos por dia = menos banda E menos bloqueio.",
   "ofertasPorNicho": 2,
   "anunciosPorKeyword": 20,
-  "enriquecerPorNicho": 3,
+  "enriquecerPorNicho": 2,
   "nichos": [
     {
       "id": "receitas",
@@ -15,16 +15,6 @@
         },
         {
           "keyword": "cardápio semanal",
-          "exato": false,
-          "pais": "BR"
-        },
-        {
-          "keyword": "receita sobremesa",
-          "exato": false,
-          "pais": "BR"
-        },
-        {
-          "keyword": "receitas low carb",
           "exato": false,
           "pais": "BR"
         }
@@ -40,17 +30,7 @@
           "pais": "BR"
         },
         {
-          "keyword": "receitas para bebê",
-          "exato": false,
-          "pais": "BR"
-        },
-        {
           "keyword": "meu filho não come",
-          "exato": false,
-          "pais": "BR"
-        },
-        {
-          "keyword": "lanche escolar",
           "exato": false,
           "pais": "BR"
         }
@@ -69,16 +49,6 @@
           "keyword": "renda extra vendendo",
           "exato": true,
           "pais": "BR"
-        },
-        {
-          "keyword": "bolo no pote",
-          "exato": false,
-          "pais": "BR"
-        },
-        {
-          "keyword": "salgados para vender",
-          "exato": false,
-          "pais": "BR"
         }
       ]
     },
@@ -95,11 +65,6 @@
           "keyword": "vivendo de renda extra",
           "exato": false,
           "pais": "BR"
-        },
-        {
-          "keyword": "aprenda a fazer dinheiro",
-          "exato": false,
-          "pais": "BR"
         }
       ]
     },
@@ -110,16 +75,6 @@
         {
           "keyword": "estudo bíblico",
           "exato": true,
-          "pais": "BR"
-        },
-        {
-          "keyword": "leitura bíblica",
-          "exato": true,
-          "pais": "BR"
-        },
-        {
-          "keyword": "entenda a bíblia",
-          "exato": false,
           "pais": "BR"
         },
         {
@@ -142,21 +97,6 @@
           "keyword": "atividades infantis",
           "exato": true,
           "pais": "BR"
-        },
-        {
-          "keyword": "atividades tdah",
-          "exato": false,
-          "pais": "BR"
-        },
-        {
-          "keyword": "rotina do seu filho",
-          "exato": false,
-          "pais": "BR"
-        },
-        {
-          "keyword": "birra",
-          "exato": false,
-          "pais": "BR"
         }
       ]
     },
@@ -170,21 +110,12 @@
           "pais": "BR"
         },
         {
-          "keyword": "menopausa",
-          "exato": false,
-          "pais": "BR"
-        },
-        {
           "keyword": "perder peso",
           "exato": false,
-          "pais": "BR"
-        },
-        {
-          "keyword": "remédio natural",
-          "exato": true,
           "pais": "BR"
         }
       ]
     }
-  ]
+  ],
+  "nichosPorDia": 3
 }

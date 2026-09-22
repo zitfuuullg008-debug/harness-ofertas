@@ -20,6 +20,14 @@ renda extra, cristão, maternidade, fitness (ver `config/nichos.json`).
 | `.claude/agents/` | Os 3 agentes. Cada um roda com contexto próprio. |
 | `.claude/commands/` | `/minerar`, `/ideias`, `/criativos`, `/semana`. |
 
+## Rodada diária (automática, sem o PC do usuário)
+
+1. **05:00** — GitHub Actions (`.github/workflows/minerar.yml`) coleta via proxy residencial (segredo `PROXY_URL`) e comita `data/raw/<data>/`. Roda `nichosPorDia` nichos em **rodízio** (3 de 7 por dia).
+2. **06:00** — rotina do Claude na nuvem lê a coleta, classifica, escolhe `ofertasPorNicho` (2) por nicho, renderiza e comita `saidas/` + `index.html`.
+3. GitHub Pages publica: https://zitfuuullg008-debug.github.io/harness-ofertas/
+
+**Banda é dinheiro:** o proxy é pago por GB. Não aumente keywords, nichos por dia ou `--max` sem necessidade; não rode o scraper "pra testar" — use a coleta já commitada em `data/raw/`.
+
 ## Como rodar
 
 ```bash

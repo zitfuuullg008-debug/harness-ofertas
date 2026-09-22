@@ -13,6 +13,7 @@
  *   node scripts/minerar.mjs --max 20             # anúncios por keyword
  *   node scripts/minerar.mjs --sem-enrich         # pula a contagem total de anúncios por página
  *   node scripts/minerar.mjs --reaproveitar       # usa a coleta de hoje dos nichos já feitos e minera só os que faltam
+ *   node scripts/minerar.mjs --todos              # ignora o rodízio e roda os 7 nichos
  *   node scripts/minerar.mjs --headful            # mostra o navegador (debug)
  *   PROXY_URL=http://user:pass@host:port node scripts/minerar.mjs   # sai por proxy residencial (nuvem)
  *
@@ -56,7 +57,24 @@ const outDir = join(ROOT, "data/raw", hoje);
 mkdirSync(outDir, { recursive: true });
 
 const idsPedidos = soNicho ? soNicho.split(",").map((s) => s.trim()).filter(Boolean) : null;
-const nichos = config.nichos.filter((n) => !idsPedidos || idsPedidos.includes(n.id));
+
+/**
+ * Rodízio diário: em vez de varrer os 7 nichos todo dia (caro em banda de proxy
+ * e garantia de bloqueio da Meta), roda `nichosPorDia` por dia, girando a lista.
+ * Cada nicho entra a cada ceil(total/nichosPorDia) dias. --todos ignora o rodízio.
+ */
+function nichosDoDia(todos, porDia) {
+  if (!porDia || porDia >= todos.length) return todos;
+  const diasDesdeEpoca = Math.floor(Date.parse(`${hoje}T00:00:00Z`) / 86400000);
+  const inicio = (diasDesdeEpoca * porDia) % todos.length;
+  return Array.from({ length: porDia }, (_, i) => todos[(inicio + i) % todos.length]);
+}
+
+const nichos = idsPedidos
+  ? config.nichos.filter((n) => idsPedidos.includes(n.id))
+  : flag("--todos")
+    ? config.nichos
+    : nichosDoDia(config.nichos, Number(opt("--nichos-por-dia", config.nichosPorDia ?? 0)));
 if (!nichos.length) {
   console.error(`Nicho "${soNicho}" não existe em config/nichos.json. Disponíveis: ${config.nichos.map((n) => n.id).join(", ")}`);
   process.exit(1);
