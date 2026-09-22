@@ -22,6 +22,10 @@
   .quem strong { display:block; font-size:16px } .quem small { color:var(--mut); font-size:12px }
   .badge { font-size:11px; padding:3px 8px; border-radius:999px; white-space:nowrap; font-weight:600 }
   .badge.novo { background:rgba(34,197,94,.15); color:var(--ok) } .badge.rec { background:rgba(245,158,11,.15); color:var(--warn) }
+  .badge.top { background:rgba(139,92,246,.2); color:#c4b5fd; border:1px solid var(--acc) }
+  .badges { display:flex; flex-direction:column; gap:4px; align-items:flex-end }
+  .card.recomendada { border-color:var(--acc); box-shadow:0 0 0 1px var(--acc) }
+  .rec-dt { color:#c4b5fd !important } .rec-dd { color:#ddd6fe }
   .media { background:#000; aspect-ratio:4/5; display:flex; align-items:center; justify-content:center }
   .media video, .media img { width:100%; height:100%; object-fit:contain; display:block }
   .media a { position:relative; display:block; width:100%; height:100% }
@@ -46,120 +50,26 @@
 </style>
 </head>
 <body><div class="wrap">
-<h1>Ofertas escaladas <small>22 de setembro de 2026 · 6 ofertas em 3 nichos</small></h1>
-<div class="resumo">Coleta nova do rodízio (receitas, receitas para criança e comida caseira): 83 anúncios em 46 páginas, 48 ofertas distintas. Só 6 passaram no filtro low-ticket + página de vendas — metade do topo bruto manda pro WhatsApp e ficou de fora pela regra nova. Destaques: Renata Brugnera com 110 anúncios ativos na página, Doce de Sabão com 74 e Doces de Sucesso DG com a página inteira (24 de 24) num link de R$ 1 há 546 dias. Ficaram de fora por destino WhatsApp, mesmo escalando: Roberta Carvalho (pudim sem fogo, 25 anúncios), Chef Confeiteira (caseirinhos, 11 mil alunas) e Receitas Fáceis (geladinhos gourmet, 224 dias).</div>
-<div class="resumo aviso">⚠ Nichos que não entraram nesta rodada: renda_extra, cristao, maternidade, fitness. Rode <code>node scripts/minerar.mjs --reaproveitar</code> pra completar.</div>
+<h1>Ofertas escaladas <small>22 de setembro de 2026 · 5 ofertas em 3 nichos</small></h1>
+<div class="resumo">Rodízio do dia: receitas, receitas para criança/bebê e renda extra com comida caseira — 83 anúncios em 46 páginas. Só 5 ofertas passaram: o topo bruto é quase todo funil de WhatsApp, produto físico (Tigrecook, Biscut, Papa Rica) ou saúde (Emagrecentro, ebook de diabetes gestacional). O nicho receitas ficou zerado — as duas únicas candidatas (Doces de Sucesso DG, com 546 dias rodando, e Renata Brugnera, com 110 anúncios ativos) usam domínio próprio que redireciona pro WhatsApp, então não dá pra modelar página. Boas demais pra ignorar, mas também em WhatsApp: Roberta Carvalho (pudim sem fogo, 25 criativos, 142d), Chef Confeiteira (caseirinhos a R$ 10, paga depois de receber) e Lúcia Melo (suspiro gourmet a R$ 10).</div>
+<div class="resumo aviso">⚠ Nichos que não entraram nesta rodada: renda_extra, cristao, maternidade. Rode <code>node scripts/minerar.mjs --reaproveitar</code> pra completar.</div>
 <nav><a href="#receitas">Receitas</a><a href="#receitas_infantis">Receitas para criança e bebê</a><a href="#comida_caseira">Renda extra com comida caseira</a></nav>
 
 <section class="nicho" id="receitas">
-  <h2>Receitas <small>30 anúncios · 20 anunciantes · 2 ofertas</small></h2>
-  <div class="grid">
-<article class="card">
-  <header>
-    <div class="quem">
-      <strong>Doces de Sucesso DG</strong>
-      <small>3.785 curtidas · receitas fáceis</small>
-    </div>
-    <span class="badge novo">novo</span>
-  </header>
-  <div class="media"><a href="https://www.facebook.com/ads/library/?id=1162314215370808" target="_blank" rel="noopener" title="Ver o vídeo no Ads Library"><img src="midia/1162314215370808.jpg" alt=""><span class="play">▶</span></a></div>
-  <div class="stats">
-    <div class="stat"><b>24</b><span>anúncios ativos na página</span></div>
-    <div class="stat"><b>24</b><span>criativos da oferta</span></div>
-    <div class="stat"><b>546d</b><span>rodando</span></div>
-  </div>
-  <dl>
-    <dt>Produto · <span class="preco">R$ 1 de entrada (declarado na própria URL)</span></dt><dd>Apostilas de doces para fazer e vender, oferecidas como entrada de R$ 1.</dd>
-    <dt>Promessa</dt><dd>“Entrar no mundo dos doces lucrativos pagando o preço de um cafezinho.”</dd>
-    <dt>Hook</dt><dd class="hook">“Sem copy no anúncio — a imagem e a URL &quot;apostilas por 1 real&quot; fazem a oferta.”</dd>
-    <dt>Por que está escalando</dt><dd><ul><li>546 dias no ar: oferta validada há mais de um ano e meio.</li><li>Página inteira num link só: 24 de 24 anúncios.</li><li>Tripwire de R$ 1 derruba a objeção de preço no clique.</li><li>Imagem estática em vez de vídeo: criativo barato de multiplicar.</li></ul></dd>
-    <dt>Como modelar</dt><dd><ul class="modelar"><li>Colocar o preço de entrada dentro da URL da página.</li><li>Testar imagem estática com oferta escrita, sem copy no post.</li><li>Usar apostila de R$ 1 como porta para o upsell real.</li><li>Concentrar todos os criativos num único link de venda.</li></ul></dd>
-  </dl>
-  
-  <footer>
-    <a href="https://docesdesucessolucrativo.com.br/apostilas-por-1-real/" target="_blank" rel="noopener">Link de venda ↗</a>
-    <a href="https://www.facebook.com/110191770814844" target="_blank" rel="noopener">Perfil do Facebook</a>
-    <a href="https://www.facebook.com/ads/library/?id=1162314215370808" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
-    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=110191770814844&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
-  </footer>
-</article>
-<article class="card">
-  <header>
-    <div class="quem">
-      <strong>Renata Brugnera - Nutrição</strong>
-      <small>1.472 curtidas · receitas fáceis</small>
-    </div>
-    <span class="badge rec">recorrente · 2ª vez</span>
-  </header>
-  <div class="media"><a href="https://www.facebook.com/ads/library/?id=984360047294713" target="_blank" rel="noopener" title="Ver o vídeo no Ads Library"><img src="midia/984360047294713.jpg" alt=""><span class="play">▶</span></a></div>
-  <div class="stats">
-    <div class="stat"><b>110</b><span>anúncios ativos na página</span></div>
-    <div class="stat"><b>3</b><span>criativos da oferta</span></div>
-    <div class="stat"><b>150d</b><span>rodando</span></div>
-  </div>
-  <dl>
-    <dt>Produto · <span class="preco">não declarado no anúncio (inferido R$ 19–37)</span></dt><dd>Acesso a +150 receitas fáceis do dia a dia (marmita, air fryer) em página própria.</dd>
-    <dt>Promessa</dt><dd>“Organizar de vez a alimentação da semana com receitas que a pessoa realmente gosta.”</dd>
-    <dt>Hook</dt><dd class="hook">“O link do nosso app com +150 receitas fáceis, saudáveis e realmente gostosas tá na bio.”</dd>
-    <dt>Por que está escalando</dt><dd><ul><li>110 anúncios ativos na página: operação grande, não teste.</li><li>Recorrente: 2º relatório seguido, 150 dias no ar.</li><li>Criativo é a receita inteira escrita — entrega valor antes de vender.</li><li>Confiança baixa: chama de &quot;app&quot;, pode ser assinatura.</li></ul></dd>
-    <dt>Como modelar</dt><dd><ul class="modelar"><li>Usar uma receita completa como criativo, com o link no fim.</li><li>Ancorar em marmita e air fryer: rotina, não dieta.</li><li>Prometer organização da semana, não saúde nem emagrecimento.</li><li>Colocar quantidade no título: &quot;+150 receitas&quot;.</li></ul></dd>
-  </dl>
-  <details><summary>Copy do anúncio</summary><pre>O link do nosso app com + de 150 receitas fáceis, saudáveis e realmente gostosas para organizar de vez a sua alimentação, tá na bio 📌📲🧠🧡
-
-Hamburgão 🍔
-
-130g de patinho moído temperado com sal e pimenta, no meu também adicionei fumaça em pó 
-2 massas de pastel - 30g cada 
-1 colher de sopa de requeijão 
-Rodelas de tomate 
-1 fatia de queijo ou 20g 
-1 gema - usei uma pra pincelar todas as unidades que fiz (que foram 9 no total) 
-Orégano pra finalizar 
-
-🧊 armazeno no freezer, por até 30 dias; 
-🔥 preparo na air fryer de 20 a 30 minutos a 160 graus. 
-
-Marmita de lasanha 🍝
-
-1 massas de lasanha pra cada marmita, dividida em 4 partes - 50g 
-200g de creme de ricota light e
-100ml de leite desnatado + sal, pimenta e salsinha para o creme branco (essa quantidade da pra fazer de 5 a 6 marmitas) 
-120g de peito de frango desfiado cozido e temperado em cada 
-300g de passata/molho de tomate também temperada com sal e pimenta (essa quantidade serve para fazer de 5 a 6 marmitas) 
-Cerca de 5 a 10g de queijo muçarela ralado por cima 
-
-🧊 armazeno na geladeira para consumir durante a semana; 
-🔥 preparo na air fryer por cerca de 15 a 20 minutos a 160 graus. 
-
-🌭 Salsicha de frango 
-
-Peito de frango moído - geralmente uso de 700g pra cada receita que faço 
-Temperos naturais que utilizei ✨ - páprica defumada, colorau (para tingir ou também pode utilizar pedaços de cenoura e beterraba), açafrão, curry, fumaça em pó e sal 
-
-🤌 rendimento: rende cerca de 9 unidades com cerca de 80g cada ou 14 unidades com 50g cada, são tamanhos ótimos pra moldar no plástico filme e deixar no formado;
-🧊 para armazenar: direto no congelador 
-🔋 durabilidade: de 30, até 60 dias, se bem embaladas. 
-
-E foi isso! Espero de todo o ❤️ que tenham gostado, não deixa de ficar por aqui para não perder as receitas dos lanches doces, beijos ✨</pre></details>
-  <footer>
-    <a href="https://pv.rebrugnera.com.br/" target="_blank" rel="noopener">Link de venda ↗</a>
-    <a href="https://www.facebook.com/612745608593353" target="_blank" rel="noopener">Perfil do Facebook</a>
-    <a href="https://www.facebook.com/ads/library/?id=984360047294713" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
-    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=612745608593353&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
-  </footer>
-</article></div>
-  <details class="descartados"><summary>Descartados (6)</summary><ul><li><b>Receitas sem Culpa</b> — destino WhatsApp</li><li><b>Silvia Araújo</b> — destino WhatsApp</li><li><b>Chef Confeiteira</b> — destino WhatsApp</li><li><b>Receitas Fáceis</b> — destino WhatsApp</li><li><b>Tigrecook</b> — liquidificador, produto físico</li><li><b>TikTok Global</b> — app</li></ul></details>
+  <h2>Receitas <small>30 anúncios · 20 anunciantes · 0 ofertas</small></h2>
+  <div class="grid"></div>
+  <details class="descartados"><summary>Descartados (8)</summary><ul><li><b>Renata Brugnera - Nutrição</b> — domínio próprio redireciona pro WhatsApp</li><li><b>Doces de Sucesso DG</b> — domínio próprio redireciona pro WhatsApp</li><li><b>Receitas sem Culpa</b> — destino WhatsApp</li><li><b>Silvia Araújo</b> — destino WhatsApp</li><li><b>Chef Confeiteira</b> — destino WhatsApp</li><li><b>Receitas Fáceis</b> — destino WhatsApp</li><li><b>Tigrecook</b> — produto físico</li><li><b>TikTok Global</b> — app, não é oferta</li></ul></details>
 </section>
 <section class="nicho" id="receitas_infantis">
   <h2>Receitas para criança e bebê <small>24 anúncios · 14 anunciantes · 2 ofertas</small></h2>
   <div class="grid">
-<article class="card">
+<article class="card recomendada">
   <header>
     <div class="quem">
       <strong>Manual da Criança Feliz</strong>
       <small>139 curtidas · receitas para bebê</small>
     </div>
-    <span class="badge novo">novo</span>
+    <div class="badges"><span class="badge top">★ modelar</span><span class="badge novo">novo</span></div>
   </header>
   <div class="media"><video controls preload="metadata" poster="midia/1497985051707998.jpg" src="midia/1497985051707998.mp4"></video></div>
   <div class="stats">
@@ -168,11 +78,12 @@ E foi isso! Espero de todo o ❤️ que tenham gostado, não deixa de ficar por 
     <div class="stat"><b>134d</b><span>rodando</span></div>
   </div>
   <dl>
-    <dt>Produto · <span class="preco">não declarado no anúncio (inferido R$ 19–37)</span></dt><dd>Cardápios semanais de 6 a 24 meses + lista de compras + 200 receitas de introdução alimentar.</dd>
-    <dt>Promessa</dt><dd>“Saber exatamente o que oferecer ao bebê em cada fase, sem inventar.”</dd>
-    <dt>Hook</dt><dd class="hook">“4.9/5 ⭐ + de 3.800 mães testaram e aprovaram.”</dd>
-    <dt>Por que está escalando</dt><dd><ul><li>Página inteira numa oferta só: 14 de 14 anúncios.</li><li>Nota e número de mães no título, antes de qualquer promessa.</li><li>Seis bônus nomeados criam valor sem baixar o preço.</li><li>Cardápio por faixa de idade resolve decisão diária da mãe.</li></ul></dd>
-    <dt>Como modelar</dt><dd><ul class="modelar"><li>Abrir com nota e número de clientes, não com a dor.</li><li>Fatiar a entrega por idade ou fase, semana a semana.</li><li>Empilhar bônus com nome próprio em vez de dar desconto.</li><li>Juntar cardápio com lista de compras: tira o trabalho, não só ensina.</li></ul></dd>
+    <dt>Produto</dt><dd>Cardápios semanais de 6 a 24 meses + lista de compras + 200 receitas de introdução alimentar.</dd>
+    <dt>Promessa</dt><dd>“Cardápios prontos do 6º ao 24º mês, com a lista de compras da semana junto.”</dd>
+    <dt>Hook</dt><dd class="hook">“Cardápios do 6 aos 24 Meses + Listas de Compras e Receitinhas para Introdução Alimentar.”</dd>
+    <dt class="rec-dt">Por que modelar esta</dt><dd class="rec-dd">O mecanismo 'cardápio 6–24 meses + lista de compras' transporta inteiro: é nomeado, datado e não depende da autoridade dela.</dd>
+    <dt>Por que está escalando</dt><dd><ul><li>Mecanismo datado: a mãe sabe exatamente qual mês é o dela.</li><li>Lista de compras resolve a dor real, não só a receita.</li><li>Prova social no título: '+3.800 mães testaram e aprovaram'.</li><li>14 anúncios ativos, todos no mesmo link há 134 dias.</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Recortar o produto por faixa etária em vez de vender 'geral'.</li><li>Somar lista de compras a qualquer cardápio — é o que fecha a venda.</li><li>Empilhar 5-6 bônus nomeados na copy, cada um com um medo da mãe.</li><li>Nota no título com estrelas e número de compradoras.</li></ul></dd>
   </dl>
   <details><summary>Copy do anúncio</summary><pre>Cardápios do 6 aos 24 Meses + Listas de Compras e Receitinhas para Introdução Alimentar  🥦💚
 
@@ -200,20 +111,21 @@ E foi isso! Espero de todo o ❤️ que tenham gostado, não deixa de ficar por 
       <strong>Dr.Elena</strong>
       <small>620 curtidas · receitas para bebê</small>
     </div>
-    <span class="badge novo">novo</span>
+    <div class="badges"><span class="badge novo">novo</span></div>
   </header>
   <div class="media"><a href="https://www.facebook.com/ads/library/?id=1493386508757444" target="_blank" rel="noopener" title="Ver o vídeo no Ads Library"><img src="midia/1493386508757444.jpg" alt=""><span class="play">▶</span></a></div>
   <div class="stats">
     <div class="stat"><b>15</b><span>anúncios ativos na página</span></div>
     <div class="stat"><b>5</b><span>criativos da oferta</span></div>
-    <div class="stat"><b>87d</b><span>rodando</span></div>
+    <div class="stat"><b>48d</b><span>rodando</span></div>
   </div>
   <dl>
-    <dt>Produto · <span class="preco">não declarado no anúncio (página é /ebooksdesconto)</span></dt><dd>Combo de ebooks de refeições para bebê, vendido direto na página de desconto.</dd>
-    <dt>Promessa</dt><dd>“Nunca mais travar na hora de decidir o que dar de comer pro bebê.”</dd>
-    <dt>Hook</dt><dd class="hook">“Chega de ficar sem ideia na hora de alimentar seu bebê 👶”</dd>
-    <dt>Por que está escalando</dt><dd><ul><li>5 criativos no mesmo link, 15 anúncios na página, 87 dias.</li><li>Copy de duas linhas em imagem estática: produção barata.</li><li>Ataca fadiga de decisão, não nutrição — promessa fácil de aceitar.</li><li>Desconto embutido na URL antecipa a objeção de preço.</li></ul></dd>
-    <dt>Como modelar</dt><dd><ul class="modelar"><li>Trocar a dor de saúde pela dor de decidir todo dia.</li><li>Vender combo de ebooks em vez de um material só.</li><li>Fechar com &quot;prático, nutritivo e sem estresse&quot;, nas palavras da mãe.</li><li>Rodar imagem estática com duas linhas de copy.</li></ul></dd>
+    <dt>Produto</dt><dd>Combo de ebooks de refeições práticas para bebê, vendido direto na página de desconto.</dd>
+    <dt>Promessa</dt><dd>“Refeições práticas e nutritivas para o bebê, sem estresse no dia a dia.”</dd>
+    <dt>Hook</dt><dd class="hook">“Chega de ficar sem ideia na hora de alimentar seu bebê.”</dd>
+    
+    <dt>Por que está escalando</dt><dd><ul><li>Dor de decisão diária, não de saúde: 'sem ideia do que fazer'.</li><li>5 criativos com a mesma copy curta — está testando imagem.</li><li>URL já entra em modo desconto, encurta a página.</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Hook de 'não sei o que fazer hoje' em vez de promessa nutricional.</li><li>Copy curta de 2 linhas + imagem de pratinho montado.</li><li>Página de combo com desconto já aplicado na URL.</li></ul></dd>
   </dl>
   <details><summary>Copy do anúncio</summary><pre>Chega de ficar sem ideia na hora de alimentar seu bebê 👶✨
 Conheça agora o material que está ajudando mães a oferecer refeições práticas, nutritivas e sem estresse no dia a dia.</pre></details>
@@ -224,18 +136,18 @@ Conheça agora o material que está ajudando mães a oferecer refeições práti
     <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=107772175730655&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
   </footer>
 </article></div>
-  <details class="descartados"><summary>Descartados (5)</summary><ul><li><b>Nutri Alê Zago</b> — nicho black (diabetes gestacional)</li><li><b>Central Emagrecentro</b> — nicho black (emagrecimento)</li><li><b>Biscut</b> — box de carimbos, produto físico</li><li><b>Papa Rica</b> — comida pronta, destino Instagram</li><li><b>Receitas Que Nutrem</b> — destino WhatsApp</li></ul></details>
+  <details class="descartados"><summary>Descartados (5)</summary><ul><li><b>Central Emagrecentro</b> — nicho black (saúde)</li><li><b>Nutri Alê Zago</b> — nicho black (saúde)</li><li><b>Receitas Que Nutrem</b> — destino WhatsApp</li><li><b>Biscut</b> — produto físico</li><li><b>Papa Rica</b> — loja física</li></ul></details>
 </section>
 <section class="nicho" id="comida_caseira">
-  <h2>Renda extra com comida caseira <small>29 anúncios · 12 anunciantes · 2 ofertas</small></h2>
+  <h2>Renda extra com comida caseira <small>29 anúncios · 12 anunciantes · 3 ofertas</small></h2>
   <div class="grid">
-<article class="card">
+<article class="card recomendada">
   <header>
     <div class="quem">
       <strong>Curso Biscoitos Caseiros</strong>
-      <small>172.244 curtidas · fazer e vender</small>
+      <small>172.245 curtidas · fazer e vender</small>
     </div>
-    <span class="badge novo">novo</span>
+    <div class="badges"><span class="badge top">★ modelar</span><span class="badge novo">novo</span></div>
   </header>
   <div class="media"><video controls preload="metadata" poster="midia/1375470821306988.jpg" src="midia/1375470821306988.mp4"></video></div>
   <div class="stats">
@@ -244,11 +156,12 @@ Conheça agora o material que está ajudando mães a oferecer refeições práti
     <div class="stat"><b>90d</b><span>rodando</span></div>
   </div>
   <dl>
-    <dt>Produto · <span class="preco">não declarado no anúncio (inferido R$ 19–47)</span></dt><dd>Curso digital com +25 receitas de biscoitos caseiros baratos para vender todo dia.</dd>
-    <dt>Promessa</dt><dd>“Fazer biscoitos bonitos com ingredientes baratos e vender todos os dias.”</dd>
-    <dt>Hook</dt><dd class="hook">“Quer fazer biscoitos como esses? 👀”</dd>
-    <dt>Por que está escalando</dt><dd><ul><li>16 anúncios ativos na página sustentam a operação.</li><li>90 dias no ar com um criativo só: oferta que segura.</li><li>Hook aponta pro vídeo (&quot;como esses&quot;) em vez de prometer.</li><li>&quot;Baratas e lucrativas&quot; junta custo e margem numa frase.</li></ul></dd>
-    <dt>Como modelar</dt><dd><ul class="modelar"><li>Abrir apontando pro resultado na tela: &quot;quer fazer assim?&quot;.</li><li>Prometer receita barata e lucrativa, não receita gourmet.</li><li>Dar três usos na mesma frase: comer, presentear, vender.</li><li>Levar pra página com vídeo de vendas, não pro checkout.</li></ul></dd>
+    <dt>Produto</dt><dd>Curso de 25+ receitas de biscoitos baratos e lucrativos, vendido por VSL.</dd>
+    <dt>Promessa</dt><dd>“Mais de 25 receitas de biscoito para vender muito, todos os dias.”</dd>
+    <dt>Hook</dt><dd class="hook">“Quer fazer biscoitos como esses?”</dd>
+    <dt class="rec-dt">Por que modelar esta</dt><dd class="rec-dd">É a única de renda extra com comida que vende por página própria — dá pra modelar a VSL inteira sem passar por WhatsApp.</dd>
+    <dt>Por que está escalando</dt><dd><ul><li>Hook de desejo visual: mostra o biscoito antes de falar de dinheiro.</li><li>'Baratas e lucrativas' amarra custo e margem na mesma frase.</li><li>Página de VSL própria, 90 dias no ar.</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Abrir com a imagem do produto pronto, não com renda extra.</li><li>Prometer número de receitas + palavra 'lucrativas' no mesmo bullet.</li><li>Testar VSL curta como página, com o CTA abaixo do vídeo.</li></ul></dd>
   </dl>
   <details><summary>Copy do anúncio</summary><pre>👀 Quer fazer biscoitos como esses?
 Aprenda no meu curso de Biscoitos! Mais de 25 receitas incríveis para vender muito, todos os dias. Receitas baratas e lucrativas.
@@ -261,13 +174,13 @@ Perfeitos para quem gosta de comer biscoitos, para fazer para os amigos, famíli
     <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=298146350524859&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
   </footer>
 </article>
-<article class="card">
+<article class="card recomendada">
   <header>
     <div class="quem">
       <strong>Doce de Sabão</strong>
       <small>10.161 curtidas · fazer e vender</small>
     </div>
-    <span class="badge novo">novo</span>
+    <div class="badges"><span class="badge top">★ modelar</span><span class="badge novo">novo</span></div>
   </header>
   <div class="media"><video controls preload="metadata" poster="midia/1039351612110219.jpg" src="midia/1039351612110219.mp4"></video></div>
   <div class="stats">
@@ -276,11 +189,12 @@ Perfeitos para quem gosta de comer biscoitos, para fazer para os amigos, famíli
     <div class="stat"><b>99d</b><span>rodando</span></div>
   </div>
   <dl>
-    <dt>Produto · <span class="preco">não declarado no anúncio (inferido R$ 10–27)</span></dt><dd>Passo a passo para fabricar gloss labial em casa, em página própria de produto.</dd>
-    <dt>Promessa</dt><dd>“Fazer um gloss que hidrata e dá brilho, sem depender de marca.”</dd>
-    <dt>Hook</dt><dd class="hook">“Aprenda a fazer um gloss labial que hidrata, dá brilho e deixa os lábios mais bonitos.”</dd>
-    <dt>Por que está escalando</dt><dd><ul><li>74 anúncios ativos na página: catálogo inteiro de receitas artesanais rodando.</li><li>99 dias neste criativo: oferta estável, não teste.</li><li>Artesanato de baixo custo com resultado visual imediato.</li><li>Copy descreve o benefício do produto final, não o curso.</li></ul></dd>
-    <dt>Como modelar</dt><dd><ul class="modelar"><li>Vender o resultado do produto feito, não a aula.</li><li>Listar três benefícios concretos: hidrata, brilha, embeleza.</li><li>Repetir o link dentro da copy, além do botão.</li><li>Montar catálogo de receitas artesanais e anunciar uma por vez.</li></ul></dd>
+    <dt>Produto</dt><dd>Aula de como fazer gloss labial artesanal para usar e vender.</dd>
+    <dt>Promessa</dt><dd>“Aprenda a fazer um gloss que hidrata, dá brilho e deixa os lábios mais bonitos.”</dd>
+    <dt>Hook</dt><dd class="hook">“Aprenda a fazer um Gloss Labial que hidrata, dá brilho e deixa os lábios bonitos.”</dd>
+    <dt class="rec-dt">Por que modelar esta</dt><dd class="rec-dd">Página com 74 anúncios ativos e mecanismo DIY nomeado: ensinar a fazer um item barato que a pessoa usa e depois vende.</dd>
+    <dt>Por que está escalando</dt><dd><ul><li>Artesanato DIY com resultado visível no próprio corpo.</li><li>Promessa de uso primeiro, venda depois — entrada mais fácil.</li><li>99 dias rodando com link cru repetido na copy.</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Vender pelo resultado de uso, deixar o lucro como bônus.</li><li>Repetir o link em texto dentro da copy, além do botão.</li><li>Produto artesanal barato de produzir: bom pra low-ticket.</li></ul></dd>
   </dl>
   <details><summary>Copy do anúncio</summary><pre>Aprenda a fazer um Gloss Labial que hidrata, dá brilho e deixa os lábios com aparência mais bonita.
 
@@ -291,8 +205,38 @@ Clique em saiba mais ou nesse link: https://docedesabao.com/gloss-labial/</pre><
     <a href="https://www.facebook.com/ads/library/?id=1039351612110219" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
     <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=253773664798701&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
   </footer>
+</article>
+<article class="card">
+  <header>
+    <div class="quem">
+      <strong>Bia Nocete</strong>
+      <small>20.541 curtidas · fazer e vender</small>
+    </div>
+    <div class="badges"><span class="badge novo">novo</span></div>
+  </header>
+  <div class="media"><video controls preload="metadata" poster="midia/694572493312063.jpg" src="midia/694572493312063.mp4"></video></div>
+  <div class="stats">
+    <div class="stat"><b>55</b><span>anúncios ativos na página</span></div>
+    <div class="stat"><b>1</b><span>criativos da oferta</span></div>
+    <div class="stat"><b>474d</b><span>rodando</span></div>
+  </div>
+  <dl>
+    <dt>Produto</dt><dd>Treinamento de biscoitos da marca pessoal Bia Nocete, com página só de biscoitos.</dd>
+    <dt>Promessa</dt><dd>“Sem copy no criativo — a oferta é carregada pelo vídeo e pela página.”</dd>
+    <dt>Hook</dt><dd class="hook">“Anúncio sem texto: só o vídeo e o botão 'Saiba mais'.”</dd>
+    
+    <dt>Por que está escalando</dt><dd><ul><li>474 dias no ar com o mesmo criativo: o mais longevo do dia.</li><li>Vídeo sem copy só funciona quando a demonstração vende sozinha.</li><li>Página dedicada a um produto só (/biscoitos).</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Testar criativo só-vídeo, sem texto, apoiado na demonstração.</li><li>Uma URL por produto em vez de home genérica.</li><li>Confiança baixa: sem copy, checar a página antes de copiar.</li></ul></dd>
+  </dl>
+  
+  <footer>
+    <a href="https://bianocete.com.br/biscoitos/" target="_blank" rel="noopener">Link de venda ↗</a>
+    <a href="https://www.facebook.com/115853069820852" target="_blank" rel="noopener">Perfil do Facebook</a>
+    <a href="https://www.facebook.com/ads/library/?id=694572493312063" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
+    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=115853069820852&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
+  </footer>
 </article></div>
-  <details class="descartados"><summary>Descartados (6)</summary><ul><li><b>Roberta Carvalho</b> — destino WhatsApp</li><li><b>Lúcia Melo</b> — destino WhatsApp</li><li><b>Instituto Gourmet Barra da Tijuca</b> — escola presencial, WhatsApp</li><li><b>Instituto Gourmet Tijuca</b> — escola presencial, WhatsApp</li><li><b>InfinitePay</b> — maquininha, SaaS</li><li><b>Bia Nocete</b> — sem copy, sinal fraco</li></ul></details>
+  <details class="descartados"><summary>Descartados (5)</summary><ul><li><b>Roberta Carvalho</b> — destino WhatsApp</li><li><b>Lúcia Melo</b> — destino WhatsApp</li><li><b>Instituto Gourmet Barra da Tijuca</b> — curso presencial</li><li><b>Instituto Gourmet Tijuca</b> — curso presencial</li><li><b>InfinitePay</b> — SaaS/maquininha</li></ul></details>
 </section>
-<section class="resumo padroes"><strong>Padrões da semana</strong><ul><li>Tripwire de R$ 1 na própria URL: &quot;apostilas-por-1-real&quot; vende antes do clique.</li><li>Introdução alimentar é o motor do infantil: cardápio por idade + lista de compras.</li><li>Prova social numérica no título: 3.800 mães, nota 4.9/5, 11 mil alunas.</li><li>Pilha de bônus nomeados no lugar de desconto: cortes seguros, janela imunológica.</li><li>Página grande não significa oferta grande: Renata tem 110 anúncios, 3 nesta oferta.</li><li>Mudou vs. relatório anterior: Roberta Carvalho e Lúcia Melo saíram por destino WhatsApp.</li></ul></section>
+<section class="resumo padroes"><strong>Padrões da semana</strong><ul><li>Domínio bonito não é página de vendas: 2 de 2 candidatas de receitas caíam no WhatsApp.</li><li>Preço de entrada virou o hook: apostilas por R$ 1, apenas 10 reais, pague depois de receber.</li><li>Receita só vende quando vem com o depois: precificação, embalagem e o que mais vende.</li><li>Infantil escala com pacote datado: cardápios de 6 a 24 meses + lista de compras + bônus.</li><li>Prova social numerada no título (+3.800 mães testaram, 11 mil alunas) repete em 4 anunciantes.</li><li>Mudou vs. ontem: Roberta Carvalho e Silvia Araújo seguem firmes e seguem em WhatsApp; entraram três páginas de venda de verdade no eixo comida caseira.</li></ul></section>
 </div></body></html>
