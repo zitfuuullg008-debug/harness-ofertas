@@ -23,6 +23,9 @@ on:
       top:
         description: "Ofertas por nicho no resumo"
         default: "8"
+      proxy:
+        description: "Usar o proxy residencial? (sim/nao)"
+        default: "sim"
 
 permissions:
   contents: write
@@ -47,17 +50,27 @@ jobs:
           npm ci --ignore-scripts --no-audit --no-fund
           npx playwright install --with-deps chromium
 
-      - name: Diagnóstico do proxy
+      - name: Diagnóstico de rede
         env:
-          PROXY_URL: ${{ secrets.PROXY_URL }}
+          PROXY_RAW: ${{ secrets.PROXY_URL }}
+          USAR_PROXY: ${{ inputs.proxy }}
         run: |
-          # Normaliza: tira prefixo/aspas/espaços e usa esquema http (o gate aceita os dois; Chromium prefere http).
-          P=$(printf '%s' "$PROXY_URL" | tr -d '"\r\n ' | sed 's/^PROXY_URL=//; s#^https://#http://#')
-          echo "PROXY_URL_NORM=$P" >> "$GITHUB_ENV"
-          echo "host do proxy: $(printf '%s' "$P" | sed -E 's#^[a-z]+://([^@]+@)?##')"
-          printf 'sem proxy -> ip.decodo.com: '; curl -s -m 20 -o /dev/null -w '%{http_code}\n' https://ip.decodo.com/json || echo falhou
-          printf 'com proxy -> ip.decodo.com: '; curl -s -m 30 -x "$P" -o /dev/null -w '%{http_code}\n' https://ip.decodo.com/json || echo falhou
-          printf 'com proxy -> facebook:      '; curl -s -m 30 -x "$P" -o /dev/null -w '%{http_code}\n' https://www.facebook.com/ads/library/ || echo falhou
+          P=$(printf '%s' "$PROXY_RAW" | tr -d '"\r\n ' | sed 's/^PROXY_URL=//; s#^https://#http://#')
+          if [ "${USAR_PROXY:-sim}" = "nao" ]; then
+            echo "proxy desativado nesta rodada (input proxy=nao)"
+            echo "PROXY_URL_NORM=" >> "$GITHUB_ENV"
+          else
+            echo "PROXY_URL_NORM=$P" >> "$GITHUB_ENV"
+          fi
+          # Formato do segredo, sem revelar credencial:
+          echo "  tamanho=${#P}  esquema=$(printf '%s' "$P" | cut -d: -f1)  tem_arroba=$(case "$P" in *@*) echo sim;; *) echo NAO;; esac)"
+          echo "  host_depois_do_@=$(printf '%s' "$P" | sed -E 's#.*@##')"
+          printf 'IP direto (sem proxy): '; curl -s -m 20 https://api.ipify.org || echo falhou; echo
+          printf 'Meta SEM proxy:  '; curl -s -m 30 -o /dev/null -w '%{http_code}\n' -A 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36' 'https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&q=receitas&search_type=keyword_unordered' || echo falhou
+          if [ -n "$P" ]; then
+            printf 'Proxy (erro detalhado): '; curl -s -m 30 -x "$P" -o /dev/null https://api.ipify.org 2>&1 | head -3 || true
+            curl -sS -m 30 -x "$P" https://api.ipify.org 2>&1 | head -3 || true
+          fi
 
       - name: Minerar
         env:
