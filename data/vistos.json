@@ -284,6 +284,41 @@
       "nome": "Lojadasplanilhas",
       "primeiraVez": "2026-09-22",
       "ultimaVez": "2026-09-22"
+    },
+    "980622285124603": {
+      "nome": "Melolodramasgrátis-br",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "434738366394828": {
+      "nome": "Renato Nigro",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "386361008047043": {
+      "nome": "Micron Internet",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "115853069820852": {
+      "nome": "Bia Nocete",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "253773664798701": {
+      "nome": "Doce de Sabão",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "298146350524859": {
+      "nome": "Curso Biscoitos Caseiros",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "823403710865773": {
+      "nome": "Lúcia Melo",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
     }
   },
   "anuncios": {},
@@ -508,6 +543,76 @@
     "1662686540448346|arquivosoffice.com.br": {
       "pagina": "Lojadasplanilhas",
       "link": "https://www.arquivosoffice.com.br/",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "873331792536765|sem-link:comenta \"aula\" para receber minha aula de suplementação infa": {
+      "pagina": "Doc João Migowski",
+      "link": null,
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "873331792536765|sem-link:você tem filho? comenta aula 👇": {
+      "pagina": "Doc João Migowski",
+      "link": null,
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "980622285124603|play.google.com/store/apps/details": {
+      "pagina": "Melolodramasgrátis-br",
+      "link": "https://play.google.com/store/apps/details?id=com.worldance.drama",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "434738366394828|instagram.com/renatonigro.adv": {
+      "pagina": "Renato Nigro",
+      "link": "http://instagram.com/renatonigro.adv",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "386361008047043|wa:sem-numero": {
+      "pagina": "Micron Internet",
+      "link": "https://api.whatsapp.com/send",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "115853069820852|bianocete.com.br/biscoitos": {
+      "pagina": "Bia Nocete",
+      "link": "https://bianocete.com.br/biscoitos/",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "253773664798701|docedesabao.com/gloss-labial": {
+      "pagina": "Doce de Sabão",
+      "link": "https://docedesabao.com/gloss-labial/",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "222086361593149|infinitepay.io/lp/link-de-pagamento": {
+      "pagina": "InfinitePay",
+      "link": "https://www.infinitepay.io/lp/link-de-pagamento",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "298146350524859|biscoitoscaseiros.com/bvideo": {
+      "pagina": "Curso Biscoitos Caseiros",
+      "link": "https://biscoitoscaseiros.com/bvideo/",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "823403710865773|wa:sem-numero": {
+      "pagina": "Lúcia Melo",
+      "link": "https://api.whatsapp.com/send",
       "primeiraVez": "2026-09-22",
       "ultimaVez": "2026-09-22",
       "vezes": 1

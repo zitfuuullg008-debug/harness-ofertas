@@ -1,6 +1,6 @@
 {
   "data": "2026-09-22",
-  "geradoEm": "2026-09-22T15:06:01.058Z",
+  "geradoEm": "2026-09-22T15:07:10.470Z",
   "nichos": [
     {
       "id": "receitas",
@@ -346,6 +346,698 @@
             "urlBiblioteca": "https://www.facebook.com/ads/library/?id=910230501990020"
           },
           "outrosTextos": []
+        }
+      ]
+    },
+    {
+      "id": "receitas_infantis",
+      "nome": "Receitas para criança e bebê",
+      "totalAnuncios": 30,
+      "totalOfertas": 22,
+      "totalPaginas": 19,
+      "top": [
+        {
+          "pagina": "InfinitePay",
+          "paginaId": "222086361593149",
+          "instagram": null,
+          "oferta": {
+            "chave": "infinitepay.io/tap",
+            "link": "https://www.infinitepay.io/tap"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 578,
+          "sinais": {
+            "anunciosNaPagina": 3300,
+            "fonteContagem": "meta_resultados",
+            "ofertasNaPagina": 5,
+            "criativosDaOferta": 91,
+            "criativosEstimados": 2503,
+            "criativosNoLote": 6,
+            "collationMax": 34,
+            "mesmoCriativoNoLote": 6,
+            "diasAtivoMediana": 11,
+            "diasAtivoMax": 11,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "meu filho não come"
+          ],
+          "anuncioPrincipal": {
+            "id": "29418708407719277",
+            "titulo": "Seu Celular vira maquininha GRATIS!",
+            "texto": "Use seu Celular como uma Maquininha! É totalmente GRATUITO, e o melhor, você nem precisa de CNPJ! 🤑\n\n✅ Taxas a partir de 0,75%\n✅ Recebimento em 1 dia ou em SEGUNDOS\n✅ 100% Grátis\n📱 Compatível com Android 11+ com NFC e iPhone XS ou superior\n\nClique em saiba mais para se cadastrar!",
+            "cta": "Saiba mais",
+            "link": "https://www.infinitepay.io/tap",
+            "tipoCriativo": "video",
+            "video": "https://video.fcgh3-2.fna.fbcdn.net/o1/v/t2/f2/m366/AQMpp6pPwNfFMu0-SxedpHklF4bEsZwFI3N3NpWHyXCxM6piFCEgzxdfs4PLLpSYw7xgpruKQmkXrs8OJPc7SDoZWqPFV-fielDaEmCoiAr3LQ.mp4?_nc_cat=110&_nc_oc=AdrVZpXN9Ob-EaPijd9QzRiXYSweHWKbvkt9YjttkskmAI9hUxtOVcppyVFl5Hz_UDJbXlFckhJzn-R-EOYzlq8Y&_nc_sid=b66105&_nc_ht=video.fcgh3-2.fna.fbcdn.net&_nc_ohc=YOOgcHJ7PCoQ7kNvwHYAvqB&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjkwMDY1MDc5OTU0NzAyNCwiYXNzZXRfYWdlX2RheXMiOjExLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NjMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=98ec9ac29a3af9aa&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC83RjRDOUUwM0U4MkExNzA3RTE4M0ZFQTQ0N0U5QkE4MV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0U5NDg5RDI3QzBGM0JFMzU5QzEwRjczQzMwOUM0REFCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACagisqv48iZAxUCKAJDMywXQE_d0vGp--cYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=c5bvfJEIRsJsftwyUCodpg&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLIbQFoooR580ICSe338eRv-WUt--q3eXmvGn_uz6N-fw&oe=6AB86702",
+            "imagem": "https://scontent.fcgh3-1.fna.fbcdn.net/v/t39.35426-6/804365668_1457335039547219_6687372815725783988_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=WdtgnjXidN4Q7kNvwEDwZaa&_nc_oc=AdrScFAz2WejCAvbaP08yr0rXaJGCxPb_YLPCQvMgJWvXIuU6tmHrHd4xRI6Tn_Owwcvl5ZGf_1ch4o_K2ze5fGi&_nc_zt=14&_nc_ht=scontent.fcgh3-1.fna&_nc_gid=c5bvfJEIRsJsftwyUCodpg&_nc_ss=7b289&oh=00_AQKuXCIDnpT2iDb90W-yDi-b0sJQfFUz8PocN9rfRXZwOA&oe=6AB883E7",
+            "diasAtivo": 11,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=29418708407719277"
+          },
+          "outrosTextos": [
+            "Use seu Celular como uma Maquininha! É totalmente GRATUITO, e o melhor, você nem precisa de CNPJ! 🤑\n\n✅ Taxas a partir de 0,75%\n✅ Recebimento em 1 dia ou em SEGUNDOS\n✅ 100% Grátis\n📱 Compatível com Android 11+ com NFC e iPhone XS ou superior\n\nClique em saiba mais para se cadastrar!",
+            "Use seu Celular como uma Maquininha! É totalmente GRATUITO, e o melhor, você nem precisa de CNPJ! 🤑\n\n✅ Taxas a partir de 0,75%\n✅ Recebimento em 1 dia ou em SEGUNDOS\n✅ 100% Grátis\n📱 Compatível com Android 11+ com NFC e iPhone XS ou superior\n\nClique em saiba mais para se cadastrar!",
+            "Use seu Celular como uma Maquininha! É totalmente GRATUITO, e o melhor, você nem precisa de CNPJ! 🤑\n\n✅ Taxas a partir de 0,75%\n✅ Recebimento em 1 dia ou em SEGUNDOS\n✅ 100% Grátis\n📱 Compatível com Android 11+ com NFC e iPhone XS ou superior\n\nClique em saiba mais para se cadastrar!"
+          ]
+        },
+        {
+          "pagina": "InfinitePay",
+          "paginaId": "222086361593149",
+          "instagram": null,
+          "oferta": {
+            "chave": "itunes.apple.com/app/id1506929912",
+            "link": "http://itunes.apple.com/app/id1506929912"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 331,
+          "sinais": {
+            "anunciosNaPagina": 3300,
+            "fonteContagem": "meta_resultados",
+            "ofertasNaPagina": 5,
+            "criativosDaOferta": 2,
+            "criativosEstimados": 55,
+            "criativosNoLote": 1,
+            "collationMax": 34,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 208,
+            "diasAtivoMax": 11,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "meu filho não come"
+          ],
+          "anuncioPrincipal": {
+            "id": "27889823554023459",
+            "titulo": "Seu Celular vira maquininha GRATIS!",
+            "texto": "Use seu Celular como uma Maquininha! É totalmente GRATUITO, e o melhor, você nem precisa de CNPJ! 🤑\n\n✅ Taxas a partir de 0,75%\n✅ Recebimento em 1 dia ou em SEGUNDOS\n✅ 100% Grátis\n📱 Compatível com Android 11+ com NFC e iPhone XS ou superior\n\nClique em saiba mais para se cadastrar!",
+            "cta": "Instalar agora",
+            "link": "http://itunes.apple.com/app/id1506929912",
+            "tipoCriativo": "video",
+            "video": "https://video.fcgh3-2.fna.fbcdn.net/o1/v/t2/f2/m366/AQMpp6pPwNfFMu0-SxedpHklF4bEsZwFI3N3NpWHyXCxM6piFCEgzxdfs4PLLpSYw7xgpruKQmkXrs8OJPc7SDoZWqPFV-fielDaEmCoiAr3LQ.mp4?_nc_cat=110&_nc_oc=AdrVZpXN9Ob-EaPijd9QzRiXYSweHWKbvkt9YjttkskmAI9hUxtOVcppyVFl5Hz_UDJbXlFckhJzn-R-EOYzlq8Y&_nc_sid=b66105&_nc_ht=video.fcgh3-2.fna.fbcdn.net&_nc_ohc=YOOgcHJ7PCoQ7kNvwHYAvqB&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjkwMDY1MDc5OTU0NzAyNCwiYXNzZXRfYWdlX2RheXMiOjExLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NjMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=98ec9ac29a3af9aa&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC83RjRDOUUwM0U4MkExNzA3RTE4M0ZFQTQ0N0U5QkE4MV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0U5NDg5RDI3QzBGM0JFMzU5QzEwRjczQzMwOUM0REFCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACagisqv48iZAxUCKAJDMywXQE_d0vGp--cYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=c5bvfJEIRsJsftwyUCodpg&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLIbQFoooR580ICSe338eRv-WUt--q3eXmvGn_uz6N-fw&oe=6AB86702",
+            "imagem": "https://scontent.fcgh3-2.fna.fbcdn.net/v/t39.35426-6/806093733_2545344889223481_7838532182284523250_n.jpg?_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=n1yXaDvTHncQ7kNvwFCGtOf&_nc_oc=Adp5nuzJjnYFJxpO9-WhttBYlz8TcxkvFU_PyXhA3nBocCdSd1fAbDVz-d6DnPbFabFVc5WQwS9ZvajPMEyfXPMt&_nc_zt=14&_nc_ht=scontent.fcgh3-2.fna&_nc_gid=c5bvfJEIRsJsftwyUCodpg&_nc_ss=7b289&oh=00_AQIC7OXDpJjDHMVfANAzFeN_OW_S3wLgTzuuTFig-AYWlQ&oe=6AB85C93",
+            "diasAtivo": 11,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=27889823554023459"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Doc João Migowski",
+          "paginaId": "873331792536765",
+          "instagram": null,
+          "oferta": {
+            "chave": "sem-link:comenta \"turbo\" para receber o link",
+            "link": null
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 263,
+          "sinais": {
+            "anunciosNaPagina": 200,
+            "fonteContagem": "meta_resultados",
+            "ofertasNaPagina": 27,
+            "criativosDaOferta": 4,
+            "criativosEstimados": 7,
+            "criativosNoLote": 2,
+            "collationMax": 2,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 83,
+            "diasAtivoMax": 105,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "meu filho não come"
+          ],
+          "anuncioPrincipal": {
+            "id": "2757374687968381",
+            "titulo": null,
+            "texto": "Comenta \"TURBO\" para receber o link",
+            "cta": null,
+            "link": null,
+            "tipoCriativo": "video",
+            "video": "https://video.fcgh3-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQOSjR_Eai4ucAADsyggMExdYkQoafbUFnm8ZYrR8q1USKScId7644I_fukesXeg1E1kzaChlviAdirTjn_OIFSINdfNaIW8-18mFAFVZNLs6Q.mp4?_nc_cat=108&_nc_oc=AdppgCMtr3EcjFpaYvnnXT5VHU5kj74vVSnnxOGRwtilsZS6LjI8TPR_0emrrQ3ZBjTOQrNkP-Xl-vr_a809c551&_nc_sid=b66105&_nc_ht=video.fcgh3-1.fna.fbcdn.net&_nc_ohc=X-g0lztJ0JAQ7kNvwGhe1v5&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE1NDkxNjU1OTY3ODU3MjgsImFzc2V0X2FnZV9kYXlzIjoxMTUsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjoyMjksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=4372019b517f18b9&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC80MDRERUUyNThDMUVBM0E0QzIxQTM0MzJGNThBOTlBN19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzhCNEVENzIzRjg5RDFDQTE1ODQ3QUNEMDU5RUQ3NDhFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA8cGRp73ABRUCKAJDMywXQGyndLxqfvoYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=c5bvfJEIRsJsftwyUCodpg&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQK2R57ZeUeeAl-rhCDjs9sOBW-Rdn_33qvWDeKW-lMm4g&oe=6AB86338",
+            "imagem": "https://scontent.fcgh3-1.fna.fbcdn.net/v/t39.35426-6/711602002_967600796141140_488228297399856923_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ANw6ersrP1cQ7kNvwHVvoYa&_nc_oc=Adp0KzOv0BZViuqkrJFmiwTcopl7pOzP2G5fzWPrpQjhZgQA5FFm0mLYvnZIKPKjc73Fj_zUm9eAA5UiSSBy8Iiu&_nc_zt=14&_nc_ht=scontent.fcgh3-1.fna&_nc_gid=c5bvfJEIRsJsftwyUCodpg&_nc_ss=7b289&oh=00_AQIdD8XGEX6ZFFVudItPqKauOmZRs4frboW1rqO8uDY7Xw&oe=6AB85218",
+            "diasAtivo": 105,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2757374687968381"
+          },
+          "outrosTextos": [
+            "Comenta \"TURBO\" para receber o link"
+          ]
+        },
+        {
+          "pagina": "Doc João Migowski",
+          "paginaId": "873331792536765",
+          "instagram": null,
+          "oferta": {
+            "chave": "sem-link:comenta \"aula\" para receber minha aula de suplementação infa",
+            "link": null
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 263,
+          "sinais": {
+            "anunciosNaPagina": 200,
+            "fonteContagem": "meta_resultados",
+            "ofertasNaPagina": 27,
+            "criativosDaOferta": 4,
+            "criativosEstimados": 7,
+            "criativosNoLote": 1,
+            "collationMax": 2,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 83,
+            "diasAtivoMax": 105,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "meu filho não come"
+          ],
+          "anuncioPrincipal": {
+            "id": "1897323441122764",
+            "titulo": null,
+            "texto": "Comenta \"AULA\" para receber minha Aula de Suplementação Infantil\n\n✨ Programa Crianças Modo Turbo ✨\n\n• Os 11 suplementos para transformar o seu filho em uma super criança\n• Para crianças a partir de 2 meses\n• As dosagens são de acordo com o peso da criança\n• Suplementação para grávidas\n• Suplementação para lactantes\n• Suplementação para adultos (+16 anos) \n• Mais imunidade, sono, foco, comportamento e inteligência \n• Suporte direto no WhatsApp com o Dr. João\n\n✔️ Garantia Blindada de 90 dias\nSe você seguir a suplementação do programa, e mesmo assim não ver melhora no seu filho, eu devolvo: (1) o valor do programa + (2) o dinheiro gasto nos suplementos\n\n🙏🚀 Bora turbinar o desenvolvimento do seu filho?",
+            "cta": null,
+            "link": null,
+            "tipoCriativo": "video",
+            "video": "https://video.fcgh3-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQM090_VJ3-P8FxKA8kBswEIu2sO07GpWpSkTJzCp8-kvcXXouX0n76NA69fIWNxj9rUTLGo6P1NpeS-MhPP1NzH3WmdnstHfeoiFb8.mp4?_nc_cat=111&_nc_oc=AdrXl_G0Vd_h6tsk7kwuWpqrB1OlwkSphfxwnZNu_2duDyUynjwFqIMGShPx78vaV8KfB6gtXPc20Y5tNRiH4XSF&_nc_sid=b66105&_nc_ht=video.fcgh3-1.fna.fbcdn.net&_nc_ohc=LmqvatBvX_QQ7kNvwE4E8AM&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjA0MjAzMzMyNjYxMTk3OSwiYXNzZXRfYWdlX2RheXMiOjMzNywidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjEzNywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=d32baf0166f26bb7&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83NzQwNzBFRTZFOTkwM0I0MjM4MEZBNEQxRTQ3QkNCQl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8yMzEyNTg5MDY1ODY4NjgzXzg4NzI5NzM5NjE2ODYzMzE1NjQubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJpb46vD9zaAHFQIoAkMzLBdAYSZmZmZmZhgSZGFzaF9iYXNlbGluZV8xX3YxEQB1AGXmnQEA&_nc_gid=c5bvfJEIRsJsftwyUCodpg&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQKYCjiFQ2j_M8iYIAXcTjM4eGmh5ak8I2N0wSPzOVv7jQ&oe=6AB47B90",
+            "imagem": "https://scontent.fcgh3-1.fna.fbcdn.net/v/t39.35426-6/706035994_1484593592660658_8381784853383090365_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=hNCAhqi6pjoQ7kNvwFaDTro&_nc_oc=AdqWY81gMWe_3W1XMPlaZoFcf-zCL6exeESnA5RoVrsswEejzeS_bpQmAZqtTaHDwzeACRCXW7yFZh4wfzKjtlbj&_nc_zt=14&_nc_ht=scontent.fcgh3-1.fna&_nc_gid=c5bvfJEIRsJsftwyUCodpg&_nc_ss=7b289&oh=00_AQJuc2hiRcjXXxZrS5MNVdJEVtZrXVo0jTkKCnEaa1FIlg&oe=6AB872B5",
+            "diasAtivo": 105,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1897323441122764"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Doc João Migowski",
+          "paginaId": "873331792536765",
+          "instagram": null,
+          "oferta": {
+            "chave": "sem-link:você tem filho? comenta aula 👇",
+            "link": null
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 263,
+          "sinais": {
+            "anunciosNaPagina": 200,
+            "fonteContagem": "meta_resultados",
+            "ofertasNaPagina": 27,
+            "criativosDaOferta": 4,
+            "criativosEstimados": 7,
+            "criativosNoLote": 1,
+            "collationMax": 2,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 83,
+            "diasAtivoMax": 105,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "meu filho não come"
+          ],
+          "anuncioPrincipal": {
+            "id": "1652182885866851",
+            "titulo": null,
+            "texto": "Você tem filho? Comenta AULA 👇",
+            "cta": null,
+            "link": null,
+            "tipoCriativo": "video",
+            "video": "https://video.fcgh3-2.fna.fbcdn.net/o1/v/t2/f2/m86/AQMZRkV8aXzZx1dICq8atsIxArvMNcQ8gxw9MqGzDYHcssqLRUarbbVxVQw8Se5UqxYZF06oD8jqeMscowC3GziZqFUYhKFjTkjw-sQ.mp4?_nc_cat=103&_nc_oc=AdorlNA8Fu51PpL2MseUCUO0DZ647kk2m4Jt2cBGmB8dlq1dOiXSrpDeY7EBFQ5kxQ3-ICcNOKinEar67O4yvdlo&_nc_sid=b66105&_nc_ht=video.fcgh3-2.fna.fbcdn.net&_nc_ohc=vgT-X3WZKq0Q7kNvwGffkhJ&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6Nzg1ODExNjU0MzgzNTkzLCJhc3NldF9hZ2VfZGF5cyI6MzYzLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTc5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=c92d7f83d9802c6&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84QzQ4N0JDN0YxMDQyMkFCMjlERjlCOTM4MUJFMDE5OF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC80MjgwNjQ2NjYyMjU5MTY1Xzc4MDcyNjUwOTQ4OTQwNjQxNzcubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJtLfqIihrOUCFQIoAkMzLBdAZnmZmZmZmhgSZGFzaF9iYXNlbGluZV8xX3YxEQB1AGXmnQEA&_nc_gid=c5bvfJEIRsJsftwyUCodpg&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQIkmD_OlIYiDugZiI7ycTDCJAEHf8dlh0iKYL14X6XkIQ&oe=6AB4621C",
+            "imagem": "https://scontent.fcgh3-1.fna.fbcdn.net/v/t39.35426-6/708345537_1286542186546949_6745619392156275283_n.jpg?_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=W095dKvuzU0Q7kNvwFjH5ag&_nc_oc=AdqaSTROPxpgCXgHRoL7PR30SrSm-ZwrY3NE4pRrh0EqJb4JWd3NhlBko57zKiAroeOfqUsViTB8X6Te8edF4JGL&_nc_zt=14&_nc_ht=scontent.fcgh3-1.fna&_nc_gid=c5bvfJEIRsJsftwyUCodpg&_nc_ss=7b289&oh=00_AQKuzY0nvLiDsyvoJBBTB8PBSam0-IaVAlYJskcinrK7dw&oe=6AB87915",
+            "diasAtivo": 105,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1652182885866851"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Melolodramasgrátis-br",
+          "paginaId": "980622285124603",
+          "instagram": null,
+          "oferta": {
+            "chave": "play.google.com/store/apps/details",
+            "link": "https://play.google.com/store/apps/details?id=com.worldance.drama"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 38,
+          "sinais": {
+            "anunciosNaPagina": null,
+            "fonteContagem": "observado",
+            "ofertasNaPagina": 1,
+            "criativosDaOferta": 1,
+            "criativosEstimados": null,
+            "criativosNoLote": 1,
+            "collationMax": 1,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 134,
+            "diasAtivoMax": 134,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "meu filho não come"
+          ],
+          "anuncioPrincipal": {
+            "id": "812620421614362",
+            "titulo": "episódios livres, só no Melolo",
+            "texto": "?Ainda baixou animado por propagandas de \"grátis\", só para descobrir que precisa pagar para desbloquear ou que o vídeo para após 3 minutos de prévia?\nNão deixe mais esses truques esgotarem sua paciência!\n?Melolo: totalmente grátis, sem cartão de crédito necessário e sem enrolação.\nTodo o conteúdo é acessível de imediato, sem custos ocultos, sem limites de prévia.\nClique para baixar e assista diretamente o final!",
+            "cta": "Instalar agora",
+            "link": "https://play.google.com/store/apps/details?id=com.worldance.drama",
+            "tipoCriativo": "video",
+            "video": "https://video.fcgh3-2.fna.fbcdn.net/o1/v/t2/f2/m366/AQO4kXWpVBRfPBqUcCbBxEONNwolD_ZFBC-76mM7trzwMLk31_n61QBbsVxFtmLzp-AhsTpSJDWNJK0Mrx78dg3_qxMGPXukV2lGctWlXXgZcg.mp4?_nc_cat=106&_nc_oc=AdqT3HpMYaa11JMw4bte8CvnQ3vfYp61HenHfY2CtPIfOKLPPBpT_nfapOpGsAPGirr_7aIi44VmeDSSgpXNfVdy&_nc_sid=b66105&_nc_ht=video.fcgh3-2.fna.fbcdn.net&_nc_ohc=mWCoC9GUMXkQ7kNvwEPlYWi&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE1MTUzMDIzNTAyNjUyNzUsImFzc2V0X2FnZV9kYXlzIjoxMzQsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjoxMjg2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=9db2fd2623eff185&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zNjQ0NTA2MEI5M0REN0FGRUM3MUFBNkUxQkUwNzhCRV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzhGNDhGNkFBODUxNUE1ODBFNUJDNDk2MUUwODQyQUIwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb27oSlmoqxBRUCKAJDMywXQJQbmZmZmZoYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=c5bvfJEIRsJsftwyUCodpg&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLqBqQOxwZYk3zX9-m1t53iFiTSr-Xg78YQR9zTzG6Nlw&oe=6AB85A6A",
+            "imagem": "https://scontent.fcgh3-2.fna.fbcdn.net/v/t39.35426-6/695471843_1754159595963222_3921733407455616801_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Q8zL9zaEccsQ7kNvwGXfScT&_nc_oc=Adq99kH4jFYJM82NtdNVbZD3eE-GKGWjEf8lkBmT-1c9t064mM1CYIrpRzeUEjmkdSRP_gilDchKqVVVGh-2-vL9&_nc_zt=14&_nc_ht=scontent.fcgh3-2.fna&_nc_gid=c5bvfJEIRsJsftwyUCodpg&_nc_ss=7b289&oh=00_AQI7UrusbcuEFGlZE9U80DW7Pnv6wQHA7R1lBkqcpmMR6g&oe=6AB88176",
+            "diasAtivo": 134,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=812620421614362"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Renato Nigro",
+          "paginaId": "434738366394828",
+          "instagram": null,
+          "oferta": {
+            "chave": "instagram.com/renatonigro.adv",
+            "link": "http://instagram.com/renatonigro.adv"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 38,
+          "sinais": {
+            "anunciosNaPagina": null,
+            "fonteContagem": "observado",
+            "ofertasNaPagina": 1,
+            "criativosDaOferta": 1,
+            "criativosEstimados": null,
+            "criativosNoLote": 1,
+            "collationMax": 1,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 339,
+            "diasAtivoMax": 339,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "meu filho não come"
+          ],
+          "anuncioPrincipal": {
+            "id": "4169979439923784",
+            "titulo": null,
+            "texto": "Se você na planta, cria ou colhe a própria comida, você só existe porque o Agro te alimenta! Então, RESPEITA o agro! #somostodosagro",
+            "cta": "Acessar o perfil do Instagram",
+            "link": "http://instagram.com/renatonigro.adv",
+            "tipoCriativo": "video",
+            "video": "https://video.fcgh3-2.fna.fbcdn.net/o1/v/t2/f2/m86/AQNg7iyDEPQ9fxlSebo0Gy_xCgKfYvgrjk0-9jK6xaIl8zlTQFxZBNyQixew3e3fft9TWzDwkjxXAGKBBuGtDQt0HmbkG5MMZk2_Yqw.mp4?_nc_cat=105&_nc_oc=AdryIPy3cAttseDlZaXN-l2XfK9poO1lKMdJLANu1J-VKgggfqVjVpSWQ9U1T4RXkkJhsuI_nRPJeP1inquK9jCU&_nc_sid=b66105&_nc_ht=video.fcgh3-2.fna.fbcdn.net&_nc_ohc=kQqwiSBjW2YQ7kNvwFhR-Gf&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NjIxNDExNDMwOTA5MjYyLCJhc3NldF9hZ2VfZGF5cyI6MzU3LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MzgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=6cf770185319c88f&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8wODQwODg3QjcwNkE1NTRCOEU1MTBCMEY0Qjg2NUE4RV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYRGlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83OTk3NDk4MTI2NDY2OTZfNjczMTU5MjM0ODAwNTEyNTgubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJpyVyvnzypoCFQIoAkMzLBdAQ2IMSbpeNRgSZGFzaF9iYXNlbGluZV8xX3YxEQB1AGXmnQEA&_nc_gid=c5bvfJEIRsJsftwyUCodpg&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQJ9gl8SIXI6pKWV62Ap_YlDmI3RmmqiQ7f0NNJ939Craw&oe=6AB465F2",
+            "imagem": "https://scontent.fcgh3-2.fna.fbcdn.net/v/t39.35426-6/563439273_1350781983114814_449785493241430445_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=0JhaBhfZkXcQ7kNvwFxtNJN&_nc_oc=AdqB5vbV5A3L6dfKrn4dza5tD6BEYm_CcYos0dOskwg9M5lytkvtVswJcBKjNt31ZMX7ah0znBREmVC15PY9twML&_nc_zt=14&_nc_ht=scontent.fcgh3-2.fna&_nc_gid=c5bvfJEIRsJsftwyUCodpg&_nc_ss=7b289&oh=00_AQLIc-eOSS5tU2iGXo8VrW0HV4bWyYjJlL1F20luPXSjVQ&oe=6AB87BEE",
+            "diasAtivo": 339,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=4169979439923784"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Micron Internet",
+          "paginaId": "386361008047043",
+          "instagram": null,
+          "oferta": {
+            "chave": "wa:sem-numero",
+            "link": "https://api.whatsapp.com/send"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 38,
+          "sinais": {
+            "anunciosNaPagina": null,
+            "fonteContagem": "observado",
+            "ofertasNaPagina": 1,
+            "criativosDaOferta": 1,
+            "criativosEstimados": null,
+            "criativosNoLote": 1,
+            "collationMax": 1,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 427,
+            "diasAtivoMax": 427,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "meu filho não come"
+          ],
+          "anuncioPrincipal": {
+            "id": "1626301111383647",
+            "titulo": null,
+            "texto": "📢 Chega de travamentos. Internet de verdade é com a Micron!\n\nQuer assistir filmes em 4K, jogar online sem lag e ter sinal forte em toda a casa?\nA Micron entrega conexão estável e veloz de verdade — com planos sob medida para você.\n\n✅ Velocidade real: sem enganação.\n✅ Suporte local que resolve de verdade.\n✅ Wi-Fi Premium incluso.\n✅ Instalação rápida e sem complicação.\n\n📲 Assine hoje e comece a navegar ainda mais rápido!",
+            "cta": "Enviar mensagem pelo WhatsApp",
+            "link": "https://api.whatsapp.com/send",
+            "tipoCriativo": "video",
+            "video": "https://video.fcgh3-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQNBlJfxpf_9hkCYCF2UswIWzkB6yliUTYN5ebsN6QUO_cfLpkp34RU0OdEXIdFXcmll9ZROI5spM5cJoV1YrghCAvMomACklrwa37ohpeBMuA.mp4?_nc_cat=109&_nc_oc=Adr0ioz3BD9RgWP4HkBWek9idGSh-72hrKkLj6SKfpZhyK__ezvNMSIYdXxwCWAabcIDjID0ugEHsjkC5RBorAgL&_nc_sid=b66105&_nc_ht=video.fcgh3-1.fna.fbcdn.net&_nc_ohc=_uAizb7J9uoQ7kNvwGxYYC3&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjc1ODI1Nzc5NjY5OTkwMywiYXNzZXRfYWdlX2RheXMiOjQyNywidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjExNiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=f37e3068ceea1dfb&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9FMjRGNDRFMkJFNUY4MjZBMjcwOENFRjM3MEUwRjJCMV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0ZGNDBENjZGOTk5Q0FEQTk4QzI5MURENTMyNDA0MDgwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb-2_bptOjYAhUCKAJDMywXQF0aHKwIMScYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=c5bvfJEIRsJsftwyUCodpg&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQJKVQ4Z9kOf7K5wHEWLAEg1YoLEm6HViumUVrWwHPylGw&oe=6AB85F23",
+            "imagem": "https://scontent.fcgh3-1.fna.fbcdn.net/v/t39.35426-6/520541847_1341223070648661_5317402874392633537_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=1wuM3pppf7QQ7kNvwHLIU1e&_nc_oc=AdpT0HyxX1A9c-H2NFKPmt6HOd_kx9-wa_dt_ml6BGXZWkYfZhomVczI6jVdcoP8NOy95w2Fi7YLwenyczfDVU3A&_nc_zt=14&_nc_ht=scontent.fcgh3-1.fna&_nc_gid=c5bvfJEIRsJsftwyUCodpg&_nc_ss=7b289&oh=00_AQKUnlQREdXV49CMRlr6M4sxOG--cn5gkPxxsTO3jSTCOg&oe=6AB874B3",
+            "diasAtivo": 427,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1626301111383647"
+          },
+          "outrosTextos": []
+        }
+      ]
+    },
+    {
+      "id": "comida_caseira",
+      "nome": "Renda extra com comida caseira",
+      "totalAnuncios": 29,
+      "totalOfertas": 12,
+      "totalPaginas": 12,
+      "top": [
+        {
+          "pagina": "Roberta Carvalho",
+          "paginaId": "1158143547370846",
+          "instagram": null,
+          "oferta": {
+            "chave": "wa:sem-numero",
+            "link": "https://api.whatsapp.com/send"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 184,
+          "sinais": {
+            "anunciosNaPagina": 25,
+            "fonteContagem": "meta_resultados",
+            "ofertasNaPagina": 1,
+            "criativosDaOferta": 25,
+            "criativosEstimados": null,
+            "criativosNoLote": 13,
+            "collationMax": 14,
+            "mesmoCriativoNoLote": 9,
+            "diasAtivoMediana": 142,
+            "diasAtivoMax": 154,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "fazer e vender"
+          ],
+          "anuncioPrincipal": {
+            "id": "1278554277204757",
+            "titulo": "Pudim sem Fogo!🍮",
+            "texto": "Pudim perfeito, sem forno, sem fogo e sem ovo — pronto direto na geladeira... 😍\n\nAprenda o passo a passo para fazer e vender usando ingredientes baratos e um método simples que qualquer pessoa consegue aplicar.\n\nReceba primeiro no WhatsApp, teste… e só depois decide se paga R$ 9,90.",
+            "cta": "Enviar mensagem pelo WhatsApp",
+            "link": "https://api.whatsapp.com/send",
+            "tipoCriativo": "video",
+            "video": "https://video.fcgh3-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQOf_3P791t7znLSd0Qw0aHn8CF12uCsT8sr9-YRQf3RsP1WXmzMAHTpM_m7v5aB5sU9pBGtZh8CbVFkCc-KIDEYDtFjR0q3coAO4Fws_nFw6Q.mp4?_nc_cat=105&_nc_oc=AdqaT4dxo36_LqePLXPQCQBzjQCdQqGWL3Hqsjn-yqalJJkNDaDsHYYJ0S49JACFbp6ilzofBRCtjQ10HhAW6qUd&_nc_sid=b66105&_nc_ht=video.fcgh3-1.fna.fbcdn.net&_nc_ohc=x77jvXdDe4oQ7kNvwHlPEYI&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEyODk2NDcwMjI1MjE5MDIsImFzc2V0X2FnZV9kYXlzIjoxNTMsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo0MiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=febaa10b305f21be&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8yMjQwRDczRERERjczQTdBQ0JDREMxNEYyMzNCRUE5MV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0YyNEUzRTA3NEMzNEMxQzc1ODc2QzVDMzJERkE1OUI2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbc-M2Kq7vKBBUCKAJDMywXQEVzMzMzMzMYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=I6StWCgedEwj7Av64i6HbA&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQIv84Ayf0WTwtQ_DSmOZSyDaoQaJGRV40i5v9eaXgyBPg&oe=6AB87C93",
+            "imagem": "https://scontent.fcgh3-2.fna.fbcdn.net/v/t39.35426-6/675190009_967648232338667_2911958273779183004_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=2TNKERvEWkAQ7kNvwGYiM-g&_nc_oc=AdocenWkYYkGSKm7T7H-anFhu4Mif0S40y2HzDYzUJQdFAMv0hkURLvJqyLWa1nkKEkj83t8geANA0WUrdb0Ki8c&_nc_zt=14&_nc_ht=scontent.fcgh3-2.fna&_nc_gid=I6StWCgedEwj7Av64i6HbA&_nc_ss=7b289&oh=00_AQJEsRxOFP3udlOPfr1a8nZsF1sE4ZD4HMksVrg3ZfqfXw&oe=6AB85A28",
+            "diasAtivo": 154,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1278554277204757"
+          },
+          "outrosTextos": [
+            "Pudim perfeito, sem forno, sem fogo e sem ovo — pronto direto na geladeira... 😍\n\nAprenda o passo a passo para fazer e vender usando ingredientes baratos e um método simples que qualquer pessoa consegue aplicar.\n\nReceba primeiro no WhatsApp, teste… e só depois decide se paga R$ 9,90.",
+            "Pudim perfeito, sem forno, sem fogo e sem ovo — pronto direto na geladeira... 😍\n\nAprenda o passo a passo para fazer e vender usando ingredientes baratos e um método simples que qualquer pessoa consegue aplicar.\n\nReceba primeiro no WhatsApp, teste… e só depois decide se paga R$ 9,90.",
+            "Pudim perfeito, sem forno, sem fogo e sem ovo — pronto direto na geladeira... 😍\n\nAprenda o passo a passo para fazer e vender usando ingredientes baratos e um método simples que qualquer pessoa consegue aplicar.\n\nReceba primeiro no WhatsApp, teste… e só depois decide se paga R$ 9,90."
+          ]
+        },
+        {
+          "pagina": "Instituto Gourmet Barra da Tijuca",
+          "paginaId": "101540288473622",
+          "instagram": null,
+          "oferta": {
+            "chave": "wa:sem-numero",
+            "link": "https://api.whatsapp.com/send"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 155,
+          "sinais": {
+            "anunciosNaPagina": 27,
+            "fonteContagem": "meta_resultados",
+            "ofertasNaPagina": 1,
+            "criativosDaOferta": 27,
+            "criativosEstimados": null,
+            "criativosNoLote": 3,
+            "collationMax": 1,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 504,
+            "diasAtivoMax": 504,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "fazer e vender"
+          ],
+          "anuncioPrincipal": {
+            "id": "1369209780993922",
+            "titulo": "Converse no Whatsapp",
+            "texto": "A oportunidade de transformar sua vida com a Gastronomia é AGORA! Participe do nosso curso GRATUITO e APRENDA RÁPIDO a fazer BROWNIE! \n\n🔝 Dominar novas habilidades não só abre portas, mas também pode te trazer uma renda extra. \n\n💰 Aqui você vai APRENDER, FAZER E VENDER com confiança! Não perca tempo, fale com a gente no WhatsApp e garanta sua vaga! 📲💬",
+            "cta": "Enviar mensagem pelo WhatsApp",
+            "link": "https://api.whatsapp.com/send",
+            "tipoCriativo": "imagem",
+            "video": null,
+            "imagem": "https://scontent.fcgh3-1.fna.fbcdn.net/v/t39.35426-6/488214921_574466965150607_5717379299198433216_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=p9yKJ1xyDo0Q7kNvwFuPA7r&_nc_oc=AdqDhU-pCkWbGrzOrQ6vmJGJ1I1WwAbQcRwugUpJUpe23C4dw0bMkk-m968zkTvFoYuty6qDONSwEgyRCCf5f71l&_nc_zt=14&_nc_ht=scontent.fcgh3-1.fna&_nc_gid=I6StWCgedEwj7Av64i6HbA&_nc_ss=7b289&oh=00_AQL7-cBCYafXxJ3qUsRji3zxlTMYjwXmXYUY-PPLe95IXQ&oe=6AB87117",
+            "diasAtivo": 504,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1369209780993922"
+          },
+          "outrosTextos": [
+            "A oportunidade de transformar sua vida com a Gastronomia é AGORA! Participe do nosso curso GRATUITO e APRENDA RÁPIDO a fazer BROWNIE! \n\n🔝 Dominar novas habilidades não só abre portas, mas também pode te trazer uma renda extra. \n\n💰 Aqui você vai APRENDER, FAZER E VENDER com confiança! Não perca tem",
+            "A oportunidade de transformar sua vida com a Gastronomia é AGORA! Participe do nosso curso GRATUITO e APRENDA RÁPIDO a fazer DOCES GOURMET! \n\n🔝 Dominar novas habilidades não só abre portas, mas também pode te trazer uma renda extra. \n\n💰 Aqui você vai APRENDER, FAZER E VENDER com confiança! Não per"
+          ]
+        },
+        {
+          "pagina": "Instituto Gourmet Tijuca",
+          "paginaId": "107733053968669",
+          "instagram": null,
+          "oferta": {
+            "chave": "wa:sem-numero",
+            "link": "https://api.whatsapp.com/send"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 43,
+          "sinais": {
+            "anunciosNaPagina": null,
+            "fonteContagem": "observado",
+            "ofertasNaPagina": 1,
+            "criativosDaOferta": 2,
+            "criativosEstimados": null,
+            "criativosNoLote": 2,
+            "collationMax": 1,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 446,
+            "diasAtivoMax": 446,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "fazer e vender"
+          ],
+          "anuncioPrincipal": {
+            "id": "664759239940841",
+            "titulo": "Converse no Whatsapp",
+            "texto": "A oportunidade de transformar sua vida com a Gastronomia é AGORA! Participe do nosso curso GRATUITO e APRENDA RÁPIDO a fazer SALGADOS! \n\n🔝 Dominar novas habilidades não só abre portas, mas também pode te trazer uma renda extra. \n\n💰 Aqui você vai APRENDER, FAZER E VENDER com confiança! Não perca tempo, fale com a gente no WhatsApp e garanta sua vaga! 📲💬",
+            "cta": "Enviar mensagem pelo WhatsApp",
+            "link": "https://api.whatsapp.com/send",
+            "tipoCriativo": "imagem",
+            "video": null,
+            "imagem": "https://scontent.fcgh3-2.fna.fbcdn.net/v/t39.35426-6/514418284_710146205342035_1342595740013698574_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=7oJXKCwbKGUQ7kNvwEsoX_W&_nc_oc=Adq2wSfFxuYAkPXVoxHMLV_4ho9I5bG94peK57fw66dPoOrEeDGgXBDprvwY4HEGHKQItT3R638sc85hXbU6ovyv&_nc_zt=14&_nc_ht=scontent.fcgh3-2.fna&_nc_gid=I6StWCgedEwj7Av64i6HbA&_nc_ss=7b289&oh=00_AQIgy--Dwll_2mURKdRnzZsRfB-E63TJ3IPjIeZdvIaucQ&oe=6AB8531E",
+            "diasAtivo": 446,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=664759239940841"
+          },
+          "outrosTextos": [
+            "A oportunidade de transformar sua vida com a Gastronomia é AGORA! Participe do nosso curso GRATUITO e APRENDA RÁPIDO a fazer BOLOS DECORADOS! \n\n🔝 Dominar novas habilidades não só abre portas, mas também pode te trazer uma renda extra. \n\n💰 Aqui você vai APRENDER, FAZER E VENDER com confiança! Não p"
+          ]
+        },
+        {
+          "pagina": "Bia Nocete",
+          "paginaId": "115853069820852",
+          "instagram": null,
+          "oferta": {
+            "chave": "bianocete.com.br/biscoitos",
+            "link": "https://bianocete.com.br/biscoitos/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 38,
+          "sinais": {
+            "anunciosNaPagina": null,
+            "fonteContagem": "observado",
+            "ofertasNaPagina": 1,
+            "criativosDaOferta": 1,
+            "criativosEstimados": null,
+            "criativosNoLote": 1,
+            "collationMax": 1,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 474,
+            "diasAtivoMax": 474,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "fazer e vender"
+          ],
+          "anuncioPrincipal": {
+            "id": "694572493312063",
+            "titulo": null,
+            "texto": "",
+            "cta": "Saiba mais",
+            "link": "https://bianocete.com.br/biscoitos/",
+            "tipoCriativo": "video",
+            "video": "https://video.fcgh3-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQP29abNbPBkJ6Hj5UvdbY0_kbnVSTCIFOJJpC6qpz9PMX8geP6p2EKCBqnE2xFximCfl0xzfNsieD1KfSlv67CmYOkXprJkk0MlUgIhbuHH9A.mp4?_nc_cat=109&_nc_oc=Adq3emnQkSJ7IGoHSUUjJr-bhhtZvARdrOo2T4y4Ld8j1iA-fytyzM0-RzZmaURlicjTt-YaJCWbr_D_-9A_cbZ1&_nc_sid=b66105&_nc_ht=video.fcgh3-1.fna.fbcdn.net&_nc_ohc=PIEKG4LbAlkQ7kNvwEnalvb&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEwNTU3MjM3ODY1MDYxNzQsImFzc2V0X2FnZV9kYXlzIjo0NzMsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjozNiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=f393740df01a8710&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9FODQxODRCQkE0MEM5RkM5MzFENDEzQjIwNzUxNTRCMl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dFd1JBQjVqckRJUWNjb0RBRW5iUVB6VWRCa2tidjRHQUFBRhUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb8vrSUm4vgAxUCKAJDMywXQEJI1P3ztkYYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=I6StWCgedEwj7Av64i6HbA&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLkUzbpTAtqIieFZjmIExdg0k8wrLpMPT1Rn1-b53R-zQ&oe=6AB87BB3",
+            "imagem": "https://scontent.fcgh3-1.fna.fbcdn.net/v/t39.35426-6/504194620_960290879421371_4221444651207004389_n.jpg?_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=zwIGBLk3ZHsQ7kNvwFynJqN&_nc_oc=AdqwuVMX_pwWnhPYV3VmIU51b2J67IhLd950j2vrwjE7xwdq6iadE1HQc66pvV5VVdlmaqxoBuJuNBLu5L6Yr153&_nc_zt=14&_nc_ht=scontent.fcgh3-1.fna&_nc_gid=I6StWCgedEwj7Av64i6HbA&_nc_ss=7b289&oh=00_AQJVVpXf2O-0d1iyopAPAMuyJ91KCWcW1TnenwiSivgp6g&oe=6AB88015",
+            "diasAtivo": 474,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=694572493312063"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Doce de Sabão",
+          "paginaId": "253773664798701",
+          "instagram": null,
+          "oferta": {
+            "chave": "docedesabao.com/gloss-labial",
+            "link": "https://docedesabao.com/gloss-labial/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 35,
+          "sinais": {
+            "anunciosNaPagina": null,
+            "fonteContagem": "observado",
+            "ofertasNaPagina": 1,
+            "criativosDaOferta": 1,
+            "criativosEstimados": null,
+            "criativosNoLote": 1,
+            "collationMax": 2,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 99,
+            "diasAtivoMax": 99,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "fazer e vender"
+          ],
+          "anuncioPrincipal": {
+            "id": "1039351612110219",
+            "titulo": "Gloss Labial",
+            "texto": "Aprenda a fazer um Gloss Labial que hidrata, dá brilho e deixa os lábios com aparência mais bonita.\n\nClique em saiba mais ou nesse link: https://docedesabao.com/gloss-labial/",
+            "cta": "Saiba mais",
+            "link": "https://docedesabao.com/gloss-labial/",
+            "tipoCriativo": "video",
+            "video": "https://video.fcgh3-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQOpgcktt8Qgche0vG_EFJzBpXkhDh1v2btgl0M6C_eb0dtafX2uvfQEMlMcAMJ97TA3YE5OqKn9km7HwJCJsez_vz9amEGmKHznSPBG3Vz9Sw.mp4?_nc_cat=102&_nc_oc=AdrPXhYaJDH9M1t0HcNEiht9jyeLSEvmiT2KzLWOccwUa8Bgz0ZuUVgNP0_leu6MxlJi7wDrKd2ZV3fMBcdJtvJB&_nc_sid=b66105&_nc_ht=video.fcgh3-1.fna.fbcdn.net&_nc_ohc=I_j0ueYukxAQ7kNvwGnnUBP&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE0Nzc1OTU2MTcwMDI3NjgsImFzc2V0X2FnZV9kYXlzIjoxMDQsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo0OCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=a2e0ca08f0c88d96&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8wNzQ4REVDNkMzMjJGRkU4NDcwMERENTkxM0RBQTRCQl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzJCNDk2M0U2NzMzRTRGQ0E0Mzc2NUQ2RUQzQjE2RUEwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaglPydsfefBRUCKAJDMywXQEhiDEm6XjUYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=I6StWCgedEwj7Av64i6HbA&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQIR3-yBHbDclZW0oKqP7ceCJtpkmcKrxxUi98k4W-2CcA&oe=6AB86B66",
+            "imagem": "https://scontent.fcgh3-1.fna.fbcdn.net/v/t39.35426-6/719223451_1536923727804770_8219496188024457369_n.jpg?_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=_ZClRfcjEoUQ7kNvwGszhBt&_nc_oc=AdpSuP3pq4wXXsIKhrow6Kz1Sz2AgfANjZy7UzJVHyAiTxArqYH7Wztp-plPyAdEVXwvtFYRGklE4J4U-iRtRunD&_nc_zt=14&_nc_ht=scontent.fcgh3-1.fna&_nc_gid=I6StWCgedEwj7Av64i6HbA&_nc_ss=7b289&oh=00_AQKt3knhDEZ2pZLROvO6b6Zb9-TrvCeJWTM5rmisujQQMQ&oe=6AB87BD6",
+            "diasAtivo": 99,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1039351612110219"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "InfinitePay",
+          "paginaId": "222086361593149",
+          "instagram": null,
+          "oferta": {
+            "chave": "infinitepay.io/lp/link-de-pagamento",
+            "link": "https://www.infinitepay.io/lp/link-de-pagamento"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 33,
+          "sinais": {
+            "anunciosNaPagina": null,
+            "fonteContagem": "observado",
+            "ofertasNaPagina": 1,
+            "criativosDaOferta": 1,
+            "criativosEstimados": null,
+            "criativosNoLote": 1,
+            "collationMax": 1,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 98,
+            "diasAtivoMax": 98,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "fazer e vender"
+          ],
+          "anuncioPrincipal": {
+            "id": "2270135013797657",
+            "titulo": null,
+            "texto": "Bolo de última hora até dá pra fazer... Trabalhar sem garantia, não.\n\nMandou o Link de Pagamento, confirmou a encomenda, partiu correria.\n\nE nessa, cada venda pode virar mais uma chance na Goleada Milionária.\n\nPorque, além de garantir o pedido, você ainda concorre a prêmios de até R$1 milhão.\n\n#influ #NoCorre #InfinitePay #collab #GoleadaMilionária",
+            "cta": "Saiba mais",
+            "link": "https://www.infinitepay.io/lp/link-de-pagamento",
+            "tipoCriativo": "video",
+            "video": "https://video.fcgh3-1.fna.fbcdn.net/o1/v/t2/f2/m367/AQNy8037JWpz1DPhjVSHtuTQN08l6iPxkz7nGz5eT98fBgcQb9rAIP7URl3jW5ZPdnr_bF5dwGe7Y_XzFwXV2mvrUpke0Oux7hBue4LQLg.mp4?_nc_cat=107&_nc_oc=AdqzrB4e2_nm1fyPIzAiMzMX9tWB6MoIwT9zGV2VEsomjg86JoBQRE11MFVcdQG1Gjb3AGFwZ95hdd-rTRuN1rz9&_nc_sid=ef5aa3&_nc_ht=video.fcgh3-1.fna.fbcdn.net&_nc_ohc=ws07IpkPZrEQ7kNvwFIY8lG&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxODQwMzMyMjAxNDE1ODM3OCwiYXNzZXRfYWdlX2RheXMiOjEwNCwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjU2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=I6StWCgedEwj7Av64i6HbA&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQKv_WqqBVpwJztmLpGs92683KMyfnDkSinMdxXRlldt7A&oe=6AB882B3",
+            "imagem": "https://scontent.fcgh3-2.fna.fbcdn.net/v/t39.35426-6/724123572_2442760239561280_4311174305496395940_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=57SncVTyz_MQ7kNvwEk97WX&_nc_oc=AdrOfjzWepMigHUDd2vluK9HiK4BnoKEO8N27HKB96tysyKKUg_drX9rzfBpcbg8SuWd0hO9yhE9IWrm4d5rqtln&_nc_zt=14&_nc_ht=scontent.fcgh3-2.fna&_nc_gid=I6StWCgedEwj7Av64i6HbA&_nc_ss=7b289&oh=00_AQI6G3K_pMm_MGqspqVjOekSnCKn3EJOnbFnKFtSi2xfRg&oe=6AB85120",
+            "diasAtivo": 98,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2270135013797657"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Curso Biscoitos Caseiros",
+          "paginaId": "298146350524859",
+          "instagram": null,
+          "oferta": {
+            "chave": "biscoitoscaseiros.com/bvideo",
+            "link": "https://biscoitoscaseiros.com/bvideo/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 31,
+          "sinais": {
+            "anunciosNaPagina": null,
+            "fonteContagem": "observado",
+            "ofertasNaPagina": 1,
+            "criativosDaOferta": 1,
+            "criativosEstimados": null,
+            "criativosNoLote": 1,
+            "collationMax": 1,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 90,
+            "diasAtivoMax": 90,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "fazer e vender"
+          ],
+          "anuncioPrincipal": {
+            "id": "1375470821306988",
+            "titulo": "👉 CURSO COMPLETO + BÔNUS EXCLUSIVOS",
+            "texto": "👀 Quer fazer biscoitos como esses?\nAprenda no meu curso de Biscoitos! Mais de 25 receitas incríveis para vender muito, todos os dias. Receitas baratas e lucrativas.\n\nPerfeitos para quem gosta de comer biscoitos, para fazer para os amigos, família e até vender e faturar MUITO! 💰",
+            "cta": "Saiba mais",
+            "link": "https://biscoitoscaseiros.com/bvideo/",
+            "tipoCriativo": "video",
+            "video": "https://video.fcgh3-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQNJ1gywhIWjFW3rqRotshYI6nNjZLEW46I62q8m3JGORdeO32EtBJjRmZrjBySfWAEEXI5s7df-cLUVHsOid8pyVbO86BnKeFJVXmmaf_SHFQ.mp4?_nc_cat=101&_nc_oc=AdpKAvkPYSp_db1n9_FM00zg6KkpM_bWsjwG6xwfJDnWSoA2IZdJRBbXQ8FnHeoJ3ZegpntaUBuKVfOijplFQITA&_nc_sid=b66105&_nc_ht=video.fcgh3-1.fna.fbcdn.net&_nc_ohc=gx4OJdz55awQ7kNvwFe7N_Q&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE2NjcyNTIxMzA5NDY1MTUsImFzc2V0X2FnZV9kYXlzIjoxODQsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjozNiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=7a14c0a8b76a2d4f&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9GNjRGMzQyMkYyOEQ4RjhBMThEN0ExRkNDRDM5N0Y4QV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzkwNDIyRTQ3NzQ1ODA5NjNCODRCRkZBMDdENTJGMEI2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACam96Cw7Jb2BRUCKAJDMywXQEII1P3ztkYYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=I6StWCgedEwj7Av64i6HbA&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQL7yl_1R3QMvv50tVn6qX_LRZd-b5qEam-4bfg9AIcmdw&oe=6AB8747F",
+            "imagem": "https://scontent.fcgh3-1.fna.fbcdn.net/v/t39.35426-6/729186695_2364195344191361_2940731668178104415_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=1RBSpzdRIuQQ7kNvwHAsdDm&_nc_oc=AdqCKzVgkG7EsRmx6VY5Fu3qure0ENnc48uq0Q4dU6J2AA8ShUbD_4qCWIwSKMcUokQqh4MtwxC0WprD12RQaU95&_nc_zt=14&_nc_ht=scontent.fcgh3-1.fna&_nc_gid=I6StWCgedEwj7Av64i6HbA&_nc_ss=7b289&oh=00_AQK1hSKdIrVBmYoMXBCNuSbSx5IJ1OsfWLNYxztDwo03Cw&oe=6AB8821C",
+            "diasAtivo": 90,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1375470821306988"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Lúcia Melo",
+          "paginaId": "823403710865773",
+          "instagram": null,
+          "oferta": {
+            "chave": "wa:sem-numero",
+            "link": "https://api.whatsapp.com/send"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 28,
+          "sinais": {
+            "anunciosNaPagina": null,
+            "fonteContagem": "observado",
+            "ofertasNaPagina": 1,
+            "criativosDaOferta": 3,
+            "criativosEstimados": null,
+            "criativosNoLote": 3,
+            "collationMax": 1,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 43,
+            "diasAtivoMax": 46,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "fazer e vender"
+          ],
+          "anuncioPrincipal": {
+            "id": "1354740190158599",
+            "titulo": "✅Apenas 10 Reais",
+            "texto": "🤍 Suspiro Gourmet — Leve no Tamanho, Gigante nas Vendas\n\nUm doce simples à primeira vista…\nmas quando feito do jeito certo, vira produto premium, renda extra e sucesso de vendas.\n\nAqui você recebe um pacote completo de receitas de suspiro gourmet, pensado para quem quer encantar clientes, vender muito e transformar algo simples em lucro todos os dias.\n\n✅ Receita do suspiro perfeito (sequinho por fora e derretendo na boca)\n✅ Sabores mais pedidos do mercado: morango, ninho, chocolate, pistache e nutella\n✅ Técnica do ponto certo (para não murchar e ficar lindo)\n✅ Passo a passo simples, direto e fácil de seguir\n✅ Dicas de apresentação e embalagem em saquinhos para valorizar o produto\n✅ Estratégias para vender mais e aumentar o valor por unidade\n\n✨ Cada receita foi pensada para gerar elogios, pedidos repetidos e clientes voltando sempre, mesmo que você esteja começando do zero na cozinha.\n\n\ud83d",
+            "cta": "Enviar mensagem pelo WhatsApp",
+            "link": "https://api.whatsapp.com/send",
+            "tipoCriativo": "video",
+            "video": "https://video.fcgh3-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQOR_2OGi3Rv5nr8pr5WGo_cWfhdmRpUKYqs2u48ruwVdpzG_KOzdyi_7H5C-PQDlF3FZnvGvf9HyZO2CgjZ6ChC5jIo-9YV7DRk7tQx25t7GA.mp4?_nc_cat=104&_nc_oc=AdrYwCbwQD9ky7v88yq5lGibG3WprP3vT40GWEzH1AifaQ3Motit_keGC2bu_bQx5moupVaAI_z29wllFqJ7s_mP&_nc_sid=b66105&_nc_ht=video.fcgh3-1.fna.fbcdn.net&_nc_ohc=K7CiWBYkg84Q7kNvwH87Oi9&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE1MTM5Mzg1NzY2MDY5MzQsImFzc2V0X2FnZV9kYXlzIjo2NywidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjU5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=b0b63c6e802b616e&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9DOTQzRjhFRTIxNjFBRDFERjQ3NDYzMUIyMkNBNzQ4OV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0NFNDlDRjYzNDk5NTlCQkFEMkM0RTA1NTkyNEUwOUEyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACasm5Cx6bqwBRUCKAJDMywXQE3mZmZmZmYYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=I6StWCgedEwj7Av64i6HbA&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQJPWAr60R_HWHFrf7r_Jx-NsLn5M1S4wmhMrIn0ZTeMcw&oe=6AB86594",
+            "imagem": "https://scontent.fcgh3-2.fna.fbcdn.net/v/t39.35426-6/759208655_2164417121007216_8976369553088098611_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=IRW-Ne8nrV8Q7kNvwHvH_rT&_nc_oc=AdoC_zDp076090HaGImoPg1qgggYyE7EF5oA9PHUheeU4b5HX4T0tAN6pxaxJMJamJO0xkVAJdbeNWZwvLJ299i5&_nc_zt=14&_nc_ht=scontent.fcgh3-2.fna&_nc_gid=I6StWCgedEwj7Av64i6HbA&_nc_ss=7b289&oh=00_AQLPcoPEPz_2r-gYjtd3sDztHcIw38g-eLhQ-O-EKlS0Yw&oe=6AB86841",
+            "diasAtivo": 46,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1354740190158599"
+          },
+          "outrosTextos": [
+            "🤍 Suspiro Gourmet — Leve no Tamanho, Gigante nas Vendas\n\nUm doce simples à primeira vista…\nmas quando feito do jeito certo, vira produto premium, renda extra e sucesso de vendas.\n\nAqui você recebe um pacote completo de receitas de suspiro gourmet, pensado para quem quer encantar clientes, vender mu",
+            "🤍 Suspiro Gourmet — Leve no Tamanho, Gigante nas Vendas\n\nUm doce simples à primeira vista…\nmas quando feito do jeito certo, vira produto premium, renda extra e sucesso de vendas.\n\nAqui você recebe um pacote completo de receitas de suspiro gourmet, pensado para quem quer encantar clientes, vender mu"
+          ]
         }
       ]
     }
