@@ -52,6 +52,7 @@ const enrichPorNicho = Number(opt("--enrich", config.enriquecerPorNicho ?? 5)); 
 const enrich = !flag("--sem-enrich");
 const headful = flag("--headful");
 const reaproveitar = flag("--reaproveitar");
+const inicioRodada = Date.now();
 const hoje = new Date().toISOString().slice(0, 10);
 const outDir = join(ROOT, "data/raw", hoje);
 mkdirSync(outDir, { recursive: true });
@@ -335,7 +336,7 @@ async function dismissCookies(page) {
  * Devolve { ads, totalResultados } — totalResultados é o "~N resultados" que a
  * própria Meta mostra no topo (exato mesmo quando a página tem 500 anúncios).
  */
-async function coletar(url, max, rotulo, timeoutMs = 60000) {
+async function coletar(url, max, rotulo, timeoutMs = 40000) {
   const ctx = await getContext();
   const page = await ctx.newPage();
   const coletados = new Map();
@@ -395,7 +396,7 @@ async function coletar(url, max, rotulo, timeoutMs = 60000) {
 
   try {
     await page.goto(url, { waitUntil: "domcontentloaded", timeout: timeoutMs });
-    await sleep(jitter(1800, 1000));
+    await sleep(jitter(1200, 600));
     await dismissCookies(page);
     await lerEmbutidos();
     totalResultados = await lerTotal();
@@ -407,7 +408,7 @@ async function coletar(url, max, rotulo, timeoutMs = 60000) {
     const alvo = totalResultados !== null ? Math.min(max, totalResultados) : max;
     while (coletados.size < alvo && Date.now() < deadline && !rateLimited) {
       await page.mouse.wheel(0, 4000).catch(() => {});
-      await sleep(jitter(700, 500));
+      await sleep(jitter(500, 300));
       rodada++;
       if (totalResultados === null) totalResultados = await lerTotal();
       if (coletados.size === ultimo) {
@@ -642,7 +643,8 @@ async function processarNicho(nicho) {
     const { ads } = await coletar(buildSearchUrl(kw), kw.max ?? maxPorKeyword, `${nicho.id}/${kw.keyword}`);
     for (const ad of ads) ad._keyword = kw.keyword;
     todos.push(...ads);
-    await sleep(jitter(2500, 2500));
+    // Pausa entre buscas: com ~3 buscas por dia o risco de bloqueio e baixo.
+    await sleep(jitter(3000, 3000));
   }
 
   // dedup por id do anúncio entre keywords
@@ -660,7 +662,7 @@ async function processarNicho(nicho) {
       for (const pg of paginas) {
         const info = await enriquecerPagina(pg, nicho.keywords[0]?.pais ?? "BR");
         for (const o of ofertas) if ((o.pagina.id ?? o.pagina.nome) === (pg.id ?? pg.nome)) aplicarEnrich(o, info);
-        await sleep(jitter(5000, 5000)); // pausa longa entre páginas: menos bloqueio
+        await sleep(jitter(3000, 3000)); // pausa entre paginas de anunciante
       }
     } catch (e) {
       // Bloqueio no meio do enrich: guarda o nicho com o que já foi enriquecido.
@@ -772,4 +774,5 @@ for (const n of resumo.nichos) {
     console.log(`   ${t.novo ? "🆕" : "  "} [${t.score}] ${t.pagina} → ${t.oferta?.chave ?? "?"}  |  ${s.criativosDaOferta} criativos · página ${s.anunciosNaPagina ?? "?"} anúncios · ${s.diasAtivoMediana ?? "?"}d`);
   }
 }
-console.log(`\nArquivos em: ${outDir}`);
+console.log(`\nRodada: ${Math.round((Date.now() - inicioRodada) / 1000)}s`);
+console.log(`Arquivos em: ${outDir}`);

@@ -1,5 +1,5 @@
 {
-  "_doc": "Nichos e keywords que o minerador vasculha na Biblioteca de Anúncios da Meta. 'exato' = frase exata. 'pais' = ISO-2 ou ALL. 'ofertasPorNicho' = quantas ofertas o relatório entrega POR nicho. 'anunciosPorKeyword' = quantos anúncios coletar por keyword. 'enriquecerPorNicho' = quantas páginas por nicho visitar pra contar anúncios. 'nichosPorDia' = quantos nichos rodam por dia (rodízio automático: cada nicho entra a cada N dias). ECONOMIA: o proxy residencial é pago por GB e a Meta bloqueia depois de ~12 buscas seguidas. Menos keywords e menos nichos por dia = menos banda E menos bloqueio. 'ativo': false tira o nicho do rodízio sem apagar as keywords.",
+  "_doc": "Nichos e keywords da Biblioteca de Anúncios da Meta. 'exato' = frase exata. 'pais' = ISO-2 ou ALL. 'ofertasPorNicho' = ofertas por nicho no relatório. 'anunciosPorKeyword' = anúncios por busca (o HTML inicial já traz ~30; pedir mais obriga a rolar = mais banda). 'enriquecerPorNicho' = páginas de anunciante visitadas por nicho (dá o 'anúncios na página', o sinal mais valioso). 'nichosPorDia' = rodízio diário. 'ativo': false tira do rodízio. EFICIÊNCIA: 1 keyword por nicho basta — cada busca traz ~30 anúncios e a segunda keyword repete anunciante. Rodada alvo: ~9 carregamentos, 3-4 min, ~30 MB de proxy.",
   "ofertasPorNicho": 2,
   "anunciosPorKeyword": 20,
   "enriquecerPorNicho": 2,
@@ -8,11 +8,6 @@
       "id": "receitas",
       "nome": "Receitas",
       "keywords": [
-        {
-          "keyword": "receitas fáceis",
-          "exato": false,
-          "pais": "BR"
-        },
         {
           "keyword": "cardápio semanal",
           "exato": false,
@@ -24,11 +19,6 @@
       "id": "receitas_infantis",
       "nome": "Receitas para criança e bebê",
       "keywords": [
-        {
-          "keyword": "introdução alimentar",
-          "exato": true,
-          "pais": "BR"
-        },
         {
           "keyword": "meu filho não come",
           "exato": false,
@@ -44,11 +34,6 @@
           "keyword": "fazer e vender",
           "exato": true,
           "pais": "BR"
-        },
-        {
-          "keyword": "renda extra vendendo",
-          "exato": true,
-          "pais": "BR"
         }
       ]
     },
@@ -58,11 +43,6 @@
       "keywords": [
         {
           "keyword": "aprenda a fazer renda extra",
-          "exato": false,
-          "pais": "BR"
-        },
-        {
-          "keyword": "vivendo de renda extra",
           "exato": false,
           "pais": "BR"
         }
@@ -76,11 +56,6 @@
           "keyword": "estudo bíblico",
           "exato": true,
           "pais": "BR"
-        },
-        {
-          "keyword": "devocional",
-          "exato": false,
-          "pais": "BR"
         }
       ]
     },
@@ -92,11 +67,6 @@
           "keyword": "alfabetização",
           "exato": true,
           "pais": "BR"
-        },
-        {
-          "keyword": "aprender a ler",
-          "exato": false,
-          "pais": "BR"
         }
       ]
     },
@@ -106,11 +76,6 @@
       "keywords": [
         {
           "keyword": "receita dieta",
-          "exato": false,
-          "pais": "BR"
-        },
-        {
-          "keyword": "perder peso",
           "exato": false,
           "pais": "BR"
         }

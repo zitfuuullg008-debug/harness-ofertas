@@ -7,30 +7,10 @@
         "keyword": "alfabetização",
         "exato": true,
         "pais": "BR"
-      },
-      {
-        "keyword": "atividades infantis",
-        "exato": true,
-        "pais": "BR"
-      },
-      {
-        "keyword": "atividades tdah",
-        "exato": false,
-        "pais": "BR"
-      },
-      {
-        "keyword": "rotina do seu filho",
-        "exato": false,
-        "pais": "BR"
-      },
-      {
-        "keyword": "birra",
-        "exato": false,
-        "pais": "BR"
       }
     ]
   },
-  "coletadoEm": "2026-09-22T12:44:18.572Z",
+  "coletadoEm": "2026-09-22T14:41:02.011Z",
   "totalAnuncios": 0,
   "totalOfertas": 0,
   "ofertas": []
