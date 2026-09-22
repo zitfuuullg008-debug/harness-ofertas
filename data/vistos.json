@@ -71,8 +71,7 @@
     "222086361593149": {
       "nome": "InfinitePay",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21",
-      "vezes": 1
+      "ultimaVez": "2026-09-22"
     },
     "1245327435333901": {
       "nome": "Eleicao 2026 Patricia Luciane Santos de Lima de Lima Deputado Federal",
@@ -101,26 +100,22 @@
     "397559487252468": {
       "nome": "Bebê de Nutri - Nutricionista Franciele Loss",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21",
-      "vezes": 1
+      "ultimaVez": "2026-09-22"
     },
     "873331792536765": {
       "nome": "Doc João Migowski",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21",
-      "vezes": 1
+      "ultimaVez": "2026-09-22"
     },
     "109427604658281": {
       "nome": "Luiz Eduardo Campos da Fonte",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21",
-      "vezes": 1
+      "ultimaVez": "2026-09-22"
     },
     "100546952766801": {
       "nome": "Interlaser Máquinas - Produza Salgados e Doces",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21",
-      "vezes": 1
+      "ultimaVez": "2026-09-22"
     },
     "948190538606255": {
       "nome": "Karamell Store",
@@ -131,8 +126,7 @@
     "382381445421": {
       "nome": "Natura",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21",
-      "vezes": 1
+      "ultimaVez": "2026-09-22"
     },
     "1158143547370846": {
       "nome": "Roberta Carvalho",
@@ -256,6 +250,16 @@
       "nome": "Café 3 Corações",
       "primeiraVez": "2026-09-22",
       "ultimaVez": "2026-09-22"
+    },
+    "1533607293555934": {
+      "nome": "Belive",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "109729388747178": {
+      "nome": "Doces da Júlia",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
     }
   },
   "anuncios": {},
@@ -361,6 +365,83 @@
     "102130925469616|milareichertcursos.com.br/bolos-gelados-sem-restricoes": {
       "pagina": "Mila Reichert Low Carb",
       "link": "https://milareichertcursos.com.br/bolos-gelados-sem-restricoes",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "222086361593149|infinitepay.io/tap": {
+      "pagina": "InfinitePay",
+      "link": "https://www.infinitepay.io/tap",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "109427604658281|instagram.com/luladafonte": {
+      "pagina": "Luiz Eduardo Campos da Fonte",
+      "link": "https://instagram.com/luladafonte",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "109427604658281|instagram.com": {
+      "pagina": "Luiz Eduardo Campos da Fonte",
+      "link": "https://www.instagram.com/",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "222086361593149|itunes.apple.com/app/id1506929912": {
+      "pagina": "InfinitePay",
+      "link": "http://itunes.apple.com/app/id1506929912",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "1533607293555934|belivebefree.com.br/categoria/lanche-escolar": {
+      "pagina": "Belive",
+      "link": "https://belivebefree.com.br/categoria/lanche-escolar/",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "1533607293555934|belivebefree.com.br": {
+      "pagina": "Belive",
+      "link": "https://belivebefree.com.br/",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "873331792536765|sem-link:comenta \"turbo\" para receber o link": {
+      "pagina": "Doc João Migowski",
+      "link": null,
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "397559487252468|play.google.com/store/apps/details": {
+      "pagina": "Bebê de Nutri - Nutricionista Franciele Loss",
+      "link": "http://play.google.com/store/apps/details?id=br.com.entrega_digital.bebedenutri",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "100546952766801|wa:sem-numero": {
+      "pagina": "Interlaser Máquinas - Produza Salgados e Doces",
+      "link": "https://api.whatsapp.com/send",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "382381445421|accounts.natura-avon.com/queroserconsultora": {
+      "pagina": "Natura",
+      "link": "https://accounts.natura-avon.com/queroserconsultora",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "109729388747178|wa:sem-numero": {
+      "pagina": "Doces da Júlia",
+      "link": "https://api.whatsapp.com/send",
       "primeiraVez": "2026-09-22",
       "ultimaVez": "2026-09-22",
       "vezes": 1
