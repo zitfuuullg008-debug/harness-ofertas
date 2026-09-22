@@ -57,14 +57,21 @@ Se depois do descarte um nicho ficar sem 2 ofertas white, entregue menos e diga 
 
 Se estiver ambíguo → **MANTER** com nota de confiança baixa. Nunca descarte por falta de informação.
 
-## Passo 2b — Escolher as `ofertasNoTotal` melhores DO DIA (config, hoje = 3)
+## Passo 2c — Só oferta com PÁGINA DE VENDAS
 
-Junte as ofertas aprovadas de **todos os nichos coletados hoje** e escolha as 3 melhores. Regras:
-- No máximo 2 do mesmo nicho, 1 por página.
-- **Prioridade white:** empatou em sinais de escala, fica a de renda extra / receita / maternidade / educação infantil.
-- **Anti-repetição:** no máximo 1 das 3 pode ter saído no relatório anterior. Recorrente que segue no topo é sinal forte — marque `novo: false` e o `vezesVisto`.
-- Se sobrar menos de 3 ofertas white, entregue menos e explique no `resumo` — **nunca complete a cota com oferta de saúde**.
-- Nicho fora do rodízio de hoje vai em `nichosFaltando` como "fora do rodízio", não é falha.
+O usuário quer modelar página de vendas. Portanto:
+
+- **DESCARTE** oferta cujo destino é WhatsApp (`wa:`, `api.whatsapp.com`, `wa.me`), Instagram, Messenger, link de bio ou formulário do próprio Facebook. Motivo em `descartados`: "destino WhatsApp".
+- **MANTENHA** só quando `oferta.link` aponta pra uma página de vendas própria (domínio próprio, Hotmart/Kiwify/Braip/Atomicat/lovable, landing page).
+- Oferta boa demais pra ignorar mas que manda pro WhatsApp: cite numa linha no `resumo`, não vire card.
+
+## Passo 2b — Escolher as `ofertasPorNicho` melhores DE CADA NICHO (config, hoje = 2)
+
+Por nicho coletado hoje, escolha as 2 melhores que passaram nos filtros (low-ticket + não-black + página de vendas). Regras:
+- Uma oferta por página dentro do nicho.
+- **Anti-repetição:** no máximo 1 das 2 de um nicho pode ter saído no relatório anterior. Recorrente no topo é sinal forte — `novo: false` e `vezesVisto`.
+- Se um nicho não tem 2 aprovadas, entregue as que tiver e diga no `resumo` — **nunca complete a cota com oferta de saúde nem com destino WhatsApp**.
+- Nicho fora do rodízio vai em `nichosFaltando` como "fora do rodízio".
 
 ## Passo 3 — Ler o histórico
 
@@ -108,8 +115,11 @@ O usuário **não quer parede de texto**. Você escreve um JSON com cards curtos
 
 Use os `adId`/`paginaId` exatamente como estão em `data/raw/<hoje>/<nicho>.json` — o renderizador usa eles pra achar vídeo, thumbnail e a copy do anúncio. Se houver relatório anterior, inclua em `padroes` 1–2 bullets de "mudou vs. semana passada".
 
-Depois rode: `node scripts/render-relatorio.mjs saidas/mineracao/<hoje>.json` — gera `<hoje>.html` (cards visuais) e `<hoje>.md` (versão curta) e baixa as mídias pra `saidas/mineracao/midia/`.
+Depois, **nesta ordem**:
+
+1. `node scripts/enriquecer.mjs saidas/mineracao/<hoje>.json` — abre a página de cada anunciante escolhido e preenche `anunciosNaPagina` (total de anúncios ativos da página, de qualquer produto). É o número que o usuário mais quer ver; sem ele o card sai com "—". Leva ~15s por card.
+2. `node scripts/render-relatorio.mjs saidas/mineracao/<hoje>.json` — gera `<hoje>.html` (cards visuais) e `<hoje>.md` (versão curta) e baixa as mídias pra `saidas/mineracao/midia/`.
 
 ## Passo 5 — Responder no chat
 
-Uma linha: caminho do `.html` + as 3 ofertas escolhidas (página → 1 frase). Nada mais.
+Uma linha: caminho do `.html` + as ofertas escolhidas (página → 1 frase). Nada mais.

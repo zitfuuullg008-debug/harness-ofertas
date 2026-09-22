@@ -144,13 +144,13 @@ function cardHtml({ nicho, o, midia, ad, pagina }) {
   <header>
     <div class="quem">
       <strong>${esc(o.pagina)}</strong>
-      <small>${midia.curtidas ? `${Number(midia.curtidas).toLocaleString("pt-BR")} curtidas · ` : ""}${o.ofertasNaPagina ? `${o.ofertasNaPagina} oferta${o.ofertasNaPagina > 1 ? "s" : ""} na página · ` : ""}${esc(o.keyword ?? "")}</small>
+      <small>${midia.curtidas ? `${Number(midia.curtidas).toLocaleString("pt-BR")} curtidas · ` : ""}${esc(o.keyword ?? "")}</small>
     </div>
     ${badge}
   </header>
   <div class="media">${media}</div>
   <div class="stats">
-    ${stat(o.anunciosNaPagina, "anúncios na página")}
+    ${stat(o.anunciosNaPagina, "anúncios ativos na página")}
     ${stat(o.criativosEstimados && o.criativosEstimados > (o.criativosDaOferta ?? 0) ? `≈${o.criativosEstimados}` : o.criativosDaOferta, "criativos da oferta")}
     ${stat(o.diasRodando != null ? `${o.diasRodando}d` : null, "rodando")}
   </div>
@@ -259,7 +259,7 @@ for (const n of rel.nichos ?? []) {
     const pid = o.paginaId ?? pagina?.id;
     md.push(`### ${i + 1}. ${o.pagina} ${o.novo ? "🆕" : `🔁 ${o.vezesVisto ?? "?"}ª vez`}`);
     const criat = o.criativosEstimados && o.criativosEstimados > (o.criativosDaOferta ?? 0) ? `≈${o.criativosEstimados}` : (o.criativosDaOferta ?? "—");
-    md.push(`- **Anúncios na página:** ${o.anunciosNaPagina ?? "—"} · **criativos desta oferta:** ${criat} · rodando há ${o.diasRodando ?? "—"} dias${o.ofertasNaPagina ? ` · ${o.ofertasNaPagina} ofertas na página` : ""}`);
+    md.push(`- **Anúncios ativos na página:** ${o.anunciosNaPagina ?? "—"} · **criativos desta oferta:** ${criat} · rodando há ${o.diasRodando ?? "—"} dias`);
     md.push(`- **Produto:** ${o.produto}${o.preco ? ` — ${o.preco}` : ""}`);
     if (o.hook) md.push(`- **Hook:** "${o.hook}"`);
     md.push(`- **Por que está escalando:**`);
