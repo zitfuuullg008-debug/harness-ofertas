@@ -14,6 +14,7 @@
  *   node scripts/minerar.mjs --sem-enrich         # pula a contagem total de anúncios por página
  *   node scripts/minerar.mjs --reaproveitar       # usa a coleta de hoje dos nichos já feitos e minera só os que faltam
  *   node scripts/minerar.mjs --headful            # mostra o navegador (debug)
+ *   PROXY_URL=http://user:pass@host:port node scripts/minerar.mjs   # sai por proxy residencial (nuvem)
  *
  * O resumo é salvo a cada nicho concluído, então uma rodada interrompida (rate
  * limit, PC desligado) não perde nada — basta rodar de novo com --reaproveitar.
@@ -235,6 +236,21 @@ function mapAd(raw) {
 }
 
 // ───────────────────────── browser ─────────────────────────
+function proxyConfig() {
+  const raw = process.env.PROXY_URL;
+  if (!raw) return null;
+  try {
+    const u = new URL(raw);
+    return {
+      server: `${u.protocol}//${u.hostname}${u.port ? `:${u.port}` : ""}`,
+      ...(u.username ? { username: decodeURIComponent(u.username), password: decodeURIComponent(u.password) } : {}),
+    };
+  } catch {
+    log("proxy_invalido", { valor: raw.replace(/\/\/.*@/, "//***@") });
+    return null;
+  }
+}
+
 let context = null;
 async function getContext() {
   if (context) return context;
@@ -254,6 +270,9 @@ async function getContext() {
     serviceWorkers: "block",
     args: ["--no-sandbox", "--disable-blink-features=AutomationControlled", "--disable-dev-shm-usage"],
     ...(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {}),
+    // PROXY_URL=http://user:pass@host:port — proxy residencial (a Meta bloqueia IP de datacenter;
+    // na nuvem é obrigatório, em casa não precisa).
+    ...(proxyConfig() ? { proxy: proxyConfig() } : {}),
   });
   await context.addInitScript(() => {
     Object.defineProperty(navigator, "webdriver", { get: () => undefined });
