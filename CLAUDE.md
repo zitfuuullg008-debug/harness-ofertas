@@ -10,7 +10,8 @@ renda extra, cristão, maternidade (ver `config/nichos.json`; fitness está desl
 |---|---|
 | `config/nichos.json` | Nichos e keywords que o minerador vasculha. Edite aqui pra adicionar nicho. |
 | `produtos/*.md` | Uma ficha por produto do usuário (promessa, preço, público, mecanismo, copy vencedora). `_TEMPLATE.md` é o modelo. Arquivos começando com `_` são ignorados. |
-| `scripts/minerar.mjs` | Scraper Playwright da Biblioteca de Anúncios. Gera `data/raw/<data>/resumo.json`. |
+| `scripts/importar-adhunter.mjs` | **Fonte dos dados.** Lê o cache do Ad Hunter no Supabase e gera `data/raw/<data>/`. |
+| `scripts/minerar.mjs` | Scraper próprio, aposentado. Só manual, com `--coletar`. |
 | `scripts/render-relatorio.mjs` | Transforma o JSON do minerador em `<data>.html` (cards visuais com vídeo) + `<data>.md` curto, e baixa as mídias. |
 | `data/raw/<data>/` | Coleta bruta do dia. `resumo.json` é o arquivo compacto que os agentes leem. |
 | `data/vistos.json` | Histórico de ofertas e páginas já vistas (marca o que é novo). |
@@ -32,7 +33,7 @@ A coleta **não é feita neste projeto**. Quem minera é o **Ad Hunter** (`C:\Us
    - `scripts/render-relatorio.mjs` gera HTML + MD; o commit publica no site
 2. GitHub Pages: https://zitfuuullg008-debug.github.io/harness-ofertas/
 
-**Nicho com cache velho:** o relatório avisa e o usuário roda aquela categoria no Ad Hunter. `scripts/minerar.mjs` (scraper próprio) fica como plano B — só com `--coletar`, porque gasta banda/proxy e arrisca bloqueio da Meta.
+**Nicho com cache velho:** o relatório avisa e o usuário roda aquela categoria no Ad Hunter. `scripts/minerar.mjs` (scraper próprio) está **aposentado** — não há agendamento nem workflow chamando ele. Ficou no repositório só como plano B manual (`--coletar`); usar gasta banda e arrisca bloqueio da Meta, então não use sem o usuário pedir.
 
 ## Como rodar
 
