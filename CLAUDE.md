@@ -21,13 +21,18 @@ renda extra, cristão, maternidade (ver `config/nichos.json`; fitness está desl
 | `saidas/modelagem/` | Material do pipeline MVT quando o usuário escolhe uma oferta pra modelar (`/modelar`). |
 | `.claude/commands/` | `/minerar` (rodada diária), `/modelar` (oferta → página MVT), `/ideias`, `/criativos`, `/semana`. |
 
-## Rodada diária (automática, sem o PC do usuário)
+## Rodada diária (o scraping é do Ad Hunter, não daqui)
 
-1. **05:00** — GitHub Actions (`.github/workflows/minerar.yml`) coleta via proxy residencial (segredo `PROXY_URL`) e comita `data/raw/<data>/`. Roda `nichosPorDia` nichos em **rodízio** (3 por dia entre os `ativo != false`).
-2. **06:00** — rotina do Claude na nuvem lê a coleta, classifica, escolhe 2 por nicho, enriquece e publica, renderiza e comita `saidas/` + `index.html`.
-3. GitHub Pages publica: https://zitfuuullg008-debug.github.io/harness-ofertas/
+A coleta **não é feita neste projeto**. Quem minera é o **Ad Hunter** (`C:\Users\maria\Desktop\ad-hunter`), que o usuário roda ~2x por semana: ele já tem proxy residencial, categorias configuradas, filtro low-ticket por IA e exclusão de destino WhatsApp. O resultado fica no Supabase dele, na tabela `category_scrape_cache`.
 
-**Banda é dinheiro:** o proxy é pago por GB. Não aumente keywords, nichos por dia ou `--max` sem necessidade; não rode o scraper "pra testar" — use a coleta já commitada em `data/raw/`.
+1. **06:00** — a tarefa `HarnessOfertas` do Windows roda `/minerar`:
+   - `scripts/importar-adhunter.mjs` lê o cache do Ad Hunter para `data/raw/<data>/`
+   - o agente **minerador** filtra, monta o pool e marca as `recomendadas`
+   - `scripts/enriquecer.mjs` conta criativos reais, confere o destino do link e salva o dossiê da página
+   - `scripts/render-relatorio.mjs` gera HTML + MD; o commit publica no site
+2. GitHub Pages: https://zitfuuullg008-debug.github.io/harness-ofertas/
+
+**Nicho com cache velho:** o relatório avisa e o usuário roda aquela categoria no Ad Hunter. `scripts/minerar.mjs` (scraper próprio) fica como plano B — só com `--coletar`, porque gasta banda/proxy e arrisca bloqueio da Meta.
 
 ## Como rodar
 
