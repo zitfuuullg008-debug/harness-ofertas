@@ -1,0 +1,84 @@
+# Coleta diária na Biblioteca de Anúncios da Meta, rodando no GitHub Actions
+# (internet aberta + proxy residencial). Comita data/raw/<data>/ no repositório;
+# a rotina do Claude na nuvem lê daí, classifica e publica o relatório.
+#
+# Segredo necessário (Settings → Secrets and variables → Actions):
+#   PROXY_URL = http://usuario:senha@gate.decodo.com:7000   (proxy residencial)
+name: Minerar ofertas
+
+on:
+  schedule:
+    - cron: "0 8 * * *" # 05:00 em Brasília — a rotina do Claude roda às 06:00
+  workflow_dispatch:
+    inputs:
+      nichos:
+        description: "Nichos (ids separados por vírgula). Vazio = todos."
+        default: ""
+      max:
+        description: "Anúncios por keyword"
+        default: "20"
+      enrich:
+        description: "Páginas visitadas por nicho"
+        default: "3"
+      top:
+        description: "Ofertas por nicho no resumo"
+        default: "8"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: minerar
+  cancel-in-progress: false
+
+jobs:
+  minerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Dependências + Chromium
+        run: |
+          npm ci --ignore-scripts --no-audit --no-fund
+          npx playwright install --with-deps chromium
+
+      - name: Minerar
+        env:
+          PROXY_URL: ${{ secrets.PROXY_URL }}
+        run: |
+          set -o pipefail
+          ARGS="--reaproveitar"
+          [ -n "${{ inputs.nichos }}" ] && ARGS="$ARGS --nicho ${{ inputs.nichos }}"
+          [ -n "${{ inputs.max }}" ]    && ARGS="$ARGS --max ${{ inputs.max }}"
+          [ -n "${{ inputs.enrich }}" ] && ARGS="$ARGS --enrich ${{ inputs.enrich }}"
+          [ -n "${{ inputs.top }}" ]    && ARGS="$ARGS --top ${{ inputs.top }}"
+          if [ -z "$PROXY_URL" ]; then echo "::warning::PROXY_URL não configurado — a Meta pode bloquear o IP do runner"; fi
+          echo "node scripts/minerar.mjs $ARGS"
+          node scripts/minerar.mjs $ARGS 2>&1 | tee minerar.log
+
+      - name: Commit da coleta
+        run: |
+          HOJE=$(date -u +%Y-%m-%d)
+          # Mantém só os últimos 10 dias de coleta bruta no repositório.
+          find data/raw -mindepth 1 -maxdepth 1 -type d -mtime +10 -exec git rm -rq {} + 2>/dev/null || true
+          git config user.name "harness-ofertas[bot]"
+          git config user.email "bot@harness-ofertas"
+          git add -f "data/raw/$HOJE" data/vistos.json
+          if git diff --cached --quiet; then echo "nada novo pra commitar"; exit 0; fi
+          RESUMO=$(node -e 'const r=require("./data/raw/'"$HOJE"'/resumo.json");console.log(r.nichos.map(n=>`${n.id}:${n.totalAnuncios}`).join(" "))' 2>/dev/null || echo "")
+          git commit -m "coleta $HOJE: $RESUMO"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Log da coleta
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: minerar-log
+          path: minerar.log
+          retention-days: 7

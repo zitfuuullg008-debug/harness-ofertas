@@ -49,12 +49,15 @@ O scraper replica a técnica do Ad Hunter (intercepta o GraphQL da Biblioteca de
 
    Aparece no Agendador de Tarefas (Win+R → `taskschd.msc`) como `HarnessOfertas`. Abre o HTML no navegador quando termina. Remover: `Unregister-ScheduledTask -TaskName "HarnessOfertas" -Confirm:$false`.
 
-## Rotina na nuvem (Opção A) — o que ela faz
+## Rotina na nuvem (Opção A) — como funciona
 
-1. `bash scripts/nuvem.sh` — instala dependências + Chromium e roda `minerar.mjs --reaproveitar`
-2. Lê `.claude/agents/minerador.md` e age como o minerador: filtra low-ticket, escolhe as 4 melhores no geral, escreve `saidas/mineracao/<data>.json`
-3. `node scripts/render-relatorio.mjs saidas/mineracao/<data>.json --so-thumbs` — HTML + MD + thumbnails (sem vídeo, pra não pesar o repositório) + `index.html`
-4. `git add saidas index.html data/vistos.json && git commit && git push`
+Duas peças, porque o sandbox da nuvem do Claude não deixa o navegador sair direto pra internet:
+
+1. **GitHub Actions** (`.github/workflows/minerar.yml`) — todo dia às 05:00 (Brasília) roda o scraper com internet aberta e o proxy residencial (segredo `PROXY_URL` no repositório), e comita `data/raw/<data>/` no repositório. Mantém os últimos 10 dias.
+2. **Rotina do Claude** (claude.ai/code → Rotinas) — às 06:00 lê a coleta do dia, age como o agente minerador (filtra low-ticket, escolhe as 4 melhores), renderiza com `--so-thumbs` e comita `saidas/` + `index.html`. Se a coleta ainda não existir, `scripts/nuvem.sh` dispara o workflow e espera.
+3. **GitHub Pages** publica o site a cada commit: https://zitfuuullg008-debug.github.io/harness-ofertas/
+
+Teste manual: GitHub → Actions → "Minerar ofertas" → Run workflow (dá pra limitar nichos/anúncios).
 
 ## Rodar o scraper na mão
 
