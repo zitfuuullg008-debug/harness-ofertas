@@ -1,5 +1,5 @@
 {
-  "_doc": "Nichos e keywords da Biblioteca de Anúncios da Meta. 'exato' = frase exata. 'pais' = ISO-2 ou ALL. 'ofertasNoTotal' = tamanho do pool no relatório. 'recomendadas' = quantas vêm com ★ pra modelar via MVT. 'minCriativosDaOferta' = mínimo de criativos rodando no MESMO destino (régua dura). 'anunciosPorKeyword' = anúncios por busca. 'nichosPorDia' = 0 roda todos; N ativa rodízio. 'ativo': false tira o nicho do rodízio. A coleta roda no PC do usuário (internet de casa, sem proxy): banda é de graça, então vale varrer amplo. O gargalo é TEMPO e bloqueio da Meta, não MB.",
+  "_doc": "Nichos e keywords da Biblioteca de Anúncios da Meta. 'exato' = frase exata. 'pais' = ISO-2 ou ALL. 'ofertasNoTotal' = tamanho do pool no relatório. 'recomendadas' = quantas vêm com ★ pra modelar via MVT. 'minCriativosDaOferta' = mínimo de criativos rodando no MESMO destino (régua dura). 'anunciosPorKeyword' = anúncios por busca. 'nichosPorDia' = 0 roda todos; N ativa rodízio. 'ativo': false tira o nicho do rodízio. A coleta roda no PC do usuário (internet de casa, sem proxy): banda é de graça, então vale varrer amplo. O gargalo é TEMPO e bloqueio da Meta, não MB. 'prioridade' (1=alta) desempata quando o pool está cheio: receita, renda extra e maternidade na frente; cristão por último.",
   "ofertasNoTotal": 12,
   "recomendadas": 3,
   "anunciosPorKeyword": 30,
@@ -15,17 +15,7 @@
           "pais": "BR"
         },
         {
-          "keyword": "cardápio semanal",
-          "exato": false,
-          "pais": "BR"
-        },
-        {
           "keyword": "receita sobremesa",
-          "exato": false,
-          "pais": "BR"
-        },
-        {
-          "keyword": "receitas low carb",
           "exato": false,
           "pais": "BR"
         },
@@ -34,7 +24,8 @@
           "exato": false,
           "pais": "BR"
         }
-      ]
+      ],
+      "prioridade": 1
     },
     {
       "id": "receitas_infantis",
@@ -51,21 +42,12 @@
           "pais": "BR"
         },
         {
-          "keyword": "meu filho não come",
-          "exato": false,
-          "pais": "BR"
-        },
-        {
           "keyword": "lanche escolar",
           "exato": false,
           "pais": "BR"
-        },
-        {
-          "keyword": "papinha",
-          "exato": false,
-          "pais": "BR"
         }
-      ]
+      ],
+      "prioridade": 2
     },
     {
       "id": "comida_caseira",
@@ -73,11 +55,6 @@
       "keywords": [
         {
           "keyword": "fazer e vender",
-          "exato": true,
-          "pais": "BR"
-        },
-        {
-          "keyword": "renda extra vendendo",
           "exato": true,
           "pais": "BR"
         },
@@ -90,13 +67,9 @@
           "keyword": "salgados para vender",
           "exato": false,
           "pais": "BR"
-        },
-        {
-          "keyword": "doces para vender",
-          "exato": false,
-          "pais": "BR"
         }
-      ]
+      ],
+      "prioridade": 1
     },
     {
       "id": "renda_extra",
@@ -113,16 +86,12 @@
           "pais": "BR"
         },
         {
-          "keyword": "aprenda a fazer dinheiro",
-          "exato": false,
-          "pais": "BR"
-        },
-        {
           "keyword": "trabalhar de casa",
           "exato": false,
           "pais": "BR"
         }
-      ]
+      ],
+      "prioridade": 1
     },
     {
       "id": "cristao",
@@ -134,21 +103,12 @@
           "pais": "BR"
         },
         {
-          "keyword": "leitura bíblica",
-          "exato": true,
-          "pais": "BR"
-        },
-        {
           "keyword": "devocional",
           "exato": false,
           "pais": "BR"
-        },
-        {
-          "keyword": "entenda a bíblia",
-          "exato": false,
-          "pais": "BR"
         }
-      ]
+      ],
+      "prioridade": 3
     },
     {
       "id": "maternidade",
@@ -160,11 +120,6 @@
           "pais": "BR"
         },
         {
-          "keyword": "aprender a ler",
-          "exato": false,
-          "pais": "BR"
-        },
-        {
           "keyword": "atividades infantis",
           "exato": true,
           "pais": "BR"
@@ -173,13 +128,9 @@
           "keyword": "atividades tdah",
           "exato": false,
           "pais": "BR"
-        },
-        {
-          "keyword": "rotina do seu filho",
-          "exato": false,
-          "pais": "BR"
         }
-      ]
+      ],
+      "prioridade": 1
     },
     {
       "id": "fitness",
@@ -187,11 +138,6 @@
       "keywords": [
         {
           "keyword": "receita dieta",
-          "exato": false,
-          "pais": "BR"
-        },
-        {
-          "keyword": "perder peso",
           "exato": false,
           "pais": "BR"
         }

@@ -72,7 +72,7 @@ O usuário quer modelar página de vendas com a Metodologia MVT. Portanto:
    - **Mecanismo nomeado e transportável** ("sem forno, sem fogo e sem ovo", "cardápio 6–24 meses") — dá pra modelar sem clonar;
    - **Página de vendas de verdade** (checkout Hotmart/Kiwify/Braip ou própria), porque é o que vamos modelar;
    - **Escala comprovada**: criativos na oferta (o mais importante) + anúncios ativos na página + dias rodando;
-   - **White e do gosto do usuário**: renda extra, receita, maternidade/educação infantil.
+   - **White e do gosto do usuário**, nesta ordem: renda extra (inclusive com comida caseira), receita, maternidade/educação infantil; cristão só se sobrar espaço. O campo `prioridade` de cada nicho em `config/nichos.json` diz isso (1 = alta).
    Em cada recomendada, escreva `porqueRecomendada` (1 frase: o que dela transporta pro produto dele).
 3. **Anti-repetição:** no máximo 1 das 3 recomendadas pode ter saído no relatório anterior.
 4. Se faltar oferta aprovada, entregue menos e diga no `resumo` — **nunca complete com saúde nem com destino WhatsApp**.

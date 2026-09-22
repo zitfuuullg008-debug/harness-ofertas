@@ -372,6 +372,21 @@
       "nome": "Papa Rica",
       "primeiraVez": "2026-09-22",
       "ultimaVez": "2026-09-22"
+    },
+    "836987269503104": {
+      "nome": "Prof Juliana ",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "856553134414922": {
+      "nome": "Odonto Excellence Franchising",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "582753254921542": {
+      "nome": "Matrículas Faveni",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
     }
   },
   "anuncios": {},
@@ -764,6 +779,27 @@
     "482876185064834|instagram.com/paparicaoficial": {
       "pagina": "Papa Rica",
       "link": "http://instagram.com/paparicaoficial",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "836987269503104|wa:sem-numero": {
+      "pagina": "Prof Juliana ",
+      "link": "https://api.whatsapp.com/send",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "856553134414922|odontoexcellence.com.br": {
+      "pagina": "Odonto Excellence Franchising",
+      "link": "http://odontoexcellence.com.br/",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "582753254921542|wa:sem-numero": {
+      "pagina": "Matrículas Faveni",
+      "link": "https://api.whatsapp.com/send",
       "primeiraVez": "2026-09-22",
       "ultimaVez": "2026-09-22",
       "vezes": 1

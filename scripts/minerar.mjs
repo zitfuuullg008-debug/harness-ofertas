@@ -74,7 +74,11 @@ function nichosDoDia(todos, porDia) {
 }
 
 // `ativo: false` tira o nicho do rodízio (ex.: nichos black que o usuário não quer).
-const ativos = config.nichos.filter((n) => n.ativo !== false);
+// Ordem por `prioridade` (1 = alta): se a Meta bloquear no meio da rodada, o que
+// fica de fora são os nichos que o usuário menos usa.
+const ativos = config.nichos
+  .filter((n) => n.ativo !== false)
+  .sort((a, b) => (a.prioridade ?? 9) - (b.prioridade ?? 9));
 const nichos = idsPedidos
   ? config.nichos.filter((n) => idsPedidos.includes(n.id))
   : flag("--todos")
