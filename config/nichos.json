@@ -1,9 +1,9 @@
 {
-  "_doc": "Nichos e keywords da Biblioteca de Anúncios da Meta. 'exato' = frase exata. 'pais' = ISO-2 ou ALL. 'ofertasNoTotal' = quantas ofertas entram no relatório (o pool). 'recomendadas' = quantas dessas vêm destacadas no topo como sugestão pra modelar com a Metodologia MVT. 'anunciosPorKeyword' = anúncios por busca (o HTML inicial já traz ~30; pedir mais obriga a rolar = mais banda). 'enriquecerPorNicho' = páginas de anunciante visitadas por nicho (dá o 'anúncios na página', o sinal mais valioso). 'nichosPorDia' = rodízio diário. 'ativo': false tira do rodízio. EFICIÊNCIA: 1 keyword por nicho basta — cada busca traz ~30 anúncios e a segunda keyword repete anunciante. Rodada alvo: ~9 carregamentos, 3-4 min, ~30 MB de proxy. 'minCriativosDaOferta' = mínimo de criativos rodando na MESMA oferta pra entrar no relatório (quanto mais, melhor).",
-  "ofertasNoTotal": 10,
+  "_doc": "Nichos e keywords da Biblioteca de Anúncios da Meta. 'exato' = frase exata. 'pais' = ISO-2 ou ALL. 'ofertasNoTotal' = tamanho do pool no relatório. 'recomendadas' = quantas vêm com ★ pra modelar via MVT. 'minCriativosDaOferta' = mínimo de criativos rodando no MESMO destino (régua dura). 'anunciosPorKeyword' = anúncios por busca. 'nichosPorDia' = 0 roda todos; N ativa rodízio. 'ativo': false tira o nicho do rodízio. A coleta roda no PC do usuário (internet de casa, sem proxy): banda é de graça, então vale varrer amplo. O gargalo é TEMPO e bloqueio da Meta, não MB.",
+  "ofertasNoTotal": 12,
   "recomendadas": 3,
-  "anunciosPorKeyword": 20,
-  "enriquecerPorNicho": 1,
+  "anunciosPorKeyword": 30,
+  "enriquecerPorNicho": 0,
   "nichos": [
     {
       "id": "receitas",
@@ -12,8 +12,27 @@
         {
           "keyword": "receitas fáceis",
           "exato": false,
-          "pais": "BR",
-          "_nota": "\"cardápio semanal\" e \"low carb\" puxavam oferta de saúde (fígado/dieta) — trocadas."
+          "pais": "BR"
+        },
+        {
+          "keyword": "cardápio semanal",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "receita sobremesa",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "receitas low carb",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "receita de bolo",
+          "exato": false,
+          "pais": "BR"
         }
       ]
     },
@@ -24,8 +43,27 @@
         {
           "keyword": "receitas para bebê",
           "exato": false,
-          "pais": "BR",
-          "_nota": "Gerou as 2 ofertas white de 22/09; \"meu filho não come\" rendeu menos."
+          "pais": "BR"
+        },
+        {
+          "keyword": "introdução alimentar",
+          "exato": true,
+          "pais": "BR"
+        },
+        {
+          "keyword": "meu filho não come",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "lanche escolar",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "papinha",
+          "exato": false,
+          "pais": "BR"
         }
       ]
     },
@@ -36,8 +74,27 @@
         {
           "keyword": "fazer e vender",
           "exato": true,
-          "pais": "BR",
-          "_nota": "Gerou Roberta Carvalho (pudim, 25 criativos, 142 dias)."
+          "pais": "BR"
+        },
+        {
+          "keyword": "renda extra vendendo",
+          "exato": true,
+          "pais": "BR"
+        },
+        {
+          "keyword": "bolo no pote",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "salgados para vender",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "doces para vender",
+          "exato": false,
+          "pais": "BR"
         }
       ]
     },
@@ -47,6 +104,21 @@
       "keywords": [
         {
           "keyword": "aprenda a fazer renda extra",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "vivendo de renda extra",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "aprenda a fazer dinheiro",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "trabalhar de casa",
           "exato": false,
           "pais": "BR"
         }
@@ -60,6 +132,21 @@
           "keyword": "estudo bíblico",
           "exato": true,
           "pais": "BR"
+        },
+        {
+          "keyword": "leitura bíblica",
+          "exato": true,
+          "pais": "BR"
+        },
+        {
+          "keyword": "devocional",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "entenda a bíblia",
+          "exato": false,
+          "pais": "BR"
         }
       ]
     },
@@ -70,6 +157,26 @@
         {
           "keyword": "alfabetização",
           "exato": true,
+          "pais": "BR"
+        },
+        {
+          "keyword": "aprender a ler",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "atividades infantis",
+          "exato": true,
+          "pais": "BR"
+        },
+        {
+          "keyword": "atividades tdah",
+          "exato": false,
+          "pais": "BR"
+        },
+        {
+          "keyword": "rotina do seu filho",
+          "exato": false,
           "pais": "BR"
         }
       ]
@@ -82,12 +189,18 @@
           "keyword": "receita dieta",
           "exato": false,
           "pais": "BR"
+        },
+        {
+          "keyword": "perder peso",
+          "exato": false,
+          "pais": "BR"
         }
       ],
       "ativo": false,
       "_nota": "Desligado a pedido do usuário: nicho black (saúde/emagrecimento). Não entra no rodízio."
     }
   ],
-  "nichosPorDia": 3,
-  "minCriativosDaOferta": 15
+  "nichosPorDia": 0,
+  "minCriativosDaOferta": 15,
+  "buscasEmParalelo": 3
 }

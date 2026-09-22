@@ -13,7 +13,8 @@
  *   node scripts/minerar.mjs --max 20             # anúncios por keyword
  *   node scripts/minerar.mjs --sem-enrich         # pula a contagem total de anúncios por página
  *   node scripts/minerar.mjs --reaproveitar       # usa a coleta de hoje dos nichos já feitos e minera só os que faltam
- *   node scripts/minerar.mjs --todos              # ignora o rodízio e roda os 7 nichos
+ *   node scripts/minerar.mjs --todos              # ignora o rodízio e roda todos os nichos ativos
+ *   node scripts/minerar.mjs --paralelo 3         # buscas simultâneas (padrão 3)
  *   node scripts/minerar.mjs --headful            # mostra o navegador (debug)
  *   PROXY_URL=http://user:pass@host:port node scripts/minerar.mjs   # sai por proxy residencial (nuvem)
  *
@@ -49,6 +50,7 @@ const soNicho = opt("--nicho", null);
 const maxPorKeyword = Number(opt("--max", config.anunciosPorKeyword ?? 40));
 const topPorNicho = Number(opt("--top", 8)); // quantas ofertas por nicho vão pro resumo
 const enrichPorNicho = Number(opt("--enrich", config.enriquecerPorNicho ?? 5)); // páginas visitadas por nicho
+const paralelo = Math.max(1, Number(opt("--paralelo", config.buscasEmParalelo ?? 3)));
 const enrich = !flag("--sem-enrich");
 const headful = flag("--headful");
 const reaproveitar = flag("--reaproveitar");
@@ -639,12 +641,27 @@ async function processarNicho(nicho) {
   log("nicho_inicio", { nicho: nicho.id, keywords: nicho.keywords.length });
   let abortou = false;
   const todos = [];
-  for (const kw of nicho.keywords) {
-    const { ads } = await coletar(buildSearchUrl(kw), kw.max ?? maxPorKeyword, `${nicho.id}/${kw.keyword}`);
-    for (const ad of ads) ad._keyword = kw.keyword;
-    todos.push(...ads);
-    // Pausa entre buscas: com ~3 buscas por dia o risco de bloqueio e baixo.
-    await sleep(jitter(3000, 3000));
+  // Buscas em paralelo (lotes de `paralelo`): a coleta roda no PC, pela internet
+  // de casa, então o gargalo é tempo — não banda. 5 keywords em série levavam
+  // ~50s; em lotes de 3 caem pra ~20s.
+  for (let i = 0; i < nicho.keywords.length; i += paralelo) {
+    const lote = nicho.keywords.slice(i, i + paralelo);
+    const resultados = await Promise.all(
+      lote.map((kw) =>
+        coletar(buildSearchUrl(kw), kw.max ?? maxPorKeyword, `${nicho.id}/${kw.keyword}`)
+          .then((r) => ({ kw, ads: r.ads }))
+          .catch((e) => {
+            if (e instanceof RateLimitAbort) abortou = true;
+            return { kw, ads: [] };
+          }),
+      ),
+    );
+    for (const { kw, ads } of resultados) {
+      for (const ad of ads) ad._keyword = kw.keyword;
+      todos.push(...ads);
+    }
+    if (abortou) break;
+    await sleep(jitter(2500, 2500));
   }
 
   // dedup por id do anúncio entre keywords
