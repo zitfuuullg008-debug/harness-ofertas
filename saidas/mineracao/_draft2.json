@@ -1,0 +1,181 @@
+{
+  "data": "2026-09-22",
+  "resumo": "draft2",
+  "nichos": [
+    {
+      "id": "maternidade",
+      "nome": "maternidade",
+      "ofertas": [
+        {
+          "pagina": "Clube da Pedagogia",
+          "paginaId": "1204726352715343",
+          "adId": "992686450320863",
+          "criativosDaOferta": 1,
+          "diasRodando": 96,
+          "linkVenda": "https://clubedapedagogia.com/"
+        },
+        {
+          "pagina": "Clube das Atividades",
+          "paginaId": "1254838207710286",
+          "adId": "1760423115099085",
+          "criativosDaOferta": 4,
+          "diasRodando": 19,
+          "linkVenda": "https://educaplus.shop/atividades/"
+        },
+        {
+          "pagina": "Atividades Educacionais",
+          "paginaId": "393878510465549",
+          "adId": "1673295493960883",
+          "criativosDaOferta": 1,
+          "diasRodando": 58,
+          "linkVenda": "https://livro-da-leitura-completo.lovable.app/"
+        },
+        {
+          "pagina": "Expert Kids",
+          "paginaId": "279210458607183",
+          "adId": "2341721086366886",
+          "criativosDaOferta": 1,
+          "diasRodando": 56,
+          "linkVenda": "https://50atividades.expertacademypro.com.br/"
+        },
+        {
+          "pagina": "Camila Medeiros - Psicopedagoga",
+          "paginaId": "110338607317917",
+          "adId": "1062593193106411",
+          "criativosDaOferta": 1,
+          "diasRodando": 55,
+          "linkVenda": "https://www.profcamila.com/interpretarparaevoluir"
+        },
+        {
+          "pagina": "Maria Eduarda",
+          "paginaId": "1050269651499858",
+          "adId": "1034955402490439",
+          "criativosDaOferta": 1,
+          "diasRodando": 41,
+          "linkVenda": "https://www.jornadapratica.com/TDAH/"
+        },
+        {
+          "pagina": "Sara Fialho - Psicopedagoga",
+          "paginaId": "809609095562503",
+          "adId": "1921759101732647",
+          "criativosDaOferta": 1,
+          "diasRodando": 51,
+          "linkVenda": "https://biliotecaneurovisual.lovable.app/"
+        },
+        {
+          "pagina": "Prof Juliana ",
+          "paginaId": "836987269503104",
+          "adId": "1834439197527339",
+          "criativosDaOferta": 14,
+          "diasRodando": 34,
+          "linkVenda": "https://api.whatsapp.com/send"
+        },
+        {
+          "pagina": "Rhema Neuroeducação",
+          "paginaId": "109236879236206",
+          "adId": "825699613866327",
+          "criativosDaOferta": 1,
+          "diasRodando": 47,
+          "linkVenda": "https://rhemaneuroeducacao.com.br/universos/"
+        },
+        {
+          "pagina": "Atividades Infantis",
+          "paginaId": "633542263177963",
+          "adId": "3344908755712747",
+          "criativosDaOferta": 2,
+          "diasRodando": 26,
+          "linkVenda": "https://api.whatsapp.com/send"
+        },
+        {
+          "pagina": "Cantinho Criativo",
+          "paginaId": "989687664220760",
+          "adId": "1592214412581103",
+          "criativosDaOferta": 1,
+          "diasRodando": 34,
+          "linkVenda": "https://api.whatsapp.com/send"
+        },
+        {
+          "pagina": "Tia Su",
+          "paginaId": "102112552949119",
+          "adId": "1666097611315336",
+          "criativosDaOferta": 1,
+          "diasRodando": 69,
+          "linkVenda": "https://sun.eduzz.com/2335239"
+        }
+      ]
+    },
+    {
+      "id": "receitas_infantis",
+      "nome": "receitas_infantis",
+      "ofertas": [
+        {
+          "pagina": "Professora Luana Ferreira",
+          "paginaId": "318391914685420",
+          "adId": "2561496920966755",
+          "criativosDaOferta": 5,
+          "diasRodando": 49,
+          "linkVenda": "https://api.whatsapp.com/send"
+        },
+        {
+          "pagina": "Receitas Que Nutrem",
+          "paginaId": "806583629212612",
+          "adId": "2485536025198971",
+          "criativosDaOferta": 1,
+          "diasRodando": 117,
+          "linkVenda": "https://api.whatsapp.com/send"
+        },
+        {
+          "pagina": "Bebê de Nutri - Nutricionista Franciele Loss",
+          "paginaId": "397559487252468",
+          "adId": "773169248452358",
+          "criativosDaOferta": 3,
+          "diasRodando": 401,
+          "linkVenda": "http://play.google.com/store/apps/details?id=br.com.entrega_digital.bebedenutri"
+        },
+        {
+          "pagina": "PicNic - Mãedoteca",
+          "paginaId": "439196133147663",
+          "adId": "2327910448034171",
+          "criativosDaOferta": 2,
+          "diasRodando": 110,
+          "linkVenda": "https://api.whatsapp.com/send"
+        }
+      ]
+    },
+    {
+      "id": "comida_caseira",
+      "nome": "comida_caseira",
+      "ofertas": [
+        {
+          "pagina": "Roberta Carvalho",
+          "paginaId": "1158143547370846",
+          "adId": "1278554277204757",
+          "criativosDaOferta": 22,
+          "diasRodando": 147,
+          "linkVenda": "https://api.whatsapp.com/send"
+        },
+        {
+          "pagina": "Recheio Fácil",
+          "paginaId": "882907418246764",
+          "adId": "1665275721192974",
+          "criativosDaOferta": 3,
+          "diasRodando": 104,
+          "linkVenda": "https://api.whatsapp.com/send"
+        },
+        {
+          "pagina": "Doces da Júlia",
+          "paginaId": "109729388747178",
+          "adId": "27447835234899147",
+          "criativosDaOferta": 1,
+          "diasRodando": 49,
+          "linkVenda": "https://api.whatsapp.com/send"
+        }
+      ]
+    },
+    {
+      "id": "renda_extra",
+      "nome": "renda_extra",
+      "ofertas": []
+    }
+  ]
+}

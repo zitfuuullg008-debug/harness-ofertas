@@ -12,30 +12,48 @@
           "paginaId": "110191770814844",
           "adId": "1162314215370808",
           "keyword": null,
-          "criativosDaOferta": 3,
+          "criativosDaOferta": 24,
           "diasRodando": 546,
           "linkVenda": "https://docesdesucessolucrativo.com.br/apostilas-por-1-real/",
-          "novo": true
+          "novo": true,
+          "anunciosNaPagina": 24,
+          "ofertaDominante": {
+            "destino": "docesdesucessolucrativo.com.br/apostilas-por-1-real",
+            "criativos": 24
+          },
+          "destinoFinal": "whatsapp"
         },
         {
           "pagina": "Luana Oliveira",
           "paginaId": "1108439012356829",
           "adId": "1074944198345273",
           "keyword": null,
-          "criativosDaOferta": 1,
+          "criativosDaOferta": 28,
           "diasRodando": 65,
           "linkVenda": "https://as365receitascheflu.lovable.app/",
-          "novo": true
+          "novo": true,
+          "anunciosNaPagina": 350,
+          "ofertaDominante": {
+            "destino": "as365receitascheflu.lovable.app",
+            "criativos": 28
+          },
+          "destinoFinal": "pagina"
         },
         {
           "pagina": "Receitas Deliciosas",
           "paginaId": "115329360309179",
           "adId": "1052668157426799",
           "keyword": null,
-          "criativosDaOferta": 1,
+          "criativosDaOferta": 34,
           "diasRodando": 75,
           "linkVenda": "https://receitas.revitamulher.online/",
-          "novo": true
+          "novo": true,
+          "anunciosNaPagina": 120,
+          "ofertaDominante": {
+            "destino": "receitas.revitamulher.online",
+            "criativos": 34
+          },
+          "destinoFinal": "pagina"
         }
       ]
     },
@@ -49,30 +67,48 @@
           "paginaId": "413332225208136",
           "adId": "1497985051707998",
           "keyword": null,
-          "criativosDaOferta": 2,
+          "criativosDaOferta": 14,
           "diasRodando": 108,
           "linkVenda": "https://introducaoalimentar.manualinfantil.com/",
-          "novo": true
+          "novo": true,
+          "anunciosNaPagina": 14,
+          "ofertaDominante": {
+            "destino": "introducaoalimentar.manualinfantil.com",
+            "criativos": 14
+          },
+          "destinoFinal": "pagina"
         },
         {
           "pagina": "Dr.Elena",
           "paginaId": "107772175730655",
           "adId": "1493386508757444",
           "keyword": null,
-          "criativosDaOferta": 6,
+          "criativosDaOferta": 12,
           "diasRodando": 45,
           "linkVenda": "https://nutribabyapp.com.br/ebooksdesconto/",
-          "novo": true
+          "novo": true,
+          "anunciosNaPagina": 16,
+          "ofertaDominante": {
+            "destino": "nutribabyapp.com.br/ebooksdesconto",
+            "criativos": 12
+          },
+          "destinoFinal": "pagina"
         },
         {
           "pagina": "Foco Total Vip",
           "paginaId": "645880351937742",
           "adId": "1523446369176979",
           "keyword": null,
-          "criativosDaOferta": 1,
+          "criativosDaOferta": 10,
           "diasRodando": 155,
           "linkVenda": "https://atividades.pacotespremium.com/",
-          "novo": true
+          "novo": true,
+          "anunciosNaPagina": 16,
+          "ofertaDominante": {
+            "destino": "atividades.pacotespremium.com",
+            "criativos": 10
+          },
+          "destinoFinal": "pagina"
         }
       ]
     },
@@ -89,27 +125,45 @@
           "criativosDaOferta": 1,
           "diasRodando": 371,
           "linkVenda": "https://atividadescomamor.com.br/produto/caderno-das-silabas-de-a-a-z/",
-          "novo": true
+          "novo": true,
+          "anunciosNaPagina": 14,
+          "ofertaDominante": {
+            "destino": "wa:",
+            "criativos": 7
+          },
+          "destinoFinal": "pagina"
         },
         {
           "pagina": "Turminha Alfa Kids",
           "paginaId": "731275250070572",
           "adId": "1297852502547188",
           "keyword": null,
-          "criativosDaOferta": 1,
+          "criativosDaOferta": 3,
           "diasRodando": 129,
           "linkVenda": "https://turminhaalfakids.online/alfa199/",
-          "novo": true
+          "novo": true,
+          "anunciosNaPagina": 19,
+          "ofertaDominante": {
+            "destino": "kidselite.club/barallho",
+            "criativos": 9
+          },
+          "destinoFinal": "pagina"
         },
         {
           "pagina": "Conectadas Atividades",
           "paginaId": "554501644404982",
           "adId": "2207497336458859",
           "keyword": null,
-          "criativosDaOferta": 1,
+          "criativosDaOferta": 9,
           "diasRodando": 120,
           "linkVenda": "https://conectadasatividades.com.br/passaourepassaalfa",
-          "novo": true
+          "novo": true,
+          "anunciosNaPagina": 17,
+          "ofertaDominante": {
+            "destino": "conectadasatividades.com.br/passaourepassaalfa",
+            "criativos": 9
+          },
+          "destinoFinal": "pagina"
         },
         {
           "pagina": "Universo das Dinâmicas ",
@@ -119,7 +173,13 @@
           "criativosDaOferta": 1,
           "diasRodando": 145,
           "linkVenda": "https://atividade-cursiva.netlify.app/",
-          "novo": true
+          "novo": true,
+          "anunciosNaPagina": 16,
+          "ofertaDominante": {
+            "destino": "kitpapersquishy.netlify.app",
+            "criativos": 8
+          },
+          "destinoFinal": "pagina"
         },
         {
           "pagina": "Sala de Saberes",
@@ -129,7 +189,13 @@
           "criativosDaOferta": 1,
           "diasRodando": 197,
           "linkVenda": "https://saladesaberes.com.br/materiais-didaticos/carne-da-leitura-o-recurso-completo-para-alfabetizacao",
-          "novo": true
+          "novo": true,
+          "anunciosNaPagina": 51,
+          "ofertaDominante": {
+            "destino": "saladesaberes.com.br/materiais-didaticos/kit-com-5-carnes-para-caligrafia-cursiva-letras--palavras-e-frases",
+            "criativos": 5
+          },
+          "destinoFinal": "pagina"
         }
       ]
     },
@@ -143,50 +209,80 @@
           "paginaId": "108318455309622",
           "adId": "1529432585546500",
           "keyword": null,
-          "criativosDaOferta": 5,
+          "criativosDaOferta": 8,
           "diasRodando": 111,
           "linkVenda": "https://vidadetradutor.com.br/curso-de-traducao-v2/",
-          "novo": true
+          "novo": true,
+          "anunciosNaPagina": 10,
+          "ofertaDominante": {
+            "destino": "vidadetradutor.com.br/curso-de-traducao-v2",
+            "criativos": 8
+          },
+          "destinoFinal": "pagina"
         },
         {
           "pagina": "Matheus Carvalho",
           "paginaId": "346792968511413",
           "adId": "1653145672557165",
           "keyword": null,
-          "criativosDaOferta": 2,
+          "criativosDaOferta": 7,
           "diasRodando": 260,
           "linkVenda": "https://obrigadeiroperfeito.com.br/home-principal-37?src=FBAds_{{adset.name}}_{{ad.name}}_{{placement}}_{{campaign.name}}&utm_source=FBAds&utm_medium={{adset.name}}&utm_content={{ad.name}}&utm_campaign={{campaign.name}}&utm_term={{placement}}",
-          "novo": true
+          "novo": true,
+          "anunciosNaPagina": 14,
+          "ofertaDominante": {
+            "destino": "obrigadeiroperfeito.com.br/obp",
+            "criativos": 7
+          },
+          "destinoFinal": "pagina"
         },
         {
           "pagina": "Curso Biscoitos Caseiros",
           "paginaId": "298146350524859",
           "adId": "1320326486231550",
           "keyword": null,
-          "criativosDaOferta": 3,
+          "criativosDaOferta": 15,
           "diasRodando": 104,
           "linkVenda": "https://biscoitoscaseiros.com/bvideo/",
-          "novo": true
+          "novo": true,
+          "anunciosNaPagina": 15,
+          "ofertaDominante": {
+            "destino": "biscoitoscaseiros.com/bvideo",
+            "criativos": 15
+          },
+          "destinoFinal": "pagina"
         },
         {
           "pagina": "Ale Negrini",
           "paginaId": "108866131642491",
           "adId": "943256408745707",
           "keyword": null,
-          "criativosDaOferta": 2,
+          "criativosDaOferta": 13,
           "diasRodando": 99,
           "linkVenda": "https://negocioquelucra.com/",
-          "novo": true
+          "novo": true,
+          "anunciosNaPagina": 31,
+          "ofertaDominante": {
+            "destino": "rendacomcomidas.com.br",
+            "criativos": 18
+          },
+          "destinoFinal": "pagina"
         },
         {
           "pagina": "Churrasqueadas",
           "paginaId": "421716924551570",
           "adId": "938918945726304",
           "keyword": null,
-          "criativosDaOferta": 1,
+          "criativosDaOferta": 5,
           "diasRodando": 165,
           "linkVenda": "https://academiadoespetinho.com.br/",
-          "novo": true
+          "novo": true,
+          "anunciosNaPagina": 7,
+          "ofertaDominante": {
+            "destino": "academiadoespetinho.com.br",
+            "criativos": 5
+          },
+          "destinoFinal": "pagina"
         },
         {
           "pagina": "Leidy Cakes",
@@ -196,7 +292,13 @@
           "criativosDaOferta": 1,
           "diasRodando": 452,
           "linkVenda": "https://leidycake.com.br/bolodepote",
-          "novo": true
+          "novo": true,
+          "anunciosNaPagina": 10,
+          "ofertaDominante": {
+            "destino": "leidycake.com.br/fatiasdefeira",
+            "criativos": 3
+          },
+          "destinoFinal": "pagina"
         }
       ]
     },
@@ -213,7 +315,13 @@
           "criativosDaOferta": 2,
           "diasRodando": 97,
           "linkVenda": "http://macaecaramelo.com.br/",
-          "novo": true
+          "novo": true,
+          "anunciosNaPagina": 10,
+          "ofertaDominante": {
+            "destino": "app.cardapioweb.com/macaecaramelo_tatuapesp",
+            "criativos": 4
+          },
+          "destinoFinal": "pagina"
         },
         {
           "pagina": "Leidy Cakes",
@@ -223,7 +331,13 @@
           "criativosDaOferta": 1,
           "diasRodando": 452,
           "linkVenda": "https://leidycake.com.br/bolodepote",
-          "novo": true
+          "novo": true,
+          "anunciosNaPagina": 10,
+          "ofertaDominante": {
+            "destino": "leidycake.com.br/fatiasdefeira",
+            "criativos": 3
+          },
+          "destinoFinal": "pagina"
         }
       ]
     },
@@ -240,27 +354,45 @@
           "criativosDaOferta": 1,
           "diasRodando": 263,
           "linkVenda": "http://mapasmentais.shop/",
-          "novo": true
+          "novo": true,
+          "anunciosNaPagina": 1,
+          "ofertaDominante": {
+            "destino": "mapasmentais.shop",
+            "criativos": 1
+          },
+          "destinoFinal": "pagina"
         },
         {
           "pagina": "Ana Cristina",
           "paginaId": "1244301418773018",
           "adId": "1588867635929625",
           "keyword": null,
-          "criativosDaOferta": 1,
+          "criativosDaOferta": 63,
           "diasRodando": 38,
           "linkVenda": "https://datenights.site/",
-          "novo": true
+          "novo": true,
+          "anunciosNaPagina": 63,
+          "ofertaDominante": {
+            "destino": "datenights.site",
+            "criativos": 63
+          },
+          "destinoFinal": "pagina"
         },
         {
           "pagina": "OTiago.Correa",
           "paginaId": "400927416436138",
           "adId": "967666845876088",
           "keyword": null,
-          "criativosDaOferta": 1,
+          "criativosDaOferta": 2,
           "diasRodando": 112,
           "linkVenda": "https://www.otiagocorrea.com.br/leca",
-          "novo": true
+          "novo": true,
+          "anunciosNaPagina": 2,
+          "ofertaDominante": {
+            "destino": "otiagocorrea.com.br/leca",
+            "criativos": 2
+          },
+          "destinoFinal": "pagina"
         }
       ]
     }

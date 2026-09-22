@@ -11,6 +11,7 @@ renda extra, cristão, maternidade (ver `config/nichos.json`; fitness está desl
 | `config/nichos.json` | Nichos e keywords que o minerador vasculha. Edite aqui pra adicionar nicho. |
 | `produtos/*.md` | Uma ficha por produto do usuário (promessa, preço, público, mecanismo, copy vencedora). `_TEMPLATE.md` é o modelo. Arquivos começando com `_` são ignorados. |
 | `scripts/importar-adhunter.mjs` | **Fonte dos dados.** Lê o cache do Ad Hunter no Supabase e gera `data/raw/<data>/`. |
+| `scripts/salvar-no-adhunter.mjs` | Volta: salva as ofertas escolhidas na interface do Ad Hunter. |
 | `scripts/minerar.mjs` | Scraper próprio, aposentado. Só manual, com `--coletar`. |
 | `scripts/render-relatorio.mjs` | Transforma o JSON do minerador em `<data>.html` (cards visuais com vídeo) + `<data>.md` curto, e baixa as mídias. |
 | `data/raw/<data>/` | Coleta bruta do dia. `resumo.json` é o arquivo compacto que os agentes leem. |
@@ -31,6 +32,7 @@ A coleta **não é feita neste projeto**. Quem minera é o **Ad Hunter** (`C:\Us
    - o agente **minerador** filtra, monta o pool e marca as `recomendadas`
    - `scripts/enriquecer.mjs` conta criativos reais, confere o destino do link e salva o dossiê da página
    - `scripts/render-relatorio.mjs` gera HTML + MD; o commit publica no site
+   - `scripts/salvar-no-adhunter.mjs` devolve as escolhidas pro Ad Hunter (elas aparecem salvas na interface dele, com a nota da escolha)
 2. GitHub Pages: https://zitfuuullg008-debug.github.io/harness-ofertas/
 
 **Nicho com cache velho:** o relatório avisa e o usuário roda aquela categoria no Ad Hunter. `scripts/minerar.mjs` (scraper próprio) está **aposentado** — não há agendamento nem workflow chamando ele. Ficou no repositório só como plano B manual (`--coletar`); usar gasta banda e arrisca bloqueio da Meta, então não use sem o usuário pedir.
