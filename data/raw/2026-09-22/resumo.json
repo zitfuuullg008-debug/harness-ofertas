@@ -1,30 +1,353 @@
 {
   "data": "2026-09-22",
-  "geradoEm": "2026-09-22T14:41:02.011Z",
+  "geradoEm": "2026-09-22T15:06:01.058Z",
   "nichos": [
     {
-      "id": "renda_extra",
-      "nome": "Renda extra (geral)",
-      "totalAnuncios": 0,
-      "totalOfertas": 0,
-      "totalPaginas": 0,
-      "top": []
-    },
-    {
-      "id": "cristao",
-      "nome": "Cristão / Espiritualidade",
-      "totalAnuncios": 0,
-      "totalOfertas": 0,
-      "totalPaginas": 0,
-      "top": []
-    },
-    {
-      "id": "maternidade",
-      "nome": "Maternidade e família",
-      "totalAnuncios": 0,
-      "totalOfertas": 0,
-      "totalPaginas": 0,
-      "top": []
+      "id": "receitas",
+      "nome": "Receitas",
+      "totalAnuncios": 28,
+      "totalOfertas": 17,
+      "totalPaginas": 17,
+      "top": [
+        {
+          "pagina": "Vida Saudável",
+          "paginaId": "997700550097386",
+          "instagram": null,
+          "oferta": {
+            "chave": "wa:sem-numero",
+            "link": "https://api.whatsapp.com/send"
+          },
+          "novo": false,
+          "vezesVisto": 2,
+          "score": 183,
+          "sinais": {
+            "anunciosNaPagina": 32,
+            "fonteContagem": "meta_resultados",
+            "ofertasNaPagina": 1,
+            "criativosDaOferta": 32,
+            "criativosEstimados": null,
+            "criativosNoLote": 4,
+            "collationMax": 3,
+            "mesmoCriativoNoLote": 4,
+            "diasAtivoMediana": 106,
+            "diasAtivoMax": 119,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "cardápio semanal"
+          ],
+          "anuncioPrincipal": {
+            "id": "1683419009364524",
+            "titulo": "Refeições que Salvam Seu Fígado",
+            "texto": "+5.000 pacientes ajudados.\n+10 anos de experiência.\n+120 cardápios prontos.\n\nA Dra. Mônica criou um protocolo completo para quem tem gordura no fígado e não sabe o que comer.\n\nCardápios para todas as refeições. Lista do que comer. Lista do que evitar. Tudo pronto.\n\nChega de ficar perdida no Google.\n\nClica em \"Saiba Mais\" e garanta seu acesso.",
+            "cta": "Enviar mensagem pelo WhatsApp",
+            "link": "https://api.whatsapp.com/send",
+            "tipoCriativo": "video",
+            "video": "https://video.fcgh3-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQMLHZ2-AZcN-R6Kvvyu9-1CVj1qxDnQyy4gQkfsJXxZsCcomSXtOT2bjXF4q8FBCgas5PnzzWMzJoI1bQ5IUXeZ2VXz2g3lYHEk6iBeFr-_ag.mp4?_nc_cat=105&_nc_oc=Ado57jVugGQyXISVwpzMfeT0D9m5XIultbQwf6nTqpaeq2AGb6nlat9WKFDmieaUExFNoCgqOz0Tnt7A1AnsUQoC&_nc_sid=b66105&_nc_ht=video.fcgh3-1.fna.fbcdn.net&_nc_ohc=B1cFrphc9wEQ7kNvwHIqoPI&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE2NjUzODEzMDQ1NzQ3MTgsImFzc2V0X2FnZV9kYXlzIjoxMjcsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjoxMDUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=dc7605649fe15c90&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9DNDQ4M0IxRjQ5REZDMjE2NTM3QTk2NEYyNkU5NTRBRl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0I0NDA0MzA0NTI0MzBEQzBEREI5MkQ0RDJBRUI0ODhBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb8i5nR-an1BRUCKAJDMywXQFpxBiTdLxsYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=7LgDHxzheu8NXQ4OQc704g&_nc_ss=78289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLMWs4M75G1uX9SMfhB-XtYsBkhQmF4C8_hC5UY6ZMu8g&oe=6AB852C7",
+            "imagem": "https://scontent.fcgh3-1.fna.fbcdn.net/v/t39.35426-6/707229805_924000080697640_2362307244492011992_n.jpg?_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=XFpGCAfOVOMQ7kNvwFoLp77&_nc_oc=AdoOjF9zRR7RSAFLDkxI-vG5UPQAB1AB-KzId5ZUCqLoHk2TPXnNvAnx6nI2DcZ1OoVAJZXwozRKeBb2mMNh2h2X&_nc_zt=14&_nc_ht=scontent.fcgh3-1.fna&_nc_gid=7LgDHxzheu8NXQ4OQc704g&_nc_ss=78289&oh=00_AQLcTFBthkMkrn6Q00j3d5_SttzmO4kZ8Ea7HxuXUEnoSg&oe=6AB86405",
+            "diasAtivo": 119,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1683419009364524"
+          },
+          "outrosTextos": [
+            "+5.000 pacientes ajudados.\n+10 anos de experiência.\n+120 cardápios prontos.\n\nA Dra. Mônica criou um protocolo completo para quem tem gordura no fígado e não sabe o que comer.\n\nCardápios para todas as refeições. Lista do que comer. Lista do que evitar. Tudo pronto.\n\nChega de ficar perdida no Google.\n",
+            "+5.000 pacientes ajudados.\n+10 anos de experiência.\n+120 cardápios prontos.\n\nA Dra. Mônica criou um protocolo completo para quem tem gordura no fígado e não sabe o que comer.\n\nCardápios para todas as refeições. Lista do que comer. Lista do que evitar. Tudo pronto.\n\nChega de ficar perdida no Google.\n",
+            "+5.000 pacientes ajudados.\n+10 anos de experiência.\n+120 cardápios prontos.\n\nA Dra. Mônica criou um protocolo completo para quem tem gordura no fígado e não sabe o que comer.\n\nCardápios para todas as refeições. Lista do que comer. Lista do que evitar. Tudo pronto.\n\nChega de ficar perdida no Google.\n"
+          ]
+        },
+        {
+          "pagina": "Marion Papelaria",
+          "paginaId": "230616647271673",
+          "instagram": null,
+          "oferta": {
+            "chave": "marionpapelaria.com.br/caderno-plus-reposicionavel-pautado",
+            "link": "https://www.marionpapelaria.com.br/caderno-plus-reposicionavel-pautado?parceiro=4872"
+          },
+          "novo": false,
+          "vezesVisto": 2,
+          "score": 121,
+          "sinais": {
+            "anunciosNaPagina": 32,
+            "fonteContagem": "meta_resultados",
+            "ofertasNaPagina": 3,
+            "criativosDaOferta": 8,
+            "criativosEstimados": null,
+            "criativosNoLote": 2,
+            "collationMax": 8,
+            "mesmoCriativoNoLote": 2,
+            "diasAtivoMediana": 124,
+            "diasAtivoMax": 232,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "cardápio semanal"
+          ],
+          "anuncioPrincipal": {
+            "id": "941232044900640",
+            "titulo": "Um caderno - Muitas possibilidades!",
+            "texto": "Nosso caderno Plus é simplesmente perfeito para transformar sua rotina de estudos e trabalho.\n​\nCapa dura super resistente, miolo em papel 90g e acabamento impecável pra você escrever com qualquer caneta sem medo de marcar a página de trás.\n​\nMuito espaço pra organizar todas as suas matérias em um só lugar.\n\nAlém de ter folhas reposicionaveis, tem muitos refis para você deixar ele ainda mais sua cara!\n\nGaranta o seu agora no site da Marion Papelaria e comece a estudar com mais prazer hoje mesmo!\n​\nClique em “Saiba mais” e escolha sua capa favorita",
+            "cta": "Saiba mais",
+            "link": "https://www.marionpapelaria.com.br/caderno-plus-reposicionavel-pautado?parceiro=4872",
+            "tipoCriativo": "video",
+            "video": "https://video.fcgh3-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQMSJmlNWUmJP5jF-8iW-l8TYKKrFyvhARV1EOl9Fqfb63t3Hia63RTEu4guLCfGNiUcUoZgAZrp4cbgMSyQgwvUqEVUsbiM9Ip689d78cePkQ.mp4?_nc_cat=106&_nc_oc=AdpG1PBDhroL_7b30cM-vSLvpx9-883mu_rwyZ2xNsa4G8yR8ddqPEyF7OaBU3tITKjHNFkhF9D7DoPK8FFOIJY7&_nc_sid=b66105&_nc_ht=video.fcgh3-1.fna.fbcdn.net&_nc_ohc=Hwr7aH4APHIQ7kNvwFDo8vs&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjExMjM0NTA5Mjk3ODc4MTYsImFzc2V0X2FnZV9kYXlzIjoyMzEsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo3NiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=7c344ef325a92c7a&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC83MTQ5Nzk0NjhCODdCOTY2MzA4NjVBMEZERTVERkI4MV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0U2NDVENjIwMTRBMkU3MEUyQUNGREQ3Mjk0OUY3OEI0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbQzr3ZufH-AxUCKAJDMywXQFMIgxJul40YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=7LgDHxzheu8NXQ4OQc704g&_nc_ss=78289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQJgBhaxzr6tfAFJR8mvEfSCYSUZwX4-lb3VqYQxiGPVjQ&oe=6AB87EC6",
+            "imagem": "https://scontent.fcgh3-1.fna.fbcdn.net/v/t39.35426-6/624661685_1968660784076881_530244726589876738_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=1Ia3-3wIWpYQ7kNvwE5Tdhx&_nc_oc=Ado7qYg-OFdwNfWjOPo2BeA1lz4ZtZx5RQyBvCarkQKFIOwCtKjp9ihF-Q9VabvSlvFnm2lokvD8dkkNpfRdeHWQ&_nc_zt=14&_nc_ht=scontent.fcgh3-1.fna&_nc_gid=7LgDHxzheu8NXQ4OQc704g&_nc_ss=78289&oh=00_AQKBxlHeOAD7yckW5HZp1sRvAl02YTAzRFKQ69KmOfD1CQ&oe=6AB850B1",
+            "diasAtivo": 232,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=941232044900640"
+          },
+          "outrosTextos": [
+            "Nosso caderno Plus é simplesmente perfeito para transformar sua rotina de estudos e trabalho.\n​\nCapa dura super resistente, miolo em papel 90g e acabamento impecável pra você escrever com qualquer caneta sem medo de marcar a página de trás.\n​\nMuito espaço pra organizar todas as suas matérias em um s"
+          ]
+        },
+        {
+          "pagina": "Misturas do Bem",
+          "paginaId": "1748232518792451",
+          "instagram": null,
+          "oferta": {
+            "chave": "misturasdobem.com.br/colecao-cardapios-chef",
+            "link": "https://misturasdobem.com.br/colecao-cardapios-chef"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 43,
+          "sinais": {
+            "anunciosNaPagina": null,
+            "fonteContagem": "observado",
+            "ofertasNaPagina": 1,
+            "criativosDaOferta": 2,
+            "criativosEstimados": null,
+            "criativosNoLote": 2,
+            "collationMax": 1,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 434,
+            "diasAtivoMax": 434,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "cardápio semanal"
+          ],
+          "anuncioPrincipal": {
+            "id": "602184665892429",
+            "titulo": null,
+            "texto": "",
+            "cta": "Saiba mais",
+            "link": "https://misturasdobem.com.br/colecao-cardapios-chef",
+            "tipoCriativo": "video",
+            "video": "https://video.fcgh3-2.fna.fbcdn.net/o1/v/t2/f2/m412/AQOGpV2wMd6DWTNTwUhJFYu-EVcxxWppBtChfXxdUVDoR05SAFvPWMS36EtKJ0hDnN-9A_yQ2sPKthS2LaScU0k.mp4?_nc_cat=1&_nc_oc=AdpNZRREEC5fvlQPmYFKL5Bhn3hng0BvD6NLNeeUg8TLsBPaDBzhD1sLwJFLmlH4yQAuXWwIozAIIJhGAmfmWyqP&_nc_sid=ef5aa3&_nc_ht=video.fcgh3-2.fna.fbcdn.net&_nc_ohc=vvHzqySgnfcQ7kNvwFT_o6d&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmFzaWNfaHEyX2hkX3Byb2dyZXNzaXZlIiwieHB2X2Fzc2V0X2lkIjo5NDUzNDcyMzc4MzgyMDgsImFzc2V0X2FnZV9kYXlzIjoyMDksInZpX3VzZWNhc2VfaWQiOjEwNjgwLCJkdXJhdGlvbl9zIjo3MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=7LgDHxzheu8NXQ4OQc704g&_nc_ss=78289&_nc_zt=28&oh=00_AQITL6JSPyEEJvUPm0pVDW8v6oZfY7m7XVBtMcyFhScGjg&oe=6AB87AA5",
+            "imagem": "https://scontent.fcgh3-1.fna.fbcdn.net/v/t39.35426-6/503270894_1209039791014884_175912757250060964_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=hQq2JgZgPPoQ7kNvwFec48B&_nc_oc=Adq-4VhloTGpmMgVw-U-MGjFaOWXzGS7tV9-GDvOe1vIOreuZFgVHZy01in-Lw1KnYVrw-XGre1TM0lGVeLcIB-7&_nc_zt=14&_nc_ht=scontent.fcgh3-1.fna&_nc_gid=7LgDHxzheu8NXQ4OQc704g&_nc_ss=78289&oh=00_AQI11OeR9QSPzLOJFs-ozD99_amZbcfqbeXPQLif6kXQsw&oe=6AB84FFD",
+            "diasAtivo": 434,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=602184665892429"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Receitas Deliciosas",
+          "paginaId": "115329360309179",
+          "instagram": null,
+          "oferta": {
+            "chave": "receitas.revitamulher.online",
+            "link": "https://receitas.revitamulher.online/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 38,
+          "sinais": {
+            "anunciosNaPagina": null,
+            "fonteContagem": "observado",
+            "ofertasNaPagina": 1,
+            "criativosDaOferta": 4,
+            "criativosEstimados": null,
+            "criativosNoLote": 4,
+            "collationMax": 2,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 59,
+            "diasAtivoMax": 75,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "cardápio semanal"
+          ],
+          "anuncioPrincipal": {
+            "id": "1052668157426799",
+            "titulo": "+7.980 mulheres já estão transformando suas refeições com essas receitas!",
+            "texto": "🍳 Nunca mais fique sem ideias na cozinha! 🥗",
+            "cta": "Saiba mais",
+            "link": "https://receitas.revitamulher.online/",
+            "tipoCriativo": "video",
+            "video": "https://video.fcgh3-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQN3vN6Qyqp8cRo6uZe32WB2ml1TsnOCc648q_5ifAAXy8fKpDprP4LAw8GaylJkCTha3tx0FfhH7gfuWT8Yi-YjhQV5otpvGw_6q6gUCxJAfA.mp4?_nc_cat=102&_nc_oc=AdqIUPsj-gvEw2YapLyEAFHm-U7DNrJHVceBJcUMLA8A1_bmhnoEsbz6fdcDNxiEuQpLL6_PJ823R-OQshQy3yQ0&_nc_sid=b66105&_nc_ht=video.fcgh3-1.fna.fbcdn.net&_nc_ohc=UXCP-aTPblEQ7kNvwGfABTV&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE0MDI2MDkxNTE5MTY5MjksImFzc2V0X2FnZV9kYXlzIjo3NiwidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjMwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=8577c8423ffe9be2&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zQTRCMTVCQzMyNjU0QjI4NEQ1NTk2QjU5QjU5OEFCNl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0Q2NEFCMTZGQUZFOTFEM0EzRjI3QUMzMjk2OUFBOTgyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaC7pHEzOr9BBUCKAJDMywXQD4iDEm6XjUYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=7LgDHxzheu8NXQ4OQc704g&_nc_ss=78289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLlW5YDYUxdg-tLHPxCwFHf_6V8hpfbwW90DvstnSIviw&oe=6AB85BDE",
+            "imagem": "https://scontent.fcgh3-2.fna.fbcdn.net/v/t39.35426-6/739965764_1352766453669822_5441489411390032212_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=DF19CHwLWpYQ7kNvwEVEszM&_nc_oc=AdpzEpOqH1-hxaqiMULzNEH3gKUFD7Ii28c1APoK0R0LM8ZeOgRyQRIiA8TvFFtFvbTiTGSitFD_h9TgeVcPZOWf&_nc_zt=14&_nc_ht=scontent.fcgh3-2.fna&_nc_gid=7LgDHxzheu8NXQ4OQc704g&_nc_ss=78289&oh=00_AQLeNG6SQCqfiVg17Erc2y5zX-sYB9NdeOlv7haAOjSNrA&oe=6AB85B8D",
+            "diasAtivo": 75,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1052668157426799"
+          },
+          "outrosTextos": [
+            "🍳 Nunca mais fique sem ideias na cozinha! 🥗",
+            "🍳 Nunca mais fique sem ideias na cozinha! 🥗",
+            "🍳 Nunca mais fique sem ideias na cozinha! 🥗"
+          ]
+        },
+        {
+          "pagina": "Boi na Brasa - Casa de Carnes",
+          "paginaId": "106419820907836",
+          "instagram": null,
+          "oferta": {
+            "chave": "wa:sem-numero",
+            "link": "https://api.whatsapp.com/send"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 38,
+          "sinais": {
+            "anunciosNaPagina": null,
+            "fonteContagem": "observado",
+            "ofertasNaPagina": 1,
+            "criativosDaOferta": 1,
+            "criativosEstimados": null,
+            "criativosNoLote": 1,
+            "collationMax": 1,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 151,
+            "diasAtivoMax": 151,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "cardápio semanal"
+          ],
+          "anuncioPrincipal": {
+            "id": "1678916093109951",
+            "titulo": "Boi na Brasa - Casa de Carnes",
+            "texto": "🔥 Tá difícil montar o cardápio da semana? A gente resolve pra você!\n\nNa Casa de Carnes Boi na Brasa, você encontra kits semanais prontos, com carnes selecionadas, porções equilibradas e preço que cabe no bolso.\n\nTem opções com frango, carne moída, linguiça, bisteca e muito mais 🥩🐔\n✅ Ideal pra quem quer praticidade no dia a dia\n✅ Preço justo e entrega em Londrina e região\n✅ Pronto pra preparar, direto pro seu freezer\n\n📲 Clique em \"Enviar mensagem\" e peça agora pelo WhatsApp!\nVocê vai se surpreender com o custo-benefício.",
+            "cta": "Enviar mensagem pelo WhatsApp",
+            "link": "https://api.whatsapp.com/send",
+            "tipoCriativo": "imagem",
+            "video": null,
+            "imagem": "https://scontent.fcgh3-1.fna.fbcdn.net/v/t39.35426-6/678574040_1463199558608838_6774931088647462974_n.jpg?_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=7qga8zSyQi4Q7kNvwFxKlTD&_nc_oc=Adqk28S48Mbl_Q2tPdDn630c3W-VnLFuOZ04l-Mopyx2Ej_IxaG3XpUt37wTlUjpxI-LzBl0eiYaCl-2IuLkKS13&_nc_zt=14&_nc_ht=scontent.fcgh3-1.fna&_nc_gid=7LgDHxzheu8NXQ4OQc704g&_nc_ss=78289&oh=00_AQKGKQmYVUwU-jWbAnmtOtF3MGdhTZVGeon2_O7l7GDMVA&oe=6AB86ED6",
+            "diasAtivo": 151,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1678916093109951"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Arroz Prato Fino",
+          "paginaId": "143476092461931",
+          "instagram": null,
+          "oferta": {
+            "chave": "instagram.com/arrozpratofino",
+            "link": "http://instagram.com/arrozpratofino"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 38,
+          "sinais": {
+            "anunciosNaPagina": null,
+            "fonteContagem": "observado",
+            "ofertasNaPagina": 1,
+            "criativosDaOferta": 1,
+            "criativosEstimados": null,
+            "criativosNoLote": 1,
+            "collationMax": 1,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 152,
+            "diasAtivoMax": 152,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "cardápio semanal"
+          ],
+          "anuncioPrincipal": {
+            "id": "27185378174400536",
+            "titulo": null,
+            "texto": "Segue a gente (@arrozpratofino) e a @cozinhecomigo pra não perder nenhuma receita incrível como essas! 👩‍🍳\n\nJá clica duas vezes porque as dicas da Fernanda Martini vão te salvar na cozinha. 😍\n\n4 tipos de arroz para variar o dia a dia, sempre com @arrozpratofino 🌾 🤎\nCombina com carne, peixe e frango e vai te ajudar muito na variedade do cardápio semanal!\n\nArroz da saciedade:\n1/2 xícara de chá de semente de girassol\n1/2 xícara de chá de semente de abóbora\n1/2 xícara de chá de quinoa vermelha ou tricolor\n1/2 xícara de chá de chia\n1 copo americano de arroz\n2 copos de água\nSal\n\nInclusive, quem não quiser fazer, o @arrozpratofino tem o Arroz Multigrãos Integral, uma ótima alternativa pra ter na despensa e variar no dia a dia!\n\nArroz com macarrão:\n4 ninhos de macarrão cabelinho de anjo\n1/2 cebola\n1 colher de sopa de manteiga\n1 copo americano de arroz\n3 copos de água\nSal\n\nArroz de coco:\n200",
+            "cta": "Acessar o perfil do Instagram",
+            "link": "http://instagram.com/arrozpratofino",
+            "tipoCriativo": "video",
+            "video": "https://video.fcgh3-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQNCJ3gnl1R5XQMjmVevjx5OV_oqApPkbzA-_eLz_rfOWK-_PyBTKSibScuiCKA7LloJxYYOIUmzGwLCOPaDAcI4CaV84wp4Z0cyqo3FSPAiIQ.mp4?_nc_cat=108&_nc_oc=AdotNRR5Hi_Zuk330vnSoRtyoG5BKemuz5AEADWbWeD7iMAUkvRt-7J8i4lijdHjtyPk-GQ1GHQN_Qs3En98y-jS&_nc_sid=b66105&_nc_ht=video.fcgh3-1.fna.fbcdn.net&_nc_ohc=P0DqT8sdBfsQ7kNvwEipH49&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjg5NzgwNzE1OTUxMjkzMSwiYXNzZXRfYWdlX2RheXMiOjIyMiwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjk3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=30f3909f1a8e6aa2&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC82RTRBNTc4REQzNjExRUI1RDg1MDQ2QTgyRDgxRjk5NF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0IxNDE4Q0VBNTlFQUNGNTk3MkZCMjkwMUNFMjk3QThEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbGvY7NoKOYAxUCKAJDMywXQFhgAAAAAAAYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=7LgDHxzheu8NXQ4OQc704g&_nc_ss=78289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQJ5PEAt3R88KXs_ap4ngROa3A3cQ7NSQVuUimzGtHZSfw&oe=6AB881FC",
+            "imagem": "https://scontent.fcgh3-2.fna.fbcdn.net/v/t39.35426-6/680276795_1499988198229522_4168265843930398878_n.jpg?_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=8SXy4lj7m4cQ7kNvwEC6Aph&_nc_oc=AdqaT2jDZuyuNVhio5JLvm14lEEfdB_PRl0X1RZAOBu64tSu65ChQguAHXrinFMSPHydC2o1-bxopuMzjCyEWpkL&_nc_zt=14&_nc_ht=scontent.fcgh3-2.fna&_nc_gid=7LgDHxzheu8NXQ4OQc704g&_nc_ss=78289&oh=00_AQLK1EgwOQbkTv7E9t89x0dTRcY4Wju25irarIxqZn1djA&oe=6AB85D81",
+            "diasAtivo": 152,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=27185378174400536"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Nutricionista Gabrielle Oliveira",
+          "paginaId": "102244035240572",
+          "instagram": null,
+          "oferta": {
+            "chave": "gabriellenutrimi.com.br/cardapios",
+            "link": "https://www.gabriellenutrimi.com.br/cardapios"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 37,
+          "sinais": {
+            "anunciosNaPagina": null,
+            "fonteContagem": "observado",
+            "ofertasNaPagina": 1,
+            "criativosDaOferta": 1,
+            "criativosEstimados": null,
+            "criativosNoLote": 1,
+            "collationMax": 1,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 116,
+            "diasAtivoMax": 116,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "cardápio semanal"
+          ],
+          "anuncioPrincipal": {
+            "id": "927475003678676",
+            "titulo": "Clique em Saiba Mais",
+            "texto": "",
+            "cta": "Ver detalhes",
+            "link": "https://www.gabriellenutrimi.com.br/cardapios",
+            "tipoCriativo": "video",
+            "video": "https://video.fcgh3-2.fna.fbcdn.net/o1/v/t2/f2/m366/AQNDEkLekGooq75YNOnF0eGyCeNuGck6QDvK-m-6mspERM8sjGzywtgGBQxOVIKI9t81ItemYPR7U7kOweK8OOtMZclqh-T3xE5s0lXRmGKVcQ.mp4?_nc_cat=102&_nc_oc=Adrh1tIHtORJUA7bO1BbLBRuIgijMJ9PfDWhzQgVS-XMVK5nDgvfqpQKKbcuwSb5rQ9SNNvAGEpHK95cFFR5Ah23&_nc_sid=b66105&_nc_ht=video.fcgh3-2.fna.fbcdn.net&_nc_ohc=cktwIif3xPYQ7kNvwFYsBwJ&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE4NDM3OTIzODI4OTU3NzMsImFzc2V0X2FnZV9kYXlzIjozMjIsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo0MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=2d2e80c8c0239d6&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9FQTQ1QzcxMzUyNzc0Q0M5NzY2MDJFNEYzOEE3QzU5MV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0I0NEQ2MkI0RjhGMENBRDRBREJFOTc3RDREQUFDRUExX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACa6mq3g67rGBhUCKAJDMywXQEWZmZmZmZoYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=7LgDHxzheu8NXQ4OQc704g&_nc_ss=78289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLpqNeeIkrSUsnv5d9gXFbkRI2QMwOP-vrQ78lDxJrrTg&oe=6AB856D2",
+            "imagem": "https://scontent.fcgh3-2.fna.fbcdn.net/v/t39.35426-6/710388909_975211381916500_2260144395776669472_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=cLgc9xtnZaUQ7kNvwE8MnrN&_nc_oc=AdrYPJQm6UBuR9E-qYEaekZ0VzHb1x7htWOWdO1sEKQcugeZYC6VCm5VdKDn8Wft6Ty2ojbjuDk9aNBwtRUd-3Ij&_nc_zt=14&_nc_ht=scontent.fcgh3-2.fna&_nc_gid=7LgDHxzheu8NXQ4OQc704g&_nc_ss=78289&oh=00_AQLDQYtC_jljgAGqgc3flZYTkEIaJdBvQw-W91RPPJdIwg&oe=6AB87004",
+            "diasAtivo": 116,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=927475003678676"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Lojadasplanilhas",
+          "paginaId": "1662686540448346",
+          "instagram": null,
+          "oferta": {
+            "chave": "arquivosoffice.com.br",
+            "link": "https://www.arquivosoffice.com.br/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 36,
+          "sinais": {
+            "anunciosNaPagina": null,
+            "fonteContagem": "observado",
+            "ofertasNaPagina": 1,
+            "criativosDaOferta": 1,
+            "criativosEstimados": null,
+            "criativosNoLote": 1,
+            "collationMax": 0,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 206,
+            "diasAtivoMax": 206,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "cardápio semanal"
+          ],
+          "anuncioPrincipal": {
+            "id": "910230501990020",
+            "titulo": null,
+            "texto": "O verdadeiro \"Canivete Suíço\" para sua organização e gestão. 🛠️✨\n\nChega de improviso. Tenha em mãos as ferramentas certas para controlar cada detalhe do seu dia a dia ou do seu negócio.\n\n📂 O que você vai encontrar aqui:\n\nPlanilhas de Planejamento e Agenda\nDashboards com Indicadores\nControle Financeiro e muito mais.\nDeslize para ver os modelos e valores. O envio é automático logo após a compra! 📲",
+            "cta": "Comprar agora",
+            "link": "https://www.arquivosoffice.com.br/",
+            "tipoCriativo": "imagem",
+            "video": null,
+            "imagem": "https://scontent.fcgh3-2.fna.fbcdn.net/v/t39.35426-6/600370063_861111309845908_5774921532618631876_n.jpg?_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SiyVL1P7aR4Q7kNvwFFo2EC&_nc_oc=Adq3OgKVh03lqNQpab1ihw0XjTBO4NB8izz5eC7wV18-2kvJvZGAGsfVfAx0I_hpHgBZtRta8uYL_ns0kjHUGrMt&_nc_zt=14&_nc_ht=scontent.fcgh3-2.fna&_nc_gid=7LgDHxzheu8NXQ4OQc704g&_nc_ss=78289&oh=00_AQIaIcl42rgP7k2lGJQLNcYuNznJncIA75R4zJAyyB52Tg&oe=6AB88799",
+            "diasAtivo": 206,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=910230501990020"
+          },
+          "outrosTextos": []
+        }
+      ]
     }
   ]
 }

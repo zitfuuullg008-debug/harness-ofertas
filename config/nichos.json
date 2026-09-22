@@ -1,17 +1,18 @@
 {
-  "_doc": "Nichos e keywords da Biblioteca de Anúncios da Meta. 'exato' = frase exata. 'pais' = ISO-2 ou ALL. 'ofertasPorNicho' = ofertas por nicho no relatório. 'anunciosPorKeyword' = anúncios por busca (o HTML inicial já traz ~30; pedir mais obriga a rolar = mais banda). 'enriquecerPorNicho' = páginas de anunciante visitadas por nicho (dá o 'anúncios na página', o sinal mais valioso). 'nichosPorDia' = rodízio diário. 'ativo': false tira do rodízio. EFICIÊNCIA: 1 keyword por nicho basta — cada busca traz ~30 anúncios e a segunda keyword repete anunciante. Rodada alvo: ~9 carregamentos, 3-4 min, ~30 MB de proxy.",
-  "ofertasPorNicho": 2,
+  "_doc": "Nichos e keywords da Biblioteca de Anúncios da Meta. 'exato' = frase exata. 'pais' = ISO-2 ou ALL. 'ofertasNoTotal' = quantas ofertas o relatório entrega no total (as melhores do dia, entre os nichos do rodízio). 'anunciosPorKeyword' = anúncios por busca (o HTML inicial já traz ~30; pedir mais obriga a rolar = mais banda). 'enriquecerPorNicho' = páginas de anunciante visitadas por nicho (dá o 'anúncios na página', o sinal mais valioso). 'nichosPorDia' = rodízio diário. 'ativo': false tira do rodízio. EFICIÊNCIA: 1 keyword por nicho basta — cada busca traz ~30 anúncios e a segunda keyword repete anunciante. Rodada alvo: ~9 carregamentos, 3-4 min, ~30 MB de proxy.",
+  "ofertasNoTotal": 3,
   "anunciosPorKeyword": 20,
-  "enriquecerPorNicho": 2,
+  "enriquecerPorNicho": 1,
   "nichos": [
     {
       "id": "receitas",
       "nome": "Receitas",
       "keywords": [
         {
-          "keyword": "cardápio semanal",
+          "keyword": "receitas fáceis",
           "exato": false,
-          "pais": "BR"
+          "pais": "BR",
+          "_nota": "\"cardápio semanal\" e \"low carb\" puxavam oferta de saúde (fígado/dieta) — trocadas."
         }
       ]
     },
@@ -20,9 +21,10 @@
       "nome": "Receitas para criança e bebê",
       "keywords": [
         {
-          "keyword": "meu filho não come",
+          "keyword": "receitas para bebê",
           "exato": false,
-          "pais": "BR"
+          "pais": "BR",
+          "_nota": "Gerou as 2 ofertas white de 22/09; \"meu filho não come\" rendeu menos."
         }
       ]
     },
@@ -33,7 +35,8 @@
         {
           "keyword": "fazer e vender",
           "exato": true,
-          "pais": "BR"
+          "pais": "BR",
+          "_nota": "Gerou Roberta Carvalho (pudim, 25 criativos, 142 dias)."
         }
       ]
     },

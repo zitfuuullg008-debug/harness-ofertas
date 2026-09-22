@@ -11,10 +11,10 @@
 # Pra remover:
 #   Unregister-ScheduledTask -TaskName "HarnessOfertas-Semana" -Confirm:$false
 param(
-  [string]$Comando = "/semana",
-  [string]$Hora    = "08:30",
-  [string]$Dia     = "Tuesday",
-  [string]$Nome    = "HarnessOfertas-Semana"
+  [string]$Comando = "/minerar",
+  [string]$Hora    = "06:00",
+  [string]$Dia     = "",              # vazio = todo dia; ou "Tuesday", "Monday"...
+  [string]$Nome    = "HarnessOfertas"
 )
 
 $root   = Split-Path -Parent $PSScriptRoot

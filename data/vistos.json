@@ -47,8 +47,7 @@
     "1748232518792451": {
       "nome": "Misturas do Bem",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21",
-      "vezes": 1
+      "ultimaVez": "2026-09-22"
     },
     "1043728722334674": {
       "nome": "Delícias de Lalita",
@@ -260,6 +259,31 @@
       "nome": "Doces da Júlia",
       "primeiraVez": "2026-09-22",
       "ultimaVez": "2026-09-22"
+    },
+    "115329360309179": {
+      "nome": "Receitas Deliciosas",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "106419820907836": {
+      "nome": "Boi na Brasa - Casa de Carnes",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "143476092461931": {
+      "nome": "Arroz Prato Fino",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "102244035240572": {
+      "nome": "Nutricionista Gabrielle Oliveira",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "1662686540448346": {
+      "nome": "Lojadasplanilhas",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
     }
   },
   "anuncios": {},
@@ -442,6 +466,48 @@
     "109729388747178|wa:sem-numero": {
       "pagina": "Doces da Júlia",
       "link": "https://api.whatsapp.com/send",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "1748232518792451|misturasdobem.com.br/colecao-cardapios-chef": {
+      "pagina": "Misturas do Bem",
+      "link": "https://misturasdobem.com.br/colecao-cardapios-chef",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "115329360309179|receitas.revitamulher.online": {
+      "pagina": "Receitas Deliciosas",
+      "link": "https://receitas.revitamulher.online/",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "106419820907836|wa:sem-numero": {
+      "pagina": "Boi na Brasa - Casa de Carnes",
+      "link": "https://api.whatsapp.com/send",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "143476092461931|instagram.com/arrozpratofino": {
+      "pagina": "Arroz Prato Fino",
+      "link": "http://instagram.com/arrozpratofino",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "102244035240572|gabriellenutrimi.com.br/cardapios": {
+      "pagina": "Nutricionista Gabrielle Oliveira",
+      "link": "https://www.gabriellenutrimi.com.br/cardapios",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "1662686540448346|arquivosoffice.com.br": {
+      "pagina": "Lojadasplanilhas",
+      "link": "https://www.arquivosoffice.com.br/",
       "primeiraVez": "2026-09-22",
       "ultimaVez": "2026-09-22",
       "vezes": 1

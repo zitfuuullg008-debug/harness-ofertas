@@ -57,14 +57,14 @@ Se depois do descarte um nicho ficar sem 2 ofertas white, entregue menos e diga 
 
 Se estiver ambíguo → **MANTER** com nota de confiança baixa. Nunca descarte por falta de informação.
 
-## Passo 2b — Escolher as `ofertasPorNicho` melhores DE CADA NICHO (config, hoje = 2)
+## Passo 2b — Escolher as `ofertasNoTotal` melhores DO DIA (config, hoje = 3)
 
-Para **cada nicho** que tem coleta, escolha as 2 ofertas mais escaladas que passaram no filtro. Regras:
-- Uma oferta por página dentro do nicho (duas páginas diferentes, não dois produtos da mesma página).
-- **Anti-repetição:** das 2 de um nicho, no máximo 1 pode ter aparecido no relatório anterior. Uma recorrente no topo é sinal forte — marque `novo: false` e o `vezesVisto`.
-- Se um nicho não tem 2 ofertas aprovadas, vá mais fundo em `data/raw/<hoje>/<nicho>.json` (campo `ofertas`, ordenado por score). Se mesmo assim não houver, entregue as que houver e diga no `resumo`.
-- Nicho sem coleta (0 anúncios) entra em `nichosFaltando`, não no corpo do relatório.
-- **Rodízio:** o scraper roda só `nichosPorDia` (config) nichos por dia, girando a lista — economia de banda do proxy pago e de bloqueio da Meta. Nicho que não estava no rodízio de hoje NÃO é falha: em `nichosFaltando` diga "fora do rodízio de hoje" e, se o relatório anterior tiver ele, cite o destaque de lá numa linha no `resumo`.
+Junte as ofertas aprovadas de **todos os nichos coletados hoje** e escolha as 3 melhores. Regras:
+- No máximo 2 do mesmo nicho, 1 por página.
+- **Prioridade white:** empatou em sinais de escala, fica a de renda extra / receita / maternidade / educação infantil.
+- **Anti-repetição:** no máximo 1 das 3 pode ter saído no relatório anterior. Recorrente que segue no topo é sinal forte — marque `novo: false` e o `vezesVisto`.
+- Se sobrar menos de 3 ofertas white, entregue menos e explique no `resumo` — **nunca complete a cota com oferta de saúde**.
+- Nicho fora do rodízio de hoje vai em `nichosFaltando` como "fora do rodízio", não é falha.
 
 ## Passo 3 — Ler o histórico
 
@@ -112,4 +112,4 @@ Depois rode: `node scripts/render-relatorio.mjs saidas/mineracao/<hoje>.json` �
 
 ## Passo 5 — Responder no chat
 
-Uma linha: caminho do `.html` + quantas ofertas por nicho + os 3 destaques do dia. Nada mais.
+Uma linha: caminho do `.html` + as 3 ofertas escolhidas (página → 1 frase). Nada mais.
