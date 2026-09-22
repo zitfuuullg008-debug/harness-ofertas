@@ -1,146 +1,1829 @@
 {
   "data": "2026-09-22",
-  "geradoEm": "2026-09-22T16:42:24.773Z",
+  "geradoEm": "2026-09-22T17:05:46.467Z",
+  "fonte": "ad-hunter",
   "nichos": [
     {
-      "id": "maternidade",
-      "nome": "Maternidade e família",
-      "totalAnuncios": 148,
-      "totalOfertas": 111,
-      "totalPaginas": 103,
+      "id": "renda_extra",
+      "nome": "Renda extra",
+      "prioridade": 1,
+      "fonte": "ad-hunter",
+      "coletadoEm": "2026-09-22T16:38:37.987+00:00",
+      "idadeEmDias": 0,
+      "totalAnuncios": 19,
+      "totalOfertas": 19,
       "top": [
         {
-          "pagina": "Prof Juliana ",
-          "paginaId": "836987269503104",
+          "pagina": "Venda Sem Estoque",
+          "paginaId": "598638986661794",
           "instagram": null,
           "oferta": {
-            "chave": "wa:sem-numero",
-            "link": "https://api.whatsapp.com/send"
+            "chave": "site.marcelowedrop.com/aula-completa-v2-leads-f2",
+            "link": "https://site.marcelowedrop.com/aula-completa-v2-leads-f2/"
           },
           "novo": true,
           "vezesVisto": 1,
-          "score": 81,
           "sinais": {
-            "anunciosNaPagina": null,
-            "fonteContagem": "observado",
-            "ofertasNaPagina": 1,
-            "criativosDaOferta": 14,
-            "criativosEstimados": null,
-            "criativosNoLote": 14,
-            "collationMax": 4,
-            "mesmoCriativoNoLote": 1,
-            "diasAtivoMediana": 34,
-            "diasAtivoMax": 55,
-            "impressoesMax": null
+            "anunciosNaPagina": 420,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 20,
+            "diasAtivoMax": 20,
+            "curtidasPagina": 4579,
+            "seguidoresIg": null
           },
           "keywordsOndeApareceu": [
-            "atividades infantis"
+            "vivendo de renda extra"
           ],
           "anuncioPrincipal": {
-            "id": "1834439197527339",
-            "titulo": "Acesse em \"Saiba Mais\"",
-            "texto": "5.000 atividades infantis prontas para imprimir 📚✨\n\n✅ Alfabetização\n✅ Coordenação motora\n✅ Criatividade\n✅ Aprendizado sem celular ou telas\n\n👉 Baixou, imprimiu, usou.\nSimples assim.\n\nPerfeito para o dia a dia, férias e momentos em casa com seu filho 💛\n\n👇 Clique em “Saiba Mais” e descubra agora.",
+            "id": "28308924952107697",
+            "titulo": "📣 Aula liberada - VEJA ISSO, antes de sair do ar!",
+            "texto": "",
             "cta": "Saiba mais",
-            "link": "https://api.whatsapp.com/send",
+            "link": "https://site.marcelowedrop.com/aula-completa-v2-leads-f2/",
             "tipoCriativo": "video",
-            "video": "https://video.fcgh3-2.fna.fbcdn.net/o1/v/t2/f2/m366/AQOKlSns7K5mJeprk7IZpX7PLQ_d3QkxHOaWK9BDcL4xhoAyCnD5u1NlilEvoD8-wQSCRqCMM-XFtvizRILjFkLhd0T9rfm-H8C8wKw52Dw-Zg.mp4?_nc_cat=105&_nc_oc=AdrRyQyt8w70IGtpojfe-IwkhoJvNAnWBkrC4C5g4S2J_-2NDHxz5tFk8TNnrmEgKdkJCWIVLirC0D8ly7uXhH6e&_nc_sid=b66105&_nc_ht=video.fcgh3-2.fna.fbcdn.net&_nc_ohc=KIxex93gOl0Q7kNvwENirc5&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjcwMjUwMDY1OTA3MTc4NiwiYXNzZXRfYWdlX2RheXMiOjM2MywidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjQxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=9a428a16212aa9cb&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9ENzQzNDlGQkFCNTcyNjRDREExMEE2QTI5Nzc2MjY4QV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50Lzg0NEVDRDRCOTdBQkM2NkM2Q0IxNDlCOTNDRDkyMTkzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbUrOjj9bq_AhUCKAJDMywXQETmZmZmZmYYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=i4CZWWxFBeNcGYfGXLEOoA&_nc_ss=78289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQKZskNM3s_kpKm10aopvmgGeuZMf_SMgmhkd9SVGt-fOw&oe=6AB874E3",
-            "imagem": "https://scontent.fcgh3-1.fna.fbcdn.net/v/t39.35426-6/763805841_1501438915070287_8863590543543011443_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=GllBYqELisMQ7kNvwFCskb6&_nc_oc=AdpUXZO62-GQa3i4ZWJF7twPh2AdWRFTpNrKCJnnBgjsM_WbvEqbjASroMOXT96k4hUK0Utz2XXZSi3rg1Vcvsl_&_nc_zt=14&_nc_ht=scontent.fcgh3-1.fna&_nc_gid=i4CZWWxFBeNcGYfGXLEOoA&_nc_ss=78289&oh=00_AQKINrLLjhy_OGieu6k68r-87wLhJZNx9DMGM3PX2IzFFw&oe=6AB878BE",
-            "diasAtivo": 49,
-            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1834439197527339"
+            "video": "https://video-phl2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQPxLvlEWfoY12iuuFLdK4aJYfp__KpKhSgLo5SunOIcewQK7eMEn0Pc3gWl22nZwCjiwljEUDNVkEfUKU80ukffi2C_uvW48TmzX1HHegvZ7w.mp4?_nc_cat=103&_nc_sid=b66105&_nc_ht=video-phl2-1.xx.fbcdn.net&_nc_ohc=7OWU4rbp-bcQ7kNvwGQsL7B&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEzNzc1NDkyMDc2NTk2NTksImFzc2V0X2FnZV9kYXlzIjozMywidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjk4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=463ec1abce711b06&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9EQzRGM0E0OUNCMzZCQjEzMjlFQjlENzZBQzYwRTU4NF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0ExNEYxRjNCMEZCQUFCQjEzNENEODI1NTFEMzFDMzkzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaWkvey9bfyBBUCKAJDMywXQFiTMzMzMzMYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=XIEhhwCZ0jxrQlCZBQJBeg&_nc_ss=7b289&_nc_zt=28&oh=00_AQLTUM9cQv-7BQaN9zaaI6HR5Hfjz8bxFWAdONPFM2ih8w&oe=6AA41909",
+            "imagem": "https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/794096148_1599039991945323_5662637401576840742_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=8M5rotaPe5cQ7kNvwGQ2o_R&_nc_oc=AdrcM3KtM7AXOTcMnFpn7QkE66-A3mTrHtZIdQYGFplb3V1VOhlCG081gDCPd8xYJ2c&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=XIEhhwCZ0jxrQlCZBQJBeg&_nc_ss=7b289&oh=00_AQJwMGUILHTPtAn99ClA2yiD7L4orxL43Poab35rsUZF5g&oe=6AA40F74",
+            "diasAtivo": 20,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=28308924952107697"
           },
-          "outrosTextos": [
-            "5.000 atividades infantis prontas para imprimir 📚✨\n\n✅ Alfabetização\n✅ Coordenação motora\n✅ Criatividade\n✅ Aprendizado sem celular ou telas\n\n👉 Baixou, imprimiu, usou.\nSimples assim.\n\nPerfeito para o dia a dia, férias e momentos em casa com seu filho 💛\n\n👇 Clique em “Saiba Mais” e descubra agora.",
-            "5.000 atividades infantis prontas para imprimir 📚✨\n\n✅ Alfabetização\n✅ Coordenação motora\n✅ Criatividade\n✅ Aprendizado sem celular ou telas\n\n👉 Baixou, imprimiu, usou.\nSimples assim.\n\nPerfeito para o dia a dia, férias e momentos em casa com seu filho 💛\n\n👇 Clique em \"Saiba Mais\" e descubra agora",
-            "5.000 atividades infantis prontas para imprimir 📚✨\n\n✅ Alfabetização\n✅ Coordenação motora\n✅ Criatividade\n✅ Aprendizado sem celular ou telas\n\n👉 Baixou, imprimiu, usou.\nSimples assim.\n\nPerfeito para o dia a dia, férias e momentos em casa com seu filho 💛\n\n👇 Clique em \"Saiba Mais\" e descubra agora"
-          ]
+          "outrosTextos": []
         },
         {
-          "pagina": "Odonto Excellence Franchising",
-          "paginaId": "856553134414922",
+          "pagina": "Tradeandonet",
+          "paginaId": "101356552465002",
           "instagram": null,
           "oferta": {
-            "chave": "odontoexcellence.com.br",
-            "link": "http://odontoexcellence.com.br/"
+            "chave": "cursos.tradeando.net/descubre-como-operar-los-mercados/index.html",
+            "link": "https://cursos.tradeando.net/descubre-como-operar-los-mercados/index.html"
           },
           "novo": true,
           "vezesVisto": 1,
-          "score": 71,
           "sinais": {
-            "anunciosNaPagina": null,
-            "fonteContagem": "observado",
-            "ofertasNaPagina": 1,
-            "criativosDaOferta": 3,
-            "criativosEstimados": null,
-            "criativosNoLote": 3,
-            "collationMax": 26,
-            "mesmoCriativoNoLote": 2,
+            "anunciosNaPagina": 350,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 114,
+            "diasAtivoMax": 114,
+            "curtidasPagina": 5738,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "Generar ingresos extra"
+          ],
+          "anuncioPrincipal": {
+            "id": "974228251902882",
+            "titulo": null,
+            "texto": "",
+            "cta": "Inscrever-se agora",
+            "link": "https://cursos.tradeando.net/descubre-como-operar-los-mercados/index.html",
+            "tipoCriativo": "video",
+            "video": "https://video-hou1-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNGei4bbyNlAa4H7-CU6hiKqdmjA_kfV6h3ALsu1wlPmigPCDOXYj6npZ9aKtQzQUvUvbvyEDpBxw8K6EVqJoDSUOcZE6OdNf9CcWhrVQ.mp4?_nc_cat=111&_nc_sid=ef5aa3&_nc_ht=video-hou1-1.xx.fbcdn.net&_nc_ohc=od7GH7yv32YQ7kNvwHcyipw&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTY0MTQ3MDYxMDMwODgwMCwiYXNzZXRfYWdlX2RheXMiOjEzNywidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjEzNSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=O60u7-PiAmMV518Bnzo_Ew&_nc_ss=7b289&_nc_zt=28&oh=00_AQKFitN9nQAuokFY9dcRbXVxNL-Kzgbs8ewfKM7mC64BKg&oe=6AA419BF",
+            "imagem": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.35426-6/710193146_1437213771504499_7351832805609355543_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=bmxtI1TzWdkQ7kNvwHbSK8q&_nc_oc=AdpJYFqh7f4cQubOhd4icbhR0He2WfJB42rlmROl0jJ-2N7IJUTZoDMds7uwcmglncI&_nc_zt=14&_nc_ht=scontent-hou1-1.xx&_nc_gid=O60u7-PiAmMV518Bnzo_Ew&_nc_ss=7b289&oh=00_AQKwRIna3kFw4KfQAzfrvUCm9yWPDj9TTCLug51byQYT5A&oe=6AA41096",
+            "diasAtivo": 114,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=974228251902882"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Maximus Tecidos Finos",
+          "paginaId": "271318819636880",
+          "instagram": null,
+          "oferta": {
+            "chave": "materiais.maximustecidos.com.br/curso-online-costura-para-iniciantes-viviane-alves",
+            "link": "https://materiais.maximustecidos.com.br/curso-online-costura-para-iniciantes-viviane-alves"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 280,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 76,
+            "diasAtivoMax": 76,
+            "curtidasPagina": 242118,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "aprenda a fazer renda extra"
+          ],
+          "anuncioPrincipal": {
+            "id": "1344079877178359",
+            "titulo": "Curso de Costura para Iniciantes",
+            "texto": "Aprenda a Costurar do Zero com Segurança e Crie Peças Incríveis para Você, sua Família ou para Vender e Garantir uma Renda Extra com a Costura. Matrículas Abertas Curso de Costura para Iniciantes com Viviane Alves. Saiba Mais Aqui: 👉 https://materiais.maximustecidos.com.br/curso-online-costura-para-iniciantes-viviane-alves",
+            "cta": "Saiba mais",
+            "link": "https://materiais.maximustecidos.com.br/curso-online-costura-para-iniciantes-viviane-alves",
+            "tipoCriativo": "video",
+            "video": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQO18eY3ru4B0TAKlUkQqEbbqeDYCQUmxt2fAk0F2o92X2PiVWcBokUrY_ijgkWK695mCOi5dnB_H78x9IvbbSNRV2ev32HG5J_9TFjjECxn8g.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=r5ps4q6jGU8Q7kNvwHtOuL0&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjc2Njc2MDQ1MjY3MDI4OCwiYXNzZXRfYWdlX2RheXMiOjM4OCwidmlfdXNlY2FzZV9pZCI6MTIzNzMsImR1cmF0aW9uX3MiOjQ2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=21cd682303b98d3e&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8xRjRCNzE0MDJBREMxOERDNkNCMTYzMDQ2MjQ0OEM4M19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzNCNDlGNjQzOEU5N0I5MDgyODEyNTEzODBENTczRjlFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACagjcbGqtfcAhUCKAJDMywXQEdIcrAgxJwYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZarBAQA&_nc_gid=MZVaAubnsEaM0niZ7kBxvA&_nc_ss=7b289&_nc_zt=28&oh=00_AQIQ1jTl4ffYyrkjoWBMNEoc6uhbWZO5YtC8jN-6jxYbag&oe=6AA41F0B",
+            "imagem": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/654695666_880780931615027_8895194450429500594_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SKcrhKA_AskQ7kNvwGRvEtP&_nc_oc=AdoO0gjbT1CjzJr6vTr75sK4AU7YhmhZpoDIRghSfv1B6rOwx591_uWrhUO6iY88H3s&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=MZVaAubnsEaM0niZ7kBxvA&_nc_ss=7b289&oh=00_AQKF9mR7tI86hHplPgMd8deLYYI10ygsJkEV0VEOrBLhxw&oe=6AA42F5B",
+            "diasAtivo": 76,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1344079877178359"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Luciano Fernandes",
+          "paginaId": "1155889627877624",
+          "instagram": null,
+          "oferta": {
+            "chave": "lucianofernandesif.com.br/vdr-0",
+            "link": "https://www.lucianofernandesif.com.br/vdr-0?utm_source=instagram&utm_medium=feedst&utm_campaign=gif-wbp01-vend-ig-feedst-advantage-x-frio-ad05"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 270,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 31,
+            "diasAtivoMax": 31,
+            "curtidasPagina": 91012,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "vivendo de renda extra"
+          ],
+          "anuncioPrincipal": {
+            "id": "1358912079661073",
+            "titulo": "WEBINÁRIO - VIVER DE RENDA PASSIVA",
+            "texto": "WEBINÁRIO - VIVER DE RENDA PASSIVA\n\nA maioria das pessoas investe há anos e ainda não sabe se sua carteira está gerando renda de verdade.\n\nEm 1 encontro online você vai aprender como estruturar uma carteira de investimentos focada em geração de renda mensal — com método, organização e clareza.\n\nSem promessas. Sem fórmulas mágicas. Só o que realmente funciona.\n\nAcesse e adquira sua vaga!",
+            "cta": "Saiba mais",
+            "link": "https://www.lucianofernandesif.com.br/vdr-0?utm_source=instagram&utm_medium=feedst&utm_campaign=gif-wbp01-vend-ig-feedst-advantage-x-frio-ad05",
+            "tipoCriativo": "video",
+            "video": "https://video-phl2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQPCD5uglyny5nJbDEv7FUujlXE3t1c4N157lxA4QO83WtrH9sAwtzdIUYJxOu7AyiF672ArNF0NlJ8vxgTG74UmHTIOiKhsj4eSXpP1h5BTnw.mp4?_nc_cat=111&_nc_sid=b66105&_nc_ht=video-phl2-1.xx.fbcdn.net&_nc_ohc=m-QvyEVsJ3EQ7kNvwFapBQX&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjIzNDQxMDA5ODYxMTI0OTMsImFzc2V0X2FnZV9kYXlzIjoxMTQsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjoxNjQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=80ce2778942439c2&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9GMDQ0RDUyMEVBNTkwNzRFOENDQ0I2MTExNkU1NzU5Rl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzVDNENDMTIyNzYxODAzOUYzNEM3NjMyNjZBQTZCQ0JDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbap8Kp0fypCBUCKAJDMywXQGSO6XjU_fQYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=0be__L_QipsJH0Ws4Jl4Pg&_nc_ss=7b289&_nc_zt=28&oh=00_AQJ11Kq8iXsymUS6rkArzW9Hu9o8JQCrlI8tY8yA3tajaA&oe=6AA43DED",
+            "imagem": "https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/726494265_973072799036922_7298685405853912382_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=C_beJuO0Pl8Q7kNvwE64xe_&_nc_oc=AdrzP-tcim5FYpFe9rJGyGPTTSDivY9wUWVCY16-8-vY7VgJLf0ar16_VSgxYvxSYmQ&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=0be__L_QipsJH0Ws4Jl4Pg&_nc_ss=7b289&oh=00_AQLYOBYfbXXLV38bWxL6xotreW_aUw1FS0HllaG2kazf6g&oe=6AA43CEE",
+            "diasAtivo": 31,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1358912079661073"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Jaime Higuera España",
+          "paginaId": "101245949696887",
+          "instagram": null,
+          "oferta": {
+            "chave": "clase.ecomgrowthpartners.com/masterclass/registro",
+            "link": "https://clase.ecomgrowthpartners.com/masterclass/registro"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 260,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 42,
+            "diasAtivoMax": 42,
+            "curtidasPagina": 629981,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "Generar ingresos extra"
+          ],
+          "anuncioPrincipal": {
+            "id": "27825859943701130",
+            "titulo": "Tus 2-3 horas libres valen 1.000-3.000€",
+            "texto": "¿Tienes 2-3 horas libres al día?\nCasi todos las gastan en TikTok.\nSon suficientes para generar 1.000-3.000€ extra al mes.",
+            "cta": "Assistir mais",
+            "link": "https://clase.ecomgrowthpartners.com/masterclass/registro",
+            "tipoCriativo": "video",
+            "video": "https://video-hou1-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQPXYyHHXT997lzz0GZFbU9HHiO_UnmPnQAYxLWKg3lsNZmpoSMIH4PIDvig0E67vJs6x567DZ_gAryqWyU0htFneK-tFRxnVWT71l23uiyjqw.mp4?_nc_cat=107&_nc_sid=b66105&_nc_ht=video-hou1-1.xx.fbcdn.net&_nc_ohc=GWKIaRxaOIsQ7kNvwECM6MV&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMTI4MC5kYXNoX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNzI2ODI0NTMxNzE3OTY5LCJhc3NldF9hZ2VfZGF5cyI6ODQsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjoxOTcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=bd30583ce569600e&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9CMjQzNDQ0MjcyMDNGMUI1N0RCRjBDRjAxRDYwODQ5RV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0RFNERBQUIxQTk5NjY3OUE0RjNFMzIxNzFBRDU2OUJFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaiveustaKRBhUCKAJDMywXQGiiHKwIMScYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=N-vpflIErF_gHoClc0SiwQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQIgvaNVYZeWEThh-gV5mkoFqWS57DyxQjc856zfjyHbhg&oe=6AA437BD",
+            "imagem": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.35426-6/753018762_1271715634885019_8736912621751660606_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Q0zKa435fm4Q7kNvwFknIdi&_nc_oc=AdrSKilPvfJIiCfMjc0d7rK2VQoI5Y7zMLFPlNq2y1d7eM1tDeIoi1JfkbZVsDvBCRE&_nc_zt=14&_nc_ht=scontent-hou1-1.xx&_nc_gid=N-vpflIErF_gHoClc0SiwQ&_nc_ss=7b289&oh=00_AQIwBk4Yb6Y3bp6j_OKx0HhAKox2v_o0k4cCIP2Vls6CUw&oe=6AA415BB",
+            "diasAtivo": 42,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=27825859943701130"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Luciana Prado",
+          "paginaId": "878176412048107",
+          "instagram": null,
+          "oferta": {
+            "chave": "inlead.digital/rolinhos-gourmet",
+            "link": "https://inlead.digital/rolinhos-gourmet"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 130,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 46,
+            "diasAtivoMax": 46,
+            "curtidasPagina": 697,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "aprenda a fazer dinheiro"
+          ],
+          "anuncioPrincipal": {
+            "id": "1037695398665651",
+            "titulo": "Clica em saiba mais",
+            "texto": "Aprenda a fazer rolinhos gourmet ✨",
+            "cta": "Saiba mais",
+            "link": "https://inlead.digital/rolinhos-gourmet",
+            "tipoCriativo": "video",
+            "video": "https://video-hou1-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQP_zY0GJ29sS066YtuPpNF9ZFUMbrqeNzo2MsJnHCQU70BnfKEWultHngrx5Ddozxldz1RIYu1Ty5hH7zLFgJng9LE2POM8M8O18hNCL9j63A.mp4?_nc_cat=100&_nc_sid=b66105&_nc_ht=video-hou1-1.xx.fbcdn.net&_nc_ohc=R_FJs4zkn1AQ7kNvwEwZxGf&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE1OTIwNzY0MDU2MDY0MDksImFzc2V0X2FnZV9kYXlzIjozMSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjY5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=a45140d0cd2335b3&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zQjRCM0Y3OTEzM0Y1NTA1OURDRThFODU1QjVERDU4MV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzZBNEUwQURCRjhERDRBOUJCOTcxQzQ5MTNFNDlBMjhGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaSoOTJhf_TBRUCKAJDMywXQFFTMzMzMzMYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=wGpRaAaRRxLspOPVuagXHA&_nc_ss=7b289&_nc_zt=28&oh=00_AQK_BjbP2puHUB-zamluYGJ0zi_Hcn2zMSa0hslMThgCCg&oe=6AA41C5C",
+            "imagem": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.35426-6/764910266_28271909089067342_4555174732859286457_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=WG3ui1l8NvIQ7kNvwFhR9si&_nc_oc=AdoAOMSn9LkfaND85IAiD_SAbPxhx0lrd5etPIvlenvFWeaKls3l1z-q93FUkN1vRcU&_nc_zt=14&_nc_ht=scontent-hou1-1.xx&_nc_gid=wGpRaAaRRxLspOPVuagXHA&_nc_ss=7b289&oh=00_AQKICyzvq6PCFSDQkJ-5s_YCF0HyUmkIzG4sO3pmownhZA&oe=6AA4279C",
+            "diasAtivo": 46,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1037695398665651"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "EQI/Research",
+          "paginaId": "107987665502981",
+          "instagram": null,
+          "oferta": {
+            "chave": "materiais.eqiresearch.com.br/material_vivendoderenda01_x_x_d_x_x",
+            "link": "https://materiais.eqiresearch.com.br/material_vivendoderenda01_x_x_d_x_x?campaignId=701TW00000ITKIpYAP"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 120,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 26,
+            "diasAtivoMax": 26,
+            "curtidasPagina": 7661,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "vivendo de renda extra"
+          ],
+          "anuncioPrincipal": {
+            "id": "1581625636738663",
+            "titulo": "Simulador Vivendo de Renda",
+            "texto": "Baixe gratuitamente a planilha que calcula quanto você precisa para viver de renda.",
+            "cta": "Saiba mais",
+            "link": "https://materiais.eqiresearch.com.br/material_vivendoderenda01_x_x_d_x_x?campaignId=701TW00000ITKIpYAP",
+            "tipoCriativo": "video",
+            "video": "https://video-phl2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQM6jQE66XwMnXVThrJxvb4cDNHZ_x0HJbcQ4K_HEouLlTYDhd8oMc92hpBy2WZkL0VD7TuRKFAVviWKGOpNEPKLLo4HDNpBZNfGnFadtI_zOw.mp4?_nc_cat=109&_nc_sid=b66105&_nc_ht=video-phl2-1.xx.fbcdn.net&_nc_ohc=u34Jpn_y5UgQ7kNvwFn2f5P&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE5ODA5NDQ4ODU4NzUxOTEsImFzc2V0X2FnZV9kYXlzIjo5NSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjExNSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=aacccb8403894a7a&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8yNjQ5MTEyNjY5MkQ2NTE0NEM3Rjg1NjFDNkNEQ0U5NV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0FGNENDQTUyMzk2MjJEOEQyOTFBNTc5QjAxQTYwRUE1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbuh_DDleqEBxUCKAJDMywXQFz8vGp--dsYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=tqqjGscPlvMpX6AxlC-ntQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQKTk7pDAfMesMYYPRexRaDyD-EsKXoO_cW_YyXFyWCxOQ&oe=6AA43053",
+            "imagem": "https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/721310536_1783843196105698_886719511380602_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ihJmlxs5r30Q7kNvwGRYwA0&_nc_oc=AdqUvMqhmf_yleqsvTXhqEjNmSQZxMlRJv-H-I3kiD5COXR4I5TGTK1v_bIWQ-R4BDs&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=tqqjGscPlvMpX6AxlC-ntQ&_nc_ss=7b289&oh=00_AQKS1beYwe-TdEZE6zvcmJl8wKoTxtObnn239RdDh_mKyg&oe=6AA43194",
+            "diasAtivo": 26,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1581625636738663"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Mayara Campos Doces",
+          "paginaId": "1717172328593393",
+          "instagram": null,
+          "oferta": {
+            "chave": "mayaracamposconfeitaria.com.br/osegredodasfatiasperfeitas",
+            "link": "https://mayaracamposconfeitaria.com.br/osegredodasfatiasperfeitas/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 82,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 34,
+            "diasAtivoMax": 34,
+            "curtidasPagina": 54322,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "aprenda a fazer renda extra"
+          ],
+          "anuncioPrincipal": {
+            "id": "1634461238091676",
+            "titulo": "APRENDA AGORA!",
+            "texto": "✨ Quer fazer doces irresistíveis para vender ou simplesmente se deliciar em casa?\n\nO curso “O Segredo das Fatias Perfeitas” ensina 12 receitas práticas, cremosas e de alta aceitação, perfeitas para quem quer renda extra ou para quem ama saborear doces feitos por você. 🍰\n\n✅ Renda extra com baixo investimento\n✅ Ingredientes simples e fáceis de encontrar\n✅ Faça na sua cozinha e aproveite ou venda\n\n🚀 Comece hoje e transforme suas fatias em dinheiro ou momentos de prazer!",
+            "cta": "Saiba mais",
+            "link": "https://mayaracamposconfeitaria.com.br/osegredodasfatiasperfeitas/",
+            "tipoCriativo": "video",
+            "video": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNdsq1pxY_nnehxGWH_W860OO3PqtbrxGvGbNT5LtnSZf8mFQbHb2HHNsAXL-w6WFBN6wR8qV7NR0zyzC4uwK0U7CDG06lz7ShiAJ6UM8kY9A.mp4?_nc_cat=104&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=GP0J6vloQLYQ7kNvwGdclrF&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjc5NzIwNzI1NjAzMTU4NiwiYXNzZXRfYWdlX2RheXMiOjM0MCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjQ2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=c4b63334993b59f9&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zRjRBQTYyNTVDRUUwM0RDNzUyQ0VDMDkyNjY4NDFCOV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzlFNDk5MDIzRUY3OTRFOTQ2NTBFMjg4QzQ4OUQzREFBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbEhff0yMPqAhUCKAJDMywXQEdmZmZmZmYYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=Zrpc6HGwdDRWOFSwW0ltYQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQJhFai8L0WBjTtUPI4BAU0e8HvteDNGc9vT8LT1r95ZXg&oe=6AA413F4",
+            "imagem": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/778103106_1026117320191083_3188967391465931759_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=RHm3EgI_kOQQ7kNvwFZgHRo&_nc_oc=AdowLMlqS8MzJ4eElFy31qEMKb1LbZ_abCmxlK5EJ2VDaSrnLUDkUUJENqfHB0R7LoM&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Zrpc6HGwdDRWOFSwW0ltYQ&_nc_ss=7b289&oh=00_AQL4iaQLGjLupfcfeNJ0MNarNlriUUxDIon2qHmb_RT3Ow&oe=6AA4270D",
+            "diasAtivo": 34,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1634461238091676"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Saboaria da Tia Rose",
+          "paginaId": "113665005122948",
+          "instagram": null,
+          "oferta": {
+            "chave": "saboariatiarose.com/tiarose2-0",
+            "link": "https://saboariatiarose.com/tiarose2-0/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 79,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 43,
+            "diasAtivoMax": 43,
+            "curtidasPagina": 22553,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "aprenda a fazer renda extra"
+          ],
+          "anuncioPrincipal": {
+            "id": "1053850734057214",
+            "titulo": "7,00 Hoje no Curso 2.0 🙌",
+            "texto": "Curso de Saboaria Artesanal 2.0 💲🧼\nO curso que já transformou a vida de mais de 60 mil alunas em todo o Brasil está ainda melhor! 🌸\n\nAprenda a produzir Sabonetes Artesanais de alto padrão, com novas receitas, técnicas atualizadas e vídeo aulas exclusivas 🎥✨\n\n📘 A nova Apostila 2.0 conta com mais de 150 receitas de sucesso, testadas e aprovadas por quem já vive da saboaria.\n\n🎁 E tem mais: você ainda recebe 5 Apostilas Extras 📚 com receitas inéditas, certificado de qualificação, e acesso ao grupo exclusivo de alunas 2.0 para trocar experiências e continuar crescendo!\n\n🧼 Dê o próximo passo e descubra como transformar sua paixão por sabonetes em uma fonte real de renda com o Curso de Saboaria Artesanal 2.0.",
+            "cta": "Ver detalhes",
+            "link": "https://saboariatiarose.com/tiarose2-0/",
+            "tipoCriativo": "video",
+            "video": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQODnxJqDYd7BciJ_Ebi_Nau0coQou7IPgzk1XI6SUxdUfRDSF7mpzB-n4BHfNOlCzxdfMPAdgRHrSgDxBs2zCKcfa80xElzxk4bVAWV__WY7g.mp4?_nc_cat=106&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=E798hoBTYisQ7kNvwGB8y0G&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjgzMDk5MjQwMDAwNDA1MSwiYXNzZXRfYWdlX2RheXMiOjI3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NTcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=daffcfa0b8e602ae&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC84RjQ4OTVFMDg1NEUyNTEwQzI2MTU3ODcxQTA5ODRCM19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzBFNDA2OURDNTBEMzQ0MURGRTRFNDY5QURBNTIxRDlCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACamz4Htj_L5AhUCKAJDMywXQEzEOVgQYk4YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=lzKXF6B2SJg_U09Aw1W8vA&_nc_ss=7b289&_nc_zt=28&oh=00_AQLyuOyN1lbUsdQOL1gMr3RAnz5HtQoJ-WWRp1M4bUBSOA&oe=6AA42F46",
+            "imagem": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/772137764_28821803334074065_7167122536789355898_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=HTdpDGqhmFsQ7kNvwEtC0dt&_nc_oc=AdovsRN0Ye4Zbsaz96BdrZTrBa1aMQMel4CwDXbHrT_SR0eUh1sik0feMaxosB_fCRA&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=lzKXF6B2SJg_U09Aw1W8vA&_nc_ss=7b289&oh=00_AQJURzZguZWMEiITRgmWbwxG3fauM80GOWbb8Xmzgu7EYQ&oe=6AA409F1",
+            "diasAtivo": 43,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1053850734057214"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Fabricio Sampayo",
+          "paginaId": "608204589049047",
+          "instagram": null,
+          "oferta": {
+            "chave": "go.sxcelerator.com/metodo-setterx",
+            "link": "https://go.sxcelerator.com/metodo-setterx"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 59,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 139,
+            "diasAtivoMax": 139,
+            "curtidasPagina": 160,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "Generar ingresos extra"
+          ],
+          "anuncioPrincipal": {
+            "id": "980437451190037",
+            "titulo": "Hacé click en el entrenamiento y descubrí como generar ingresos como Appointment Setter solo con tu celular",
+            "texto": "Hacé click en el entrenamiento y descubrí como generar ingresos como Appointment Setter solo con tu celular",
+            "cta": "Saiba mais",
+            "link": "https://go.sxcelerator.com/metodo-setterx",
+            "tipoCriativo": "video",
+            "video": "https://video-phx1-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQPWtsji3seC6EBTD6BI3ml81s_wcXofWTHBthDIwKZsSdd-jPJQCOSsh8yDyNqV9tyog46MaBvc3XaR_JY9xHm9_r3b6VWPrz-InsGwZzbXdw.mp4?_nc_cat=108&_nc_sid=b66105&_nc_ht=video-phx1-1.xx.fbcdn.net&_nc_ohc=eOowyBjwqAkQ7kNvwFmxlOA&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEzNDI0NjA5MzA3MTYzNjAsImFzc2V0X2FnZV9kYXlzIjozMzEsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjoxMDYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=b8d267b1b4b27f08&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC83RDQzMkRDNjJFMUE3MkUyNkNEREI3QTY0RDY5ODg4NF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50Lzk4NDUyNjdEOTQxNzM1Q0QzMUYyNUI5NjAxOTk4RThCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaQy7Ouwb3iBBUCKAJDMywXQFqzMzMzMzMYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=ULf2nzH1SJlLBQ73Ifn9Xg&_nc_ss=7b289&_nc_zt=28&oh=00_AQKp3318y9MEjXfm4qAuenlA0Njpe_-pnOiyDu2_RJYGLg&oe=6AA40F48",
+            "imagem": "https://scontent-phx1-1.xx.fbcdn.net/v/t39.35426-6/689832911_1494557795452399_778987975566271583_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ocXDUgSru5cQ7kNvwHBDFte&_nc_oc=AdqdoQA2TWLdFsy8w4T9x5V08K7tyGyAVycUxmjeaZiizpmW2DXs1Y2_9KejLgSVVwE&_nc_zt=14&_nc_ht=scontent-phx1-1.xx&_nc_gid=ULf2nzH1SJlLBQ73Ifn9Xg&_nc_ss=7b289&oh=00_AQKqdEXfsn5m1rPHl4k0of6xS9O9dWiBTxfAQQjjZFKg3g&oe=6AA439F4",
+            "diasAtivo": 139,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=980437451190037"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Aisne morelli",
+          "paginaId": "373233815878944",
+          "instagram": null,
+          "oferta": {
+            "chave": "aisnemorelli.com.br/e20g-b-29",
+            "link": "https://aisnemorelli.com.br/e20g-b-29/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 58,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 92,
+            "diasAtivoMax": 92,
+            "curtidasPagina": 43038,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "aprenda a fazer dinheiro"
+          ],
+          "anuncioPrincipal": {
+            "id": "1401542428476587",
+            "titulo": "Aprenda a fazer sabonetes lucrativos hoje",
+            "texto": "Você quer começar na saboaria…\nmas tem medo de desperdiçar material, errar receitas ou simplesmente não saber por onde começar?\n\nCom o Guia 20 Receitas de Sabonetes Glicerinados, você aprende:\n\n✨ receitas já testadas\n✨ passo a passo simples\n✨ como fazer sabonetes bonitos e lucrativos\n✨ mesmo começando do zero em casa\n\nTudo isso por um valor simbólico.\n\nClique em saiba mais e comece hoje 👇",
+            "cta": "Saiba mais",
+            "link": "https://aisnemorelli.com.br/e20g-b-29/",
+            "tipoCriativo": "video",
+            "video": "https://video-phl2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQOR32vuLs2TouEmWfw6y3HVDrfegt4cbINQCy7F52qPMCqh-WZ9WelnG-NQzXuHefsA7aMOYpwF75Y7gX6gzYsWVfuMvqzCwANuG09kN1dRbA.mp4?_nc_cat=111&_nc_sid=b66105&_nc_ht=video-phl2-1.xx.fbcdn.net&_nc_ohc=Yv3OJvpmQZ0Q7kNvwFjABMP&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE1MzU5NDQzMTQ1NDI1MTgsImFzc2V0X2FnZV9kYXlzIjoxMDIsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjo0MCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=5cea35cb5d836565&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC81NjQ2QjM1NUIxOUJGRUIzMTE2OTE4MUI1QUZDQTc5Ql9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzEwNDZBODQ5OEY5RjM5N0FBNEI4OTI0MUZGQTVFQUFDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbs5pr03Lu6BRUCKAJDMywXQEQZmZmZmZoYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=lIpmjilOteIhffLPeCwasg&_nc_ss=7b289&_nc_zt=28&oh=00_AQLsBM4f63AdSJASK9mrKcDVl_KIplwkMjZ27t8Dypt-Qg&oe=6AA40739",
+            "imagem": "https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/728951174_4746915258929139_4572561305250351731_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=R8qDwI10kp8Q7kNvwHbvz1P&_nc_oc=Ado7HsRNzu6M4FfM70hzxqMviht8h9G3kNu_UfobdBbcuuq9wTWhSBxbpNXyvE0Lmpg&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=lIpmjilOteIhffLPeCwasg&_nc_ss=7b289&oh=00_AQLCINs65YRVfaWKl-vMC6zYblHZzju0rdAfFM77bvdTig&oe=6AA4134B",
+            "diasAtivo": 92,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1401542428476587"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Mariana Talita",
+          "paginaId": "1983243691931913",
+          "instagram": null,
+          "oferta": {
+            "chave": "marianatalita.com.br/saladas-para-o-dia-a-dia-emagreca",
+            "link": "https://marianatalita.com.br/saladas-para-o-dia-a-dia-emagreca"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 54,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 42,
+            "diasAtivoMax": 42,
+            "curtidasPagina": 32576,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "fazer e vender"
+          ],
+          "anuncioPrincipal": {
+            "id": "2640023413081985",
+            "titulo": "Saladas Gostosas Variadas 🥗😋",
+            "texto": "A salada não precisa ser a obrigação triste do prato... 🥹\n\nCom o ebook \"Saladas Gostosas para o Dia a Dia\" são mais de 70 receitas de saladas, molhos e método para você criar saladas GOSTOSAS por si. 😋\n\nToque no botão que aparece em sua tela e aprenda a sentir prazer ao se alimentar bem!",
+            "cta": "Saiba mais",
+            "link": "https://marianatalita.com.br/saladas-para-o-dia-a-dia-emagreca",
+            "tipoCriativo": "video",
+            "video": "https://video-iad6-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQNbRdM21hPef1Q6uBwuIb-opy8ksC59kP3JWPLRM5AnxLcMQGHHKWy3Pae3JhZ3oxPCUG1yVEwijlbKys5g8-IOaTVx2dK5MWNIlUOcMb5hXg.mp4?_nc_cat=100&_nc_sid=b66105&_nc_ht=video-iad6-1.xx.fbcdn.net&_nc_ohc=tSk3Zyi6t0YQ7kNvwHHI-2p&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEyMDM4NDc5NjA5MDMzNjUsImFzc2V0X2FnZV9kYXlzIjo3MDcsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo0NSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=c315b47d23a9c0a&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8wNDQ1QzNEQjdFMUE5OUE2Q0IxMTExNDI4MzRBQjFBQV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dKX3JseHR6WXNiTU1rc0RBTFFmLWhKNU44eEVidjRHQUFBRhUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaK-5WhlrmjBBUCKAJDMywXQEbVP3ztkWgYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=gSkvecwy-BllYGFwfXTSUg&_nc_ss=7b289&_nc_zt=28&oh=00_AQKu_t3iIImv_IVPYzYJzztaq-owlwcI2TaQVckAU-WgiA&oe=6AB88AEC",
+            "imagem": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.35426-6/502434210_699819499419408_4615635321699527197_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=mojcKU0IvPgQ7kNvwG0lbbL&_nc_oc=AdoMEQzgJ3u_t2opMsNp4S_dkOFc6FudQw-ibbawYO-YemiqcjsJRExQ62sx4echYLw&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=gSkvecwy-BllYGFwfXTSUg&_nc_ss=7b289&oh=00_AQKqPcMdXW-tKJeXxY8TPIOuVsYDMvOuOQL622KaszSVjQ&oe=6AB87099",
+            "diasAtivo": 42,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2640023413081985"
+          },
+          "outrosTextos": []
+        }
+      ]
+    },
+    {
+      "id": "receitas",
+      "nome": "Receitas",
+      "prioridade": 1,
+      "fonte": "ad-hunter",
+      "coletadoEm": "2026-09-21T13:11:22.706+00:00",
+      "idadeEmDias": 1,
+      "totalAnuncios": 21,
+      "totalOfertas": 21,
+      "top": [
+        {
+          "pagina": "Luana Oliveira",
+          "paginaId": "1108439012356829",
+          "instagram": null,
+          "oferta": {
+            "chave": "chefluana200airfryer.lovable.app",
+            "link": "https://chefluana200airfryer.lovable.app/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 420,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 75,
+            "diasAtivoMax": 75,
+            "curtidasPagina": 3320,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "receitas fáceis"
+          ],
+          "anuncioPrincipal": {
+            "id": "1578682446934009",
+            "titulo": "Pegar Receitas 👉",
+            "texto": "🍟 Sua Air Fryer tá sendo usada só pra fazer batata e frango? 👀\n\nPorque depois de um tempo parece que acaba a criatividade…\n\nvocê abre a geladeira, pensa no que fazer…\ne acaba repetindo sempre as mesmas receitas.\n\nfoi por isso que criamos o +200 Receitas na Air Fryer 💚\n\npra você aproveitar de verdade a Air Fryer que já tem em casa.\n\n✅ Receitas deliciosas e crocantes\n✅ Refeições completas, petiscos e sobremesas\n✅ Ingredientes fáceis de encontrar\n✅ Preparo simples e rápido\n✅ Ideias pra todos os dias\n\n📲 Receba com ACESSO IMEDIATO POR WHATSAPP e comece hoje mesmo.\n\n👉 Clique em Saiba Mais e veja tudo que tem dentro.",
+            "cta": "Saiba mais",
+            "link": "https://chefluana200airfryer.lovable.app/",
+            "tipoCriativo": "video",
+            "video": "https://video-iad6-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQN_wLHKFR5W7bz4uIm8vtTGZNxkQNz6IPsqYs6QHo4v06nmJUnRx3vvkrSh9ZVvvmgQ3pn2eFsSmqdAyVLMZBuQ2am-zrmPAk2TWbwp6TKong.mp4?_nc_cat=100&_nc_sid=b66105&_nc_ht=video-iad6-1.xx.fbcdn.net&_nc_ohc=4vjqiWclbtcQ7kNvwG5xiSi&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjIzMTg3MzY1MzIyNzAzNjIsImFzc2V0X2FnZV9kYXlzIjo3NSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjcyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=daa70a851750ca00&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC84QjRFRDM3NDlBNUYwNzdFOEE5Nzk4ODY1RDcyNDNCNF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzQ1NEZFMEZEMkU2MkEwQ0QyNzk0MzQ4NUI3ODBFM0E2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACa0tKu1nbieCBUCKAJDMywXQFIgAAAAAAAYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=rba75EgkUKrEZiPNuUiekQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQKNhdTUCl_Q7vh6RyBhQxuD5P_RhyTgjAekO3nKqERsNg&oe=6AB6FAB0",
+            "imagem": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.35426-6/742711762_1327716822858816_4481864867789732462_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=M1nhBRDHyeIQ7kNvwGAPGmK&_nc_oc=AdpDqMQmh4JUnlfKe_Y4UaPJB8r4WlFemK5nE0Ed1O2i5dFKLoaGy0FZVXrXqiF4MpU&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=rba75EgkUKrEZiPNuUiekQ&_nc_ss=7b289&oh=00_AQIZQcWrHqzxGIzUFblUR4lwven93-Wx2GQOZdWFAvt7GA&oe=6AB7021C",
+            "diasAtivo": 75,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1578682446934009"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Fundació Pasqual Maragall",
+          "paginaId": "139153867956",
+          "instagram": null,
+          "oferta": {
+            "chave": "fb.me",
+            "link": "http://fb.me/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 200,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 78,
+            "diasAtivoMax": 78,
+            "curtidasPagina": 71791,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "recetas faciles"
+          ],
+          "anuncioPrincipal": {
+            "id": "1923243348370652",
+            "titulo": null,
+            "texto": "",
+            "cta": "Baixar",
+            "link": "http://fb.me/",
+            "tipoCriativo": "video",
+            "video": "https://video.feze8-2.fna.fbcdn.net/o1/v/t2/f2/m366/AQPOarSRtLSQ4VVebUwbADQ5QlsSSs6lYMtn-7jfCYmI4FPczsBL5W6GS1SrkJoM1LgNEPZ4YC0_k29rLJTIREGKAmmlVJFF5tj4SNWqTlPTKg.mp4?_nc_cat=107&_nc_oc=AdqZuhh2bkgLbdcgnjkzOC79qsbrVimYfCxDd7kxS6YhghMW4t7dIi0xr3T564LKtHk&_nc_sid=b66105&_nc_ht=video.feze8-2.fna.fbcdn.net&_nc_ohc=JZBucnwAdekQ7kNvwGUyzC1&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjk5MTc1NTI1MDEzMzQ1NCwiYXNzZXRfYWdlX2RheXMiOjc2LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MjksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=7ee6dc84a187c5cc&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8xQjQyNDc4RjYwOUMwMDZGRDJDOTM0OTU3QzFENzlBM19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0ZDNDk1NzY1REYwOEY3ODhBQTcyMjU0MUQ0OEJDNTlDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACacp5u24P_CAxUCKAJDMywXQD3u2RaHKwIYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=zxx2xNDIlKZCnq60tWUQrA&_nc_ss=7b289&_nc_zt=28&oh=00_AQLCqJaOeCCcrSBjEiD3EmzPdd71ohok_ny45NRJazxkxw&oe=6AB70195",
+            "imagem": "https://scontent.feze8-1.fna.fbcdn.net/v/t39.35426-6/740343470_1032266009356110_6042359374585957481_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=nbuHAD_tNeoQ7kNvwEmzAMJ&_nc_oc=Adq-T-DBD4-hLTqOcDTNuSty8koOWH7IQJEwiap5qBpY7bg0lvA25EAvGFv_5ClpsmE&_nc_zt=14&_nc_ht=scontent.feze8-1.fna&_nc_gid=zxx2xNDIlKZCnq60tWUQrA&_nc_ss=7b289&oh=00_AQJhH0wWkQP-D29G7bUS7DlbI-HtyC3zNAnbrQ20rr-o5A&oe=6AB70B9A",
+            "diasAtivo": 78,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1923243348370652"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Chef Maria",
+          "paginaId": "864139173443531",
+          "instagram": null,
+          "oferta": {
+            "chave": "lanchinho.revitamulher.online",
+            "link": "http://lanchinho.revitamulher.online/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 160,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 7,
+            "diasAtivoMax": 7,
+            "curtidasPagina": 1825,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "receitas fáceis"
+          ],
+          "anuncioPrincipal": {
+            "id": "1698385685195182",
+            "titulo": "Lanchinhos da Alegria para Crianças",
+            "texto": "✨ Chega de briga e estresse na hora do lanche!\nCom o Guia Lanchinhos da Alegria, você aprende a preparar receitas saudáveis, práticas e deliciosas que ficam prontas em apenas 15 minutinhos.\n\n🍓 Lanchinhos nutritivos e saborosos que ajudam seu filho a comer melhor de forma leve e natural!\n\n✅ Receitas para crianças de 0 a 12 anos\n✅ Lanches rápidos e fáceis de fazer\n✅ Ingredientes simples do dia a dia\n✅ Ideias criativas para tornar a alimentação mais divertida\n\n💡 Transforme a rotina alimentar da sua família com opções saudáveis que as crianças realmente gostam!\n\n👉 Garanta agora o seu guia e descubra receitas práticas que facilitam o seu dia a dia 💚📖",
+            "cta": "Saiba mais",
+            "link": "http://lanchinho.revitamulher.online/",
+            "tipoCriativo": "video",
+            "video": "https://video-iad6-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQMKfH2nbUYOAltgXF7suCxbbzT41jCcla8KS4u2qkx9sdBiHzW6g-YTMCX6jbBPzbyDqxxFk_OJSsThL7q66zP8esb1fI2uUrCM73GqJT2fGQ.mp4?_nc_cat=106&_nc_sid=b66105&_nc_ht=video-iad6-1.xx.fbcdn.net&_nc_ohc=0Won8-tWlu8Q7kNvwFO9MKh&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEwNTQ0MzA2ODA2MTMxNDQsImFzc2V0X2FnZV9kYXlzIjo0NSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjgwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=92b810febb99b4cb&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9FODRBQTA0Q0M2RUM3MkI3MjEzRUUwNjE3MUE1MjRBOF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzgxNDU5Q0Y3NUNGNTc5MEM2QUZCMTdBNzQ2ODkyNEIyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACawhMTi-L_fAxUCKAJDMywXQFQXbItDlYEYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=fNkTBeJsqEa2_0EE1UGZcw&_nc_ss=7b289&_nc_zt=28&oh=00_AQJH73QX8ss-zMD66JP2IMlLeDYv498CSDZmoL-GbjN5tw&oe=6AB6F0D6",
+            "imagem": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.35426-6/810421449_4594625650804885_3241924462211361470_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=8kV1j-43tV8Q7kNvwHariIl&_nc_oc=AdpHuHP4SrjQ0JznwWsE3SormgIk1DHF4pkVD4JKNAxxgPhXK4tFOKlu0pr__s-9Tek&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=fNkTBeJsqEa2_0EE1UGZcw&_nc_ss=7b289&oh=00_AQJISBH8tlgUqGAgxvg79fOIUKvEHWaS6lV2IgjOT3cuPg&oe=6AB70570",
+            "diasAtivo": 7,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1698385685195182"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Receitas Deliciosas",
+          "paginaId": "115329360309179",
+          "instagram": null,
+          "oferta": {
+            "chave": "receitas.revitamulher.online",
+            "link": "https://receitas.revitamulher.online/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 110,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 2,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 17,
+            "diasAtivoMax": 17,
+            "curtidasPagina": 6915,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "cardápio semanal"
+          ],
+          "anuncioPrincipal": {
+            "id": "26071459792551185",
+            "titulo": "+7.980 mulheres já estão transformando suas refeições com essas receitas!",
+            "texto": "🍳 Nunca mais fique sem ideias na cozinha! 🥗",
+            "cta": "Saiba mais",
+            "link": "https://receitas.revitamulher.online/",
+            "tipoCriativo": "video",
+            "video": "https://video.fmem1-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQN3vN6Qyqp8cRo6uZe32WB2ml1TsnOCc648q_5ifAAXy8fKpDprP4LAw8GaylJkCTha3tx0FfhH7gfuWT8Yi-YjhQV5otpvGw_6q6gUCxJAfA.mp4?_nc_cat=102&_nc_oc=AdoYB__YOhnkbDInvYZ3KJYqbATq_XlWF3OlpurdO0yacbqhP6LlSgI4dGpy6RXzipk&_nc_sid=b66105&_nc_ht=video.fmem1-1.fna.fbcdn.net&_nc_ohc=pzEt1k4k3lIQ7kNvwFtfYxW&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE0MDI2MDkxNTE5MTY5MjksImFzc2V0X2FnZV9kYXlzIjo3NSwidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjMwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=8577c8423ffe9be2&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zQTRCMTVCQzMyNjU0QjI4NEQ1NTk2QjU5QjU5OEFCNl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0Q2NEFCMTZGQUZFOTFEM0EzRjI3QUMzMjk2OUFBOTgyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaC7pHEzOr9BBUCKAJDMywXQD4iDEm6XjUYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=5gl9of1awBf99rT9fgieLw&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLnC4jGLy26c_LnnZC6hogov7WpPjpqUVzh2hrwZOdzRw&oe=6AB70A5E",
+            "imagem": "https://scontent.fmem1-1.fna.fbcdn.net/v/t39.35426-6/739965764_1352766453669822_5441489411390032212_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=FTgTXH409CwQ7kNvwHeIR5p&_nc_oc=AdpsLDxgbiu-_8Zj3nVq_dbrLYHAs-hA3UBBB4XZY02lM3xuNmFTQCQn98S6nM2MfjQ&_nc_zt=14&_nc_ht=scontent.fmem1-1.fna&_nc_gid=5gl9of1awBf99rT9fgieLw&_nc_ss=7b289&oh=00_AQJM4XpyeK3gHEvODpPj2WQwUkI7OF19pFG21qqvxlGIqg&oe=6AB70A0D",
+            "diasAtivo": 17,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=26071459792551185"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Nutricionista Patrícia Stênico",
+          "paginaId": "107064817659875",
+          "instagram": null,
+          "oferta": {
+            "chave": "rc.patriciastenico.com.br/55-off-ads-botao-fp2",
+            "link": "https://rc.patriciastenico.com.br/55-off-ads-botao-fp2/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 110,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 25,
+            "diasAtivoMax": 25,
+            "curtidasPagina": 432500,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "receitas fáceis"
+          ],
+          "anuncioPrincipal": {
+            "id": "2059571208259789",
+            "titulo": "✅ Clique em “Saiba mais” e leve +120 receitas que vão mudar seu dia a dia 🍱✨",
+            "texto": "🔓Você desbloqueou acesso vitalício!✅\n\nJantar leve, rotina leve.\n\nOrganize sua semana em poucas horas e tenha comida de verdade pronta em minutos — com sabor de feita na hora.\n\nNo livro Refeições Saudáveis para Congelar, tenho a solução que você precisa:\n\n✅ +120 receitas próprias para congelar\n✅ Macros e calorias calculadas em cada preparo\n✅ Cardápios + lista de compras prontos para usar\n✅ Passo a passo de congelar/descongelar sem perder sabor e textura\n✅ Bônus: inclui receitas doces saudáveis para matar a vontade sem sair da linha\n\nGaranta o seu agora com 55% OFF 👇🏼",
+            "cta": "Saiba mais",
+            "link": "https://rc.patriciastenico.com.br/55-off-ads-botao-fp2/",
+            "tipoCriativo": "video",
+            "video": "https://video-iad3-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQNqXD5h4EQwOncKYeVIuJK-i3fUW7GoVzkekniM1f_06w-rXjVNS5Tr33xiwRfXVPaOSv32osGLW6PrrE82gnrpokWBENZaD35RikE4OwZyHw.mp4?_nc_cat=108&_nc_sid=b66105&_nc_ht=video-iad3-1.xx.fbcdn.net&_nc_ohc=f7mZeZwEHr8Q7kNvwHCXhMx&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEwNTY3MDc3NDcyODUyNDUsImFzc2V0X2FnZV9kYXlzIjozMSwidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjEwNSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=15c0d95021f3a412&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC81QTQ4MzJGMTJDMDhBMTkwNjFCMjM1QkRDQjVBQTZBNF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzkwNEMzQzc5Q0I1MzhDMTc2NEQxMzYwMkE0QzhEMjk1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb6o8SevsTgAxUCKAJDMywXQFpszMzMzM0YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=JBO2Me3Ky2_uAgHuQbSc6A&_nc_ss=7b289&_nc_zt=28&oh=00_AQKip_evduAakwi4fY8Y-NL1Aij6PQHstpm6SWiIGYX21Q&oe=6AB6EED4",
+            "imagem": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.35426-6/788262494_936552305551274_1161665795719584901_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=K7tugqz1odoQ7kNvwFyA-_d&_nc_oc=AdpBYjBVb7HZ1AVwxyul9ItK00QvW8Y1-njEGTfqBswhrhXAIFj-G92L_M11QKP25Ic&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=JBO2Me3Ky2_uAgHuQbSc6A&_nc_ss=7b289&oh=00_AQKQuPKLAk8203QVBLvdMJ0w-JQUv5SCPso8LIUy0syfhA&oe=6AB7012C",
+            "diasAtivo": 25,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2059571208259789"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Mariana Talita",
+          "paginaId": "1983243691931913",
+          "instagram": null,
+          "oferta": {
+            "chave": "marianatalita.com.br/saladas-para-o-dia-a-dia-emagreca",
+            "link": "https://marianatalita.com.br/saladas-para-o-dia-a-dia-emagreca"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 50,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 84,
+            "diasAtivoMax": 84,
+            "curtidasPagina": 32594,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "receitas fáceis"
+          ],
+          "anuncioPrincipal": {
+            "id": "4486783828228534",
+            "titulo": "Saladas Gostosas Variadas 🥗😋",
+            "texto": "A salada não precisa ser a obrigação triste do prato... 🥹\n\nCom o ebook \"Saladas Gostosas para o Dia a Dia\" são mais de 70 receitas de saladas, molhos e método para você criar saladas GOSTOSAS por si. 😋\n\nToque no botão que aparece em sua tela e aprenda a sentir prazer ao se alimentar bem!",
+            "cta": "Saiba mais",
+            "link": "https://marianatalita.com.br/saladas-para-o-dia-a-dia-emagreca",
+            "tipoCriativo": "video",
+            "video": "https://video-iad3-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNKqwb9XwSMhlY-pTARWKxbgyBKe1uJh9nd4Cig1-ZbbBnpAQiU94MqSfA3KV6UfBCetmLDvSCENBNtBgjGyTu_L4uJzTwIatx6repv2GodDQ.mp4?_nc_cat=111&_nc_sid=b66105&_nc_ht=video-iad3-2.xx.fbcdn.net&_nc_ohc=qyiKGdgY70gQ7kNvwH-tYBT&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjIyNjI5NzczNjc3ODI4MzAsImFzc2V0X2FnZV9kYXlzIjo4MiwidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjcwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=704858599fd0457c&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8xQTQ2MkQ5OEU1NENCNDE1QUU5MEY0M0RCMTRBQzBCRV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzAxNEUwNDBBQUUzNkIxQTkxNjA2NzdDNzgxRTUzOEJGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbc1qGiz4qFCBUCKAJDMywXQFGmZmZmZmYYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=mGI0tBQRenYPteyOzHMuCQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQLLMxu6n4nDrMS-0eZw8NyGLTMXjnDgc4zYMB8xiIE3RQ&oe=6AB6F731",
+            "imagem": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.35426-6/733127121_2024229744852915_6011769677440084109_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=GsNKJIRL4kEQ7kNvwHgVaPi&_nc_oc=Adok_Pbgg5Zq_oMpNJ_a0dqB7PwD7QhBdaeHJy6kOiQGQnMLWwj5d3QrSGm_OCRxRUs&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=mGI0tBQRenYPteyOzHMuCQ&_nc_ss=7b289&oh=00_AQKLe2y5uSArNvYqPsFYymX5SMPP0eR6jFna9I09hRjI5w&oe=6AB6FAE7",
+            "diasAtivo": 84,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=4486783828228534"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "FTW",
+          "paginaId": "1558436407748129",
+          "instagram": null,
+          "oferta": {
+            "chave": null,
+            "link": null
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 41,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 43,
+            "diasAtivoMax": 43,
+            "curtidasPagina": 24912,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "receita sobremesa"
+          ],
+          "anuncioPrincipal": {
+            "id": "904466856058730",
+            "titulo": null,
+            "texto": "Uma receita fácil, proteica e perfeita para quando bate a vontade de comer doce 😮‍💨\n\nComente MOUSSE para receber a receita completa no direct 👇🏼",
+            "cta": null,
+            "link": null,
+            "tipoCriativo": "video",
+            "video": "https://video-lax3-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQOo64fiUdq53_A9caSE73qaBRdtQFfe5AXTOdZYbX2DjRPbRQ6f1BHE7ymT_QYiWSn7a_VXZB0oGjKZtyIeaAR8_6ZCbiyzg2Mzkro_Kw.mp4?_nc_cat=102&_nc_sid=ef5aa3&_nc_ht=video-lax3-1.xx.fbcdn.net&_nc_ohc=SM0jCvYuVW8Q7kNvwHix1TU&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoyMTA4NTA5NTMwMDQxNDc2LCJhc3NldF9hZ2VfZGF5cyI6NTEsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjozOSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=cOqO4tT5UYl8uf5fH5EldQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQLOUi18LKcks5wg9IANrN2SlTBV49AoQMuWUh0S1KceUg&oe=6AB70950",
+            "imagem": "https://scontent-lax3-1.xx.fbcdn.net/v/t39.35426-6/772102483_3076838442513518_6235703010679094858_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=qEJVbgnYiI8Q7kNvwH4xvX9&_nc_oc=Adqgc0GcBNm_rimCQko7Kfau6Qswg3-sQmXZJ0gwUZgmt3W0K86UXrjWEdGhT3Z04fM&_nc_zt=14&_nc_ht=scontent-lax3-1.xx&_nc_gid=cOqO4tT5UYl8uf5fH5EldQ&_nc_ss=7b289&oh=00_AQIQoi93XMZF1z0Z9WwTffkb81pe1Z87LDLra-zqMoM_WA&oe=6AB71049",
+            "diasAtivo": 43,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=904466856058730"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Misturas do Bem",
+          "paginaId": "1748232518792451",
+          "instagram": null,
+          "oferta": {
+            "chave": "misturasdobem.com.br/colecao-cardapios-chef",
+            "link": "https://misturasdobem.com.br/colecao-cardapios-chef"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 40,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 434,
+            "diasAtivoMax": 434,
+            "curtidasPagina": 16216,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "cardápio semanal"
+          ],
+          "anuncioPrincipal": {
+            "id": "602184665892429",
+            "titulo": null,
+            "texto": "",
+            "cta": "Saiba mais",
+            "link": "https://misturasdobem.com.br/colecao-cardapios-chef",
+            "tipoCriativo": "video",
+            "video": "https://video.fmem1-1.fna.fbcdn.net/o1/v/t2/f2/m412/AQOGpV2wMd6DWTNTwUhJFYu-EVcxxWppBtChfXxdUVDoR05SAFvPWMS36EtKJ0hDnN-9A_yQ2sPKthS2LaScU0k.mp4?_nc_cat=101&_nc_oc=AdpaWVIaJTusXnbwL7EzjdcQltDx8_uHTW-gRv7bPXEKZvT0IAnTFqhi2zc-1S1szb4&_nc_sid=ef5aa3&_nc_ht=video.fmem1-1.fna.fbcdn.net&_nc_ohc=YnS1WYOH5IUQ7kNvwGf1Nte&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmFzaWNfaHEyX2hkX3Byb2dyZXNzaXZlIiwieHB2X2Fzc2V0X2lkIjo5NDUzNDcyMzc4MzgyMDgsImFzc2V0X2FnZV9kYXlzIjoyMDgsInZpX3VzZWNhc2VfaWQiOjEwNjgwLCJkdXJhdGlvbl9zIjo3MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=5gl9of1awBf99rT9fgieLw&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQJU9fMakqt0t70M_2HvcRV3Ep3aAwC-CdUAaOpHhHaWaw&oe=6AB6F0E5",
+            "imagem": "https://scontent.fmem1-2.fna.fbcdn.net/v/t39.35426-6/503270894_1209039791014884_175912757250060964_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=xzWcf_wDOPQQ7kNvwF-VBI3&_nc_oc=Adp7UIJs0Mwcqb2rxM6YdFU_QeFtDDYGopFlTHC4325GoDW67MKZPGFUnJJE2rvU580&_nc_zt=14&_nc_ht=scontent.fmem1-2.fna&_nc_gid=5gl9of1awBf99rT9fgieLw&_nc_ss=7b289&oh=00_AQIpb-tQ65PdxmVJLCBwnMj0giJLl2DXXNnVc_g6yWf_1w&oe=6AB6FE7D",
+            "diasAtivo": 434,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=602184665892429"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Clara - Vianda feliz",
+          "paginaId": "1138200799372227",
+          "instagram": null,
+          "oferta": {
+            "chave": "tu-academia-digital.myshopify.com/pages/viandafeliz-impultienda",
+            "link": "https://tu-academia-digital.myshopify.com/pages/viandafeliz-impultienda"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 38,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 110,
+            "diasAtivoMax": 110,
+            "curtidasPagina": 1723,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "recetas faciles"
+          ],
+          "anuncioPrincipal": {
+            "id": "1614642826302611",
+            "titulo": "¡Recetas nutritivas para niños!",
+            "texto": "¡Deja de estresarte por conseguir que tu hijo coma más sano!\n\nCon la Guía Vianda Feliz, descubrirás cómo preparar meriendas saludables, rápidas y deliciosas en solo 15 minutos.\n\n🍎 ¡Recetas sencillas, nutritivas e irresistibles que mantendrán a tu hijo feliz y bien alimentado todos los días!\n\n✅ Opciones saludables para niños de 0 a 18 años \n✅ Preparaciones sencillas en hasta 15 minutos \n✅ Ingredientes fáciles de encontrar en el almacén \n✅ Actividades creativas para que los niños se involucren en la cocina \n\n💡 ¡Olvídate de la presión a la hora de comer! ¡Convierte la merienda en un momento ligero, nutritivo y con mucho cariño! \n\n👉 ¡Descarga la guía ahora y descubre cómo hacer que la rutina de comidas de tu familia sea mucho más práctica y deliciosa! 💚📖",
+            "cta": "Saiba mais",
+            "link": "https://tu-academia-digital.myshopify.com/pages/viandafeliz-impultienda",
+            "tipoCriativo": "video",
+            "video": "https://video.feze8-2.fna.fbcdn.net/o1/v/t2/f2/m366/AQP1ySGji4_tDsUuQPfG9WzSVC47FD7m1aURNFkVRdN1OpP6Sr1jq7_zWTfdeTn0iEnAQBlB5e9FDZhDEqVZhHWqsg9k0HsLsFywlSuzy6Ly9Q.mp4?_nc_cat=102&_nc_oc=Ado5bi0XPdXqI57mn-ezckijfTBw0w1sz3p22uSmiWVv8X276awny-SZr9rrpQpptqU&_nc_sid=b66105&_nc_ht=video.feze8-2.fna.fbcdn.net&_nc_ohc=meS3inOmh4gQ7kNvwFVnUxf&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjk5MjgxMjY5OTc5NDUwMCwiYXNzZXRfYWdlX2RheXMiOjExMCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjk1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=221e5fe47e8f2bff&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9BNDQ5NTYxRkI0NTNFOUVCOTBCODhBMkUxNzQ3NDY5Q19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzgxNDFBN0M0NUE4QTJBOTdBMjA5MTREMkM5NUE1Qjg0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaI8eWEp73DAxUCKAJDMywXQFf1T987ZFoYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=sfXJYN5RD9hohD7dOFYxtw&_nc_ss=7b289&_nc_zt=28&oh=00_AQI36rzK7L1jqOOMfm-UXXFcuxVeZNaLmuAxyON4F8rZDg&oe=6AB6E492",
+            "imagem": "https://scontent.feze8-1.fna.fbcdn.net/v/t39.35426-6/710782183_1525821415607900_7290931067354411432_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=8W5qay0yqIQQ7kNvwG2Pag3&_nc_oc=AdoiaDEFWKQoipr8Uem-LREpW3Tm5o3Q4Ry_DkQwOUS3On2VQuptW8cKksiI7DFonPo&_nc_zt=14&_nc_ht=scontent.feze8-1.fna&_nc_gid=sfXJYN5RD9hohD7dOFYxtw&_nc_ss=7b289&oh=00_AQKby-hfBzc5fOgk9CYfOg6_XL0y-4eMqFSQAimTBM6SMA&oe=6AB6FFFB",
+            "diasAtivo": 110,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1614642826302611"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Academia Karina Gao",
+          "paginaId": "114028260338734",
+          "instagram": null,
+          "oferta": {
+            "chave": "academiakarinagao.com/product/insta-recetario-airfryer",
+            "link": "https://academiakarinagao.com/product/insta-recetario-airfryer"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 35,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 196,
+            "diasAtivoMax": 196,
+            "curtidasPagina": 10056,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "recetas faciles"
+          ],
+          "anuncioPrincipal": {
+            "id": "1709266906705622",
+            "titulo": "Cociná en tu Freidora de Aire",
+            "texto": "¡Comprá tu Recetario para AirFryer!\n✅ Carnes\n✅ Snacks\n✅ Platos vegetarianos\ny mucho más!\n\n🙌Cocinar nunca fue tan fácil 🙌",
+            "cta": "Comprar agora",
+            "link": "https://academiakarinagao.com/product/insta-recetario-airfryer",
+            "tipoCriativo": "video",
+            "video": "https://video.feze8-2.fna.fbcdn.net/o1/v/t2/f2/m366/AQN_7b6eBi5HDvVUO_s2Ua0nmW3leZ99sZWcUiKbZmN2e-jsQRJJs-ANXaB0FxXvjIUyZ8mVaWch6XQGdfndt0Q8tCHyp88N-kfbNndMwhKpRQ.mp4?_nc_cat=100&_nc_oc=Adr8UWCVNJTiJg_pn_LyzmBZaDT5Ze7DlAFTbHguCCHpNlQQAf5tIrFo0ZHLK9qhM44&_nc_sid=b66105&_nc_ht=video.feze8-2.fna.fbcdn.net&_nc_ohc=r7qSbt_alF0Q7kNvwGUBsPV&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjk0Mjk4MDg1MTI4MTc2MywiYXNzZXRfYWdlX2RheXMiOjU4NSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjQyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=4e5690099cb4024d&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zQjQ0NjBGQjA1MzU3NzU1M0FGODlDMDZCODNCNjU4QV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dBNnZtaHdaNGoxaHYzMERBQmhTbnVTcmNQZFdidjRHQUFBRhUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbGvd3q2uisAxUCKAJDMywXQEUEOVgQYk4YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=ZA-06R5BzyhP-VhULc8Auw&_nc_ss=7b289&_nc_zt=28&oh=00_AQKlyE89-qHwtReZ2p4o0XOWiEGMf5sGjhdFK3DQg5DhdQ&oe=6AB6F304",
+            "imagem": "https://scontent.feze8-1.fna.fbcdn.net/v/t39.35426-6/649342241_1893472584866658_1476183037215258827_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=8zyVXG6jk2gQ7kNvwEfW3ol&_nc_oc=AdpKv6Ed0tW__-pzXFpZOGrBEqtXYi6BRkNlV5VqbV-plVGR5PmDFtNDOgVvtHMH94A&_nc_zt=14&_nc_ht=scontent.feze8-1.fna&_nc_gid=ZA-06R5BzyhP-VhULc8Auw&_nc_ss=7b289&oh=00_AQIPbH6ZApq5BTwmOEHAMjZjX0mrctLWoXrBJJ_QLT3_UQ&oe=6AB6F86A",
+            "diasAtivo": 196,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1709266906705622"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Companhia Cozinhando Bem",
+          "paginaId": "779229071943201",
+          "instagram": null,
+          "oferta": {
+            "chave": "disklove.com.br/japao",
+            "link": "https://disklove.com.br/japao/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 34,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 20,
+            "diasAtivoMax": 20,
+            "curtidasPagina": 2859,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "receitas fáceis"
+          ],
+          "anuncioPrincipal": {
+            "id": "1046784431609379",
+            "titulo": null,
+            "texto": "🍜 O sabor do Japão na sua cozinha!\n\n📲 Link na BIO para baixar o guia completo.\n\nComente \"EU QUERO\" e descubra +365 receitas de Ramen fáceis, deliciosas e perfeitas para qualquer ocasião.",
+            "cta": "Baixar",
+            "link": "https://disklove.com.br/japao/",
+            "tipoCriativo": "video",
+            "video": "https://video-iad3-1.xx.fbcdn.net/o1/v/t2/f2/m367/AQMeEKTgZZLc9a9xTKtcndoFD9a6YclWRsGqm6jQ8iNiUEGdMUJrVGOBAMIlgbRtcnmnlubfvNlCJy1CZoXf0WspK1KWw3WtrT9MCQTGCw.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-iad3-1.xx.fbcdn.net&_nc_ohc=-yUD6C6_yxcQ7kNvwEF6uxG&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoyMjU4OTI1NjI0ODkzNTk1LCJhc3NldF9hZ2VfZGF5cyI6MTksInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjoyNCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=CeA3WZchmb1VCxLmTDRbvg&_nc_ss=7b289&_nc_zt=28&oh=00_AQIwMmr0nCGlTYABo87PPADkF2FUuWnse-GzwiysC661wg&oe=6AB6ED06",
+            "imagem": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.35426-6/788689486_2542096402963063_3639197876132415155_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=U7UOQ9d1Xj0Q7kNvwGtyphi&_nc_oc=Ado4uXAiMxlLzuzgiYsjciXV2MUvdlrY3gpJCWNzw7GhAra7wiG8Go4CqGCZ0lNATCE&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=CeA3WZchmb1VCxLmTDRbvg&_nc_ss=7b289&oh=00_AQKduYHFLQI5w0OPQMbZJZ2etIrzGc8hj2t-qNSRpOExIw&oe=6AB6F850",
+            "diasAtivo": 20,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1046784431609379"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Mia Carvalho",
+          "paginaId": "716301988236436",
+          "instagram": null,
+          "oferta": {
+            "chave": "comersemprebem.shop/receitas-proteicas3",
+            "link": "https://www.comersemprebem.shop/receitas-proteicas3"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 33,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 52,
+            "diasAtivoMax": 52,
+            "curtidasPagina": 5255,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "receitas fáceis"
+          ],
+          "anuncioPrincipal": {
+            "id": "1562564332227553",
+            "titulo": "120 Receitas Proteicas saudáveis",
+            "texto": "Lasanha na dieta? Pode sim. 😮‍💨🍝\n\nO segredo para manter uma alimentação rica em proteína sem enjoar é ter variedade e encontrar formas diferentes de preparar os mesmos ingredientes.\n\nEssa lasanha proteica é um ótimo exemplo: uma receita prática, rica em proteína e pensada para matar a vontade de comer algo diferente sem abandonar o objetivo. 💪\n\nE ela é só uma das opções que você pode encontrar no FitPro Receitas Proteicas.\n\nSão mais de 120 receitas para variar sua alimentação:\n\n🍳 Café da manhã\n🍛 Almoço\n🍝 Jantar\n🍪 Lanches e doces\n\nTudo organizado por categorias para você não ficar sem ideias e não precisar viver de frango, ovo e whey todos os dias.\n\nAs receitas também vêm com passo a passo para facilitar o preparo e informações nutricionais para ajudar na sua organização.\n\n👉 Quer aprender receitas como essa e ter muito mais opções para variar sua alimentação? Clique no botão e co",
+            "cta": "Baixar",
+            "link": "https://www.comersemprebem.shop/receitas-proteicas3",
+            "tipoCriativo": "video",
+            "video": "https://video-iad3-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQPk2ZYwvxR0oeAMvCGkBMFSMaizTzts-xJz-TH6pQrUTRV3t0WZh8FlAlaHWJcCC7CDcEAUEpSUg-T7x6lbGu5ARJRuvtYJTJKj4xfdvib50g.mp4?_nc_cat=104&_nc_sid=b66105&_nc_ht=video-iad3-1.xx.fbcdn.net&_nc_ohc=lJbfq94QNjoQ7kNvwEJnefi&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE2OTA2OTY4MDUyNzA1ODQsImFzc2V0X2FnZV9kYXlzIjoxNzIsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo4MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=c5b133ba7965ef32&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9BODRBMDY0OUU1NzUzNjUwRTkyNTc3NEU5MTNBNTM4Rl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0JBNDQ5Rjk4RDE4RDRDODM2RUEwMTM0QkZFQjMzQkFFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbwkILowOuABhUCKAJDMywXQFT5mZmZmZoYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=JBO2Me3Ky2_uAgHuQbSc6A&_nc_ss=7b289&_nc_zt=28&oh=00_AQI35k4y8ThJcEdzAiKDGG1KPyLOni3jAOv7BO_tSxtZjw&oe=6AB6ECA0",
+            "imagem": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.35426-6/759880888_1051979594443573_1318803703564877171_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=4loLxBNlWmQQ7kNvwH_E040&_nc_oc=Adp0D5X9aH02mbqq0ohCB-0NSwoX33HFk13NYFKPB9--LxHXFsxzOXAwOp8bzANYCiI&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=JBO2Me3Ky2_uAgHuQbSc6A&_nc_ss=7b289&oh=00_AQKGbtfAJCpUupotmzhvP6YQwUVNZVS8xb-jDwWH0vdQzQ&oe=6AB70C97",
+            "diasAtivo": 52,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1562564332227553"
+          },
+          "outrosTextos": []
+        }
+      ]
+    },
+    {
+      "id": "maternidade",
+      "nome": "Maternidade e educação infantil",
+      "prioridade": 1,
+      "fonte": "ad-hunter",
+      "coletadoEm": "2026-09-21T13:27:00.832+00:00",
+      "idadeEmDias": 1,
+      "totalAnuncios": 18,
+      "totalOfertas": 18,
+      "top": [
+        {
+          "pagina": "Carlos Klein - Personal",
+          "paginaId": "707794112428049",
+          "instagram": null,
+          "oferta": {
+            "chave": "oficialbarrigazero.protocolocarlos.com.br/quizz",
+            "link": "https://oficialbarrigazero.protocolocarlos.com.br/quizz"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 570,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
             "diasAtivoMediana": 11,
             "diasAtivoMax": 11,
-            "impressoesMax": null
+            "curtidasPagina": 151195,
+            "seguidoresIg": null
           },
           "keywordsOndeApareceu": [
             "rotina do seu filho"
           ],
           "anuncioPrincipal": {
-            "id": "930683959626964",
-            "titulo": "AGENDE UMA AVALIAÇÃO",
-            "texto": "Odonto Excellence, com você pra valer!",
-            "cta": "Saiba mais",
-            "link": "http://odontoexcellence.com.br/",
-            "tipoCriativo": "imagem",
-            "video": null,
-            "imagem": "https://scontent.fcgh3-1.fna.fbcdn.net/v/t39.35426-6/761546369_2194119017807826_9030556576435692050_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=4y5aMKgqNmcQ7kNvwGyHBtD&_nc_oc=Adqrb7Rlw7QM2qrIgzLnj1JWIWC7zei6SHhCeXZhuo_xS4DtOcBXXjKyKDRLJxUclrZNdX8hUkR8hhuUFve63kdT&_nc_zt=14&_nc_ht=scontent.fcgh3-1.fna&_nc_gid=kLgCdebWpQKZKuy69_xsaQ&_nc_ss=7b289&oh=00_AQJLsMTm_J0gELya2whTIxDhQNwGAmG38BDOAxsZbqqwYw&oe=6AB86D6F",
+            "id": "1552640049375668",
+            "titulo": "13.547 Avaliações ⭐⭐⭐⭐⭐ (4.99)",
+            "texto": "Tem algo que ninguém fala sobre a barriga depois dos 40. Não é o espelho que mais incomoda. É a mulher começar a te olhar diferente. A energia cair. O silêncio que vai se instalando. Você acha que é falta de vontade — mas é hormonal.Quando você corrige o desequilíbrio hormonal, em semanas não é só a barriga que muda. Eu fiz um vídeo explicando exatamente o que acontece e como reverter. Clica no botão.",
+            "cta": "Assistir mais",
+            "link": "https://oficialbarrigazero.protocolocarlos.com.br/quizz",
+            "tipoCriativo": "video",
+            "video": "https://video-iad3-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQOvwSAed21T7vaKwasMQBMOXHVxgekfkfl2o1egkekuN1BJrxU-gjbBw33ezZWmXC81Ps3I6e1ab5GXDuH4wUY0FSOLJOStfUFYaiBThaToMg.mp4?_nc_cat=111&_nc_sid=b66105&_nc_ht=video-iad3-2.xx.fbcdn.net&_nc_ohc=WPz71Ih_la8Q7kNvwHNBGXd&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjIxOTI2NTQ2MjgzNDkzODYsImFzc2V0X2FnZV9kYXlzIjo5LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MzI0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=a30f008f61400f96&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC81NzRCNUQzNjU4NTJFRDU0Mjc1MjRCMzg3RjE2NUM5QV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0YyNEU1NjBGRkJFODc4QkZCRTgwMTlCMzVGMDgxRkI1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaUl-eDpo3lBxUCKAJDMywXQHRLul41P30YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=rQuGSZzIhUIP2yOTE6cs1g&_nc_ss=7b289&_nc_zt=28&oh=00_AQIGpofa9vLzcR0QWbespfo-ckZdeTjry-6Q8P142vA2JQ&oe=6AB703B1",
+            "imagem": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.35426-6/805732886_1835312064494180_2633881739472728749_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=1-qcuEEV-bkQ7kNvwH2GFOc&_nc_oc=AdoPBwi_uEcwGZl1taiZSDsAVh0uazcf1ysFYDmDrtTzHR2_0v9YopV4a44YUDXIjxE&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=rQuGSZzIhUIP2yOTE6cs1g&_nc_ss=7b289&oh=00_AQJnZReKxMomeZ3N1rXg6MGDIxt-pFfz4eVKCoDzQyFggw&oe=6AB71D09",
             "diasAtivo": 11,
-            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=930683959626964"
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1552640049375668"
           },
-          "outrosTextos": [
-            "Odonto Excellence, com você pra valer!",
-            "Odonto Excellence, com você pra valer!"
-          ]
+          "outrosTextos": []
         },
         {
-          "pagina": "Matrículas Faveni",
-          "paginaId": "582753254921542",
+          "pagina": "Chef Maria",
+          "paginaId": "864139173443531",
           "instagram": null,
           "oferta": {
-            "chave": "wa:sem-numero",
-            "link": "https://api.whatsapp.com/send"
+            "chave": "bebecomilao.revitamulher.online",
+            "link": "https://bebecomilao.revitamulher.online/"
           },
           "novo": true,
           "vezesVisto": 1,
-          "score": 60,
           "sinais": {
-            "anunciosNaPagina": null,
-            "fonteContagem": "observado",
-            "ofertasNaPagina": 1,
-            "criativosDaOferta": 4,
-            "criativosEstimados": null,
-            "criativosNoLote": 4,
-            "collationMax": 5,
-            "mesmoCriativoNoLote": 1,
-            "diasAtivoMediana": 168,
-            "diasAtivoMax": 169,
-            "impressoesMax": null
+            "anunciosNaPagina": 160,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 16,
+            "diasAtivoMax": 16,
+            "curtidasPagina": 1825,
+            "seguidoresIg": null
           },
           "keywordsOndeApareceu": [
-            "alfabetização"
+            "introdução alimentar"
           ],
           "anuncioPrincipal": {
-            "id": "1466719001502164",
-            "titulo": "Converse conosco",
-            "texto": "",
-            "cta": "Enviar mensagem pelo WhatsApp",
-            "link": "https://api.whatsapp.com/send",
-            "tipoCriativo": "imagem",
-            "video": null,
-            "imagem": "https://scontent.fcgh3-2.fna.fbcdn.net/v/t39.35426-6/626718901_1223555012642145_3585745290453284821_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=OQ9-LI25ICkQ7kNvwF4M-D8&_nc_oc=AdoBG7jhReR-kXVji-7-MKYJx9O6SrX9u1ugsKU9dTafDTGhwpS85PBMtv_qBejeKiTkFUgtTGqaDLWX-7XpRnO8&_nc_zt=14&_nc_ht=scontent.fcgh3-2.fna&_nc_gid=uj5_USVzS4mfFMrAOVXMqA&_nc_ss=78289&oh=00_AQKi4o_Fo1lZ2IXz6Gm4VNbNAYM38TtQY3o6TU_f9jsVmQ&oe=6AB8786D",
-            "diasAtivo": 168,
-            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1466719001502164"
+            "id": "2297881697628097",
+            "titulo": "Acabe com a birra na hora da comida",
+            "texto": "👶 Mamãe, você sabia que a fase entre 6 meses e 2 anos é a mais importante pra seu filho aceitar comida nova?\n\nA maioria das mães erra exatamente aqui.\nNão é falta de amor. É falta de informação. 💛\n\nCom o Cardápio Bebê Comilão você tem +160 receitas e cardápios prontos que ensinam seu filho a comer de tudo — sem esconder nada e sem birra. 🥦🍎",
+            "cta": "Saiba mais",
+            "link": "https://bebecomilao.revitamulher.online/",
+            "tipoCriativo": "video",
+            "video": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQMXOMMh469ZxY4GvQ_9lqJbLYsR0QYH-KAKlwBBEkAlx-xDN41Bz1thrxPm5o0hkW4zYH_DTD7ACJZU22QBsRRz5Qv_ypjKUO_vv-eUDj_mbQ.mp4?_nc_cat=103&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=Mc9L-lAyqjwQ7kNvwEg-aRc&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE3NTM1MjIwODI1Nzk1NjQsImFzc2V0X2FnZV9kYXlzIjoxNCwidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjQzLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=85d352032d5279e6&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8yNzQ1MkZBQzA0RDM2RjFFNUI3MENBRDJGMDcxRDFBQl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0E3NENDMUREQ0Y5NEJEODcxOEFGQUM3QjY3RDIxRkE5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbYkbTNtbSdBhUCKAJDMywXQEWEOVgQYk4YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=qxenOwDWnyjcaWTTTuJGvQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQJ6hlxcRGvtE1loqgvwrkwpqBKF8_CZAZ08fgal8u9fcQ&oe=6AB71AD5",
+            "imagem": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/793002164_1388464309474205_2829410834163129247_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=PQmyGIFF_l8Q7kNvwHbY3Bu&_nc_oc=AdrfY0O3Hc2ZYV3gnF_t60lqo-FYfiTFAQbANkaSyWm3ZtgHBFOTv46taKNVVrSw2Bg&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=qxenOwDWnyjcaWTTTuJGvQ&_nc_ss=7b289&oh=00_AQJKwmvP_KChPZItJzAsDvknhVM2oBJtcwxpMBsL9m1R1Q&oe=6AB712A0",
+            "diasAtivo": 16,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2297881697628097"
           },
-          "outrosTextos": [
-            "🎓 Professor, é hora de dar o próximo passo na sua carreira!\n\nInvista na sua evolução profissional com uma Pós-Graduação reconhecida pelo MEC, 100% online e com conclusão a partir de 6 meses.\n\n💡 Especializações em:\n✅ Alfabetização e Letramento\n✅ Neuropsicopedagogia\n✅ Educação Especial e Inclusiva\n✅",
-            "🎓 PÓS-GRADUAÇÃO EAD EM ABA – GRUPO EDUCACIONAL FAVENI\n💻 Estude 100% online, com flexibilidade para aprender no seu ritmo e ampliar suas oportunidades profissionais.\n🏅 Somos Nota 5 no MEC\nCertificação válida em todo o Brasil."
-          ]
+          "outrosTextos": []
+        },
+        {
+          "pagina": "PMMinas - Otávio Souza",
+          "paginaId": "111184833752394",
+          "instagram": null,
+          "oferta": {
+            "chave": "pmminas.com",
+            "link": "https://pmminas.com/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 150,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 189,
+            "diasAtivoMax": 189,
+            "curtidasPagina": 10141,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "rotina do seu filho"
+          ],
+          "anuncioPrincipal": {
+            "id": "1383143253622178",
+            "titulo": null,
+            "texto": "",
+            "cta": "Saiba mais",
+            "link": "https://pmminas.com/",
+            "tipoCriativo": "video",
+            "video": "https://video-iad6-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQNMUbumk6Hr3ZLELSABKzMpEa1aD_58gvDzBnhBgsJAhe7wbxYFDt0OvrD97y1_5zmycraSJkEhdXvL3OUo2lieNHWn1mwerFAMEQUZLO17Xg.mp4?_nc_cat=106&_nc_sid=b66105&_nc_ht=video-iad6-1.xx.fbcdn.net&_nc_ohc=sDDJoRZYLQQQ7kNvwGQxhCY&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjExODMxMjcwOTA0NDUwMTQsImFzc2V0X2FnZV9kYXlzIjoyOTksInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjoxMTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=4198f276c13e8a54&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC81QTRBMzVGQkMwNDFGQ0FDRjRBN0Y5Rjc5Nzc4QTg4MV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0I4NDRGQkVBNzdFOTlBRjVGRjcxN0IwNjkwQzU1RjgzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACas65nfh4OaBBUCKAJDMywXQFw5mZmZmZoYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=xgyKIGQXm-6aASZvTR2Pvg&_nc_ss=7b289&_nc_zt=28&oh=00_AQJfl1eR_HLLWtpvTFS-6ND76z4Se_lD6Z_nfXm1ybZYKg&oe=6AB6E8CE",
+            "imagem": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.35426-6/590738182_2089430425134331_5352781996160729282_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=3WpbE_QD1AMQ7kNvwFSQHMo&_nc_oc=AdohVES6STExV5msU4Bq4tv7Y5olVmq1lAyjZRWdoHJAIj1_gA0uEnWFMgFW7iYqHTo&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=xgyKIGQXm-6aASZvTR2Pvg&_nc_ss=7b289&oh=00_AQJdyfQj7vCpyjoES0tlHwk5pq27G1j3jzFB5XeV3Utb7A&oe=6AB6FA65",
+            "diasAtivo": 189,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1383143253622178"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Nutri Infantil",
+          "paginaId": "110493154475684",
+          "instagram": null,
+          "oferta": {
+            "chave": "nutribebe.com.br/metodo",
+            "link": "https://nutribebe.com.br/metodo/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 140,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 56,
+            "diasAtivoMax": 56,
+            "curtidasPagina": 10039,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "introdução alimentar"
+          ],
+          "anuncioPrincipal": {
+            "id": "1584245276633940",
+            "titulo": "Conheça as 3 fases da Introdução Alimentar",
+            "texto": "Se toda refeição vira um teste de paciência, não é porque seu bebê “não gosta de comer” ou porque você errou como mãe.\n\nNa introdução alimentar, dois bebês da MESMA idade, com a MESMA comida, podem ter resultados completamente diferentes, simplesmente porque estão em fases biológicas diferentes.\n\nEu acabei de liberar uma aula completa onde te explico, em detalhes, as 3 fases da introdução alimentar e os maiores erros que fazem um bebê que comia bem simplesmente parar de comer.\n\nToca em “Saiba mais” pra assistir agora, enquanto essa aula ainda está no ar, e dar o primeiro passo pra ter paz na mesa e um bebê que come de tudo com segurança.",
+            "cta": "Saiba mais",
+            "link": "https://nutribebe.com.br/metodo/",
+            "tipoCriativo": "video",
+            "video": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNqzTGDp7fs2jJBnkuZtXkvRXHmCxrlCR7zE6VaiHoipPNCAUSFyc9KRwycIV2N3XyO86I3HXtsfqV0I9SOlp-dM_xP3T4LHW1a3OjZ2c-Hbw.mp4?_nc_cat=110&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=fY6GDYXKJ60Q7kNvwGZPdGk&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEyNTg5MjU4NjMwOTg4MzYsImFzc2V0X2FnZV9kYXlzIjoxODQsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjozMSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=be22079c5736c91f&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC85MjQyQTY0ODE5QkIzMjQxRjczQUI2MzhDNDVCRTk4Rl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0NBNDA0OUU2MUUxNjAwQjdEMkRBOEFDQTBBNTBGNkJFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACao5_LNkL-8BBUCKAJDMywXQD_u2RaHKwIYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=mYGCXs6QDcTql4LuEwaJhQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQICcB15HBiS1Oo3p1bSfV1vk8iRDjOYnBbocEYbkO14ZQ&oe=6AB719E2",
+            "imagem": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/758830750_1361369988736558_5530913166067325446_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=84MfDogTS60Q7kNvwF_PQuS&_nc_oc=AdpMqzhDNL9NiLg3r67hI8f7BpcK340A-uBbuLyfjTSQSf0T8k4pJmbR39hhp-sZ2UE&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=mYGCXs6QDcTql4LuEwaJhQ&_nc_ss=7b289&oh=00_AQLn1ntVXT2QoX_E61-PPm4c3fgAlohEQM7Y62gKaZQu9Q&oe=6AB70FB0",
+            "diasAtivo": 56,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1584245276633940"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Portal da Pedagogia",
+          "paginaId": "1317235804801190",
+          "instagram": null,
+          "oferta": {
+            "chave": "oferta.portaldapedagogia.com.br",
+            "link": "https://oferta.portaldapedagogia.com.br/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 110,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 9,
+            "diasAtivoMax": 9,
+            "curtidasPagina": 433,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "atividades infantis"
+          ],
+          "anuncioPrincipal": {
+            "id": "2110675936186298",
+            "titulo": "+25 MIL MATERIAIS POR APENAS R$10 😱",
+            "texto": "Quer fazer sua primeira venda no digital sem criar um produto do zero?\n\nCom este PLR Pedagógico você recebe mais de 25 mil atividades e recursos pedagógicos  prontos para editar, personalizar, vender e lucrar.\n\nVocê pode:\n✔️ Revender pelo preço que quiser\n✔️ Editar com a sua marca\n✔️ Usar como isca digital\n✔️ Imprimir ou vender em formato digital\n✔️ Ficar com 100% do lucro de cada venda\n\n📚 O pacote inclui:\n• Atividades Especiais\n• Atividades Infantis de Português\n• Cadernos das Sílabas Simples e Complexas\n• Combo da Multiplicação\n• Combo da Alfabetização\n• Caderno de Interpretação de Textos\n• Kit com 10 Histórias Infantis em Vídeo\n• Modelos de Relatórios\n• Sacola de Textos\n• Crachá Cubo\n• Planner da Coordenação (+15 arquivos editáveis)\n• Datas Comemorativas\n• Adivinha das Profissões\n• Drive Extra com diversos materiais PLR\n• Super Bônus\n• Aulas ensinando a subir qualquer produto na plat",
+            "cta": "Ver detalhes",
+            "link": "https://oferta.portaldapedagogia.com.br/",
+            "tipoCriativo": "video",
+            "video": "https://video-gru1-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQOldNVyU9GAQ1dg5l4Y-nTyGzTyJYyfyRIu-TTqpmwk-ffD9gd_Mui9sPTZXmTjMn-6hlfQYFOD8FXKyMw4uf5CHvR35D7RsPQ1cH7VDOu8Tg.mp4?_nc_cat=104&_nc_sid=b66105&_nc_ht=video-gru1-1.xx.fbcdn.net&_nc_ohc=eEPnqnZFLdsQ7kNvwFKsiRS&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjg4MzQ0MzYyNDcwNTE5NiwiYXNzZXRfYWdlX2RheXMiOjgsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjozOSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=c9638e0c9ed56c4d&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8xODRDRjFENEQ5NTU3QjRBODE4RTMwOUEzQUEwNENBQV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0UwNEFGQTQzNkY4QkU0NUYzM0Y3RDJEODcyQTFFNUI0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbY8u_2l9-RAxUCKAJDMywXQEOMzMzMzM0YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=Sy_C59dRfsipuW376q2DEw&_nc_ss=7b289&_nc_zt=28&oh=00_AQJVMz7dF_zgN1HlgNZpu_nU9PWvC1u7DgHU2raKXp4DxQ&oe=6AB6ED40",
+            "imagem": "https://scontent-gru2-1.xx.fbcdn.net/v/t39.35426-6/808907018_1429109235795991_7123810838147314351_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MP58EEYP67IQ7kNvwH3Ikyf&_nc_oc=AdqnlX4E9yrebZE-T-1MhC6JfBfh1y1E-M05OfICP-Gxjurp1t9tiZItmf2fcTe2nEg&_nc_zt=14&_nc_ht=scontent-gru2-1.xx&_nc_gid=Sy_C59dRfsipuW376q2DEw&_nc_ss=7b289&oh=00_AQJfw03BsACTO7ZMclQ1gBtwMlHp8Hf6KfXWL1zXC2aHOQ&oe=6AB709D8",
+            "diasAtivo": 9,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2110675936186298"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "João & Maria Editora",
+          "paginaId": "108691311979263",
+          "instagram": null,
+          "oferta": {
+            "chave": "clube.joaoemariaeditora.com.br/meus-primeiros-poemas-ilustrados",
+            "link": "https://clube.joaoemariaeditora.com.br/meus-primeiros-poemas-ilustrados/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 110,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 99,
+            "diasAtivoMax": 99,
+            "curtidasPagina": 3924,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "introdução alimentar"
+          ],
+          "anuncioPrincipal": {
+            "id": "883075867565724",
+            "titulo": null,
+            "texto": "Talvez você ainda não saiba, mas a \"introdução literária\" é bem parecida com a introdução alimentar: antes do prato de arroz, feijão e bife, o bebê precisa experimentar pequenos pedacinhos do alimento… para provar texturas, sabores e cores diferentes, aos pouquinhos, e ir se preparando para bater um pratão no futuro!\n\nMuito antes de entenderem o enredo das histórias ou identificarem letras do alfabeto, os pequeninos já conseguem assimilar ritmos, tonalidades e nuances da língua através da leitura em voz alta.\n\nDar liberdade também é fundamental: os bebês aprendem brincando, batucando, manuseando, e até “provando” os livros! É assim que eles assimilam todas coisas, e não poderia ser diferente com os livros.\n\nDedicando apenas cinco minutinhos por dia para essa rotina de base, você cria um vínculo poderoso e prepara a fundação para que o seu filho se torne um grande leitor no futuro!\n\nSe vo",
+            "cta": "Saiba mais",
+            "link": "https://clube.joaoemariaeditora.com.br/meus-primeiros-poemas-ilustrados/",
+            "tipoCriativo": "video",
+            "video": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQN1TWnibpTFJUQC8g8MLkCV_1FPjv1PSdd_YPJsqeBK1kfOi2qmC7Bjy-FesgPjNjZ47K1-yBRYvWl5FP4E0J1pnfkd9jwAVGOS249G8Hb1Tw.mp4?_nc_cat=106&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=CkSTOpLjyJIQ7kNvwHkGSYq&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjQzNjAwMzAyOTc1NzE3NDcsImFzc2V0X2FnZV9kYXlzIjo5OCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjEyNSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=48d306e50bab6818&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8wNjQ4NEExMzhGMDYxMkNGMTI5NTY0NjM2OEMwRDA4Rl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzVBNDlEMzRBRUEwRERBOEY5NjUxM0EzMzk3REUzRUFBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbGhsaRldu-DxUCKAJDMywXQF9MzMzMzM0YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=7-UvSUMf5xFL5UT3Jir-sQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQIU6rTWm8jriI2JxPmAzsTc2JCp7E-COO3EIbyST4w08g&oe=6AB70C42",
+            "imagem": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/722075483_1034610292568974_7602301449466645255_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=0-S9qlhkGzgQ7kNvwGDiE29&_nc_oc=AdqiIUjvvQp7aq85vMcCrAriHvEINyABpcaz-3deVw_HAS4w2qCRIgz825a1hAXxi3Q&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=7-UvSUMf5xFL5UT3Jir-sQ&_nc_ss=7b289&oh=00_AQI74cHLTPc6cgpZ4OgKeAq9eEBO4ygKIhrApWYX6jvNAQ&oe=6AB71C67",
+            "diasAtivo": 99,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=883075867565724"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Clubinho da Família",
+          "paginaId": "109302152055510",
+          "instagram": null,
+          "oferta": {
+            "chave": "clubedaregulacaoemocional.com.br",
+            "link": "https://clubedaregulacaoemocional.com.br/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 110,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 11,
+            "diasAtivoMax": 11,
+            "curtidasPagina": 2242,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "atividades tdah"
+          ],
+          "anuncioPrincipal": {
+            "id": "1403235809529059",
+            "titulo": "Clique em Saiba mais",
+            "texto": "🧠 Toda criança tem emoções intensas. O problema é quando ninguém ensina o que fazer com elas.\n\nCrises que duram horas. Birras que parecem \"do nada\". Choros que ninguém entende. Pais e professores tentando acalmar gritando, ameaçando ou ignorando — porque ninguém ensinou outro caminho.\n\nA verdade? A criança não está sendo \"difícil\". Ela está pedindo ajuda do único jeito que sabe.\n\n📚 Por isso reunimos um sistema completo de regulação emocional infantil, com ferramentas práticas para acolher, prevenir e transformar crises em momentos de aprendizado emocional para casos como:\n\n✔️ Crises em crianças com TEA\n✔️ Desregulação emocional no TDAH\n✔️ Birras intensas e prolongadas\n✔️ Ansiedade infantil e crises de choro\n✔️ Dificuldade de identificar e expressar sentimentos\n\n📘 O material inclui:\n- Manual SOS Crises com 80+ páginas (antes, durante e depois)\n- 28 cartões ilustrados de emoções para a ",
+            "cta": "Saiba mais",
+            "link": "https://clubedaregulacaoemocional.com.br/",
+            "tipoCriativo": "video",
+            "video": "https://video-lga3-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQMh-ZJJZHj-W37T4EqUr-mfMvaTPdefnDR8CbfoFZeA2kilYJNisjjJCTCer0uXzyL1B3KQZ4OpI2mclnS4MIoxEpIfuv2BYPCILXieaeLMUA.mp4?_nc_cat=111&_nc_sid=b66105&_nc_ht=video-lga3-1.xx.fbcdn.net&_nc_ohc=EKH6tpUx0MgQ7kNvwG-pUIr&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjIxNDE4NzI5NTM4ODA2MDEsImFzc2V0X2FnZV9kYXlzIjoxMCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjEwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=c7b62a048fa72ab5&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zNTQ2NUNBNjNBMjMxQzI2RUFBMzFCN0JENjM4REU4NV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0NGNEY2QkY4Rjg1NDgyN0VEMzZCNzFDQzY3MDg0Q0FGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaywI-JtYHOBxUCKAJDMywXQCQAAAAAAAAYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=bRmLL8h09FpUA_aNSPXxTA&_nc_ss=7b289&_nc_zt=28&oh=00_AQLEp8unSohZrKUbCQeovVL1RoS9Huod0HbeGdP7t3kE0A&oe=6AB6FA49",
+            "imagem": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.35426-6/803005319_1411728627689441_4344601216994271869_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=qOZ0yUNMPSQQ7kNvwHuaDEI&_nc_oc=Adqo2kH1wpTCQAV_pUSeBST5mpOPNAi7bqKECNKegCyeWQSbVQiyqBgw5nPVO7r8qHI&_nc_zt=14&_nc_ht=scontent-lga3-1.xx&_nc_gid=bRmLL8h09FpUA_aNSPXxTA&_nc_ss=7b289&oh=00_AQIC7HDgb3mUYcioD3pMkFQbjyNzc8zBhecx_dybdIIk2g&oe=6AB6FA0B",
+            "diasAtivo": 11,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1403235809529059"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "CriAtivar Recursos Terapêuticos",
+          "paginaId": "100918434915486",
+          "instagram": null,
+          "oferta": {
+            "chave": "paginatdahvd.recursoscriativar.com",
+            "link": "https://paginatdahvd.recursoscriativar.com/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 65,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 43,
+            "diasAtivoMax": 43,
+            "curtidasPagina": 4870,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "atividades tdah"
+          ],
+          "anuncioPrincipal": {
+            "id": "2003826480322924",
+            "titulo": "Garanta já o seu!",
+            "texto": "Combo TDAH - Estimulação Cognitiva.\n\nRecursos em PDF.\n\nSe você atende crianças e pré-adolescentes com TDAH saiba que não é apenas os comportamentos que você deve trabalhar em psicoterapia. Estimular as funções cognitivas é essencial no tratamento também!\n\nPara isso eu criei o Combo TDAH Estimulação Cognitiva. Ele possui 100 atividades de estimulação e mais um jogo.\n\nWHATSAPP DO SUPORTE: 19991584072 (apenas whatsapp - dificuldades com compras ou acesso).\n\n💰Valor do COMBO TODO: R$ 57,00.\n\nClique em COMPRAR AGORA e adquira o seu agora mesmo!",
+            "cta": "Comprar agora",
+            "link": "https://paginatdahvd.recursoscriativar.com/",
+            "tipoCriativo": "video",
+            "video": "https://video-phl2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQPBYokhX7HPLOYn4zK5K5mN6ZDecB5o1Ba4uQ-FxgtM-1fVq_mJSQwGS8hPXT1Kxk7EitnRLyLW30j9wOT0KtavXcdMpwMsvtg7o6H-ZAP2Kw.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-phl2-1.xx.fbcdn.net&_nc_ohc=yy20-e-IQhUQ7kNvwGSX371&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEwMzQ5NTYxMjg5MDYyMTksImFzc2V0X2FnZV9kYXlzIjo2OCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjUwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=229e92395419f4ed&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9GRTQ4NkE5NEQ4QkI4QTA3OUU1QUM0MEZFN0FDNDhBNV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzA2NDYxNzE3NjlGOUY5QTAwMzNGRjVDOThGMUQzMTg3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbWr9-GsNLWAxUCKAJDMywXQElAAAAAAAAYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=FLlq1Z2Bg4cdL3-qE-PvMw&_nc_ss=7b289&_nc_zt=28&oh=00_AQJsXkjh59mTmo9cb3Azo7vG1BfzkaZvQveWEbigtCpGzQ&oe=6AB700FF",
+            "imagem": "https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/770719928_4505269979762114_2267758530928608146_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=CSbSe75wuQAQ7kNvwGwsDPD&_nc_oc=AdoOkwIiydWrafYxKPi4BvAFuhJkst1iHc-NQd7v2QOkaykUT6wXk3Tb7nAvzLyJKvY&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=FLlq1Z2Bg4cdL3-qE-PvMw&_nc_ss=7b289&oh=00_AQJhaU71d1UH_DQS59sbV-CbTYuUIF3x4sqxo6xxZTiktg&oe=6AB6EE97",
+            "diasAtivo": 43,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2003826480322924"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Stella Soragi",
+          "paginaId": "569580322912642",
+          "instagram": null,
+          "oferta": {
+            "chave": "instagram.com/stellasoragi",
+            "link": "https://instagram.com/stellasoragi"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 50,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 16,
+            "diasAtivoMax": 16,
+            "curtidasPagina": 96324,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "introdução alimentar"
+          ],
+          "anuncioPrincipal": {
+            "id": "954238590343169",
+            "titulo": null,
+            "texto": "🧁 Receita na Legenda\n\nBOLINHO DE BANANA E CENOURA\n\n▫️2 bananas maduras\n▫️2 cenouras cozidas\n▫️100g de farinha\n▫️1 e ½ colher chá de fermento\n▫️2 ovos\n▫️Gotas de chocolate (opcional)\n\nAmasse bem as bananas e as cenouras. Adicione os ovos, a farinha e o fermento, misturando até ficar homogêneo.\nDistribua a massa em forminhas e, se quiser, adicione as gotas de chocolate. Asse em forno preaquecido a 180 °C por 15 a 18 minutos (faça o teste do palito). Deixe esfriar e faça a alegria do seu bebê!\n\n➖➖➖➖➖\n\n👶🏻 A partir de 6 meses (sem chocolate)\n👧🏻 A partir de 2 anos (com chocolate)\n\n📦 Guarde na geladeira por até 3 dias ou congele. Para reaquecer, leve ao microondas ou frigideira até ficarem morninhos.\n\n➖➖➖➖➖\n\n👉 Comenta EBOOK pra receber a versão gratuita do meu ebook de receitas saudáveis pra bebê\n\n📚 Para adquirir o ebook completo “Comida para Bebê” com mais de 100 receitas saudáveis por",
+            "cta": "Acessar o perfil do Instagram",
+            "link": "https://instagram.com/stellasoragi",
+            "tipoCriativo": "video",
+            "video": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQMNn2FKNKQO2o0kfePgQHKPtXBWoTkYFlB5_DFwDTtLd50Brajk1kzRqC3sqECdfPkhgqWREP29JAg2T6_Eyc0FNRxibW6hdPospgjUPj5ohg.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=H5PP_rioGAoQ7kNvwEywVvq&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE1NzkyNTg0MDM2NjAxNzQsImFzc2V0X2FnZV9kYXlzIjoyMSwidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjExLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=308bee7af30a93ec&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zQzQ4M0IwMjkwODNGOUFENjAyODcwMjA0NDNGRjNCNV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzRGNDY4QzMwRjY1MkU2MTE5MTZFRjk1RjQ4RTkwQjgyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACachsWC-JTOBRUCKAJDMywXQCe7ZFocrAgYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=mClh--Tl6-uN14xcTP5qCA&_nc_ss=7b289&_nc_zt=28&oh=00_AQLrQHnow1QNk6is7SmajErnLG_tD-Gc4PmOJLjYnw5QRg&oe=6AB70413",
+            "imagem": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/796328269_1629844238856260_1360563239449954953_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=zAb5zckLBdIQ7kNvwEReT5p&_nc_oc=AdokBoLcrmfmcoWAMy0DfxKQ41nTJfktXBAcdnkQs97svfZms0BemymJWU9XAcRqsq0&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=mClh--Tl6-uN14xcTP5qCA&_nc_ss=7b289&oh=00_AQKliO9jqo0n9ChLBGcrCbTgnt3Yv8ckNMi2o5B7vY0SIA&oe=6AB6F44A",
+            "diasAtivo": 16,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=954238590343169"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Letrar",
+          "paginaId": "1036467156213000",
+          "instagram": null,
+          "oferta": {
+            "chave": "kit.letrar.com.br",
+            "link": "http://kit.letrar.com.br/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 34,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 4,
+            "diasAtivoMax": 4,
+            "curtidasPagina": 277,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "atividades tdah"
+          ],
+          "anuncioPrincipal": {
+            "id": "1022867977429142",
+            "titulo": "Clique em Saiba mais",
+            "texto": "Psicopedagoga, descubra o material que te ajuda a perder a insegurança na hora da devolutiva.",
+            "cta": "Saiba mais",
+            "link": "http://kit.letrar.com.br/",
+            "tipoCriativo": "video",
+            "video": "https://video-lga3-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQOHlUen3JunBQ7M_BCaTXbP38O_eBYHfWFdkY5lvS-DfEEuK2Y2cqU-rqUpAmDDkh7XYK-0w_3I4y7L7PR4v9zyCSgA51UXo_TYAFR6LjDaXA.mp4?_nc_cat=105&_nc_sid=b66105&_nc_ht=video-lga3-2.xx.fbcdn.net&_nc_ohc=PBU3zhB9n2kQ7kNvwEDjoZI&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjIwMzk4ODgwNzMzMTU4NjcsImFzc2V0X2FnZV9kYXlzIjozLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NTEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=f0580629978cfbe3&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9FNTRDMjZFMENEM0FCQjQ5NUQzNDExOThEOTc2Qjk4RV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0ZFNDgxMEREMkMxNjk1ODcxRkM2MjQ3NjYyQ0FEQjlCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACa22O6_jtGfBxUCKAJDMywXQEnd0vGp--cYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=3uYGywK276_b6tHvOyHNIQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQJPshIBc1rRdxmQltjwfKIocOefS_nsU2AYFQis0i7yow&oe=6AB6FBBB",
+            "imagem": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.35426-6/813661640_2320181348820835_3325924923564265379_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=V1onZhQdLR0Q7kNvwEzk-xZ&_nc_oc=Adp-dPCihzHbQFHe7SG-6lcRoKrU6eXH-3-iuefS-IDEpf0S06LPtnKgRvysHoU-GZY&_nc_zt=14&_nc_ht=scontent-lga3-1.xx&_nc_gid=3uYGywK276_b6tHvOyHNIQ&_nc_ss=7b289&oh=00_AQJS9avNC8dn63_V_-qfM8g4Rec0ArNSz-4h0aM7mTcq-A&oe=6AB6FED3",
+            "diasAtivo": 4,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1022867977429142"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Bebê de Nutri - Nutricionista Franciele Loss",
+          "paginaId": "397559487252468",
+          "instagram": null,
+          "oferta": {
+            "chave": "bebedenutri.com.br/curso-introducaoalimentar-bebedenutri",
+            "link": "https://www.bebedenutri.com.br/curso-introducaoalimentar-bebedenutri/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 33,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 401,
+            "diasAtivoMax": 401,
+            "curtidasPagina": 39170,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "introdução alimentar"
+          ],
+          "anuncioPrincipal": {
+            "id": "788778433589218",
+            "titulo": null,
+            "texto": "",
+            "cta": "Saiba mais",
+            "link": "https://www.bebedenutri.com.br/curso-introducaoalimentar-bebedenutri/",
+            "tipoCriativo": "video",
+            "video": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQPQizGEzc6_vwaoiRrqd55CsSdlE8eHRdkSBkwFtMr4cEhi2i-0NEXt8DXTJ8YAbRwT0nd1o0KlzBPG1IJVg1c.mp4?_nc_cat=109&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=vvXqZ8BjB5kQ7kNvwHILSXZ&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmFzaWNfaHEyX2hkX3Byb2dyZXNzaXZlIiwieHB2X2Fzc2V0X2lkIjoxMTkyNTY4MDIyODI1NzYyLCJhc3NldF9hZ2VfZGF5cyI6Mjg5LCJ2aV91c2VjYXNlX2lkIjoxMDY4MCwiZHVyYXRpb25fcyI6NDUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=qxenOwDWnyjcaWTTTuJGvQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQJoS-QuNKKdkhbx2Oea3Ry-gJV9Hyb93UQ24Sp5M-p15g&oe=6AB70D61",
+            "imagem": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/464106578_1611558819780687_7608155754369711688_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=a66mq6c399oQ7kNvwEnBZLP&_nc_oc=Adr7mtNyIaPiaJNQ6vtnqXBGdnJCmierxnBWbFtKm7td4srTGYjIwrbvShIYV6qRKEg&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=qxenOwDWnyjcaWTTTuJGvQ&_nc_ss=7b289&oh=00_AQIv-_sg91_e2JufBOHyy-J8HRecBuokbLYwjFMunLLJag&oe=6AB6F710",
+            "diasAtivo": 401,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=788778433589218"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Sara Fialho - Psicopedagoga",
+          "paginaId": "809609095562503",
+          "instagram": null,
+          "oferta": {
+            "chave": "biliotecaneurovisual.lovable.app",
+            "link": "https://biliotecaneurovisual.lovable.app/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 22,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 56,
+            "diasAtivoMax": 56,
+            "curtidasPagina": 3318,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "atividades tdah"
+          ],
+          "anuncioPrincipal": {
+            "id": "1357100065930487",
+            "titulo": "Saiba Mais",
+            "texto": "📚 BIBLIOTECA NEURO VISUAL\n\nPare de perder horas pesquisando atividades, criando materiais e organizando arquivos espalhados em dezenas de pastas.\n\nAgora você pode ter acesso a uma biblioteca completa com mais de 1.500 recursos visuais prontos para imprimir e aplicar em seus atendimentos.\n\nIdeal para:\n\n✅ Psicopedagogas\n\n✅ Fonoaudiólogas\n\n✅ Terapeutas\n\n✅ Professoras de Educação Especial\n\n✅ Profissionais do AEE\n\n✅ Psicólogas Infantis\n\n✅ Cuidadoras\n\n━━━━━━━━━━━━━━━━━━━━━━━\n\nVOCÊ RECEBERÁ:\n\n📌 Mais de 1.500 Atividades Educativas\n\n📌 Pranchas de Comunicação\n\n📌 Cartões PECS\n\n📌 Rotinas Visuais Completas\n\n📌 Jogos Pedagógicos\n\n📌 Recursos para Alfabetização\n\n📌 Cartões de Emoções\n\n📌 Sequências Lógicas\n\n📌 Atividades Cognitivas\n\n📌 Materiais para Atenção e Concentração\n\n📌 Livro de Associação\n\n📌 Recursos para Comunicação Funcional\n\n📌 Baralhos Terapêuticos\n\n📌 Guias de Estimulação\n\n📌 Materia",
+            "cta": "Ver detalhes",
+            "link": "https://biliotecaneurovisual.lovable.app/",
+            "tipoCriativo": "video",
+            "video": "https://video-phl2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQNUG9208M6EZaJZf-IMruolbKW9kGU2RoNRUgizThnNsB9Y2L-v0EwQT29HPGz0lmbYIC1mKXrPy9zZmvfMPMr-pXdSpvdnei2gEd0qk7hxUg.mp4?_nc_cat=100&_nc_sid=b66105&_nc_ht=video-phl2-1.xx.fbcdn.net&_nc_ohc=D76MafkK25UQ7kNvwGjuEAA&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE4NzQ2NTQ3MjczMDk0ODUsImFzc2V0X2FnZV9kYXlzIjo1OSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjIyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=956793fd19906748&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC83QzQ4OUZCREE1MDZBM0Q4MzRFREE1MzkzQTg0RkRCOV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0NGNEZEQTQyN0MwMTgzRjc2MzAwOTEyQ0NCOTcyOThFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbaosiRor_UBhUCKAJDMywXQDbmZmZmZmYYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=lzZ0Yp9t4sT4sANbmSOafA&_nc_ss=7b289&_nc_zt=28&oh=00_AQJ8HUptxouXI_PvuEiyIIxfv1I1cIH84HwyDOqwW-NkIg&oe=6AB6EF7C",
+            "imagem": "https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/755374088_1028517833489707_2066489252393643594_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ZueDNQXC3bgQ7kNvwGHin9y&_nc_oc=AdqYVXMCBtKeREDRMExSGwK0EILTwz3kFGZeKg384v_g6nToiLyj8-Z8B3cGxQqUunE&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=lzZ0Yp9t4sT4sANbmSOafA&_nc_ss=7b289&oh=00_AQIZTkHDx2gbcUo8FTvayByQ33ozDzJ0zlSacSBLLbMqmg&oe=6AB6ED5A",
+            "diasAtivo": 56,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1357100065930487"
+          },
+          "outrosTextos": []
+        }
+      ]
+    },
+    {
+      "id": "cristao",
+      "nome": "Cristão / Espiritualidade",
+      "prioridade": 3,
+      "fonte": "ad-hunter",
+      "coletadoEm": "2026-09-22T16:31:26.3+00:00",
+      "idadeEmDias": 0,
+      "totalAnuncios": 18,
+      "totalOfertas": 18,
+      "top": [
+        {
+          "pagina": "Pastor Daniel Díaz",
+          "paginaId": "102803338629306",
+          "instagram": null,
+          "oferta": {
+            "chave": "bibliotecadelpredicador.lat",
+            "link": "https://www.bibliotecadelpredicador.lat/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 970,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 2,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 38,
+            "diasAtivoMax": 38,
+            "curtidasPagina": 751,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "estudio bíblico"
+          ],
+          "anuncioPrincipal": {
+            "id": "2599172120525544",
+            "titulo": "Pago único · Acceso vitalicio",
+            "texto": "¿Predicas la Palabra, enseñas o lideras un ministerio?\n\nLa Biblioteca del Predicador fue creada para hacer tu preparación más simple, organizada y profunda. 🙏\n\nReúne en un solo lugar las 6 herramientas que necesitas para estudiar la Biblia y preparar tus mensajes:\n\n📖 Comentario bíblico versículo por versículo\n\n🏛️ Contexto histórico y cultural de cada pasaje\n\n📚 Diccionario y enciclopedia bíblica\n\n👤 Perfiles de personajes de la Biblia\n\n🎤 Creador de sermones claros y bien estructurados\n\n🧑‍🏫 Clases de Escuela Bíblica adaptadas a cada edad  \n\nEncuentra la información que necesitas sin perder horas buscando en diferentes sitios. Estudia con más claridad, organiza tus ideas y prepara cada mensaje con mayor seguridad.\n\nLa Biblioteca del Predicador no reemplaza tu llamado ni tu voz: te ayuda a transformar tu estudio en enseñanzas claras, profundas y fáciles de compartir.\n\n✅ Pago único y a",
+            "cta": "Saiba mais",
+            "link": "https://www.bibliotecadelpredicador.lat/",
+            "tipoCriativo": "video",
+            "video": "https://video-hou1-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQN3jHHegV15Z2xPdExW_MvvMPy8m7utoVlUDSn6peiLLuXNyek_rF4StSB0MEWKVY-7BlZP2-mbfnP_1ITWyjf19vmPovgZ8q-m91q9IvdCyQ.mp4?_nc_cat=107&_nc_sid=b66105&_nc_ht=video-hou1-1.xx.fbcdn.net&_nc_ohc=ew47-ocoYioQ7kNvwHVDWED&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjk3NzkzNDU4NDkwNTI4NSwiYXNzZXRfYWdlX2RheXMiOjE3NCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjEzLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=77e03cff45958a51&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9GRDRFMTcwNTkyMDk3Mzc1NzVEQTQ2RUQzMDA1RTU5OV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0Q0NDM5MDA3QTdCMTFDQTI1Nzk5OTVEMURCQ0UzNDhCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaK-d-4pNu8AxUCKAJDMywXQCoAAAAAAAAYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=KiE3AT2iHb2w7E3QCyDMgA&_nc_ss=7b289&_nc_zt=28&oh=00_AQI0UsVFl3vEip3nxKUGe_BDo0zJCNMy1tvtEXcKZAy7jw&oe=6AB70C59",
+            "imagem": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.35426-6/699778036_1992531464717514_6738986209300736819_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=_moOn84G37gQ7kNvwFL_HgE&_nc_oc=AdpR9EbaQkKxbILOtyascYb_1D55YpUwRObe0ebfauTtpzl4T0V8M9TTWQwIG_eb2P4&_nc_zt=14&_nc_ht=scontent-hou1-1.xx&_nc_gid=KiE3AT2iHb2w7E3QCyDMgA&_nc_ss=7b289&oh=00_AQIHJJm6tUpzGhJugGKa4_2L7UgZrlHT0fzD6_EUw0yx_Q&oe=6AB6F4A4",
+            "diasAtivo": 38,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2599172120525544"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Mapa da Bíblia",
+          "paginaId": "699595763247977",
+          "instagram": null,
+          "oferta": {
+            "chave": "mapadocatolico.com/mapa-da-biblia",
+            "link": "http://mapadocatolico.com/mapa-da-biblia"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 560,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 38,
+            "diasAtivoMax": 38,
+            "curtidasPagina": 67,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "entenda biblia"
+          ],
+          "anuncioPrincipal": {
+            "id": "1570523798104404",
+            "titulo": null,
+            "texto": "✝️ “Padre, por onde eu começo a ler a Bíblia?”\n\nEssa é uma das perguntas mais comuns entre católicos. E a resposta surpreende muita gente. Nesse vídeo a gente te mostra o porquê.\n\n📖 Se você quer entender todos os livros da Bíblia com essa mesma clareza e muito mais, o Mapa da Bíblia foi feito pra isso. São resumos visuais de cada um dos 73 livros da Bíblia Católica.\n\nSimples, completo e para a vida toda.\nMais de 35 mil católicos já estão dentro.\n\n👉 Para ter acesso, comente “QUERO” ou toque em SAIBA MAIS.",
+            "cta": "Ver detalhes",
+            "link": "http://mapadocatolico.com/mapa-da-biblia",
+            "tipoCriativo": "video",
+            "video": "https://video.faru4-1.fna.fbcdn.net/o1/v/t2/f2/m367/AQOE41-rDWOhw5eYdn9b9UKmZglxL4m7y_goP0tADhFr5IzlmjnYXmrVKZSHoo8MJsWjz3ZNv_asp7Nw1Y6Yb3CYlpISWo40j6NcV8elrg.mp4?_nc_cat=104&_nc_oc=AdrJeKpUFpNkfD5JSePyMT9h0OvCRALUrJhXTjor6-pYlYD9dtp_gDnTHW4wH2LIRUbkqzMLRcgji95w0YKYIDkj&_nc_sid=ef5aa3&_nc_ht=video.faru4-1.fna.fbcdn.net&_nc_ohc=Tmykaw3D24oQ7kNvwFXRMjF&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNTk4MjE4OTQ4NTc3NTUyLCJhc3NldF9hZ2VfZGF5cyI6MTgsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjozMTksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=OmT48-Ao2arpTxhMIbmbPg&_nc_ss=7b289&_nc_zt=28&oh=00_AQHeOiHe_77PCsRPOe_at-E9Sb2vgnpVzXVMxiD3JTClBw&oe=6A962FF6",
+            "imagem": "https://scontent.faru4-1.fna.fbcdn.net/v/t39.35426-6/770801923_1025560810096921_2512559634527656241_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=gWaN4nhVBigQ7kNvwFLne7U&_nc_oc=AdpSYBtLJ28sBHYmn95WVsZ-QYIfYmHymxp1zt5fqjAWkqAfMtX3s__4Zw9hNi_oZLTM1wev580IhQGC7x-NXgVU&_nc_zt=14&_nc_ht=scontent.faru4-1.fna&_nc_gid=OmT48-Ao2arpTxhMIbmbPg&_nc_ss=7b289&oh=00_AQHMVnB41-WWxYdyQ9iQ4s0TlQT373cGlJP0IAckcOVeCw&oe=6A961878",
+            "diasAtivo": 38,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1570523798104404"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Academia de Pregadores",
+          "paginaId": "103654612504726",
+          "instagram": null,
+          "oferta": {
+            "chave": "instagram.com/livrariadacademia",
+            "link": "https://www.instagram.com/livrariadacademia"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 240,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 139,
+            "diasAtivoMax": 139,
+            "curtidasPagina": 87204,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "estudo bíblico"
+          ],
+          "anuncioPrincipal": {
+            "id": "1482812890005282",
+            "titulo": null,
+            "texto": "Todo grande ensino começa com alguém disposto a servir. 🙌\n\nProfessores e líderes que dedicam tempo, estudo e amor para formar discípulos e transformar vidas.\n\nNós, da Academia de Pregadores e da Academia Kids, valorizamos esse chamado e queremos caminhar com você.\n\nPara líderes e professores que desejam se aprimorar, indicamos o livro “Ensinando com Excelência na Escola Dominical”, de Anderson Barreto. 📚\n\nE para professores do ministério infantil, o Kit “Teologia para Crianças”, de Jamiel Lopes, é um recurso indispensável.\n\nQuem é aluno tem desconto especial! 👀\n\n👇Comente “LOJA123” aqui abaixo ou corre para os stories para garantir o seu!",
+            "cta": "Acessar o perfil do Instagram",
+            "link": "https://www.instagram.com/livrariadacademia",
+            "tipoCriativo": "video",
+            "video": "https://video-sjc6-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQMQQxE64eORt9QfidnmZ3J9hz0_WZT4Y_CXvu4t8sgrcZAKKJA2mfXdYCm3oSxcubm9KQ9BpCzEw9tbd9ZcPp6j.mp4?_nc_cat=108&_nc_sid=ef5aa3&_nc_ht=video-sjc6-1.xx.fbcdn.net&_nc_ohc=sX0TN1gHdBMQ7kNvwHwvj9_&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmFzaWNfaHEyX2hkX3Byb2dyZXNzaXZlIiwieHB2X2Fzc2V0X2lkIjoxNjA3OTM5MTIzNzM4NDQ0LCJhc3NldF9hZ2VfZGF5cyI6MjAyLCJ2aV91c2VjYXNlX2lkIjoxMDY4MCwiZHVyYXRpb25fcyI6MTEwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=FjIoRwi4XnofLy5q1AKXiA&_nc_ss=7b289&_nc_zt=28&oh=00_AQJ48gcW4IEmgAhCV5HoZ7bsyrH0W1Jo040VKgVL1E87sw&oe=6AB704BD",
+            "imagem": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.35426-6/371860025_871764470947463_2645526619491729848_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=M0McfZGXkwMQ7kNvwElRbG1&_nc_oc=AdrLfsrKb0X-mpvOMUVFhMJjkNFquBET078iLGg1CHm7GK_JcCvbJOdPspM4MKG8Wyk&_nc_zt=14&_nc_ht=scontent-sjc3-1.xx&_nc_gid=FjIoRwi4XnofLy5q1AKXiA&_nc_ss=7b289&oh=00_AQLemuzOGN4rFNYRGigR2DyJLyP_8_nTeRHaz3uVkYVgWg&oe=6AB6FBDC",
+            "diasAtivo": 139,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1482812890005282"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Evangelizando com Padre Reginaldo",
+          "paginaId": "1131675386691191",
+          "instagram": null,
+          "oferta": {
+            "chave": "esbocosbiblicos.com/eucaristia",
+            "link": "https://esbocosbiblicos.com/eucaristia/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 76,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 34,
+            "diasAtivoMax": 34,
+            "curtidasPagina": 63,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "leitura bíblica"
+          ],
+          "anuncioPrincipal": {
+            "id": "1532813078091540",
+            "titulo": "BAIXE AGORA!",
+            "texto": "🙏 Transforme cada dia em um novo encontro com Deus! Tenha 365 Lectio Divina prontas, com leitura bíblica, reflexão, meditação, oração e contemplação.\n\n📖 Mais profundidade, organização e constância para viver a Palavra de Deus durante todo o ano.\n\n👉 Comece hoje sua jornada de Lectio Divina!",
+            "cta": "Saiba mais",
+            "link": "https://esbocosbiblicos.com/eucaristia/",
+            "tipoCriativo": "video",
+            "video": "https://video.faru4-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQNbY9CcsASjp72jZgBvF43PMJbW8dkLezow5io6CGy7A_N3gaYTGvPnuiP8qCo55J0Caze-kWTjNNWQ3ingk7VqQNUWLg5AdkPwdrrmwEAJ9A.mp4?_nc_cat=107&_nc_oc=AdqvvBzdI_RYMoAB5WL4OeblJW5FytCbS5e-It7_Q09O5e-IHJk7Tq7I5jxRqSE6Jj1WWW1vPlGqTY2BvbJkGAuz&_nc_sid=b66105&_nc_ht=video.faru4-1.fna.fbcdn.net&_nc_ohc=KT9aB15Fe58Q7kNvwH6k8qS&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE1Mjk5OTc0NTIxNDIyODEsImFzc2V0X2FnZV9kYXlzIjo4LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NTksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=c0d7a48a8991bc7&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9GRjREM0JFOENENTE1MDVFQkZDN0VGMDk3QzkyQTBBMV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0MxNDkwNjg2RjQ4Qzk0RDZDQjFGOUFCQjdBRTU3RkJBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaSm6OqyeG3BRUCKAJDMywXQE3d0vGp--cYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=B63PzONtfDKXWrHuxWgoLg&_nc_ss=7b289&_nc_zt=28&oh=00_AQGNiuvhUJFJu-Yj6OnaJQZiR1nB3EdW75TaAbc9ys7AzA&oe=6A96174D",
+            "imagem": "https://scontent.faru4-1.fna.fbcdn.net/v/t39.35426-6/778139629_1414446190550413_3149397039052283499_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=qtnnHvERbTUQ7kNvwHKRN_M&_nc_oc=Adp-8b8aw0EtCc4ZIoYCmJH9OIuiS6mcVYL1UtnoFPI5Ir3Z1M0TCfKXsDIqh-jdYYmtuz36EZ_KAqw-sQik3kaG&_nc_zt=14&_nc_ht=scontent.faru4-1.fna&_nc_gid=B63PzONtfDKXWrHuxWgoLg&_nc_ss=7b289&oh=00_AQFrLRDZnmFRLKnVeRejPOCqgg-Pto_LdueyNhHbPk6wnA&oe=6A963251",
+            "diasAtivo": 34,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1532813078091540"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Bíblia Online de Estudo",
+          "paginaId": "350584658324689",
+          "instagram": null,
+          "oferta": {
+            "chave": "sun.eduzz.com/kw8kjx5r01",
+            "link": "https://sun.eduzz.com/KW8KJX5R01?utm_source={{placement}}&utm_medium={{campaign.name}}&utm_campaign={{campaign.name}}&utm_content={{ad.name}}"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 61,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 30,
+            "diasAtivoMax": 30,
+            "curtidasPagina": 31609,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "leitura bíblica"
+          ],
+          "anuncioPrincipal": {
+            "id": "28747885121464679",
+            "titulo": null,
+            "texto": "Digite Pregador e Estude comigo!\n\nTexto: Temática, Textual e Expositiva (PTTE)”\n\nEsta videoaula é um mergulho profundo e didático no universo da pregação bíblica. Com duração de 1 hora e 40 minutos, você aprenderá como ministrar a mesma mensagem bíblica sob três estruturas diferentes de sermão: temático, textual e expositivo.\n\nGravada com excelente qualidade de som e imagem, esta aula foi organizada em blocos claros e objetivos, para que obreiros, pastores, alunos de teologia ou até mesmo iniciantes possam acompanhar com clareza, passo a passo, a construção e aplicação prática de cada modelo de pregação.\n\nO que você vai aprender:\n\n• Diferenças fundamentais entre os três tipos de sermão\n• Como identificar o melhor modelo para cada ocasião\n• As 8 regras de leitura bíblica que podem transformar sua forma de interpretar as Escrituras\n• Dicas práticas de estrutura, aplicação e chamada\n• Como ",
+            "cta": "Ver detalhes",
+            "link": "https://sun.eduzz.com/KW8KJX5R01?utm_source={{placement}}&utm_medium={{campaign.name}}&utm_campaign={{campaign.name}}&utm_content={{ad.name}}",
+            "tipoCriativo": "video",
+            "video": "https://video.faru4-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQNzCQKaf-rJxPSqiow-DEXNSJgdVxxrCuFr61qTve0E4TKrIOoEh8FuqK_180QLEB8NSrneUidSH5aWf5qFHDuIc4WaTSwSwkSPAF4TJRVDnQ.mp4?_nc_cat=100&_nc_oc=AdpFpTTqRi0JAmxEDpbuDBTJf7OjT0EYYPFEttWw9EoIwwaHmHuZrpjPVyCR6JhJRPLiozfxzCgtTVj-iZ-G1hWb&_nc_sid=b66105&_nc_ht=video.faru4-1.fna.fbcdn.net&_nc_ohc=2uv4lJeG0GMQ7kNvwGg2-xp&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjExODU3NDAyNTMwMTc1ODEsImFzc2V0X2FnZV9kYXlzIjo0NzYsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjoyNDMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=423e2b0a1f1b4836&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8yNDQ4QjlCM0Y5MkY5NzVGOTA0NzA0OTUzNTQ4OTNCOV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhHaWdfeHB2X3JlZWxzX3Blcm1hbmVudF9zcl9wcm9kLzEzNjk4MzA2Mjc1OTAxNDVfNjYzNzUzMjc3OTU5MTYzOTQ1My5tcDQVAgLIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAm2tedqZWbmwQVAigCQzMsF0BucR64UeuFGBlkYXNoX2gyNjQtYmFzaWMtZ2VuMl83MjBwEQB1AGWswQEA&_nc_gid=DrLO7Mh8xM0Vl2acIDN1Wg&_nc_ss=7b289&_nc_zt=28&oh=00_AQEH2997tSNgdmeeSVaYQcjLz_aYL443XgIe-lJBPwwK_A&oe=6A962D34",
+            "imagem": "https://scontent.faru4-2.fna.fbcdn.net/v/t39.35426-6/784197745_1572309547717044_4042624614655675660_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=4ws0SZcYEdMQ7kNvwE4Ub5s&_nc_oc=Adqnjy6vqremiYTLYsjBYJUN2MvVyJquTNAY75MpdFnAlPfJMQBp1OsM8NzYgpc_Us_L0Ddr1-kI-Gh8k0ZfvTn-&_nc_zt=14&_nc_ht=scontent.faru4-2.fna&_nc_gid=DrLO7Mh8xM0Vl2acIDN1Wg&_nc_ss=7b289&oh=00_AQF1tk57atlMNqOLGAnokRJ7Oc-i-41kJTyqQInZooc4ow&oe=6A9613DF",
+            "diasAtivo": 30,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=28747885121464679"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "El Mateus Eleuterio ",
+          "paginaId": "818148171385351",
+          "instagram": null,
+          "oferta": {
+            "chave": "quiz.manualdelabiblia.com",
+            "link": "https://quiz.manualdelabiblia.com/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 48,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 292,
+            "diasAtivoMax": 292,
+            "curtidasPagina": 157884,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "estudio bíblico"
+          ],
+          "anuncioPrincipal": {
+            "id": "1484488269322810",
+            "titulo": "APRENDE LA BIBLIA DE FORMA SIMPLE Y DIDÁCTICA",
+            "texto": "📖 ¡EXCLUSIVO SÚPER COMBO MANUAL DE LA BIBLIA!\n\n¿Ya intentaste leer la Biblia pero te perdiste en el camino?\nAhora puedes entender cada libro desde Génesis hasta Apocalipsis con una guía simple, didáctica y transformadora.\n\nVas a recibir:\n✅ Manual de la Biblia ilustrado\n✅ 100 Curiosidades Bíblicas\n✅ Planes de Lectura\n\n🔥 ¡Asegura ahora el Combo completo! Toca en Saber más",
+            "cta": "Saiba mais",
+            "link": "https://quiz.manualdelabiblia.com/",
+            "tipoCriativo": "video",
+            "video": "https://video.faru4-2.fna.fbcdn.net/o1/v/t2/f2/m366/AQNaWR1kOUEj1sqj9S1WJJYlwFFqF_xk0727Rk2uUz7Wpc4mXK1XTXS-8BLsJzXfG35OVI-F7LR-y4619fFlq8KIWZ2dVqjQcoCJMjqs5ZYAXQ.mp4?_nc_cat=110&_nc_oc=Adr9VCdG7zi4PC5h6NprKsLVqWKXzzf-fGeK5xTIzf_szZKJF06JOSOxw1Fl3xX-8pA6lPl8RaxqTnUBQyeFl4y-&_nc_sid=b66105&_nc_ht=video.faru4-2.fna.fbcdn.net&_nc_ohc=NFLb4CcozygQ7kNvwEZtZSY&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjI2MTYyNTk2MDU0MTA1ODQsImFzc2V0X2FnZV9kYXlzIjoyNjUsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjoxMzYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=a6b7dbdbe019e4ab&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8yNjQ4MEUyQUNDMjAyQjFBQTQ1RjUyMEQzMUE4N0M5Q19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzdGNDRDNEZFRDQ0MEE2MUIyREQyQ0RGMzhDMzFCN0EyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACawzN2Grd6lCRUCKAJDMywXQGEEQYk3S8cYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=FR0u5RMzE1Wl653Dr74gNQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQF8vP8n36usC3H9Hk5nSBQyWPS18ptAiNUN-YehTpn_Hg&oe=6A9607C6",
+            "imagem": "https://scontent.faru4-1.fna.fbcdn.net/v/t39.35426-6/593162360_1980211439220776_7410527853847439879_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=0kgpT0rAjicQ7kNvwGDYKBK&_nc_oc=AdpbqdLeFlgeNl1D0vj6SNIS90PCgA5O0WnrxM5yyjsTy6l74BeItyfrsin5xsmMMd5jNzdXwuSjtfM-n8K58F_1&_nc_zt=14&_nc_ht=scontent.faru4-1.fna&_nc_gid=FR0u5RMzE1Wl653Dr74gNQ&_nc_ss=7b289&oh=00_AQHlf5M68UFsU9c2d4k_YdStbJAG3qTgPuyl0Rn_YeKkHw&oe=6A960CC7",
+            "diasAtivo": 292,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1484488269322810"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Destra For The Nations",
+          "paginaId": "112917741688745",
+          "instagram": null,
+          "oferta": {
+            "chave": "pg.destraforthenations.com.br/iqc-nik-vsl7-lp-cdlay-ab",
+            "link": "https://pg.destraforthenations.com.br/iqc-nik-vsl7-lp-cdlay-ab"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 44,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 37,
+            "diasAtivoMax": 37,
+            "curtidasPagina": 1882,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "aprender a bíblia"
+          ],
+          "anuncioPrincipal": {
+            "id": "1073530075178294",
+            "titulo": "Escola de inglês para Cristãos",
+            "texto": "Quantas oportunidades você já perdeu por não falar inglês? 🙃\n\nUma vaga que pagava o dobro. Uma viagem em que você travou na hora de pedir comida. Um louvor que você canta sem entender uma palavra.\n\nE o pior: não é falta de esforço. Você talvez já tenha tentado, pago, estudado, e mesmo assim não saiu do lugar. Porque a culpa nunca foi sua, foi do método.\n\nEu preparei uma aula gratuita que te mostra como destravar o inglês do dia a dia em 3 meses, com 15 minutos por dia, aprendendo pela sua Bíblia, seus louvores e as séries que você já ama. 👇\n\n👉 Toque no link e assista agora, é de graça.",
+            "cta": "Saiba mais",
+            "link": "https://pg.destraforthenations.com.br/iqc-nik-vsl7-lp-cdlay-ab",
+            "tipoCriativo": "video",
+            "video": "https://video.faru4-2.fna.fbcdn.net/o1/v/t2/f2/m366/AQMjfCtzd1SMLMp4Wxupig1-NuWK1E97XJHgS39Lh0Y_mUIwtuNFsRQ14K7WbCJpyyXOE6Msw9vAqpKPvL9rNVPPz3ngNGrrUbh_99kbYcod7Q.mp4?_nc_cat=103&_nc_oc=AdoDEu3bh5ltOVLBuUE9zaVvHSJZmdb2--0SD_BAZ_ICPI3DUSCGI_wIE6B0tN0JU3YrgHoZ8PU4NEif0rgdhbrl&_nc_sid=b66105&_nc_ht=video.faru4-2.fna.fbcdn.net&_nc_ohc=6mauESa62GcQ7kNvwGq48XB&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEzNzkyODU3Nzc0NjY5ODAsImFzc2V0X2FnZV9kYXlzIjoyNywidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjQ4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=1606722baafa59ef&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8xOTQ2NDA5QjlCOTJGMUQzQ0Y2MTM1QkJENzM1M0I5Q19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0JFNEExMkNCNDk4RTJDRTc2Mzk3REE3NkJDOTY2NzgyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbImfrs_5zzBBUCKAJDMywXQEgmZmZmZmYYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=PS6cU-C8yngywKASKX4XQQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQH1Q3H4F9iU6FW8JztmMFRFiv_-VGToxId9NY9WDKakGA&oe=6A960EBD",
+            "imagem": "https://scontent.faru4-2.fna.fbcdn.net/v/t39.35426-6/774008696_1728253778401733_350800134727044369_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=mPXhq6hREYoQ7kNvwFQeDNY&_nc_oc=Adq8l1aYcuwAyPiBkMrQGbwnw5qZCz34vJq5VUSd7IjvZCsrSYgELSWJ3LeAFt9iVApvSmMKoKvqL6jQfolwphho&_nc_zt=14&_nc_ht=scontent.faru4-2.fna&_nc_gid=PS6cU-C8yngywKASKX4XQQ&_nc_ss=7b289&oh=00_AQFdUAO_ndXpLSJVqAJRBIdogqilYAXt00528ua5pNsoqg&oe=6A963CD0",
+            "diasAtivo": 37,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1073530075178294"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Instituto La Palabra",
+          "paginaId": "799374959915226",
+          "instagram": null,
+          "oferta": {
+            "chave": "es.institutolapalabra.com",
+            "link": "http://es.institutolapalabra.com/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 44,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 209,
+            "diasAtivoMax": 209,
+            "curtidasPagina": 64568,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "estudio bíblico"
+          ],
+          "anuncioPrincipal": {
+            "id": "892069030479788",
+            "titulo": null,
+            "texto": "",
+            "cta": "Saiba mais",
+            "link": "http://es.institutolapalabra.com/",
+            "tipoCriativo": "video",
+            "video": "https://video.faru4-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQOrUOZzIRmr5jAEelHka4v4EWlecFHKVXWYIaumaSuzAZmhELWLdeNNe8BsU4BtWrfOxNRY0pisTBqUbDuwwigU9sQuZ5TpQPoA_W_53ro2Ig.mp4?_nc_cat=100&_nc_oc=Adq8lz2Exie_pxkrjM2pi0j4AWAVXCz-k4EA95hCO3BwsooyKB0bBdN5PI9mVEwa54oLWEc8q3JJnQvbm5EVo-rZ&_nc_sid=b66105&_nc_ht=video.faru4-1.fna.fbcdn.net&_nc_ohc=EDZkX4RUgxcQ7kNvwHPnGKe&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjM1NzUzMjk2OTU5NDA2MDAsImFzc2V0X2FnZV9kYXlzIjoxODQsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjo3NywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=9c08e59c03d4a51e&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9BODQxOTI4MEZFNjkwRkI0QTFEQjdFMjE3MzZDNEVCQ19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzlCNDMxNDEwRTU2ODE5NkIxQzI2MzJBQ0VFNDhDOTk3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbw_9mHyu_ZDBUCKAJDMywXQFNzMzMzMzMYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=KfoYD7bf0GhF9PdTI31t2Q&_nc_ss=7b289&_nc_zt=28&oh=00_AQFSNDvZYT-GxHNTypCKLpBToCWjUAdCQxGv1OBf3NRPhQ&oe=6A961F00",
+            "imagem": "https://scontent.faru4-1.fna.fbcdn.net/v/t39.35426-6/641356546_798160539980698_699820040561702740_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=NmYYvMecuO4Q7kNvwHahIWv&_nc_oc=AdowD2p7kKENrQSGkpRPkULjhoPErC9LGQ-8tKtXYlrlwZlo0P62iRUsNWswk3_PuZwAn7OA5dSYESV0Fn4VZ1R4&_nc_zt=14&_nc_ht=scontent.faru4-1.fna&_nc_gid=KfoYD7bf0GhF9PdTI31t2Q&_nc_ss=7b289&oh=00_AQFQz1v6RKH2OnHAkqpw34oICIOrcIMHSph7uniiL_Pb7Q&oe=6A962C20",
+            "diasAtivo": 209,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=892069030479788"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "João Claudio Rufino",
+          "paginaId": "625980790778255",
+          "instagram": null,
+          "oferta": {
+            "chave": "bibliaplay.com.br/santa-missa-na-pratica-2990-delay",
+            "link": "https://www.bibliaplay.com.br/santa-missa-na-pratica-2990-delay/?utm_source=FB&utm_campaign={{campaign.name}}|{{campaign.id}}&utm_medium={{adset.name}}|{{adset.id}}&utm_content={{ad.name}}|{{ad.id}}&utm_term={{placement}}"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 38,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 31,
+            "diasAtivoMax": 31,
+            "curtidasPagina": 37181,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "entenda biblia"
+          ],
+          "anuncioPrincipal": {
+            "id": "1565664071627867",
+            "titulo": "Entenda a Missa",
+            "texto": "Existe algo acontecendo em cada Missa que quase nenhum católico percebe... mas quando você entende, sua vida nunca mais será a mesma.Toque no botão abaixo para uma aula agora e descubra o verdadeiro sentido da Santa Missa.",
+            "cta": "Ver detalhes",
+            "link": "https://www.bibliaplay.com.br/santa-missa-na-pratica-2990-delay/?utm_source=FB&utm_campaign={{campaign.name}}|{{campaign.id}}&utm_medium={{adset.name}}|{{adset.id}}&utm_content={{ad.name}}|{{ad.id}}&utm_term={{placement}}",
+            "tipoCriativo": "video",
+            "video": "https://video-det1-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQMoMmfYYcDElSxXAQCTPrrebOgSrbWoblKCDuggULXYuxtJNJDc9x2TX-7k-x6qi8kkNFDrkz8HBb8XfmmRlYghcecVx9DUp70My1fNdOzF-w.mp4?_nc_cat=106&_nc_sid=b66105&_nc_ht=video-det1-1.xx.fbcdn.net&_nc_ohc=7dfeRweRl9MQ7kNvwH_5qog&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEwNzk0ODQ0OTc5MjUyMDQsImFzc2V0X2FnZV9kYXlzIjoxNSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjcxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=64f248582abdbd8c&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC84OTRFQThDMThGODJEOUE4RURGODVFNUJFOEM5RjM4M19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzZENDBEQTMyQTRCNzc2MzdEMzBEMUY4MjMzNkM0NkI2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACao0dCgovLqAxUCKAJDMywXQFH8i0OVgQYYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=3iyb5cjIBNCYIb8gIgWdFg&_nc_ss=7b289&_nc_zt=28&oh=00_AQIQXE4n_DvBT1DWsFRgW-qXUwpP4_uyWOaXdlo03AI5WA&oe=6AA4A4AA",
+            "imagem": "https://scontent-det1-1.xx.fbcdn.net/v/t39.35426-6/780981416_1055970850172123_3856638914701149384_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=QS5rR-kSHaUQ7kNvwE8isuY&_nc_oc=AdqXOrRg3Di1z6IUsnmlqX7CwdsNFHSDfvVqB2-7tT3zX_ZhDAVHnon9X1vglJunnaA&_nc_zt=14&_nc_ht=scontent-det1-1.xx&_nc_gid=3iyb5cjIBNCYIb8gIgWdFg&_nc_ss=7b289&oh=00_AQKHUfD-vwltfTXQCyPjP3IBmW6j0pvMRE5SDnixo3xsgQ&oe=6AA4A783",
+            "diasAtivo": 31,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1565664071627867"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "O VERSO DA VIDA",
+          "paginaId": "409057849650143",
+          "instagram": null,
+          "oferta": {
+            "chave": "oversodavida.com/search",
+            "link": "https://oversodavida.com/search/?q=amo+tua+lei"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 35,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 123,
+            "diasAtivoMax": 123,
+            "curtidasPagina": 9499,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "estudo bíblico"
+          ],
+          "anuncioPrincipal": {
+            "id": "856411400221384",
+            "titulo": null,
+            "texto": "",
+            "cta": "Comprar agora",
+            "link": "https://oversodavida.com/search/?q=amo+tua+lei",
+            "tipoCriativo": "video",
+            "video": "https://video.faru4-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQPtQguYt7I0L6S4cNc5-F32EJPu1yEB2Fc5Knc0g5nkJj_cLPWDmYVXtWJAPhEOb51HS1gAIRf1Gxw2bOc_ipTuHiKbyHV0XNPeF0HT1uuqGw.mp4?_nc_cat=100&_nc_oc=AdqHm03wigqU22RcoZVA0tyek8GXP0NcEf_VwY_oqkMvRNoQtAJ9HBPWztLdfhI34hweXCrQvCn6BuGO6pXF0Knb&_nc_sid=b66105&_nc_ht=video.faru4-1.fna.fbcdn.net&_nc_ohc=oo8N6NxbZesQ7kNvwHzqt3e&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE0MzIyMTUxNTg0MDAwMjEsImFzc2V0X2FnZV9kYXlzIjoyMDUsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjo4OSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=7d71f69d1b056957&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC81NjQ2NkM0REQyRUY1Njg3N0JFNTkzMDAzNjk2N0U4Nl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzM4NEM3RUQxQkM2Mjc2QTc3NjM1MDM5M0Q5NDQ1NkIzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaqkJG88qWLBRUCKAJDMywXQFZgAAAAAAAYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=EtniVzkPq0c9B55oL4oBEw&_nc_ss=7b289&_nc_zt=28&oh=00_AQGCbsZFVZXAveL1OORDvFeJLBP3At4FvSm_K2m91NOhxA&oe=6A961ECC",
+            "imagem": "https://scontent.faru4-1.fna.fbcdn.net/v/t39.35426-6/704133461_953039537536783_8271158594821662657_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=tNaF-4YGCjYQ7kNvwFxXVMt&_nc_oc=AdpcFiZeUwxbiIgWXsTKO1pDNMTFt-KUCFQT0EQXxrnQcKQ92M1Tb2d-iE8YZ6yaLzC7SL3rH_n6w1CVT2yyjdn9&_nc_zt=14&_nc_ht=scontent.faru4-1.fna&_nc_gid=EtniVzkPq0c9B55oL4oBEw&_nc_ss=7b289&oh=00_AQF73J-KkIzHmPREO-k_e2k8hsW1aEBMj46c0MK4q1-PuA&oe=6A96080A",
+            "diasAtivo": 123,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=856411400221384"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Pastor Saulo Daniel",
+          "paginaId": "876874965509515",
+          "instagram": null,
+          "oferta": {
+            "chave": "saulodaniel.com.br/l3ifb-ig",
+            "link": "https://saulodaniel.com.br/l3ifb-ig"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 31,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 32,
+            "diasAtivoMax": 32,
+            "curtidasPagina": 98,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "estudo bíblico"
+          ],
+          "anuncioPrincipal": {
+            "id": "1086276317470290",
+            "titulo": "Aprenda a compreender por si mesmo",
+            "texto": "Pregações, comentários e Bíblias de estudo podem ajudar muito.\n\nMas existe uma diferença entre usar essas ferramentas como apoio e sentir que você depende delas toda vez que precisa compreender um texto bíblico.\n\nE se fosse possível desenvolver mais segurança para investigar as Escrituras e entender aquilo que o próprio texto comunica?\n\nÉ isso que Saulo Daniel vai ensinar na Jornada VOCÊ ENTENDEU A BÍBLIA DA FORMA ERRADA.\n\nUma experiência online e gratuita, em 3 aulas, para aprender um caminho de estudo bíblico com mais clareza, segurança e autonomia.\n\nClique em Saiba Mais e faça sua inscrição gratuita.",
+            "cta": "Saiba mais",
+            "link": "https://saulodaniel.com.br/l3ifb-ig",
+            "tipoCriativo": "video",
+            "video": "https://video.faru4-2.fna.fbcdn.net/o1/v/t2/f2/m366/AQP7Eu5o8p6xeLLW8IpJVpakY4fKMaoP7Gd2QOkQAHe3MXmC7YY-zgJE2jnGkOfd2c5vkdcpQnN1rU2V5whtLOvjwfQrUUj4s7be2fp8xoN0fQ.mp4?_nc_cat=111&_nc_oc=AdpDgBsspm4J0rPXzmIyYAHFJfSPHQYGMUPYRkvI7x4bqP_dcGxAR3W2AKqwzjiBUY8UZGVBdAf9kaPMmO5s5dnu&_nc_sid=b66105&_nc_ht=video.faru4-2.fna.fbcdn.net&_nc_ohc=sWf8Y7AK7m0Q7kNvwGUSzJ9&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE2NzQxMTg3MDM2NTk0OTQsImFzc2V0X2FnZV9kYXlzIjo3LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6OTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=de6d199524c92c7&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9CNzQwQjNGOEY2ODM3NTg4Mjc0OTQ5MUI5Qjk5NDZCQV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0FGNDYxOEQ1NkE5NTJDNkNFOEQxMTY0Mjk5N0I1Q0E4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbM56WqxKb5BRUCKAJDMywXQFcHbItDlYEYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=8nqArvs9aSlKDj9-X6fd_A&_nc_ss=7b289&_nc_zt=28&oh=00_AQGBcsgAzuPn-g14c9utZcGELZ7Fc_Y9xzzW4CLucJi5-w&oe=6A962589",
+            "imagem": "https://scontent.faru4-2.fna.fbcdn.net/v/t39.35426-6/779999145_1102359762454646_4341161885558973380_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=c59rVBBy1OgQ7kNvwEDnaV2&_nc_oc=AdoZXuRTk4XzuJlO5dEYuVkRmkyxAcQL3Hz49D99wfc-VSOnDqDzBf7UcpMjXpSYjyC-FDbNkh7U7oRMJy4FwjR7&_nc_zt=14&_nc_ht=scontent.faru4-2.fna&_nc_gid=8nqArvs9aSlKDj9-X6fd_A&_nc_ss=7b289&oh=00_AQFyG-qnLqxdYiD8FIPyXGxSv9XA5MZlLv0EbDCvTqlE_A&oe=6A962ED1",
+            "diasAtivo": 32,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1086276317470290"
+          },
+          "outrosTextos": []
+        },
+        {
+          "pagina": "Ivna Karla",
+          "paginaId": "102730651584925",
+          "instagram": null,
+          "oferta": {
+            "chave": "basesdateologia.com.br/bases-da-teologia-2",
+            "link": "https://basesdateologia.com.br/bases-da-teologia-2/"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "sinais": {
+            "anunciosNaPagina": 25,
+            "fonteContagem": "ad_hunter",
+            "criativosDaOferta": 1,
+            "criativosNoLote": 1,
+            "diasAtivoMediana": 38,
+            "diasAtivoMax": 38,
+            "curtidasPagina": 10124,
+            "seguidoresIg": null
+          },
+          "keywordsOndeApareceu": [
+            "leitura bíblica"
+          ],
+          "anuncioPrincipal": {
+            "id": "1622064106191825",
+            "titulo": null,
+            "texto": "Se você é cristã, frequenta a igreja, mas trava toda vez que abre a Bíblia sozinha, presta atenção:\nImagina abrir a Escritura de manhã e entender o que está lendo. Sem precisar de vídeo no YouTube te explicando. Sem depender da pregação de domingo. Sem aquela culpa de \"eu deveria saber isso com tanto tempo de igreja.\"\n\nIsso não é fantasia. É o que acontece quando você faz o que eu chamo de \"Ajuste Interpretativo\" — uma mudança simples na forma como você lê que ativa a capacidade do próprio texto bíblico de se autoexplicar. Só que a maioria dos cristãos nunca aprendeu a ler desse jeito.\n\nCentenas de alunas já passaram por esse método. Mulheres que tinham 10, 15, 20 anos de igreja e não conseguiam entender os livros da bíblia — hoje leem com clareza, ensinam com segurança e voltaram a sentir desejo de abrir a Palavra. Sem formação teológica, sem linguagem complicada, sem precisar de anos d",
+            "cta": "Saiba mais",
+            "link": "https://basesdateologia.com.br/bases-da-teologia-2/",
+            "tipoCriativo": "video",
+            "video": "https://video.faru4-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQMmzgTUC6Y2SD2CxiIeQmBczMVqviq64fJqNc1mASG9Ge5NV-WAg4QkueQGJ6-fa0T68PQ3ptBy9mnz_AM7t-QEtBKrnYcWkPLSydx_I87BWQ.mp4?_nc_cat=107&_nc_oc=AdoHHMt6z3YtRthWXwXL-XRAcga8c0NKPENSbDuJM5zMGdCpb_aJ8dNrzIAYpOH7Zh79bqdJKYkFWwWujLnwZDzg&_nc_sid=b66105&_nc_ht=video.faru4-1.fna.fbcdn.net&_nc_ohc=77ETkU8csx4Q7kNvwHFndTY&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEzMzQ0NjU0MTUzNDE0OTIsImFzc2V0X2FnZV9kYXlzIjoxMiwidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjk4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=5adec141cff35d4f&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC83NjQ0Qzk1RDFEMDQzNkJDNzIxMUQxQTRFMDNBNDFBMl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzBDNDE1RUI2QjkwNDYzNTVFOTkxNURBNkU3REY3RjlEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbolt-QjuzeBBUCKAJDMywXQFibtkWhysEYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=B63PzONtfDKXWrHuxWgoLg&_nc_ss=7b289&_nc_zt=28&oh=00_AQH-6hpLubN7a00tZXSrFDeIvSdkwZJBxys83GFsGXyohA&oe=6A963C91",
+            "imagem": "https://scontent.faru4-2.fna.fbcdn.net/v/t39.35426-6/768284837_2458910007919709_5303017886445471997_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ZQ0-kWZ7Va4Q7kNvwHLw5yW&_nc_oc=Ado0wWO8JyDdHQ76DiUV4K1ikIF-aetGsV1EzNh6zWvv3EVhXp9FwIMuiuhiZBIVpWEXG8lUKcMrIZwSZc_AjsPE&_nc_zt=14&_nc_ht=scontent.faru4-2.fna&_nc_gid=B63PzONtfDKXWrHuxWgoLg&_nc_ss=7b289&oh=00_AQEseZbTN1GecqNkc0Lkr8u-mRub8vqOelk1DkfMDY94Fw&oe=6A96396F",
+            "diasAtivo": 38,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1622064106191825"
+          },
+          "outrosTextos": []
         }
       ]
     }

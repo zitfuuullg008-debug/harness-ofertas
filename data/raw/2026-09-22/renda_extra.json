@@ -1,17 +1,2267 @@
 {
   "nicho": {
     "id": "renda_extra",
-    "nome": "Renda extra (geral)",
+    "nome": "Renda extra",
     "keywords": [
       {
-        "keyword": "aprenda a fazer renda extra",
-        "exato": false,
-        "pais": "BR"
+        "keyword": "fazer e vender"
+      },
+      {
+        "keyword": "renda extra vendendo"
+      },
+      {
+        "keyword": "aprenda a fazer renda extra"
+      },
+      {
+        "keyword": "aprenda a fazer dinheiro"
+      },
+      {
+        "keyword": "vivendo de renda extra"
+      },
+      {
+        "keyword": "Generar ingresos extra"
       }
     ]
   },
-  "coletadoEm": "2026-09-22T14:39:34.433Z",
-  "totalAnuncios": 0,
-  "totalOfertas": 0,
-  "ofertas": []
+  "fonte": "ad-hunter",
+  "categoriaAdHunter": "renda_extra",
+  "coletadoEm": "2026-09-22T16:38:37.987+00:00",
+  "idadeEmDias": 0,
+  "totalAnuncios": 19,
+  "totalOfertas": 19,
+  "ofertas": [
+    {
+      "chave": "site.marcelowedrop.com/aula-completa-v2-leads-f2",
+      "link": "https://site.marcelowedrop.com/aula-completa-v2-leads-f2/",
+      "pagina": {
+        "id": "598638986661794",
+        "name": "Venda Sem Estoque",
+        "likes": 4579,
+        "owner": "Venda Sem Estoque",
+        "pageUrl": "https://www.facebook.com/598638986661794",
+        "categories": [
+          "Entrepreneur"
+        ],
+        "profileUri": "https://www.facebook.com/61573563933657/",
+        "instagramUrl": null,
+        "coverPhotoUrl": null,
+        "totalAdsCount": 420,
+        "newestAdStartDate": "2026-09-02T07:00:00.000Z",
+        "oldestAdStartDate": "2026-09-02T07:00:00.000Z",
+        "profilePictureUrl": "https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/790256526_914912088356016_7119633129125914906_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=iuRD8bh4egcQ7kNvwE8a8FE&_nc_oc=AdrzD77hAgHhXnrG459HZ-rHMBTt8CVgLDdd9UQ4EJDJwNACLjLZ5T_J5oFCJ5FGJS4&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=XIEhhwCZ0jxrQlCZBQJBeg&_nc_ss=7b289&oh=00_AQJBeIUqj90ZdAPlALtImn00A6xM1eVS9JSwWLm5q6TUUw&oe=6AA411D3",
+        "selectedAdEndDate": "2026-09-03T07:00:00.000Z",
+        "instagramFollowers": null,
+        "observedAdsInBatch": 1,
+        "selectedAdStartDate": "2026-09-02T07:00:00.000Z",
+        "sameCreativeAdsInBatch": 1,
+        "hasCreativeDuplicatesInBatch": false,
+        "anunciosNaPagina": 420,
+        "fonteContagem": "ad_hunter"
+      },
+      "criativosNoLote": 1,
+      "criativosDaOferta": 1,
+      "diasAtivoMediana": 20,
+      "diasAtivoMax": 20,
+      "keywords": [
+        "vivendo de renda extra"
+      ],
+      "principal": {
+        "id": "28308924952107697",
+        "titulo": "📣 Aula liberada - VEJA ISSO, antes de sair do ar!",
+        "texto": null,
+        "cta": "Saiba mais",
+        "link": "https://site.marcelowedrop.com/aula-completa-v2-leads-f2/",
+        "criativos": [
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video-phl2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQPxLvlEWfoY12iuuFLdK4aJYfp__KpKhSgLo5SunOIcewQK7eMEn0Pc3gWl22nZwCjiwljEUDNVkEfUKU80ukffi2C_uvW48TmzX1HHegvZ7w.mp4?_nc_cat=103&_nc_sid=b66105&_nc_ht=video-phl2-1.xx.fbcdn.net&_nc_ohc=7OWU4rbp-bcQ7kNvwGQsL7B&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEzNzc1NDkyMDc2NTk2NTksImFzc2V0X2FnZV9kYXlzIjozMywidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjk4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=463ec1abce711b06&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9EQzRGM0E0OUNCMzZCQjEzMjlFQjlENzZBQzYwRTU4NF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0ExNEYxRjNCMEZCQUFCQjEzNENEODI1NTFEMzFDMzkzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaWkvey9bfyBBUCKAJDMywXQFiTMzMzMzMYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=XIEhhwCZ0jxrQlCZBQJBeg&_nc_ss=7b289&_nc_zt=28&oh=00_AQLTUM9cQv-7BQaN9zaaI6HR5Hfjz8bxFWAdONPFM2ih8w&oe=6AA41909",
+            "thumb": "https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/794096148_1599039991945323_5662637401576840742_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=8M5rotaPe5cQ7kNvwGQ2o_R&_nc_oc=AdrcM3KtM7AXOTcMnFpn7QkE66-A3mTrHtZIdQYGFplb3V1VOhlCG081gDCPd8xYJ2c&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=XIEhhwCZ0jxrQlCZBQJBeg&_nc_ss=7b289&oh=00_AQJwMGUILHTPtAn99ClA2yiD7L4orxL43Poab35rsUZF5g&oe=6AA40F74",
+            "link": "https://site.marcelowedrop.com/aula-completa-v2-leads-f2/"
+          }
+        ],
+        "diasAtivo": 20,
+        "urlBiblioteca": "https://www.facebook.com/ads/library/?id=28308924952107697"
+      },
+      "ads": [
+        {
+          "spend": null,
+          "title": "📣 Aula liberada - VEJA ISSO, antes de sair do ar!",
+          "caption": "site.marcelowedrop.com",
+          "ctaText": "Saiba mais",
+          "ctaType": "LEARN_MORE",
+          "endDate": "2026-09-03T07:00:00.000Z",
+          "linkUrl": "https://site.marcelowedrop.com/aula-completa-v2-leads-f2/",
+          "bodyText": null,
+          "currency": null,
+          "isActive": true,
+          "creatives": [
+            {
+              "body": null,
+              "type": "video",
+              "title": "📣 Aula liberada - VEJA ISSO, antes de sair do ar!",
+              "caption": "site.marcelowedrop.com",
+              "ctaText": "Saiba mais",
+              "ctaType": "LEARN_MORE",
+              "linkUrl": "https://site.marcelowedrop.com/aula-completa-v2-leads-f2/",
+              "imageUrl": null,
+              "videoUrl": "https://video-phl2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQPxLvlEWfoY12iuuFLdK4aJYfp__KpKhSgLo5SunOIcewQK7eMEn0Pc3gWl22nZwCjiwljEUDNVkEfUKU80ukffi2C_uvW48TmzX1HHegvZ7w.mp4?_nc_cat=103&_nc_sid=b66105&_nc_ht=video-phl2-1.xx.fbcdn.net&_nc_ohc=7OWU4rbp-bcQ7kNvwGQsL7B&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEzNzc1NDkyMDc2NTk2NTksImFzc2V0X2FnZV9kYXlzIjozMywidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjk4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=463ec1abce711b06&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9EQzRGM0E0OUNCMzZCQjEzMjlFQjlENzZBQzYwRTU4NF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0ExNEYxRjNCMEZCQUFCQjEzNENEODI1NTFEMzFDMzkzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaWkvey9bfyBBUCKAJDMywXQFiTMzMzMzMYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=XIEhhwCZ0jxrQlCZBQJBeg&_nc_ss=7b289&_nc_zt=28&oh=00_AQLTUM9cQv-7BQaN9zaaI6HR5Hfjz8bxFWAdONPFM2ih8w&oe=6AA41909",
+              "displayFormat": "VIDEO",
+              "videoPreviewImageUrl": "https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/794096148_1599039991945323_5662637401576840742_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=8M5rotaPe5cQ7kNvwGQ2o_R&_nc_oc=AdrcM3KtM7AXOTcMnFpn7QkE66-A3mTrHtZIdQYGFplb3V1VOhlCG081gDCPd8xYJ2c&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=XIEhhwCZ0jxrQlCZBQJBeg&_nc_ss=7b289&oh=00_AQJwMGUILHTPtAn99ClA2yiD7L4orxL43Poab35rsUZF5g&oe=6AA40F74"
+            }
+          ],
+          "languages": [],
+          "startDate": "2026-09-02T07:00:00.000Z",
+          "categories": [
+            "UNKNOWN"
+          ],
+          "entityType": null,
+          "adArchiveId": "28308924952107697",
+          "impressions": null,
+          "isProductAd": null,
+          "reportCount": null,
+          "adLibraryUrl": "https://www.facebook.com/ads/library/?id=28308924952107697",
+          "reachEstimate": null,
+          "brandedContent": null,
+          "complianceFlags": {
+            "hidden": null,
+            "isAAAEligible": false,
+            "politicalCountries": [],
+            "containsSensitiveContent": false
+          },
+          "linkDescription": null,
+          "totalActiveTime": null,
+          "targetedCountries": [],
+          "publisherPlatforms": [
+            "FACEBOOK",
+            "INSTAGRAM",
+            "AUDIENCE_NETWORK",
+            "MESSENGER"
+          ]
+        }
+      ]
+    },
+    {
+      "chave": "cursos.tradeando.net/descubre-como-operar-los-mercados/index.html",
+      "link": "https://cursos.tradeando.net/descubre-como-operar-los-mercados/index.html",
+      "pagina": {
+        "id": "101356552465002",
+        "name": "Tradeandonet",
+        "likes": 5738,
+        "owner": "Tradeandonet",
+        "pageUrl": "https://www.facebook.com/101356552465002",
+        "categories": [
+          "Centro educativo"
+        ],
+        "profileUri": "https://www.facebook.com/100078428757870/",
+        "instagramUrl": null,
+        "coverPhotoUrl": null,
+        "totalAdsCount": 350,
+        "newestAdStartDate": "2026-05-31T07:00:00.000Z",
+        "oldestAdStartDate": "2026-05-31T07:00:00.000Z",
+        "profilePictureUrl": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.35426-6/711631882_3111410589052316_3143944063779707232_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=oiAF92kVzLMQ7kNvwGBMXRf&_nc_oc=AdqinN2rbHHQWPW38SrxxokbbRWT584-H-sBUB4lS7LDNwASAHZmI3CJ5LmzqGS50y4&_nc_zt=14&_nc_ht=scontent-hou1-1.xx&_nc_gid=O60u7-PiAmMV518Bnzo_Ew&_nc_ss=7b289&oh=00_AQIVwmvU4A14CxG7Nr79lLzWwy0aUzJy9pWHS-r4ya0izQ&oe=6AA4243F",
+        "selectedAdEndDate": "2026-08-10T07:00:00.000Z",
+        "instagramFollowers": null,
+        "observedAdsInBatch": 1,
+        "selectedAdStartDate": "2026-05-31T07:00:00.000Z",
+        "sameCreativeAdsInBatch": 1,
+        "hasCreativeDuplicatesInBatch": false,
+        "anunciosNaPagina": 350,
+        "fonteContagem": "ad_hunter"
+      },
+      "criativosNoLote": 1,
+      "criativosDaOferta": 1,
+      "diasAtivoMediana": 114,
+      "diasAtivoMax": 114,
+      "keywords": [
+        "Generar ingresos extra"
+      ],
+      "principal": {
+        "id": "974228251902882",
+        "titulo": null,
+        "texto": null,
+        "cta": "Inscrever-se agora",
+        "link": "https://cursos.tradeando.net/descubre-como-operar-los-mercados/index.html",
+        "criativos": [
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video-hou1-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNGei4bbyNlAa4H7-CU6hiKqdmjA_kfV6h3ALsu1wlPmigPCDOXYj6npZ9aKtQzQUvUvbvyEDpBxw8K6EVqJoDSUOcZE6OdNf9CcWhrVQ.mp4?_nc_cat=111&_nc_sid=ef5aa3&_nc_ht=video-hou1-1.xx.fbcdn.net&_nc_ohc=od7GH7yv32YQ7kNvwHcyipw&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTY0MTQ3MDYxMDMwODgwMCwiYXNzZXRfYWdlX2RheXMiOjEzNywidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjEzNSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=O60u7-PiAmMV518Bnzo_Ew&_nc_ss=7b289&_nc_zt=28&oh=00_AQKFitN9nQAuokFY9dcRbXVxNL-Kzgbs8ewfKM7mC64BKg&oe=6AA419BF",
+            "thumb": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.35426-6/710193146_1437213771504499_7351832805609355543_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=bmxtI1TzWdkQ7kNvwHbSK8q&_nc_oc=AdpJYFqh7f4cQubOhd4icbhR0He2WfJB42rlmROl0jJ-2N7IJUTZoDMds7uwcmglncI&_nc_zt=14&_nc_ht=scontent-hou1-1.xx&_nc_gid=O60u7-PiAmMV518Bnzo_Ew&_nc_ss=7b289&oh=00_AQKwRIna3kFw4KfQAzfrvUCm9yWPDj9TTCLug51byQYT5A&oe=6AA41096",
+            "link": "https://cursos.tradeando.net/descubre-como-operar-los-mercados/index.html"
+          },
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video-hou1-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNQVz_5hAATzHqCb6tk2lV7GDAwnA5_rfVnroWAP8KKDwyYo0wG7DE_y_reBOrn8ord5RGe2OvCHP7r7TWG7LuR58zRxyRhzwlwpMLsXA.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-hou1-1.xx.fbcdn.net&_nc_ohc=2xcuHiGewQMQ7kNvwHbE5oc&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjE2ODczODg2Mzg4NzkzMCwiYXNzZXRfYWdlX2RheXMiOjEzNywidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjEzNSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=O60u7-PiAmMV518Bnzo_Ew&_nc_ss=7b289&_nc_zt=28&oh=00_AQIlsbPMZJBPg5EQBv125GhlZJ6IDcGGywUG1YDPxLZKOg&oe=6AA43918",
+            "thumb": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.35426-6/710573953_992379260048800_5269489372327540405_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=sHwV4h115s0Q7kNvwG9Of7S&_nc_oc=AdrMMMQkpcW_vmNMlOsrjBldAe8jkjLCgrjSTu_1L6hTFqF6unhO6Gbcroy_DcXvQhc&_nc_zt=14&_nc_ht=scontent-hou1-1.xx&_nc_gid=O60u7-PiAmMV518Bnzo_Ew&_nc_ss=7b289&oh=00_AQISNaevEbVaIl8gl1xxX0OrqgFfYVlUyd97JVaMUbpeNw&oe=6AA414A1",
+            "link": "https://cursos.tradeando.net/descubre-como-operar-los-mercados/index.html"
+          }
+        ],
+        "diasAtivo": 114,
+        "urlBiblioteca": "https://www.facebook.com/ads/library/?id=974228251902882"
+      },
+      "ads": [
+        {
+          "spend": null,
+          "title": null,
+          "caption": "cursos.tradeando.net",
+          "ctaText": "Inscrever-se agora",
+          "ctaType": "APPLY_NOW",
+          "endDate": "2026-08-10T07:00:00.000Z",
+          "linkUrl": "https://cursos.tradeando.net/descubre-como-operar-los-mercados/index.html",
+          "bodyText": null,
+          "currency": null,
+          "isActive": true,
+          "creatives": [
+            {
+              "body": "Si te conformas con tus ingresos actuales, pasa este vídeo, si eres de los que NO se conforman y quieren mas, haz clic abajo, nos vemos dentro 😉",
+              "type": "video",
+              "title": "Toma acción AHORA",
+              "caption": null,
+              "ctaText": "Apply Now",
+              "ctaType": "APPLY_NOW",
+              "linkUrl": "https://cursos.tradeando.net/descubre-como-operar-los-mercados/index.html",
+              "imageUrl": null,
+              "videoUrl": "https://video-hou1-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNGei4bbyNlAa4H7-CU6hiKqdmjA_kfV6h3ALsu1wlPmigPCDOXYj6npZ9aKtQzQUvUvbvyEDpBxw8K6EVqJoDSUOcZE6OdNf9CcWhrVQ.mp4?_nc_cat=111&_nc_sid=ef5aa3&_nc_ht=video-hou1-1.xx.fbcdn.net&_nc_ohc=od7GH7yv32YQ7kNvwHcyipw&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTY0MTQ3MDYxMDMwODgwMCwiYXNzZXRfYWdlX2RheXMiOjEzNywidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjEzNSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=O60u7-PiAmMV518Bnzo_Ew&_nc_ss=7b289&_nc_zt=28&oh=00_AQKFitN9nQAuokFY9dcRbXVxNL-Kzgbs8ewfKM7mC64BKg&oe=6AA419BF",
+              "displayFormat": null,
+              "videoPreviewImageUrl": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.35426-6/710193146_1437213771504499_7351832805609355543_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=bmxtI1TzWdkQ7kNvwHbSK8q&_nc_oc=AdpJYFqh7f4cQubOhd4icbhR0He2WfJB42rlmROl0jJ-2N7IJUTZoDMds7uwcmglncI&_nc_zt=14&_nc_ht=scontent-hou1-1.xx&_nc_gid=O60u7-PiAmMV518Bnzo_Ew&_nc_ss=7b289&oh=00_AQKwRIna3kFw4KfQAzfrvUCm9yWPDj9TTCLug51byQYT5A&oe=6AA41096"
+            },
+            {
+              "body": "Si te conformas con tus ingresos actuales, pasa este vídeo, si eres de los que NO se conforman y quieren mas, haz clic abajo, nos vemos dentro 😉",
+              "type": "video",
+              "title": "Toma acción AHORA",
+              "caption": null,
+              "ctaText": "Apply Now",
+              "ctaType": "APPLY_NOW",
+              "linkUrl": "https://cursos.tradeando.net/descubre-como-operar-los-mercados/index.html",
+              "imageUrl": null,
+              "videoUrl": "https://video-hou1-1.xx.fbcdn.net/o1/v/t2/f2/m412/AQNQVz_5hAATzHqCb6tk2lV7GDAwnA5_rfVnroWAP8KKDwyYo0wG7DE_y_reBOrn8ord5RGe2OvCHP7r7TWG7LuR58zRxyRhzwlwpMLsXA.mp4?_nc_cat=106&_nc_sid=ef5aa3&_nc_ht=video-hou1-1.xx.fbcdn.net&_nc_ohc=2xcuHiGewQMQ7kNvwHbE5oc&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MjE2ODczODg2Mzg4NzkzMCwiYXNzZXRfYWdlX2RheXMiOjEzNywidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjEzNSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=O60u7-PiAmMV518Bnzo_Ew&_nc_ss=7b289&_nc_zt=28&oh=00_AQIlsbPMZJBPg5EQBv125GhlZJ6IDcGGywUG1YDPxLZKOg&oe=6AA43918",
+              "displayFormat": null,
+              "videoPreviewImageUrl": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.35426-6/710573953_992379260048800_5269489372327540405_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=sHwV4h115s0Q7kNvwG9Of7S&_nc_oc=AdrMMMQkpcW_vmNMlOsrjBldAe8jkjLCgrjSTu_1L6hTFqF6unhO6Gbcroy_DcXvQhc&_nc_zt=14&_nc_ht=scontent-hou1-1.xx&_nc_gid=O60u7-PiAmMV518Bnzo_Ew&_nc_ss=7b289&oh=00_AQISNaevEbVaIl8gl1xxX0OrqgFfYVlUyd97JVaMUbpeNw&oe=6AA414A1"
+            }
+          ],
+          "languages": [],
+          "startDate": "2026-05-31T07:00:00.000Z",
+          "categories": [
+            "UNKNOWN"
+          ],
+          "entityType": null,
+          "adArchiveId": "974228251902882",
+          "impressions": null,
+          "isProductAd": null,
+          "reportCount": null,
+          "adLibraryUrl": "https://www.facebook.com/ads/library/?id=974228251902882",
+          "reachEstimate": null,
+          "brandedContent": null,
+          "complianceFlags": {
+            "hidden": null,
+            "isAAAEligible": true,
+            "politicalCountries": [],
+            "containsSensitiveContent": false
+          },
+          "linkDescription": null,
+          "totalActiveTime": null,
+          "targetedCountries": [],
+          "publisherPlatforms": [
+            "FACEBOOK",
+            "INSTAGRAM",
+            "AUDIENCE_NETWORK",
+            "MESSENGER",
+            "THREADS"
+          ]
+        }
+      ]
+    },
+    {
+      "chave": "materiais.maximustecidos.com.br/curso-online-costura-para-iniciantes-viviane-alves",
+      "link": "https://materiais.maximustecidos.com.br/curso-online-costura-para-iniciantes-viviane-alves",
+      "pagina": {
+        "id": "271318819636880",
+        "name": "Maximus Tecidos Finos",
+        "likes": 242118,
+        "owner": "Maximus Tecidos Finos",
+        "pageUrl": "https://www.facebook.com/271318819636880",
+        "categories": [
+          "Tecidos"
+        ],
+        "profileUri": "https://www.facebook.com/maximustecidosfinos/",
+        "instagramUrl": null,
+        "coverPhotoUrl": null,
+        "totalAdsCount": 280,
+        "newestAdStartDate": "2026-07-08T07:00:00.000Z",
+        "oldestAdStartDate": "2026-07-08T07:00:00.000Z",
+        "profilePictureUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/654697923_1322677206363749_3894191504094534834_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=N7Vq5030U28Q7kNvwHC4IWM&_nc_oc=AdraiH5rtfNFd2SYFeLq_NTCNCBZ36QMg8qc2EIR9rKrJUEuFxsAi10FsEo6k9SWnGY&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=MZVaAubnsEaM0niZ7kBxvA&_nc_ss=7b289&oh=00_AQJNsjS0aDA2lEJMXFh51fRKU8DSuQ-Q_xy6zXzpLT8PzA&oe=6AA42E28",
+        "selectedAdEndDate": "2026-09-06T07:00:00.000Z",
+        "instagramFollowers": null,
+        "observedAdsInBatch": 1,
+        "selectedAdStartDate": "2026-07-08T07:00:00.000Z",
+        "sameCreativeAdsInBatch": 1,
+        "hasCreativeDuplicatesInBatch": false,
+        "anunciosNaPagina": 280,
+        "fonteContagem": "ad_hunter"
+      },
+      "criativosNoLote": 1,
+      "criativosDaOferta": 1,
+      "diasAtivoMediana": 76,
+      "diasAtivoMax": 76,
+      "keywords": [
+        "aprenda a fazer renda extra"
+      ],
+      "principal": {
+        "id": "1344079877178359",
+        "titulo": "Curso de Costura para Iniciantes",
+        "texto": "Aprenda a Costurar do Zero com Segurança e Crie Peças Incríveis para Você, sua Família ou para Vender e Garantir uma Renda Extra com a Costura. Matrículas Abertas Curso de Costura para Iniciantes com Viviane Alves. Saiba Mais Aqui: 👉 https://materiais.maximustecidos.com.br/curso-online-costura-para-iniciantes-viviane-alves",
+        "cta": "Saiba mais",
+        "link": "https://materiais.maximustecidos.com.br/curso-online-costura-para-iniciantes-viviane-alves",
+        "criativos": [
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQO18eY3ru4B0TAKlUkQqEbbqeDYCQUmxt2fAk0F2o92X2PiVWcBokUrY_ijgkWK695mCOi5dnB_H78x9IvbbSNRV2ev32HG5J_9TFjjECxn8g.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=r5ps4q6jGU8Q7kNvwHtOuL0&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjc2Njc2MDQ1MjY3MDI4OCwiYXNzZXRfYWdlX2RheXMiOjM4OCwidmlfdXNlY2FzZV9pZCI6MTIzNzMsImR1cmF0aW9uX3MiOjQ2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=21cd682303b98d3e&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8xRjRCNzE0MDJBREMxOERDNkNCMTYzMDQ2MjQ0OEM4M19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzNCNDlGNjQzOEU5N0I5MDgyODEyNTEzODBENTczRjlFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACagjcbGqtfcAhUCKAJDMywXQEdIcrAgxJwYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZarBAQA&_nc_gid=MZVaAubnsEaM0niZ7kBxvA&_nc_ss=7b289&_nc_zt=28&oh=00_AQIQ1jTl4ffYyrkjoWBMNEoc6uhbWZO5YtC8jN-6jxYbag&oe=6AA41F0B",
+            "thumb": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/654695666_880780931615027_8895194450429500594_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SKcrhKA_AskQ7kNvwGRvEtP&_nc_oc=AdoO0gjbT1CjzJr6vTr75sK4AU7YhmhZpoDIRghSfv1B6rOwx591_uWrhUO6iY88H3s&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=MZVaAubnsEaM0niZ7kBxvA&_nc_ss=7b289&oh=00_AQKF9mR7tI86hHplPgMd8deLYYI10ygsJkEV0VEOrBLhxw&oe=6AA42F5B",
+            "link": "https://materiais.maximustecidos.com.br/curso-online-costura-para-iniciantes-viviane-alves"
+          }
+        ],
+        "diasAtivo": 76,
+        "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1344079877178359"
+      },
+      "ads": [
+        {
+          "spend": null,
+          "title": "Curso de Costura para Iniciantes",
+          "caption": "materiais.maximustecidos.com.br",
+          "ctaText": "Saiba mais",
+          "ctaType": "LEARN_MORE",
+          "endDate": "2026-09-06T07:00:00.000Z",
+          "linkUrl": "https://materiais.maximustecidos.com.br/curso-online-costura-para-iniciantes-viviane-alves",
+          "bodyText": "Aprenda a Costurar do Zero com Segurança e Crie Peças Incríveis para Você, sua Família ou para Vender e Garantir uma Renda Extra com a Costura. Matrículas Abertas Curso de Costura para Iniciantes com Viviane Alves. Saiba Mais Aqui: 👉 https://materiais.maximustecidos.com.br/curso-online-costura-para-iniciantes-viviane-alves",
+          "currency": null,
+          "isActive": true,
+          "creatives": [
+            {
+              "body": "Aprenda a Costurar do Zero com Segurança e Crie Peças Incríveis para Você, sua Família ou para Vender e Garantir uma Renda Extra com a Costura. Matrículas Abertas Curso de Costura para Iniciantes com Viviane Alves. Saiba Mais Aqui: 👉 https://materiais.maximustecidos.com.br/curso-online-costura-para-iniciantes-viviane-alves",
+              "type": "video",
+              "title": "Curso de Costura para Iniciantes",
+              "caption": "materiais.maximustecidos.com.br",
+              "ctaText": "Saiba mais",
+              "ctaType": "LEARN_MORE",
+              "linkUrl": "https://materiais.maximustecidos.com.br/curso-online-costura-para-iniciantes-viviane-alves",
+              "imageUrl": null,
+              "videoUrl": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQO18eY3ru4B0TAKlUkQqEbbqeDYCQUmxt2fAk0F2o92X2PiVWcBokUrY_ijgkWK695mCOi5dnB_H78x9IvbbSNRV2ev32HG5J_9TFjjECxn8g.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=r5ps4q6jGU8Q7kNvwHtOuL0&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjc2Njc2MDQ1MjY3MDI4OCwiYXNzZXRfYWdlX2RheXMiOjM4OCwidmlfdXNlY2FzZV9pZCI6MTIzNzMsImR1cmF0aW9uX3MiOjQ2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=21cd682303b98d3e&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8xRjRCNzE0MDJBREMxOERDNkNCMTYzMDQ2MjQ0OEM4M19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzNCNDlGNjQzOEU5N0I5MDgyODEyNTEzODBENTczRjlFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACagjcbGqtfcAhUCKAJDMywXQEdIcrAgxJwYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZarBAQA&_nc_gid=MZVaAubnsEaM0niZ7kBxvA&_nc_ss=7b289&_nc_zt=28&oh=00_AQIQ1jTl4ffYyrkjoWBMNEoc6uhbWZO5YtC8jN-6jxYbag&oe=6AA41F0B",
+              "displayFormat": "VIDEO",
+              "videoPreviewImageUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/654695666_880780931615027_8895194450429500594_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SKcrhKA_AskQ7kNvwGRvEtP&_nc_oc=AdoO0gjbT1CjzJr6vTr75sK4AU7YhmhZpoDIRghSfv1B6rOwx591_uWrhUO6iY88H3s&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=MZVaAubnsEaM0niZ7kBxvA&_nc_ss=7b289&oh=00_AQKF9mR7tI86hHplPgMd8deLYYI10ygsJkEV0VEOrBLhxw&oe=6AA42F5B"
+            }
+          ],
+          "languages": [],
+          "startDate": "2026-07-08T07:00:00.000Z",
+          "categories": [
+            "UNKNOWN"
+          ],
+          "entityType": null,
+          "adArchiveId": "1344079877178359",
+          "impressions": null,
+          "isProductAd": null,
+          "reportCount": null,
+          "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1344079877178359",
+          "reachEstimate": null,
+          "brandedContent": null,
+          "complianceFlags": {
+            "hidden": null,
+            "isAAAEligible": true,
+            "politicalCountries": [],
+            "containsSensitiveContent": false
+          },
+          "linkDescription": null,
+          "totalActiveTime": null,
+          "targetedCountries": [],
+          "publisherPlatforms": [
+            "FACEBOOK",
+            "INSTAGRAM",
+            "MESSENGER",
+            "THREADS"
+          ]
+        }
+      ]
+    },
+    {
+      "chave": "lucianofernandesif.com.br/vdr-0",
+      "link": "https://www.lucianofernandesif.com.br/vdr-0?utm_source=instagram&utm_medium=feedst&utm_campaign=gif-wbp01-vend-ig-feedst-advantage-x-frio-ad05",
+      "pagina": {
+        "id": "1155889627877624",
+        "name": "Luciano Fernandes",
+        "likes": 91012,
+        "owner": "Luciano Fernandes",
+        "pageUrl": "https://www.facebook.com/1155889627877624",
+        "categories": [
+          "Figura pública"
+        ],
+        "profileUri": "https://www.facebook.com/lucianofernandesif/",
+        "instagramUrl": null,
+        "coverPhotoUrl": null,
+        "totalAdsCount": 270,
+        "newestAdStartDate": "2026-08-22T07:00:00.000Z",
+        "oldestAdStartDate": "2026-08-21T07:00:00.000Z",
+        "profilePictureUrl": "https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/726517458_1654827105824124_3670657159237633573_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=DmulUH9fMlwQ7kNvwEluY7_&_nc_oc=AdpufUijj_AhrkktFbCDLmL6oawjp0HbbkdSnJJhiuaSgyXJh7hcpxdm_YYkBfqhKqE&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=0be__L_QipsJH0Ws4Jl4Pg&_nc_ss=7b289&oh=00_AQKYNgikem6_Myr9u1JQxQJIS4QmGBvw_o7HLrUOcbuvJQ&oe=6AA41FA2",
+        "selectedAdEndDate": "2026-09-06T07:00:00.000Z",
+        "instagramFollowers": null,
+        "observedAdsInBatch": 2,
+        "selectedAdStartDate": "2026-08-22T07:00:00.000Z",
+        "sameCreativeAdsInBatch": 1,
+        "hasCreativeDuplicatesInBatch": false,
+        "anunciosNaPagina": 270,
+        "fonteContagem": "ad_hunter"
+      },
+      "criativosNoLote": 1,
+      "criativosDaOferta": 1,
+      "diasAtivoMediana": 31,
+      "diasAtivoMax": 31,
+      "keywords": [
+        "vivendo de renda extra"
+      ],
+      "principal": {
+        "id": "1358912079661073",
+        "titulo": "WEBINÁRIO - VIVER DE RENDA PASSIVA",
+        "texto": "WEBINÁRIO - VIVER DE RENDA PASSIVA\n\nA maioria das pessoas investe há anos e ainda não sabe se sua carteira está gerando renda de verdade.\n\nEm 1 encontro online você vai aprender como estruturar uma carteira de investimentos focada em geração de renda mensal — com método, organização e clareza.\n\nSem promessas. Sem fórmulas mágicas. Só o que realmente funciona.\n\nAcesse e adquira sua vaga!",
+        "cta": "Saiba mais",
+        "link": "https://www.lucianofernandesif.com.br/vdr-0?utm_source=instagram&utm_medium=feedst&utm_campaign=gif-wbp01-vend-ig-feedst-advantage-x-frio-ad05",
+        "criativos": [
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video-phl2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQPCD5uglyny5nJbDEv7FUujlXE3t1c4N157lxA4QO83WtrH9sAwtzdIUYJxOu7AyiF672ArNF0NlJ8vxgTG74UmHTIOiKhsj4eSXpP1h5BTnw.mp4?_nc_cat=111&_nc_sid=b66105&_nc_ht=video-phl2-1.xx.fbcdn.net&_nc_ohc=m-QvyEVsJ3EQ7kNvwFapBQX&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjIzNDQxMDA5ODYxMTI0OTMsImFzc2V0X2FnZV9kYXlzIjoxMTQsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjoxNjQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=80ce2778942439c2&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9GMDQ0RDUyMEVBNTkwNzRFOENDQ0I2MTExNkU1NzU5Rl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzVDNENDMTIyNzYxODAzOUYzNEM3NjMyNjZBQTZCQ0JDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbap8Kp0fypCBUCKAJDMywXQGSO6XjU_fQYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=0be__L_QipsJH0Ws4Jl4Pg&_nc_ss=7b289&_nc_zt=28&oh=00_AQJ11Kq8iXsymUS6rkArzW9Hu9o8JQCrlI8tY8yA3tajaA&oe=6AA43DED",
+            "thumb": "https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/726494265_973072799036922_7298685405853912382_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=C_beJuO0Pl8Q7kNvwE64xe_&_nc_oc=AdrzP-tcim5FYpFe9rJGyGPTTSDivY9wUWVCY16-8-vY7VgJLf0ar16_VSgxYvxSYmQ&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=0be__L_QipsJH0Ws4Jl4Pg&_nc_ss=7b289&oh=00_AQLYOBYfbXXLV38bWxL6xotreW_aUw1FS0HllaG2kazf6g&oe=6AA43CEE",
+            "link": "https://www.lucianofernandesif.com.br/vdr-0?utm_source=instagram&utm_medium=feedst&utm_campaign=gif-wbp01-vend-ig-feedst-advantage-x-frio-ad05"
+          }
+        ],
+        "diasAtivo": 31,
+        "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1358912079661073"
+      },
+      "ads": [
+        {
+          "spend": null,
+          "title": "WEBINÁRIO - VIVER DE RENDA PASSIVA",
+          "caption": "www.lucianofernandesif.com.br",
+          "ctaText": "Saiba mais",
+          "ctaType": "LEARN_MORE",
+          "endDate": "2026-09-06T07:00:00.000Z",
+          "linkUrl": "https://www.lucianofernandesif.com.br/vdr-0?utm_source=instagram&utm_medium=feedst&utm_campaign=gif-wbp01-vend-ig-feedst-advantage-x-frio-ad05",
+          "bodyText": "WEBINÁRIO - VIVER DE RENDA PASSIVA\n\nA maioria das pessoas investe há anos e ainda não sabe se sua carteira está gerando renda de verdade.\n\nEm 1 encontro online você vai aprender como estruturar uma carteira de investimentos focada em geração de renda mensal — com método, organização e clareza.\n\nSem promessas. Sem fórmulas mágicas. Só o que realmente funciona.\n\nAcesse e adquira sua vaga!",
+          "currency": null,
+          "isActive": true,
+          "creatives": [
+            {
+              "body": "WEBINÁRIO - VIVER DE RENDA PASSIVA\n\nA maioria das pessoas investe há anos e ainda não sabe se sua carteira está gerando renda de verdade.\n\nEm 1 encontro online você vai aprender como estruturar uma carteira de investimentos focada em geração de renda mensal — com método, organização e clareza.\n\nSem promessas. Sem fórmulas mágicas. Só o que realmente funciona.\n\nAcesse e adquira sua vaga!",
+              "type": "video",
+              "title": "WEBINÁRIO - VIVER DE RENDA PASSIVA",
+              "caption": "www.lucianofernandesif.com.br",
+              "ctaText": "Saiba mais",
+              "ctaType": "LEARN_MORE",
+              "linkUrl": "https://www.lucianofernandesif.com.br/vdr-0?utm_source=instagram&utm_medium=feedst&utm_campaign=gif-wbp01-vend-ig-feedst-advantage-x-frio-ad05",
+              "imageUrl": null,
+              "videoUrl": "https://video-phl2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQPCD5uglyny5nJbDEv7FUujlXE3t1c4N157lxA4QO83WtrH9sAwtzdIUYJxOu7AyiF672ArNF0NlJ8vxgTG74UmHTIOiKhsj4eSXpP1h5BTnw.mp4?_nc_cat=111&_nc_sid=b66105&_nc_ht=video-phl2-1.xx.fbcdn.net&_nc_ohc=m-QvyEVsJ3EQ7kNvwFapBQX&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjIzNDQxMDA5ODYxMTI0OTMsImFzc2V0X2FnZV9kYXlzIjoxMTQsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjoxNjQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=80ce2778942439c2&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9GMDQ0RDUyMEVBNTkwNzRFOENDQ0I2MTExNkU1NzU5Rl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzVDNENDMTIyNzYxODAzOUYzNEM3NjMyNjZBQTZCQ0JDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbap8Kp0fypCBUCKAJDMywXQGSO6XjU_fQYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=0be__L_QipsJH0Ws4Jl4Pg&_nc_ss=7b289&_nc_zt=28&oh=00_AQJ11Kq8iXsymUS6rkArzW9Hu9o8JQCrlI8tY8yA3tajaA&oe=6AA43DED",
+              "displayFormat": "VIDEO",
+              "videoPreviewImageUrl": "https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/726494265_973072799036922_7298685405853912382_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=C_beJuO0Pl8Q7kNvwE64xe_&_nc_oc=AdrzP-tcim5FYpFe9rJGyGPTTSDivY9wUWVCY16-8-vY7VgJLf0ar16_VSgxYvxSYmQ&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=0be__L_QipsJH0Ws4Jl4Pg&_nc_ss=7b289&oh=00_AQLYOBYfbXXLV38bWxL6xotreW_aUw1FS0HllaG2kazf6g&oe=6AA43CEE"
+            }
+          ],
+          "languages": [],
+          "startDate": "2026-08-22T07:00:00.000Z",
+          "categories": [
+            "UNKNOWN"
+          ],
+          "entityType": null,
+          "adArchiveId": "1358912079661073",
+          "impressions": null,
+          "isProductAd": null,
+          "reportCount": null,
+          "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1358912079661073",
+          "reachEstimate": null,
+          "brandedContent": null,
+          "complianceFlags": {
+            "hidden": null,
+            "isAAAEligible": false,
+            "politicalCountries": [],
+            "containsSensitiveContent": false
+          },
+          "linkDescription": null,
+          "totalActiveTime": null,
+          "targetedCountries": [],
+          "publisherPlatforms": [
+            "FACEBOOK",
+            "INSTAGRAM",
+            "AUDIENCE_NETWORK",
+            "MESSENGER",
+            "THREADS"
+          ]
+        }
+      ]
+    },
+    {
+      "chave": "clase.ecomgrowthpartners.com/masterclass/registro",
+      "link": "https://clase.ecomgrowthpartners.com/masterclass/registro",
+      "pagina": {
+        "id": "101245949696887",
+        "name": "Jaime Higuera España",
+        "likes": 629981,
+        "owner": "Jaime Higuera España",
+        "pageUrl": "https://www.facebook.com/101245949696887",
+        "categories": [
+          "Education"
+        ],
+        "profileUri": "https://www.facebook.com/100094001900545/",
+        "instagramUrl": null,
+        "coverPhotoUrl": null,
+        "totalAdsCount": 260,
+        "newestAdStartDate": "2026-08-11T07:00:00.000Z",
+        "oldestAdStartDate": "2026-08-11T07:00:00.000Z",
+        "profilePictureUrl": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.35426-6/753164397_1954605011925239_1344560329801302765_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=GhJrVT97Z3cQ7kNvwFoUnEl&_nc_oc=Adq3LzgfDD3d6E5Uhmvgk1pSt0vbV0Me9WNMS1Ngn27WuzoxPA6-veUT8o7uF2QDbjA&_nc_zt=14&_nc_ht=scontent-hou1-1.xx&_nc_gid=N-vpflIErF_gHoClc0SiwQ&_nc_ss=7b289&oh=00_AQI4Xe-aKa3CVZNlLulWQFouQUP2cgNgsIme8HLHSd1fLw&oe=6AA430AF",
+        "selectedAdEndDate": "2026-09-06T07:00:00.000Z",
+        "instagramFollowers": null,
+        "observedAdsInBatch": 1,
+        "selectedAdStartDate": "2026-08-11T07:00:00.000Z",
+        "sameCreativeAdsInBatch": 1,
+        "hasCreativeDuplicatesInBatch": false,
+        "anunciosNaPagina": 260,
+        "fonteContagem": "ad_hunter"
+      },
+      "criativosNoLote": 1,
+      "criativosDaOferta": 1,
+      "diasAtivoMediana": 42,
+      "diasAtivoMax": 42,
+      "keywords": [
+        "Generar ingresos extra"
+      ],
+      "principal": {
+        "id": "27825859943701130",
+        "titulo": "Tus 2-3 horas libres valen 1.000-3.000€",
+        "texto": "¿Tienes 2-3 horas libres al día?\nCasi todos las gastan en TikTok.\nSon suficientes para generar 1.000-3.000€ extra al mes.",
+        "cta": "Assistir mais",
+        "link": "https://clase.ecomgrowthpartners.com/masterclass/registro",
+        "criativos": [
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video-hou1-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQPXYyHHXT997lzz0GZFbU9HHiO_UnmPnQAYxLWKg3lsNZmpoSMIH4PIDvig0E67vJs6x567DZ_gAryqWyU0htFneK-tFRxnVWT71l23uiyjqw.mp4?_nc_cat=107&_nc_sid=b66105&_nc_ht=video-hou1-1.xx.fbcdn.net&_nc_ohc=GWKIaRxaOIsQ7kNvwECM6MV&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMTI4MC5kYXNoX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNzI2ODI0NTMxNzE3OTY5LCJhc3NldF9hZ2VfZGF5cyI6ODQsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjoxOTcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=bd30583ce569600e&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9CMjQzNDQ0MjcyMDNGMUI1N0RCRjBDRjAxRDYwODQ5RV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0RFNERBQUIxQTk5NjY3OUE0RjNFMzIxNzFBRDU2OUJFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaiveustaKRBhUCKAJDMywXQGiiHKwIMScYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=N-vpflIErF_gHoClc0SiwQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQIgvaNVYZeWEThh-gV5mkoFqWS57DyxQjc856zfjyHbhg&oe=6AA437BD",
+            "thumb": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.35426-6/753018762_1271715634885019_8736912621751660606_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Q0zKa435fm4Q7kNvwFknIdi&_nc_oc=AdrSKilPvfJIiCfMjc0d7rK2VQoI5Y7zMLFPlNq2y1d7eM1tDeIoi1JfkbZVsDvBCRE&_nc_zt=14&_nc_ht=scontent-hou1-1.xx&_nc_gid=N-vpflIErF_gHoClc0SiwQ&_nc_ss=7b289&oh=00_AQIwBk4Yb6Y3bp6j_OKx0HhAKox2v_o0k4cCIP2Vls6CUw&oe=6AA415BB",
+            "link": "https://clase.ecomgrowthpartners.com/masterclass/registro"
+          }
+        ],
+        "diasAtivo": 42,
+        "urlBiblioteca": "https://www.facebook.com/ads/library/?id=27825859943701130"
+      },
+      "ads": [
+        {
+          "spend": null,
+          "title": "Tus 2-3 horas libres valen 1.000-3.000€",
+          "caption": "clase.ecomgrowthpartners.com",
+          "ctaText": "Assistir mais",
+          "ctaType": "WATCH_MORE",
+          "endDate": "2026-09-06T07:00:00.000Z",
+          "linkUrl": "https://clase.ecomgrowthpartners.com/masterclass/registro",
+          "bodyText": "¿Tienes 2-3 horas libres al día?\nCasi todos las gastan en TikTok.\nSon suficientes para generar 1.000-3.000€ extra al mes.",
+          "currency": null,
+          "isActive": false,
+          "creatives": [
+            {
+              "body": "¿Tienes 2-3 horas libres al día?\nCasi todos las gastan en TikTok.\nSon suficientes para generar 1.000-3.000€ extra al mes.",
+              "type": "video",
+              "title": "Tus 2-3 horas libres valen 1.000-3.000€",
+              "caption": "clase.ecomgrowthpartners.com",
+              "ctaText": "Assistir mais",
+              "ctaType": "WATCH_MORE",
+              "linkUrl": "https://clase.ecomgrowthpartners.com/masterclass/registro",
+              "imageUrl": null,
+              "videoUrl": "https://video-hou1-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQPXYyHHXT997lzz0GZFbU9HHiO_UnmPnQAYxLWKg3lsNZmpoSMIH4PIDvig0E67vJs6x567DZ_gAryqWyU0htFneK-tFRxnVWT71l23uiyjqw.mp4?_nc_cat=107&_nc_sid=b66105&_nc_ht=video-hou1-1.xx.fbcdn.net&_nc_ohc=GWKIaRxaOIsQ7kNvwECM6MV&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMTI4MC5kYXNoX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNzI2ODI0NTMxNzE3OTY5LCJhc3NldF9hZ2VfZGF5cyI6ODQsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjoxOTcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=bd30583ce569600e&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9CMjQzNDQ0MjcyMDNGMUI1N0RCRjBDRjAxRDYwODQ5RV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0RFNERBQUIxQTk5NjY3OUE0RjNFMzIxNzFBRDU2OUJFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaiveustaKRBhUCKAJDMywXQGiiHKwIMScYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=N-vpflIErF_gHoClc0SiwQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQIgvaNVYZeWEThh-gV5mkoFqWS57DyxQjc856zfjyHbhg&oe=6AA437BD",
+              "displayFormat": "VIDEO",
+              "videoPreviewImageUrl": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.35426-6/753018762_1271715634885019_8736912621751660606_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Q0zKa435fm4Q7kNvwFknIdi&_nc_oc=AdrSKilPvfJIiCfMjc0d7rK2VQoI5Y7zMLFPlNq2y1d7eM1tDeIoi1JfkbZVsDvBCRE&_nc_zt=14&_nc_ht=scontent-hou1-1.xx&_nc_gid=N-vpflIErF_gHoClc0SiwQ&_nc_ss=7b289&oh=00_AQIwBk4Yb6Y3bp6j_OKx0HhAKox2v_o0k4cCIP2Vls6CUw&oe=6AA415BB"
+            }
+          ],
+          "languages": [],
+          "startDate": "2026-08-11T07:00:00.000Z",
+          "categories": [
+            "UNKNOWN"
+          ],
+          "entityType": null,
+          "adArchiveId": "27825859943701130",
+          "impressions": null,
+          "isProductAd": null,
+          "reportCount": null,
+          "adLibraryUrl": "https://www.facebook.com/ads/library/?id=27825859943701130",
+          "deactivatedAt": "2026-09-21T13:37:24.000Z",
+          "isDeactivated": true,
+          "reachEstimate": null,
+          "brandedContent": null,
+          "complianceFlags": {
+            "hidden": null,
+            "isAAAEligible": true,
+            "politicalCountries": [],
+            "containsSensitiveContent": false
+          },
+          "linkDescription": "Vídeo corto · Acceso gratis",
+          "totalActiveTime": null,
+          "targetedCountries": [],
+          "publisherPlatforms": [
+            "FACEBOOK",
+            "INSTAGRAM",
+            "THREADS"
+          ]
+        }
+      ]
+    },
+    {
+      "chave": "inlead.digital/rolinhos-gourmet",
+      "link": "https://inlead.digital/rolinhos-gourmet",
+      "pagina": {
+        "id": "878176412048107",
+        "name": "Luciana Prado",
+        "likes": 697,
+        "owner": "Luciana Prado",
+        "pageUrl": "https://www.facebook.com/878176412048107",
+        "categories": [
+          "Brand"
+        ],
+        "profileUri": "https://www.facebook.com/61584043343545/",
+        "instagramUrl": null,
+        "coverPhotoUrl": null,
+        "totalAdsCount": 130,
+        "newestAdStartDate": "2026-08-07T07:00:00.000Z",
+        "oldestAdStartDate": "2026-08-07T07:00:00.000Z",
+        "profilePictureUrl": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.35426-6/767031526_988846484187923_5683219324246476079_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=SmXqrTVKKT0Q7kNvwER_4lN&_nc_oc=AdrwNZ_pCJ7g81mP9qc1zWIlbWdFR4f09vN9lyoR1z34tc2ZCEVUyPcP482_ZEjhzaw&_nc_zt=14&_nc_ht=scontent-hou1-1.xx&_nc_gid=wGpRaAaRRxLspOPVuagXHA&_nc_ss=7b289&oh=00_AQIthPjLzo_v7OCJjead_O2iHoYZoCupMWSKEjkdlCTl_w&oe=6AA43488",
+        "selectedAdEndDate": "2026-09-06T07:00:00.000Z",
+        "instagramFollowers": null,
+        "observedAdsInBatch": 1,
+        "selectedAdStartDate": "2026-08-07T07:00:00.000Z",
+        "sameCreativeAdsInBatch": 1,
+        "hasCreativeDuplicatesInBatch": false,
+        "anunciosNaPagina": 130,
+        "fonteContagem": "ad_hunter"
+      },
+      "criativosNoLote": 1,
+      "criativosDaOferta": 1,
+      "diasAtivoMediana": 46,
+      "diasAtivoMax": 46,
+      "keywords": [
+        "aprenda a fazer dinheiro"
+      ],
+      "principal": {
+        "id": "1037695398665651",
+        "titulo": "Clica em saiba mais",
+        "texto": "Aprenda a fazer rolinhos gourmet ✨",
+        "cta": "Saiba mais",
+        "link": "https://inlead.digital/rolinhos-gourmet",
+        "criativos": [
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video-hou1-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQP_zY0GJ29sS066YtuPpNF9ZFUMbrqeNzo2MsJnHCQU70BnfKEWultHngrx5Ddozxldz1RIYu1Ty5hH7zLFgJng9LE2POM8M8O18hNCL9j63A.mp4?_nc_cat=100&_nc_sid=b66105&_nc_ht=video-hou1-1.xx.fbcdn.net&_nc_ohc=R_FJs4zkn1AQ7kNvwEwZxGf&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE1OTIwNzY0MDU2MDY0MDksImFzc2V0X2FnZV9kYXlzIjozMSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjY5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=a45140d0cd2335b3&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zQjRCM0Y3OTEzM0Y1NTA1OURDRThFODU1QjVERDU4MV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzZBNEUwQURCRjhERDRBOUJCOTcxQzQ5MTNFNDlBMjhGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaSoOTJhf_TBRUCKAJDMywXQFFTMzMzMzMYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=wGpRaAaRRxLspOPVuagXHA&_nc_ss=7b289&_nc_zt=28&oh=00_AQK_BjbP2puHUB-zamluYGJ0zi_Hcn2zMSa0hslMThgCCg&oe=6AA41C5C",
+            "thumb": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.35426-6/764910266_28271909089067342_4555174732859286457_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=WG3ui1l8NvIQ7kNvwFhR9si&_nc_oc=AdoAOMSn9LkfaND85IAiD_SAbPxhx0lrd5etPIvlenvFWeaKls3l1z-q93FUkN1vRcU&_nc_zt=14&_nc_ht=scontent-hou1-1.xx&_nc_gid=wGpRaAaRRxLspOPVuagXHA&_nc_ss=7b289&oh=00_AQKICyzvq6PCFSDQkJ-5s_YCF0HyUmkIzG4sO3pmownhZA&oe=6AA4279C",
+            "link": "https://inlead.digital/rolinhos-gourmet"
+          }
+        ],
+        "diasAtivo": 46,
+        "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1037695398665651"
+      },
+      "ads": [
+        {
+          "spend": null,
+          "title": "Clica em saiba mais",
+          "caption": "www.instagram.com",
+          "ctaText": "Saiba mais",
+          "ctaType": "LEARN_MORE",
+          "endDate": "2026-09-06T07:00:00.000Z",
+          "linkUrl": "https://inlead.digital/rolinhos-gourmet",
+          "bodyText": "Aprenda a fazer rolinhos gourmet ✨",
+          "currency": null,
+          "isActive": true,
+          "creatives": [
+            {
+              "body": "Aprenda a fazer rolinhos gourmet ✨",
+              "type": "video",
+              "title": "Clica em saiba mais",
+              "caption": "www.instagram.com",
+              "ctaText": "Saiba mais",
+              "ctaType": "LEARN_MORE",
+              "linkUrl": "https://inlead.digital/rolinhos-gourmet",
+              "imageUrl": null,
+              "videoUrl": "https://video-hou1-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQP_zY0GJ29sS066YtuPpNF9ZFUMbrqeNzo2MsJnHCQU70BnfKEWultHngrx5Ddozxldz1RIYu1Ty5hH7zLFgJng9LE2POM8M8O18hNCL9j63A.mp4?_nc_cat=100&_nc_sid=b66105&_nc_ht=video-hou1-1.xx.fbcdn.net&_nc_ohc=R_FJs4zkn1AQ7kNvwEwZxGf&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE1OTIwNzY0MDU2MDY0MDksImFzc2V0X2FnZV9kYXlzIjozMSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjY5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=a45140d0cd2335b3&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zQjRCM0Y3OTEzM0Y1NTA1OURDRThFODU1QjVERDU4MV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzZBNEUwQURCRjhERDRBOUJCOTcxQzQ5MTNFNDlBMjhGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaSoOTJhf_TBRUCKAJDMywXQFFTMzMzMzMYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=wGpRaAaRRxLspOPVuagXHA&_nc_ss=7b289&_nc_zt=28&oh=00_AQK_BjbP2puHUB-zamluYGJ0zi_Hcn2zMSa0hslMThgCCg&oe=6AA41C5C",
+              "displayFormat": "VIDEO",
+              "videoPreviewImageUrl": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.35426-6/764910266_28271909089067342_4555174732859286457_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=WG3ui1l8NvIQ7kNvwFhR9si&_nc_oc=AdoAOMSn9LkfaND85IAiD_SAbPxhx0lrd5etPIvlenvFWeaKls3l1z-q93FUkN1vRcU&_nc_zt=14&_nc_ht=scontent-hou1-1.xx&_nc_gid=wGpRaAaRRxLspOPVuagXHA&_nc_ss=7b289&oh=00_AQKICyzvq6PCFSDQkJ-5s_YCF0HyUmkIzG4sO3pmownhZA&oe=6AA4279C"
+            }
+          ],
+          "languages": [],
+          "startDate": "2026-08-07T07:00:00.000Z",
+          "categories": [
+            "UNKNOWN"
+          ],
+          "entityType": null,
+          "adArchiveId": "1037695398665651",
+          "impressions": null,
+          "isProductAd": null,
+          "reportCount": null,
+          "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1037695398665651",
+          "reachEstimate": null,
+          "brandedContent": null,
+          "complianceFlags": {
+            "hidden": null,
+            "isAAAEligible": false,
+            "politicalCountries": [],
+            "containsSensitiveContent": false
+          },
+          "linkDescription": null,
+          "totalActiveTime": null,
+          "targetedCountries": [],
+          "publisherPlatforms": [
+            "FACEBOOK",
+            "INSTAGRAM",
+            "AUDIENCE_NETWORK",
+            "MESSENGER",
+            "WHATSAPP",
+            "THREADS"
+          ]
+        }
+      ]
+    },
+    {
+      "chave": "materiais.eqiresearch.com.br/material_vivendoderenda01_x_x_d_x_x",
+      "link": "https://materiais.eqiresearch.com.br/material_vivendoderenda01_x_x_d_x_x?campaignId=701TW00000ITKIpYAP",
+      "pagina": {
+        "id": "107987665502981",
+        "name": "EQI/Research",
+        "likes": 7661,
+        "owner": "EQI/Research",
+        "pageUrl": "https://www.facebook.com/107987665502981",
+        "categories": [
+          "Negócios"
+        ],
+        "profileUri": "https://www.facebook.com/eqiresearch/",
+        "instagramUrl": null,
+        "coverPhotoUrl": null,
+        "totalAdsCount": 120,
+        "newestAdStartDate": "2026-08-27T07:00:00.000Z",
+        "oldestAdStartDate": "2026-08-27T07:00:00.000Z",
+        "profilePictureUrl": "https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/718051863_1749871066034912_5949188045295839036_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-kp5Bgh9x0sQ7kNvwFrqtwZ&_nc_oc=AdoH82mdq-3qivYvri6juw5Pc0l2_psa2wJhGocsAYZ65C8-sFdYmm_u5iWizfOgzGw&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=tqqjGscPlvMpX6AxlC-ntQ&_nc_ss=7b289&oh=00_AQKJh13jk1v6qFn5JQPNwf6_BHxMRTwZgTQExkyamJkqgQ&oe=6AA418FD",
+        "selectedAdEndDate": "2026-09-06T07:00:00.000Z",
+        "instagramFollowers": null,
+        "observedAdsInBatch": 1,
+        "selectedAdStartDate": "2026-08-27T07:00:00.000Z",
+        "sameCreativeAdsInBatch": 1,
+        "hasCreativeDuplicatesInBatch": false,
+        "anunciosNaPagina": 120,
+        "fonteContagem": "ad_hunter"
+      },
+      "criativosNoLote": 1,
+      "criativosDaOferta": 1,
+      "diasAtivoMediana": 26,
+      "diasAtivoMax": 26,
+      "keywords": [
+        "vivendo de renda extra"
+      ],
+      "principal": {
+        "id": "1581625636738663",
+        "titulo": "Simulador Vivendo de Renda",
+        "texto": "Baixe gratuitamente a planilha que calcula quanto você precisa para viver de renda.",
+        "cta": "Saiba mais",
+        "link": "https://materiais.eqiresearch.com.br/material_vivendoderenda01_x_x_d_x_x?campaignId=701TW00000ITKIpYAP",
+        "criativos": [
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video-phl2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQM6jQE66XwMnXVThrJxvb4cDNHZ_x0HJbcQ4K_HEouLlTYDhd8oMc92hpBy2WZkL0VD7TuRKFAVviWKGOpNEPKLLo4HDNpBZNfGnFadtI_zOw.mp4?_nc_cat=109&_nc_sid=b66105&_nc_ht=video-phl2-1.xx.fbcdn.net&_nc_ohc=u34Jpn_y5UgQ7kNvwFn2f5P&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE5ODA5NDQ4ODU4NzUxOTEsImFzc2V0X2FnZV9kYXlzIjo5NSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjExNSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=aacccb8403894a7a&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8yNjQ5MTEyNjY5MkQ2NTE0NEM3Rjg1NjFDNkNEQ0U5NV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0FGNENDQTUyMzk2MjJEOEQyOTFBNTc5QjAxQTYwRUE1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbuh_DDleqEBxUCKAJDMywXQFz8vGp--dsYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=tqqjGscPlvMpX6AxlC-ntQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQKTk7pDAfMesMYYPRexRaDyD-EsKXoO_cW_YyXFyWCxOQ&oe=6AA43053",
+            "thumb": "https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/721310536_1783843196105698_886719511380602_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ihJmlxs5r30Q7kNvwGRYwA0&_nc_oc=AdqUvMqhmf_yleqsvTXhqEjNmSQZxMlRJv-H-I3kiD5COXR4I5TGTK1v_bIWQ-R4BDs&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=tqqjGscPlvMpX6AxlC-ntQ&_nc_ss=7b289&oh=00_AQKS1beYwe-TdEZE6zvcmJl8wKoTxtObnn239RdDh_mKyg&oe=6AA43194",
+            "link": "https://materiais.eqiresearch.com.br/material_vivendoderenda01_x_x_d_x_x?campaignId=701TW00000ITKIpYAP"
+          }
+        ],
+        "diasAtivo": 26,
+        "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1581625636738663"
+      },
+      "ads": [
+        {
+          "spend": null,
+          "title": "Simulador Vivendo de Renda",
+          "caption": "materiais.eqiresearch.com.br",
+          "ctaText": "Saiba mais",
+          "ctaType": "LEARN_MORE",
+          "endDate": "2026-09-06T07:00:00.000Z",
+          "linkUrl": "https://materiais.eqiresearch.com.br/material_vivendoderenda01_x_x_d_x_x?campaignId=701TW00000ITKIpYAP",
+          "bodyText": "Baixe gratuitamente a planilha que calcula quanto você precisa para viver de renda.",
+          "currency": null,
+          "isActive": true,
+          "creatives": [
+            {
+              "body": "Baixe gratuitamente a planilha que calcula quanto você precisa para viver de renda.",
+              "type": "video",
+              "title": "Simulador Vivendo de Renda",
+              "caption": "materiais.eqiresearch.com.br",
+              "ctaText": "Saiba mais",
+              "ctaType": "LEARN_MORE",
+              "linkUrl": "https://materiais.eqiresearch.com.br/material_vivendoderenda01_x_x_d_x_x?campaignId=701TW00000ITKIpYAP",
+              "imageUrl": null,
+              "videoUrl": "https://video-phl2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQM6jQE66XwMnXVThrJxvb4cDNHZ_x0HJbcQ4K_HEouLlTYDhd8oMc92hpBy2WZkL0VD7TuRKFAVviWKGOpNEPKLLo4HDNpBZNfGnFadtI_zOw.mp4?_nc_cat=109&_nc_sid=b66105&_nc_ht=video-phl2-1.xx.fbcdn.net&_nc_ohc=u34Jpn_y5UgQ7kNvwFn2f5P&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE5ODA5NDQ4ODU4NzUxOTEsImFzc2V0X2FnZV9kYXlzIjo5NSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjExNSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=aacccb8403894a7a&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8yNjQ5MTEyNjY5MkQ2NTE0NEM3Rjg1NjFDNkNEQ0U5NV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0FGNENDQTUyMzk2MjJEOEQyOTFBNTc5QjAxQTYwRUE1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbuh_DDleqEBxUCKAJDMywXQFz8vGp--dsYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=tqqjGscPlvMpX6AxlC-ntQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQKTk7pDAfMesMYYPRexRaDyD-EsKXoO_cW_YyXFyWCxOQ&oe=6AA43053",
+              "displayFormat": "VIDEO",
+              "videoPreviewImageUrl": "https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/721310536_1783843196105698_886719511380602_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ihJmlxs5r30Q7kNvwGRYwA0&_nc_oc=AdqUvMqhmf_yleqsvTXhqEjNmSQZxMlRJv-H-I3kiD5COXR4I5TGTK1v_bIWQ-R4BDs&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=tqqjGscPlvMpX6AxlC-ntQ&_nc_ss=7b289&oh=00_AQKS1beYwe-TdEZE6zvcmJl8wKoTxtObnn239RdDh_mKyg&oe=6AA43194"
+            }
+          ],
+          "languages": [],
+          "startDate": "2026-08-27T07:00:00.000Z",
+          "categories": [
+            "UNKNOWN"
+          ],
+          "entityType": null,
+          "adArchiveId": "1581625636738663",
+          "impressions": null,
+          "isProductAd": null,
+          "reportCount": null,
+          "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1581625636738663",
+          "reachEstimate": null,
+          "brandedContent": null,
+          "complianceFlags": {
+            "hidden": null,
+            "isAAAEligible": false,
+            "politicalCountries": [],
+            "containsSensitiveContent": false
+          },
+          "linkDescription": null,
+          "totalActiveTime": null,
+          "targetedCountries": [],
+          "publisherPlatforms": [
+            "FACEBOOK",
+            "INSTAGRAM",
+            "MESSENGER"
+          ]
+        }
+      ]
+    },
+    {
+      "chave": "mayaracamposconfeitaria.com.br/osegredodasfatiasperfeitas",
+      "link": "https://mayaracamposconfeitaria.com.br/osegredodasfatiasperfeitas/",
+      "pagina": {
+        "id": "1717172328593393",
+        "name": "Mayara Campos Doces",
+        "likes": 54322,
+        "owner": "Mayara Campos Doces",
+        "pageUrl": "https://www.facebook.com/1717172328593393",
+        "categories": [
+          "Dessert"
+        ],
+        "profileUri": "https://www.facebook.com/mayaracamposdocess/",
+        "instagramUrl": null,
+        "coverPhotoUrl": null,
+        "totalAdsCount": 82,
+        "newestAdStartDate": "2026-08-19T07:00:00.000Z",
+        "oldestAdStartDate": "2026-08-19T07:00:00.000Z",
+        "profilePictureUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/778916392_1401037881977927_7198399164679895953_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=VQqf4T3bv6UQ7kNvwHR5iUe&_nc_oc=AdqJWlGW_ctT04wkljDjWHSARVZlNU1oXUShai89RODA-VUMxfRl9kRL4WAV303zZDM&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=Zrpc6HGwdDRWOFSwW0ltYQ&_nc_ss=7b289&oh=00_AQIm8ZVVT5Agd6no6EcHSQFtceFupTN2hU86ZkSgr9d_yg&oe=6AA41D1B",
+        "selectedAdEndDate": "2026-09-06T07:00:00.000Z",
+        "instagramFollowers": null,
+        "observedAdsInBatch": 1,
+        "selectedAdStartDate": "2026-08-19T07:00:00.000Z",
+        "sameCreativeAdsInBatch": 1,
+        "hasCreativeDuplicatesInBatch": false,
+        "anunciosNaPagina": 82,
+        "fonteContagem": "ad_hunter"
+      },
+      "criativosNoLote": 1,
+      "criativosDaOferta": 1,
+      "diasAtivoMediana": 34,
+      "diasAtivoMax": 34,
+      "keywords": [
+        "aprenda a fazer renda extra"
+      ],
+      "principal": {
+        "id": "1634461238091676",
+        "titulo": "APRENDA AGORA!",
+        "texto": "✨ Quer fazer doces irresistíveis para vender ou simplesmente se deliciar em casa?\n\nO curso “O Segredo das Fatias Perfeitas” ensina 12 receitas práticas, cremosas e de alta aceitação, perfeitas para quem quer renda extra ou para quem ama saborear doces feitos por você. 🍰\n\n✅ Renda extra com baixo investimento\n✅ Ingredientes simples e fáceis de encontrar\n✅ Faça na sua cozinha e aproveite ou venda\n\n🚀 Comece hoje e transforme suas fatias em dinheiro ou momentos de prazer!",
+        "cta": "Saiba mais",
+        "link": "https://mayaracamposconfeitaria.com.br/osegredodasfatiasperfeitas/",
+        "criativos": [
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNdsq1pxY_nnehxGWH_W860OO3PqtbrxGvGbNT5LtnSZf8mFQbHb2HHNsAXL-w6WFBN6wR8qV7NR0zyzC4uwK0U7CDG06lz7ShiAJ6UM8kY9A.mp4?_nc_cat=104&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=GP0J6vloQLYQ7kNvwGdclrF&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjc5NzIwNzI1NjAzMTU4NiwiYXNzZXRfYWdlX2RheXMiOjM0MCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjQ2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=c4b63334993b59f9&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zRjRBQTYyNTVDRUUwM0RDNzUyQ0VDMDkyNjY4NDFCOV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzlFNDk5MDIzRUY3OTRFOTQ2NTBFMjg4QzQ4OUQzREFBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbEhff0yMPqAhUCKAJDMywXQEdmZmZmZmYYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=Zrpc6HGwdDRWOFSwW0ltYQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQJhFai8L0WBjTtUPI4BAU0e8HvteDNGc9vT8LT1r95ZXg&oe=6AA413F4",
+            "thumb": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/778103106_1026117320191083_3188967391465931759_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=RHm3EgI_kOQQ7kNvwFZgHRo&_nc_oc=AdowLMlqS8MzJ4eElFy31qEMKb1LbZ_abCmxlK5EJ2VDaSrnLUDkUUJENqfHB0R7LoM&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Zrpc6HGwdDRWOFSwW0ltYQ&_nc_ss=7b289&oh=00_AQL4iaQLGjLupfcfeNJ0MNarNlriUUxDIon2qHmb_RT3Ow&oe=6AA4270D",
+            "link": "https://mayaracamposconfeitaria.com.br/osegredodasfatiasperfeitas/"
+          },
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNdsq1pxY_nnehxGWH_W860OO3PqtbrxGvGbNT5LtnSZf8mFQbHb2HHNsAXL-w6WFBN6wR8qV7NR0zyzC4uwK0U7CDG06lz7ShiAJ6UM8kY9A.mp4?_nc_cat=104&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=GP0J6vloQLYQ7kNvwGdclrF&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjc5NzIwNzI1NjAzMTU4NiwiYXNzZXRfYWdlX2RheXMiOjM0MCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjQ2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=c4b63334993b59f9&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zRjRBQTYyNTVDRUUwM0RDNzUyQ0VDMDkyNjY4NDFCOV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzlFNDk5MDIzRUY3OTRFOTQ2NTBFMjg4QzQ4OUQzREFBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbEhff0yMPqAhUCKAJDMywXQEdmZmZmZmYYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=Zrpc6HGwdDRWOFSwW0ltYQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQJhFai8L0WBjTtUPI4BAU0e8HvteDNGc9vT8LT1r95ZXg&oe=6AA413F4",
+            "thumb": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/778103106_1026117320191083_3188967391465931759_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=RHm3EgI_kOQQ7kNvwFZgHRo&_nc_oc=AdowLMlqS8MzJ4eElFy31qEMKb1LbZ_abCmxlK5EJ2VDaSrnLUDkUUJENqfHB0R7LoM&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Zrpc6HGwdDRWOFSwW0ltYQ&_nc_ss=7b289&oh=00_AQL4iaQLGjLupfcfeNJ0MNarNlriUUxDIon2qHmb_RT3Ow&oe=6AA4270D",
+            "link": "https://mayaracamposconfeitaria.com.br/osegredodasfatiasperfeitas/"
+          },
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNdsq1pxY_nnehxGWH_W860OO3PqtbrxGvGbNT5LtnSZf8mFQbHb2HHNsAXL-w6WFBN6wR8qV7NR0zyzC4uwK0U7CDG06lz7ShiAJ6UM8kY9A.mp4?_nc_cat=104&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=GP0J6vloQLYQ7kNvwGdclrF&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjc5NzIwNzI1NjAzMTU4NiwiYXNzZXRfYWdlX2RheXMiOjM0MCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjQ2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=c4b63334993b59f9&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zRjRBQTYyNTVDRUUwM0RDNzUyQ0VDMDkyNjY4NDFCOV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzlFNDk5MDIzRUY3OTRFOTQ2NTBFMjg4QzQ4OUQzREFBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbEhff0yMPqAhUCKAJDMywXQEdmZmZmZmYYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=Zrpc6HGwdDRWOFSwW0ltYQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQJhFai8L0WBjTtUPI4BAU0e8HvteDNGc9vT8LT1r95ZXg&oe=6AA413F4",
+            "thumb": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/778103106_1026117320191083_3188967391465931759_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=RHm3EgI_kOQQ7kNvwFZgHRo&_nc_oc=AdowLMlqS8MzJ4eElFy31qEMKb1LbZ_abCmxlK5EJ2VDaSrnLUDkUUJENqfHB0R7LoM&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Zrpc6HGwdDRWOFSwW0ltYQ&_nc_ss=7b289&oh=00_AQL4iaQLGjLupfcfeNJ0MNarNlriUUxDIon2qHmb_RT3Ow&oe=6AA4270D",
+            "link": "https://mayaracamposconfeitaria.com.br/osegredodasfatiasperfeitas/"
+          },
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQNrrwzMGxsB6W7sEQwEJB33FXpiTW6qOwAbbuxf-gaoERTbYl9loBmRcd1bsGJyNv9tc3EGU364AtQoetFIXyNflbgaFwbPy-8Hfx11g0AfUQ.mp4?_nc_cat=108&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=c6u44l35aq0Q7kNvwELtlZy&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEwNzQzODA1NzQ0MTkyNDMsImFzc2V0X2FnZV9kYXlzIjo2NDQsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo0OCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=65c13fb12e14855&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9DQzQzNkNCOTk4Q0NBQzgyQThBMkM5Q0NDNkJEMjA5NV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dCMjk4UnRfUVIwM3NSNENBT1I0UVZXQ1M0bHJidjRHQUFBRhUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbWpO-Hl8noAxUCKAJDMywXQEhRBiTdLxsYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=Zrpc6HGwdDRWOFSwW0ltYQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQI20KGQqslxf-cPtnQYak8baBX_JNwFRQ7v1WzUSGEfzw&oe=6AA41D84",
+            "thumb": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/775321986_950648160707092_7868024497897266446_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=cWh9z6VwMwcQ7kNvwGlriku&_nc_oc=Adqwe6NUJch2AI1iKE8pOEeWkkQ3YDm7ICmM42zb6aSVxBQjPbFj9adbXAdfFSQxKWA&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Zrpc6HGwdDRWOFSwW0ltYQ&_nc_ss=7b289&oh=00_AQJ5MGfndyfo3cBsVG-vKNhZStqi_4UftNjiKsBzOcROOQ&oe=6AA414AF",
+            "link": "https://mayaracamposconfeitaria.com.br/osegredodasfatiasperfeitas/"
+          }
+        ],
+        "diasAtivo": 34,
+        "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1634461238091676"
+      },
+      "ads": [
+        {
+          "spend": null,
+          "title": "APRENDA AGORA!",
+          "caption": "mayaracamposconfeitaria.com.br",
+          "ctaText": "Saiba mais",
+          "ctaType": "LEARN_MORE",
+          "endDate": "2026-09-06T07:00:00.000Z",
+          "linkUrl": "https://mayaracamposconfeitaria.com.br/osegredodasfatiasperfeitas/",
+          "bodyText": "✨ Quer fazer doces irresistíveis para vender ou simplesmente se deliciar em casa?\n\nO curso “O Segredo das Fatias Perfeitas” ensina 12 receitas práticas, cremosas e de alta aceitação, perfeitas para quem quer renda extra ou para quem ama saborear doces feitos por você. 🍰\n\n✅ Renda extra com baixo investimento\n✅ Ingredientes simples e fáceis de encontrar\n✅ Faça na sua cozinha e aproveite ou venda\n\n🚀 Comece hoje e transforme suas fatias em dinheiro ou momentos de prazer!",
+          "currency": null,
+          "isActive": true,
+          "creatives": [
+            {
+              "body": "✨ Quer fazer doces irresistíveis para vender ou simplesmente se deliciar em casa?\n\nO curso “O Segredo das Fatias Perfeitas” ensina 12 receitas práticas, cremosas e de alta aceitação, perfeitas para quem quer renda extra ou para quem ama saborear doces feitos por você. 🍰\n\n✅ Renda extra com baixo investimento\n✅ Ingredientes simples e fáceis de encontrar\n✅ Faça na sua cozinha e aproveite ou venda\n\n🚀 Comece hoje e transforme suas fatias em dinheiro ou momentos de prazer!",
+              "type": "video",
+              "title": "APRENDA AGORA!",
+              "caption": null,
+              "ctaText": "Learn More",
+              "ctaType": "LEARN_MORE",
+              "linkUrl": "https://mayaracamposconfeitaria.com.br/osegredodasfatiasperfeitas/",
+              "imageUrl": null,
+              "videoUrl": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNdsq1pxY_nnehxGWH_W860OO3PqtbrxGvGbNT5LtnSZf8mFQbHb2HHNsAXL-w6WFBN6wR8qV7NR0zyzC4uwK0U7CDG06lz7ShiAJ6UM8kY9A.mp4?_nc_cat=104&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=GP0J6vloQLYQ7kNvwGdclrF&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjc5NzIwNzI1NjAzMTU4NiwiYXNzZXRfYWdlX2RheXMiOjM0MCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjQ2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=c4b63334993b59f9&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zRjRBQTYyNTVDRUUwM0RDNzUyQ0VDMDkyNjY4NDFCOV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzlFNDk5MDIzRUY3OTRFOTQ2NTBFMjg4QzQ4OUQzREFBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbEhff0yMPqAhUCKAJDMywXQEdmZmZmZmYYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=Zrpc6HGwdDRWOFSwW0ltYQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQJhFai8L0WBjTtUPI4BAU0e8HvteDNGc9vT8LT1r95ZXg&oe=6AA413F4",
+              "displayFormat": null,
+              "videoPreviewImageUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/778103106_1026117320191083_3188967391465931759_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=RHm3EgI_kOQQ7kNvwFZgHRo&_nc_oc=AdowLMlqS8MzJ4eElFy31qEMKb1LbZ_abCmxlK5EJ2VDaSrnLUDkUUJENqfHB0R7LoM&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Zrpc6HGwdDRWOFSwW0ltYQ&_nc_ss=7b289&oh=00_AQL4iaQLGjLupfcfeNJ0MNarNlriUUxDIon2qHmb_RT3Ow&oe=6AA4270D"
+            },
+            {
+              "body": "✨ Quer fazer doces irresistíveis para vender ou simplesmente se deliciar em casa?\n\nO curso “O Segredo das Fatias Perfeitas” ensina 12 receitas práticas, cremosas e de alta aceitação, perfeitas para quem quer renda extra ou para quem ama saborear doces feitos por você. 🍰\n\n✅ Renda extra com baixo investimento\n✅ Ingredientes simples e fáceis de encontrar\n✅ Faça na sua cozinha e aproveite ou venda\n\n🚀 Comece hoje e transforme suas fatias em dinheiro ou momentos de prazer!",
+              "type": "video",
+              "title": "APRENDA AGORA!",
+              "caption": null,
+              "ctaText": "Learn More",
+              "ctaType": "LEARN_MORE",
+              "linkUrl": "https://mayaracamposconfeitaria.com.br/osegredodasfatiasperfeitas/",
+              "imageUrl": null,
+              "videoUrl": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNdsq1pxY_nnehxGWH_W860OO3PqtbrxGvGbNT5LtnSZf8mFQbHb2HHNsAXL-w6WFBN6wR8qV7NR0zyzC4uwK0U7CDG06lz7ShiAJ6UM8kY9A.mp4?_nc_cat=104&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=GP0J6vloQLYQ7kNvwGdclrF&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjc5NzIwNzI1NjAzMTU4NiwiYXNzZXRfYWdlX2RheXMiOjM0MCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjQ2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=c4b63334993b59f9&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zRjRBQTYyNTVDRUUwM0RDNzUyQ0VDMDkyNjY4NDFCOV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzlFNDk5MDIzRUY3OTRFOTQ2NTBFMjg4QzQ4OUQzREFBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbEhff0yMPqAhUCKAJDMywXQEdmZmZmZmYYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=Zrpc6HGwdDRWOFSwW0ltYQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQJhFai8L0WBjTtUPI4BAU0e8HvteDNGc9vT8LT1r95ZXg&oe=6AA413F4",
+              "displayFormat": null,
+              "videoPreviewImageUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/778103106_1026117320191083_3188967391465931759_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=RHm3EgI_kOQQ7kNvwFZgHRo&_nc_oc=AdowLMlqS8MzJ4eElFy31qEMKb1LbZ_abCmxlK5EJ2VDaSrnLUDkUUJENqfHB0R7LoM&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Zrpc6HGwdDRWOFSwW0ltYQ&_nc_ss=7b289&oh=00_AQL4iaQLGjLupfcfeNJ0MNarNlriUUxDIon2qHmb_RT3Ow&oe=6AA4270D"
+            },
+            {
+              "body": "✨ Quer fazer doces irresistíveis para vender ou simplesmente se deliciar em casa?\n\nO curso “O Segredo das Fatias Perfeitas” ensina 12 receitas práticas, cremosas e de alta aceitação, perfeitas para quem quer renda extra ou para quem ama saborear doces feitos por você. 🍰\n\n✅ Renda extra com baixo investimento\n✅ Ingredientes simples e fáceis de encontrar\n✅ Faça na sua cozinha e aproveite ou venda\n\n🚀 Comece hoje e transforme suas fatias em dinheiro ou momentos de prazer!",
+              "type": "video",
+              "title": "APRENDA AGORA!",
+              "caption": null,
+              "ctaText": "Learn More",
+              "ctaType": "LEARN_MORE",
+              "linkUrl": "https://mayaracamposconfeitaria.com.br/osegredodasfatiasperfeitas/",
+              "imageUrl": null,
+              "videoUrl": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNdsq1pxY_nnehxGWH_W860OO3PqtbrxGvGbNT5LtnSZf8mFQbHb2HHNsAXL-w6WFBN6wR8qV7NR0zyzC4uwK0U7CDG06lz7ShiAJ6UM8kY9A.mp4?_nc_cat=104&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=GP0J6vloQLYQ7kNvwGdclrF&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjc5NzIwNzI1NjAzMTU4NiwiYXNzZXRfYWdlX2RheXMiOjM0MCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjQ2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=c4b63334993b59f9&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zRjRBQTYyNTVDRUUwM0RDNzUyQ0VDMDkyNjY4NDFCOV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzlFNDk5MDIzRUY3OTRFOTQ2NTBFMjg4QzQ4OUQzREFBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbEhff0yMPqAhUCKAJDMywXQEdmZmZmZmYYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=Zrpc6HGwdDRWOFSwW0ltYQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQJhFai8L0WBjTtUPI4BAU0e8HvteDNGc9vT8LT1r95ZXg&oe=6AA413F4",
+              "displayFormat": null,
+              "videoPreviewImageUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/778103106_1026117320191083_3188967391465931759_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=RHm3EgI_kOQQ7kNvwFZgHRo&_nc_oc=AdowLMlqS8MzJ4eElFy31qEMKb1LbZ_abCmxlK5EJ2VDaSrnLUDkUUJENqfHB0R7LoM&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Zrpc6HGwdDRWOFSwW0ltYQ&_nc_ss=7b289&oh=00_AQL4iaQLGjLupfcfeNJ0MNarNlriUUxDIon2qHmb_RT3Ow&oe=6AA4270D"
+            },
+            {
+              "body": "✨ Quer fazer doces irresistíveis para vender ou simplesmente se deliciar em casa?\n\nO curso “O Segredo das Fatias Perfeitas” ensina 12 receitas práticas, cremosas e de alta aceitação, perfeitas para quem quer renda extra ou para quem ama saborear doces feitos por você. 🍰\n\n✅ Renda extra com baixo investimento\n✅ Ingredientes simples e fáceis de encontrar\n✅ Faça na sua cozinha e aproveite ou venda\n\n🚀 Comece hoje e transforme suas fatias em dinheiro ou momentos de prazer!",
+              "type": "video",
+              "title": "APRENDA AGORA!",
+              "caption": null,
+              "ctaText": "Learn More",
+              "ctaType": "LEARN_MORE",
+              "linkUrl": "https://mayaracamposconfeitaria.com.br/osegredodasfatiasperfeitas/",
+              "imageUrl": null,
+              "videoUrl": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQNrrwzMGxsB6W7sEQwEJB33FXpiTW6qOwAbbuxf-gaoERTbYl9loBmRcd1bsGJyNv9tc3EGU364AtQoetFIXyNflbgaFwbPy-8Hfx11g0AfUQ.mp4?_nc_cat=108&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=c6u44l35aq0Q7kNvwELtlZy&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEwNzQzODA1NzQ0MTkyNDMsImFzc2V0X2FnZV9kYXlzIjo2NDQsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo0OCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=65c13fb12e14855&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9DQzQzNkNCOTk4Q0NBQzgyQThBMkM5Q0NDNkJEMjA5NV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dCMjk4UnRfUVIwM3NSNENBT1I0UVZXQ1M0bHJidjRHQUFBRhUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbWpO-Hl8noAxUCKAJDMywXQEhRBiTdLxsYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=Zrpc6HGwdDRWOFSwW0ltYQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQI20KGQqslxf-cPtnQYak8baBX_JNwFRQ7v1WzUSGEfzw&oe=6AA41D84",
+              "displayFormat": null,
+              "videoPreviewImageUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/775321986_950648160707092_7868024497897266446_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=cWh9z6VwMwcQ7kNvwGlriku&_nc_oc=Adqwe6NUJch2AI1iKE8pOEeWkkQ3YDm7ICmM42zb6aSVxBQjPbFj9adbXAdfFSQxKWA&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Zrpc6HGwdDRWOFSwW0ltYQ&_nc_ss=7b289&oh=00_AQJ5MGfndyfo3cBsVG-vKNhZStqi_4UftNjiKsBzOcROOQ&oe=6AA414AF"
+            }
+          ],
+          "languages": [],
+          "startDate": "2026-08-19T07:00:00.000Z",
+          "categories": [
+            "UNKNOWN"
+          ],
+          "entityType": null,
+          "adArchiveId": "1634461238091676",
+          "impressions": null,
+          "isProductAd": null,
+          "reportCount": null,
+          "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1634461238091676",
+          "reachEstimate": null,
+          "brandedContent": null,
+          "complianceFlags": {
+            "hidden": null,
+            "isAAAEligible": false,
+            "politicalCountries": [],
+            "containsSensitiveContent": false
+          },
+          "linkDescription": "CLIQUE EM SAIBA MAIS!",
+          "totalActiveTime": null,
+          "targetedCountries": [],
+          "publisherPlatforms": [
+            "FACEBOOK",
+            "INSTAGRAM",
+            "AUDIENCE_NETWORK",
+            "MESSENGER",
+            "THREADS"
+          ]
+        }
+      ]
+    },
+    {
+      "chave": "saboariatiarose.com/tiarose2-0",
+      "link": "https://saboariatiarose.com/tiarose2-0/",
+      "pagina": {
+        "id": "113665005122948",
+        "name": "Saboaria da Tia Rose",
+        "likes": 22553,
+        "owner": "Saboaria da Tia Rose",
+        "pageUrl": "https://www.facebook.com/113665005122948",
+        "categories": [
+          "Crafts"
+        ],
+        "profileUri": "https://www.facebook.com/100094882891793/",
+        "instagramUrl": null,
+        "coverPhotoUrl": null,
+        "totalAdsCount": 79,
+        "newestAdStartDate": "2026-08-10T07:00:00.000Z",
+        "oldestAdStartDate": "2026-08-10T07:00:00.000Z",
+        "profilePictureUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/769324438_2277337619684626_5691841987909344660_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Tfoln5c4n9gQ7kNvwEpA4gJ&_nc_oc=AdqCGxsDqQYt1J5xmbPUPR2vyvX8L_ZCl-Qo1as1KGMy3UN9ivIqUHCpCdUBXqsLjA0&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=lzKXF6B2SJg_U09Aw1W8vA&_nc_ss=7b289&oh=00_AQIf4QROLsF6ls6A7s24MnSJibqgo14boLjO6OneZpIk4Q&oe=6AA42228",
+        "selectedAdEndDate": "2026-09-06T07:00:00.000Z",
+        "instagramFollowers": null,
+        "observedAdsInBatch": 1,
+        "selectedAdStartDate": "2026-08-10T07:00:00.000Z",
+        "sameCreativeAdsInBatch": 1,
+        "hasCreativeDuplicatesInBatch": false,
+        "anunciosNaPagina": 79,
+        "fonteContagem": "ad_hunter"
+      },
+      "criativosNoLote": 1,
+      "criativosDaOferta": 1,
+      "diasAtivoMediana": 43,
+      "diasAtivoMax": 43,
+      "keywords": [
+        "aprenda a fazer renda extra"
+      ],
+      "principal": {
+        "id": "1053850734057214",
+        "titulo": "7,00 Hoje no Curso 2.0 🙌",
+        "texto": "Curso de Saboaria Artesanal 2.0 💲🧼\nO curso que já transformou a vida de mais de 60 mil alunas em todo o Brasil está ainda melhor! 🌸\n\nAprenda a produzir Sabonetes Artesanais de alto padrão, com novas receitas, técnicas atualizadas e vídeo aulas exclusivas 🎥✨\n\n📘 A nova Apostila 2.0 conta com mais de 150 receitas de sucesso, testadas e aprovadas por quem já vive da saboaria.\n\n🎁 E tem mais: você ainda recebe 5 Apostilas Extras 📚 com receitas inéditas, certificado de qualificação, e acesso ao grupo exclusivo de alunas 2.0 para trocar experiências e continuar crescendo!\n\n🧼 Dê o próximo passo e descubra como transformar sua paixão por sabonetes em uma fonte real de renda com o Curso de Saboaria Artesanal 2.0.",
+        "cta": "Ver detalhes",
+        "link": "https://saboariatiarose.com/tiarose2-0/",
+        "criativos": [
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQODnxJqDYd7BciJ_Ebi_Nau0coQou7IPgzk1XI6SUxdUfRDSF7mpzB-n4BHfNOlCzxdfMPAdgRHrSgDxBs2zCKcfa80xElzxk4bVAWV__WY7g.mp4?_nc_cat=106&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=E798hoBTYisQ7kNvwGB8y0G&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjgzMDk5MjQwMDAwNDA1MSwiYXNzZXRfYWdlX2RheXMiOjI3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NTcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=daffcfa0b8e602ae&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC84RjQ4OTVFMDg1NEUyNTEwQzI2MTU3ODcxQTA5ODRCM19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzBFNDA2OURDNTBEMzQ0MURGRTRFNDY5QURBNTIxRDlCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACamz4Htj_L5AhUCKAJDMywXQEzEOVgQYk4YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=lzKXF6B2SJg_U09Aw1W8vA&_nc_ss=7b289&_nc_zt=28&oh=00_AQLyuOyN1lbUsdQOL1gMr3RAnz5HtQoJ-WWRp1M4bUBSOA&oe=6AA42F46",
+            "thumb": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/772137764_28821803334074065_7167122536789355898_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=HTdpDGqhmFsQ7kNvwEtC0dt&_nc_oc=AdovsRN0Ye4Zbsaz96BdrZTrBa1aMQMel4CwDXbHrT_SR0eUh1sik0feMaxosB_fCRA&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=lzKXF6B2SJg_U09Aw1W8vA&_nc_ss=7b289&oh=00_AQJURzZguZWMEiITRgmWbwxG3fauM80GOWbb8Xmzgu7EYQ&oe=6AA409F1",
+            "link": "https://saboariatiarose.com/tiarose2-0/"
+          }
+        ],
+        "diasAtivo": 43,
+        "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1053850734057214"
+      },
+      "ads": [
+        {
+          "spend": null,
+          "title": "7,00 Hoje no Curso 2.0 🙌",
+          "caption": "saboariatiarose.com",
+          "ctaText": "Ver detalhes",
+          "ctaType": "SEE_DETAILS",
+          "endDate": "2026-09-06T07:00:00.000Z",
+          "linkUrl": "https://saboariatiarose.com/tiarose2-0/",
+          "bodyText": "Curso de Saboaria Artesanal 2.0 💲🧼\nO curso que já transformou a vida de mais de 60 mil alunas em todo o Brasil está ainda melhor! 🌸\n\nAprenda a produzir Sabonetes Artesanais de alto padrão, com novas receitas, técnicas atualizadas e vídeo aulas exclusivas 🎥✨\n\n📘 A nova Apostila 2.0 conta com mais de 150 receitas de sucesso, testadas e aprovadas por quem já vive da saboaria.\n\n🎁 E tem mais: você ainda recebe 5 Apostilas Extras 📚 com receitas inéditas, certificado de qualificação, e acesso ao grupo exclusivo de alunas 2.0 para trocar experiências e continuar crescendo!\n\n🧼 Dê o próximo passo e descubra como transformar sua paixão por sabonetes em uma fonte real de renda com o Curso de Saboaria Artesanal 2.0.",
+          "currency": null,
+          "isActive": false,
+          "creatives": [
+            {
+              "body": "Curso de Saboaria Artesanal 2.0 💲🧼\nO curso que já transformou a vida de mais de 60 mil alunas em todo o Brasil está ainda melhor! 🌸\n\nAprenda a produzir Sabonetes Artesanais de alto padrão, com novas receitas, técnicas atualizadas e vídeo aulas exclusivas 🎥✨\n\n📘 A nova Apostila 2.0 conta com mais de 150 receitas de sucesso, testadas e aprovadas por quem já vive da saboaria.\n\n🎁 E tem mais: você ainda recebe 5 Apostilas Extras 📚 com receitas inéditas, certificado de qualificação, e acesso ao grupo exclusivo de alunas 2.0 para trocar experiências e continuar crescendo!\n\n🧼 Dê o próximo passo e descubra como transformar sua paixão por sabonetes em uma fonte real de renda com o Curso de Saboaria Artesanal 2.0.",
+              "type": "video",
+              "title": "7,00 Hoje no Curso 2.0 🙌",
+              "caption": "saboariatiarose.com",
+              "ctaText": "Ver detalhes",
+              "ctaType": "SEE_DETAILS",
+              "linkUrl": "https://saboariatiarose.com/tiarose2-0/",
+              "imageUrl": null,
+              "videoUrl": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQODnxJqDYd7BciJ_Ebi_Nau0coQou7IPgzk1XI6SUxdUfRDSF7mpzB-n4BHfNOlCzxdfMPAdgRHrSgDxBs2zCKcfa80xElzxk4bVAWV__WY7g.mp4?_nc_cat=106&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=E798hoBTYisQ7kNvwGB8y0G&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjgzMDk5MjQwMDAwNDA1MSwiYXNzZXRfYWdlX2RheXMiOjI3LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NTcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=daffcfa0b8e602ae&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC84RjQ4OTVFMDg1NEUyNTEwQzI2MTU3ODcxQTA5ODRCM19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzBFNDA2OURDNTBEMzQ0MURGRTRFNDY5QURBNTIxRDlCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACamz4Htj_L5AhUCKAJDMywXQEzEOVgQYk4YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=lzKXF6B2SJg_U09Aw1W8vA&_nc_ss=7b289&_nc_zt=28&oh=00_AQLyuOyN1lbUsdQOL1gMr3RAnz5HtQoJ-WWRp1M4bUBSOA&oe=6AA42F46",
+              "displayFormat": "VIDEO",
+              "videoPreviewImageUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/772137764_28821803334074065_7167122536789355898_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=HTdpDGqhmFsQ7kNvwEtC0dt&_nc_oc=AdovsRN0Ye4Zbsaz96BdrZTrBa1aMQMel4CwDXbHrT_SR0eUh1sik0feMaxosB_fCRA&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=lzKXF6B2SJg_U09Aw1W8vA&_nc_ss=7b289&oh=00_AQJURzZguZWMEiITRgmWbwxG3fauM80GOWbb8Xmzgu7EYQ&oe=6AA409F1"
+            }
+          ],
+          "languages": [],
+          "startDate": "2026-08-10T07:00:00.000Z",
+          "categories": [
+            "UNKNOWN"
+          ],
+          "entityType": null,
+          "adArchiveId": "1053850734057214",
+          "impressions": null,
+          "isProductAd": null,
+          "reportCount": null,
+          "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1053850734057214",
+          "deactivatedAt": "2026-09-22T16:31:25.516Z",
+          "isDeactivated": true,
+          "reachEstimate": null,
+          "brandedContent": null,
+          "complianceFlags": {
+            "hidden": null,
+            "isAAAEligible": false,
+            "politicalCountries": [],
+            "containsSensitiveContent": false
+          },
+          "linkDescription": "Mais de 60 Mil Alunas ✨",
+          "totalActiveTime": null,
+          "targetedCountries": [],
+          "publisherPlatforms": [
+            "FACEBOOK",
+            "INSTAGRAM",
+            "AUDIENCE_NETWORK",
+            "MESSENGER",
+            "WHATSAPP",
+            "THREADS"
+          ]
+        }
+      ]
+    },
+    {
+      "chave": "go.sxcelerator.com/metodo-setterx",
+      "link": "https://go.sxcelerator.com/metodo-setterx",
+      "pagina": {
+        "id": "608204589049047",
+        "name": "Fabricio Sampayo",
+        "likes": 160,
+        "owner": "Fabricio Sampayo",
+        "pageUrl": "https://www.facebook.com/608204589049047",
+        "categories": [
+          "Business"
+        ],
+        "profileUri": "https://www.facebook.com/61575614574183/",
+        "instagramUrl": null,
+        "coverPhotoUrl": null,
+        "totalAdsCount": 59,
+        "newestAdStartDate": "2026-05-06T07:00:00.000Z",
+        "oldestAdStartDate": "2026-05-06T07:00:00.000Z",
+        "profilePictureUrl": "https://scontent-phx1-1.xx.fbcdn.net/v/t39.35426-6/689687453_4425755027659748_5571886158791785106_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=kdw90WgSTusQ7kNvwGjk1j7&_nc_oc=Adp984hqQ9Li-x_-iQEavp0DbY1Gx6UvuwYznzQ0g2PDjG0GLdVxRYD7yJXuNKbkWpM&_nc_zt=14&_nc_ht=scontent-phx1-1.xx&_nc_gid=ULf2nzH1SJlLBQ73Ifn9Xg&_nc_ss=7b289&oh=00_AQJZ0mf0jhkWXES1Bri8VfS2BtX4Sgb6Y787nLFwRVeWDw&oe=6AA41834",
+        "selectedAdEndDate": "2026-09-06T07:00:00.000Z",
+        "instagramFollowers": null,
+        "observedAdsInBatch": 2,
+        "selectedAdStartDate": "2026-05-06T07:00:00.000Z",
+        "sameCreativeAdsInBatch": 1,
+        "hasCreativeDuplicatesInBatch": false,
+        "anunciosNaPagina": 59,
+        "fonteContagem": "ad_hunter"
+      },
+      "criativosNoLote": 1,
+      "criativosDaOferta": 1,
+      "diasAtivoMediana": 139,
+      "diasAtivoMax": 139,
+      "keywords": [
+        "Generar ingresos extra"
+      ],
+      "principal": {
+        "id": "980437451190037",
+        "titulo": "Hacé click en el entrenamiento y descubrí como generar ingresos como Appointment Setter solo con tu celular",
+        "texto": "Hacé click en el entrenamiento y descubrí como generar ingresos como Appointment Setter solo con tu celular",
+        "cta": "Saiba mais",
+        "link": "https://go.sxcelerator.com/metodo-setterx",
+        "criativos": [
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video-phx1-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQPWtsji3seC6EBTD6BI3ml81s_wcXofWTHBthDIwKZsSdd-jPJQCOSsh8yDyNqV9tyog46MaBvc3XaR_JY9xHm9_r3b6VWPrz-InsGwZzbXdw.mp4?_nc_cat=108&_nc_sid=b66105&_nc_ht=video-phx1-1.xx.fbcdn.net&_nc_ohc=eOowyBjwqAkQ7kNvwFmxlOA&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEzNDI0NjA5MzA3MTYzNjAsImFzc2V0X2FnZV9kYXlzIjozMzEsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjoxMDYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=b8d267b1b4b27f08&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC83RDQzMkRDNjJFMUE3MkUyNkNEREI3QTY0RDY5ODg4NF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50Lzk4NDUyNjdEOTQxNzM1Q0QzMUYyNUI5NjAxOTk4RThCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaQy7Ouwb3iBBUCKAJDMywXQFqzMzMzMzMYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=ULf2nzH1SJlLBQ73Ifn9Xg&_nc_ss=7b289&_nc_zt=28&oh=00_AQKp3318y9MEjXfm4qAuenlA0Njpe_-pnOiyDu2_RJYGLg&oe=6AA40F48",
+            "thumb": "https://scontent-phx1-1.xx.fbcdn.net/v/t39.35426-6/689832911_1494557795452399_778987975566271583_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ocXDUgSru5cQ7kNvwHBDFte&_nc_oc=AdqdoQA2TWLdFsy8w4T9x5V08K7tyGyAVycUxmjeaZiizpmW2DXs1Y2_9KejLgSVVwE&_nc_zt=14&_nc_ht=scontent-phx1-1.xx&_nc_gid=ULf2nzH1SJlLBQ73Ifn9Xg&_nc_ss=7b289&oh=00_AQKqdEXfsn5m1rPHl4k0of6xS9O9dWiBTxfAQQjjZFKg3g&oe=6AA439F4",
+            "link": "https://go.sxcelerator.com/metodo-setterx"
+          }
+        ],
+        "diasAtivo": 139,
+        "urlBiblioteca": "https://www.facebook.com/ads/library/?id=980437451190037"
+      },
+      "ads": [
+        {
+          "spend": null,
+          "title": "Hacé click en el entrenamiento y descubrí como generar ingresos como Appointment Setter solo con tu celular",
+          "caption": "go.sxcelerator.com",
+          "ctaText": "Saiba mais",
+          "ctaType": "LEARN_MORE",
+          "endDate": "2026-09-06T07:00:00.000Z",
+          "linkUrl": "https://go.sxcelerator.com/metodo-setterx",
+          "bodyText": "Hacé click en el entrenamiento y descubrí como generar ingresos como Appointment Setter solo con tu celular",
+          "currency": null,
+          "isActive": false,
+          "creatives": [
+            {
+              "body": "Hacé click en el entrenamiento y descubrí como generar ingresos como Appointment Setter solo con tu celular",
+              "type": "video",
+              "title": "Hacé click en el entrenamiento y descubrí como generar ingresos como Appointment Setter solo con tu celular",
+              "caption": "go.sxcelerator.com",
+              "ctaText": "Saiba mais",
+              "ctaType": "LEARN_MORE",
+              "linkUrl": "https://go.sxcelerator.com/metodo-setterx",
+              "imageUrl": null,
+              "videoUrl": "https://video-phx1-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQPWtsji3seC6EBTD6BI3ml81s_wcXofWTHBthDIwKZsSdd-jPJQCOSsh8yDyNqV9tyog46MaBvc3XaR_JY9xHm9_r3b6VWPrz-InsGwZzbXdw.mp4?_nc_cat=108&_nc_sid=b66105&_nc_ht=video-phx1-1.xx.fbcdn.net&_nc_ohc=eOowyBjwqAkQ7kNvwFmxlOA&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEzNDI0NjA5MzA3MTYzNjAsImFzc2V0X2FnZV9kYXlzIjozMzEsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjoxMDYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=b8d267b1b4b27f08&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC83RDQzMkRDNjJFMUE3MkUyNkNEREI3QTY0RDY5ODg4NF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50Lzk4NDUyNjdEOTQxNzM1Q0QzMUYyNUI5NjAxOTk4RThCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaQy7Ouwb3iBBUCKAJDMywXQFqzMzMzMzMYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=ULf2nzH1SJlLBQ73Ifn9Xg&_nc_ss=7b289&_nc_zt=28&oh=00_AQKp3318y9MEjXfm4qAuenlA0Njpe_-pnOiyDu2_RJYGLg&oe=6AA40F48",
+              "displayFormat": "VIDEO",
+              "videoPreviewImageUrl": "https://scontent-phx1-1.xx.fbcdn.net/v/t39.35426-6/689832911_1494557795452399_778987975566271583_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ocXDUgSru5cQ7kNvwHBDFte&_nc_oc=AdqdoQA2TWLdFsy8w4T9x5V08K7tyGyAVycUxmjeaZiizpmW2DXs1Y2_9KejLgSVVwE&_nc_zt=14&_nc_ht=scontent-phx1-1.xx&_nc_gid=ULf2nzH1SJlLBQ73Ifn9Xg&_nc_ss=7b289&oh=00_AQKqdEXfsn5m1rPHl4k0of6xS9O9dWiBTxfAQQjjZFKg3g&oe=6AA439F4"
+            }
+          ],
+          "languages": [],
+          "startDate": "2026-05-06T07:00:00.000Z",
+          "categories": [
+            "UNKNOWN"
+          ],
+          "entityType": null,
+          "adArchiveId": "980437451190037",
+          "impressions": null,
+          "isProductAd": null,
+          "reportCount": null,
+          "adLibraryUrl": "https://www.facebook.com/ads/library/?id=980437451190037",
+          "deactivatedAt": "2026-09-21T13:27:00.802Z",
+          "isDeactivated": true,
+          "reachEstimate": null,
+          "brandedContent": null,
+          "complianceFlags": {
+            "hidden": null,
+            "isAAAEligible": false,
+            "politicalCountries": [],
+            "containsSensitiveContent": false
+          },
+          "linkDescription": null,
+          "totalActiveTime": null,
+          "targetedCountries": [],
+          "publisherPlatforms": [
+            "FACEBOOK",
+            "INSTAGRAM",
+            "MESSENGER"
+          ]
+        }
+      ]
+    },
+    {
+      "chave": "aisnemorelli.com.br/e20g-b-29",
+      "link": "https://aisnemorelli.com.br/e20g-b-29/",
+      "pagina": {
+        "id": "373233815878944",
+        "name": "Aisne morelli",
+        "likes": 43038,
+        "owner": "Aisne morelli",
+        "pageUrl": "https://www.facebook.com/373233815878944",
+        "categories": [
+          "Saúde/beleza"
+        ],
+        "profileUri": "https://www.facebook.com/61563400241724/",
+        "instagramUrl": null,
+        "coverPhotoUrl": null,
+        "totalAdsCount": 58,
+        "newestAdStartDate": "2026-06-22T07:00:00.000Z",
+        "oldestAdStartDate": "2026-06-22T07:00:00.000Z",
+        "profilePictureUrl": "https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/729351904_1684236176242754_506364866032438830_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=kvH1X5G-kakQ7kNvwH60Cdh&_nc_oc=AdqOw6qdfzrX6Vf0Jusr1iUaqyu5fwLRGeElbnROPKjci8pmH6AKmAfMQVEN3WWfAi0&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=lIpmjilOteIhffLPeCwasg&_nc_ss=7b289&oh=00_AQJ6DFcbxc9LAyCExkEVpRcwPR37lFoLHHUi4p3Da5BYhg&oe=6AA41534",
+        "selectedAdEndDate": "2026-09-06T07:00:00.000Z",
+        "instagramFollowers": null,
+        "observedAdsInBatch": 1,
+        "selectedAdStartDate": "2026-06-22T07:00:00.000Z",
+        "sameCreativeAdsInBatch": 1,
+        "hasCreativeDuplicatesInBatch": false,
+        "anunciosNaPagina": 58,
+        "fonteContagem": "ad_hunter"
+      },
+      "criativosNoLote": 1,
+      "criativosDaOferta": 1,
+      "diasAtivoMediana": 92,
+      "diasAtivoMax": 92,
+      "keywords": [
+        "aprenda a fazer dinheiro"
+      ],
+      "principal": {
+        "id": "1401542428476587",
+        "titulo": "Aprenda a fazer sabonetes lucrativos hoje",
+        "texto": "Você quer começar na saboaria…\nmas tem medo de desperdiçar material, errar receitas ou simplesmente não saber por onde começar?\n\nCom o Guia 20 Receitas de Sabonetes Glicerinados, você aprende:\n\n✨ receitas já testadas\n✨ passo a passo simples\n✨ como fazer sabonetes bonitos e lucrativos\n✨ mesmo começando do zero em casa\n\nTudo isso por um valor simbólico.\n\nClique em saiba mais e comece hoje 👇",
+        "cta": "Saiba mais",
+        "link": "https://aisnemorelli.com.br/e20g-b-29/",
+        "criativos": [
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video-phl2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQOR32vuLs2TouEmWfw6y3HVDrfegt4cbINQCy7F52qPMCqh-WZ9WelnG-NQzXuHefsA7aMOYpwF75Y7gX6gzYsWVfuMvqzCwANuG09kN1dRbA.mp4?_nc_cat=111&_nc_sid=b66105&_nc_ht=video-phl2-1.xx.fbcdn.net&_nc_ohc=Yv3OJvpmQZ0Q7kNvwFjABMP&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE1MzU5NDQzMTQ1NDI1MTgsImFzc2V0X2FnZV9kYXlzIjoxMDIsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjo0MCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=5cea35cb5d836565&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC81NjQ2QjM1NUIxOUJGRUIzMTE2OTE4MUI1QUZDQTc5Ql9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzEwNDZBODQ5OEY5RjM5N0FBNEI4OTI0MUZGQTVFQUFDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbs5pr03Lu6BRUCKAJDMywXQEQZmZmZmZoYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=lIpmjilOteIhffLPeCwasg&_nc_ss=7b289&_nc_zt=28&oh=00_AQLsBM4f63AdSJASK9mrKcDVl_KIplwkMjZ27t8Dypt-Qg&oe=6AA40739",
+            "thumb": "https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/728951174_4746915258929139_4572561305250351731_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=R8qDwI10kp8Q7kNvwHbvz1P&_nc_oc=Ado7HsRNzu6M4FfM70hzxqMviht8h9G3kNu_UfobdBbcuuq9wTWhSBxbpNXyvE0Lmpg&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=lIpmjilOteIhffLPeCwasg&_nc_ss=7b289&oh=00_AQLCINs65YRVfaWKl-vMC6zYblHZzju0rdAfFM77bvdTig&oe=6AA4134B",
+            "link": "https://aisnemorelli.com.br/e20g-b-29/"
+          }
+        ],
+        "diasAtivo": 92,
+        "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1401542428476587"
+      },
+      "ads": [
+        {
+          "spend": null,
+          "title": "Aprenda a fazer sabonetes lucrativos hoje",
+          "caption": "aisnemorelli.com.br",
+          "ctaText": "Saiba mais",
+          "ctaType": "LEARN_MORE",
+          "endDate": "2026-09-06T07:00:00.000Z",
+          "linkUrl": "https://aisnemorelli.com.br/e20g-b-29/",
+          "bodyText": "Você quer começar na saboaria…\nmas tem medo de desperdiçar material, errar receitas ou simplesmente não saber por onde começar?\n\nCom o Guia 20 Receitas de Sabonetes Glicerinados, você aprende:\n\n✨ receitas já testadas\n✨ passo a passo simples\n✨ como fazer sabonetes bonitos e lucrativos\n✨ mesmo começando do zero em casa\n\nTudo isso por um valor simbólico.\n\nClique em saiba mais e comece hoje 👇",
+          "currency": null,
+          "isActive": true,
+          "creatives": [
+            {
+              "body": "Você quer começar na saboaria…\nmas tem medo de desperdiçar material, errar receitas ou simplesmente não saber por onde começar?\n\nCom o Guia 20 Receitas de Sabonetes Glicerinados, você aprende:\n\n✨ receitas já testadas\n✨ passo a passo simples\n✨ como fazer sabonetes bonitos e lucrativos\n✨ mesmo começando do zero em casa\n\nTudo isso por um valor simbólico.\n\nClique em saiba mais e comece hoje 👇",
+              "type": "video",
+              "title": "Aprenda a fazer sabonetes lucrativos hoje",
+              "caption": "aisnemorelli.com.br",
+              "ctaText": "Saiba mais",
+              "ctaType": "LEARN_MORE",
+              "linkUrl": "https://aisnemorelli.com.br/e20g-b-29/",
+              "imageUrl": null,
+              "videoUrl": "https://video-phl2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQOR32vuLs2TouEmWfw6y3HVDrfegt4cbINQCy7F52qPMCqh-WZ9WelnG-NQzXuHefsA7aMOYpwF75Y7gX6gzYsWVfuMvqzCwANuG09kN1dRbA.mp4?_nc_cat=111&_nc_sid=b66105&_nc_ht=video-phl2-1.xx.fbcdn.net&_nc_ohc=Yv3OJvpmQZ0Q7kNvwFjABMP&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE1MzU5NDQzMTQ1NDI1MTgsImFzc2V0X2FnZV9kYXlzIjoxMDIsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjo0MCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=5cea35cb5d836565&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC81NjQ2QjM1NUIxOUJGRUIzMTE2OTE4MUI1QUZDQTc5Ql9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzEwNDZBODQ5OEY5RjM5N0FBNEI4OTI0MUZGQTVFQUFDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbs5pr03Lu6BRUCKAJDMywXQEQZmZmZmZoYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=lIpmjilOteIhffLPeCwasg&_nc_ss=7b289&_nc_zt=28&oh=00_AQLsBM4f63AdSJASK9mrKcDVl_KIplwkMjZ27t8Dypt-Qg&oe=6AA40739",
+              "displayFormat": "VIDEO",
+              "videoPreviewImageUrl": "https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/728951174_4746915258929139_4572561305250351731_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=R8qDwI10kp8Q7kNvwHbvz1P&_nc_oc=Ado7HsRNzu6M4FfM70hzxqMviht8h9G3kNu_UfobdBbcuuq9wTWhSBxbpNXyvE0Lmpg&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=lIpmjilOteIhffLPeCwasg&_nc_ss=7b289&oh=00_AQLCINs65YRVfaWKl-vMC6zYblHZzju0rdAfFM77bvdTig&oe=6AA4134B"
+            }
+          ],
+          "languages": [],
+          "startDate": "2026-06-22T07:00:00.000Z",
+          "categories": [
+            "UNKNOWN"
+          ],
+          "entityType": null,
+          "adArchiveId": "1401542428476587",
+          "impressions": null,
+          "isProductAd": null,
+          "reportCount": null,
+          "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1401542428476587",
+          "reachEstimate": null,
+          "brandedContent": null,
+          "complianceFlags": {
+            "hidden": null,
+            "isAAAEligible": false,
+            "politicalCountries": [],
+            "containsSensitiveContent": false
+          },
+          "linkDescription": "20 receitas testadas + passo a passo simples",
+          "totalActiveTime": null,
+          "targetedCountries": [],
+          "publisherPlatforms": [
+            "FACEBOOK",
+            "INSTAGRAM",
+            "AUDIENCE_NETWORK",
+            "MESSENGER",
+            "THREADS"
+          ]
+        }
+      ]
+    },
+    {
+      "chave": "marianatalita.com.br/saladas-para-o-dia-a-dia-emagreca",
+      "link": "https://marianatalita.com.br/saladas-para-o-dia-a-dia-emagreca",
+      "pagina": {
+        "id": "1983243691931913",
+        "name": "Mariana Talita",
+        "likes": 32576,
+        "owner": "Mariana Talita",
+        "pageUrl": "https://www.facebook.com/1983243691931913",
+        "categories": [
+          "Blog pessoal"
+        ],
+        "profileUri": "https://www.facebook.com/marianatalitap/",
+        "instagramUrl": null,
+        "coverPhotoUrl": null,
+        "totalAdsCount": 54,
+        "newestAdStartDate": "2026-08-11T07:00:00.000Z",
+        "oldestAdStartDate": "2026-08-11T07:00:00.000Z",
+        "profilePictureUrl": "https://scontent.fbnu4-1.fna.fbcdn.net/v/t39.35426-6/772932284_1694134428525927_6156525610312791530_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=hyiN7KuxD8sQ7kNvwFf4mtA&_nc_oc=Adrn2L1E5tILDOsIKoFjU1bT76p5T7VEwmedkcVqcRpCxIknZamHNDgj_Bd9q-T1OSskQfRIfj7N4_oq2STh3XlB&_nc_zt=14&_nc_ht=scontent.fbnu4-1.fna&_nc_gid=jXiIahnp0Yu9HCZIezjPIQ&_nc_ss=7b289&oh=00_AQIdN-8FW5-EX5YMnu6Oeb3uUscQ_I2dQivzngTojVmyBQ&oe=6AA41E99",
+        "selectedAdEndDate": "2026-09-06T07:00:00.000Z",
+        "instagramFollowers": null,
+        "observedAdsInBatch": 1,
+        "selectedAdStartDate": "2026-08-11T07:00:00.000Z",
+        "sameCreativeAdsInBatch": 1,
+        "hasCreativeDuplicatesInBatch": false,
+        "anunciosNaPagina": 54,
+        "fonteContagem": "ad_hunter"
+      },
+      "criativosNoLote": 1,
+      "criativosDaOferta": 1,
+      "diasAtivoMediana": 42,
+      "diasAtivoMax": 42,
+      "keywords": [
+        "fazer e vender"
+      ],
+      "principal": {
+        "id": "2640023413081985",
+        "titulo": "Saladas Gostosas Variadas 🥗😋",
+        "texto": "A salada não precisa ser a obrigação triste do prato... 🥹\n\nCom o ebook \"Saladas Gostosas para o Dia a Dia\" são mais de 70 receitas de saladas, molhos e método para você criar saladas GOSTOSAS por si. 😋\n\nToque no botão que aparece em sua tela e aprenda a sentir prazer ao se alimentar bem!",
+        "cta": "Saiba mais",
+        "link": "https://marianatalita.com.br/saladas-para-o-dia-a-dia-emagreca",
+        "criativos": [
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video-iad6-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQNbRdM21hPef1Q6uBwuIb-opy8ksC59kP3JWPLRM5AnxLcMQGHHKWy3Pae3JhZ3oxPCUG1yVEwijlbKys5g8-IOaTVx2dK5MWNIlUOcMb5hXg.mp4?_nc_cat=100&_nc_sid=b66105&_nc_ht=video-iad6-1.xx.fbcdn.net&_nc_ohc=tSk3Zyi6t0YQ7kNvwHHI-2p&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEyMDM4NDc5NjA5MDMzNjUsImFzc2V0X2FnZV9kYXlzIjo3MDcsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo0NSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=c315b47d23a9c0a&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8wNDQ1QzNEQjdFMUE5OUE2Q0IxMTExNDI4MzRBQjFBQV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dKX3JseHR6WXNiTU1rc0RBTFFmLWhKNU44eEVidjRHQUFBRhUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaK-5WhlrmjBBUCKAJDMywXQEbVP3ztkWgYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=gSkvecwy-BllYGFwfXTSUg&_nc_ss=7b289&_nc_zt=28&oh=00_AQKu_t3iIImv_IVPYzYJzztaq-owlwcI2TaQVckAU-WgiA&oe=6AB88AEC",
+            "thumb": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.35426-6/502434210_699819499419408_4615635321699527197_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=mojcKU0IvPgQ7kNvwG0lbbL&_nc_oc=AdoMEQzgJ3u_t2opMsNp4S_dkOFc6FudQw-ibbawYO-YemiqcjsJRExQ62sx4echYLw&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=gSkvecwy-BllYGFwfXTSUg&_nc_ss=7b289&oh=00_AQKqPcMdXW-tKJeXxY8TPIOuVsYDMvOuOQL622KaszSVjQ&oe=6AB87099",
+            "link": "https://marianatalita.com.br/saladas-para-o-dia-a-dia-2/?utm_source=meta_ads&utm_medium=advantage&utm_campaign=saladas_semanal&utm_content=AD_V_S_VID09&utm_term=externo"
+          }
+        ],
+        "diasAtivo": 42,
+        "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2640023413081985"
+      },
+      "ads": [
+        {
+          "spend": null,
+          "title": "Saladas Gostosas Variadas 🥗😋",
+          "caption": "marianatalita.com.br/saladas-para-o-dia-a-dia",
+          "ctaText": "Saiba mais",
+          "ctaType": "LEARN_MORE",
+          "endDate": "2026-09-06T07:00:00.000Z",
+          "linkUrl": "https://marianatalita.com.br/saladas-para-o-dia-a-dia-emagreca",
+          "bodyText": "A salada não precisa ser a obrigação triste do prato... 🥹\n\nCom o ebook \"Saladas Gostosas para o Dia a Dia\" são mais de 70 receitas de saladas, molhos e método para você criar saladas GOSTOSAS por si. 😋\n\nToque no botão que aparece em sua tela e aprenda a sentir prazer ao se alimentar bem!",
+          "currency": null,
+          "isActive": true,
+          "creatives": [
+            {
+              "body": "{{product.brand}}",
+              "type": "video",
+              "title": "Aprenda a Sentir Prazer ao se Alimentar Bem 😋",
+              "caption": "marianatalita.com.br/saladas-para-o-dia-a-dia",
+              "ctaText": "Learn More",
+              "ctaType": "LEARN_MORE",
+              "linkUrl": "https://marianatalita.com.br/saladas-para-o-dia-a-dia-2/?utm_source=meta_ads&utm_medium=advantage&utm_campaign=saladas_semanal&utm_content=AD_V_S_VID09&utm_term=externo",
+              "imageUrl": null,
+              "videoUrl": "https://video-iad6-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQNbRdM21hPef1Q6uBwuIb-opy8ksC59kP3JWPLRM5AnxLcMQGHHKWy3Pae3JhZ3oxPCUG1yVEwijlbKys5g8-IOaTVx2dK5MWNIlUOcMb5hXg.mp4?_nc_cat=100&_nc_sid=b66105&_nc_ht=video-iad6-1.xx.fbcdn.net&_nc_ohc=tSk3Zyi6t0YQ7kNvwHHI-2p&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEyMDM4NDc5NjA5MDMzNjUsImFzc2V0X2FnZV9kYXlzIjo3MDcsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo0NSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=c315b47d23a9c0a&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8wNDQ1QzNEQjdFMUE5OUE2Q0IxMTExNDI4MzRBQjFBQV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dKX3JseHR6WXNiTU1rc0RBTFFmLWhKNU44eEVidjRHQUFBRhUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaK-5WhlrmjBBUCKAJDMywXQEbVP3ztkWgYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=gSkvecwy-BllYGFwfXTSUg&_nc_ss=7b289&_nc_zt=28&oh=00_AQKu_t3iIImv_IVPYzYJzztaq-owlwcI2TaQVckAU-WgiA&oe=6AB88AEC",
+              "displayFormat": "video",
+              "videoPreviewImageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.35426-6/502434210_699819499419408_4615635321699527197_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=mojcKU0IvPgQ7kNvwG0lbbL&_nc_oc=AdoMEQzgJ3u_t2opMsNp4S_dkOFc6FudQw-ibbawYO-YemiqcjsJRExQ62sx4echYLw&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=gSkvecwy-BllYGFwfXTSUg&_nc_ss=7b289&oh=00_AQKqPcMdXW-tKJeXxY8TPIOuVsYDMvOuOQL622KaszSVjQ&oe=6AB87099"
+            }
+          ],
+          "languages": [],
+          "startDate": "2026-08-11T07:00:00.000Z",
+          "categories": [
+            "UNKNOWN"
+          ],
+          "entityType": null,
+          "adArchiveId": "2640023413081985",
+          "impressions": null,
+          "isProductAd": null,
+          "reportCount": null,
+          "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2640023413081985",
+          "reachEstimate": null,
+          "brandedContent": null,
+          "complianceFlags": {
+            "hidden": null,
+            "isAAAEligible": true,
+            "politicalCountries": [],
+            "containsSensitiveContent": false
+          },
+          "linkDescription": null,
+          "totalActiveTime": null,
+          "targetedCountries": [],
+          "publisherPlatforms": [
+            "FACEBOOK",
+            "INSTAGRAM",
+            "MESSENGER",
+            "WHATSAPP",
+            "THREADS"
+          ]
+        }
+      ]
+    },
+    {
+      "chave": "melisaescobar.com/rentas",
+      "link": "https://melisaescobar.com/rentas",
+      "pagina": {
+        "id": "694631937073971",
+        "name": "Melisa Escobar CM",
+        "likes": 98745,
+        "owner": "Melisa Escobar CM",
+        "pageUrl": "https://www.facebook.com/694631937073971",
+        "categories": [
+          "Author"
+        ],
+        "profileUri": "https://www.facebook.com/61578382502001/",
+        "instagramUrl": null,
+        "coverPhotoUrl": null,
+        "totalAdsCount": 45,
+        "newestAdStartDate": "2026-07-31T07:00:00.000Z",
+        "oldestAdStartDate": "2026-07-31T07:00:00.000Z",
+        "profilePictureUrl": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.35426-6/759659345_4334364813454248_5943929756549205210_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=39Qe8bppXb8Q7kNvwHnWV8T&_nc_oc=Adr9f3HMGH8GNxFWCnhNNNYYRM05t0vc7jx_0gwF0jmjzEaUJRbk_RwDyoYkoPGXpJc&_nc_zt=14&_nc_ht=scontent-hou1-1.xx&_nc_gid=O60u7-PiAmMV518Bnzo_Ew&_nc_ss=7b289&oh=00_AQL5pIRi8lG1HaNeWs6x99XX0DomywqZ_5-SxcbTdQu-kg&oe=6AA412E0",
+        "selectedAdEndDate": "2026-09-06T07:00:00.000Z",
+        "instagramFollowers": null,
+        "observedAdsInBatch": 1,
+        "selectedAdStartDate": "2026-07-31T07:00:00.000Z",
+        "sameCreativeAdsInBatch": 1,
+        "hasCreativeDuplicatesInBatch": false,
+        "anunciosNaPagina": 45,
+        "fonteContagem": "ad_hunter"
+      },
+      "criativosNoLote": 1,
+      "criativosDaOferta": 1,
+      "diasAtivoMediana": 53,
+      "diasAtivoMax": 53,
+      "keywords": [
+        "Generar ingresos extra"
+      ],
+      "principal": {
+        "id": "1713400716446466",
+        "titulo": "Clase gratuita en vivo",
+        "texto": "Hay una forma distinta de aprovechar la inteligencia artificial que casi nadie está viendo todavía.\n\nLa llamo Rentas Inteligentes: en vez de empezar de cero una y otra vez, construyes algo una sola vez y lo dejas funcionando.\n\nTe explico de qué se trata, paso a paso, en una clase gratuita y en vivo.\n\nEs gratis y con cupos limitados. Toca el enlace.",
+        "cta": "Saiba mais",
+        "link": "https://melisaescobar.com/rentas",
+        "criativos": [
+          {
+            "tipo": "image",
+            "imagem": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.35426-6/644693997_952987090404227_7481998542493465107_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=wm_D8p6TLf8Q7kNvwHg470_&_nc_oc=AdrYE4DLXQOyGZ9ZwAozuDdolniTYlamavBZ_N5JWzWd8lK6G4XYkoa_Z3r4GHl_g-4&_nc_zt=14&_nc_ht=scontent-atl3-1.xx&_nc_gid=85lo4vx-hYt9LFNVTHqj4A&_nc_ss=7b289&oh=00_AQI02V5256VqAUP1wABcuD-66bz396fwX4EOqjd0KMxnrw&oe=6AB86A25",
+            "video": null,
+            "thumb": null,
+            "link": "https://melisaescobar.com/vsldfsdrm"
+          }
+        ],
+        "diasAtivo": 53,
+        "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1713400716446466"
+      },
+      "ads": [
+        {
+          "spend": null,
+          "title": "Clase gratuita en vivo",
+          "caption": "melisaescobar.com",
+          "ctaText": "Saiba mais",
+          "ctaType": "LEARN_MORE",
+          "endDate": "2026-09-06T07:00:00.000Z",
+          "linkUrl": "https://melisaescobar.com/rentas",
+          "bodyText": "Hay una forma distinta de aprovechar la inteligencia artificial que casi nadie está viendo todavía.\n\nLa llamo Rentas Inteligentes: en vez de empezar de cero una y otra vez, construyes algo una sola vez y lo dejas funcionando.\n\nTe explico de qué se trata, paso a paso, en una clase gratuita y en vivo.\n\nEs gratis y con cupos limitados. Toca el enlace.",
+          "currency": null,
+          "isActive": true,
+          "creatives": [
+            {
+              "body": "🚀Hoy puedes dar el paso y además recibir 2 recursos adicionales incluidos en tu inscripción 🎁\n\nAl unirte al Desafío Vende con IA, obtienes acceso al programa principal y también a:\n✔️ Grabaciones completas del reto\n✔️ Guía práctica para crear videos con inteligencia artificial\n\nContenido pensado para que avances paso a paso y a tu ritmo.\nInscríbete hoy y accede a todo el material.",
+              "type": "image",
+              "title": "Accede a los bonos🎁",
+              "caption": "melisaescobar.com",
+              "ctaText": "Saiba mais",
+              "ctaType": "LEARN_MORE",
+              "linkUrl": "https://melisaescobar.com/vsldfsdrm",
+              "imageUrl": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.35426-6/644693997_952987090404227_7481998542493465107_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=wm_D8p6TLf8Q7kNvwHg470_&_nc_oc=AdrYE4DLXQOyGZ9ZwAozuDdolniTYlamavBZ_N5JWzWd8lK6G4XYkoa_Z3r4GHl_g-4&_nc_zt=14&_nc_ht=scontent-atl3-1.xx&_nc_gid=85lo4vx-hYt9LFNVTHqj4A&_nc_ss=7b289&oh=00_AQI02V5256VqAUP1wABcuD-66bz396fwX4EOqjd0KMxnrw&oe=6AB86A25",
+              "videoUrl": null,
+              "displayFormat": "image",
+              "videoPreviewImageUrl": null
+            }
+          ],
+          "languages": [],
+          "startDate": "2026-07-31T07:00:00.000Z",
+          "categories": [
+            "UNKNOWN"
+          ],
+          "entityType": null,
+          "adArchiveId": "1713400716446466",
+          "impressions": null,
+          "isProductAd": null,
+          "reportCount": null,
+          "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1713400716446466",
+          "reachEstimate": null,
+          "brandedContent": null,
+          "complianceFlags": {
+            "hidden": null,
+            "isAAAEligible": true,
+            "politicalCountries": [],
+            "containsSensitiveContent": false
+          },
+          "linkDescription": null,
+          "totalActiveTime": null,
+          "targetedCountries": [],
+          "publisherPlatforms": [
+            "FACEBOOK",
+            "INSTAGRAM"
+          ]
+        }
+      ]
+    },
+    {
+      "chave": "mundocroche.site",
+      "link": "http://mundocroche.site/",
+      "pagina": {
+        "id": "1172922529237611",
+        "name": "Maria Silva - Artesã",
+        "likes": 150,
+        "owner": "Maria Silva - Artesã",
+        "pageUrl": "https://www.facebook.com/1172922529237611",
+        "categories": [
+          "Digital Creator"
+        ],
+        "profileUri": "https://www.facebook.com/61590534047560/",
+        "instagramUrl": null,
+        "coverPhotoUrl": null,
+        "totalAdsCount": 44,
+        "newestAdStartDate": "2026-08-26T07:00:00.000Z",
+        "oldestAdStartDate": "2026-08-26T07:00:00.000Z",
+        "profilePictureUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/786944303_1674432314682796_7189964928720592968_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=h1bAZ1CVSdQQ7kNvwFNDZMJ&_nc_oc=Ado18ouiiyhf55WzBMDXb0_-o8-G7pL9S4ZXEDF3LZQXdp3ZaQKxTdRB2LaAjkOGjKY&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=ChouwTdB0rnjx-vCV6e71w&_nc_ss=7b289&oh=00_AQKnvjkiCdZCgxr3zX5qgPiJheHsQFy5Er6DsSwT4LEG5g&oe=6AA420C8",
+        "selectedAdEndDate": "2026-09-06T07:00:00.000Z",
+        "instagramFollowers": null,
+        "observedAdsInBatch": 1,
+        "selectedAdStartDate": "2026-08-26T07:00:00.000Z",
+        "sameCreativeAdsInBatch": 1,
+        "hasCreativeDuplicatesInBatch": false,
+        "anunciosNaPagina": 44,
+        "fonteContagem": "ad_hunter"
+      },
+      "criativosNoLote": 1,
+      "criativosDaOferta": 1,
+      "diasAtivoMediana": 27,
+      "diasAtivoMax": 27,
+      "keywords": [
+        "aprenda a fazer renda extra"
+      ],
+      "principal": {
+        "id": "4087618531539170",
+        "titulo": "POR APENAS R$5,00!",
+        "texto": "✨ Você já imaginou criar Capas de Bíblia lindas, mesmo sem experiência com crochê? Com esse curso você aprende passo a passo, de forma simples e prática, através de +30 vídeo aulas completas, para criar peças delicadas que encantam e ainda podem gerar uma renda extra.\n\n✅ Aprenda no seu ritmo \n✅ Acesse pelo celular ou computador\n✅ Mesmo para quem está começando do zero\n\n🎁 E o melhor: hoje você pode começar por apenas R$5.\n\n⚠️ Mas atenção: essa é uma oferta por tempo limitado e o valor promocional pode ser alterado a qualquer momento. \n\n👇 Clique em \"Saiba Mais\" e garanta agora seu acesso antes que a promoção termine!",
+        "cta": "Saiba mais",
+        "link": "http://mundocroche.site/",
+        "criativos": [
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQPjIQgnVH_aTZnI7FJZK-y85agLzRyKmJAYaXvzk9gqGKKCm6BB9U-SEAPkQb0rOi6elzMi5Y6mAttrI9sNGRBHDTPud9SGUh2DEWa3Vz9cJQ.mp4?_nc_cat=110&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=nOSt8CrQWtsQ7kNvwHcVXnr&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjIyMjU1MDE4NDgyNzA3MzQsImFzc2V0X2FnZV9kYXlzIjo0NCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjM5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=8b9e74e3355d224e&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC84NDQ1NEYwMDM5QzM5RTU1MzJEODRFM0QzMDE1NDQ5Nl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0ZFNDg3RTBDMzE2NTU2NjUzRjc0NjU1QkEwQ0E1MzkxX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACac3ufxoIX0BxUCKAJDMywXQEOVP3ztkWgYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=ChouwTdB0rnjx-vCV6e71w&_nc_ss=7b289&_nc_zt=28&oh=00_AQI_YwEmOJHkS1ATMHM006Buwpqgk9hZC9I7H01-wtZCqw&oe=6AA4337E",
+            "thumb": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/786811272_1063616513085778_3442690694256501029_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=rNvC8c9OJrgQ7kNvwFcBwYW&_nc_oc=AdoinHuMyfx1O3koakbbnkC6Fe-ZmANm6DlemDBLN3sAVIGjPM7W5epFOUjfeM8oNCg&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=ChouwTdB0rnjx-vCV6e71w&_nc_ss=7b289&oh=00_AQKzWS9ZQTbcSMHKzMH5BhV_5QFDcBQshVsTQ_pzJeYrnQ&oe=6AA4230D",
+            "link": "http://mundocroche.site/"
+          }
+        ],
+        "diasAtivo": 27,
+        "urlBiblioteca": "https://www.facebook.com/ads/library/?id=4087618531539170"
+      },
+      "ads": [
+        {
+          "spend": null,
+          "title": "POR APENAS R$5,00!",
+          "caption": "mundocroche.site",
+          "ctaText": "Saiba mais",
+          "ctaType": "LEARN_MORE",
+          "endDate": "2026-09-06T07:00:00.000Z",
+          "linkUrl": "http://mundocroche.site/",
+          "bodyText": "✨ Você já imaginou criar Capas de Bíblia lindas, mesmo sem experiência com crochê? Com esse curso você aprende passo a passo, de forma simples e prática, através de +30 vídeo aulas completas, para criar peças delicadas que encantam e ainda podem gerar uma renda extra.\n\n✅ Aprenda no seu ritmo \n✅ Acesse pelo celular ou computador\n✅ Mesmo para quem está começando do zero\n\n🎁 E o melhor: hoje você pode começar por apenas R$5.\n\n⚠️ Mas atenção: essa é uma oferta por tempo limitado e o valor promocional pode ser alterado a qualquer momento. \n\n👇 Clique em \"Saiba Mais\" e garanta agora seu acesso antes que a promoção termine!",
+          "currency": null,
+          "isActive": true,
+          "creatives": [
+            {
+              "body": "✨ Você já imaginou criar Capas de Bíblia lindas, mesmo sem experiência com crochê? Com esse curso você aprende passo a passo, de forma simples e prática, através de +30 vídeo aulas completas, para criar peças delicadas que encantam e ainda podem gerar uma renda extra.\n\n✅ Aprenda no seu ritmo \n✅ Acesse pelo celular ou computador\n✅ Mesmo para quem está começando do zero\n\n🎁 E o melhor: hoje você pode começar por apenas R$5.\n\n⚠️ Mas atenção: essa é uma oferta por tempo limitado e o valor promocional pode ser alterado a qualquer momento. \n\n👇 Clique em \"Saiba Mais\" e garanta agora seu acesso antes que a promoção termine!",
+              "type": "video",
+              "title": "POR APENAS R$5,00!",
+              "caption": "mundocroche.site",
+              "ctaText": "Saiba mais",
+              "ctaType": "LEARN_MORE",
+              "linkUrl": "http://mundocroche.site/",
+              "imageUrl": null,
+              "videoUrl": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQPjIQgnVH_aTZnI7FJZK-y85agLzRyKmJAYaXvzk9gqGKKCm6BB9U-SEAPkQb0rOi6elzMi5Y6mAttrI9sNGRBHDTPud9SGUh2DEWa3Vz9cJQ.mp4?_nc_cat=110&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=nOSt8CrQWtsQ7kNvwHcVXnr&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjIyMjU1MDE4NDgyNzA3MzQsImFzc2V0X2FnZV9kYXlzIjo0NCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjM5LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=8b9e74e3355d224e&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC84NDQ1NEYwMDM5QzM5RTU1MzJEODRFM0QzMDE1NDQ5Nl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0ZFNDg3RTBDMzE2NTU2NjUzRjc0NjU1QkEwQ0E1MzkxX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACac3ufxoIX0BxUCKAJDMywXQEOVP3ztkWgYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=ChouwTdB0rnjx-vCV6e71w&_nc_ss=7b289&_nc_zt=28&oh=00_AQI_YwEmOJHkS1ATMHM006Buwpqgk9hZC9I7H01-wtZCqw&oe=6AA4337E",
+              "displayFormat": "VIDEO",
+              "videoPreviewImageUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/786811272_1063616513085778_3442690694256501029_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=rNvC8c9OJrgQ7kNvwFcBwYW&_nc_oc=AdoinHuMyfx1O3koakbbnkC6Fe-ZmANm6DlemDBLN3sAVIGjPM7W5epFOUjfeM8oNCg&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=ChouwTdB0rnjx-vCV6e71w&_nc_ss=7b289&oh=00_AQKzWS9ZQTbcSMHKzMH5BhV_5QFDcBQshVsTQ_pzJeYrnQ&oe=6AA4230D"
+            }
+          ],
+          "languages": [],
+          "startDate": "2026-08-26T07:00:00.000Z",
+          "categories": [
+            "UNKNOWN"
+          ],
+          "entityType": null,
+          "adArchiveId": "4087618531539170",
+          "impressions": null,
+          "isProductAd": null,
+          "reportCount": null,
+          "adLibraryUrl": "https://www.facebook.com/ads/library/?id=4087618531539170",
+          "reachEstimate": null,
+          "brandedContent": null,
+          "complianceFlags": {
+            "hidden": null,
+            "isAAAEligible": false,
+            "politicalCountries": [],
+            "containsSensitiveContent": false
+          },
+          "linkDescription": "⭐⭐⭐⭐⭐ (4.9/5.0)",
+          "totalActiveTime": null,
+          "targetedCountries": [],
+          "publisherPlatforms": [
+            "FACEBOOK",
+            "INSTAGRAM",
+            "AUDIENCE_NETWORK",
+            "MESSENGER",
+            "WHATSAPP",
+            "THREADS"
+          ]
+        }
+      ]
+    },
+    {
+      "chave": "biafercroche.com.br/metodo-croche-lucrativo",
+      "link": "https://biafercroche.com.br/metodo-croche-lucrativo/",
+      "pagina": {
+        "id": "103749444636574",
+        "name": "biafercroche",
+        "likes": 15883,
+        "owner": "biafercroche",
+        "pageUrl": "https://www.facebook.com/103749444636574",
+        "categories": [
+          "Public figure"
+        ],
+        "profileUri": "https://www.facebook.com/biafercroche/",
+        "instagramUrl": null,
+        "coverPhotoUrl": null,
+        "totalAdsCount": 33,
+        "newestAdStartDate": "2026-08-19T07:00:00.000Z",
+        "oldestAdStartDate": "2026-08-19T07:00:00.000Z",
+        "profilePictureUrl": "https://scontent.fmvd1-1.fna.fbcdn.net/v/t39.35426-6/779945714_893056166918467_1948757628185616364_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=qjxvkHbBkCUQ7kNvwH0RHYm&_nc_oc=Adp0T1M2CK-ftbkSbFplmS2bnNfxE-rUIV_SjhHP67JijXhI6AD2P2PGXHvkuVeGZLU&_nc_zt=14&_nc_ht=scontent.fmvd1-1.fna&_nc_gid=M4jmYhvt-Vb6F_tYxmyG5w&_nc_ss=7b289&oh=00_AQKhKXkb1YTrNWyWWwAsbpVECxye8n1o3OKnOVxkXcJfUA&oe=6AA42459",
+        "selectedAdEndDate": "2026-09-06T07:00:00.000Z",
+        "instagramFollowers": null,
+        "observedAdsInBatch": 1,
+        "selectedAdStartDate": "2026-08-19T07:00:00.000Z",
+        "sameCreativeAdsInBatch": 1,
+        "hasCreativeDuplicatesInBatch": false,
+        "anunciosNaPagina": 33,
+        "fonteContagem": "ad_hunter"
+      },
+      "criativosNoLote": 1,
+      "criativosDaOferta": 1,
+      "diasAtivoMediana": 34,
+      "diasAtivoMax": 34,
+      "keywords": [
+        "fazer e vender"
+      ],
+      "principal": {
+        "id": "1623958039070450",
+        "titulo": "ASSISTA A AULA GRÁTIS!",
+        "texto": "🧶 DO ZERO À SUA NOVA RENDA COM CROCHÊ!💰✨\n\nVocê não precisa ser uma expert em crochê para começar a transformar suas peças em uma nova fonte de renda. ❤️\n\nPreparei uma aula GRATUITA para te mostrar como começar do zero, mesmo que você ainda esteja dando os primeiros pontos. 🧶\n\n👉 Assista à aula e descubra como dar os primeiros passos para fazer do crochê uma oportunidade de ganhar dinheiro! 💰\n\n🎁 A aula é 100% gratuita.\n\nClique em “Saiba mais” e assista agora! 👇",
+        "cta": "Saiba mais",
+        "link": "https://biafercroche.com.br/metodo-croche-lucrativo/",
+        "criativos": [
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video.fmvd3-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQNtNC1VYr_TviHDCl6dAlN3eg2yeQVPAfF1-A3yNWaCOXaNsbILI-p7rF6kbWa0yM4gNWH8Qo2txGs6L99r5imcfEXHoqy7gUzcoQ9JN5jbdA.mp4?_nc_cat=104&_nc_oc=AdpWSBDX8HybzyxHahZf1RDHrJm193nmJV9TyQ2fiY0YrYwO2i3CdhHrOTqKXAljpiM&_nc_sid=b66105&_nc_ht=video.fmvd3-1.fna.fbcdn.net&_nc_ohc=LUjWy218Px8Q7kNvwFCchN4&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjI0MzUwMDcyNTAzMjQwNzYsImFzc2V0X2FnZV9kYXlzIjoxOCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjk3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=afd3d76d3a463542&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC80NjRFQjA0RUZBMzNDQTIxQjkzRjEzMjBGQTVFNEY5RF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0JBNDA5RDFCNEZFNTFBMDVCNzgzNDNEMjVBN0NFNzg5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbY6fLiiajTCBUCKAJDMywXQFhMzMzMzM0YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=M4jmYhvt-Vb6F_tYxmyG5w&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQK-iOZ7tr0sFbjDMSdmCEbTp7k6utlvJ90_RVGlRMGIDg&oe=6AA43C98",
+            "thumb": "https://scontent.fmvd3-1.fna.fbcdn.net/v/t39.35426-6/778589762_898091259651631_6389869369454119856_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MRu31po1B40Q7kNvwEshWEj&_nc_oc=Adqzhh4T6ZOAcly4uGFtrY5r_SHqU9Vvcx2-G7yL2t8Ub_I8TxPbbU9YdNjSMdJaBuU&_nc_zt=14&_nc_ht=scontent.fmvd3-1.fna&_nc_gid=M4jmYhvt-Vb6F_tYxmyG5w&_nc_ss=7b289&oh=00_AQKOIDeZz1Ozn3QCqydYlM20h9X021uHyDnqysaFEUw5oA&oe=6AA43DD2",
+            "link": "https://biafercroche.com.br/metodo-croche-lucrativo/"
+          }
+        ],
+        "diasAtivo": 34,
+        "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1623958039070450"
+      },
+      "ads": [
+        {
+          "spend": null,
+          "title": "ASSISTA A AULA GRÁTIS!",
+          "caption": "biafercroche.com.br",
+          "ctaText": "Saiba mais",
+          "ctaType": "LEARN_MORE",
+          "endDate": "2026-09-06T07:00:00.000Z",
+          "linkUrl": "https://biafercroche.com.br/metodo-croche-lucrativo/",
+          "bodyText": "🧶 DO ZERO À SUA NOVA RENDA COM CROCHÊ!💰✨\n\nVocê não precisa ser uma expert em crochê para começar a transformar suas peças em uma nova fonte de renda. ❤️\n\nPreparei uma aula GRATUITA para te mostrar como começar do zero, mesmo que você ainda esteja dando os primeiros pontos. 🧶\n\n👉 Assista à aula e descubra como dar os primeiros passos para fazer do crochê uma oportunidade de ganhar dinheiro! 💰\n\n🎁 A aula é 100% gratuita.\n\nClique em “Saiba mais” e assista agora! 👇",
+          "currency": null,
+          "isActive": true,
+          "creatives": [
+            {
+              "body": "🧶 DO ZERO À SUA NOVA RENDA COM CROCHÊ!💰✨\n\nVocê não precisa ser uma expert em crochê para começar a transformar suas peças em uma nova fonte de renda. ❤️\n\nPreparei uma aula GRATUITA para te mostrar como começar do zero, mesmo que você ainda esteja dando os primeiros pontos. 🧶\n\n👉 Assista à aula e descubra como dar os primeiros passos para fazer do crochê uma oportunidade de ganhar dinheiro! 💰\n\n🎁 A aula é 100% gratuita.\n\nClique em “Saiba mais” e assista agora! 👇",
+              "type": "video",
+              "title": "ASSISTA A AULA GRÁTIS!",
+              "caption": "biafercroche.com.br",
+              "ctaText": "Saiba mais",
+              "ctaType": "LEARN_MORE",
+              "linkUrl": "https://biafercroche.com.br/metodo-croche-lucrativo/",
+              "imageUrl": null,
+              "videoUrl": "https://video.fmvd3-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQNtNC1VYr_TviHDCl6dAlN3eg2yeQVPAfF1-A3yNWaCOXaNsbILI-p7rF6kbWa0yM4gNWH8Qo2txGs6L99r5imcfEXHoqy7gUzcoQ9JN5jbdA.mp4?_nc_cat=104&_nc_oc=AdpWSBDX8HybzyxHahZf1RDHrJm193nmJV9TyQ2fiY0YrYwO2i3CdhHrOTqKXAljpiM&_nc_sid=b66105&_nc_ht=video.fmvd3-1.fna.fbcdn.net&_nc_ohc=LUjWy218Px8Q7kNvwFCchN4&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjI0MzUwMDcyNTAzMjQwNzYsImFzc2V0X2FnZV9kYXlzIjoxOCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjk3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=afd3d76d3a463542&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC80NjRFQjA0RUZBMzNDQTIxQjkzRjEzMjBGQTVFNEY5RF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0JBNDA5RDFCNEZFNTFBMDVCNzgzNDNEMjVBN0NFNzg5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbY6fLiiajTCBUCKAJDMywXQFhMzMzMzM0YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=M4jmYhvt-Vb6F_tYxmyG5w&_nc_ss=7b289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQK-iOZ7tr0sFbjDMSdmCEbTp7k6utlvJ90_RVGlRMGIDg&oe=6AA43C98",
+              "displayFormat": "VIDEO",
+              "videoPreviewImageUrl": "https://scontent.fmvd3-1.fna.fbcdn.net/v/t39.35426-6/778589762_898091259651631_6389869369454119856_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MRu31po1B40Q7kNvwEshWEj&_nc_oc=Adqzhh4T6ZOAcly4uGFtrY5r_SHqU9Vvcx2-G7yL2t8Ub_I8TxPbbU9YdNjSMdJaBuU&_nc_zt=14&_nc_ht=scontent.fmvd3-1.fna&_nc_gid=M4jmYhvt-Vb6F_tYxmyG5w&_nc_ss=7b289&oh=00_AQKOIDeZz1Ozn3QCqydYlM20h9X021uHyDnqysaFEUw5oA&oe=6AA43DD2"
+            }
+          ],
+          "languages": [],
+          "startDate": "2026-08-19T07:00:00.000Z",
+          "categories": [
+            "UNKNOWN"
+          ],
+          "entityType": null,
+          "adArchiveId": "1623958039070450",
+          "impressions": null,
+          "isProductAd": null,
+          "reportCount": null,
+          "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1623958039070450",
+          "reachEstimate": null,
+          "brandedContent": null,
+          "complianceFlags": {
+            "hidden": null,
+            "isAAAEligible": false,
+            "politicalCountries": [],
+            "containsSensitiveContent": false
+          },
+          "linkDescription": null,
+          "totalActiveTime": null,
+          "targetedCountries": [],
+          "publisherPlatforms": [
+            "FACEBOOK",
+            "INSTAGRAM",
+            "AUDIENCE_NETWORK",
+            "MESSENGER",
+            "THREADS"
+          ]
+        }
+      ]
+    },
+    {
+      "chave": "am.mathtere.com.br/quiz-hr",
+      "link": "https://am.mathtere.com.br/quiz-hr/",
+      "pagina": {
+        "id": "1366141383450905",
+        "name": "Math terê",
+        "likes": 123926,
+        "owner": "Math terê",
+        "pageUrl": "https://www.facebook.com/1366141383450905",
+        "categories": [
+          "Canal de TV"
+        ],
+        "profileUri": "https://www.facebook.com/professorlucianosantana/",
+        "instagramUrl": null,
+        "coverPhotoUrl": null,
+        "totalAdsCount": 33,
+        "newestAdStartDate": "2026-07-09T07:00:00.000Z",
+        "oldestAdStartDate": "2026-07-09T07:00:00.000Z",
+        "profilePictureUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/742020491_1721963209067644_7576403074888600326_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=cV52DjRwtw0Q7kNvwHr8Gp7&_nc_oc=AdoWPooltVxp-w1tTwxKaxwHS05yk1lVNG4WD9R5XIxixqsjHb7DChHbLnkLxi-Ao3I&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=kR2lkIj-IheUzayLllmgJQ&_nc_ss=7b289&oh=00_AQKoGudnFUrbCTZhS3EsVGY8Q0ShcftTPLX-UHpGinPpxA&oe=6AA43205",
+        "selectedAdEndDate": "2026-09-06T07:00:00.000Z",
+        "instagramFollowers": null,
+        "observedAdsInBatch": 1,
+        "selectedAdStartDate": "2026-07-09T07:00:00.000Z",
+        "sameCreativeAdsInBatch": 1,
+        "hasCreativeDuplicatesInBatch": false,
+        "anunciosNaPagina": 33,
+        "fonteContagem": "ad_hunter"
+      },
+      "criativosNoLote": 1,
+      "criativosDaOferta": 1,
+      "diasAtivoMediana": 75,
+      "diasAtivoMax": 75,
+      "keywords": [
+        "aprenda a fazer renda extra"
+      ],
+      "principal": {
+        "id": "3613990422073887",
+        "titulo": "Curso online de como comprar no Paraguai",
+        "texto": "APRENDA COMO COMPRAR NO PARAGUAI DE FORMA LEGAL\n\nNunca mais sofra com a receita, aprenda como comprar sem riscos\n\nDe R$ 197 por apenas R$ 67 ou \n12x de R$ 6,85\n\nCondição especial por pouco tempo",
+        "cta": "Saiba mais",
+        "link": "https://am.mathtere.com.br/quiz-hr/",
+        "criativos": [
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQM_VB1UANrMSq9L6opg5Z-otpffTfVyfpkPMMfGzmFIF1y0h0ESaBqaZ2vLwwoks4Ef7Bkt_-jIISs3-P-APoAyqSWq99nhQ0N-sCVDmURtJQ.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=VUkPjZ5gWPYQ7kNvwHG_V3t&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjMwOTIyODkwMzQyODk5ODgsImFzc2V0X2FnZV9kYXlzIjoxMDcsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo3MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=ae772baf3b8ce190&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9BNjRENjM1QzE4RjA4MzA0Qjg4MDM5MjBDQzE5NEM5M19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0M3NDg1REI3ODY1Q0ZEOTJEOTBBMzg2MDQyOEEwMDgzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaIjfTW9Jr-ChUCKAJDMywXQFJcKPXCj1wYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=kR2lkIj-IheUzayLllmgJQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQI3_wwDpcaCOo-7VAotd9iE-8-ETj0g6tULcT7IL5vLXQ&oe=6AA42BEB",
+            "thumb": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/743496839_1079161885067570_5753777814319494177_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Mph4JSi0BXgQ7kNvwH1qtb8&_nc_oc=AdoeyhfoQPMZ_81YMy_nYJ8Dz6nt-W8pe56_ZdFnq916c1GcOm8NibLhxfmq-zZQzhw&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=kR2lkIj-IheUzayLllmgJQ&_nc_ss=7b289&oh=00_AQL4lJBLa9U6WCdmphNVvDjoeIQuac_wpwYVTCtHbMWbOw&oe=6AA4350D",
+            "link": "https://am.mathtere.com.br/quiz-hr/"
+          }
+        ],
+        "diasAtivo": 75,
+        "urlBiblioteca": "https://www.facebook.com/ads/library/?id=3613990422073887"
+      },
+      "ads": [
+        {
+          "spend": null,
+          "title": "Curso online de como comprar no Paraguai",
+          "caption": "https://lp.mathtere.com.br/",
+          "ctaText": "Saiba mais",
+          "ctaType": "LEARN_MORE",
+          "endDate": "2026-09-06T07:00:00.000Z",
+          "linkUrl": "https://am.mathtere.com.br/quiz-hr/",
+          "bodyText": "APRENDA COMO COMPRAR NO PARAGUAI DE FORMA LEGAL\n\nNunca mais sofra com a receita, aprenda como comprar sem riscos\n\nDe R$ 197 por apenas R$ 67 ou \n12x de R$ 6,85\n\nCondição especial por pouco tempo",
+          "currency": null,
+          "isActive": true,
+          "creatives": [
+            {
+              "body": "APRENDA COMO COMPRAR NO PARAGUAI DE FORMA LEGAL\n\nNunca mais sofra com a receita, aprenda como comprar sem riscos\n\nDe R$ 197 por apenas R$ 67 ou \n12x de R$ 6,85\n\nCondição especial por pouco tempo",
+              "type": "video",
+              "title": "Curso online de como comprar no Paraguai",
+              "caption": "https://lp.mathtere.com.br/",
+              "ctaText": "Saiba mais",
+              "ctaType": "LEARN_MORE",
+              "linkUrl": "https://am.mathtere.com.br/quiz-hr/",
+              "imageUrl": null,
+              "videoUrl": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQM_VB1UANrMSq9L6opg5Z-otpffTfVyfpkPMMfGzmFIF1y0h0ESaBqaZ2vLwwoks4Ef7Bkt_-jIISs3-P-APoAyqSWq99nhQ0N-sCVDmURtJQ.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=VUkPjZ5gWPYQ7kNvwHG_V3t&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjMwOTIyODkwMzQyODk5ODgsImFzc2V0X2FnZV9kYXlzIjoxMDcsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo3MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=ae772baf3b8ce190&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9BNjRENjM1QzE4RjA4MzA0Qjg4MDM5MjBDQzE5NEM5M19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0M3NDg1REI3ODY1Q0ZEOTJEOTBBMzg2MDQyOEEwMDgzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaIjfTW9Jr-ChUCKAJDMywXQFJcKPXCj1wYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=kR2lkIj-IheUzayLllmgJQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQI3_wwDpcaCOo-7VAotd9iE-8-ETj0g6tULcT7IL5vLXQ&oe=6AA42BEB",
+              "displayFormat": "VIDEO",
+              "videoPreviewImageUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/743496839_1079161885067570_5753777814319494177_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Mph4JSi0BXgQ7kNvwH1qtb8&_nc_oc=AdoeyhfoQPMZ_81YMy_nYJ8Dz6nt-W8pe56_ZdFnq916c1GcOm8NibLhxfmq-zZQzhw&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=kR2lkIj-IheUzayLllmgJQ&_nc_ss=7b289&oh=00_AQL4lJBLa9U6WCdmphNVvDjoeIQuac_wpwYVTCtHbMWbOw&oe=6AA4350D"
+            }
+          ],
+          "languages": [],
+          "startDate": "2026-07-09T07:00:00.000Z",
+          "categories": [
+            "UNKNOWN"
+          ],
+          "entityType": null,
+          "adArchiveId": "3613990422073887",
+          "impressions": null,
+          "isProductAd": null,
+          "reportCount": null,
+          "adLibraryUrl": "https://www.facebook.com/ads/library/?id=3613990422073887",
+          "reachEstimate": null,
+          "brandedContent": {
+            "page_id": "100542762921668",
+            "page_name": "Mago do Tráfego Pago Felipe",
+            "page_is_deleted": false,
+            "page_profile_uri": "https://www.facebook.com/magodotrafegopagofelipe/"
+          },
+          "complianceFlags": {
+            "hidden": null,
+            "isAAAEligible": false,
+            "politicalCountries": [],
+            "containsSensitiveContent": false
+          },
+          "linkDescription": null,
+          "totalActiveTime": null,
+          "targetedCountries": [],
+          "publisherPlatforms": [
+            "FACEBOOK",
+            "INSTAGRAM",
+            "AUDIENCE_NETWORK",
+            "MESSENGER",
+            "THREADS"
+          ]
+        }
+      ]
+    },
+    {
+      "chave": "tufinho.cursosonline.xyz/tufu",
+      "link": "https://tufinho.cursosonline.xyz/tufu/",
+      "pagina": {
+        "id": "1130917260101548",
+        "name": "Juliana Ribeiro Cílios Profissional",
+        "likes": 486,
+        "owner": "Juliana Ribeiro Cílios Profissional",
+        "pageUrl": "https://www.facebook.com/1130917260101548",
+        "categories": [
+          "Health/beauty",
+          "Digital Creator"
+        ],
+        "profileUri": "https://www.facebook.com/61589250471334/",
+        "instagramUrl": null,
+        "coverPhotoUrl": null,
+        "totalAdsCount": 30,
+        "newestAdStartDate": "2026-08-01T07:00:00.000Z",
+        "oldestAdStartDate": "2026-08-01T07:00:00.000Z",
+        "profilePictureUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/760444348_1327563752444197_7863558988012437302_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=EqFtC3W5gy4Q7kNvwHTC7_6&_nc_oc=AdqwbAy27wClsNrpxF2wgGUd6z6theIoASiJuBDXfORXCviIIDY9uTaJkL7hqcrudJw&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=kR2lkIj-IheUzayLllmgJQ&_nc_ss=7b289&oh=00_AQIZeVgrofgykcOFNeGnWg0b1UAbseUexjxW6-USWWvpmg&oe=6AA41FEE",
+        "selectedAdEndDate": "2026-09-06T07:00:00.000Z",
+        "instagramFollowers": null,
+        "observedAdsInBatch": 1,
+        "selectedAdStartDate": "2026-08-01T07:00:00.000Z",
+        "sameCreativeAdsInBatch": 1,
+        "hasCreativeDuplicatesInBatch": false,
+        "anunciosNaPagina": 30,
+        "fonteContagem": "ad_hunter"
+      },
+      "criativosNoLote": 1,
+      "criativosDaOferta": 1,
+      "diasAtivoMediana": 52,
+      "diasAtivoMax": 52,
+      "keywords": [
+        "aprenda a fazer renda extra"
+      ],
+      "principal": {
+        "id": "2031847940780146",
+        "titulo": "Curso Online com Acesso Imediato",
+        "texto": "💄 Cansada de gastar com salão?\n\nAprenda a fazer seus próprios cílios e ainda ganhe dinheiro com isso\n\n💰 Renda extra\n📲 Curso online\n🎓 Certificado incluso\n\n👉 Clique em saiba mais",
+        "cta": "Saiba mais",
+        "link": "https://tufinho.cursosonline.xyz/tufu/",
+        "criativos": [
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQMjeyXSw5Ct9cYxc4OA1NUhrkVT7XJ-kcsdIk_0OtcGOmuseAvEvqxQekqxvQhRPgJdP9eq-ZLPvH0yxdsFTKL88sbDJ-6tWT92-HOSjn4kdQ.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=ozBYZRZDMbwQ7kNvwFDOp1D&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEwMTcxNzg1NzQ2MDEyNjQsImFzc2V0X2FnZV9kYXlzIjo3MywidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjQwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=f74eca254617c683&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9DRDRBMTJGMUJBNEE4Q0E3OURCQ0IxMDJCOTRCNjlCNF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0I4NEIzQ0M5NzEzNDI3Q0ExQjg0QkNDRjQ4QzU4OTlDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbg8OX5ysfOAxUCKAJDMywXQEREOVgQYk4YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=kR2lkIj-IheUzayLllmgJQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQKA1Xhki6EIXsQswpzpg8PXTyTCnMLju8YKpCwTTVv8pw&oe=6AA427EB",
+            "thumb": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/761015582_954138881020758_4024401006150675810_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=lUq95zY6PEMQ7kNvwHRv5ZG&_nc_oc=AdpVuqfKekL00f8pJG6n9TbCLJ7c_WaW4MLk5FAVLS6wwgkQaTeVzvKHDQ7oHx7U7Nc&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=kR2lkIj-IheUzayLllmgJQ&_nc_ss=7b289&oh=00_AQLw1hpPgJ0JXhJw-rrPkAHXOesfIbdD7ZLd_QmSjeo3bw&oe=6AA41572",
+            "link": "https://tufinho.cursosonline.xyz/tufu/"
+          }
+        ],
+        "diasAtivo": 52,
+        "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2031847940780146"
+      },
+      "ads": [
+        {
+          "spend": null,
+          "title": "Curso Online com Acesso Imediato",
+          "caption": "tufinho.cursosonline.xyz",
+          "ctaText": "Saiba mais",
+          "ctaType": "LEARN_MORE",
+          "endDate": "2026-09-06T07:00:00.000Z",
+          "linkUrl": "https://tufinho.cursosonline.xyz/tufu/",
+          "bodyText": "💄 Cansada de gastar com salão?\n\nAprenda a fazer seus próprios cílios e ainda ganhe dinheiro com isso\n\n💰 Renda extra\n📲 Curso online\n🎓 Certificado incluso\n\n👉 Clique em saiba mais",
+          "currency": null,
+          "isActive": true,
+          "creatives": [
+            {
+              "body": "💄 Cansada de gastar com salão?\n\nAprenda a fazer seus próprios cílios e ainda ganhe dinheiro com isso\n\n💰 Renda extra\n📲 Curso online\n🎓 Certificado incluso\n\n👉 Clique em saiba mais",
+              "type": "video",
+              "title": "Curso Online com Acesso Imediato",
+              "caption": "tufinho.cursosonline.xyz",
+              "ctaText": "Saiba mais",
+              "ctaType": "LEARN_MORE",
+              "linkUrl": "https://tufinho.cursosonline.xyz/tufu/",
+              "imageUrl": null,
+              "videoUrl": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQMjeyXSw5Ct9cYxc4OA1NUhrkVT7XJ-kcsdIk_0OtcGOmuseAvEvqxQekqxvQhRPgJdP9eq-ZLPvH0yxdsFTKL88sbDJ-6tWT92-HOSjn4kdQ.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=ozBYZRZDMbwQ7kNvwFDOp1D&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEwMTcxNzg1NzQ2MDEyNjQsImFzc2V0X2FnZV9kYXlzIjo3MywidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjQwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=f74eca254617c683&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9DRDRBMTJGMUJBNEE4Q0E3OURCQ0IxMDJCOTRCNjlCNF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0I4NEIzQ0M5NzEzNDI3Q0ExQjg0QkNDRjQ4QzU4OTlDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbg8OX5ysfOAxUCKAJDMywXQEREOVgQYk4YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=kR2lkIj-IheUzayLllmgJQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQKA1Xhki6EIXsQswpzpg8PXTyTCnMLju8YKpCwTTVv8pw&oe=6AA427EB",
+              "displayFormat": "VIDEO",
+              "videoPreviewImageUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/761015582_954138881020758_4024401006150675810_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=lUq95zY6PEMQ7kNvwHRv5ZG&_nc_oc=AdpVuqfKekL00f8pJG6n9TbCLJ7c_WaW4MLk5FAVLS6wwgkQaTeVzvKHDQ7oHx7U7Nc&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=kR2lkIj-IheUzayLllmgJQ&_nc_ss=7b289&oh=00_AQLw1hpPgJ0JXhJw-rrPkAHXOesfIbdD7ZLd_QmSjeo3bw&oe=6AA41572"
+            }
+          ],
+          "languages": [],
+          "startDate": "2026-08-01T07:00:00.000Z",
+          "categories": [
+            "UNKNOWN"
+          ],
+          "entityType": null,
+          "adArchiveId": "2031847940780146",
+          "impressions": null,
+          "isProductAd": null,
+          "reportCount": null,
+          "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2031847940780146",
+          "reachEstimate": null,
+          "brandedContent": null,
+          "complianceFlags": {
+            "hidden": null,
+            "isAAAEligible": false,
+            "politicalCountries": [],
+            "containsSensitiveContent": false
+          },
+          "linkDescription": "Certificado incluso e acesso imediato",
+          "totalActiveTime": null,
+          "targetedCountries": [],
+          "publisherPlatforms": [
+            "FACEBOOK",
+            "INSTAGRAM",
+            "AUDIENCE_NETWORK",
+            "MESSENGER",
+            "WHATSAPP",
+            "THREADS"
+          ]
+        }
+      ]
+    },
+    {
+      "chave": "blog.institutorudolph.com.br/69816574dbc8dca3581e627f",
+      "link": "https://blog.institutorudolph.com.br/69816574dbc8dca3581e627f?sub1={{ad.id}}&sub2={{adset.id}}&sub3={{campaign.id}}&sub4={{ad.name}}&sub5={{adset.name}}&sub6={{campaign.name}}&sub7={{placement}}&sub8={{site_source_name}}&utm_source=facebook&utm_medium=paid",
+      "pagina": {
+        "id": "220103471184457",
+        "name": "Instituto Rudolph",
+        "likes": 1002,
+        "owner": "Instituto Rudolph",
+        "pageUrl": "https://www.facebook.com/220103471184457",
+        "categories": [
+          "Health/beauty"
+        ],
+        "profileUri": "https://www.facebook.com/61556069721108/",
+        "instagramUrl": null,
+        "coverPhotoUrl": null,
+        "totalAdsCount": 25,
+        "newestAdStartDate": "2026-06-12T07:00:00.000Z",
+        "oldestAdStartDate": "2026-06-12T07:00:00.000Z",
+        "profilePictureUrl": "https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/721415446_1509028430904357_6515969728449555340_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=uib9uLigHI8Q7kNvwE9BdZh&_nc_oc=AdocCdWRI0Q-QISMz_kkmUOXTmIHol4LuRR6HW5kfUKnX-pHJ3C0IS-EgyncI18ZgLw&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=fG-SyOfN8uyOY3l0RBdX5Q&_nc_ss=7b289&oh=00_AQL4i3QvOfH3vtW4nLR0KXs2wmmKb7MD3YoNE8ILzENoHw&oe=6AA42708",
+        "selectedAdEndDate": "2026-09-06T07:00:00.000Z",
+        "instagramFollowers": null,
+        "observedAdsInBatch": 1,
+        "selectedAdStartDate": "2026-06-12T07:00:00.000Z",
+        "sameCreativeAdsInBatch": 1,
+        "hasCreativeDuplicatesInBatch": false,
+        "anunciosNaPagina": 25,
+        "fonteContagem": "ad_hunter"
+      },
+      "criativosNoLote": 1,
+      "criativosDaOferta": 1,
+      "diasAtivoMediana": 102,
+      "diasAtivoMax": 102,
+      "keywords": [
+        "aprenda a fazer dinheiro"
+      ],
+      "principal": {
+        "id": "2029318714337616",
+        "titulo": "Faça o teste grátis agora",
+        "texto": "O Melasma fala! \nA região onde as manchas estão localizadas podem mostrar o caminho da solução.\nCada Melasma tem sua particularidade e o mapa do Melasma te dá o caminho para clarear as manchas em casa e ficar livre de efeito rebote.\nPor isso eu resolvi disponibilizar um diagnóstico gratuito e personalizado. Ao final do teste além de saber seu diagnóstico, você também terá acesso a um protocolo caseiro específico para o seu caso e mais alguns presentes. Faça o teste grátis e descubra.\n\nOBS: Últimos testes grátis",
+        "cta": "Ver detalhes",
+        "link": "https://blog.institutorudolph.com.br/69816574dbc8dca3581e627f?sub1={{ad.id}}&sub2={{adset.id}}&sub3={{campaign.id}}&sub4={{ad.name}}&sub5={{adset.name}}&sub6={{campaign.name}}&sub7={{placement}}&sub8={{site_source_name}}&utm_source=facebook&utm_medium=paid",
+        "criativos": [
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video-phl2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQNVvc30CIGjsq3vH5DjAdihYF2TQPpPT_M11j-Jpsi8uZ6FXc7qogHl_iL0ob8VQvHAUpiigw3QMfFV8FT2Agc52tS3YuSvBH1VtVLzESevKg.mp4?_nc_cat=106&_nc_sid=b66105&_nc_ht=video-phl2-1.xx.fbcdn.net&_nc_ohc=bvGS3q9KgSIQ7kNvwHtIqv6&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEwMjY3MzkwMDAwMjkyODgsImFzc2V0X2FnZV9kYXlzIjoxMTQsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo4OSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=5111ac87086a6676&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9GOTRFMDA3QzY3RTFEMUE2NzhFRDBENkRGRDZDOEY4Ml9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0U3NDlGODAwNTY0ODIyRjc4Q0NEODhFM0RCN0ZBNkIyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbQwf3VifTSAxUCKAJDMywXQFZiHKwIMScYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=fG-SyOfN8uyOY3l0RBdX5Q&_nc_ss=7b289&_nc_zt=28&oh=00_AQKMnKamwF6VbUCDfJk6Lt-9d0g-2t3HhQWL54nHKV0fmw&oe=6AA41152",
+            "thumb": "https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/722245364_1668399477605478_7907030580856265458_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=YqkFHNTlilgQ7kNvwH8Epc3&_nc_oc=AdoyQiIAsW0kjUk01l2dJBuxZNHN2UfNrlp6qQtButTBHu8iHoA0NLUXs6o1qPYxx10&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=fG-SyOfN8uyOY3l0RBdX5Q&_nc_ss=7b289&oh=00_AQIRooFuZAT0XPGrdwRYvnsGX9x9Rkixoew3oaSa-hYiqg&oe=6AA4325E",
+            "link": "https://blog.institutorudolph.com.br/69816574dbc8dca3581e627f?sub1={{ad.id}}&sub2={{adset.id}}&sub3={{campaign.id}}&sub4={{ad.name}}&sub5={{adset.name}}&sub6={{campaign.name}}&sub7={{placement}}&sub8={{site_source_name}}&utm_source=facebook&utm_medium=paid"
+          }
+        ],
+        "diasAtivo": 102,
+        "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2029318714337616"
+      },
+      "ads": [
+        {
+          "spend": null,
+          "title": "Faça o teste grátis agora",
+          "caption": "blog.institutorudolph.com.br",
+          "ctaText": "Ver detalhes",
+          "ctaType": "SEE_DETAILS",
+          "endDate": "2026-09-06T07:00:00.000Z",
+          "linkUrl": "https://blog.institutorudolph.com.br/69816574dbc8dca3581e627f?sub1={{ad.id}}&sub2={{adset.id}}&sub3={{campaign.id}}&sub4={{ad.name}}&sub5={{adset.name}}&sub6={{campaign.name}}&sub7={{placement}}&sub8={{site_source_name}}&utm_source=facebook&utm_medium=paid",
+          "bodyText": "O Melasma fala! \nA região onde as manchas estão localizadas podem mostrar o caminho da solução.\nCada Melasma tem sua particularidade e o mapa do Melasma te dá o caminho para clarear as manchas em casa e ficar livre de efeito rebote.\nPor isso eu resolvi disponibilizar um diagnóstico gratuito e personalizado. Ao final do teste além de saber seu diagnóstico, você também terá acesso a um protocolo caseiro específico para o seu caso e mais alguns presentes. Faça o teste grátis e descubra.\n\nOBS: Últimos testes grátis",
+          "currency": null,
+          "isActive": true,
+          "creatives": [
+            {
+              "body": "O Melasma fala! \nA região onde as manchas estão localizadas podem mostrar o caminho da solução.\nCada Melasma tem sua particularidade e o mapa do Melasma te dá o caminho para clarear as manchas em casa e ficar livre de efeito rebote.\nPor isso eu resolvi disponibilizar um diagnóstico gratuito e personalizado. Ao final do teste além de saber seu diagnóstico, você também terá acesso a um protocolo caseiro específico para o seu caso e mais alguns presentes. Faça o teste grátis e descubra.\n\nOBS: Últimos testes grátis",
+              "type": "video",
+              "title": "Faça o teste grátis agora",
+              "caption": "blog.institutorudolph.com.br",
+              "ctaText": "Ver detalhes",
+              "ctaType": "SEE_DETAILS",
+              "linkUrl": "https://blog.institutorudolph.com.br/69816574dbc8dca3581e627f?sub1={{ad.id}}&sub2={{adset.id}}&sub3={{campaign.id}}&sub4={{ad.name}}&sub5={{adset.name}}&sub6={{campaign.name}}&sub7={{placement}}&sub8={{site_source_name}}&utm_source=facebook&utm_medium=paid",
+              "imageUrl": null,
+              "videoUrl": "https://video-phl2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQNVvc30CIGjsq3vH5DjAdihYF2TQPpPT_M11j-Jpsi8uZ6FXc7qogHl_iL0ob8VQvHAUpiigw3QMfFV8FT2Agc52tS3YuSvBH1VtVLzESevKg.mp4?_nc_cat=106&_nc_sid=b66105&_nc_ht=video-phl2-1.xx.fbcdn.net&_nc_ohc=bvGS3q9KgSIQ7kNvwHtIqv6&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEwMjY3MzkwMDAwMjkyODgsImFzc2V0X2FnZV9kYXlzIjoxMTQsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo4OSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=5111ac87086a6676&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9GOTRFMDA3QzY3RTFEMUE2NzhFRDBENkRGRDZDOEY4Ml9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0U3NDlGODAwNTY0ODIyRjc4Q0NEODhFM0RCN0ZBNkIyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbQwf3VifTSAxUCKAJDMywXQFZiHKwIMScYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=fG-SyOfN8uyOY3l0RBdX5Q&_nc_ss=7b289&_nc_zt=28&oh=00_AQKMnKamwF6VbUCDfJk6Lt-9d0g-2t3HhQWL54nHKV0fmw&oe=6AA41152",
+              "displayFormat": "VIDEO",
+              "videoPreviewImageUrl": "https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/722245364_1668399477605478_7907030580856265458_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=YqkFHNTlilgQ7kNvwH8Epc3&_nc_oc=AdoyQiIAsW0kjUk01l2dJBuxZNHN2UfNrlp6qQtButTBHu8iHoA0NLUXs6o1qPYxx10&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=fG-SyOfN8uyOY3l0RBdX5Q&_nc_ss=7b289&oh=00_AQIRooFuZAT0XPGrdwRYvnsGX9x9Rkixoew3oaSa-hYiqg&oe=6AA4325E"
+            }
+          ],
+          "languages": [],
+          "startDate": "2026-06-12T07:00:00.000Z",
+          "categories": [
+            "UNKNOWN"
+          ],
+          "entityType": null,
+          "adArchiveId": "2029318714337616",
+          "impressions": null,
+          "isProductAd": null,
+          "reportCount": null,
+          "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2029318714337616",
+          "reachEstimate": null,
+          "brandedContent": null,
+          "complianceFlags": {
+            "hidden": null,
+            "isAAAEligible": false,
+            "politicalCountries": [],
+            "containsSensitiveContent": false
+          },
+          "linkDescription": "Aprenda preparar o chá anti-melasma",
+          "totalActiveTime": null,
+          "targetedCountries": [],
+          "publisherPlatforms": [
+            "FACEBOOK",
+            "INSTAGRAM",
+            "AUDIENCE_NETWORK",
+            "MESSENGER",
+            "THREADS"
+          ]
+        }
+      ]
+    },
+    {
+      "chave": "pay.cursoseletronicafacil.com.br/campaign/reparo-em-10-dias",
+      "link": "https://pay.cursoseletronicafacil.com.br/campaign/reparo-em-10-dias",
+      "pagina": {
+        "id": "776807199075705",
+        "name": "Eletrônica Fácil",
+        "likes": 120303,
+        "owner": "Eletrônica Fácil",
+        "pageUrl": "https://www.facebook.com/776807199075705",
+        "categories": [
+          "Education website"
+        ],
+        "profileUri": "https://www.facebook.com/eletronicafacil/",
+        "instagramUrl": null,
+        "coverPhotoUrl": null,
+        "totalAdsCount": 24,
+        "newestAdStartDate": "2026-05-26T07:00:00.000Z",
+        "oldestAdStartDate": "2026-05-26T07:00:00.000Z",
+        "profilePictureUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/689922088_1714271989926900_4660191143692464611_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=voT9f6sKNJ8Q7kNvwEn9XxC&_nc_oc=Adq1vairxslvprHf4QYNcpVfmLefWMaNJLsh0_-h8DBSBQQVQLQeUnewYYYwfKh4O8s&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=kR2lkIj-IheUzayLllmgJQ&_nc_ss=7b289&oh=00_AQL593LURjsBIJJOWVCT_kJhJT9517PvDa0tvaOay2tbuA&oe=6AA4253E",
+        "selectedAdEndDate": "2026-09-06T07:00:00.000Z",
+        "instagramFollowers": null,
+        "observedAdsInBatch": 2,
+        "selectedAdStartDate": "2026-05-26T07:00:00.000Z",
+        "sameCreativeAdsInBatch": 1,
+        "hasCreativeDuplicatesInBatch": false,
+        "anunciosNaPagina": 24,
+        "fonteContagem": "ad_hunter"
+      },
+      "criativosNoLote": 1,
+      "criativosDaOferta": 1,
+      "diasAtivoMediana": 119,
+      "diasAtivoMax": 119,
+      "keywords": [
+        "aprenda a fazer renda extra"
+      ],
+      "principal": {
+        "id": "1510527700482652",
+        "titulo": null,
+        "texto": null,
+        "cta": "Saiba mais",
+        "link": "https://pay.cursoseletronicafacil.com.br/campaign/reparo-em-10-dias",
+        "criativos": [
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQOM2Aq6wnfZQ3jutGhLqK7_1kyix7GNJgmPnNbM3sogQvqJ12ahs4bQ-R49eqdCU7wIAY3V43n2QU-gtysb_rVSOV5hsApqTLD74aMoaZO0ew.mp4?_nc_cat=109&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=AL2WqOCSXNsQ7kNvwGrA76O&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMTA4MC5kYXNoX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNzA2NTcxNTUzNDc2ODA3LCJhc3NldF9hZ2VfZGF5cyI6MTcyLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6ODEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=b5c22cbee64ab726&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8xRDQ3RjVDMkEzNjVCNTQ2MUI3QTQyRTcyN0VFNTJBNl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0RENDc0NzVBRkRENjVDQjhFRkNBQTRCRDFBNzNEOUFGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaOw9TzxIeIBhUCKAJDMywXQFRIgxJul40YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=kR2lkIj-IheUzayLllmgJQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQJNr217mQ6lPtjpDgkOHuy3wVcD1ulMD8Cet_lJtIPyuQ&oe=6AA40A57",
+            "thumb": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/687039761_1690131182016971_837185193937054616_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=otJxMb3HqzgQ7kNvwHjgzuP&_nc_oc=AdrAqMokU6e68IYpxVgef8J2-d4dPN7Y_cy8T39y_z35u93Dq6d87g08eMX81dl6Iyc&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=kR2lkIj-IheUzayLllmgJQ&_nc_ss=7b289&oh=00_AQI3f3DdwgRwZez0FbjhNbuCXVvWct2mCODAZKMnRTg9Rg&oe=6AA41F25",
+            "link": "https://pay.cursoseletronicafacil.com.br/campaign/reparo-em-10-dias"
+          },
+          {
+            "tipo": "video",
+            "imagem": null,
+            "video": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQMx14Inz1gP8-Gl7cOh_g-DClnxFZs8MmlGGxW60IcGv_Eup9Js4aetf1_jnwQMdElpL7YUcX7anyXNq5Ftf_PtwpZIkJWLnyY12uu8naQn-w.mp4?_nc_cat=104&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=uzCIMHVYUnQQ7kNvwHK_w8c&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjc2NTk1MTk3OTY3MTYwNiwiYXNzZXRfYWdlX2RheXMiOjE3MiwidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjgxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=a413a4d7915e2c62&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9GMTQxQjJENzMxNkQ3MTg1MjdDQTczNzBCQzJGQUVCRV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzY3NDEyOUY3QjAzRUYyMkRDNDE4OUM0REU0QzAwOTk4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbswM76oqjcAhUCKAJDMywXQFRIgxJul40YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=kR2lkIj-IheUzayLllmgJQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQJuTj4hZ99KhflKLNRHlUaAQWCdFAKCmLES_dDKmwoOug&oe=6AA409F4",
+            "thumb": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/690030474_953710904251048_62086049523877734_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=sjUWpaVeP8AQ7kNvwGuPIzP&_nc_oc=Adr4Ufavu-NHtp-oiKBdS-CIEZaXDuHM1oPuYEF38DmKssUvl17m_pLMCXK8Wo7iSH8&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=kR2lkIj-IheUzayLllmgJQ&_nc_ss=7b289&oh=00_AQJmEOelQujZlz7mLcMZt_DjpUvA-0nVcj6Hcg9x4-EMUQ&oe=6AA43D2D",
+            "link": "https://pay.cursoseletronicafacil.com.br/campaign/reparo-em-10-dias"
+          }
+        ],
+        "diasAtivo": 119,
+        "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1510527700482652"
+      },
+      "ads": [
+        {
+          "spend": null,
+          "title": null,
+          "caption": "pay.cursoseletronicafacil.com.br",
+          "ctaText": "Saiba mais",
+          "ctaType": "LEARN_MORE",
+          "endDate": "2026-09-06T07:00:00.000Z",
+          "linkUrl": "https://pay.cursoseletronicafacil.com.br/campaign/reparo-em-10-dias",
+          "bodyText": null,
+          "currency": null,
+          "isActive": true,
+          "creatives": [
+            {
+              "body": "Aprenda fazer seus primeiros reparos em placas eletrônicas em 10 dias",
+              "type": "video",
+              "title": "Primeiros Reparos em 10 dias ⭐⭐⭐⭐⭐",
+              "caption": null,
+              "ctaText": "Learn More",
+              "ctaType": "LEARN_MORE",
+              "linkUrl": "https://pay.cursoseletronicafacil.com.br/campaign/reparo-em-10-dias",
+              "imageUrl": null,
+              "videoUrl": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQOM2Aq6wnfZQ3jutGhLqK7_1kyix7GNJgmPnNbM3sogQvqJ12ahs4bQ-R49eqdCU7wIAY3V43n2QU-gtysb_rVSOV5hsApqTLD74aMoaZO0ew.mp4?_nc_cat=109&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=AL2WqOCSXNsQ7kNvwGrA76O&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMTA4MC5kYXNoX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoxNzA2NTcxNTUzNDc2ODA3LCJhc3NldF9hZ2VfZGF5cyI6MTcyLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6ODEsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=b5c22cbee64ab726&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8xRDQ3RjVDMkEzNjVCNTQ2MUI3QTQyRTcyN0VFNTJBNl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0RENDc0NzVBRkRENjVDQjhFRkNBQTRCRDFBNzNEOUFGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaOw9TzxIeIBhUCKAJDMywXQFRIgxJul40YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=kR2lkIj-IheUzayLllmgJQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQJNr217mQ6lPtjpDgkOHuy3wVcD1ulMD8Cet_lJtIPyuQ&oe=6AA40A57",
+              "displayFormat": null,
+              "videoPreviewImageUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/687039761_1690131182016971_837185193937054616_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=otJxMb3HqzgQ7kNvwHjgzuP&_nc_oc=AdrAqMokU6e68IYpxVgef8J2-d4dPN7Y_cy8T39y_z35u93Dq6d87g08eMX81dl6Iyc&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=kR2lkIj-IheUzayLllmgJQ&_nc_ss=7b289&oh=00_AQI3f3DdwgRwZez0FbjhNbuCXVvWct2mCODAZKMnRTg9Rg&oe=6AA41F25"
+            },
+            {
+              "body": "Aprenda fazer seus primeiros reparos em placas eletrônicas em 10 dias",
+              "type": "video",
+              "title": "Primeiros Reparos em 10 dias ⭐⭐⭐⭐⭐",
+              "caption": null,
+              "ctaText": "Learn More",
+              "ctaType": "LEARN_MORE",
+              "linkUrl": "https://pay.cursoseletronicafacil.com.br/campaign/reparo-em-10-dias",
+              "imageUrl": null,
+              "videoUrl": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQMx14Inz1gP8-Gl7cOh_g-DClnxFZs8MmlGGxW60IcGv_Eup9Js4aetf1_jnwQMdElpL7YUcX7anyXNq5Ftf_PtwpZIkJWLnyY12uu8naQn-w.mp4?_nc_cat=104&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=uzCIMHVYUnQQ7kNvwHK_w8c&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjc2NTk1MTk3OTY3MTYwNiwiYXNzZXRfYWdlX2RheXMiOjE3MiwidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjgxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=a413a4d7915e2c62&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9GMTQxQjJENzMxNkQ3MTg1MjdDQTczNzBCQzJGQUVCRV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzY3NDEyOUY3QjAzRUYyMkRDNDE4OUM0REU0QzAwOTk4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbswM76oqjcAhUCKAJDMywXQFRIgxJul40YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=kR2lkIj-IheUzayLllmgJQ&_nc_ss=7b289&_nc_zt=28&oh=00_AQJuTj4hZ99KhflKLNRHlUaAQWCdFAKCmLES_dDKmwoOug&oe=6AA409F4",
+              "displayFormat": null,
+              "videoPreviewImageUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/690030474_953710904251048_62086049523877734_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=sjUWpaVeP8AQ7kNvwGuPIzP&_nc_oc=Adr4Ufavu-NHtp-oiKBdS-CIEZaXDuHM1oPuYEF38DmKssUvl17m_pLMCXK8Wo7iSH8&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=kR2lkIj-IheUzayLllmgJQ&_nc_ss=7b289&oh=00_AQJmEOelQujZlz7mLcMZt_DjpUvA-0nVcj6Hcg9x4-EMUQ&oe=6AA43D2D"
+            }
+          ],
+          "languages": [],
+          "startDate": "2026-05-26T07:00:00.000Z",
+          "categories": [
+            "UNKNOWN"
+          ],
+          "entityType": null,
+          "adArchiveId": "1510527700482652",
+          "impressions": null,
+          "isProductAd": null,
+          "reportCount": null,
+          "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1510527700482652",
+          "reachEstimate": null,
+          "brandedContent": null,
+          "complianceFlags": {
+            "hidden": null,
+            "isAAAEligible": false,
+            "politicalCountries": [],
+            "containsSensitiveContent": false
+          },
+          "linkDescription": null,
+          "totalActiveTime": null,
+          "targetedCountries": [],
+          "publisherPlatforms": [
+            "FACEBOOK",
+            "INSTAGRAM",
+            "AUDIENCE_NETWORK",
+            "MESSENGER",
+            "THREADS"
+          ]
+        }
+      ]
+    }
+  ]
 }
