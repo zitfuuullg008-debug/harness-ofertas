@@ -1,8 +1,8 @@
 {
-  "_doc": "Nichos e keywords que o minerador vasculha na Biblioteca de Anúncios da Meta. 'exato' = frase exata. 'pais' = ISO-2 ou ALL. 'ofertasNoTotal' = quantas ofertas o relatório entrega no total (as melhores entre todos os nichos). 'anunciosPorKeyword' = quantos anúncios coletar por keyword (30 vem sem rolar a página). 'enriquecerPorNicho' = quantas páginas por nicho visitar pra contar anúncios (cada visita é 1 pedido à Meta).",
+  "_doc": "Nichos e keywords que o minerador vasculha na Biblioteca de Anúncios da Meta. 'exato' = frase exata. 'pais' = ISO-2 ou ALL. 'ofertasNoTotal' = quantas ofertas o relatório entrega no total (as melhores entre todos os nichos). 'anunciosPorKeyword' = quantos anúncios coletar por keyword (30 vem sem rolar a página). 'enriquecerPorNicho' = quantas páginas por nicho visitar pra contar anúncios (cada visita é 1 pedido à Meta). Valores conservadores de propósito: cada pedido a mais é chance de bloqueio da Meta.",
   "ofertasNoTotal": 4,
-  "anunciosPorKeyword": 30,
-  "enriquecerPorNicho": 5,
+  "anunciosPorKeyword": 20,
+  "enriquecerPorNicho": 3,
   "nichos": [
     {
       "id": "receitas",
