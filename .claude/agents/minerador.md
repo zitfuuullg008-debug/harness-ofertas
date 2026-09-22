@@ -39,14 +39,13 @@ Para cada oferta do `top` de cada nicho em `resumo.json`, leia `anuncioPrincipal
 
 Se estiver ambíguo → **MANTER** com nota de confiança baixa. Nunca descarte por falta de informação.
 
-## Passo 2b — Escolher as `ofertasNoTotal` melhores NO GERAL (config, hoje = 4)
+## Passo 2b — Escolher as `ofertasPorNicho` melhores DE CADA NICHO (config, hoje = 2)
 
-Não é por nicho: junte todas as ofertas que passaram no filtro, de todos os nichos, e escolha as **4 mais escaladas** pelo score e pelos sinais. Regras de desempate:
-- Prefira diversidade: no máximo 2 do mesmo nicho, 1 por página.
-- **Anti-repetição diária:** das 4, no máximo 2 podem ter aparecido no relatório anterior (`saidas/mineracao/`, o mais recente). As outras devem ser novas. Se uma recorrente segue no topo, marque `novo: false` e o `vezesVisto` — recorrência é sinal forte, não ruído.
-- Se faltou candidato, vá buscar mais fundo em `data/raw/<hoje>/<nicho>.json` (campo `ofertas`, ordenado por score) — nunca entregue menos de 4 sem explicar no `resumo`.
-
-No JSON, inclua só os nichos que têm oferta escolhida (pode ser 1 nicho com 2 e outros 2 com 1 cada). `descartados` pode listar os que quase entraram, com motivo.
+Para **cada nicho** que tem coleta, escolha as 2 ofertas mais escaladas que passaram no filtro. Regras:
+- Uma oferta por página dentro do nicho (duas páginas diferentes, não dois produtos da mesma página).
+- **Anti-repetição:** das 2 de um nicho, no máximo 1 pode ter aparecido no relatório anterior. Uma recorrente no topo é sinal forte — marque `novo: false` e o `vezesVisto`.
+- Se um nicho não tem 2 ofertas aprovadas, vá mais fundo em `data/raw/<hoje>/<nicho>.json` (campo `ofertas`, ordenado por score). Se mesmo assim não houver, entregue as que houver e diga no `resumo`.
+- Nicho sem coleta (0 anúncios) entra em `nichosFaltando`, não no corpo do relatório.
 
 ## Passo 3 — Ler o histórico
 
@@ -60,7 +59,7 @@ O usuário **não quer parede de texto**. Você escreve um JSON com cards curtos
 ```json
 {
   "data": "<hoje>",
-  "resumo": "2–3 frases: nichos vasculhados, ofertas vistas, quantas passaram, por que essas 4.",
+  "resumo": "2–3 frases: nichos vasculhados, ofertas vistas, quantas passaram, destaques do dia.",
   "nichosFaltando": ["<ids de nichos que não entraram, se houver>"],
   "padroes": ["3–6 bullets transversais: mecanismos, formatos, preços, CTAs, hooks que se repetem"],
   "nichos": [
@@ -94,4 +93,4 @@ Depois rode: `node scripts/render-relatorio.mjs saidas/mineracao/<hoje>.json` �
 
 ## Passo 5 — Responder no chat
 
-Uma linha: caminho do `.html` + as 4 ofertas escolhidas (nome → 1 frase). Nada mais.
+Uma linha: caminho do `.html` + quantas ofertas por nicho + os 3 destaques do dia. Nada mais.
