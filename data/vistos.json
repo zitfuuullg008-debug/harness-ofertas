@@ -19,7 +19,7 @@
     "612745608593353": {
       "nome": "Renata Brugnera - Nutrição",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21"
+      "ultimaVez": "2026-09-22"
     },
     "110191770814844": {
       "nome": "Doces de Sucesso DG",
@@ -138,8 +138,7 @@
     "1158143547370846": {
       "nome": "Roberta Carvalho",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21",
-      "vezes": 1
+      "ultimaVez": "2026-09-22"
     },
     "101435656050651": {
       "nome": "Lilih Semijoias",
@@ -198,8 +197,7 @@
     "101540288473622": {
       "nome": "Instituto Gourmet Barra da Tijuca",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21",
-      "vezes": 1
+      "ultimaVez": "2026-09-22"
     },
     "776807199075705": {
       "nome": "Eletrônica Fácil",
@@ -239,6 +237,16 @@
       "nome": "Culinária Low Carb da Patty Goes",
       "primeiraVez": "2026-09-21",
       "ultimaVez": "2026-09-21"
+    },
+    "380629675315128": {
+      "nome": "Sodiê Doces",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "107733053968669": {
+      "nome": "Instituto Gourmet Tijuca",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
     }
   },
   "anuncios": {},
@@ -254,8 +262,8 @@
       "pagina": "Renata Brugnera - Nutrição",
       "link": "https://pv.rebrugnera.com.br/",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21",
-      "vezes": 1
+      "ultimaVez": "2026-09-22",
+      "vezes": 2
     },
     "809123965625317|wa:sem-numero": {
       "pagina": "Silvia Araújo",
@@ -297,6 +305,34 @@
       "link": "https://pattygoes.com.br/guiapaolowcarb/",
       "primeiraVez": "2026-09-21",
       "ultimaVez": "2026-09-21",
+      "vezes": 1
+    },
+    "380629675315128|instagram.com/sodiedoces": {
+      "pagina": "Sodiê Doces",
+      "link": "http://instagram.com/sodiedoces",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "1158143547370846|wa:sem-numero": {
+      "pagina": "Roberta Carvalho",
+      "link": "https://api.whatsapp.com/send",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "101540288473622|wa:sem-numero": {
+      "pagina": "Instituto Gourmet Barra da Tijuca",
+      "link": "https://api.whatsapp.com/send",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "107733053968669|wa:sem-numero": {
+      "pagina": "Instituto Gourmet Tijuca",
+      "link": "https://api.whatsapp.com/send",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
       "vezes": 1
     }
   }
