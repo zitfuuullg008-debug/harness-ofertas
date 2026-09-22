@@ -70,11 +70,13 @@ function nichosDoDia(todos, porDia) {
   return Array.from({ length: porDia }, (_, i) => todos[(inicio + i) % todos.length]);
 }
 
+// `ativo: false` tira o nicho do rodízio (ex.: nichos black que o usuário não quer).
+const ativos = config.nichos.filter((n) => n.ativo !== false);
 const nichos = idsPedidos
   ? config.nichos.filter((n) => idsPedidos.includes(n.id))
   : flag("--todos")
-    ? config.nichos
-    : nichosDoDia(config.nichos, Number(opt("--nichos-por-dia", config.nichosPorDia ?? 0)));
+    ? ativos
+    : nichosDoDia(ativos, Number(opt("--nichos-por-dia", config.nichosPorDia ?? 0)));
 if (!nichos.length) {
   console.error(`Nicho "${soNicho}" não existe em config/nichos.json. Disponíveis: ${config.nichos.map((n) => n.id).join(", ")}`);
   process.exit(1);

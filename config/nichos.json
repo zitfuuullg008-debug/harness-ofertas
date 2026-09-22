@@ -1,5 +1,5 @@
 {
-  "_doc": "Nichos e keywords que o minerador vasculha na Biblioteca de Anúncios da Meta. 'exato' = frase exata. 'pais' = ISO-2 ou ALL. 'ofertasPorNicho' = quantas ofertas o relatório entrega POR nicho. 'anunciosPorKeyword' = quantos anúncios coletar por keyword. 'enriquecerPorNicho' = quantas páginas por nicho visitar pra contar anúncios. 'nichosPorDia' = quantos nichos rodam por dia (rodízio automático: cada nicho entra a cada N dias). ECONOMIA: o proxy residencial é pago por GB e a Meta bloqueia depois de ~12 buscas seguidas. Menos keywords e menos nichos por dia = menos banda E menos bloqueio.",
+  "_doc": "Nichos e keywords que o minerador vasculha na Biblioteca de Anúncios da Meta. 'exato' = frase exata. 'pais' = ISO-2 ou ALL. 'ofertasPorNicho' = quantas ofertas o relatório entrega POR nicho. 'anunciosPorKeyword' = quantos anúncios coletar por keyword. 'enriquecerPorNicho' = quantas páginas por nicho visitar pra contar anúncios. 'nichosPorDia' = quantos nichos rodam por dia (rodízio automático: cada nicho entra a cada N dias). ECONOMIA: o proxy residencial é pago por GB e a Meta bloqueia depois de ~12 buscas seguidas. Menos keywords e menos nichos por dia = menos banda E menos bloqueio. 'ativo': false tira o nicho do rodízio sem apagar as keywords.",
   "ofertasPorNicho": 2,
   "anunciosPorKeyword": 20,
   "enriquecerPorNicho": 2,
@@ -94,8 +94,8 @@
           "pais": "BR"
         },
         {
-          "keyword": "atividades infantis",
-          "exato": true,
+          "keyword": "aprender a ler",
+          "exato": false,
           "pais": "BR"
         }
       ]
@@ -114,7 +114,9 @@
           "exato": false,
           "pais": "BR"
         }
-      ]
+      ],
+      "ativo": false,
+      "_nota": "Desligado a pedido do usuário: nicho black (saúde/emagrecimento). Não entra no rodízio."
     }
   ],
   "nichosPorDia": 3

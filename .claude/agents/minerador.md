@@ -37,6 +37,24 @@ Para cada oferta do `top` de cada nicho em `resumo.json`, leia `anuncioPrincipal
 
 **DESCARTAR** com evidência forte de: produto físico, restaurante/loja, SaaS, app por assinatura, agência, consultoria, mentoria, high-ticket, curso longo com comunidade, marca pessoal genérica, política, vaga de emprego.
 
+### DESCARTE OBRIGATÓRIO — nicho black (saúde e emagrecimento)
+
+O usuário **não trabalha com oferta de saúde**. Descarte, mesmo que esteja escalando muito e mesmo que tenha vindo de uma busca por "receitas":
+
+- Promessa de **tratar, curar ou reverter doença ou condição**: gordura no fígado, diabetes, pressão alta, tireoide, menopausa, ansiedade, visão/catarata/vista cansada, câncer, varizes, artrite, refluxo, intestino preso.
+- **Emagrecimento como resultado médico**: "elimine X kg", detox, "seca barriga", metabolismo acelerado, chá/receita que emagrece, protocolo de jejum.
+- **Remédio natural, protocolo caseiro, fórmula, suplemento** — inclusive em formato de PDF/receituário.
+- Linguagem de pseudo-autoridade médica: "descoberta que os médicos escondem", "um simples ingrediente reverte", depoimento de cura.
+
+**Zona cinzenta — como decidir:** receituário/cardápio para uma restrição alimentar **é aceitável** quando vende comida (o que comer) e não trata doença: "50 receitas de pão sem glúten", "cardápio para diabético", "lanche sem açúcar" → MANTER. O mesmo assunto vira descarte quando a promessa é clínica: "protocolo que reverte a diabetes", "receita que limpa o fígado em 7 dias" → DESCARTAR.
+
+### PREFERÊNCIA — nicho white
+
+Quando duas ofertas empatam em sinais de escala, fique com a white. O que o usuário quer ver:
+renda extra (vender comida caseira, doces, salgados, artesanato), receitas e cardápios do dia a dia, alimentação infantil, maternidade e educação infantil (alfabetização, aprender a ler, atividades, rotina), organização da casa, conteúdo cristão.
+
+Se depois do descarte um nicho ficar sem 2 ofertas white, entregue menos e diga no `resumo` — **nunca complete a cota com oferta de saúde**. Liste as descartadas por esse motivo em `descartados` com o motivo "nicho black (saúde)".
+
 Se estiver ambíguo → **MANTER** com nota de confiança baixa. Nunca descarte por falta de informação.
 
 ## Passo 2b — Escolher as `ofertasPorNicho` melhores DE CADA NICHO (config, hoje = 2)
