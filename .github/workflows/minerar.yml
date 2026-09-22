@@ -7,8 +7,10 @@
 name: Minerar ofertas
 
 on:
-  schedule:
-    - cron: "0 8 * * *" # 05:00 em Brasília — a rotina do Claude roda às 06:00
+  # PAUSADO em 2026-09-22 a pedido do usuário: o proxy residencial é pago por GB
+  # e o saldo acabou. Reativar descomentando as 2 linhas abaixo.
+  # schedule:
+  #   - cron: "0 8 * * *" # 05:00 em Brasília — a rotina do Claude roda às 06:00
   workflow_dispatch:
     inputs:
       nichos:
