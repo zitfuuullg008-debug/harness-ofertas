@@ -619,7 +619,7 @@ async function processarNicho(nicho) {
       for (const pg of paginas) {
         const info = await enriquecerPagina(pg, nicho.keywords[0]?.pais ?? "BR");
         for (const o of ofertas) if ((o.pagina.id ?? o.pagina.nome) === (pg.id ?? pg.nome)) aplicarEnrich(o, info);
-        await sleep(jitter(1500, 1500));
+        await sleep(jitter(5000, 5000)); // pausa longa entre páginas: menos bloqueio
       }
     } catch (e) {
       // Bloqueio no meio do enrich: guarda o nicho com o que já foi enriquecido.
