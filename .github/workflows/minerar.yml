@@ -47,9 +47,21 @@ jobs:
           npm ci --ignore-scripts --no-audit --no-fund
           npx playwright install --with-deps chromium
 
-      - name: Minerar
+      - name: Diagnóstico do proxy
         env:
           PROXY_URL: ${{ secrets.PROXY_URL }}
+        run: |
+          # Normaliza: tira prefixo/aspas/espaços e usa esquema http (o gate aceita os dois; Chromium prefere http).
+          P=$(printf '%s' "$PROXY_URL" | tr -d '"\r\n ' | sed 's/^PROXY_URL=//; s#^https://#http://#')
+          echo "PROXY_URL_NORM=$P" >> "$GITHUB_ENV"
+          echo "host do proxy: $(printf '%s' "$P" | sed -E 's#^[a-z]+://([^@]+@)?##')"
+          printf 'sem proxy -> ip.decodo.com: '; curl -s -m 20 -o /dev/null -w '%{http_code}\n' https://ip.decodo.com/json || echo falhou
+          printf 'com proxy -> ip.decodo.com: '; curl -s -m 30 -x "$P" -o /dev/null -w '%{http_code}\n' https://ip.decodo.com/json || echo falhou
+          printf 'com proxy -> facebook:      '; curl -s -m 30 -x "$P" -o /dev/null -w '%{http_code}\n' https://www.facebook.com/ads/library/ || echo falhou
+
+      - name: Minerar
+        env:
+          PROXY_URL: ${{ env.PROXY_URL_NORM }}
         run: |
           set -o pipefail
           ARGS="--reaproveitar"
