@@ -9,7 +9,7 @@
     "100545502800577": {
       "nome": "Paparoto Cucina",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21"
+      "ultimaVez": "2026-09-22"
     },
     "809123965625317": {
       "nome": "Silvia Araújo",
@@ -30,8 +30,7 @@
     "102130925469616": {
       "nome": "Mila Reichert Low Carb",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21",
-      "vezes": 1
+      "ultimaVez": "2026-09-22"
     },
     "391065074276184": {
       "nome": "Lavigner Food - Gastronomia Saudável",
@@ -226,17 +225,17 @@
     "997700550097386": {
       "nome": "Vida Saudável",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21"
+      "ultimaVez": "2026-09-22"
     },
     "230616647271673": {
       "nome": "Marion Papelaria",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21"
+      "ultimaVez": "2026-09-22"
     },
     "429336950732166": {
       "nome": "Culinária Low Carb da Patty Goes",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21"
+      "ultimaVez": "2026-09-22"
     },
     "380629675315128": {
       "nome": "Sodiê Doces",
@@ -247,6 +246,16 @@
       "nome": "Instituto Gourmet Tijuca",
       "primeiraVez": "2026-09-22",
       "ultimaVez": "2026-09-22"
+    },
+    "509192328945944": {
+      "nome": "QualyNutri ",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "106469786095515": {
+      "nome": "Café 3 Corações",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
     }
   },
   "anuncios": {},
@@ -255,8 +264,8 @@
       "pagina": "Paparoto Cucina",
       "link": "http://instagram.com/paparotocucina",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21",
-      "vezes": 1
+      "ultimaVez": "2026-09-22",
+      "vezes": 2
     },
     "612745608593353|pv.rebrugnera.com.br": {
       "pagina": "Renata Brugnera - Nutrição",
@@ -276,29 +285,29 @@
       "pagina": "Vida Saudável",
       "link": "https://api.whatsapp.com/send",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21",
-      "vezes": 1
+      "ultimaVez": "2026-09-22",
+      "vezes": 2
     },
     "230616647271673|marionpapelaria.com.br/caderno-plus-reposicionavel-pautado": {
       "pagina": "Marion Papelaria",
       "link": "https://www.marionpapelaria.com.br/caderno-plus-reposicionavel-pautado?parceiro=4872",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21",
-      "vezes": 1
+      "ultimaVez": "2026-09-22",
+      "vezes": 2
     },
     "429336950732166|instagram.com/culinaria_lowcarb": {
       "pagina": "Culinária Low Carb da Patty Goes",
       "link": "http://instagram.com/culinaria_lowcarb",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21",
-      "vezes": 1
+      "ultimaVez": "2026-09-22",
+      "vezes": 2
     },
     "429336950732166|pattygoes.com.br/panelasecreta": {
       "pagina": "Culinária Low Carb da Patty Goes",
       "link": "https://pattygoes.com.br/panelasecreta/",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21",
-      "vezes": 1
+      "ultimaVez": "2026-09-22",
+      "vezes": 2
     },
     "429336950732166|pattygoes.com.br/guiapaolowcarb": {
       "pagina": "Culinária Low Carb da Patty Goes",
@@ -331,6 +340,27 @@
     "107733053968669|wa:sem-numero": {
       "pagina": "Instituto Gourmet Tijuca",
       "link": "https://api.whatsapp.com/send",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "509192328945944|instagram.com/qualynutrioficial": {
+      "pagina": "QualyNutri ",
+      "link": "http://instagram.com/qualynutrioficial",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "106469786095515|instagram.com/3coracoes": {
+      "pagina": "Café 3 Corações",
+      "link": "http://instagram.com/3coracoes",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "102130925469616|milareichertcursos.com.br/bolos-gelados-sem-restricoes": {
+      "pagina": "Mila Reichert Low Carb",
+      "link": "https://milareichertcursos.com.br/bolos-gelados-sem-restricoes",
       "primeiraVez": "2026-09-22",
       "ultimaVez": "2026-09-22",
       "vezes": 1

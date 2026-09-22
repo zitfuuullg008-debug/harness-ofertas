@@ -1,14 +1,364 @@
 {
   "data": "2026-09-22",
-  "geradoEm": "2026-09-22T11:56:06.619Z",
+  "geradoEm": "2026-09-22T12:25:37.342Z",
   "nichos": [
     {
       "id": "receitas",
       "nome": "Receitas",
-      "totalAnuncios": 0,
-      "totalOfertas": 0,
-      "totalPaginas": 0,
-      "top": []
+      "totalAnuncios": 84,
+      "totalOfertas": 53,
+      "totalPaginas": 50,
+      "top": [
+        {
+          "pagina": "Paparoto Cucina",
+          "paginaId": "100545502800577",
+          "instagram": null,
+          "oferta": {
+            "chave": "instagram.com/paparotocucina",
+            "link": "http://instagram.com/paparotocucina"
+          },
+          "novo": false,
+          "vezesVisto": 2,
+          "score": 567,
+          "sinais": {
+            "anunciosNaPagina": 500,
+            "fonteContagem": "meta_resultados",
+            "ofertasNaPagina": 2,
+            "criativosDaOferta": 88,
+            "criativosEstimados": 489,
+            "criativosNoLote": 5,
+            "collationMax": 23,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 537,
+            "diasAtivoMax": 537,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "receita sobremesa"
+          ],
+          "anuncioPrincipal": {
+            "id": "1168739461703539",
+            "titulo": "Venha conhecer o Paparoto e se apaixonar pela gastronomia da nossa chefe!",
+            "texto": "Com muita alegria e gratidão, anunciamos a inauguração da nossa nova unidade em Pinheiros!",
+            "cta": "Acessar o perfil do Instagram",
+            "link": "http://instagram.com/paparotocucina",
+            "tipoCriativo": "video",
+            "video": "https://video.fssz9-1.fna.fbcdn.net/o1/v/t2/f2/m412/AQPc1livG4RZXygK-AtYPijgxT_eqJZr2fGNP0scIbrdoMl2WPkAPLW0FL7aWS7ETTSrKGJY5MngvVDkYVW5Unw.mp4?_nc_cat=104&_nc_oc=Adpyvi-A8ZXAwX8n-A5tPeDRfdzT1Gump1GQz6IMehe84tjmtRodNyVObizBAayY5Pg&_nc_sid=ef5aa3&_nc_ht=video.fssz9-1.fna.fbcdn.net&_nc_ohc=GJfPsNAvBZ4Q7kNvwFZRs_B&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmFzaWNfaHEyX2hkX3Byb2dyZXNzaXZlIiwieHB2X2Fzc2V0X2lkIjoxNTMyODQwNDkxNzgyMTM0LCJhc3NldF9hZ2VfZGF5cyI6MjIyLCJ2aV91c2VjYXNlX2lkIjoxMDY4MCwiZHVyYXRpb25fcyI6NTQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=oJBlYiTh6p1f8zWM0sWRdQ&_nc_ss=79289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLamnBn-ryNuooP3419PG7fLzu_faeD-W5eveH-E8zkeA&oe=6AB84C26",
+            "imagem": "https://scontent.fssz9-1.fna.fbcdn.net/v/t39.35426-6/487855152_1044355107742261_3899283315349338618_n.jpg?_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=gCe-B33Vvz4Q7kNvwHIp9tI&_nc_oc=AdotR3pas9DVLcV1rK2BuqEItBGNZSX7cfLT6lOH9379oqL7Yjt2GqMaUKKrc4JOq10&_nc_zt=14&_nc_ht=scontent.fssz9-1.fna&_nc_gid=oJBlYiTh6p1f8zWM0sWRdQ&_nc_ss=79289&oh=00_AQKmZbpcKfAOMLytwU2Bo16MYqJfmG1dT7gybR8dmeW78w&oe=6AB846E2",
+            "diasAtivo": 537,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1168739461703539"
+          },
+          "outrosTextos": [
+            "Com muita alegria e gratidão, anunciamos a inauguração da nossa nova unidade em Pinheiros!",
+            "Com muita alegria e gratidão, anunciamos a inauguração da nossa nova unidade em Pinheiros!",
+            "Com muita alegria e gratidão, anunciamos a inauguração da nossa nova unidade em Pinheiros!"
+          ]
+        },
+        {
+          "pagina": "Vida Saudável",
+          "paginaId": "997700550097386",
+          "instagram": null,
+          "oferta": {
+            "chave": "wa:sem-numero",
+            "link": "https://api.whatsapp.com/send"
+          },
+          "novo": false,
+          "vezesVisto": 2,
+          "score": 183,
+          "sinais": {
+            "anunciosNaPagina": 32,
+            "fonteContagem": "meta_resultados",
+            "ofertasNaPagina": 1,
+            "criativosDaOferta": 32,
+            "criativosEstimados": null,
+            "criativosNoLote": 4,
+            "collationMax": 3,
+            "mesmoCriativoNoLote": 4,
+            "diasAtivoMediana": 106,
+            "diasAtivoMax": 119,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "cardápio semanal"
+          ],
+          "anuncioPrincipal": {
+            "id": "1683419009364524",
+            "titulo": "Refeições que Salvam Seu Fígado",
+            "texto": "+5.000 pacientes ajudados.\n+10 anos de experiência.\n+120 cardápios prontos.\n\nA Dra. Mônica criou um protocolo completo para quem tem gordura no fígado e não sabe o que comer.\n\nCardápios para todas as refeições. Lista do que comer. Lista do que evitar. Tudo pronto.\n\nChega de ficar perdida no Google.\n\nClica em \"Saiba Mais\" e garanta seu acesso.",
+            "cta": "Enviar mensagem pelo WhatsApp",
+            "link": "https://api.whatsapp.com/send",
+            "tipoCriativo": "video",
+            "video": "https://video.fssz9-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQMLHZ2-AZcN-R6Kvvyu9-1CVj1qxDnQyy4gQkfsJXxZsCcomSXtOT2bjXF4q8FBCgas5PnzzWMzJoI1bQ5IUXeZ2VXz2g3lYHEk6iBeFr-_ag.mp4?_nc_cat=105&_nc_oc=Adp9S3FCCRzrqBW8DUCbW8I_G4JM7GgnarHuqUISXuhz-CePf3Di4peoZBgFhBzQlJE&_nc_sid=b66105&_nc_ht=video.fssz9-1.fna.fbcdn.net&_nc_ohc=B1cFrphc9wEQ7kNvwF4ujoT&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE2NjUzODEzMDQ1NzQ3MTgsImFzc2V0X2FnZV9kYXlzIjoxMjcsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjoxMDUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=dc7605649fe15c90&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9DNDQ4M0IxRjQ5REZDMjE2NTM3QTk2NEYyNkU5NTRBRl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0I0NDA0MzA0NTI0MzBEQzBEREI5MkQ0RDJBRUI0ODhBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb8i5nR-an1BRUCKAJDMywXQFpxBiTdLxsYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=b363WPPEfCsj5IDyAYiX_Q&_nc_ss=79289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLgwIGEIlnXKjzZwvFCs3IEX18qHyO3Kj-fqv5QOB0Rfw&oe=6AB852C7",
+            "imagem": "https://scontent.fssz9-1.fna.fbcdn.net/v/t39.35426-6/707229805_924000080697640_2362307244492011992_n.jpg?_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=XFpGCAfOVOMQ7kNvwGJw5UC&_nc_oc=Adrzy9617p71iOLJZGBnifzTbp7IlkrwcTPv6aQZFWE-8whQJtXu5u72lE5px4gfb90&_nc_zt=14&_nc_ht=scontent.fssz9-1.fna&_nc_gid=b363WPPEfCsj5IDyAYiX_Q&_nc_ss=79289&oh=00_AQLPGcPUmDS4mB41HUiuLD7-HKFIcul8ybO2-v3pBCd19g&oe=6AB82BC5",
+            "diasAtivo": 119,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1683419009364524"
+          },
+          "outrosTextos": [
+            "+5.000 pacientes ajudados.\n+10 anos de experiência.\n+120 cardápios prontos.\n\nA Dra. Mônica criou um protocolo completo para quem tem gordura no fígado e não sabe o que comer.\n\nCardápios para todas as refeições. Lista do que comer. Lista do que evitar. Tudo pronto.\n\nChega de ficar perdida no Google.\n",
+            "+5.000 pacientes ajudados.\n+10 anos de experiência.\n+120 cardápios prontos.\n\nA Dra. Mônica criou um protocolo completo para quem tem gordura no fígado e não sabe o que comer.\n\nCardápios para todas as refeições. Lista do que comer. Lista do que evitar. Tudo pronto.\n\nChega de ficar perdida no Google.\n",
+            "+5.000 pacientes ajudados.\n+10 anos de experiência.\n+120 cardápios prontos.\n\nA Dra. Mônica criou um protocolo completo para quem tem gordura no fígado e não sabe o que comer.\n\nCardápios para todas as refeições. Lista do que comer. Lista do que evitar. Tudo pronto.\n\nChega de ficar perdida no Google.\n"
+          ]
+        },
+        {
+          "pagina": "Marion Papelaria",
+          "paginaId": "230616647271673",
+          "instagram": null,
+          "oferta": {
+            "chave": "marionpapelaria.com.br/caderno-plus-reposicionavel-pautado",
+            "link": "https://www.marionpapelaria.com.br/caderno-plus-reposicionavel-pautado?parceiro=4872"
+          },
+          "novo": false,
+          "vezesVisto": 2,
+          "score": 121,
+          "sinais": {
+            "anunciosNaPagina": 32,
+            "fonteContagem": "meta_resultados",
+            "ofertasNaPagina": 3,
+            "criativosDaOferta": 8,
+            "criativosEstimados": null,
+            "criativosNoLote": 2,
+            "collationMax": 8,
+            "mesmoCriativoNoLote": 2,
+            "diasAtivoMediana": 124,
+            "diasAtivoMax": 232,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "cardápio semanal"
+          ],
+          "anuncioPrincipal": {
+            "id": "941232044900640",
+            "titulo": "Um caderno - Muitas possibilidades!",
+            "texto": "Nosso caderno Plus é simplesmente perfeito para transformar sua rotina de estudos e trabalho.\n​\nCapa dura super resistente, miolo em papel 90g e acabamento impecável pra você escrever com qualquer caneta sem medo de marcar a página de trás.\n​\nMuito espaço pra organizar todas as suas matérias em um só lugar.\n\nAlém de ter folhas reposicionaveis, tem muitos refis para você deixar ele ainda mais sua cara!\n\nGaranta o seu agora no site da Marion Papelaria e comece a estudar com mais prazer hoje mesmo!\n​\nClique em “Saiba mais” e escolha sua capa favorita",
+            "cta": "Saiba mais",
+            "link": "https://www.marionpapelaria.com.br/caderno-plus-reposicionavel-pautado?parceiro=4872",
+            "tipoCriativo": "video",
+            "video": "https://video.fssz9-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQMSJmlNWUmJP5jF-8iW-l8TYKKrFyvhARV1EOl9Fqfb63t3Hia63RTEu4guLCfGNiUcUoZgAZrp4cbgMSyQgwvUqEVUsbiM9Ip689d78cePkQ.mp4?_nc_cat=106&_nc_oc=Adqy5_qRKxzhfQf0N9nXziuCJWxqgCmX8kkWT8NiJC1xKuakZ9HDUsqJ5I7bspknR5g&_nc_sid=b66105&_nc_ht=video.fssz9-1.fna.fbcdn.net&_nc_ohc=Hwr7aH4APHIQ7kNvwE1dNWp&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjExMjM0NTA5Mjk3ODc4MTYsImFzc2V0X2FnZV9kYXlzIjoyMzEsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo3NiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=7c344ef325a92c7a&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC83MTQ5Nzk0NjhCODdCOTY2MzA4NjVBMEZERTVERkI4MV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0U2NDVENjIwMTRBMkU3MEUyQUNGREQ3Mjk0OUY3OEI0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbQzr3ZufH-AxUCKAJDMywXQFMIgxJul40YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=b363WPPEfCsj5IDyAYiX_Q&_nc_ss=79289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQL67Q5JRQZVlZ7Lxu6IxhjIKt6czgHSa048p-ladZgX9Q&oe=6AB84686",
+            "imagem": "https://scontent.fssz9-1.fna.fbcdn.net/v/t39.35426-6/624661685_1968660784076881_530244726589876738_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=1Ia3-3wIWpYQ7kNvwGh4si5&_nc_oc=AdpLb5snPbLjgg5YSEpRWCRan34uoHGaTMbQuB_5cUbuOCJGiNqUGrzdbyJbdG7vuHg&_nc_zt=14&_nc_ht=scontent.fssz9-1.fna&_nc_gid=b363WPPEfCsj5IDyAYiX_Q&_nc_ss=79289&oh=00_AQIhi6F0k_POVG3fgbjNNZHmSU9AT4eLUUBkyxeUH6bFNw&oe=6AB850B1",
+            "diasAtivo": 232,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=941232044900640"
+          },
+          "outrosTextos": [
+            "Nosso caderno Plus é simplesmente perfeito para transformar sua rotina de estudos e trabalho.\n​\nCapa dura super resistente, miolo em papel 90g e acabamento impecável pra você escrever com qualquer caneta sem medo de marcar a página de trás.\n​\nMuito espaço pra organizar todas as suas matérias em um s"
+          ]
+        },
+        {
+          "pagina": "Culinária Low Carb da Patty Goes",
+          "paginaId": "429336950732166",
+          "instagram": null,
+          "oferta": {
+            "chave": "pattygoes.com.br/panelasecreta",
+            "link": "https://pattygoes.com.br/panelasecreta/"
+          },
+          "novo": false,
+          "vezesVisto": 2,
+          "score": 52,
+          "sinais": {
+            "anunciosNaPagina": null,
+            "fonteContagem": "observado",
+            "ofertasNaPagina": 3,
+            "criativosDaOferta": 3,
+            "criativosEstimados": null,
+            "criativosNoLote": 3,
+            "collationMax": 1,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 145,
+            "diasAtivoMax": 145,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "receitas low carb"
+          ],
+          "anuncioPrincipal": {
+            "id": "1645159150069602",
+            "titulo": null,
+            "texto": "Toda quinta-feira, às 20h, tem encontro marcado na Panela Secreta Low Carb. 🍳✨\n\nE não é só mais uma aula básica.\n\nÉ um programa semanal e gratuito, com receitas low carb ensinadas passo a passo, materiais de apoio e conhecimento prático para você aplicar na sua rotina com mais leveza, sabor e organização.\n\nSe você quer aprender receitas que funcionam de verdade no dia a dia, essa é a sua oportunidade.\n\nClique em Saiba Mais e inscreva-se gratuitamente na Panela Secreta Low Carb.",
+            "cta": "Saiba mais",
+            "link": "https://pattygoes.com.br/panelasecreta/",
+            "tipoCriativo": "video",
+            "video": "https://video.fssz9-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQOIPP0tZyoexJ89qgVfRTWzuepJU4kde5UlAtrR-tcj9Ih-wJRzY1SpUpDRsqZXexOCAEVMe2x5h9K53lyBxhGaxLmG-BnL694N7CVRbV2GYg.mp4?_nc_cat=105&_nc_oc=Adq2Zxld_9DDGURwnOxe_efHto8mKD4E5X20W2WQFyyEId31z5IiNZTmF_P7PAY3dSc&_nc_sid=b66105&_nc_ht=video.fssz9-1.fna.fbcdn.net&_nc_ohc=ZSEyd0jCGOgQ7kNvwEmRKoD&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEzMDY0MTUyODQ3NTE0MTksImFzc2V0X2FnZV9kYXlzIjoxNDQsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjozOCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=d128ebfdc777b7bd&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9DQTQ1MThFQjhEQTFCMkY1RDg2NEI2RjI2NjJGMjBCNF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0RCNDY5MzNFRUYyNjk1RjVFNjFCNTUzODExRDM4NEI0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb2sNCvsIvSBBUCKAJDMywXQEMZmZmZmZoYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=FnU9f1qv_DIwxQaiczz0Iw&_nc_ss=79289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQJqinHo0o-nOvJRz95rcL2JVXnxCjIXsoypd22x6AgmeQ&oe=6AB83B67",
+            "imagem": "https://scontent.fssz9-1.fna.fbcdn.net/v/t39.35426-6/686470740_1503651857777443_3576514430071678913_n.jpg?_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=vdY0h2QuuLkQ7kNvwFJiMFh&_nc_oc=AdrzLukzaeuiAGBmJEWds9dOnv_rYpBmcIImCXJa8gtdpHbpKkvnpaq2Z7ow0uCh6l0&_nc_zt=14&_nc_ht=scontent.fssz9-1.fna&_nc_gid=FnU9f1qv_DIwxQaiczz0Iw&_nc_ss=79289&oh=00_AQL0BYExUzWcn8mqUIqw9v3td8Ox8wZBxdVjJwf5EzexPw&oe=6AB85490",
+            "diasAtivo": 145,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1645159150069602"
+          },
+          "outrosTextos": [
+            "Você ainda não entrou na Panela Secreta Low Carb? 👀\n\nPor lá, já teve muito conteúdo prático, receitas, dicas e ensinamentos para deixar sua rotina low carb mais simples, saborosa e possível.\n\nE o melhor: ainda vem muita coisa boa pela frente.\n\nToda quinta-feira, às 20h, temos encontro ao vivo e gra",
+            "Você já imaginou tomar um café da manhã delicioso, com pãozinho low carb, ovos, queijo, morango, bolo de laranja e chá… sem causar grandes picos na glicemia?\n\nEu fiz esse teste na prática. Comecei com a glicemia em jejum em 82. Depois do café da manhã low carb, ela foi para 98 em 30 minutos e, em 1 "
+          ]
+        },
+        {
+          "pagina": "Culinária Low Carb da Patty Goes",
+          "paginaId": "429336950732166",
+          "instagram": null,
+          "oferta": {
+            "chave": "instagram.com/culinaria_lowcarb",
+            "link": "http://instagram.com/culinaria_lowcarb"
+          },
+          "novo": false,
+          "vezesVisto": 2,
+          "score": 49,
+          "sinais": {
+            "anunciosNaPagina": null,
+            "fonteContagem": "observado",
+            "ofertasNaPagina": 3,
+            "criativosDaOferta": 2,
+            "criativosEstimados": null,
+            "criativosNoLote": 2,
+            "collationMax": 1,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 200,
+            "diasAtivoMax": 208,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "receitas low carb"
+          ],
+          "anuncioPrincipal": {
+            "id": "903231039351428",
+            "titulo": null,
+            "texto": "Controlar a glicose não é viver de comida sem graça. \n\nSe fosse assim, eu (que amo comer coisas gostosas) JAMAIS teria conseguido virar EX PRÉ-DIABÉTICA.🤣🤣🤣\n\nQue tipo de bolo me ajudou nessa jornada? Te conto no vídeo!📼\n\n💬 Agora me conta nos comentários: você é do time que corta totalmente o doce ou do time que prefere aprender a encaixar com conhecimento?",
+            "cta": "Acessar o perfil do Instagram",
+            "link": "http://instagram.com/culinaria_lowcarb",
+            "tipoCriativo": "video",
+            "video": "https://video.fssz9-1.fna.fbcdn.net/o1/v/t2/f2/m69/AQN54cN2K5p4Ikr0ZAYM5BeWXJ7hi1EaNsq7HV3BwVeq7EI2cI0iWcIfipFncTKrenamUkY7cQIhKJGzYEJbEPJ3.mp4?strext=1&_nc_cat=102&_nc_oc=AdrvWOmNWQUMMTreiwW2T2z9JPetV_DM_MZdbGxfrWToAm4t4sdYoiarzgeRfF1o6r0&_nc_sid=b66105&_nc_ht=video.fssz9-1.fna.fbcdn.net&_nc_ohc=PC3aw6bBNioQ7kNvwFzikrn&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5NDc2ODY1MTAxMDE4MDMsImFzc2V0X2FnZV9kYXlzIjoyMTIsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo4OCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=d21710eec35d45ed&_nc_vs=HBksFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HQ09SS2liV2hacFd3aThEQUl1dDdJTGtmeThMYnNwVEFRQUYVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzZGNEZBNjMyMTM5QUY1RjUyQzIzMzZCNDJDREJEMzk3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbWlMzv7NThPxUCKAJDMywXQFY3bItDlYEYEmRhc2hfYmFzZWxpbmVfMV92MREAdQBl5p0BAA&_nc_gid=FnU9f1qv_DIwxQaiczz0Iw&_nc_ss=79289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQLfZXJqjETVJ-_cV3UD3zQFjKzgzrBdn8axvPiG6Qs8uA&oe=6AB84404",
+            "imagem": "https://scontent.fssz9-1.fna.fbcdn.net/v/t39.35426-6/640378569_2452753701859066_4040227913681546273_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=PfQcO8c8fJMQ7kNvwErJcrx&_nc_oc=AdpUg6-toms9h8CKBOv-uew3Z0sp2yiHufAWoZ2NB6vXuNCnQ5_M1NP99qeu0X99AbY&_nc_zt=14&_nc_ht=scontent.fssz9-1.fna&_nc_gid=FnU9f1qv_DIwxQaiczz0Iw&_nc_ss=79289&oh=00_AQJ6am_2aA6MuDfRVUFJ5EjXzIUSw4Oj7Zs1yQf7JnzSrg&oe=6AB8545D",
+            "diasAtivo": 208,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=903231039351428"
+          },
+          "outrosTextos": [
+            "🤔A glicemia do Mariano passa de 200 toda vez que ele come polvilho.💭\n\nE será por quê? Afinal, polvilho não tem açúcar, não é doce.\n\nMas tem outra coisa. Uma coisa que a maioria das pessoas não sabe que vira açúcar puro no sangue.\n\nE está em muita coisa que você come achando que é \"mais saudável\" q"
+          ]
+        },
+        {
+          "pagina": "QualyNutri ",
+          "paginaId": "509192328945944",
+          "instagram": null,
+          "oferta": {
+            "chave": "instagram.com/qualynutrioficial",
+            "link": "http://instagram.com/qualynutrioficial"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 45,
+          "sinais": {
+            "anunciosNaPagina": null,
+            "fonteContagem": "observado",
+            "ofertasNaPagina": 1,
+            "criativosDaOferta": 2,
+            "criativosEstimados": null,
+            "criativosNoLote": 2,
+            "collationMax": 2,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 327,
+            "diasAtivoMax": 327,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "receita sobremesa"
+          ],
+          "anuncioPrincipal": {
+            "id": "2810859155920901",
+            "titulo": null,
+            "texto": "Um brinde ao autocuidado 🥤\n\nO Smoothie combina beterraba + morango — fibras, vitaminas e antioxidantes (ajudando a proteger as células do desgaste do dia a dia).\n\nIngredientes (1 porção):\n\n🍓 1 xícara de morangos congelados\n\n🥛 ½ xícara de leite ou iogurte (vaca ou vegetal)\n\n🍌 ½ banana congelada (opcional)\n\n🌾 1 col. de sobremesa de chia ou linhaça\n\n🧊 Gelo a gosto (opcional)\n\n½ beterraba pequena (crua ou cozida)\n\nPreparo:\n\n1) Corte a beterraba (se crua) em cubos e, se preferir, cozinhe e deixe esfriar.\n\n2) Bata tudo no liquidificador até ficar homogêneo e cremoso.\n\n3) Ajuste a textura com líquido ou gelo e finalize com as sementes.\n\n👉 Salve o post e acompanhe nosso perfil para mais receitas simples e dicas de bem-estar.",
+            "cta": "Acessar o perfil do Instagram",
+            "link": "http://instagram.com/qualynutrioficial",
+            "tipoCriativo": "imagem",
+            "video": null,
+            "imagem": "https://scontent.fssz9-1.fna.fbcdn.net/v/t39.35426-6/573307790_814731154485104_4308805486221479929_n.jpg?_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Mq2gx03MEC0Q7kNvwFHHgzU&_nc_oc=AdqZFLPFoPapXCCwbZt9nCEm2XGmfNt04b3QyoYIZCfDaGHONC_Y3FyP0pqL6XQNbVY&_nc_zt=14&_nc_ht=scontent.fssz9-1.fna&_nc_gid=oJBlYiTh6p1f8zWM0sWRdQ&_nc_ss=79289&oh=00_AQKaYHaf0T2RPSLmoErXLSfSsIlmHSGm0f2RKxkFI8K5Vw&oe=6AB845F4",
+            "diasAtivo": 327,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2810859155920901"
+          },
+          "outrosTextos": [
+            "Um brinde ao autocuidado 🥤\n\nO Smoothie combina beterraba + morango — fibras, vitaminas e antioxidantes (ajudando a proteger as células do desgaste do dia a dia).\n\nIngredientes (1 porção):\n\n🍓 1 xícara de morangos congelados\n\n🥛 ½ xícara de leite ou iogurte (vaca ou vegetal)\n\n🍌 ½ banana congelada ("
+          ]
+        },
+        {
+          "pagina": "Café 3 Corações",
+          "paginaId": "106469786095515",
+          "instagram": null,
+          "oferta": {
+            "chave": "instagram.com/3coracoes",
+            "link": "http://instagram.com/3coracoes"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 45,
+          "sinais": {
+            "anunciosNaPagina": null,
+            "fonteContagem": "observado",
+            "ofertasNaPagina": 1,
+            "criativosDaOferta": 2,
+            "criativosEstimados": null,
+            "criativosNoLote": 2,
+            "collationMax": 2,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 180,
+            "diasAtivoMax": 180,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "receita sobremesa"
+          ],
+          "anuncioPrincipal": {
+            "id": "791220824040856",
+            "titulo": null,
+            "texto": "Está procurando um docinho gostoso para comer de tarde e não quer acabar com a dieta? Se liga nessa receita do @ocasaldebh que fica perfeita com a nossa barrinha de proteína!\n\nPra duas porções, você só vai precisar de:\n\n- 400ml de iogurte natural desnatado\n- 2 colheres de sopa de leite em pó\n- 4 colheres de sopa de chocolate em pó 70%\n- ⁠1 colher de sopa de mel (opcional, pra adoçar!)\n- Barrinha de Proteína 3 Corações\n\nNão tem como errar né?! 💛",
+            "cta": "Acessar o perfil do Instagram",
+            "link": "http://instagram.com/3coracoes",
+            "tipoCriativo": "video",
+            "video": "https://video.fssz9-1.fna.fbcdn.net/o1/v/t2/f2/m86/AQMNYeOvnNR9NIbvDD61FJyDdjYpD-Cg9E3DWUoknFVmJaFXBNPGgLGi97dWOuTj6veBJH_wSkL7ZLmsNSvTk7WcGMlcYXUXoHgSTfI.mp4?_nc_cat=106&_nc_oc=Ado3FPHlqgtBfUeAcCegSN_qcFtn222s8SGYYtnhSG_1tydN8AYGMOaIkWcnVP79YRw&_nc_sid=b66105&_nc_ht=video.fssz9-1.fna.fbcdn.net&_nc_ohc=bqyBrRQKxOEQ7kNvwEY7Q7s&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MzEyODAwNDM0MDcxNDg5MSwiYXNzZXRfYWdlX2RheXMiOjM1NCwidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjUzLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=e2d2d3f24be5e8eb&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC82NzREOEZENjgyRDY3NkIzMTZERjMxODkzQjNEOTQ5Nl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYRmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC82ODY1ODUyODA1NDU1ODRfMjI4NTY4NTUyNDA5MDIxOTk5OS5tcDQVAgLIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAmlrasuei5jgsVAigCQzMsF0BKlT987ZFoGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHUAZazBAQA&_nc_gid=oJBlYiTh6p1f8zWM0sWRdQ&_nc_ss=79289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQIqQBXKegXPxBRRfwZCK278CX9b8U0Yxg15FIMeUc0oFQ&oe=6AB4376F",
+            "imagem": "https://scontent.fssz9-1.fna.fbcdn.net/v/t39.35426-6/645680854_887241430797810_939104909132241721_n.jpg?_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=NSL_P4wdScAQ7kNvwGqO-dv&_nc_oc=AdonkSHxcx9eegZDf-Hf1yCPX68tB64ZdQzfAEGdt71HqWKa_SAFkOgMtpL92PRz1UE&_nc_zt=14&_nc_ht=scontent.fssz9-1.fna&_nc_gid=oJBlYiTh6p1f8zWM0sWRdQ&_nc_ss=79289&oh=00_AQJhWNhmEDgZQBiK5tRA3nD2Cl9eu2UxkOcNxf_NldBzEg&oe=6AB82D0A",
+            "diasAtivo": 180,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=791220824040856"
+          },
+          "outrosTextos": [
+            "Sobremesa digna de restaurante que você pode reproduzir em casa… depois agradeça o @ocasaldebh! 😋 \nEsse Sanduíche de Doce de Leite é perfeito para acompanhar um Cappuccino Pronto de Cookies’n Cream bem geladinho.\nFaça e compartilhe com alguém especial!\n#3Corações #Cappuccino #CookiesAndCream #Recei"
+          ]
+        },
+        {
+          "pagina": "Mila Reichert Low Carb",
+          "paginaId": "102130925469616",
+          "instagram": null,
+          "oferta": {
+            "chave": "milareichertcursos.com.br/bolos-gelados-sem-restricoes",
+            "link": "https://milareichertcursos.com.br/bolos-gelados-sem-restricoes"
+          },
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 44,
+          "sinais": {
+            "anunciosNaPagina": null,
+            "fonteContagem": "observado",
+            "ofertasNaPagina": 2,
+            "criativosDaOferta": 2,
+            "criativosEstimados": null,
+            "criativosNoLote": 2,
+            "collationMax": 1,
+            "mesmoCriativoNoLote": 1,
+            "diasAtivoMediana": 253,
+            "diasAtivoMax": 253,
+            "impressoesMax": null
+          },
+          "keywordsOndeApareceu": [
+            "receitas low carb"
+          ],
+          "anuncioPrincipal": {
+            "id": "25662095120143018",
+            "titulo": "🎂 Aprenda a fazer bolos low carb irresistíveis e lucrativos!",
+            "texto": "🚨 Seus clientes dariam tudo por um bolo gelado assim: delicioso, inclusivo e seguro.\nAgora é a sua vez de aprender e lucrar!\n\n🍰 Bolos gelados low carb, sem açúcar, sem glúten e sem lactose, com sabor de verdade\n💛 Perfeitos para diabéticos, intolerantes e celíacos\n💰 Aprenda agora e comece a vender ainda este mês!\n\nNo curso Bolos Gelados Sem Restrições você vai aprender 14 receitas completas, com vídeo aulas passo a passo, e-book de apoio, suporte direto comigo, lista de fornecedores, bônus especial e o melhor: acesso vitalício, pra ver e rever sempre que quiser!\n\n🎓 Tudo isso por apenas 12x de R$ 25,55\n\nGaranta sua vaga antes que essa condição acabe.\nClique no link e venha aprender comigo!",
+            "cta": "Saiba mais",
+            "link": "https://milareichertcursos.com.br/bolos-gelados-sem-restricoes",
+            "tipoCriativo": "video",
+            "video": "https://video.fssz9-1.fna.fbcdn.net/o1/v/t2/f2/m366/AQMU-uFavAfZOKYcY-PzlKP7mn5hrOXiU9ALw6OGR7HT7JB_KqUuC9nAZzOGgAk88EVDeYg72AtXYOZpkTj6YvxjVzXR1WHwVx65y19G30xSAQ.mp4?_nc_cat=106&_nc_oc=AdqNfvMLaLOq57l0dfWPHUBuDPXbf_s6kvzHNYBjWuLQ4cs0Tc5wDqjLE-Aer2uBhbw&_nc_sid=b66105&_nc_ht=video.fssz9-1.fna.fbcdn.net&_nc_ohc=pg-QrmXWN5gQ7kNvwFz5LPa&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjc0MTQ3OTQ0NTQ5MTIwMSwiYXNzZXRfYWdlX2RheXMiOjQzMSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjIzLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=90fe410cf246a38f&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC81QzRDQkEwNzU3RjczNjk4OTM4MDhGNjUyMTAxNUM5MV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzI4NEI3QjczRTNFMkVFMEQyOENDM0JCMkVGRjJENTg5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaCuKev5JfRAhUCKAJDMywXQDdmZmZmZmYYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=FnU9f1qv_DIwxQaiczz0Iw&_nc_ss=79289&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQJ32kn05ZYePhWzAt11yQzO7u_viYO5Rlxthd1DbqG31A&oe=6AB844DA",
+            "imagem": "https://scontent.fssz9-1.fna.fbcdn.net/v/t39.35426-6/615361220_1393803402122049_1397007858011299619_n.jpg?_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=O2cGKwnGs8kQ7kNvwFLWfu9&_nc_oc=AdqpLF654tIEXRzGBL8XzWjH-0zcwp0aeaXDuAwP5lkW5CuD0al4JQKY17s3tpYYW-c&_nc_zt=14&_nc_ht=scontent.fssz9-1.fna&_nc_gid=FnU9f1qv_DIwxQaiczz0Iw&_nc_ss=79289&oh=00_AQJ2Oif2fyKQlaZRy9Zp-HehtqomAhDyROtf2epSzgCZ8Q&oe=6AB84A1F",
+            "diasAtivo": 253,
+            "urlBiblioteca": "https://www.facebook.com/ads/library/?id=25662095120143018"
+          },
+          "outrosTextos": [
+            "“Quais sabores de bolos gelados low carb você ensina no curso?”\nE a resposta vai te deixar com água na boca! 😍\nNo curso Bolos Gelados Sem Restrições, você aprende 14 sabores incríveis, todos sem açúcar, sem glúten e sem lactose, com estrutura, cremosidade e muito sabor.\n\n✨ Brigadeiro\n✨ Dois amores\n"
+          ]
+        }
+      ]
     },
     {
       "id": "comida_caseira",
