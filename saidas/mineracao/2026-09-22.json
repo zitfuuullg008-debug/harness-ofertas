@@ -1,95 +1,360 @@
 {
   "data": "2026-09-22",
-  "resumo": "Rodízio do dia: receitas, receitas para criança/bebê e renda extra com comida caseira — 83 anúncios em 46 páginas. Com a régua nova de 15+ criativos no mesmo destino, só 3 ofertas passaram, todas em comida caseira/artesanato. Receitas e receitas infantis zeraram: as duas maiores do dia (Renata Brugnera, 108 criativos, e Doces de Sucesso DG, 24 criativos e 546 dias) usam domínio próprio que redireciona pro WhatsApp, e o Manual da Criança Feliz parou em 14 criativos — um a menos que a régua.",
+  "resumo": "Coleta do Ad Hunter trouxe 4 nichos (receitas, renda extra, maternidade, cristão) — 76 ofertas em 76 páginas — somadas à varredura própria de comida caseira feita de manhã. Depois do filtro low-ticket, do corte de saúde e da régua de 15+ criativos no mesmo destino, 12 ofertas passaram, todas com página de vendas confirmada. Destaques: Patrícia Stênico com 115 criativos num link só e Luciana Prado com a página inteira (60 de 60) num único rolinho gourmet. Receitas infantis não veio no cache do Ad Hunter — vale rodar essa categoria lá.",
   "nichosFaltando": [
-    "renda_extra",
-    "cristao",
-    "maternidade"
+    "receitas_infantis"
   ],
   "padroes": [
-    "Catálogo de mini cursos: uma página, um produto, um link por receita",
-    "Oferta empilhada: videoaulas + apostila + certificado + suporte + bônus",
-    "Gancho de calendário: Natal, Dia das Crianças, Dia dos Professores",
-    "Promessa dupla: aprende pra família, lucra vendendo",
-    "Mudou vs. ontem: domínio próprio virou disfarce de funil WhatsApp",
-    "Régua de 15 criativos derrubou 5 cards do relatório anterior"
+    "Preço no título do anúncio: 'R$7 hoje', '+25 mil materiais por R$10'",
+    "Formato vira mecanismo: bolo gelado, na travessa, congelar, resumo visual",
+    "Anunciante grande roda 2–4 ofertas e concentra criativos numa só",
+    "Renda extra migrou de 'ganhe dinheiro' pra produto nomeado: rolinho, vela, biscoito",
+    "Mudou vs. ontem: Chef Luana trocou o pão sem glúten por '+365 receitas sem açúcar'",
+    "Mudou vs. ontem: sumiu o funil 'receba no WhatsApp' do topo — cache do Ad Hunter já filtra"
   ],
   "nichos": [
     {
       "id": "receitas",
       "nome": "Receitas",
-      "totalAnuncios": 30,
-      "totalAnunciantes": 15,
-      "ofertas": [],
+      "totalAnuncios": 21,
+      "totalAnunciantes": 21,
+      "ofertas": [
+        {
+          "pagina": "Nutricionista Patrícia Stênico",
+          "paginaId": "107064817659875",
+          "adId": "2059571208259789",
+          "keyword": "receitas fáceis",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 96,
+          "anunciosNaPagina": 120,
+          "criativosDaOferta": 115,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 3,
+          "diasRodando": 25,
+          "produto": "Refeições Saudáveis para Congelar: +120 receitas, cardápios e lista de compras.",
+          "preco": "R$ 19,90–37 (inferido, anúncio fala 55% off)",
+          "promessa": "Organizar a semana e ter comida de verdade pronta em minutos.",
+          "hook": "Jantar leve, rotina leve.",
+          "porqueEscala": [
+            "115 criativos no mesmo link — 96% da página",
+            "Concentração total: não dispersa verba em outras ofertas",
+            "Congelar é dor de rotina, não promessa de saúde",
+            "Cardápio + lista de compras entrega o trabalho pronto"
+          ],
+          "comoModelar": [
+            "Nomeie o mecanismo pelo método de preparo, não pelo prato",
+            "Entregue cardápio e lista de compras como parte do produto",
+            "Venda tempo de semana, não nutrição",
+            "Desconto percentual no slug da página de vendas"
+          ],
+          "recomendada": true,
+          "porqueRecomendada": "115 criativos num link só é o sinal mais forte do dia, e 'congelar' é mecanismo que ele transporta pra qualquer receituário.",
+          "linkVenda": "https://rc.patriciastenico.com.br/55-off-ads-botao-fp2/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2059571208259789",
+          "ofertaDominante": {
+            "destino": "rc.patriciastenico.com.br/55-off-ads-botao-fp2",
+            "criativos": 38
+          },
+          "destinoFinal": "pagina"
+        },
+        {
+          "pagina": "Receitas Deliciosas",
+          "paginaId": "115329360309179",
+          "adId": "26071459792551185",
+          "keyword": "cardápio semanal",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 72,
+          "anunciosNaPagina": 120,
+          "criativosDaOferta": 46,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 3,
+          "diasRodando": 17,
+          "produto": "Pacote de receitas do dia a dia vendido por prova social de compradoras.",
+          "preco": "R$ 9,90–19,90 (inferido)",
+          "promessa": "Nunca mais ficar sem ideia na cozinha.",
+          "hook": "+7.980 mulheres já estão transformando suas refeições com essas receitas!",
+          "porqueEscala": [
+            "46 criativos nessa oferta, 120 anúncios na página",
+            "Número de compradoras no lugar da promessa",
+            "Roda outras 2 ofertas irmãs: pão lucrativo e geleia",
+            "Só 17 dias e já escalou — criativo novo achou bolso"
+          ],
+          "comoModelar": [
+            "Headline com número de compradoras, não com benefício",
+            "Uma página por sub-tema: receitas, pão, geleia",
+            "Copy curtíssima: duas linhas e botão",
+            "Teste o mesmo produto sob três domínios diferentes"
+          ],
+          "recomendada": false,
+          "linkVenda": "https://receitas.revitamulher.online/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=26071459792551185",
+          "ofertaDominante": {
+            "destino": "receitas.revitamulher.online",
+            "criativos": 27
+          },
+          "destinoFinal": "pagina"
+        },
+        {
+          "pagina": "Luana Oliveira (Chef Luana)",
+          "paginaId": "1108439012356829",
+          "adId": "1022848660751097",
+          "keyword": "receitas fáceis",
+          "novo": false,
+          "vezesVisto": 2,
+          "score": 70,
+          "anunciosNaPagina": 350,
+          "criativosDaOferta": 26,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 12,
+          "diasRodando": 75,
+          "produto": "+365 Receitas Sem Açúcar, Glúten e Lactose — doces e salgados do dia a dia.",
+          "preco": "R$ 9,90–19,90 (inferido)",
+          "promessa": "Comer bolo, pizza e lasanha sem açúcar, glúten e lactose.",
+          "hook": "Você acredita que essas receitas NÃO têm açúcar, glúten e lactose?",
+          "porqueEscala": [
+            "350 anúncios ativos na página — maior anunciante do dia",
+            "Recorrente: 2ª aparição em duas rodadas seguidas",
+            "Testa 12 destinos e escala o vencedor: 26 criativos aqui",
+            "Restrição alimentar sem prometer cura — público ciente"
+          ],
+          "comoModelar": [
+            "Abra com incredulidade: 'você acredita que não tem...'",
+            "Liste pratos tradicionais, não ingredientes",
+            "365 receitas = uma por dia, formato vira promessa",
+            "Rode muitas páginas baratas e só escale a vencedora"
+          ],
+          "recomendada": false,
+          "linkVenda": "https://as365receitascheflu.lovable.app/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1022848660751097",
+          "ofertaDominante": {
+            "destino": "as365receitascheflu.lovable.app",
+            "criativos": 26
+          },
+          "destinoFinal": "pagina"
+        }
+      ],
       "descartados": [
         {
-          "pagina": "Renata Brugnera - Nutrição",
-          "motivo": "destino WhatsApp"
-        },
-        {
-          "pagina": "Doces de Sucesso DG",
-          "motivo": "destino WhatsApp"
-        },
-        {
-          "pagina": "Receitas sem Culpa",
+          "pagina": "Mariana Talita",
           "motivo": "nicho black (saúde)"
         },
         {
-          "pagina": "Silvia Araújo",
-          "motivo": "destino WhatsApp"
+          "pagina": "Mia Carvalho",
+          "motivo": "nicho black (saúde)"
         },
         {
-          "pagina": "Chef Confeiteira",
-          "motivo": "destino WhatsApp"
+          "pagina": "Misturas do Bem",
+          "motivo": "12 criativos, abaixo da régua"
         },
         {
-          "pagina": "Receitas Fáceis",
-          "motivo": "destino WhatsApp"
+          "pagina": "FTW",
+          "motivo": "sem página de vendas"
         },
         {
-          "pagina": "Tigrecook",
-          "motivo": "produto físico"
+          "pagina": "Fundació Pasqual Maragall",
+          "motivo": "ONG, destino Facebook"
         },
         {
-          "pagina": "TikTok Global",
-          "motivo": "app, não é oferta"
+          "pagina": "Clara - Vianda feliz",
+          "motivo": "mercado espanhol"
+        },
+        {
+          "pagina": "Academia Karina Gao",
+          "motivo": "mercado espanhol"
         }
       ]
     },
     {
-      "id": "receitas_infantis",
-      "nome": "Receitas para criança e bebê",
-      "totalAnuncios": 24,
-      "totalAnunciantes": 14,
-      "ofertas": [],
+      "id": "renda_extra",
+      "nome": "Renda extra",
+      "totalAnuncios": 19,
+      "totalAnunciantes": 19,
+      "ofertas": [
+        {
+          "pagina": "Luciana Prado",
+          "paginaId": "878176412048107",
+          "adId": "1037695398665651",
+          "keyword": "aprenda a fazer dinheiro",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 88,
+          "anunciosNaPagina": 150,
+          "criativosDaOferta": 60,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 1,
+          "diasRodando": 46,
+          "produto": "Rolinhos gourmet: receita de salgado único pra fazer e vender.",
+          "preco": "R$ 9,90–19,90 (inferido)",
+          "promessa": "Aprenda a fazer rolinhos gourmet.",
+          "hook": "Aprenda a fazer rolinhos gourmet",
+          "porqueEscala": [
+            "Página inteira aponta pro mesmo link: 60 de 60",
+            "150 anúncios ativos e uma oferta só",
+            "Produto único e nomeado vence catálogo genérico",
+            "Copy de uma linha: teste roda no criativo, não no texto"
+          ],
+          "comoModelar": [
+            "Uma receita, um nome, uma página — zero dispersão",
+            "'Gourmet' eleva preço percebido de salgado simples",
+            "Copy mínima obriga o vídeo a vender sozinho",
+            "Página de vendas em domínio de terceiro reduz custo de teste"
+          ],
+          "recomendada": true,
+          "porqueRecomendada": "É o modelo mais limpo de foco do dia: um produto nomeado, uma página, 60 criativos — exatamente o que ele consegue replicar em uma semana.",
+          "linkVenda": "https://inlead.digital/rolinhos-gourmet",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1037695398665651",
+          "ofertaDominante": {
+            "destino": "inlead.digital/rolinhos-gourmet",
+            "criativos": 60
+          },
+          "destinoFinal": "pagina"
+        },
+        {
+          "pagina": "Saboaria da Tia Rose",
+          "paginaId": "113665005122948",
+          "adId": "1813443079679183",
+          "keyword": "aprenda a fazer renda extra",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 76,
+          "anunciosNaPagina": 68,
+          "criativosDaOferta": 36,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 2,
+          "diasRodando": 43,
+          "produto": "Curso de Velas Artesanais 2.0: videoaulas + 5 apostilas de receitas.",
+          "preco": "R$ 7",
+          "promessa": "Produzir velas lindas, cheirosas e lucrativas em casa.",
+          "hook": "Curso 2.0 apenas 7,00",
+          "porqueEscala": [
+            "36 criativos nas velas, 32 nos sabonetes — 68 na página",
+            "R$ 7 no título do anúncio derruba objeção antes do clique",
+            "Versão '2.0' recicla produto antigo como lançamento",
+            "Empilha 5 apostilas de bônus sem custo marginal"
+          ],
+          "comoModelar": [
+            "Preço na primeira linha do anúncio",
+            "Chame de 2.0 e venda o mesmo conteúdo atualizado",
+            "Duas páginas irmãs para dois artesanatos do mesmo público",
+            "Bônus em apostila multiplica valor sem gravar aula nova"
+          ],
+          "recomendada": false,
+          "linkVenda": "https://velastiarose.com/2-0/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1813443079679183",
+          "ofertaDominante": {
+            "destino": "saboariatiarose.com/tiarose2-0",
+            "criativos": 32
+          },
+          "destinoFinal": "pagina"
+        },
+        {
+          "pagina": "Mayara Campos Doces",
+          "paginaId": "1717172328593393",
+          "adId": "2253945628686175",
+          "keyword": "aprenda a fazer renda extra",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 74,
+          "anunciosNaPagina": 82,
+          "criativosDaOferta": 32,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 5,
+          "diasRodando": 34,
+          "produto": "Especialista em Bolos Gelados: 10 sabores de bolo gelado pra vender.",
+          "preco": "R$ 19,90–37 (inferido)",
+          "promessa": "Ter o carro-chefe da confeitaria, com venda constante.",
+          "hook": "Esse é o produto mais vendido do meu delivery e pode se tornar o carro-chefe da sua confeitaria!",
+          "porqueEscala": [
+            "32 criativos nessa oferta, 82 anúncios na página",
+            "Prova real: 'o mais vendido do MEU delivery'",
+            "Bolo gelado é fácil de fazer e vende todo dia",
+            "Irmã Tortas de Vitrine tem 35 — duas ofertas escalando juntas"
+          ],
+          "comoModelar": [
+            "Venda o carro-chefe, não o catálogo de receitas",
+            "Prova de venda própria vale mais que depoimento",
+            "Número de sabores no nome: '10 sabores que vendem'",
+            "Quebre o catálogo em 3 páginas por família de doce"
+          ],
+          "recomendada": true,
+          "porqueRecomendada": "Mecanismo 'carro-chefe da confeitaria' com prova do próprio delivery transporta direto pro produto de renda extra com comida caseira dele.",
+          "linkVenda": "https://mayaracamposconfeitaria.com.br/especialista-em-bolos-gelados/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2253945628686175",
+          "ofertaDominante": {
+            "destino": "mayaracamposconfeitaria.com.br/tortasdevitrine",
+            "criativos": 35
+          },
+          "destinoFinal": "pagina"
+        },
+        {
+          "pagina": "Aisne Morelli",
+          "paginaId": "373233815878944",
+          "adId": "1401542428476587",
+          "keyword": "aprenda a fazer dinheiro",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 64,
+          "anunciosNaPagina": 67,
+          "criativosDaOferta": 21,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 5,
+          "diasRodando": 92,
+          "produto": "Guia 20 Receitas de Sabonetes Glicerinados, passo a passo.",
+          "preco": "R$ 9,90–19,90 (copy diz 'valor simbólico')",
+          "promessa": "Sabonetes bonitos e lucrativos mesmo começando do zero.",
+          "hook": "Você quer começar na saboaria… mas tem medo de desperdiçar material?",
+          "porqueEscala": [
+            "21 criativos nessa oferta, 92 dias rodando",
+            "Abre pelo medo (desperdiçar material), não pelo sonho",
+            "Oferta irmã 'embalagens lucrativas' com 17 criativos",
+            "'Valor simbólico' evita preço na copy e cria curiosidade"
+          ],
+          "comoModelar": [
+            "Abra pelo medo do iniciante, não pela promessa",
+            "Número fechado no nome: 20 receitas",
+            "Crie o upsell de embalagem como oferta própria",
+            "'Valor simbólico' no lugar do preço puxa clique"
+          ],
+          "recomendada": false,
+          "linkVenda": "https://aisnemorelli.com.br/e20g-b-29/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1401542428476587",
+          "ofertaDominante": {
+            "destino": "aisnemorelli.com.br/e20g-b-29",
+            "criativos": 21
+          },
+          "destinoFinal": "pagina"
+        }
+      ],
       "descartados": [
         {
-          "pagina": "Manual da Criança Feliz",
-          "motivo": "14 criativos, abaixo da régua"
+          "pagina": "Venda Sem Estoque",
+          "motivo": "funil high-ticket"
         },
         {
-          "pagina": "Dr.Elena",
-          "motivo": "11 criativos, abaixo da régua"
+          "pagina": "Luciano Fernandes",
+          "motivo": "investimentos, webinário"
         },
         {
-          "pagina": "Central Emagrecentro",
-          "motivo": "nicho black (saúde)"
+          "pagina": "EQI/Research",
+          "motivo": "isca de corretora"
         },
         {
-          "pagina": "Nutri Alê Zago",
-          "motivo": "nicho black (saúde)"
+          "pagina": "Maximus Tecidos Finos",
+          "motivo": "13 criativos, abaixo da régua"
         },
         {
-          "pagina": "Receitas Que Nutrem",
-          "motivo": "destino WhatsApp"
+          "pagina": "Tradeandonet",
+          "motivo": "trading, mercado espanhol"
         },
         {
-          "pagina": "Biscut",
-          "motivo": "produto físico"
+          "pagina": "Jaime Higuera España",
+          "motivo": "mercado espanhol"
         },
         {
-          "pagina": "Papa Rica",
-          "motivo": "produto físico"
+          "pagina": "Fabricio Sampayo",
+          "motivo": "mercado espanhol"
         }
       ]
     },
@@ -106,7 +371,7 @@
           "keyword": "fazer e vender",
           "novo": true,
           "vezesVisto": 1,
-          "score": 38,
+          "score": 62,
           "anunciosNaPagina": 55,
           "criativosDaOferta": 22,
           "criativosEstimados": null,
@@ -128,52 +393,12 @@
             "Empilhe tags e fotos prontas pra divulgar como bônus",
             "Uma página por família de produto, não catálogo único"
           ],
-          "recomendada": true,
-          "porqueRecomendada": "Mecanismo de formato ('na travessa') é transportável pra qualquer receita dele, e a página já provou 474 dias.",
+          "recomendada": false,
           "linkVenda": "https://bianocete.com.br/sobremesas/",
           "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1071269938872128",
           "ofertaDominante": {
             "destino": "bianocete.com.br/sobremesas",
             "criativos": 22
-          },
-          "destinoFinal": "pagina"
-        },
-        {
-          "pagina": "Doce de Sabão",
-          "paginaId": "253773664798701",
-          "adId": "1057785350078825",
-          "keyword": "fazer e vender",
-          "novo": true,
-          "vezesVisto": 1,
-          "score": 35,
-          "anunciosNaPagina": 74,
-          "criativosDaOferta": 20,
-          "criativosEstimados": null,
-          "ofertasNaPagina": 7,
-          "diasRodando": 99,
-          "produto": "Mini Curso Velas Aromáticas: passo a passo + apostila de fornecedores.",
-          "preco": "60% OFF (valor não exibido)",
-          "promessa": "Começar do zero, mesmo com pouco dinheiro, e ganhar dinheiro fazendo velas.",
-          "hook": "Já pensou em ganhar dinheiro com algo que você ama fazer?",
-          "porqueEscala": [
-            "20 criativos na oferta e 74 anúncios ativos na página",
-            "Sete ofertas de artesanato rodando em paralelo",
-            "'Mini curso' reduz atrito de preço e de tempo",
-            "Encomendas reais pra praticar matam a objeção de iniciante"
-          ],
-          "comoModelar": [
-            "Rótulo 'Mini Curso' posiciona low-ticket sem falar preço",
-            "Apostila de fornecedores é o bônus que trava a decisão",
-            "Abra com pergunta de identidade, não com o produto",
-            "Prometa começar do zero e com pouco dinheiro"
-          ],
-          "recomendada": true,
-          "porqueRecomendada": "É a estrutura de catálogo que ele pode copiar: um mini curso barato por habilidade, cada um com sua página.",
-          "linkVenda": "https://docedesabao.com/mcva/",
-          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1057785350078825",
-          "ofertaDominante": {
-            "destino": "docedesabao.com/mcva",
-            "criativos": 12
           },
           "destinoFinal": "pagina"
         },
@@ -184,7 +409,7 @@
           "keyword": "fazer e vender",
           "novo": true,
           "vezesVisto": 1,
-          "score": 31,
+          "score": 52,
           "anunciosNaPagina": 15,
           "criativosDaOferta": 15,
           "criativosEstimados": null,
@@ -206,8 +431,7 @@
             "'Barata e lucrativa' vale mais que 'deliciosa'",
             "Lembrancinha e kit ampliam o uso da mesma receita"
           ],
-          "recomendada": true,
-          "porqueRecomendada": "Mostra o modelo de foco: uma página, uma oferta, 15 criativos — o caminho mais rápido de validar com VSL.",
+          "recomendada": false,
           "linkVenda": "https://biscoitoscaseiros.com/bvideo/",
           "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2177329392995254",
           "ofertaDominante": {
@@ -219,24 +443,202 @@
       ],
       "descartados": [
         {
-          "pagina": "Roberta Carvalho",
+          "pagina": "Doce de Sabão",
+          "motivo": "velas com menos criativos que Tia Rose"
+        },
+        {
+          "pagina": "Renata Brugnera",
           "motivo": "destino WhatsApp"
         },
         {
-          "pagina": "Instituto Gourmet Barra da Tijuca",
+          "pagina": "Doces de Sucesso DG",
           "motivo": "destino WhatsApp"
         },
         {
-          "pagina": "Instituto Gourmet Tijuca",
+          "pagina": "Chef Confeiteira",
           "motivo": "destino WhatsApp"
+        }
+      ]
+    },
+    {
+      "id": "maternidade",
+      "nome": "Maternidade e educação infantil",
+      "totalAnuncios": 18,
+      "totalAnunciantes": 18,
+      "ofertas": [
+        {
+          "pagina": "Portal da Pedagogia",
+          "paginaId": "1317235804801190",
+          "adId": "2110675936186298",
+          "keyword": "atividades infantis",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 78,
+          "anunciosNaPagina": 110,
+          "criativosDaOferta": 42,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 2,
+          "diasRodando": 9,
+          "produto": "PLR Pedagógico: +25 mil atividades prontas pra editar e revender, R$ 10.",
+          "preco": "R$ 10",
+          "promessa": "Fazer a primeira venda no digital sem criar produto do zero.",
+          "hook": "+25 MIL MATERIAIS POR APENAS R$10",
+          "porqueEscala": [
+            "42 criativos e 110 anúncios em apenas 9 dias",
+            "Junta dois desejos: renda extra e material pedagógico",
+            "Volume absurdo + preço baixo é oferta irrecusável",
+            "Direito de revenda transforma comprador em divulgador"
+          ],
+          "comoModelar": [
+            "Número gigante e preço na mesma headline",
+            "Venda o atalho: 'sem criar produto do zero'",
+            "Liste os usos em checklist: revender, editar, imprimir",
+            "Direito de revenda como bônus de maior valor percebido"
+          ],
+          "recomendada": false,
+          "linkVenda": "https://oferta.portaldapedagogia.com.br/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2110675936186298",
+          "ofertaDominante": {
+            "destino": "oferta.portaldapedagogia.com.br",
+            "criativos": 36
+          },
+          "destinoFinal": "pagina"
         },
         {
-          "pagina": "Lúcia Melo",
-          "motivo": "destino WhatsApp"
+          "pagina": "Nutri Infantil",
+          "paginaId": "110493154475684",
+          "adId": "1340993147885657",
+          "keyword": "introdução alimentar",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 66,
+          "anunciosNaPagina": 140,
+          "criativosDaOferta": 24,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 4,
+          "diasRodando": 56,
+          "produto": "Método Mani para seletividade alimentar: aula curta que abre a oferta.",
+          "preco": "R$ 19,90–47 (inferido)",
+          "promessa": "Criança que só come o mesmo passar a aceitar comida nova.",
+          "hook": "VOCÊ DESBLOQUEOU UMA AULA PRO SEU FILHO COMER MELHOR",
+          "porqueEscala": [
+            "24 criativos nessa oferta, 140 anúncios na página",
+            "Seletividade é dor diária, não vaidade",
+            "'Você desbloqueou' cria sensação de acesso ganho",
+            "Oferta irmã nutribebe.com.br/metodo soma outros 20"
+          ],
+          "comoModelar": [
+            "Abra com 'você desbloqueou' no lugar de oferta",
+            "Nomeie o método e trate o sintoma específico",
+            "Vídeo curto antes da página aquece o clique frio",
+            "Descreva o comportamento da criança, não a nutrição"
+          ],
+          "recomendada": false,
+          "linkVenda": "https://metodomani.com/seletividade/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1340993147885657",
+          "ofertaDominante": {
+            "destino": "metodomani.com/seletividade",
+            "criativos": 17
+          },
+          "destinoFinal": "pagina"
+        }
+      ],
+      "descartados": [
+        {
+          "pagina": "Carlos Klein - Personal",
+          "motivo": "nicho black (saúde)"
         },
         {
-          "pagina": "InfinitePay",
-          "motivo": "SaaS/fintech"
+          "pagina": "Clubinho da Família",
+          "motivo": "7 criativos, abaixo da régua"
+        },
+        {
+          "pagina": "Chef Maria",
+          "motivo": "10 criativos, abaixo da régua"
+        },
+        {
+          "pagina": "Stella Soragi",
+          "motivo": "destino Instagram"
+        },
+        {
+          "pagina": "PMMinas",
+          "motivo": "concurso público"
+        },
+        {
+          "pagina": "João & Maria Editora",
+          "motivo": "provável livro físico"
+        }
+      ]
+    },
+    {
+      "id": "cristao",
+      "nome": "Cristão / Espiritualidade",
+      "totalAnuncios": 18,
+      "totalAnunciantes": 18,
+      "ofertas": [
+        {
+          "pagina": "Mapa da Bíblia",
+          "paginaId": "699595763247977",
+          "adId": "1110583404881016",
+          "keyword": "entenda bíblia",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 70,
+          "anunciosNaPagina": 70,
+          "criativosDaOferta": 40,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 2,
+          "diasRodando": 38,
+          "produto": "Mapa da Bíblia: resumos visuais dos 73 livros da Bíblia católica.",
+          "preco": "R$ 19,90–37 (inferido)",
+          "promessa": "Entender todos os livros da Bíblia com clareza, pra vida toda.",
+          "hook": "Padre, por onde eu começo a ler a Bíblia?",
+          "porqueEscala": [
+            "40 criativos nessa oferta, 70 na página",
+            "Abre com a pergunta literal do público",
+            "'Resumo visual' é mecanismo fácil de entender",
+            "Prova social: mais de 35 mil católicos dentro"
+          ],
+          "comoModelar": [
+            "Use a pergunta exata que o público já faz",
+            "Transforme conteúdo longo em resumo visual",
+            "'Pra vida toda' substitui garantia e justifica preço",
+            "Comentário no post como segundo caminho de conversão"
+          ],
+          "recomendada": false,
+          "linkVenda": "http://www.mapadocatolico.com.br/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1110583404881016",
+          "ofertaDominante": {
+            "destino": "mapadocatolico.com.br",
+            "criativos": 40
+          },
+          "destinoFinal": "pagina"
+        }
+      ],
+      "descartados": [
+        {
+          "pagina": "Pastor Daniel Díaz",
+          "motivo": "página não abriu, 2 criativos"
+        },
+        {
+          "pagina": "Evangelizando com Padre Reginaldo",
+          "motivo": "1 criativo, abaixo da régua"
+        },
+        {
+          "pagina": "João Claudio Rufino",
+          "motivo": "12 criativos, abaixo da régua"
+        },
+        {
+          "pagina": "Academia de Pregadores",
+          "motivo": "destino Instagram"
+        },
+        {
+          "pagina": "Destra For The Nations",
+          "motivo": "funil high-ticket"
+        },
+        {
+          "pagina": "O VERSO DA VIDA",
+          "motivo": "produto físico"
         }
       ]
     }

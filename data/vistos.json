@@ -90,8 +90,7 @@
     "316630805153269": {
       "nome": "Washington Stecanela Cerqueira",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21",
-      "vezes": 1
+      "ultimaVez": "2026-09-22"
     },
     "397559487252468": {
       "nome": "Bebê de Nutri - Nutricionista Franciele Loss",
@@ -687,6 +686,11 @@
     },
     "809609095562503": {
       "nome": "Sara Fialho - Psicopedagoga",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "119356663233742": {
+      "nome": "Gratus Tecnologia",
       "primeiraVez": "2026-09-22",
       "ultimaVez": "2026-09-22"
     }
@@ -1585,6 +1589,20 @@
     "809609095562503|biliotecaneurovisual.lovable.app": {
       "pagina": "Sara Fialho - Psicopedagoga",
       "link": "https://biliotecaneurovisual.lovable.app/",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "119356663233742|doutorbeneficios.com/app": {
+      "pagina": "Gratus Tecnologia",
+      "link": "https://www.doutorbeneficios.com/app",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "316630805153269|instagram.com/w9coracaovalente": {
+      "pagina": "Washington Stecanela Cerqueira",
+      "link": "https://www.instagram.com/w9coracaovalente/",
       "primeiraVez": "2026-09-22",
       "ultimaVez": "2026-09-22",
       "vezes": 1

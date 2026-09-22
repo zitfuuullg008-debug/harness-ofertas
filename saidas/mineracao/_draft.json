@@ -1,0 +1,268 @@
+{
+  "data": "2026-09-22",
+  "resumo": "draft",
+  "nichos": [
+    {
+      "id": "receitas",
+      "nome": "receitas",
+      "totalAnuncios": 96,
+      "ofertas": [
+        {
+          "pagina": "Doces de Sucesso DG",
+          "paginaId": "110191770814844",
+          "adId": "1162314215370808",
+          "keyword": null,
+          "criativosDaOferta": 3,
+          "diasRodando": 546,
+          "linkVenda": "https://docesdesucessolucrativo.com.br/apostilas-por-1-real/",
+          "novo": true
+        },
+        {
+          "pagina": "Luana Oliveira",
+          "paginaId": "1108439012356829",
+          "adId": "1074944198345273",
+          "keyword": null,
+          "criativosDaOferta": 1,
+          "diasRodando": 65,
+          "linkVenda": "https://as365receitascheflu.lovable.app/",
+          "novo": true
+        },
+        {
+          "pagina": "Receitas Deliciosas",
+          "paginaId": "115329360309179",
+          "adId": "1052668157426799",
+          "keyword": null,
+          "criativosDaOferta": 1,
+          "diasRodando": 75,
+          "linkVenda": "https://receitas.revitamulher.online/",
+          "novo": true
+        }
+      ]
+    },
+    {
+      "id": "receitas_infantis",
+      "nome": "receitas_infantis",
+      "totalAnuncios": 104,
+      "ofertas": [
+        {
+          "pagina": "Manual da Criança Feliz",
+          "paginaId": "413332225208136",
+          "adId": "1497985051707998",
+          "keyword": null,
+          "criativosDaOferta": 2,
+          "diasRodando": 108,
+          "linkVenda": "https://introducaoalimentar.manualinfantil.com/",
+          "novo": true
+        },
+        {
+          "pagina": "Dr.Elena",
+          "paginaId": "107772175730655",
+          "adId": "1493386508757444",
+          "keyword": null,
+          "criativosDaOferta": 6,
+          "diasRodando": 45,
+          "linkVenda": "https://nutribabyapp.com.br/ebooksdesconto/",
+          "novo": true
+        },
+        {
+          "pagina": "Foco Total Vip",
+          "paginaId": "645880351937742",
+          "adId": "1523446369176979",
+          "keyword": null,
+          "criativosDaOferta": 1,
+          "diasRodando": 155,
+          "linkVenda": "https://atividades.pacotespremium.com/",
+          "novo": true
+        }
+      ]
+    },
+    {
+      "id": "maternidade",
+      "nome": "maternidade",
+      "totalAnuncios": 94,
+      "ofertas": [
+        {
+          "pagina": "Atividades Com Amor",
+          "paginaId": "338245476045542",
+          "adId": "1982129989214771",
+          "keyword": null,
+          "criativosDaOferta": 1,
+          "diasRodando": 371,
+          "linkVenda": "https://atividadescomamor.com.br/produto/caderno-das-silabas-de-a-a-z/",
+          "novo": true
+        },
+        {
+          "pagina": "Turminha Alfa Kids",
+          "paginaId": "731275250070572",
+          "adId": "1297852502547188",
+          "keyword": null,
+          "criativosDaOferta": 1,
+          "diasRodando": 129,
+          "linkVenda": "https://turminhaalfakids.online/alfa199/",
+          "novo": true
+        },
+        {
+          "pagina": "Conectadas Atividades",
+          "paginaId": "554501644404982",
+          "adId": "2207497336458859",
+          "keyword": null,
+          "criativosDaOferta": 1,
+          "diasRodando": 120,
+          "linkVenda": "https://conectadasatividades.com.br/passaourepassaalfa",
+          "novo": true
+        },
+        {
+          "pagina": "Universo das Dinâmicas ",
+          "paginaId": "1088418777690520",
+          "adId": "2155571435280165",
+          "keyword": null,
+          "criativosDaOferta": 1,
+          "diasRodando": 145,
+          "linkVenda": "https://atividade-cursiva.netlify.app/",
+          "novo": true
+        },
+        {
+          "pagina": "Sala de Saberes",
+          "paginaId": "103318768728252",
+          "adId": "1609873890216510",
+          "keyword": null,
+          "criativosDaOferta": 1,
+          "diasRodando": 197,
+          "linkVenda": "https://saladesaberes.com.br/materiais-didaticos/carne-da-leitura-o-recurso-completo-para-alfabetizacao",
+          "novo": true
+        }
+      ]
+    },
+    {
+      "id": "renda_extra",
+      "nome": "renda_extra",
+      "totalAnuncios": 93,
+      "ofertas": [
+        {
+          "pagina": "VDT - Vida de Tradutor",
+          "paginaId": "108318455309622",
+          "adId": "1529432585546500",
+          "keyword": null,
+          "criativosDaOferta": 5,
+          "diasRodando": 111,
+          "linkVenda": "https://vidadetradutor.com.br/curso-de-traducao-v2/",
+          "novo": true
+        },
+        {
+          "pagina": "Matheus Carvalho",
+          "paginaId": "346792968511413",
+          "adId": "1653145672557165",
+          "keyword": null,
+          "criativosDaOferta": 2,
+          "diasRodando": 260,
+          "linkVenda": "https://obrigadeiroperfeito.com.br/home-principal-37?src=FBAds_{{adset.name}}_{{ad.name}}_{{placement}}_{{campaign.name}}&utm_source=FBAds&utm_medium={{adset.name}}&utm_content={{ad.name}}&utm_campaign={{campaign.name}}&utm_term={{placement}}",
+          "novo": true
+        },
+        {
+          "pagina": "Curso Biscoitos Caseiros",
+          "paginaId": "298146350524859",
+          "adId": "1320326486231550",
+          "keyword": null,
+          "criativosDaOferta": 3,
+          "diasRodando": 104,
+          "linkVenda": "https://biscoitoscaseiros.com/bvideo/",
+          "novo": true
+        },
+        {
+          "pagina": "Ale Negrini",
+          "paginaId": "108866131642491",
+          "adId": "943256408745707",
+          "keyword": null,
+          "criativosDaOferta": 2,
+          "diasRodando": 99,
+          "linkVenda": "https://negocioquelucra.com/",
+          "novo": true
+        },
+        {
+          "pagina": "Churrasqueadas",
+          "paginaId": "421716924551570",
+          "adId": "938918945726304",
+          "keyword": null,
+          "criativosDaOferta": 1,
+          "diasRodando": 165,
+          "linkVenda": "https://academiadoespetinho.com.br/",
+          "novo": true
+        },
+        {
+          "pagina": "Leidy Cakes",
+          "paginaId": "473594993383973",
+          "adId": "1057966452978335",
+          "keyword": null,
+          "criativosDaOferta": 1,
+          "diasRodando": 452,
+          "linkVenda": "https://leidycake.com.br/bolodepote",
+          "novo": true
+        }
+      ]
+    },
+    {
+      "id": "comida_caseira",
+      "nome": "comida_caseira",
+      "totalAnuncios": 111,
+      "ofertas": [
+        {
+          "pagina": "Maçã e Caramelo",
+          "paginaId": "114264614591158",
+          "adId": "2211318743048208",
+          "keyword": null,
+          "criativosDaOferta": 2,
+          "diasRodando": 97,
+          "linkVenda": "http://macaecaramelo.com.br/",
+          "novo": true
+        },
+        {
+          "pagina": "Leidy Cakes",
+          "paginaId": "473594993383973",
+          "adId": "1057966452978335",
+          "keyword": null,
+          "criativosDaOferta": 1,
+          "diasRodando": 452,
+          "linkVenda": "https://leidycake.com.br/bolodepote",
+          "novo": true
+        }
+      ]
+    },
+    {
+      "id": "cristao",
+      "nome": "cristao",
+      "totalAnuncios": 67,
+      "ofertas": [
+        {
+          "pagina": "Saúde Sempre",
+          "paginaId": "109095358944329",
+          "adId": "900338272432859",
+          "keyword": null,
+          "criativosDaOferta": 1,
+          "diasRodando": 263,
+          "linkVenda": "http://mapasmentais.shop/",
+          "novo": true
+        },
+        {
+          "pagina": "Ana Cristina",
+          "paginaId": "1244301418773018",
+          "adId": "1588867635929625",
+          "keyword": null,
+          "criativosDaOferta": 1,
+          "diasRodando": 38,
+          "linkVenda": "https://datenights.site/",
+          "novo": true
+        },
+        {
+          "pagina": "OTiago.Correa",
+          "paginaId": "400927416436138",
+          "adId": "967666845876088",
+          "keyword": null,
+          "criativosDaOferta": 1,
+          "diasRodando": 112,
+          "linkVenda": "https://www.otiagocorrea.com.br/leca",
+          "novo": true
+        }
+      ]
+    }
+  ]
+}
