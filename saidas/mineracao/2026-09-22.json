@@ -1,38 +1,38 @@
 {
   "data": "2026-09-22",
-  "resumo": "Rodízio do dia: receitas, receitas para criança/bebê e renda extra com comida caseira — 83 anúncios em 46 páginas. Só 5 ofertas passaram: o topo bruto é quase todo funil de WhatsApp, produto físico (Tigrecook, Biscut, Papa Rica) ou saúde (Emagrecentro, ebook de diabetes gestacional). O nicho receitas ficou zerado — as duas únicas candidatas (Doces de Sucesso DG, com 546 dias rodando, e Renata Brugnera, com 110 anúncios ativos) usam domínio próprio que redireciona pro WhatsApp, então não dá pra modelar página. Boas demais pra ignorar, mas também em WhatsApp: Roberta Carvalho (pudim sem fogo, 25 criativos, 142d), Chef Confeiteira (caseirinhos a R$ 10, paga depois de receber) e Lúcia Melo (suspiro gourmet a R$ 10).",
+  "resumo": "Rodízio do dia: receitas, receitas para criança/bebê e renda extra com comida caseira — 83 anúncios em 46 páginas. Com a régua nova de 15+ criativos no mesmo destino, só 3 ofertas passaram, todas em comida caseira/artesanato. Receitas e receitas infantis zeraram: as duas maiores do dia (Renata Brugnera, 108 criativos, e Doces de Sucesso DG, 24 criativos e 546 dias) usam domínio próprio que redireciona pro WhatsApp, e o Manual da Criança Feliz parou em 14 criativos — um a menos que a régua.",
   "nichosFaltando": [
     "renda_extra",
     "cristao",
     "maternidade"
   ],
   "padroes": [
-    "Domínio bonito não é página de vendas: 2 de 2 candidatas de receitas caíam no WhatsApp.",
-    "Preço de entrada virou o hook: apostilas por R$ 1, apenas 10 reais, pague depois de receber.",
-    "Receita só vende quando vem com o depois: precificação, embalagem e o que mais vende.",
-    "Infantil escala com pacote datado: cardápios de 6 a 24 meses + lista de compras + bônus.",
-    "Prova social numerada no título (+3.800 mães testaram, 11 mil alunas) repete em 4 anunciantes.",
-    "Mudou vs. ontem: Roberta Carvalho e Silvia Araújo seguem firmes e seguem em WhatsApp; entraram três páginas de venda de verdade no eixo comida caseira."
+    "Catálogo de mini cursos: uma página, um produto, um link por receita",
+    "Oferta empilhada: videoaulas + apostila + certificado + suporte + bônus",
+    "Gancho de calendário: Natal, Dia das Crianças, Dia dos Professores",
+    "Promessa dupla: aprende pra família, lucra vendendo",
+    "Mudou vs. ontem: domínio próprio virou disfarce de funil WhatsApp",
+    "Régua de 15 criativos derrubou 5 cards do relatório anterior"
   ],
   "nichos": [
     {
       "id": "receitas",
       "nome": "Receitas",
       "totalAnuncios": 30,
-      "totalAnunciantes": 20,
+      "totalAnunciantes": 15,
       "ofertas": [],
       "descartados": [
         {
           "pagina": "Renata Brugnera - Nutrição",
-          "motivo": "domínio próprio redireciona pro WhatsApp"
+          "motivo": "destino WhatsApp"
         },
         {
           "pagina": "Doces de Sucesso DG",
-          "motivo": "domínio próprio redireciona pro WhatsApp"
+          "motivo": "destino WhatsApp"
         },
         {
           "pagina": "Receitas sem Culpa",
-          "motivo": "destino WhatsApp"
+          "motivo": "nicho black (saúde)"
         },
         {
           "pagina": "Silvia Araújo",
@@ -61,76 +61,16 @@
       "nome": "Receitas para criança e bebê",
       "totalAnuncios": 24,
       "totalAnunciantes": 14,
-      "ofertas": [
+      "ofertas": [],
+      "descartados": [
         {
           "pagina": "Manual da Criança Feliz",
-          "paginaId": "413332225208136",
-          "adId": "1497985051707998",
-          "keyword": "receitas para bebê",
-          "novo": true,
-          "vezesVisto": 1,
-          "score": 75,
-          "anunciosNaPagina": 14,
-          "criativosDaOferta": 14,
-          "criativosEstimados": null,
-          "ofertasNaPagina": 1,
-          "diasRodando": 134,
-          "produto": "Cardápios semanais de 6 a 24 meses + lista de compras + 200 receitas de introdução alimentar.",
-          "preco": null,
-          "promessa": "Cardápios prontos do 6º ao 24º mês, com a lista de compras da semana junto.",
-          "hook": "Cardápios do 6 aos 24 Meses + Listas de Compras e Receitinhas para Introdução Alimentar.",
-          "porqueEscala": [
-            "Mecanismo datado: a mãe sabe exatamente qual mês é o dela.",
-            "Lista de compras resolve a dor real, não só a receita.",
-            "Prova social no título: '+3.800 mães testaram e aprovaram'.",
-            "14 anúncios ativos, todos no mesmo link há 134 dias."
-          ],
-          "comoModelar": [
-            "Recortar o produto por faixa etária em vez de vender 'geral'.",
-            "Somar lista de compras a qualquer cardápio — é o que fecha a venda.",
-            "Empilhar 5-6 bônus nomeados na copy, cada um com um medo da mãe.",
-            "Nota no título com estrelas e número de compradoras."
-          ],
-          "recomendada": true,
-          "porqueRecomendada": "O mecanismo 'cardápio 6–24 meses + lista de compras' transporta inteiro: é nomeado, datado e não depende da autoridade dela.",
-          "linkVenda": "https://introducaoalimentar.manualinfantil.com/",
-          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1497985051707998",
-          "destinoFinal": "pagina"
+          "motivo": "14 criativos, abaixo da régua"
         },
         {
           "pagina": "Dr.Elena",
-          "paginaId": "107772175730655",
-          "adId": "1493386508757444",
-          "keyword": "receitas para bebê",
-          "novo": true,
-          "vezesVisto": 1,
-          "score": 36,
-          "anunciosNaPagina": 15,
-          "criativosDaOferta": 5,
-          "criativosEstimados": null,
-          "ofertasNaPagina": 1,
-          "diasRodando": 48,
-          "produto": "Combo de ebooks de refeições práticas para bebê, vendido direto na página de desconto.",
-          "preco": null,
-          "promessa": "Refeições práticas e nutritivas para o bebê, sem estresse no dia a dia.",
-          "hook": "Chega de ficar sem ideia na hora de alimentar seu bebê.",
-          "porqueEscala": [
-            "Dor de decisão diária, não de saúde: 'sem ideia do que fazer'.",
-            "5 criativos com a mesma copy curta — está testando imagem.",
-            "URL já entra em modo desconto, encurta a página."
-          ],
-          "comoModelar": [
-            "Hook de 'não sei o que fazer hoje' em vez de promessa nutricional.",
-            "Copy curta de 2 linhas + imagem de pratinho montado.",
-            "Página de combo com desconto já aplicado na URL."
-          ],
-          "recomendada": false,
-          "linkVenda": "https://nutribabyapp.com.br/ebooksdesconto/",
-          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1493386508757444",
-          "destinoFinal": "pagina"
-        }
-      ],
-      "descartados": [
+          "motivo": "11 criativos, abaixo da régua"
+        },
         {
           "pagina": "Central Emagrecentro",
           "motivo": "nicho black (saúde)"
@@ -149,7 +89,7 @@
         },
         {
           "pagina": "Papa Rica",
-          "motivo": "loja física"
+          "motivo": "produto físico"
         }
       ]
     },
@@ -157,105 +97,124 @@
       "id": "comida_caseira",
       "nome": "Renda extra com comida caseira",
       "totalAnuncios": 29,
-      "totalAnunciantes": 12,
+      "totalAnunciantes": 17,
       "ofertas": [
-        {
-          "pagina": "Curso Biscoitos Caseiros",
-          "paginaId": "298146350524859",
-          "adId": "1375470821306988",
-          "keyword": "fazer e vender",
-          "novo": true,
-          "vezesVisto": 1,
-          "score": 31,
-          "anunciosNaPagina": 16,
-          "criativosDaOferta": 1,
-          "criativosEstimados": null,
-          "ofertasNaPagina": 1,
-          "diasRodando": 90,
-          "produto": "Curso de 25+ receitas de biscoitos baratos e lucrativos, vendido por VSL.",
-          "preco": null,
-          "promessa": "Mais de 25 receitas de biscoito para vender muito, todos os dias.",
-          "hook": "Quer fazer biscoitos como esses?",
-          "porqueEscala": [
-            "Hook de desejo visual: mostra o biscoito antes de falar de dinheiro.",
-            "'Baratas e lucrativas' amarra custo e margem na mesma frase.",
-            "Página de VSL própria, 90 dias no ar."
-          ],
-          "comoModelar": [
-            "Abrir com a imagem do produto pronto, não com renda extra.",
-            "Prometer número de receitas + palavra 'lucrativas' no mesmo bullet.",
-            "Testar VSL curta como página, com o CTA abaixo do vídeo."
-          ],
-          "recomendada": true,
-          "porqueRecomendada": "É a única de renda extra com comida que vende por página própria — dá pra modelar a VSL inteira sem passar por WhatsApp.",
-          "linkVenda": "https://biscoitoscaseiros.com/bvideo/",
-          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1375470821306988",
-          "destinoFinal": "pagina"
-        },
         {
           "pagina": "Bia Nocete",
           "paginaId": "115853069820852",
-          "adId": "694572493312063",
+          "adId": "1071269938872128",
           "keyword": "fazer e vender",
           "novo": true,
           "vezesVisto": 1,
           "score": 38,
           "anunciosNaPagina": 55,
-          "criativosDaOferta": 1,
+          "criativosDaOferta": 22,
           "criativosEstimados": null,
-          "ofertasNaPagina": 1,
+          "ofertasNaPagina": 6,
           "diasRodando": 474,
-          "produto": "Treinamento de biscoitos da marca pessoal Bia Nocete, com página só de biscoitos.",
-          "preco": null,
-          "promessa": "Sem copy no criativo — a oferta é carregada pelo vídeo e pela página.",
-          "hook": "Anúncio sem texto: só o vídeo e o botão 'Saiba mais'.",
+          "produto": "Curso Sobremesas na Travessa: 29 videoaulas + apostila + certificado.",
+          "preco": "R$ 27–47 (inferido)",
+          "promessa": "As sobremesas que vendem muito o ano todo, sem sair do básico.",
+          "hook": "Quem quer vender de verdade o ANO TODO aposta nas sobremesas que ninguém consegue dizer não.",
           "porqueEscala": [
-            "474 dias no ar com o mesmo criativo: o mais longevo do dia.",
-            "Vídeo sem copy só funciona quando a demonstração vende sozinha.",
-            "Página dedicada a um produto só (/biscoitos)."
+            "22 criativos só nessa oferta, 55 na página",
+            "Anuncia há 474 dias — sobrevive a vários invernos",
+            "Formato 'na travessa' resolve escala de produção",
+            "Bônus de Natal amarra urgência de calendário"
           ],
           "comoModelar": [
-            "Testar criativo só-vídeo, sem texto, apoiado na demonstração.",
-            "Uma URL por produto em vez de home genérica.",
-            "Confiança baixa: sem copy, checar a página antes de copiar."
+            "Nomeie o formato, não a receita: 'na travessa'",
+            "Promessa de venda o ano todo vence a sazonalidade",
+            "Empilhe tags e fotos prontas pra divulgar como bônus",
+            "Uma página por família de produto, não catálogo único"
           ],
-          "recomendada": false,
-          "linkVenda": "https://bianocete.com.br/biscoitos/",
-          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=694572493312063",
+          "recomendada": true,
+          "porqueRecomendada": "Mecanismo de formato ('na travessa') é transportável pra qualquer receita dele, e a página já provou 474 dias.",
+          "linkVenda": "https://bianocete.com.br/sobremesas/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1071269938872128",
+          "ofertaDominante": {
+            "destino": "bianocete.com.br/sobremesas",
+            "criativos": 22
+          },
           "destinoFinal": "pagina"
         },
         {
           "pagina": "Doce de Sabão",
           "paginaId": "253773664798701",
-          "adId": "1039351612110219",
+          "adId": "1057785350078825",
           "keyword": "fazer e vender",
           "novo": true,
           "vezesVisto": 1,
           "score": 35,
           "anunciosNaPagina": 74,
-          "criativosDaOferta": 1,
+          "criativosDaOferta": 20,
           "criativosEstimados": null,
-          "ofertasNaPagina": 1,
+          "ofertasNaPagina": 7,
           "diasRodando": 99,
-          "produto": "Aula de como fazer gloss labial artesanal para usar e vender.",
-          "preco": null,
-          "promessa": "Aprenda a fazer um gloss que hidrata, dá brilho e deixa os lábios mais bonitos.",
-          "hook": "Aprenda a fazer um Gloss Labial que hidrata, dá brilho e deixa os lábios bonitos.",
+          "produto": "Mini Curso Velas Aromáticas: passo a passo + apostila de fornecedores.",
+          "preco": "60% OFF (valor não exibido)",
+          "promessa": "Começar do zero, mesmo com pouco dinheiro, e ganhar dinheiro fazendo velas.",
+          "hook": "Já pensou em ganhar dinheiro com algo que você ama fazer?",
           "porqueEscala": [
-            "Artesanato DIY com resultado visível no próprio corpo.",
-            "Promessa de uso primeiro, venda depois — entrada mais fácil.",
-            "99 dias rodando com link cru repetido na copy."
+            "20 criativos na oferta e 74 anúncios ativos na página",
+            "Sete ofertas de artesanato rodando em paralelo",
+            "'Mini curso' reduz atrito de preço e de tempo",
+            "Encomendas reais pra praticar matam a objeção de iniciante"
           ],
           "comoModelar": [
-            "Vender pelo resultado de uso, deixar o lucro como bônus.",
-            "Repetir o link em texto dentro da copy, além do botão.",
-            "Produto artesanal barato de produzir: bom pra low-ticket."
+            "Rótulo 'Mini Curso' posiciona low-ticket sem falar preço",
+            "Apostila de fornecedores é o bônus que trava a decisão",
+            "Abra com pergunta de identidade, não com o produto",
+            "Prometa começar do zero e com pouco dinheiro"
           ],
           "recomendada": true,
-          "linkVenda": "https://docedesabao.com/gloss-labial/",
-          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1039351612110219",
-          "destinoFinal": "pagina",
-          "porqueRecomendada": "Página com 74 anúncios ativos e mecanismo DIY nomeado: ensinar a fazer um item barato que a pessoa usa e depois vende."
+          "porqueRecomendada": "É a estrutura de catálogo que ele pode copiar: um mini curso barato por habilidade, cada um com sua página.",
+          "linkVenda": "https://docedesabao.com/mcva/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1057785350078825",
+          "ofertaDominante": {
+            "destino": "docedesabao.com/mcva",
+            "criativos": 12
+          },
+          "destinoFinal": "pagina"
+        },
+        {
+          "pagina": "Curso Biscoitos Caseiros",
+          "paginaId": "298146350524859",
+          "adId": "2177329392995254",
+          "keyword": "fazer e vender",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 31,
+          "anunciosNaPagina": 15,
+          "criativosDaOferta": 15,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 1,
+          "diasRodando": 90,
+          "produto": "Curso de Biscoitos Caseiros: 25+ receitas baratas pra vender, por VSL.",
+          "preco": "R$ 19,90–37 (inferido)",
+          "promessa": "Do zero ao biscoito vendável, com receita barata e lucrativa.",
+          "hook": "Que tal transformar biscoitos caseiros em uma renda extra neste mês de outubro?",
+          "porqueEscala": [
+            "Página inteira aponta pro mesmo destino: 15 de 15",
+            "Foco total numa oferta só, sem dispersão",
+            "Gancho de Dia das Crianças e Dia dos Professores",
+            "Ingrediente barato = margem alta, argumento fácil"
+          ],
+          "comoModelar": [
+            "Aposte tudo numa oferta só e varie só o criativo",
+            "Troque a promessa por data comemorativa a cada mês",
+            "'Barata e lucrativa' vale mais que 'deliciosa'",
+            "Lembrancinha e kit ampliam o uso da mesma receita"
+          ],
+          "recomendada": true,
+          "porqueRecomendada": "Mostra o modelo de foco: uma página, uma oferta, 15 criativos — o caminho mais rápido de validar com VSL.",
+          "linkVenda": "https://biscoitoscaseiros.com/bvideo/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2177329392995254",
+          "ofertaDominante": {
+            "destino": "biscoitoscaseiros.com/bvideo",
+            "criativos": 15
+          },
+          "destinoFinal": "pagina"
         }
       ],
       "descartados": [
@@ -264,20 +223,20 @@
           "motivo": "destino WhatsApp"
         },
         {
+          "pagina": "Instituto Gourmet Barra da Tijuca",
+          "motivo": "destino WhatsApp"
+        },
+        {
+          "pagina": "Instituto Gourmet Tijuca",
+          "motivo": "destino WhatsApp"
+        },
+        {
           "pagina": "Lúcia Melo",
           "motivo": "destino WhatsApp"
         },
         {
-          "pagina": "Instituto Gourmet Barra da Tijuca",
-          "motivo": "curso presencial"
-        },
-        {
-          "pagina": "Instituto Gourmet Tijuca",
-          "motivo": "curso presencial"
-        },
-        {
           "pagina": "InfinitePay",
-          "motivo": "SaaS/maquininha"
+          "motivo": "SaaS/fintech"
         }
       ]
     }
