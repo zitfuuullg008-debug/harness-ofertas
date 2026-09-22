@@ -1,0 +1,32 @@
+{
+  "nicho": {
+    "id": "receitas",
+    "nome": "Receitas",
+    "keywords": [
+      {
+        "keyword": "receitas fáceis",
+        "exato": false,
+        "pais": "BR"
+      },
+      {
+        "keyword": "cardápio semanal",
+        "exato": false,
+        "pais": "BR"
+      },
+      {
+        "keyword": "receita sobremesa",
+        "exato": false,
+        "pais": "BR"
+      },
+      {
+        "keyword": "receitas low carb",
+        "exato": false,
+        "pais": "BR"
+      }
+    ]
+  },
+  "coletadoEm": "2026-09-22T01:05:20.927Z",
+  "totalAnuncios": 0,
+  "totalOfertas": 0,
+  "ofertas": []
+}
