@@ -15,6 +15,9 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
+# Tolera "PROXY_URL=..." colado inteiro no valor da variável.
+if [ -n "${PROXY_URL:-}" ]; then export PROXY_URL="${PROXY_URL#PROXY_URL=}"; fi
+
 echo "== node $(node --version) / npm $(npm --version)"
 # --ignore-scripts: não roda o postinstall do playwright (o download do CDN é bloqueado na nuvem)
 npm install --no-audit --no-fund --ignore-scripts

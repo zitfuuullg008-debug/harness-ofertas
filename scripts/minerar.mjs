@@ -237,7 +237,8 @@ function mapAd(raw) {
 
 // ───────────────────────── browser ─────────────────────────
 function proxyConfig() {
-  const raw = process.env.PROXY_URL;
+  // Tolera "PROXY_URL=..." colado inteiro no valor da variável (acontece).
+  const raw = (process.env.PROXY_URL ?? "").trim().replace(/^PROXY_URL=/, "");
   if (!raw) return null;
   try {
     const u = new URL(raw);
