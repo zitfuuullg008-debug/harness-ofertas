@@ -67,11 +67,11 @@ O usuário quer modelar página de vendas com a Metodologia MVT. Portanto:
 
 ## Passo 2b — Montar o pool de `ofertasNoTotal` (config, hoje = 10) e recomendar `recomendadas` (3)
 
-1. Junte as ofertas aprovadas (low-ticket + não-black + página de vendas) de todos os nichos coletados hoje e monte um pool de até **10**, ordenado por sinais de escala. Máximo 4 do mesmo nicho, 1 por página.
+1. Junte as ofertas aprovadas (low-ticket + não-black + página de vendas) de todos os nichos coletados hoje e monte um pool de até **10**, ordenado por sinais de escala. Máximo 4 do mesmo nicho, 1 por página. Neste momento prefira **anunciantes com muitos anúncios na página** (15, 30, 70…) — são os que provavelmente têm uma oferta com 15+ criativos escondida; anunciante com 1–3 anúncios no total nunca vai passar na régua.
 2. Dentro do pool, marque **3 como `recomendada: true`** — as que você modelaria primeiro pela Metodologia MVT. Critério, nesta ordem:
    - **Mecanismo nomeado e transportável** ("sem forno, sem fogo e sem ovo", "cardápio 6–24 meses") — dá pra modelar sem clonar;
    - **Página de vendas de verdade** (checkout Hotmart/Kiwify/Braip ou própria), porque é o que vamos modelar;
-   - **Escala comprovada**: anúncios ativos na página + dias rodando;
+   - **Escala comprovada**: criativos na oferta (o mais importante) + anúncios ativos na página + dias rodando;
    - **White e do gosto do usuário**: renda extra, receita, maternidade/educação infantil.
    Em cada recomendada, escreva `porqueRecomendada` (1 frase: o que dela transporta pro produto dele).
 3. **Anti-repetição:** no máximo 1 das 3 recomendadas pode ter saído no relatório anterior.
@@ -121,10 +121,22 @@ O usuário **não quer parede de texto**. Você escreve um JSON com cards curtos
 
 Use os `adId`/`paginaId` exatamente como estão em `data/raw/<hoje>/<nicho>.json` — o renderizador usa eles pra achar vídeo, thumbnail e a copy do anúncio. Se houver relatório anterior, inclua em `padroes` 1–2 bullets de "mudou vs. semana passada".
 
+### Regra de ouro: `criativosDaOferta` >= `minCriativosDaOferta` (config, hoje 15)
+
+O usuário só quer oferta com **15+ criativos rodando no mesmo destino** — quanto mais, melhor. Uma oferta com 1 ou 2 criativos não provou nada.
+
+**Cuidado:** o número que vem da busca é subestimado (a busca mostra 1–2 anúncios por anunciante). O número real só aparece depois do `enriquecer.mjs`, que visita a página e conta quantos anúncios levam a cada destino. Por isso o passo abaixo é obrigatório e pode mudar qual oferta vira card.
+
 Depois, **nesta ordem**:
 
-1. `node scripts/enriquecer.mjs saidas/mineracao/<hoje>.json` — abre a página de cada anunciante escolhido e preenche `anunciosNaPagina` (total de anúncios ativos da página, de qualquer produto). É o número que o usuário mais quer ver; sem ele o card sai com "—". Leva ~15s por card.
-2. `node scripts/render-relatorio.mjs saidas/mineracao/<hoje>.json` — gera `<hoje>.html` (cards visuais) e `<hoje>.md` (versão curta) e baixa as mídias pra `saidas/mineracao/midia/`.
+1. `node scripts/enriquecer.mjs saidas/mineracao/<hoje>.json` — visita a página de cada anunciante, preenche `anunciosNaPagina`, conta os criativos reais por destino (`criativosDaOferta`, `ofertaDominante`), checa o `destinoFinal` do link e salva o dossiê de cada página em `data/raw/<hoje>/paginas/<paginaId>.json`. ~15s por card.
+
+2. **Reescreva os cards com base no dossiê.** Para cada card, abra `data/raw/<hoje>/paginas/<paginaId>.json` e olhe `porDestino` (ordenado por nº de criativos):
+   - Se a **oferta dominante** da página for diferente da do card e tiver mais criativos, **troque o card pra ela**: pegue em `anuncios[]` o anúncio mais antigo daquele destino e refaça `produto`, `promessa`, `hook`, `linkVenda`, `adId`, `urlBiblioteca` e `criativosDaOferta` a partir dele. É comum a busca mostrar o anúncio fraco de um anunciante que tem outra oferta bem maior.
+   - **Descarte** o card se, mesmo na oferta dominante, ficar abaixo de 15 criativos, ou se o `destinoFinal` não for `pagina`. Troque por outro candidato do nicho.
+   - Repita `enriquecer.mjs` depois de trocar cards, pra conferir os números novos.
+
+3. `node scripts/render-relatorio.mjs saidas/mineracao/<hoje>.json` — gera `<hoje>.html` (cards visuais) e `<hoje>.md` (versão curta) e baixa as mídias pra `saidas/mineracao/midia/`.
 
 ## Passo 5 — Responder no chat
 

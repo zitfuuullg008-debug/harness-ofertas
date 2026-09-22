@@ -16,7 +16,7 @@
  */
 
 import { chromium } from "playwright";
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -31,6 +31,52 @@ const USER_AGENT =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
 const log = (m, e = {}) => console.log(`[${new Date().toISOString().slice(11, 19)}] ${m}`, Object.keys(e).length ? JSON.stringify(e) : "");
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/** Percorre qualquer JSON coletando objetos que passam no predicado. */
+function deepCollect(root, predicate) {
+  const found = [];
+  const seen = new Set();
+  const stack = [root];
+  while (stack.length) {
+    const node = stack.pop();
+    if (node === null || typeof node !== "object" || seen.has(node)) continue;
+    seen.add(node);
+    if (predicate(node)) found.push(node);
+    for (const v of Array.isArray(node) ? node : Object.values(node)) stack.push(v);
+  }
+  return found;
+}
+
+const isAdNode = (o) =>
+  o && typeof o === "object" && ("ad_archive_id" in o || "adArchiveID" in o) && ("snapshot" in o || "page_id" in o || "pageID" in o);
+
+function parseGraphqlBodies(text) {
+  const cleaned = text.replace(/^for\s*\(;;\);/, "").trim();
+  if (!cleaned) return [];
+  try {
+    return [JSON.parse(cleaned)];
+  } catch {}
+  const out = [];
+  for (const line of cleaned.split("\n")) {
+    try {
+      if (line.trim()) out.push(JSON.parse(line));
+    } catch {}
+  }
+  return out;
+}
+
+/** Normaliza o destino de um anúncio pra agrupar criativos da MESMA oferta. */
+function chaveDestino(link) {
+  if (!link) return null;
+  try {
+    const u = new URL(link);
+    if (u.hostname === "l.facebook.com" && u.searchParams.get("u")) return chaveDestino(u.searchParams.get("u"));
+    if (/whatsapp|wa\.me/.test(u.hostname)) return `wa:${u.searchParams.get("phone") ?? u.pathname.replace(/\D/g, "")}`;
+    return `${u.hostname.replace(/^www\./, "")}${u.pathname.replace(/\/+$/, "")}`.toLowerCase();
+  } catch {
+    return String(link).slice(0, 80);
+  }
+}
 
 function urlPagina(pid, pais = "BR") {
   const p = new URLSearchParams({
@@ -82,12 +128,91 @@ await context.addInitScript(() => {
 });
 
 const totais = new Map();
+const porDestino = new Map(); // paginaId -> Map(chaveDestino -> nº de anúncios)
 for (const o of alvos) {
   const page = await context.newPage();
+  const destinos = new Map();
+  const vistos = new Set();
+  const anunciosDaPagina = [];
   await page.route("**/*", (r) => (["image", "media", "font"].includes(r.request().resourceType()) ? r.abort() : r.continue()));
+  // Conta quantos anúncios da página levam a cada destino — é o "criativos desta oferta" de verdade.
+  page.on("response", (res) => {
+    const u = res.url();
+    if (!u.includes("/api/graphql/") && !u.includes("/graphql")) return;
+    res
+      .text()
+      .then((body) => {
+        for (const payload of parseGraphqlBodies(body)) {
+          for (const node of deepCollect(payload, isAdNode)) {
+            const id = node.ad_archive_id ?? node.adArchiveID;
+            if (!id || vistos.has(id)) continue;
+            vistos.add(id);
+            const snap = node.snapshot ?? {};
+            const link = snap.link_url ?? snap.cards?.[0]?.link_url ?? null;
+            const k = chaveDestino(link);
+            if (k) destinos.set(k, (destinos.get(k) ?? 0) + 1);
+            const ini = node.start_date ?? node.start_date_string ?? null;
+            anunciosDaPagina.push({
+              id,
+              destino: k,
+              link,
+              titulo: snap.title ?? null,
+              texto: (snap.body?.text ?? snap.body ?? null)?.toString().slice(0, 700) ?? null,
+              cta: snap.cta_text ?? null,
+              inicio: ini ? new Date((Number(ini) < 1e12 ? Number(ini) * 1000 : Number(ini)) || Date.parse(ini)).toISOString() : null,
+              video: snap.videos?.[0]?.video_hd_url ?? snap.videos?.[0]?.video_sd_url ?? snap.cards?.[0]?.video_hd_url ?? null,
+              thumb: snap.videos?.[0]?.video_preview_image_url ?? snap.images?.[0]?.original_image_url ?? snap.cards?.[0]?.original_image_url ?? null,
+              urlBiblioteca: `https://www.facebook.com/ads/library/?id=${id}`,
+            });
+          }
+        }
+      })
+      .catch(() => {});
+  });
   try {
     await page.goto(urlPagina(o.paginaId), { waitUntil: "domcontentloaded", timeout: 40000 });
     await sleep(2500);
+    // Páginas pequenas trazem os anúncios no HTML inicial, sem GraphQL.
+    const blobs = await page
+      .evaluate(() =>
+        [...document.querySelectorAll('script[type="application/json"]')]
+          .map((x) => x.textContent ?? "")
+          .filter((t) => t.includes("ad_archive_id")),
+      )
+      .catch(() => []);
+    for (const b of blobs) {
+      for (const payload of parseGraphqlBodies(b)) {
+        for (const node of deepCollect(payload, isAdNode)) {
+          const id = node.ad_archive_id ?? node.adArchiveID;
+          if (!id || vistos.has(id)) continue;
+          vistos.add(id);
+          const snap = node.snapshot ?? {};
+          const link = snap.link_url ?? snap.cards?.[0]?.link_url ?? null;
+          const k = chaveDestino(link);
+          if (k) destinos.set(k, (destinos.get(k) ?? 0) + 1);
+          anunciosDaPagina.push({
+            id,
+            destino: k,
+            link,
+            titulo: snap.title ?? null,
+            texto: (snap.body?.text ?? snap.body ?? null)?.toString().slice(0, 700) ?? null,
+            cta: snap.cta_text ?? null,
+            inicio: null,
+            video: snap.videos?.[0]?.video_hd_url ?? snap.cards?.[0]?.video_hd_url ?? null,
+            thumb: snap.videos?.[0]?.video_preview_image_url ?? snap.images?.[0]?.original_image_url ?? null,
+            urlBiblioteca: `https://www.facebook.com/ads/library/?id=${id}`,
+          });
+        }
+      }
+    }
+
+    // Rola pra ver todos os anúncios da página (até ~120) — no PC não custa banda paga.
+    for (let r = 0; r < 12 && vistos.size < 120; r++) {
+      const antes = vistos.size;
+      await page.mouse.wheel(0, 4000).catch(() => {});
+      await sleep(900);
+      if (vistos.size === antes && r > 2) break;
+    }
     const textos = await page
       .evaluate(() => [...document.querySelectorAll('[role="heading"], h1, h2, h3, h4')].map((h) => h.textContent ?? ""))
       .catch(() => []);
@@ -103,8 +228,29 @@ for (const o of alvos) {
         }
       }
     }
-    totais.set(o.paginaId, total);
-    log("pagina", { anunciante: o.pagina, anunciosNaPagina: total ?? "não achou" });
+    totais.set(o.paginaId, total ?? (vistos.size || null));
+    porDestino.set(o.paginaId, destinos);
+    // Dossiê da página: o agente usa isso pra montar o card na oferta certa
+    // (a que tem mais criativos), com texto e criativo de verdade.
+    const pastaPaginas = join(ROOT, "data/raw", rel.data ?? "", "paginas");
+    mkdirSync(pastaPaginas, { recursive: true });
+    writeFileSync(
+      join(pastaPaginas, `${o.paginaId}.json`),
+      JSON.stringify(
+        {
+          pagina: o.pagina,
+          paginaId: o.paginaId,
+          anunciosNaPagina: total ?? vistos.size,
+          anunciosVistos: vistos.size,
+          porDestino: [...destinos.entries()].map(([destino, criativos]) => ({ destino, criativos })).sort((a, b) => b.criativos - a.criativos),
+          anuncios: anunciosDaPagina,
+        },
+        null,
+        2,
+      ),
+    );
+    const topo = [...destinos.entries()].sort((a, b) => b[1] - a[1])[0];
+    log("pagina", { anunciante: o.pagina, anunciosNaPagina: total ?? vistos.size, anunciosVistos: vistos.size, ofertaTopo: topo ? `${topo[0]} (${topo[1]})` : "—" });
   } catch (e) {
     log("pagina_erro", { anunciante: o.pagina, erro: String(e?.message ?? e).split("\n")[0] });
   } finally {
@@ -163,6 +309,15 @@ for (const n of rel.nichos ?? []) {
       o.anunciosNaPagina = t;
       atualizados++;
     }
+    // Criativos DESTA oferta: quantos anúncios da página levam ao mesmo destino.
+    const destinos = porDestino.get(o.paginaId);
+    if (destinos && destinos.size) {
+      const k = chaveDestino(o.linkVenda);
+      const n = k ? destinos.get(k) : null;
+      if (n != null) o.criativosDaOferta = Math.max(n, o.criativosDaOferta ?? 0);
+      const topo = [...destinos.entries()].sort((a, b) => b[1] - a[1])[0];
+      o.ofertaDominante = topo ? { destino: topo[0], criativos: topo[1] } : null;
+    }
     o.destinoFinal = await destinoFinal(o.linkVenda);
     if (o.destinoFinal && o.destinoFinal !== "pagina") {
       log("destino_suspeito", { anunciante: o.pagina, destinoFinal: o.destinoFinal });
@@ -172,10 +327,16 @@ for (const n of rel.nichos ?? []) {
 writeFileSync(jsonPath, JSON.stringify(rel, null, 2));
 await context.close().catch(() => {});
 
+const MIN_CRIATIVOS = Number(process.env.MIN_CRIATIVOS ?? 15);
+const fracos = (rel.nichos ?? []).flatMap((n) => n.ofertas ?? []).filter((o) => (o.criativosDaOferta ?? 0) < MIN_CRIATIVOS);
 const fora = (rel.nichos ?? []).flatMap((n) => n.ofertas ?? []).filter((o) => o.destinoFinal && o.destinoFinal !== "pagina");
 console.log(`\n${atualizados} card(s) com "anúncios na página" preenchido.`);
 if (fora.length) {
   console.log(`⚠ ${fora.length} oferta(s) NÃO levam a página de vendas: ${fora.map((o) => `${o.pagina} (${o.destinoFinal})`).join(", ")}`);
   console.log(`  Troque cada uma por outra do mesmo nicho e rode este script de novo.`);
+}
+if (fracos.length) {
+  console.log(`⚠ ${fracos.length} oferta(s) com menos de ${MIN_CRIATIVOS} criativos: ${fracos.map((o) => `${o.pagina} (${o.criativosDaOferta ?? 0})`).join(", ")}`);
+  console.log(`  Troque por outra do nicho. Dica: o campo "ofertaDominante" de cada card mostra qual oferta daquela página tem mais criativos.`);
 }
 console.log(`Agora rode o render-relatorio.mjs.`);

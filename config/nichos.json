@@ -1,5 +1,5 @@
 {
-  "_doc": "Nichos e keywords da Biblioteca de Anúncios da Meta. 'exato' = frase exata. 'pais' = ISO-2 ou ALL. 'ofertasNoTotal' = quantas ofertas entram no relatório (o pool). 'recomendadas' = quantas dessas vêm destacadas no topo como sugestão pra modelar com a Metodologia MVT. 'anunciosPorKeyword' = anúncios por busca (o HTML inicial já traz ~30; pedir mais obriga a rolar = mais banda). 'enriquecerPorNicho' = páginas de anunciante visitadas por nicho (dá o 'anúncios na página', o sinal mais valioso). 'nichosPorDia' = rodízio diário. 'ativo': false tira do rodízio. EFICIÊNCIA: 1 keyword por nicho basta — cada busca traz ~30 anúncios e a segunda keyword repete anunciante. Rodada alvo: ~9 carregamentos, 3-4 min, ~30 MB de proxy.",
+  "_doc": "Nichos e keywords da Biblioteca de Anúncios da Meta. 'exato' = frase exata. 'pais' = ISO-2 ou ALL. 'ofertasNoTotal' = quantas ofertas entram no relatório (o pool). 'recomendadas' = quantas dessas vêm destacadas no topo como sugestão pra modelar com a Metodologia MVT. 'anunciosPorKeyword' = anúncios por busca (o HTML inicial já traz ~30; pedir mais obriga a rolar = mais banda). 'enriquecerPorNicho' = páginas de anunciante visitadas por nicho (dá o 'anúncios na página', o sinal mais valioso). 'nichosPorDia' = rodízio diário. 'ativo': false tira do rodízio. EFICIÊNCIA: 1 keyword por nicho basta — cada busca traz ~30 anúncios e a segunda keyword repete anunciante. Rodada alvo: ~9 carregamentos, 3-4 min, ~30 MB de proxy. 'minCriativosDaOferta' = mínimo de criativos rodando na MESMA oferta pra entrar no relatório (quanto mais, melhor).",
   "ofertasNoTotal": 10,
   "recomendadas": 3,
   "anunciosPorKeyword": 20,
@@ -88,5 +88,6 @@
       "_nota": "Desligado a pedido do usuário: nicho black (saúde/emagrecimento). Não entra no rodízio."
     }
   ],
-  "nichosPorDia": 3
+  "nichosPorDia": 3,
+  "minCriativosDaOferta": 15
 }
