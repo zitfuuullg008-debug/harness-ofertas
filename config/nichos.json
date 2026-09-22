@@ -1,6 +1,7 @@
 {
-  "_doc": "Nichos e keywords da Biblioteca de Anúncios da Meta. 'exato' = frase exata. 'pais' = ISO-2 ou ALL. 'ofertasPorNicho' = quantas ofertas o relatório entrega POR nicho. 'anunciosPorKeyword' = anúncios por busca (o HTML inicial já traz ~30; pedir mais obriga a rolar = mais banda). 'enriquecerPorNicho' = páginas de anunciante visitadas por nicho (dá o 'anúncios na página', o sinal mais valioso). 'nichosPorDia' = rodízio diário. 'ativo': false tira do rodízio. EFICIÊNCIA: 1 keyword por nicho basta — cada busca traz ~30 anúncios e a segunda keyword repete anunciante. Rodada alvo: ~9 carregamentos, 3-4 min, ~30 MB de proxy.",
-  "ofertasPorNicho": 2,
+  "_doc": "Nichos e keywords da Biblioteca de Anúncios da Meta. 'exato' = frase exata. 'pais' = ISO-2 ou ALL. 'ofertasNoTotal' = quantas ofertas entram no relatório (o pool). 'recomendadas' = quantas dessas vêm destacadas no topo como sugestão pra modelar com a Metodologia MVT. 'anunciosPorKeyword' = anúncios por busca (o HTML inicial já traz ~30; pedir mais obriga a rolar = mais banda). 'enriquecerPorNicho' = páginas de anunciante visitadas por nicho (dá o 'anúncios na página', o sinal mais valioso). 'nichosPorDia' = rodízio diário. 'ativo': false tira do rodízio. EFICIÊNCIA: 1 keyword por nicho basta — cada busca traz ~30 anúncios e a segunda keyword repete anunciante. Rodada alvo: ~9 carregamentos, 3-4 min, ~30 MB de proxy.",
+  "ofertasNoTotal": 10,
+  "recomendadas": 3,
   "anunciosPorKeyword": 20,
   "enriquecerPorNicho": 1,
   "nichos": [

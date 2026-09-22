@@ -138,15 +138,16 @@ function cardHtml({ nicho, o, midia, ad, pagina }) {
       ? `<a href="${esc(urlBib ?? "#")}" target="_blank" rel="noopener" title="Ver o vídeo no Ads Library"><img src="${midia.imagem}" alt=""><span class="play">▶</span></a>`
       : `<div class="sem-midia">sem mídia salva<br><small>abra no Ads Library</small></div>`;
   const badge = o.novo ? `<span class="badge novo">novo</span>` : `<span class="badge rec">recorrente · ${o.vezesVisto ?? "?"}ª vez</span>`;
+  const estrela = o.recomendada ? `<span class="badge top">★ modelar</span>` : "";
   const stat = (n, l) => `<div class="stat"><b>${esc(n ?? "—")}</b><span>${l}</span></div>`;
   return `
-<article class="card">
+<article class="card${o.recomendada ? " recomendada" : ""}">
   <header>
     <div class="quem">
       <strong>${esc(o.pagina)}</strong>
       <small>${midia.curtidas ? `${Number(midia.curtidas).toLocaleString("pt-BR")} curtidas · ` : ""}${esc(o.keyword ?? "")}</small>
     </div>
-    ${badge}
+    <div class="badges">${estrela}${badge}</div>
   </header>
   <div class="media">${media}</div>
   <div class="stats">
@@ -158,6 +159,7 @@ function cardHtml({ nicho, o, midia, ad, pagina }) {
     <dt>Produto${o.preco ? ` · <span class="preco">${esc(o.preco)}</span>` : ""}</dt><dd>${esc(o.produto)}</dd>
     ${o.promessa ? `<dt>Promessa</dt><dd>“${esc(o.promessa)}”</dd>` : ""}
     ${o.hook ? `<dt>Hook</dt><dd class="hook">“${esc(o.hook)}”</dd>` : ""}
+    ${o.porqueRecomendada ? `<dt class="rec-dt">Por que modelar esta</dt><dd class="rec-dd">${esc(o.porqueRecomendada)}</dd>` : ""}
     <dt>Por que está escalando</dt><dd><ul>${lista(o.porqueEscala).map((b) => `<li>${esc(b)}</li>`).join("")}</ul></dd>
     <dt>Como modelar</dt><dd><ul class="modelar">${lista(o.comoModelar).map((b) => `<li>${esc(b)}</li>`).join("")}</ul></dd>
   </dl>
@@ -173,7 +175,7 @@ function cardHtml({ nicho, o, midia, ad, pagina }) {
 
 const nichosHtml = (rel.nichos ?? [])
   .map((n) => {
-    const cs = cards.filter((c) => c.nicho.id === n.id);
+    const cs = cards.filter((c) => c.nicho.id === n.id).sort((a, b) => Number(Boolean(b.o.recomendada)) - Number(Boolean(a.o.recomendada)));
     const desc = (n.descartados ?? []).map((d) => `<li><b>${esc(d.pagina)}</b> — ${esc(d.motivo)}</li>`).join("");
     return `
 <section class="nicho" id="${n.id}">
@@ -212,6 +214,10 @@ const html = `<!doctype html>
   .quem strong { display:block; font-size:16px } .quem small { color:var(--mut); font-size:12px }
   .badge { font-size:11px; padding:3px 8px; border-radius:999px; white-space:nowrap; font-weight:600 }
   .badge.novo { background:rgba(34,197,94,.15); color:var(--ok) } .badge.rec { background:rgba(245,158,11,.15); color:var(--warn) }
+  .badge.top { background:rgba(139,92,246,.2); color:#c4b5fd; border:1px solid var(--acc) }
+  .badges { display:flex; flex-direction:column; gap:4px; align-items:flex-end }
+  .card.recomendada { border-color:var(--acc); box-shadow:0 0 0 1px var(--acc) }
+  .rec-dt { color:#c4b5fd !important } .rec-dd { color:#ddd6fe }
   .media { background:#000; aspect-ratio:4/5; display:flex; align-items:center; justify-content:center }
   .media video, .media img { width:100%; height:100%; object-fit:contain; display:block }
   .media a { position:relative; display:block; width:100%; height:100% }
@@ -257,7 +263,8 @@ for (const n of rel.nichos ?? []) {
   const cs = cards.filter((c) => c.nicho.id === n.id);
   cs.forEach(({ o, ad, pagina }, i) => {
     const pid = o.paginaId ?? pagina?.id;
-    md.push(`### ${i + 1}. ${o.pagina} ${o.novo ? "🆕" : `🔁 ${o.vezesVisto ?? "?"}ª vez`}`);
+    md.push(`### ${i + 1}. ${o.pagina} ${o.recomendada ? "★ MODELAR" : ""} ${o.novo ? "🆕" : `🔁 ${o.vezesVisto ?? "?"}ª vez`}`);
+    if (o.porqueRecomendada) md.push(`- **Por que modelar esta:** ${o.porqueRecomendada}`);
     const criat = o.criativosEstimados && o.criativosEstimados > (o.criativosDaOferta ?? 0) ? `≈${o.criativosEstimados}` : (o.criativosDaOferta ?? "—");
     md.push(`- **Anúncios ativos na página:** ${o.anunciosNaPagina ?? "—"} · **criativos desta oferta:** ${criat} · rodando há ${o.diasRodando ?? "—"} dias`);
     md.push(`- **Produto:** ${o.produto}${o.preco ? ` — ${o.preco}` : ""}`);

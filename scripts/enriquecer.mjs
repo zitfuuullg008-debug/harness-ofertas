@@ -113,6 +113,48 @@ for (const o of alvos) {
   await sleep(2000 + Math.floor(Math.random() * 2000));
 }
 
+/**
+ * Segue o link de venda até o destino final usando o próprio navegador (muitas
+ * páginas de venda bloqueiam requisição simples com 406, e algumas só redirecionam
+ * via JS). Link de domínio próprio que leva ao WhatsApp — comum em oferta de R$ 1 —
+ * não serve pra modelar página de vendas, então o agente precisa saber.
+ */
+const ehWhats = (h) => /(^|\.)wa\.me$|whatsapp\.com|api\.whatsapp|chat\.whatsapp/i.test(h);
+const ehSocial = (h) => /instagram\.com|messenger\.com|m\.me|t\.me|telegram\.me/i.test(h);
+
+async function destinoFinal(url) {
+  if (!url) return null;
+  try {
+    if (ehWhats(new URL(url).hostname)) return "whatsapp";
+  } catch {
+    return null;
+  }
+  const page = await context.newPage();
+  await page.route("**/*", (r) => (["image", "media", "font"].includes(r.request().resourceType()) ? r.abort() : r.continue()));
+  try {
+    await page.goto(url, { waitUntil: "domcontentloaded", timeout: 30000 });
+    await sleep(3000); // dá tempo de um redirect por JS acontecer
+    const host = new URL(page.url()).hostname;
+    if (ehWhats(host)) return "whatsapp";
+    if (ehSocial(host)) return "social";
+    // Página que abre: o botão principal leva pra onde?
+    const info = await page
+      .evaluate(() => {
+        const hrefs = [...document.querySelectorAll("a[href]")].map((a) => a.href);
+        const whats = hrefs.filter((h) => /wa\.me|whatsapp\.com/i.test(h)).length;
+        const checkout = hrefs.filter((h) => /hotmart|kiwify|braip|monetizze|pay\.|checkout|cakto|ticto|perfectpay/i.test(h)).length;
+        return { total: hrefs.length, whats, checkout, temForm: !!document.querySelector("form") };
+      })
+      .catch(() => null);
+    if (info && info.whats > 0 && info.checkout === 0 && !info.temForm) return "whatsapp";
+    return "pagina";
+  } catch {
+    return null; // não deu pra checar: o agente decide pelo link mesmo
+  } finally {
+    await page.close().catch(() => {});
+  }
+}
+
 let atualizados = 0;
 for (const n of rel.nichos ?? []) {
   for (const o of n.ofertas ?? []) {
@@ -121,8 +163,19 @@ for (const n of rel.nichos ?? []) {
       o.anunciosNaPagina = t;
       atualizados++;
     }
+    o.destinoFinal = await destinoFinal(o.linkVenda);
+    if (o.destinoFinal && o.destinoFinal !== "pagina") {
+      log("destino_suspeito", { anunciante: o.pagina, destinoFinal: o.destinoFinal });
+    }
   }
 }
 writeFileSync(jsonPath, JSON.stringify(rel, null, 2));
 await context.close().catch(() => {});
-console.log(`\n${atualizados} card(s) com "anúncios na página" preenchido. Agora rode o render-relatorio.mjs.`);
+
+const fora = (rel.nichos ?? []).flatMap((n) => n.ofertas ?? []).filter((o) => o.destinoFinal && o.destinoFinal !== "pagina");
+console.log(`\n${atualizados} card(s) com "anúncios na página" preenchido.`);
+if (fora.length) {
+  console.log(`⚠ ${fora.length} oferta(s) NÃO levam a página de vendas: ${fora.map((o) => `${o.pagina} (${o.destinoFinal})`).join(", ")}`);
+  console.log(`  Troque cada uma por outra do mesmo nicho e rode este script de novo.`);
+}
+console.log(`Agora rode o render-relatorio.mjs.`);

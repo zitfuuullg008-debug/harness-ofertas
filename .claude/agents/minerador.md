@@ -59,19 +59,23 @@ Se estiver ambíguo → **MANTER** com nota de confiança baixa. Nunca descarte 
 
 ## Passo 2c — Só oferta com PÁGINA DE VENDAS
 
-O usuário quer modelar página de vendas. Portanto:
+O usuário quer modelar página de vendas com a Metodologia MVT. Portanto:
 
-- **DESCARTE** oferta cujo destino é WhatsApp (`wa:`, `api.whatsapp.com`, `wa.me`), Instagram, Messenger, link de bio ou formulário do próprio Facebook. Motivo em `descartados`: "destino WhatsApp".
-- **MANTENHA** só quando `oferta.link` aponta pra uma página de vendas própria (domínio próprio, Hotmart/Kiwify/Braip/Atomicat/lovable, landing page).
-- Oferta boa demais pra ignorar mas que manda pro WhatsApp: cite numa linha no `resumo`, não vire card.
+- **DESCARTE** destino WhatsApp (`wa:`, `api.whatsapp.com`, `wa.me`), Instagram, Messenger, link de bio ou formulário do próprio Facebook. Motivo em `descartados`: "destino WhatsApp".
+- **Cuidado com o disfarce:** domínio próprio **não garante** página de vendas — muita oferta de "R$ 1" abre um domínio bonito e redireciona pro WhatsApp. Por isso o passo 4 roda `enriquecer.mjs`, que segue o link no navegador e grava `destinoFinal`. **Quando ele apontar `whatsapp` ou `social`, troque a oferta** por outra do mesmo nicho e rode o script de novo.
+- Oferta boa demais pra ignorar mas com destino WhatsApp: cite numa linha no `resumo`, não vire card.
 
-## Passo 2b — Escolher as `ofertasPorNicho` melhores DE CADA NICHO (config, hoje = 2)
+## Passo 2b — Montar o pool de `ofertasNoTotal` (config, hoje = 10) e recomendar `recomendadas` (3)
 
-Por nicho coletado hoje, escolha as 2 melhores que passaram nos filtros (low-ticket + não-black + página de vendas). Regras:
-- Uma oferta por página dentro do nicho.
-- **Anti-repetição:** no máximo 1 das 2 de um nicho pode ter saído no relatório anterior. Recorrente no topo é sinal forte — `novo: false` e `vezesVisto`.
-- Se um nicho não tem 2 aprovadas, entregue as que tiver e diga no `resumo` — **nunca complete a cota com oferta de saúde nem com destino WhatsApp**.
-- Nicho fora do rodízio vai em `nichosFaltando` como "fora do rodízio".
+1. Junte as ofertas aprovadas (low-ticket + não-black + página de vendas) de todos os nichos coletados hoje e monte um pool de até **10**, ordenado por sinais de escala. Máximo 4 do mesmo nicho, 1 por página.
+2. Dentro do pool, marque **3 como `recomendada: true`** — as que você modelaria primeiro pela Metodologia MVT. Critério, nesta ordem:
+   - **Mecanismo nomeado e transportável** ("sem forno, sem fogo e sem ovo", "cardápio 6–24 meses") — dá pra modelar sem clonar;
+   - **Página de vendas de verdade** (checkout Hotmart/Kiwify/Braip ou própria), porque é o que vamos modelar;
+   - **Escala comprovada**: anúncios ativos na página + dias rodando;
+   - **White e do gosto do usuário**: renda extra, receita, maternidade/educação infantil.
+   Em cada recomendada, escreva `porqueRecomendada` (1 frase: o que dela transporta pro produto dele).
+3. **Anti-repetição:** no máximo 1 das 3 recomendadas pode ter saído no relatório anterior.
+4. Se faltar oferta aprovada, entregue menos e diga no `resumo` — **nunca complete com saúde nem com destino WhatsApp**.
 
 ## Passo 3 — Ler o histórico
 
@@ -103,6 +107,8 @@ O usuário **não quer parede de texto**. Você escreve um JSON com cards curtos
           "hook": "<primeira frase do anúncio>",
           "porqueEscala": ["<hipótese curta>", "..."],
           "comoModelar": ["<ângulo/mecanismo/formato que transporta pro nosso produto>", "..."],
+          "recomendada": false,
+          "porqueRecomendada": "<só nas 3 recomendadas: 1 frase do que transporta pro produto do usuário>",
           "linkVenda": "<oferta.link ou null>",
           "urlBiblioteca": "https://www.facebook.com/ads/library/?id=<adId>"
         }
@@ -122,4 +128,4 @@ Depois, **nesta ordem**:
 
 ## Passo 5 — Responder no chat
 
-Uma linha: caminho do `.html` + as ofertas escolhidas (página → 1 frase). Nada mais.
+Duas linhas: caminho do `.html` + as **3 recomendadas** (página → 1 frase de por que modelar). Feche com: "Me diga qual você quer modelar e eu abro o pipeline MVT (`/modelar <nome>`)."
