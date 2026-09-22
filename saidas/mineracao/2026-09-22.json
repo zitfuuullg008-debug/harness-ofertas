@@ -1,106 +1,22 @@
 {
   "data": "2026-09-22",
-  "resumo": "Vasculhamos 7 nichos, mas a Meta bloqueou as buscas depois de ~12 keywords: só receitas (84 anúncios), comida caseira (113) e receitas infantis (89) trouxeram dados. Das 191 ofertas vistas, 6 passaram no filtro low-ticket digital e viraram card — o topo bruto veio dominado por restaurante, maquininha, produto físico e até anúncio político. Destaques: Roberta Carvalho segue no ar com 25 criativos há 142 dias, e o ângulo 'gordura no fígado' apareceu em duas páginas diferentes com o mesmo funil de WhatsApp.",
+  "resumo": "Rodízio do dia: receitas, receitas para criança e comida caseira — 87 anúncios, 51 ofertas distintas. Só 3 passaram no filtro low-ticket digital: o topo bruto de receitas era todo 'gordura no fígado' (descartado por nicho black) e receitas infantis veio contaminada com maquininha, app de novela e suplementação infantil. Comida caseira foi o nicho que segurou a rodada, com Roberta Carvalho recorrente há 2 relatórios e 154 dias no ar.",
   "nichosFaltando": ["renda_extra", "cristao", "maternidade", "fitness"],
   "padroes": [
-    "\"Recebe primeiro, paga depois\" no WhatsApp: três das seis ofertas usam isso.",
-    "Preço baixo vai no título do anúncio: \"APENAS 10 REAIS\", \"R$ 9,90\".",
-    "Mecanismo é facilidade, não receita: \"sem fogo\", \"sem forno\", \"sem ovo\".",
-    "Prova social numérica no criativo: 7.865 avaliações, 3.800 mães, 5.000 pacientes.",
-    "Bônus empilhados (cardápio + lista de compras + guias) sustentam o ticket de R$ 10.",
-    "Mudou vs. relatório anterior: Roberta Carvalho repete no topo; Renata Brugnera e Leidy Cakes caíram.",
-    "Novo esta rodada: gordura no fígado virou ângulo de duas páginas distintas em receitas."
+    "\"Recebe primeiro, paga depois\" no WhatsApp: duas das três ofertas.",
+    "Preço vira título do anúncio: \"Apenas 10 Reais\", \"R$ 9,90\".",
+    "Mecanismo é facilidade por negação: sem forno, sem fogo, sem ovo.",
+    "Doce único e famoso bate pacote genérico de receitas.",
+    "Prova social numérica antes da promessa: +7.980 mulheres.",
+    "Mudou vs. ontem: Roberta Carvalho repete; Silvia Araújo e Maria Receitas sumiram.",
+    "Alerta de keyword: \"receitas para bebê\" trouxe app, político e joia — precisa troca."
   ],
   "nichos": [
     {
-      "id": "receitas",
-      "nome": "Receitas",
-      "totalAnuncios": 84,
-      "totalAnunciantes": 50,
-      "ofertas": [
-        {
-          "pagina": "Vida Saudável",
-          "paginaId": "997700550097386",
-          "adId": "1683419009364524",
-          "keyword": "cardápio semanal",
-          "novo": false,
-          "vezesVisto": 2,
-          "score": 183,
-          "anunciosNaPagina": 32,
-          "criativosDaOferta": 32,
-          "criativosEstimados": null,
-          "ofertasNaPagina": 1,
-          "diasRodando": 106,
-          "produto": "Protocolo da Dra. Mônica: 120 cardápios prontos para gordura no fígado, entregue no WhatsApp.",
-          "preco": "não declarado no anúncio (inferido R$ 10–27)",
-          "promessa": "Cardápios para todas as refeições, lista do que comer e do que evitar, tudo pronto.",
-          "hook": "+5.000 pacientes ajudados. +10 anos de experiência. +120 cardápios prontos.",
-          "porqueEscala": [
-            "Página inteira aposta nessa oferta única: 32 de 32 anúncios.",
-            "Público já diagnosticado, dor nomeada, zero educação de mercado necessária.",
-            "Autoridade médica + 7.865 avaliações resolvem a objeção de confiança.",
-            "Roda há 106 dias sem trocar o ângulo."
-          ],
-          "comoModelar": [
-            "Trocar diagnóstico por outro: refluxo, intestino preso, colesterol.",
-            "Abrir com números empilhados de autoridade antes de qualquer promessa.",
-            "Prometer \"lista do que comer e do que evitar\", não \"receitas\".",
-            "Atacar o inimigo \"ficar perdida no Google\"."
-          ],
-          "linkVenda": "https://api.whatsapp.com/send",
-          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1683419009364524"
-        },
-        {
-          "pagina": "Cheff.laura10",
-          "paginaId": "1239268529262843",
-          "adId": "3876939132449252",
-          "keyword": "cardápio semanal",
-          "novo": true,
-          "vezesVisto": 1,
-          "score": 35,
-          "anunciosNaPagina": null,
-          "criativosDaOferta": 2,
-          "criativosEstimados": null,
-          "ofertasNaPagina": 1,
-          "diasRodando": 53,
-          "produto": "Cardápio de 30 dias para gordura no fígado, com bônus de shots e detox, via WhatsApp.",
-          "preco": "R$ 10,00 no Pix, pago depois de receber",
-          "promessa": "Cardápio completo de 30 dias com ingredientes simples para quem tem gordura no fígado.",
-          "hook": "⚠️ Seu fígado pode estar pedindo socorro e você nem percebe.",
-          "porqueEscala": [
-            "Mesmo ângulo do líder do nicho, validado por duas páginas independentes.",
-            "Pagamento só depois de receber derruba o atrito a zero.",
-            "Abre listando sintomas, não o produto: leitor se autodiagnostica.",
-            "5 anúncios no mesmo collation indicam verba concentrada."
-          ],
-          "comoModelar": [
-            "Abrir com 4 sintomas vagos que o público reconhece em si.",
-            "Entregar antes e cobrar depois como \"contribuição\", não preço.",
-            "Empacotar como cardápio de 30 dias, não como lote de receitas.",
-            "Usar bônus com nome próprio: shots matinais, receitas detox."
-          ],
-          "linkVenda": "https://api.whatsapp.com/send",
-          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=3876939132449252"
-        }
-      ],
-      "descartados": [
-        { "pagina": "Paparoto Cucina", "motivo": "restaurante" },
-        { "pagina": "Marion Papelaria", "motivo": "produto físico" },
-        { "pagina": "Culinária Low Carb da Patty Goes", "motivo": "aula grátis, funil de high-ticket" },
-        { "pagina": "Mila Reichert Low Carb", "motivo": "curso mid-ticket, 12x R$ 25,55" },
-        { "pagina": "QualyNutri", "motivo": "marca de suplemento" },
-        { "pagina": "Café 3 Corações", "motivo": "marca de produto físico" },
-        { "pagina": "Lavigner Food", "motivo": "marmita entregue" },
-        { "pagina": "ReciMe", "motivo": "app por assinatura" },
-        { "pagina": "Receitas Nestlé", "motivo": "branding de marca" },
-        { "pagina": "Boi na Brasa / Açougue Tico", "motivo": "açougue, kit físico" }
-      ]
-    },
-    {
       "id": "comida_caseira",
       "nome": "Renda extra com comida caseira",
-      "totalAnuncios": 113,
-      "totalAnunciantes": 72,
+      "totalAnuncios": 29,
+      "totalAnunciantes": 12,
       "ofertas": [
         {
           "pagina": "Roberta Carvalho",
@@ -115,153 +31,152 @@
           "criativosEstimados": null,
           "ofertasNaPagina": 1,
           "diasRodando": 142,
-          "produto": "Passo a passo do pudim sem forno, sem fogo e sem ovo, para fazer e vender, no WhatsApp.",
+          "produto": "Passo a passo do pudim sem forno, sem fogo e sem ovo, pra fazer e vender, no WhatsApp.",
           "preco": "R$ 9,90, pago só depois de testar",
-          "promessa": "Pudim perfeito direto na geladeira, com ingredientes baratos que qualquer pessoa consegue.",
+          "promessa": "Pudim perfeito direto na geladeira, com ingredientes baratos e método simples.",
           "hook": "Pudim perfeito, sem forno, sem fogo e sem ovo — pronto direto na geladeira.",
           "porqueEscala": [
-            "Recorrente: 2º relatório seguido no topo, 142 dias no ar.",
-            "Página inteira dedicada a uma oferta só: 25 de 25 anúncios.",
-            "14 anúncios num mesmo collation = teste pesado de criativo.",
-            "Três negações no hook eliminam toda objeção de dificuldade."
+            "Recorrente: 2º relatório seguido no topo, 154 dias no ar.",
+            "Página inteira numa oferta só: 25 de 25 anúncios.",
+            "14 anúncios num mesmo collation indicam teste pesado de criativo.",
+            "Três negações no hook matam a objeção de dificuldade."
           ],
           "comoModelar": [
-            "Construir o hook por negação: sem forno, sem fogo, sem ovo.",
-            "Unir consumo e renda na mesma frase: \"fazer e vender\".",
-            "Deixar o preço para a última linha, depois da entrega prometida.",
-            "Escolher um doce único e famoso em vez de pacote genérico."
+            "Montar o hook por negação: sem forno, sem fogo, sem ovo.",
+            "Juntar consumo e renda na mesma frase: \"fazer e vender\".",
+            "Deixar o preço na última linha, depois da entrega prometida.",
+            "Escolher um doce único e famoso, não pacote genérico."
           ],
           "linkVenda": "https://api.whatsapp.com/send",
           "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1278554277204757"
         },
         {
-          "pagina": "Doces da Júlia",
-          "paginaId": "109729388747178",
-          "adId": "27447835234899147",
-          "keyword": "bolo no pote",
+          "pagina": "Lúcia Melo",
+          "paginaId": "823403710865773",
+          "adId": "1354740190158599",
+          "keyword": "fazer e vender",
           "novo": true,
           "vezesVisto": 1,
-          "score": 76,
+          "score": 28,
           "anunciosNaPagina": null,
-          "criativosDaOferta": 1,
+          "criativosDaOferta": 3,
           "criativosEstimados": null,
           "ofertasNaPagina": 1,
-          "diasRodando": 49,
-          "produto": "Pacote de 150 receitas de brigadeiro sem fogo com passo a passo, entregue no WhatsApp.",
+          "diasRodando": 43,
+          "produto": "Pacote de receitas de suspiro gourmet com técnica do ponto, embalagem e precificação.",
           "preco": "R$ 10",
-          "promessa": "Brigadeiros firmes, cremosos e com textura profissional sem ir ao fogo.",
-          "hook": "Você não pode ficar de fora 😍👇🏻",
+          "promessa": "Transformar um doce simples em produto premium que vende todos os dias.",
+          "hook": "Suspiro Gourmet — Leve no Tamanho, Gigante nas Vendas.",
           "porqueEscala": [
-            "29 anúncios num único collation: orçamento concentrado num criativo vencedor.",
-            "Preço no título do anúncio filtra clique e pré-qualifica.",
-            "\"Recebe primeiro. Paga depois. Risco zero.\" quebra a objeção final.",
-            "Página com 15 mil curtidas dá lastro de confeitaria real."
+            "Preço no título (\"Apenas 10 Reais\") pré-qualifica o clique.",
+            "Promete o ponto técnico, não só a receita: sequinho fora, derretendo dentro.",
+            "Sabores do mercado nomeados: ninho, pistache, nutella.",
+            "Entrega no WhatsApp elimina checkout e cartão."
           ],
           "comoModelar": [
-            "Colocar o preço no título: \"APENAS 10 REAIS\".",
-            "Listar benefícios como resultado físico: firme, cremoso, ponto perfeito.",
-            "Prometer volume (150 receitas) com um mecanismo só: sem fogo.",
-            "Fechar com as quatro frases curtas de risco zero."
+            "Vender a transformação \"simples vira premium\", não o doce.",
+            "Listar os sabores mais pedidos como prova de demanda.",
+            "Incluir apresentação e embalagem — é o que justifica o preço.",
+            "Fechar com estratégia de venda, não com mais receita."
           ],
           "linkVenda": "https://api.whatsapp.com/send",
-          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=27447835234899147"
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1354740190158599"
         }
       ],
       "descartados": [
-        { "pagina": "Interlaser Máquinas", "motivo": "máquina industrial" },
-        { "pagina": "Natura", "motivo": "revenda de produto físico" },
-        { "pagina": "Sodiê Doces", "motivo": "franquia e loja" },
-        { "pagina": "Instituto Gourmet (Tijuca e Barra)", "motivo": "escola presencial" },
-        { "pagina": "Renata Brugnera - Nutrição", "motivo": "app por assinatura" },
-        { "pagina": "Anota AI / InfinitePay", "motivo": "SaaS e maquininha" },
-        { "pagina": "studio24_modafitness", "motivo": "atacado de roupa" },
-        { "pagina": "Dália Moda Íntima", "motivo": "estoque físico R$ 500" },
+        { "pagina": "Instituto Gourmet Barra da Tijuca", "motivo": "escola presencial" },
+        { "pagina": "Instituto Gourmet Tijuca", "motivo": "escola presencial" },
         { "pagina": "Sonho da Festa", "motivo": "curso longo de confeitaria" },
-        { "pagina": "Fábrica de Conteúdo", "motivo": "serviço de agência" }
+        { "pagina": "InfinitePay", "motivo": "maquininha, SaaS" },
+        { "pagina": "TikTok- Global", "motivo": "app" },
+        { "pagina": "Aisne morelli", "motivo": "produto físico" },
+        { "pagina": "Alessandra Santos", "motivo": "white, mas 1 criativo só" },
+        { "pagina": "Curso Biscoitos Caseiros", "motivo": "white, sinal fraco" },
+        { "pagina": "Bia Nocete", "motivo": "sem copy no anúncio" },
+        { "pagina": "Doce de Sabão", "motivo": "artesanato, 1 criativo" }
+      ]
+    },
+    {
+      "id": "receitas",
+      "nome": "Receitas",
+      "totalAnuncios": 28,
+      "totalAnunciantes": 17,
+      "ofertas": [
+        {
+          "pagina": "Receitas Deliciosas",
+          "paginaId": "115329360309179",
+          "adId": "1052668157426799",
+          "keyword": "receitas fáceis",
+          "novo": true,
+          "vezesVisto": 1,
+          "score": 38,
+          "anunciosNaPagina": null,
+          "criativosDaOferta": 4,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 1,
+          "diasRodando": 59,
+          "produto": "Coleção de receitas do dia a dia em página própria, com o vídeo carregando a venda.",
+          "preco": "não declarado no anúncio (inferido R$ 10–27)",
+          "promessa": "Nunca mais ficar sem ideia do que fazer na cozinha.",
+          "hook": "+7.980 mulheres já estão transformando suas refeições com essas receitas!",
+          "porqueEscala": [
+            "4 criativos ativos no mesmo link, o maior do nicho depois dos descartados.",
+            "Copy de uma linha: o vídeo faz a oferta inteira.",
+            "Número específico de compradoras no título vence promessa vaga.",
+            "Operador roda outra página irmã no mesmo domínio: estrutura, não teste."
+          ],
+          "comoModelar": [
+            "Usar número quebrado de clientes como título: \"+7.980 mulheres\".",
+            "Atacar a fadiga de decisão, não a falta de receita.",
+            "Testar copy de uma linha só com vídeo forte.",
+            "Levar pra página própria em vez de checkout direto."
+          ],
+          "linkVenda": "https://receitas.revitamulher.online/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1052668157426799"
+        }
+      ],
+      "descartados": [
+        { "pagina": "Vida Saudável", "motivo": "nicho black (saúde)" },
+        { "pagina": "Cheff.laura10", "motivo": "nicho black (saúde)" },
+        { "pagina": "Info Cursos Brasil", "motivo": "nicho black (fitness)" },
+        { "pagina": "Marion Papelaria", "motivo": "produto físico" },
+        { "pagina": "Arroz Prato Fino", "motivo": "marca de alimento" },
+        { "pagina": "Boi na Brasa", "motivo": "açougue local" },
+        { "pagina": "Açougue Tico", "motivo": "açougue local" },
+        { "pagina": "Carne nobre eldorado", "motivo": "açougue local" },
+        { "pagina": "Restaurante Mendonça'S", "motivo": "marmitaria local" },
+        { "pagina": "Natural Bistrô", "motivo": "refeição congelada, física" },
+        { "pagina": "ReciMe", "motivo": "app por assinatura" },
+        { "pagina": "CORE APP", "motivo": "app" },
+        { "pagina": "Misturas do Bem", "motivo": "saúde e boa forma, sem copy" },
+        { "pagina": "Nutricionista Gabrielle Oliveira", "motivo": "sem copy, 1 criativo" },
+        { "pagina": "Chef Maria", "motivo": "só 16 dias no ar" },
+        { "pagina": "Lojadasplanilhas", "motivo": "fora do nicho, 1 criativo" }
       ]
     },
     {
       "id": "receitas_infantis",
       "nome": "Receitas para criança e bebê",
-      "totalAnuncios": 89,
-      "totalAnunciantes": 55,
-      "ofertas": [
-        {
-          "pagina": "Dr.Elena",
-          "paginaId": "107772175730655",
-          "adId": "1493386508757444",
-          "keyword": "receitas para bebê",
-          "novo": true,
-          "vezesVisto": 1,
-          "score": 36,
-          "anunciosNaPagina": null,
-          "criativosDaOferta": 5,
-          "criativosEstimados": null,
-          "ofertasNaPagina": 1,
-          "diasRodando": 48,
-          "produto": "Combo de e-books de refeições para bebê em página própria de desconto (NutriBaby).",
-          "preco": "não declarado no anúncio (inferido R$ 10–37)",
-          "promessa": "Refeições práticas e nutritivas para o bebê, sem estresse no dia a dia.",
-          "hook": "Chega de ficar sem ideia na hora de alimentar seu bebê 👶✨",
-          "porqueEscala": [
-            "5 criativos ativos rodando para o mesmo link: mais que qualquer concorrente do nicho.",
-            "Copy curta de duas linhas: o vídeo carrega a venda.",
-            "Autoridade de nutricionista com página dedicada a uma oferta só.",
-            "Confiança média: sem contagem de anúncios da página nesta coleta."
-          ],
-          "comoModelar": [
-            "Abrir com a fadiga de decisão: \"chega de ficar sem ideia\".",
-            "Usar copy curtíssima e deixar o vídeo fazer a oferta.",
-            "Vender \"material\", termo neutro que não soa caro.",
-            "Levar para página de desconto, não para checkout direto."
-          ],
-          "linkVenda": "https://nutribabyapp.com.br/ebooksdesconto/",
-          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1493386508757444"
-        },
-        {
-          "pagina": "Manual da Criança Feliz",
-          "paginaId": "413332225208136",
-          "adId": "1497985051707998",
-          "keyword": "receitas para bebê",
-          "novo": true,
-          "vezesVisto": 1,
-          "score": 40,
-          "anunciosNaPagina": null,
-          "criativosDaOferta": 2,
-          "criativosEstimados": null,
-          "ofertasNaPagina": 1,
-          "diasRodando": 108,
-          "produto": "Cardápios de introdução alimentar de 6 a 24 meses com listas de compras e 6 bônus.",
-          "preco": "não declarado no anúncio (inferido R$ 19–37)",
-          "promessa": "Cardápios semanais, listas de compras e 200 receitas para a introdução alimentar.",
-          "hook": "4.9/5 ⭐⭐⭐⭐⭐ + de 3.800 Mães Testaram e Aprovaram",
-          "porqueEscala": [
-            "108 dias no ar com a mesma oferta: sinal de conta lucrativa.",
-            "Seis bônus nomeados transformam um PDF em pacote completo.",
-            "Prova social entra como título, antes da promessa.",
-            "Recorte por idade (6 a 24 meses) dá sensação de material sob medida."
-          ],
-          "comoModelar": [
-            "Usar nota e volume de avaliações como título do anúncio.",
-            "Nomear cada bônus com a dúvida real da mãe (cortes seguros, reflexo de GAG).",
-            "Segmentar o entregável por faixa etária ou fase.",
-            "Somar lista de compras ao cardápio: economia percebida, não só receita."
-          ],
-          "linkVenda": "https://introducaoalimentar.manualinfantil.com/",
-          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1497985051707998"
-        }
-      ],
+      "totalAnuncios": 30,
+      "totalAnunciantes": 19,
+      "ofertas": [],
       "descartados": [
         { "pagina": "InfinitePay", "motivo": "maquininha, SaaS" },
-        { "pagina": "Luiz Eduardo Campos da Fonte", "motivo": "anúncio político" },
-        { "pagina": "Belive", "motivo": "e-commerce de alimentos" },
-        { "pagina": "Bebê de Nutri", "motivo": "app de loja" },
-        { "pagina": "Bom Gosto", "motivo": "lanchonete local" },
+        { "pagina": "Doc João Migowski", "motivo": "nicho black (suplementação)" },
+        { "pagina": "Soro da Magreza", "motivo": "nicho black (emagrecimento)" },
+        { "pagina": "Carlos Klein - Personal", "motivo": "nicho black (fitness)" },
+        { "pagina": "Nutri Infantil", "motivo": "white, mas 1 criativo e VSL" },
+        { "pagina": "Melolodramasgrátis-br", "motivo": "app de novela" },
+        { "pagina": "Melolo Freedrama-Indonesia", "motivo": "app, fora do país" },
+        { "pagina": "Lindbergh Farias", "motivo": "anúncio político" },
+        { "pagina": "Renato Nigro", "motivo": "advogado, marca pessoal" },
+        { "pagina": "deolhonomeudireito", "motivo": "advogado" },
+        { "pagina": "Micron Internet", "motivo": "provedor de internet" },
+        { "pagina": "Donaris", "motivo": "joia, produto físico" },
         { "pagina": "Oceanic Aquarium", "motivo": "ingresso de parque" },
-        { "pagina": "Cláudia Mendes Vet", "motivo": "fora do nicho, pet" },
-        { "pagina": "Soro da Magreza", "motivo": "fora do nicho, emagrecimento" },
-        { "pagina": "Carlos Klein - Personal", "motivo": "fora do nicho, fitness" },
-        { "pagina": "Doc João Migowski", "motivo": "sem link, isca de comentário" }
+        { "pagina": "Pernambuco dá Sorte", "motivo": "loteria" },
+        { "pagina": "24 Red Book", "motivo": "app, fora do nicho" },
+        { "pagina": "Elias Jabbour", "motivo": "fora do nicho" }
       ]
     }
   ]
