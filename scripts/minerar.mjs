@@ -607,7 +607,8 @@ async function processarNicho(nicho) {
   const cachePath = join(outDir, `${nicho.id}.json`);
   if (reaproveitar && existsSync(cachePath)) {
     const cache = JSON.parse(readFileSync(cachePath, "utf8"));
-    if (cache.ofertas) {
+    // Nicho que ficou vazio (bloqueio, proxy fora) NÃO conta como feito: tenta de novo.
+    if (cache.ofertas && cache.totalAnuncios > 0) {
       log("nicho_cache", { nicho: nicho.id, anuncios: cache.totalAnuncios, ofertas: cache.totalOfertas });
       return { totalAnuncios: cache.totalAnuncios, ofertas: cache.ofertas };
     }
