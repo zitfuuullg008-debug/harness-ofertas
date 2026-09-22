@@ -1,0 +1,32 @@
+{
+  "nicho": {
+    "id": "receitas_infantis",
+    "nome": "Receitas para criança e bebê",
+    "keywords": [
+      {
+        "keyword": "introdução alimentar",
+        "exato": true,
+        "pais": "BR"
+      },
+      {
+        "keyword": "receitas para bebê",
+        "exato": false,
+        "pais": "BR"
+      },
+      {
+        "keyword": "meu filho não come",
+        "exato": false,
+        "pais": "BR"
+      },
+      {
+        "keyword": "lanche escolar",
+        "exato": false,
+        "pais": "BR"
+      }
+    ]
+  },
+  "coletadoEm": "2026-09-22T08:07:47.758Z",
+  "totalAnuncios": 0,
+  "totalOfertas": 0,
+  "ofertas": []
+}

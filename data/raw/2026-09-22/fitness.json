@@ -1,0 +1,32 @@
+{
+  "nicho": {
+    "id": "fitness",
+    "nome": "Fitness e emagrecimento",
+    "keywords": [
+      {
+        "keyword": "receita dieta",
+        "exato": false,
+        "pais": "BR"
+      },
+      {
+        "keyword": "menopausa",
+        "exato": false,
+        "pais": "BR"
+      },
+      {
+        "keyword": "perder peso",
+        "exato": false,
+        "pais": "BR"
+      },
+      {
+        "keyword": "remédio natural",
+        "exato": true,
+        "pais": "BR"
+      }
+    ]
+  },
+  "coletadoEm": "2026-09-22T08:08:43.994Z",
+  "totalAnuncios": 0,
+  "totalOfertas": 0,
+  "ofertas": []
+}

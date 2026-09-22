@@ -1,0 +1,27 @@
+{
+  "nicho": {
+    "id": "renda_extra",
+    "nome": "Renda extra (geral)",
+    "keywords": [
+      {
+        "keyword": "aprenda a fazer renda extra",
+        "exato": false,
+        "pais": "BR"
+      },
+      {
+        "keyword": "vivendo de renda extra",
+        "exato": false,
+        "pais": "BR"
+      },
+      {
+        "keyword": "aprenda a fazer dinheiro",
+        "exato": false,
+        "pais": "BR"
+      }
+    ]
+  },
+  "coletadoEm": "2026-09-22T08:07:58.856Z",
+  "totalAnuncios": 0,
+  "totalOfertas": 0,
+  "ofertas": []
+}

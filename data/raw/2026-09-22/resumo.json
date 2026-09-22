@@ -1,6 +1,6 @@
 {
   "data": "2026-09-22",
-  "geradoEm": "2026-09-22T01:14:32.391Z",
+  "geradoEm": "2026-09-22T08:08:43.995Z",
   "nichos": [
     {
       "id": "receitas",
@@ -13,6 +13,46 @@
     {
       "id": "comida_caseira",
       "nome": "Renda extra com comida caseira",
+      "totalAnuncios": 0,
+      "totalOfertas": 0,
+      "totalPaginas": 0,
+      "top": []
+    },
+    {
+      "id": "receitas_infantis",
+      "nome": "Receitas para criança e bebê",
+      "totalAnuncios": 0,
+      "totalOfertas": 0,
+      "totalPaginas": 0,
+      "top": []
+    },
+    {
+      "id": "renda_extra",
+      "nome": "Renda extra (geral)",
+      "totalAnuncios": 0,
+      "totalOfertas": 0,
+      "totalPaginas": 0,
+      "top": []
+    },
+    {
+      "id": "cristao",
+      "nome": "Cristão / Espiritualidade",
+      "totalAnuncios": 0,
+      "totalOfertas": 0,
+      "totalPaginas": 0,
+      "top": []
+    },
+    {
+      "id": "maternidade",
+      "nome": "Maternidade e família",
+      "totalAnuncios": 0,
+      "totalOfertas": 0,
+      "totalPaginas": 0,
+      "top": []
+    },
+    {
+      "id": "fitness",
+      "nome": "Fitness e emagrecimento",
       "totalAnuncios": 0,
       "totalOfertas": 0,
       "totalPaginas": 0,

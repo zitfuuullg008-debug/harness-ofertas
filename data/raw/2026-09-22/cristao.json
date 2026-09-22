@@ -1,0 +1,32 @@
+{
+  "nicho": {
+    "id": "cristao",
+    "nome": "Cristão / Espiritualidade",
+    "keywords": [
+      {
+        "keyword": "estudo bíblico",
+        "exato": true,
+        "pais": "BR"
+      },
+      {
+        "keyword": "leitura bíblica",
+        "exato": true,
+        "pais": "BR"
+      },
+      {
+        "keyword": "entenda a bíblia",
+        "exato": false,
+        "pais": "BR"
+      },
+      {
+        "keyword": "devocional",
+        "exato": false,
+        "pais": "BR"
+      }
+    ]
+  },
+  "coletadoEm": "2026-09-22T08:08:12.040Z",
+  "totalAnuncios": 0,
+  "totalOfertas": 0,
+  "ofertas": []
+}

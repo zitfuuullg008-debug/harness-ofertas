@@ -1,0 +1,37 @@
+{
+  "nicho": {
+    "id": "maternidade",
+    "nome": "Maternidade e família",
+    "keywords": [
+      {
+        "keyword": "alfabetização",
+        "exato": true,
+        "pais": "BR"
+      },
+      {
+        "keyword": "atividades infantis",
+        "exato": true,
+        "pais": "BR"
+      },
+      {
+        "keyword": "atividades tdah",
+        "exato": false,
+        "pais": "BR"
+      },
+      {
+        "keyword": "rotina do seu filho",
+        "exato": false,
+        "pais": "BR"
+      },
+      {
+        "keyword": "birra",
+        "exato": false,
+        "pais": "BR"
+      }
+    ]
+  },
+  "coletadoEm": "2026-09-22T08:08:29.230Z",
+  "totalAnuncios": 0,
+  "totalOfertas": 0,
+  "ofertas": []
+}
