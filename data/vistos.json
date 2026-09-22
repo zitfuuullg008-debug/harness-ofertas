@@ -3,8 +3,7 @@
     "959266110608655": {
       "nome": "Receitas sem Culpa",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21",
-      "vezes": 2
+      "ultimaVez": "2026-09-22"
     },
     "100545502800577": {
       "nome": "Paparoto Cucina",
@@ -14,7 +13,7 @@
     "809123965625317": {
       "nome": "Silvia Araújo",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21"
+      "ultimaVez": "2026-09-22"
     },
     "612745608593353": {
       "nome": "Renata Brugnera - Nutrição",
@@ -24,8 +23,7 @@
     "110191770814844": {
       "nome": "Doces de Sucesso DG",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21",
-      "vezes": 1
+      "ultimaVez": "2026-09-22"
     },
     "102130925469616": {
       "nome": "Mila Reichert Low Carb",
@@ -319,6 +317,61 @@
       "nome": "Lúcia Melo",
       "primeiraVez": "2026-09-22",
       "ultimaVez": "2026-09-22"
+    },
+    "934557979747199": {
+      "nome": "Chef Confeiteira",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "895500896990850": {
+      "nome": "Receitas Fáceis",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "104376246073731": {
+      "nome": "Tigrecook",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "282242479182060": {
+      "nome": "TikTok Global",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "413332225208136": {
+      "nome": "Manual da Criança Feliz",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "104883719277752": {
+      "nome": "Central Emagrecentro",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "806583629212612": {
+      "nome": "Receitas Que Nutrem",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "107772175730655": {
+      "nome": "Dr.Elena",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "108610688577824": {
+      "nome": "Biscut",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "100931142147515": {
+      "nome": "Nutri Alê Zago",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
+    },
+    "482876185064834": {
+      "nome": "Papa Rica",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22"
     }
   },
   "anuncios": {},
@@ -341,8 +394,8 @@
       "pagina": "Silvia Araújo",
       "link": "https://api.whatsapp.com/send",
       "primeiraVez": "2026-09-21",
-      "ultimaVez": "2026-09-21",
-      "vezes": 1
+      "ultimaVez": "2026-09-22",
+      "vezes": 2
     },
     "997700550097386|wa:sem-numero": {
       "pagina": "Vida Saudável",
@@ -613,6 +666,104 @@
     "823403710865773|wa:sem-numero": {
       "pagina": "Lúcia Melo",
       "link": "https://api.whatsapp.com/send",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "110191770814844|docesdesucessolucrativo.com.br/apostilas-por-1-real": {
+      "pagina": "Doces de Sucesso DG",
+      "link": "https://docesdesucessolucrativo.com.br/apostilas-por-1-real/",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "959266110608655|wa:sem-numero": {
+      "pagina": "Receitas sem Culpa",
+      "link": "https://api.whatsapp.com/send",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "934557979747199|wa:sem-numero": {
+      "pagina": "Chef Confeiteira",
+      "link": "https://api.whatsapp.com/send",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "895500896990850|wa:sem-numero": {
+      "pagina": "Receitas Fáceis",
+      "link": "https://api.whatsapp.com/send",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "104376246073731|br.shp.ee/vcxzvjqo": {
+      "pagina": "Tigrecook",
+      "link": "https://br.shp.ee/vCXZVjqo",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "282242479182060|tiktok.com/ug/ads/landing/new/w2a/blank_page": {
+      "pagina": "TikTok Global",
+      "link": "https://www.tiktok.com/ug/ads/landing/new/w2a/blank_page?language=en&region=br&enter_from=TikTok&previous_page=ug_w2a_blank_page_br&deeplink_type=TT&page_name=ug_w2a_blank_page_br&rcmd_pid_size=30&group_id=1026&redirect_url=snssdk1233%3A%2F%2F&top_product_ids=0&pid=metaweb_int",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "413332225208136|introducaoalimentar.manualinfantil.com": {
+      "pagina": "Manual da Criança Feliz",
+      "link": "https://introducaoalimentar.manualinfantil.com/",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "104883719277752|instagram.com/emagrecentro_oficial": {
+      "pagina": "Central Emagrecentro",
+      "link": "http://instagram.com/emagrecentro_oficial",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "806583629212612|wa:sem-numero": {
+      "pagina": "Receitas Que Nutrem",
+      "link": "https://api.whatsapp.com/send",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "107772175730655|nutribabyapp.com.br/ebooksdesconto": {
+      "pagina": "Dr.Elena",
+      "link": "https://nutribabyapp.com.br/ebooksdesconto/",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "108610688577824|biscut.com.br/mais-vendidos/box-iniciante-carimbo-de-data-comemorativa-de-brinde": {
+      "pagina": "Biscut",
+      "link": "https://www.biscut.com.br/mais-vendidos/box-iniciante-carimbo-de-data-comemorativa-de-brinde",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "108610688577824|wa:sem-numero": {
+      "pagina": "Biscut",
+      "link": "https://api.whatsapp.com/send",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "100931142147515|nutrialezago.com.br/pv-ebook-diabetes": {
+      "pagina": "Nutri Alê Zago",
+      "link": "https://nutrialezago.com.br/pv-ebook-diabetes",
+      "primeiraVez": "2026-09-22",
+      "ultimaVez": "2026-09-22",
+      "vezes": 1
+    },
+    "482876185064834|instagram.com/paparicaoficial": {
+      "pagina": "Papa Rica",
+      "link": "http://instagram.com/paparicaoficial",
       "primeiraVez": "2026-09-22",
       "ultimaVez": "2026-09-22",
       "vezes": 1
