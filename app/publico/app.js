@@ -365,7 +365,7 @@ function cartaoOferta(o, n) {
 
       <div class="pes">
         <button class="btn pequeno principal" data-modelar="${esc(o.pagina)}" title="Roda o pipeline MVT sozinho e grava tudo em saidas/modelagem/">★ Modelar página</button>
-        <button class="btn pequeno" data-modelar-junto="${esc(o.pagina)}" title="Abre o Claude numa janela pra você decidir fase por fase">⌨ com você</button>
+        <button class="btn pequeno" data-modelar-junto="${esc(o.pagina)}" title="Manda o pedido pra conversa do Claude aqui no app — você decide fase por fase por lá">💬 com você</button>
         ${o.linkVenda ? `<button class="btn pequeno fantasma" data-link="${esc(o.linkVenda)}">Página de vendas</button>` : ""}
         ${o.urlBiblioteca ? `<button class="btn pequeno fantasma" data-link="${esc(o.urlBiblioteca)}">Este anúncio</button>` : ""}
       </div>
@@ -441,6 +441,7 @@ async function telaPaginas() {
           <button class="btn pequeno" data-rodar="corrigir" data-arg="${esc(m.caminho)}" title="O Claude corrige o que o verificador apontar">Corrigir</button>
           <button class="btn pequeno" data-rodar="auditar" data-arg="${esc(m.caminho)}" title="Refaz o laudo sobre a página atual">Refazer auditoria</button>
           <button class="btn pequeno fantasma" data-abrir="${esc(m.caminho)}">Pasta</button>
+          <button class="btn pequeno perigo" data-excluir="${esc(m.nome)}" title="Manda pra lixeira: dá pra recuperar">Excluir</button>
         </div>
       </div>`).join("")
       : vazio("📄", "Nenhuma página ainda", "Vá em Ofertas, escolha uma e clique em <b>★ Modelar página</b>.",
@@ -614,6 +615,19 @@ function liga() {
   tela.querySelectorAll("[data-abrir]").forEach((b) => {
     b.onclick = () => abrir({ caminho: b.dataset.abrir });
   });
+  tela.querySelectorAll("[data-excluir]").forEach((b) => {
+    // Confirma sempre: a fileira é cheia de botões e o dedo escorrega.
+    b.onclick = async () => {
+      const nome = b.dataset.excluir;
+      if (!confirm(`Excluir a modelagem "${nome}"?\n\nEla vai para saidas/modelagem/.lixeira/ e pode ser recuperada de lá.`)) return;
+      try {
+        await api("/api/excluir-modelagem", { corpo: { nome } });
+        avisa(`"${nome}" foi pra lixeira.`);
+        await recarrega();
+        render();
+      } catch (e) { avisa(e.message); }
+    };
+  });
   tela.querySelectorAll("[data-imagens]").forEach((b) => {
     // Um botão só: o script publica o que já está em imagens-novas/<produto>/,
     // vê o que ainda falta e só então chama o Codex. Escolher entre "gerar" e
@@ -664,9 +678,16 @@ function liga() {
     b.onclick = () => rodar("modelar", b.dataset.modelar);
   });
   tela.querySelectorAll("[data-modelar-junto]").forEach((b) => {
-    b.onclick = () => {
-      abrir({ terminal: `/modelar ${b.dataset.modelarJunto}` });
-      avisa("Abri o Claude numa janela: ele vai te guiar fase por fase.");
+    // Em vez de abrir terminal, deixa o pedido na fila que a conversa do Claude
+    // no app vigia. Com ela aberta, a modelagem começa lá na hora; fechada, o
+    // pedido espera — nada se perde, só não é instantâneo.
+    b.onclick = async () => {
+      try {
+        const r = await api("/api/pedir-modelagem", { corpo: { pagina: b.dataset.modelarJunto } });
+        avisa(r.naFila > 1
+          ? `Pedido enviado — ${r.naFila} esperando na conversa do Claude.`
+          : "Pedido enviado. Abra a conversa do Claude no app: ele começa por lá.");
+      } catch (e) { avisa(e.message); }
     };
   });
 

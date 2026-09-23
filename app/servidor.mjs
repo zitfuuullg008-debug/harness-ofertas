@@ -20,7 +20,7 @@
 import { createServer } from "node:http";
 import { spawn } from "node:child_process";
 import {
-  createReadStream, existsSync, mkdirSync, readdirSync, readFileSync, statSync, writeFileSync,
+  createReadStream, existsSync, mkdirSync, readdirSync, readFileSync, renameSync, statSync, writeFileSync,
 } from "node:fs";
 import { tmpdir } from "node:os";
 import { basename, dirname, extname, join, resolve } from "node:path";
@@ -778,6 +778,43 @@ const servidor = createServer(async (req, res) => {
       }
       salvaPainel(p);
       return manda(res, 200, { favorita: p.favoritos.includes(chave), nota: p.notas[chave] ?? null });
+    }
+
+    /* Excluir uma modelagem. Nao apaga: move pra lixeira dentro da propria
+       pasta de modelagem. Sao 45 minutos de trabalho por pasta, e clique errado
+       acontece — desfazer tem que ser arrastar de volta, nao refazer tudo. */
+    if (rota === "/api/excluir-modelagem" && req.method === "POST") {
+      const { nome } = await corpoDe(req);
+      // Nome simples e so: nada de barra, de ".." nem de caminho absoluto.
+      if (!/^[\w.-]+$/.test(String(nome ?? ""))) return manda(res, 400, { erro: "nome inválido" });
+      const de = join(RAIZ, "saidas", "modelagem", nome);
+      if (!existsSync(de) || !statSync(de).isDirectory()) return manda(res, 404, { erro: "não achei essa modelagem" });
+
+      const lixeira = join(RAIZ, "saidas", "modelagem", ".lixeira");
+      mkdirSync(lixeira, { recursive: true });
+      const carimbo = new Date().toISOString().slice(0, 16).replace(/[:T]/g, "-");
+      const para = join(lixeira, `${nome}__${carimbo}`);
+      try {
+        renameSync(de, para);
+      } catch (e) {
+        return manda(res, 500, { erro: `não consegui mover: ${e.message}` });
+      }
+      return manda(res, 200, { ok: true, lixeira: `saidas/modelagem/.lixeira/${basename(para)}` });
+    }
+
+    /* "Com voce" sem terminal: deixa o pedido num arquivo que a conversa do
+       Claude fica vigiando. Quando ela esta aberta, a modelagem comeca la
+       mesmo, com historico e arquivos clicaveis. Quando nao esta, o pedido
+       espera na fila — nada se perde, so nao e instantaneo. */
+    if (rota === "/api/pedir-modelagem" && req.method === "POST") {
+      const { pagina } = await corpoDe(req);
+      if (!pagina) return manda(res, 400, { erro: "faltou a página" });
+      const arq = join(RAIZ, "data", "pedidos-modelagem.json");
+      mkdirSync(dirname(arq), { recursive: true });
+      const fila = existsSync(arq) ? JSON.parse(readFileSync(arq, "utf8")) : [];
+      fila.push({ pagina: String(pagina).slice(0, 200), pedidoEm: new Date().toISOString(), atendido: false });
+      writeFileSync(arq, JSON.stringify(fila, null, 2), "utf8");
+      return manda(res, 200, { ok: true, naFila: fila.filter((p) => !p.atendido).length });
     }
 
     /* Abre no Windows: pasta, arquivo, link — ou um terminal com o Claude pronto. */
