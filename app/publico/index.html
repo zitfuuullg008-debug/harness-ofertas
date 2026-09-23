@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR" data-tema="claro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Painel de Ofertas</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%234f46e5'/><text x='16' y='23' font-size='18' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle'>O</text></svg>">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<div class="app">
+  <aside class="lateral">
+    <div class="marca">
+      <div class="logo">O</div>
+      <div>
+        <h1>Painel de Ofertas</h1>
+        <small>roda tudo no seu PC</small>
+      </div>
+    </div>
+
+    <nav id="nav"></nav>
+
+    <div class="rodape">
+      <div class="status-pill" id="status">
+        <span class="bolinha"></span>
+        <span id="status-texto">parado</span>
+      </div>
+      <button class="nav-item" id="btn-tema"><span class="ic">◐</span> Tema escuro</button>
+      <button class="nav-item" id="btn-pasta"><span class="ic">📁</span> Abrir a pasta</button>
+    </div>
+  </aside>
+
+  <main class="conteudo" id="tela"></main>
+</div>
+
+<!-- console ao vivo -->
+<section class="console escondido" id="console">
+  <header class="console-topo" id="console-topo">
+    <span class="bolinha" style="width:7px;height:7px;border-radius:50%;background:var(--verde)"></span>
+    <b id="console-titulo">Trabalhando…</b>
+    <div class="dir">
+      <button class="btn pequeno perigo" id="btn-parar">Parar</button>
+      <button class="btn pequeno fantasma" id="btn-minimizar">—</button>
+    </div>
+  </header>
+  <div style="padding:0 13px 9px"><div class="barra-tempo"><i id="barra" style="width:0%"></i></div></div>
+  <div class="console-corpo" id="console-corpo"></div>
+</section>
+
+<div id="torrada"></div>
+
+<script src="app.js"></script>
+</body>
+</html>

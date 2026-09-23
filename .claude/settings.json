@@ -19,7 +19,16 @@
       "Agent",
       "Skill",
       "WebSearch",
-      "WebFetch"
+      "WebFetch",
+      "mcp__claude_ai_Utmify__get_dashboards",
+      "mcp__claude_ai_Utmify__get_dashboard_summary",
+      "mcp__claude_ai_Utmify__get_meta_ad_objects",
+      "Bash(node scripts/conferir-pagina.mjs*)",
+      "Bash(node scripts/importar-adhunter.mjs*)",
+      "Bash(node scripts/enriquecer.mjs*)",
+      "Bash(node scripts/salvar-no-adhunter.mjs*)",
+      "Bash(node scripts/pedir-imagens.mjs*)",
+      "Bash(node scripts/imagens.mjs*)"
     ]
   }
 }

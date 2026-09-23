@@ -17,11 +17,14 @@
  *      cada uma responde.
  */
 
-import { execFileSync } from "node:child_process";
-import { copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from "node:fs";
+import { execFile, execFileSync } from "node:child_process";
+import { promisify } from "node:util";
+import { copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, statSync, unlinkSync, writeFileSync } from "node:fs";
 import { basename, dirname, extname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { createHash } from "node:crypto";
 
+const execArq = promisify(execFile);
 const RAIZ = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const args = process.argv.slice(2);
 const pasta = resolve(args.find((a) => !a.startsWith("--")) ?? "");
@@ -29,7 +32,7 @@ const publicar = args.includes("--publicar");
 const origem = (() => { const i = args.indexOf("--de"); return i >= 0 ? resolve(args[i + 1]) : null; })();
 
 const BASE = "https://zitfuuullg008-debug.github.io/harness-ofertas";
-const TETO_KB = 120;      // teto por imagem: acima disso a página fica lenta
+const TETO_KB = 140;      // teto por imagem, combinado com o usuário
 const LARGURA_MAX = 1080; // página de vendas é mobile; além disso é peso à toa
 
 if (!existsSync(pasta)) {
@@ -118,10 +121,44 @@ const destino = join(RAIZ, "imagens", slug);
 mkdirSync(destino, { recursive: true });
 
 const disponiveis = readdirSync(de).filter((f) => /\.(webp|jpe?g|png)$/i.test(f));
+
+// A expert é sempre a mesma pessoa, então a foto dela é do projeto, não da
+// oferta: fica em templates/ e serve toda página sem ninguém ter que gerar.
+const EXPERT = join(RAIZ, "templates", "expert-mari-dias.webp");
+
+/* A skill do Codex nomeia pelo conteúdo ("03-dobra-2-canela-classica.png"),
+   não pelo slot. Traduz uma coisa na outra, na ordem em que os arquivos vêm —
+   senão alguém teria que renomear 27 arquivos na mão a cada oferta. */
+const PADROES = [
+  [/primeira-dobra/i, "hero"],
+  [/dobra-?2|segunda-dobra/i, "demo"],
+  [/mockup-principal/i, "produto"],
+  [/pack-completo/i, "planos"],
+  [/\bbonus\b|b[oô]nus/i, "bonus"],
+  [/depoimento/i, "depoimentos"],
+  [/expert|autoridade|mari/i, "autoridade"],
+];
+const porBloco = {};
+for (const f of [...disponiveis].sort()) {
+  const nome = basename(f, extname(f)).toLowerCase();
+  if (/^[a-z]+-\d+$/.test(nome)) continue;          // já está no nosso padrão
+  const achado = PADROES.find(([re]) => re.test(nome));
+  if (!achado) continue;
+  (porBloco[achado[1]] ??= []).push(f);
+}
+
 const achaArquivo = (p) => {
   const base = `${p.bloco}-${p.n}`;
-  return disponiveis.find((f) => basename(f, extname(f)).toLowerCase() === base)
+  const naPasta = disponiveis.find((f) => basename(f, extname(f)).toLowerCase() === base)
     ?? disponiveis.find((f) => basename(f, extname(f)).toLowerCase().replace(/[_\s]/g, "-") === base);
+  if (naPasta) return join(de, naPasta);
+
+  // Pela convenção da skill: o n-ésimo arquivo daquele bloco, em ordem.
+  const pelaOrdem = porBloco[p.bloco]?.[p.n - 1];
+  if (pelaOrdem) return join(de, pelaOrdem);
+
+  if (p.bloco === "autoridade" && existsSync(EXPERT)) return EXPERT;
+  return null;
 };
 
 /**
@@ -132,62 +169,91 @@ const achaArquivo = (p) => {
  * Busca binária na qualidade: a maior que ainda cabe no teto. Assim cada
  * arquivo sai o mais bonito possível sem estourar o limite.
  */
-function converteParaWebp(entrada, saida) {
-  const roda = (q) => {
-    execFileSync("ffmpeg", [
-      "-hide_banner", "-loglevel", "error",
-      "-i", entrada,
-      "-vf", `scale='min(${LARGURA_MAX},iw)':-2`,
-      "-c:v", "libwebp", "-quality", String(q), "-compression_level", "6",
-      "-y", saida,
-    ], { stdio: "pipe" });
-    return statSync(saida).size;
+async function converteParaWebp(entrada, saida) {
+  const teto = TETO_KB * 1024;
+
+  /* A busca gasta várias passadas de encoder por imagem. Duas coisas cortam
+     esse tempo sem mudar o resultado:
+
+     1. Reduzir a imagem UMA vez, num arquivo temporário, e procurar a
+        qualidade em cima dele. Sem isso, cada tentativa re-decodifica um PNG
+        de 2 MB e redimensiona de novo.
+     2. Procurar com `compression_level 1` (rápido, tamanho parecido) e só a
+        passada final usar `6`, que é a lenta e a que vale. */
+  const menor = saida.replace(/\.webp$/i, ".base.png");
+  await execArq("ffmpeg", [
+    "-hide_banner", "-loglevel", "error", "-i", entrada,
+    "-vf", `scale='min(${LARGURA_MAX},iw)':-2`, "-y", menor,
+  ]);
+
+  const roda = async (q, nivel, destinoArq) => {
+    await execArq("ffmpeg", [
+      "-hide_banner", "-loglevel", "error", "-i", menor,
+      "-c:v", "libwebp", "-quality", String(q), "-compression_level", String(nivel),
+      "-y", destinoArq,
+    ]);
+    return statSync(destinoArq).size;
   };
 
+  const sonda = saida.replace(/\.webp$/i, ".sonda.webp");
   let baixo = 30;
   let alto = 92;
-  let melhor = null;
-  roda(alto);
-  if (statSync(saida).size <= TETO_KB * 1024) return { q: alto, bytes: statSync(saida).size };
-
-  while (baixo <= alto) {
-    const meio = Math.floor((baixo + alto) / 2);
-    const bytes = roda(meio);
-    if (bytes <= TETO_KB * 1024) { melhor = { q: meio, bytes }; baixo = meio + 1; }
-    else alto = meio - 1;
+  let melhorQ = null;
+  if (await roda(92, 1, sonda) <= teto) melhorQ = 92;
+  else {
+    while (baixo <= alto) {
+      const meio = Math.floor((baixo + alto) / 2);
+      if (await roda(meio, 1, sonda) <= teto) { melhorQ = meio; baixo = meio + 1; }
+      else alto = meio - 1;
+    }
   }
-  if (melhor) { roda(melhor.q); return melhor; }
-  // Nem na qualidade mínima coube: entrega o menor que deu.
-  return { q: 30, bytes: roda(30), estourou: true };
+
+  const q = melhorQ ?? 30;
+  let bytes = await roda(q, 6, saida);
+  // O nível 6 comprime mais que o 1, então cabe. Se por acaso não couber,
+  // desce um degrau e aceita.
+  if (bytes > teto && q > 30) bytes = await roda(q - 8, 6, saida);
+  for (const lixo of [menor, sonda]) { try { unlinkSync(lixo); } catch { /* já foi */ } }
+  return { q, bytes, estourou: bytes > teto };
 }
+
+/* Imagem trocada mantendo o mesmo nome fica invisivel: o navegador ja tem aquela
+   URL em cache e serve a antiga por dez minutos. A assinatura do conteudo no fim
+   da URL resolve — muda o arquivo, muda o endereco. */
+const assinatura = (caminho) => createHash("sha1").update(readFileSync(caminho)).digest("hex").slice(0, 8);
 
 const copiadas = [];
 const faltando = [];
 const avisosPeso = [];
 
-for (const p of pedidos) {
-  const achado = achaArquivo(p);
-  if (!achado) { faltando.push(p); continue; }
-  const caminhoDe = join(de, achado);
-  const kbAntes = Math.round(statSync(caminhoDe).size / 1024);
-  const nomeFinal = `${p.bloco}-${p.n}.webp`;
-  const caminhoFinal = join(destino, nomeFinal);
-
-  let kb = kbAntes;
-  try {
-    const r = converteParaWebp(caminhoDe, caminhoFinal);
-    kb = Math.round(r.bytes / 1024);
-    if (r.estourou) avisosPeso.push(`${nomeFinal} ficou ${kb}KB mesmo na qualidade mínima`);
-    console.log(`  ${nomeFinal.padEnd(18)} ${String(kbAntes).padStart(5)}KB → ${String(kb).padStart(4)}KB  (q${r.q})`);
-  } catch (e) {
-    // Sem ffmpeg ou arquivo estranho: leva como está, mas avisa.
-    copyFileSync(caminhoDe, join(destino, `${p.bloco}-${p.n}${extname(achado).toLowerCase()}`));
-    avisosPeso.push(`${nomeFinal}: não consegui converter (${String(e.message).slice(0, 60)})`);
-    copiadas.push({ ...p, nomeFinal: `${p.bloco}-${p.n}${extname(achado).toLowerCase()}`, kb: kbAntes, url: `${BASE}/imagens/${slug}/${p.bloco}-${p.n}${extname(achado).toLowerCase()}` });
-    continue;
+// Seis por vez: a máquina tem 8 núcleos e o ffmpeg usa um por processo.
+// Sequencial, 20 imagens levavam minutos; em paralelo é a mesma conta dividida.
+const AO_MESMO_TEMPO = 6;
+const fila = [...pedidos];
+async function trabalhador() {
+  while (fila.length) {
+    const p = fila.shift();
+    const caminhoDe = achaArquivo(p);
+    if (!caminhoDe) { faltando.push(p); continue; }
+    const achado = basename(caminhoDe);
+    const kbAntes = Math.round(statSync(caminhoDe).size / 1024);
+    const nomeFinal = `${p.bloco}-${p.n}.webp`;
+    try {
+      const r = await converteParaWebp(caminhoDe, join(destino, nomeFinal));
+      const kb = Math.round(r.bytes / 1024);
+      if (r.estourou) avisosPeso.push(`${nomeFinal} ficou ${kb}KB mesmo na qualidade mínima`);
+      console.log(`  ${nomeFinal.padEnd(18)} ${String(kbAntes).padStart(5)}KB → ${String(kb).padStart(4)}KB  (q${r.q})`);
+      copiadas.push({ ...p, nomeFinal, kb, url: `${BASE}/imagens/${slug}/${nomeFinal}?v=${assinatura(join(destino, nomeFinal))}` });
+    } catch (e) {
+      const alt = `${p.bloco}-${p.n}${extname(achado).toLowerCase()}`;
+      copyFileSync(caminhoDe, join(destino, alt));
+      avisosPeso.push(`${alt}: não consegui converter (${String(e.message).slice(0, 60)})`);
+      copiadas.push({ ...p, nomeFinal: alt, kb: kbAntes, url: `${BASE}/imagens/${slug}/${alt}?v=${assinatura(join(destino, alt))}` });
+    }
   }
-  copiadas.push({ ...p, nomeFinal, kb, url: `${BASE}/imagens/${slug}/${nomeFinal}` });
 }
+await Promise.all(Array.from({ length: AO_MESMO_TEMPO }, trabalhador));
+copiadas.sort((a, b) => a.bloco.localeCompare(b.bloco) || a.n - b.n);
 
 console.log(`${copiadas.length} de ${pedidos.length} imagens encontradas.`);
 if (faltando.length) {

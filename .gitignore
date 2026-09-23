@@ -10,3 +10,22 @@ saidas/**/midia/*.mp4
 produtos/*
 !produtos/_TEMPLATE.md
 !produtos/README.md
+
+# estado pessoal do painel (favoritos, anotacoes)
+data/painel.json
+
+# paginas validadas: ativo comercial, fica so na sua maquina
+templates/*
+!templates/README.md
+
+# credencial da Utmify: fica so na sua maquina
+.env.utmify
+
+# faturamento do termometro: dado de venda, nao vai pra repo publico
+data/termometro/
+
+# imagens das ofertas ficam no repo (viram URL publica pelo Pages)
+!imagens/
+
+# pasta de entrada: os PNG crus do ChatGPT. O que vai pro ar e a pasta imagens/
+imagens-novas/

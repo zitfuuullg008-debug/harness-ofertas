@@ -2,6 +2,35 @@
 
 Minera ofertas de produto digital low-ticket que estão **escalando no Meta Ads**, propõe ofertas novas pra você, e toda semana gera **ângulos de criativo prontos pra gravar** pra cada produto seu — sem você precisar escrever nada.
 
+## O Painel (app de desktop)
+
+Dê dois cliques em **"Painel de Ofertas"** no Desktop. Abre uma janela limpa, sem barra de
+navegador, e tudo roda no seu computador — nada vai pra nuvem.
+
+Lá dentro:
+
+| Aba | Pra quê |
+|---|---|
+| **Início** | Os números do dia e os botões grandes: minerar, gerar criativos, gerar ideias, atualizar o Ad Hunter. |
+| **Ofertas** | As ofertas do relatório em cards, com vídeo, "anúncios ativos", "criativos da oferta", por que escala e como modelar. Dá pra favoritar, filtrar por nicho e abrir a **Biblioteca de anúncios** do anunciante. |
+| **Páginas** | As páginas de venda que o MVT já montou. |
+| **Criativos** | Seus produtos e os ângulos/variações de copy gerados. |
+| **Ideias** | Sugestões de oferta nova. |
+| **Automações** | Liga, desliga e roda na hora as tarefas agendadas. |
+| **Ajustes** | Tamanho do pool, quantas vêm com ★, a régua de criativos, e os nichos/palavras-chave. |
+
+Quando você clica em **★ Modelar página**, o Claude roda o pipeline MVT inteiro sozinho —
+pesquisa de mercado, Raio-X da concorrência, modelagem, copy, página de vendas e auditoria — e
+grava tudo em `saidas/modelagem/`. Onde a metodologia pediria a sua confirmação, ele decide e
+anota a escolha (e a alternativa que descartou) em `DECISOES.md`: é por ali que você revisa e
+pede ajuste. As imagens na Atomicat e o app entregável ficam pra você, com o briefing pronto.
+
+Se preferir decidir fase por fase, o botão **⌨ com você** abre o Claude numa janela.
+
+Enquanto algo roda, um painelzinho no canto mostra ao vivo o que o Claude está fazendo.
+
+Se o atalho sumir: o arquivo é `Painel de Ofertas.vbs`, na pasta do projeto.
+
 ## Como funciona (engenharia de harness)
 
 Três agentes, cada um com contexto próprio (um não contamina o outro), ligados por arquivos:

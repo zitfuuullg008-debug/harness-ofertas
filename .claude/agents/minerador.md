@@ -57,6 +57,26 @@ Se depois do descarte um nicho ficar sem 2 ofertas white, entregue menos e diga 
 
 Se estiver ambíguo → **MANTER** com nota de confiança baixa. Nunca descarte por falta de informação.
 
+### Passo 2d — Saturação: separe o recorte do genérico
+
+O usuário não quer "mais do mesmo". Isso vale já na escolha, não só na modelagem: uma oferta
+que escala vendendo a categoria inteira ensina pouco, porque o recorte dela não é
+transportável — é só volume de verba.
+
+Para cada oferta aprovada, escreva a promessa em uma linha e classifique:
+
+| Classe | Como é | O que fazer |
+|---|---|---|
+| **Genérico** | vende a categoria: "marmita fitness", "receitas gostosas", "100 receitas de bolo", "bolo de pote pra vender" | entra no pool, mas **não pode ser `recomendada`** |
+| **Recorte** | estreitado por público, ocasião, restrição ou mecanismo nomeado: "congelar a semana inteira", "lanche que não murcha na lancheira", "doce pra vender na porta de escola" | preferência nas `recomendadas` |
+
+Marque isso no card, em `saturacao`: `"generico"` ou `"recorte"`, mais uma linha em
+`porqueEscala` dizendo o que estreita (ou que não estreita nada).
+
+Conte antes de decidir: se três ou mais ofertas do pool vendem a mesma coisa com palavras
+diferentes, aquilo é categoria saturada — fique com **uma** e diga no `resumo` que as outras
+saíram por repetição de recorte.
+
 ## Passo 2c — Só oferta com PÁGINA DE VENDAS
 
 O usuário quer modelar página de vendas com a Metodologia MVT. Portanto:
@@ -64,15 +84,19 @@ O usuário quer modelar página de vendas com a Metodologia MVT. Portanto:
 - **DESCARTE** destino WhatsApp (`wa:`, `api.whatsapp.com`, `wa.me`), Instagram, Messenger, link de bio ou formulário do próprio Facebook. Motivo em `descartados`: "destino WhatsApp".
 - **Cuidado com o disfarce:** domínio próprio **não garante** página de vendas — muita oferta de "R$ 1" abre um domínio bonito e redireciona pro WhatsApp. Por isso o passo 4 roda `enriquecer.mjs`, que segue o link no navegador e grava `destinoFinal`. **Quando ele apontar `whatsapp` ou `social`, troque a oferta** por outra do mesmo nicho e rode o script de novo.
 - Oferta boa demais pra ignorar mas com destino WhatsApp: cite numa linha no `resumo`, não vire card.
+- **Anote o formato do destino** em `formatoDestino`: `"pagina"` (página de vendas direta),
+  `"quiz"`, `"curso"` ou `"vsl"`. O `/modelar` usa isso pra decidir a profundidade: quiz,
+  curso e VSL não levam engenharia reversa da oferta, só modelagem da página de vendas.
 
 ## Passo 2b — Montar o pool de `ofertasNoTotal` (config, hoje = 10) e recomendar `recomendadas` (3)
 
 1. Junte as ofertas aprovadas (low-ticket + não-black + página de vendas) de todos os nichos coletados hoje e monte um pool de até **10**, ordenado por sinais de escala. Máximo 4 do mesmo nicho, 1 por página. Neste momento prefira **anunciantes com muitos anúncios na página** (15, 30, 70…) — são os que provavelmente têm uma oferta com 15+ criativos escondida; anunciante com 1–3 anúncios no total nunca vai passar na régua.
 2. Dentro do pool, marque **3 como `recomendada: true`** — as que você modelaria primeiro pela Metodologia MVT. Critério, nesta ordem:
+   - **Recorte, não genérico** (`saturacao: "recorte"`). Oferta genérica não vira recomendada, por mais que escale;
    - **Mecanismo nomeado e transportável** ("sem forno, sem fogo e sem ovo", "cardápio 6–24 meses") — dá pra modelar sem clonar;
    - **Página de vendas de verdade** (checkout Hotmart/Kiwify/Braip ou própria), porque é o que vamos modelar;
    - **Escala comprovada**: criativos na oferta (o mais importante) + anúncios ativos na página + dias rodando;
-   - **White e do gosto do usuário**, nesta ordem: renda extra (inclusive com comida caseira), receita, maternidade/educação infantil; cristão só se sobrar espaço. O campo `prioridade` de cada nicho em `config/nichos.json` diz isso (1 = alta).
+   - **White e do gosto do usuário**, nesta ordem: comida e renda extra com comida (é onde ele quer as oportunidades), receita, maternidade/educação infantil; cristão só se sobrar espaço. Oferta de mercado novo, fora de comida, pode virar recomendada quando o recorte for claramente bom — nesse caso diga no `porqueRecomendada` que é fora do nicho e por que vale. O campo `prioridade` de cada nicho em `config/nichos.json` diz isso (1 = alta).
    Em cada recomendada, escreva `porqueRecomendada` (1 frase: o que dela transporta pro produto dele).
 3. **Anti-repetição:** no máximo 1 das 3 recomendadas pode ter saído no relatório anterior.
 4. Se faltar oferta aprovada, entregue menos e diga no `resumo` — **nunca complete com saúde nem com destino WhatsApp**.
@@ -105,6 +129,8 @@ O usuário **não quer parede de texto**. Você escreve um JSON com cards curtos
           "preco": "<R$ X ou 'R$ 9,90–19,90 (inferido)' ou null>",
           "promessa": "<1 frase nas palavras do anúncio>",
           "hook": "<primeira frase do anúncio>",
+          "saturacao": "recorte|generico",
+          "formatoDestino": "pagina|quiz|curso|vsl",
           "porqueEscala": ["<hipótese curta>", "..."],
           "comoModelar": ["<ângulo/mecanismo/formato que transporta pro nosso produto>", "..."],
           "recomendada": false,
