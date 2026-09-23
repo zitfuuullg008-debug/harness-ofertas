@@ -1,4 +1,4 @@
-# Publica o site (index.html + saidas/) no GitHub Pages a cada push na main.
+# Publica o site (index.html + saidas/ + imagens/) no GitHub Pages a cada push na main.
 # `enablement: true` liga o Pages sozinho na primeira execução.
 name: Publicar site
 
@@ -33,6 +33,9 @@ jobs:
           cp index.html _site/
           cp -r saidas/mineracao _site/saidas/
           rm -f _site/saidas/mineracao/midia/*.mp4
+          # Imagens das ofertas: viram URL pública pra usar nas páginas de venda.
+          # Sem esta cópia elas ficam no repositório mas dão 404 no site.
+          if [ -d imagens ]; then cp -r imagens _site/; fi
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
