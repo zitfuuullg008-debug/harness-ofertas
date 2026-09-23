@@ -1,0 +1,574 @@
+{
+  "data": "2026-09-23",
+  "resumo": "O cache do Ad Hunter trouxe 4 nichos (renda extra e cristão de hoje; receitas e maternidade de ontem) — 76 ofertas em 76 páginas. Depois do filtro low-ticket, do corte de saúde e da régua de 15+ criativos no mesmo destino, 12 ofertas passaram, todas com página de vendas confirmada. Atenção: 3 páginas mineradas são do próprio usuário (revitamulher.online = Lanchinhos, Bebê Comilão e Receita BR) e saíram do pool — ontem uma delas virou card por engano. Faltaram receitas_infantis e comida_caseira: vale rodar essas categorias no Ad Hunter.",
+  "nichosFaltando": ["receitas_infantis", "comida_caseira"],
+  "padroes": [
+    "Renda extra virou produto nomeado: rolinho gourmet, torta de vitrine, ramen",
+    "Preço na primeira linha do anúncio: 'R$7 hoje', '+25 mil materiais por R$10'",
+    "Número fechado no nome vende: 17 sabores, 20 receitas, 150 roteiros, 73 livros",
+    "Anunciante grande roda 3–5 destinos e concentra os criativos num só",
+    "Mudou vs. ontem: Mayara trocou Bolos Gelados por Tortas de Vitrine (35 criativos)",
+    "Mudou vs. ontem: Luciana Prado subiu de 60 para 120 criativos no mesmo link"
+  ],
+  "nichos": [
+    {
+      "id": "receitas",
+      "nome": "Receitas",
+      "totalAnuncios": 21,
+      "totalAnunciantes": 21,
+      "ofertas": [
+        {
+          "pagina": "Nutricionista Patrícia Stênico",
+          "paginaId": "107064817659875",
+          "adId": "2059571208259789",
+          "keyword": "receitas fáceis",
+          "novo": false,
+          "vezesVisto": 2,
+          "score": 0,
+          "anunciosNaPagina": 120,
+          "criativosDaOferta": 110,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 4,
+          "diasRodando": 26,
+          "produto": "Refeições Saudáveis para Congelar: +120 receitas, cardápios e lista de compras.",
+          "preco": "R$ 19,90–37 (inferido, anúncio diz 55% OFF)",
+          "promessa": "Organize a semana em poucas horas e tenha comida pronta em minutos.",
+          "hook": "Jantar leve, rotina leve.",
+          "saturacao": "recorte",
+          "formatoDestino": "pagina",
+          "porqueEscala": [
+            "110 criativos no mesmo link — 92% da página",
+            "Estreita pelo método de preparo: congelar, não 'receita saudável'",
+            "Cardápio e lista de compras entregam o trabalho já feito",
+            "Dor de rotina da semana, sem promessa de saúde"
+          ],
+          "comoModelar": [
+            "Nomeie o mecanismo pelo preparo, não pelo prato",
+            "Entregue cardápio e lista de compras dentro do produto",
+            "Venda tempo de semana, não nutrição",
+            "Concentre a verba num destino só e varie o criativo"
+          ],
+          "recomendada": false,
+          "linkVenda": "https://rc.patriciastenico.com.br/55-off-ads-botao-fp2/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2059571208259789",
+          "ofertaDominante": {
+            "destino": "rc.patriciastenico.com.br/55-off-ads-botao-fp2",
+            "criativos": 110
+          },
+          "destinoFinal": "pagina"
+        },
+        {
+          "pagina": "Luana Oliveira",
+          "paginaId": "1108439012356829",
+          "adId": "1022848660751097",
+          "keyword": "receitas fáceis",
+          "novo": false,
+          "vezesVisto": 2,
+          "score": 0,
+          "anunciosNaPagina": 350,
+          "criativosDaOferta": 42,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 12,
+          "diasRodando": 76,
+          "produto": "+365 Receitas Sem Açúcar, Glúten e Lactose: bolo, pizza, lasanha, cookies.",
+          "preco": "R$ 9,90–19,90 (inferido)",
+          "promessa": "Comer bolo, pizza e lasanha sem açúcar, glúten e lactose.",
+          "hook": "Você acredita que essas receitas NÃO têm açúcar, glúten e lactose?",
+          "saturacao": "recorte",
+          "formatoDestino": "pagina",
+          "porqueEscala": [
+            "350 anúncios ativos — maior anunciante de receitas do dia",
+            "Testa 12 destinos e escala só o vencedor: 42 criativos aqui",
+            "Restrição alimentar sem prometer cura — público já ciente",
+            "Recorrente: 2ª rodada seguida no topo"
+          ],
+          "comoModelar": [
+            "Abra com incredulidade: 'você acredita que não tem...'",
+            "Liste pratos tradicionais, não ingredientes ou nutrientes",
+            "365 receitas = uma por dia; o formato vira promessa",
+            "Rode várias páginas baratas e escale só a vencedora"
+          ],
+          "recomendada": false,
+          "linkVenda": "https://as365receitascheflu.lovable.app/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1022848660751097",
+          "ofertaDominante": {
+            "destino": "as365receitascheflu.lovable.app",
+            "criativos": 42
+          },
+          "destinoFinal": "pagina"
+        },
+        {
+          "pagina": "Companhia Cozinhando Bem",
+          "paginaId": "779229071943201",
+          "adId": "2172625720327342",
+          "keyword": "receitas fáceis",
+          "novo": false,
+          "vezesVisto": 2,
+          "score": 0,
+          "anunciosNaPagina": 61,
+          "criativosDaOferta": 38,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 4,
+          "diasRodando": 21,
+          "produto": "+365 receitas de ramen e comida japonesa pra fazer em casa e vender.",
+          "preco": "R$ 9,90–19,90 (inferido)",
+          "promessa": "Ganhar dinheiro com comida japonesa sem abrir restaurante.",
+          "hook": "Quem disse que precisa abrir um restaurante para ganhar dinheiro com comida japonesa?",
+          "saturacao": "recorte",
+          "formatoDestino": "pagina",
+          "porqueEscala": [
+            "38 criativos num link só, 62% da página inteira",
+            "Junta dois desejos: cozinha exótica e renda extra",
+            "Ramen como 'porta de entrada' derruba a objeção de dificuldade",
+            "Página inteira é comida japonesa: ramen, sushi, ovos"
+          ],
+          "comoModelar": [
+            "Abra negando o caminho caro: 'não precisa abrir restaurante'",
+            "Escolha um prato como porta de entrada, não a cozinha inteira",
+            "Uma página por prato: ramen, sushi, temaki",
+            "Prato exótico eleva preço percebido de receita simples"
+          ],
+          "recomendada": true,
+          "porqueRecomendada": "Nomeia um prato só como porta de entrada pra vender comida — o mesmo movimento do Pão de Queijo dele, em cozinha que ninguém ocupou.",
+          "linkVenda": "https://disklove.com.br/japao/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2172625720327342",
+          "ofertaDominante": {
+            "destino": "disklove.com.br/japao",
+            "criativos": 38
+          },
+          "destinoFinal": "pagina"
+        }
+      ],
+      "descartados": [
+        { "pagina": "Mariana Talita", "motivo": "nicho black (saúde)" },
+        { "pagina": "Mia Carvalho", "motivo": "nicho black (saúde)" },
+        { "pagina": "Chef Maria", "motivo": "página do próprio usuário" },
+        { "pagina": "Receitas Deliciosas", "motivo": "página do próprio usuário" },
+        { "pagina": "Misturas do Bem", "motivo": "genérico, anúncio sem copy" },
+        { "pagina": "FTW", "motivo": "sem página de vendas" },
+        { "pagina": "Fundació Pasqual Maragall", "motivo": "ONG, destino Facebook" },
+        { "pagina": "Clara - Vianda feliz", "motivo": "mercado espanhol" },
+        { "pagina": "Academia Karina Gao", "motivo": "mercado espanhol" }
+      ]
+    },
+    {
+      "id": "renda_extra",
+      "nome": "Renda extra",
+      "totalAnuncios": 19,
+      "totalAnunciantes": 19,
+      "ofertas": [
+        {
+          "pagina": "Luciana Prado",
+          "paginaId": "878176412048107",
+          "adId": "1037695398665651",
+          "keyword": "aprenda a fazer renda extra",
+          "novo": false,
+          "vezesVisto": 2,
+          "score": 0,
+          "anunciosNaPagina": 170,
+          "criativosDaOferta": 120,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 1,
+          "diasRodando": 47,
+          "produto": "Rolinhos gourmet: um salgado nomeado pra fazer e vender.",
+          "preco": "R$ 9,90–19,90 (inferido)",
+          "promessa": "Aprender um salgado gourmet só e viver de vender ele.",
+          "hook": "Aprenda a fazer rolinhos gourmet",
+          "saturacao": "recorte",
+          "formatoDestino": "pagina",
+          "porqueEscala": [
+            "120 criativos no mesmo link, zero dispersão",
+            "Subiu de 60 pra 120 criativos em um dia",
+            "Produto único e nomeado vence catálogo genérico",
+            "Copy de uma linha: o teste roda no vídeo"
+          ],
+          "comoModelar": [
+            "Uma receita, um nome, uma página — zero dispersão",
+            "'Gourmet' eleva o preço percebido de salgado simples",
+            "Copy mínima obriga o vídeo a vender sozinho",
+            "Salgado que congela cru: faz numa tarde, vende a semana"
+          ],
+          "recomendada": true,
+          "porqueRecomendada": "É o modelo mais limpo de foco do dia — um produto, uma página, 120 criativos — e salgado congelado cru é 'faz uma vez, vende a semana'.",
+          "linkVenda": "https://inlead.digital/rolinhos-gourmet",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1037695398665651",
+          "ofertaDominante": {
+            "destino": "inlead.digital/rolinhos-gourmet",
+            "criativos": 120
+          },
+          "destinoFinal": "pagina"
+        },
+        {
+          "pagina": "Mayara Campos Doces",
+          "paginaId": "1717172328593393",
+          "adId": "1043477205035884",
+          "keyword": "aprenda a fazer renda extra",
+          "novo": false,
+          "vezesVisto": 2,
+          "score": 0,
+          "anunciosNaPagina": 82,
+          "criativosDaOferta": 35,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 3,
+          "diasRodando": 35,
+          "produto": "Tortas de Vitrine: 17 sabores em camadas, sem gelatina, passo a passo.",
+          "preco": "R$ 19,90–37 (inferido)",
+          "promessa": "Fazer em casa torta que parece de confeitaria profissional.",
+          "hook": "Tortas lindas, sem gelatina, com camadas perfeitas.",
+          "saturacao": "recorte",
+          "formatoDestino": "pagina",
+          "porqueEscala": [
+            "35 criativos nessa oferta, virou a dominante da página",
+            "'Sem gelatina' nomeia o defeito que a concorrência tem",
+            "17 sabores sobre a mesma base: variação sem trabalho novo",
+            "Página roda 3 ofertas e migrou a verba pra esta"
+          ],
+          "comoModelar": [
+            "Nomeie o defeito do concorrente: 'sem gelatina'",
+            "Conte os sabores no nome: 17 sabores sobre uma base",
+            "Venda o formato de vitrine, não a receita do bolo",
+            "Prometa aparência de confeitaria, não sabor"
+          ],
+          "recomendada": true,
+          "porqueRecomendada": "'Sem gelatina, camadas perfeitas' é mecanismo que ataca um defeito conhecido, e 17 sabores sobre uma base é o bônus de variação que ele já usa.",
+          "linkVenda": "https://mayaracamposconfeitaria.com.br/tortasdevitrine/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1043477205035884",
+          "ofertaDominante": {
+            "destino": "mayaracamposconfeitaria.com.br/tortasdevitrine",
+            "criativos": 35
+          },
+          "destinoFinal": "pagina"
+        },
+        {
+          "pagina": "Saboaria da Tia Rose",
+          "paginaId": "113665005122948",
+          "adId": "1053850734057214",
+          "keyword": "aprenda a fazer renda extra",
+          "novo": false,
+          "vezesVisto": 2,
+          "score": 0,
+          "anunciosNaPagina": 68,
+          "criativosDaOferta": 32,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 3,
+          "diasRodando": 44,
+          "produto": "Saboaria Artesanal 2.0: apostila com 150 receitas de sabonete + 5 apostilas extras.",
+          "preco": "R$ 7",
+          "promessa": "Transformar sabonete artesanal em fonte real de renda.",
+          "hook": "7,00 Hoje no Curso 2.0",
+          "saturacao": "recorte",
+          "formatoDestino": "pagina",
+          "porqueEscala": [
+            "32 criativos nos sabonetes e 36 nas velas — 68 na página",
+            "R$ 7 no título derruba a objeção antes do clique",
+            "Versão '2.0' recicla produto antigo como lançamento",
+            "Empilha 5 apostilas de bônus sem custo novo"
+          ],
+          "comoModelar": [
+            "Preço na primeira linha do anúncio",
+            "Chame de 2.0 e venda o mesmo conteúdo atualizado",
+            "Duas páginas irmãs para dois artesanatos do mesmo público",
+            "Bônus em apostila multiplica valor sem gravar aula"
+          ],
+          "recomendada": false,
+          "linkVenda": "https://saboariatiarose.com/tiarose2-0/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1053850734057214",
+          "ofertaDominante": {
+            "destino": "velastiarose.com/2-0",
+            "criativos": 36
+          },
+          "destinoFinal": "pagina"
+        },
+        {
+          "pagina": "Aisne morelli",
+          "paginaId": "373233815878944",
+          "adId": "1401542428476587",
+          "keyword": "aprenda a fazer renda extra",
+          "novo": false,
+          "vezesVisto": 2,
+          "score": 0,
+          "anunciosNaPagina": 82,
+          "criativosDaOferta": 22,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 4,
+          "diasRodando": 93,
+          "produto": "Guia 20 Receitas de Sabonetes Glicerinados, passo a passo.",
+          "preco": "R$ 9,90–19,90 (copy diz 'valor simbólico')",
+          "promessa": "Começar na saboaria sem desperdiçar material nem errar receita.",
+          "hook": "Você quer começar na saboaria… mas tem medo de desperdiçar material?",
+          "saturacao": "recorte",
+          "formatoDestino": "pagina",
+          "porqueEscala": [
+            "22 criativos nessa oferta, 93 dias rodando",
+            "Abre pelo medo de desperdiçar, não pelo sonho",
+            "Oferta irmã de embalagens vende pro mesmo comprador",
+            "'Valor simbólico' evita preço na copy e puxa o clique"
+          ],
+          "comoModelar": [
+            "Abra pelo medo do iniciante, não pela promessa",
+            "Número fechado no nome: 20 receitas",
+            "Crie o upsell de embalagem como oferta própria",
+            "'Valor simbólico' no lugar do preço puxa clique"
+          ],
+          "recomendada": false,
+          "linkVenda": "https://aisnemorelli.com.br/e20g-b-29/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1401542428476587",
+          "ofertaDominante": {
+            "destino": "aisnemorelli.com.br/e20g-b-29",
+            "criativos": 22
+          },
+          "destinoFinal": "pagina"
+        }
+      ],
+      "descartados": [
+        { "pagina": "Venda Sem Estoque", "motivo": "funil high-ticket" },
+        { "pagina": "Luciano Fernandes", "motivo": "investimentos, webinário" },
+        { "pagina": "EQI/Research", "motivo": "isca de corretora" },
+        { "pagina": "Maximus Tecidos Finos", "motivo": "abaixo da régua" },
+        { "pagina": "Mariana Talita", "motivo": "nicho black (saúde)" },
+        { "pagina": "Tradeandonet", "motivo": "trading, mercado espanhol" },
+        { "pagina": "Jaime Higuera España", "motivo": "mercado espanhol" },
+        { "pagina": "Fabricio Sampayo", "motivo": "mercado espanhol" }
+      ]
+    },
+    {
+      "id": "maternidade",
+      "nome": "Maternidade e educação infantil",
+      "totalAnuncios": 18,
+      "totalAnunciantes": 18,
+      "ofertas": [
+        {
+          "pagina": "Clubinho da Família",
+          "paginaId": "109302152055510",
+          "adId": "2869912756711971",
+          "keyword": "atividades infantis",
+          "novo": false,
+          "vezesVisto": 2,
+          "score": 0,
+          "anunciosNaPagina": 84,
+          "criativosDaOferta": 58,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 7,
+          "diasRodando": 12,
+          "produto": "Pacote de testes e instrumentos prontos para avaliação psicopedagógica.",
+          "preco": "R$ 19,90–47 (inferido)",
+          "promessa": "Saber qual teste aplicar em cada dificuldade de aprendizagem.",
+          "hook": "Na hora da avaliação psicopedagógica, fica na dúvida sobre quais testes aplicar?",
+          "saturacao": "recorte",
+          "formatoDestino": "pagina",
+          "porqueEscala": [
+            "58 criativos num link só, 69% da página",
+            "Abre pela dúvida exata do profissional na hora da sessão",
+            "Página testa 7 destinos e migrou a verba pra este",
+            "Só 12 dias e já é a oferta dominante"
+          ],
+          "comoModelar": [
+            "Abra pela dúvida que a pessoa tem no momento do trabalho",
+            "Venda o instrumento pronto, não o conhecimento",
+            "Um domínio por oferta: teste barato, escale o vencedor",
+            "'Reunimos num material só' resolve arquivo espalhado"
+          ],
+          "recomendada": false,
+          "linkVenda": "https://clubedeavaliacao.site/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2869912756711971",
+          "ofertaDominante": {
+            "destino": "clubedeavaliacao.site",
+            "criativos": 58
+          },
+          "destinoFinal": "pagina"
+        },
+        {
+          "pagina": "Portal da Pedagogia",
+          "paginaId": "1317235804801190",
+          "adId": "2110675936186298",
+          "keyword": "alfabetização",
+          "novo": false,
+          "vezesVisto": 2,
+          "score": 0,
+          "anunciosNaPagina": 130,
+          "criativosDaOferta": 57,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 3,
+          "diasRodando": 10,
+          "produto": "PLR Pedagógico: +25 mil atividades prontas pra editar e revender, R$ 10.",
+          "preco": "R$ 10",
+          "promessa": "Fazer a primeira venda no digital sem criar produto do zero.",
+          "hook": "+25 MIL MATERIAIS POR APENAS R$10",
+          "saturacao": "recorte",
+          "formatoDestino": "pagina",
+          "porqueEscala": [
+            "57 criativos e 130 anúncios em apenas 10 dias",
+            "Junta dois desejos: renda extra e material pedagógico",
+            "Volume gigante com preço baixo é oferta irrecusável",
+            "Direito de revenda transforma comprador em divulgador"
+          ],
+          "comoModelar": [
+            "Número gigante e preço na mesma manchete",
+            "Venda o atalho: 'sem criar produto do zero'",
+            "Liste os usos em checklist: revender, editar, imprimir",
+            "Direito de revenda como o bônus de maior valor"
+          ],
+          "recomendada": false,
+          "linkVenda": "https://oferta.portaldapedagogia.com.br/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2110675936186298",
+          "ofertaDominante": {
+            "destino": "oferta.portaldapedagogia.com.br",
+            "criativos": 48
+          },
+          "destinoFinal": "pagina"
+        },
+        {
+          "pagina": "Letrar",
+          "paginaId": "1036467156213000",
+          "adId": "1022867977429142",
+          "keyword": "alfabetização",
+          "novo": false,
+          "vezesVisto": 2,
+          "score": 0,
+          "anunciosNaPagina": 62,
+          "criativosDaOferta": 22,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 3,
+          "diasRodando": 5,
+          "produto": "Kit de alfabetização pra imprimir e aplicar em casa.",
+          "preco": "R$ 9,90–19,90 (inferido)",
+          "promessa": "Alfabetizar em casa com atividade já pronta.",
+          "hook": "Clique em Saiba mais",
+          "saturacao": "generico",
+          "formatoDestino": "pagina",
+          "porqueEscala": [
+            "22 criativos com só 5 dias de rodagem",
+            "62 anúncios ativos numa página quase sem curtidas",
+            "Escala por verba, não por audiência acumulada",
+            "Alfabetização é dor de mãe o ano inteiro"
+          ],
+          "comoModelar": [
+            "Kit pra imprimir vende sem área de membros",
+            "Página nova e domínio simples reduzem custo de teste",
+            "Estreite: alfabetizar em casa, sem professora",
+            "Copy quase nula: o vídeo carrega a oferta"
+          ],
+          "recomendada": false,
+          "linkVenda": "http://kit.letrar.com.br/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1022867977429142",
+          "ofertaDominante": {
+            "destino": "kit.letrar.com.br",
+            "criativos": 22
+          },
+          "destinoFinal": "pagina"
+        }
+      ],
+      "descartados": [
+        { "pagina": "Carlos Klein - Personal", "motivo": "nicho black (saúde)" },
+        { "pagina": "Chef Maria", "motivo": "página do próprio usuário" },
+        { "pagina": "CriAtivar Recursos Terapêuticos", "motivo": "dominante vai direto ao checkout" },
+        { "pagina": "Nutri Infantil", "motivo": "funil de aula, não página" },
+        { "pagina": "Stella Soragi", "motivo": "destino Instagram" },
+        { "pagina": "PMMinas - Otávio Souza", "motivo": "concurso público" },
+        { "pagina": "João & Maria Editora", "motivo": "provável livro físico" },
+        { "pagina": "Bebê de Nutri", "motivo": "curso longo, abaixo da régua" },
+        { "pagina": "Sara Fialho - Psicopedagoga", "motivo": "abaixo da régua" }
+      ]
+    },
+    {
+      "id": "cristao",
+      "nome": "Cristão / Espiritualidade",
+      "totalAnuncios": 18,
+      "totalAnunciantes": 18,
+      "ofertas": [
+        {
+          "pagina": "Mapa da Bíblia",
+          "paginaId": "699595763247977",
+          "adId": "1110583404881016",
+          "keyword": "estudo bíblico",
+          "novo": false,
+          "vezesVisto": 2,
+          "score": 0,
+          "anunciosNaPagina": 70,
+          "criativosDaOferta": 40,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 2,
+          "diasRodando": 39,
+          "produto": "Mapa da Bíblia: resumo visual de cada um dos 73 livros da Bíblia católica.",
+          "preco": "R$ 19,90–37 (inferido)",
+          "promessa": "Entender todos os livros da Bíblia com resumo visual.",
+          "hook": "Você sabe o que aconteceu depois que Jesus subiu ao Céu?",
+          "saturacao": "recorte",
+          "formatoDestino": "pagina",
+          "porqueEscala": [
+            "40 criativos nessa oferta, 70 anúncios na página",
+            "Abre com a pergunta literal que o público já faz",
+            "'Resumo visual' é mecanismo que se entende na hora",
+            "Prova social: mais de 35 mil católicos dentro"
+          ],
+          "comoModelar": [
+            "Use a pergunta exata que o público já faz",
+            "Transforme conteúdo longo em resumo visual contável",
+            "'Pra vida toda' substitui garantia e justifica preço",
+            "Comentário no post como segundo caminho de conversão"
+          ],
+          "recomendada": false,
+          "linkVenda": "http://www.mapadocatolico.com.br/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1110583404881016",
+          "ofertaDominante": {
+            "destino": "mapadocatolico.com.br",
+            "criativos": 40
+          },
+          "destinoFinal": "pagina"
+        },
+        {
+          "pagina": "Evangelizando com Padre Reginaldo",
+          "paginaId": "1131675386691191",
+          "adId": "1081681557598045",
+          "keyword": "devocional",
+          "novo": false,
+          "vezesVisto": 2,
+          "score": 0,
+          "anunciosNaPagina": 86,
+          "criativosDaOferta": 40,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 4,
+          "diasRodando": 35,
+          "produto": "150 roteiros prontos de Adoração ao Santíssimo: reflexões, orações e leituras.",
+          "preco": "R$ 9,90–19,90 (inferido)",
+          "promessa": "Conduzir uma adoração sem passar horas preparando.",
+          "hook": "Conduzir uma Adoração ao Santíssimo não precisa ser difícil ou demorado.",
+          "saturacao": "recorte",
+          "formatoDestino": "pagina",
+          "porqueEscala": [
+            "40 criativos nessa oferta, virou a dominante da página",
+            "Vende pra quem tem a tarefa, não pra quem tem a fé",
+            "150 roteiros prontos: número e coisa, nada abstrato",
+            "Tira trabalho semanal de quem conduz o grupo"
+          ],
+          "comoModelar": [
+            "Venda pra quem tem a tarefa recorrente, não pro público amplo",
+            "Roteiro pronto elimina a preparação, que é a dor real",
+            "Número no nome: 150 roteiros, não 'coletânea'",
+            "Uma oferta por ocasião: adoração, terço, novena"
+          ],
+          "recomendada": false,
+          "linkVenda": "https://esbocosbiblicos.com/roteiros/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1081681557598045",
+          "ofertaDominante": {
+            "destino": "esbocosbiblicos.com/roteiros",
+            "criativos": 40
+          },
+          "destinoFinal": "pagina"
+        }
+      ],
+      "descartados": [
+        { "pagina": "Pastor Daniel Díaz", "motivo": "mercado espanhol" },
+        { "pagina": "Academia de Pregadores", "motivo": "destino Instagram" },
+        { "pagina": "El Mateus Eleuterio", "motivo": "mercado espanhol" },
+        { "pagina": "Destra For The Nations", "motivo": "funil high-ticket" },
+        { "pagina": "Instituto La Palabra", "motivo": "mercado espanhol" },
+        { "pagina": "João Claudio Rufino", "motivo": "abaixo da régua" },
+        { "pagina": "O VERSO DA VIDA", "motivo": "produto físico" },
+        { "pagina": "Pastor Saulo Daniel", "motivo": "funil de lançamento gratuito" },
+        { "pagina": "Ivna Karla", "motivo": "abaixo da régua" },
+        { "pagina": "Bíblia Online de Estudo", "motivo": "abaixo da régua" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#EF9F27">
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<title>Caixinha de Canela — uma fornada, seis sabores, seis caixinhas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://media.atomicatmedia.net">
+<link rel="preload" as="image" href="{{IMG:hero:1}}" fetchpriority="high">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Playfair+Display:wght@700;800;900&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet"></noscript>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:17px}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:#FAEEDA;color:#3D2B1F;overflow-x:hidden;max-width:460px;margin:0 auto;-webkit-font-smoothing:antialiased}
+:root{
+  --creme:#FAEEDA;--creme-dark:#F0DDB8;--marrom:#3D2B1F;--marrom-light:#6B4F3A;
+  --laranja:#EF9F27;--laranja-dark:#BA7517;--laranja-mid:#FAC775;--laranja-soft:#FEF3DC;
+  --verde:#3B6D11;--verde-light:#27500A;--preto:#1E1208;
+  --branco:#FFFFFF;--cinza:#6B7280;--amarelo:#EF9F27;
+  --r-sm:10px;--r-md:16px;--r-lg:24px;--r-xl:32px;
+  --sh-sm:0 2px 12px rgba(61,43,31,0.08);--sh-md:0 6px 28px rgba(61,43,31,0.13);
+  --gap:24px;--px:22px;--py:48px;
+}
+@font-face{font-family:'Plus Jakarta Sans';font-display:swap}
+@font-face{font-family:'Playfair Display';font-display:swap}
+.progress-bar{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--laranja),var(--verde));width:0%;z-index:9999;transition:width .1s linear;border-radius:0 2px 2px 0}
+.urgencia-bar{background:var(--laranja);color:var(--marrom);text-align:center;padding:10px var(--px);font-size:13px;font-weight:800;letter-spacing:1px;text-transform:uppercase;display:flex;align-items:center;justify-content:center;gap:8px}
+.urgencia-dot{width:6px;height:6px;background:rgba(61,43,31,.5);border-radius:50%;flex-shrink:0;animation:pulse 1.6s ease-in-out infinite}
+.hero{background:var(--creme);padding:32px var(--px) 8px;text-align:center}
+.hero h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(26px,7.5vw,34px);font-weight:900;color:var(--marrom);line-height:1.18;margin-bottom:20px;letter-spacing:-.5px}
+.hero h1 em{font-style:normal;color:var(--laranja-dark)}
+.pills{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:28px}
+.pill{background:linear-gradient(150deg,#3f7813 0%,var(--verde) 100%);color:#fff;border-radius:16px;padding:13px 12px;font-size:13px;font-weight:700;display:flex;align-items:center;gap:10px;line-height:1.3;text-align:left;box-shadow:0 4px 14px rgba(59,109,17,.30),inset 0 1px 0 rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.1)}
+.pill-icon{font-size:18px;flex-shrink:0;width:34px;height:34px;background:rgba(255,255,255,.15);border-radius:9px;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(4px)}
+.hero-img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:var(--r-lg);margin-bottom:28px;display:block;background:var(--creme-dark)}
+.ps-wrap img{aspect-ratio:3/2;object-fit:contain}
+.hero-sub{font-size:15.5px;line-height:1.75;color:var(--marrom-light);margin-bottom:16px}
+.hero-sub strong{color:var(--marrom);font-weight:800}
+.ps-wrap{border-radius:var(--r-lg);padding:4px 18px;display:flex;flex-direction:column;align-items:center;gap:2px;margin-bottom:8px}
+.ps-num{font-size:28px;font-weight:900;color:var(--laranja-dark);letter-spacing:-1px;line-height:1.1}
+.ps-desc{font-size:15px;color:var(--marrom);font-weight:600;line-height:1.4;text-align:center}
+.ps-stars{color:var(--amarelo);font-size:17px;letter-spacing:3px}
+.btn{display:block;width:100%;background:linear-gradient(160deg,#4a8a18 0%,var(--verde) 100%);color:#fff;font-family:'Plus Jakarta Sans',sans-serif;font-size:16.5px;font-weight:800;padding:19px 16px;border-radius:16px;border:none;cursor:pointer;text-decoration:none;text-align:center;letter-spacing:.5px;text-transform:uppercase;transition:transform .15s,box-shadow .15s,filter .15s;box-shadow:0 6px 24px rgba(59,109,17,.38),inset 0 1px 0 rgba(255,255,255,.18);position:relative;overflow:hidden}
+.btn::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,255,255,.14) 0%,transparent 55%);pointer-events:none}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.07);box-shadow:0 10px 32px rgba(59,109,17,.45)}
+.btn:active{transform:translateY(0)}
+.btn-laranja{background:var(--laranja);color:var(--marrom);box-shadow:0 4px 20px rgba(239,159,39,.42)}
+.btn-shimmer{position:relative;overflow:hidden}
+.btn-shimmer::before{content:'';position:absolute;top:0;left:-100%;width:60%;height:100%;background:linear-gradient(105deg,transparent 20%,rgba(255,255,255,.25) 50%,transparent 80%);animation:shimmer 2.4s ease-in-out infinite;z-index:1}
+.demo{background:var(--marrom);padding:52px 0;text-align:center}
+.demo-inner{padding:0 var(--px) 32px}
+.demo h2{font-family:'Playfair Display',Georgia,serif;font-size:25px;font-weight:900;color:#fff;line-height:1.22;margin-bottom:8px;letter-spacing:-.4px}
+.demo-sub{font-size:15.5px;color:rgba(255,255,255,.5);margin-bottom:28px;font-style:italic}
+.carousel-wrapper{width:100%;overflow:hidden;line-height:0;font-size:0;margin-bottom:32px}
+.carousel-track{display:flex;gap:10px;width:max-content;animation:scrollCarousel 18s linear infinite;animation-play-state:paused;will-change:transform;transform:translateZ(0)}
+.carousel-item{flex:0 0 68vw;max-width:280px;border-radius:var(--r-lg);overflow:hidden;background:var(--creme-dark);display:flex;align-items:center;justify-content:center;color:var(--marrom-light);font-size:12px;box-shadow:0 4px 20px rgba(0,0,0,.22)}
+.carousel-item img{width:100%;height:auto;object-fit:contain;display:block}
+.demo-cta{padding:0 var(--px)}
+.ideal{background:var(--creme);padding:52px var(--px) 44px}
+.ideal-titulo{font-size:17px;font-weight:800;color:var(--marrom);text-align:center;margin-bottom:36px;letter-spacing:1.5px;text-transform:uppercase;opacity:.65}
+.ideal-card-wrap{position:relative;margin-bottom:40px;padding-top:46px}
+.card-icon-emoji{position:absolute;top:0;left:50%;transform:translateX(-50%);width:78px;height:78px;border-radius:50%;z-index:2;overflow:hidden;background:#fff;display:flex;align-items:center;justify-content:center;outline:4px solid rgba(255,255,255,.85);outline-offset:3px;box-shadow:0 8px 24px rgba(239,159,39,.28)}
+.card-icon-emoji img{width:80%;height:80%;object-fit:contain;display:block}
+.ideal-card{background:var(--laranja);border-radius:28px;padding:54px 26px 30px;text-align:center;box-shadow:0 10px 32px rgba(239,159,39,.22),inset 0 1px 0 rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.12);transition:transform .3s ease,box-shadow .3s ease}
+.ideal-card h3{font-family:'Playfair Display',Georgia,serif;font-size:19px;font-weight:800;color:#fff;line-height:1.28;margin-bottom:10px}
+.ideal-card p{font-size:14.5px;color:rgba(255,255,255,.92);line-height:1.75}
+.ideal-card-wrap:hover .ideal-card{transform:translateY(-5px);box-shadow:0 16px 44px rgba(239,159,39,.38)}
+.ideal-cta{margin-top:40px}
+.produto{background:var(--marrom);padding:52px var(--px);text-align:center}
+.produto-eyebrow{font-size:17px;font-weight:800;color:rgba(255,255,255,.7);text-transform:uppercase;letter-spacing:2px;margin-bottom:22px;text-align:center}
+.produto-inner{background:var(--creme);border-radius:28px;padding:26px 22px 30px;border:1.5px solid var(--creme-dark);box-shadow:0 12px 44px rgba(0,0,0,.14),0 2px 8px rgba(0,0,0,.06)}
+.produto-nome{font-family:'Playfair Display',Georgia,serif;font-size:28px;font-weight:900;color:var(--marrom);margin-bottom:4px;letter-spacing:-.5px;text-align:center}
+.produto-sub{font-size:14px;color:var(--marrom-light);text-align:center;margin-bottom:4px;font-style:italic}
+.produto-divider{height:1px;background:linear-gradient(90deg,transparent,var(--creme-dark),transparent);margin:18px 0}
+.checklist{list-style:none;text-align:left}
+.checklist li{display:flex;align-items:flex-start;gap:13px;font-size:15.5px;color:var(--marrom);padding:11px 8px;border-bottom:1px solid var(--creme-dark);line-height:1.5;font-weight:500;border-radius:8px;transition:background .18s ease}
+.checklist li:hover{background:rgba(61,43,31,.035)}
+.checklist li:last-child{border-bottom:none}
+.check-ico{width:24px;height:24px;background:var(--verde);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;box-shadow:0 2px 8px rgba(59,109,17,.28);position:relative;overflow:hidden}
+.check-ico svg{width:13px;height:13px;stroke:#fff;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;fill:none;display:block}
+.check-ico svg polyline{stroke-dasharray:18;stroke-dashoffset:18}
+.checklist.animated .check-ico svg polyline{animation:drawCheck .4s cubic-bezier(.22,1,.36,1) forwards}
+.checklist.animated li:nth-child(1) .check-ico svg polyline{animation-delay:.00s}
+.checklist.animated li:nth-child(2) .check-ico svg polyline{animation-delay:.07s}
+.checklist.animated li:nth-child(3) .check-ico svg polyline{animation-delay:.14s}
+.checklist.animated li:nth-child(4) .check-ico svg polyline{animation-delay:.21s}
+.checklist.animated li:nth-child(5) .check-ico svg polyline{animation-delay:.28s}
+.checklist.animated li:nth-child(6) .check-ico svg polyline{animation-delay:.35s}
+.checklist.animated li:nth-child(7) .check-ico svg polyline{animation-delay:.42s}
+.checklist.animated li:nth-child(8) .check-ico svg polyline{animation-delay:.49s}
+.checklist.animated li:nth-child(9) .check-ico svg polyline{animation-delay:.56s}
+.checklist.animated li:nth-child(10) .check-ico svg polyline{animation-delay:.63s}
+.checklist.animated li:nth-child(11) .check-ico svg polyline{animation-delay:.70s}
+.checklist.animated li:nth-child(12) .check-ico svg polyline{animation-delay:.77s}
+.checklist.animated li:nth-child(13) .check-ico svg polyline{animation-delay:.84s}
+.checklist.animated li:nth-child(14) .check-ico svg polyline{animation-delay:.91s}
+.checklist.animated li:nth-child(15) .check-ico svg polyline{animation-delay:.98s}
+.bonus-bridge{background:var(--marrom);text-align:center;padding:44px var(--px);border-top:1px solid rgba(255,255,255,.07)}
+.bridge-eyebrow{font-size:13px;color:rgba(255,255,255,.38);letter-spacing:2px;text-transform:uppercase;margin-bottom:8px}
+.bridge-sub{font-size:16px;color:rgba(255,255,255,.6);margin-bottom:8px;font-style:italic}
+.bridge-titulo{font-family:'Playfair Display',Georgia,serif;font-size:46px;font-weight:900;color:#fff;letter-spacing:-1px;line-height:1.05}
+.bonuses{background:var(--marrom);padding:0 var(--px) 52px}
+.bonus-card{background:var(--creme);border-radius:28px;overflow:hidden;margin-bottom:24px;box-shadow:0 10px 32px rgba(0,0,0,.18),0 2px 6px rgba(0,0,0,.06);transition:transform .25s ease,box-shadow .25s ease}
+.bonus-card:hover{transform:translateY(-5px) scale(1.01);box-shadow:0 18px 44px rgba(0,0,0,.24)}
+.bonus-img-area{background:linear-gradient(160deg,#fff 0%,var(--creme) 100%);width:100%;display:block;overflow:hidden;max-height:270px;padding-top:16px}
+.bonus-img-area img{width:100%;height:250px;display:block;object-fit:contain;object-position:center}
+.bonus-body{padding:22px 22px 26px;text-align:center}
+.bonus-num-tag{display:block;width:100%;background:var(--laranja);color:var(--marrom);font-size:14px;font-weight:800;padding:8px 16px;border-radius:100px;margin-bottom:14px;letter-spacing:.8px;text-transform:uppercase}
+.bonus-body h3{font-size:17px;font-weight:800;color:var(--marrom);line-height:1.3;margin-bottom:10px;letter-spacing:-.2px}
+.bonus-divider{height:1px;background:linear-gradient(90deg,transparent,var(--creme-dark),transparent);margin-bottom:12px}
+.bonus-body p{font-size:15px;color:var(--marrom-light);line-height:1.75}
+.depoimentos{background:var(--creme);padding:52px var(--px) 44px;text-align:center}
+.depoimentos h2{font-family:'Playfair Display',Georgia,serif;font-size:22px;font-weight:900;color:var(--marrom);line-height:1.32;margin-bottom:32px;letter-spacing:-.4px}
+.depoimentos h2 span{color:var(--laranja-dark)}
+.depo-carousel-wrapper{width:100%;overflow:hidden;line-height:0;font-size:0;margin-bottom:8px}
+.depo-carousel-track{display:flex;gap:12px;width:max-content;animation:scrollDepo 30s linear infinite;animation-play-state:paused;will-change:transform;transform:translateZ(0)}
+.depo-carousel-item{flex:0 0 78vw;max-width:320px;border-radius:var(--r-md);overflow:hidden;box-shadow:var(--sh-md)}
+.depo-carousel-item img{width:100%;aspect-ratio:1/1;object-fit:contain;display:block;background:var(--branco)}
+.planos-bridge{background:var(--creme);text-align:center;padding:12px var(--px) 40px;border-top:1px solid var(--creme-dark)}
+.planos-bridge p{font-family:'Playfair Display',Georgia,serif;font-size:22px;font-weight:700;color:var(--marrom);margin-bottom:12px;line-height:1.4}
+.arrow-bounce{display:inline-block;font-size:36px;color:var(--laranja);animation:arrowBounce 1.3s ease-in-out infinite}
+.planos{background:var(--creme);padding:0 var(--px) 56px}
+.plano-card{background:var(--branco);border-radius:28px;overflow:hidden;margin-bottom:24px;border:1.5px solid var(--creme-dark);box-shadow:0 8px 32px rgba(61,43,31,.10),0 2px 6px rgba(0,0,0,.05)}
+.plano-header{background:var(--marrom);color:#fff;font-size:16px;font-weight:800;text-align:center;padding:16px var(--px);text-transform:uppercase;letter-spacing:2.5px}
+.plano-body{padding:24px 22px}
+.plano-sub{font-size:13px;font-weight:800;color:var(--cinza);margin-bottom:16px;text-transform:uppercase;letter-spacing:1.2px}
+.preco-stack{margin:24px 0 20px;text-align:center;padding:20px 16px}
+.preco-de{font-size:13.5px;color:#C53030;text-decoration:line-through;margin-bottom:4px;font-weight:600}
+.preco-hoje-label{font-size:13px;color:var(--cinza);font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px}
+.preco-valor{display:flex;align-items:baseline;justify-content:center;gap:3px;color:var(--marrom);line-height:1}
+.preco-moeda{font-size:22px;font-weight:800}
+.preco-num{font-size:60px;font-weight:900;letter-spacing:-.045em}
+.preco-cent{font-size:22px;font-weight:800}
+.selos{background:transparent;border:none;padding:0;margin-top:16px;display:flex;flex-direction:column;gap:8px}
+.selo-item{font-size:13.5px;color:var(--marrom);font-weight:700;display:flex;align-items:center;gap:10px;line-height:1.4}
+.alerta-up{background:transparent;border:none;padding:18px 0 0;margin-top:4px;font-size:14.5px;font-weight:700;color:var(--laranja-dark);text-align:center;line-height:1.65}
+.vitali-txt{font-size:13px;font-weight:700;color:var(--verde);text-align:center;margin:14px 0 0;display:flex;align-items:center;justify-content:center;gap:6px}
+.upgrade-callout{border:none;padding:16px 18px;margin:20px 0;font-size:15px;font-weight:700;color:var(--laranja-dark);text-align:center;line-height:1.6}
+.plano-recomendado-wrap{position:relative;padding-top:28px;margin-bottom:0}
+.plano-rec-badge{position:absolute;top:0;left:50%;transform:translateX(-50%);background:#F5C518;color:var(--marrom);font-size:14px;font-weight:800;padding:9px 26px;border-radius:100px;white-space:nowrap;z-index:3;box-shadow:0 4px 16px rgba(59,109,17,.35);letter-spacing:.3px;animation:badgeFloat 2.2s ease-in-out infinite}
+.plano-rec-card{position:relative;z-index:1;background:var(--branco);border-radius:28px;overflow:hidden;border:2.5px solid var(--laranja);box-shadow:0 10px 44px rgba(239,159,39,.25)}
+.plano-recomendado-wrap::after{content:'';position:absolute;inset:28px -2px -2px -2px;border-radius:30px;box-shadow:0 10px 54px rgba(239,159,39,.5);opacity:0;pointer-events:none;animation:recGlow 3.2s ease-in-out infinite}
+.plano-rec-titulo{background:var(--laranja);color:var(--marrom);font-family:'Playfair Display',Georgia,serif;font-size:30px;font-weight:900;text-align:center;padding:32px var(--px) 22px;letter-spacing:-.5px;line-height:1.1}
+.urgencia-final{font-size:13px;font-weight:800;color:var(--laranja-dark);text-align:center;margin-top:20px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.5px;line-height:1.8}
+.btn-pulse{box-shadow:0 6px 26px rgba(59,109,17,.42);animation:btnPulse 2.8s ease-in-out infinite}
+.garantia{background:#1A9940;padding:48px var(--px);text-align:center}
+.garantia-card{background:transparent;padding:0}
+.autoridade{background:var(--creme);padding:52px var(--px)}
+.autoridade-inner{background:var(--branco);border-radius:28px;overflow:hidden;box-shadow:0 12px 44px rgba(61,43,31,.14),0 2px 8px rgba(0,0,0,.05);border:1.5px solid var(--creme-dark)}
+.autoridade-inner>img{width:100%;height:auto;object-fit:contain;object-position:top center;display:block;background:var(--branco)}
+.autoridade-text{padding:26px 24px 28px;text-align:center}
+.autoridade-eyebrow{font-size:13px;color:var(--marrom-light);font-weight:700;letter-spacing:1.2px;text-transform:uppercase;line-height:1.5;margin-bottom:8px}
+.autoridade-nome{font-family:'Playfair Display',Georgia,serif;font-size:32px;font-weight:900;color:var(--laranja-dark);font-style:italic;letter-spacing:-.5px;margin-bottom:16px}
+.autoridade-bio{font-size:15.5px;color:#5A4A3A;line-height:1.82;text-align:left;margin-bottom:14px}
+.autoridade-fecho{font-size:15px;color:var(--laranja-dark);font-weight:700;font-style:italic;line-height:1.65;text-align:left;border-top:1px solid var(--creme-dark);padding-top:14px;margin-top:4px}
+.faq{background:var(--creme);padding:0 var(--px) 56px;border-top:1px solid var(--creme-dark)}
+.faq h2{font-family:'Playfair Display',Georgia,serif;font-size:28px;font-weight:900;color:var(--marrom);margin-bottom:28px;letter-spacing:-.5px;text-align:center;padding-top:52px}
+.faq-item{background:var(--branco);border-radius:16px;margin-bottom:10px;overflow:hidden;box-shadow:var(--sh-sm);border:1px solid var(--creme-dark);transition:transform .2s ease,box-shadow .2s ease}
+.faq-item:hover{transform:translateX(4px);box-shadow:0 4px 18px rgba(61,43,31,.12)}
+.faq-question{width:100%;background:none;border:none;text-align:left;padding:17px 18px;font-family:'Plus Jakarta Sans',sans-serif;font-size:15.5px;font-weight:700;color:var(--marrom);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;line-height:1.45}
+.faq-arrow{width:28px;height:28px;background:var(--creme);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:11px;color:var(--laranja-dark);transition:transform .25s,background .2s}
+.faq-item.open .faq-arrow{transform:rotate(180deg);background:var(--laranja);color:var(--marrom)}
+.faq-answer{max-height:0;overflow:hidden;font-size:15px;color:var(--marrom-light);line-height:1.78;padding:0 18px;border-top:0px solid var(--creme-dark);transition:max-height .35s cubic-bezier(.22,1,.36,1),padding .3s ease,border-top-width .3s ease}
+.faq-item.open .faq-answer{max-height:400px;padding:12px 18px 18px;border-top:1px solid var(--creme-dark)}
+.faq-cta{margin-top:36px}
+footer{background:var(--preto);color:rgba(255,255,255,.32);font-size:13px;text-align:center;padding:30px var(--px);line-height:2}
+footer strong{color:rgba(255,255,255,.55)}
+@keyframes shimmer{0%{left:-100%}100%{left:160%}}
+@keyframes btnPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.015)}}
+@keyframes recGlow{0%,100%{opacity:.85}50%{opacity:1}}
+@keyframes badgeFloat{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(-5px)}}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(1.4)}}
+@keyframes arrowBounce{0%,100%{transform:translateY(0)}50%{transform:translateY(8px)}}
+@keyframes scrollCarousel{from{transform:translateX(0)}to{transform:translateX(calc(-1 * var(--scroll-distance,50%)))}}
+@keyframes scrollDepo{from{transform:translateX(0)}to{transform:translateX(calc(-1 * var(--depo-scroll-distance,50%)))}}
+@keyframes drawCheck{to{stroke-dashoffset:0}}
+</style>
+</head>
+<body>
+<div class="progress-bar" id="progressBar"></div>
+<div class="urgencia-bar">
+  <span class="urgencia-dot"></span>
+  <span id="urgencia-txt">🔥 Oferta especial disponível somente hoje</span>
+  <span class="urgencia-dot"></span>
+</div>
+<script>
+(function(){
+  const t=new Date();
+  const d=String(t.getDate()).padStart(2,'0');
+  const m=String(t.getMonth()+1).padStart(2,'0');
+  const a=t.getFullYear();
+  document.getElementById('urgencia-txt').textContent='🔥 Oferta especial disponível somente hoje '+d+'/'+m+'/'+a;
+})();
+</script>
+
+<!-- BLOCO 3 — HERO -->
+<section class="hero">
+  <h1><em>Uma massa só</em>, 24 rolinhos de canela e <em>6 caixinhas prontas pra vender</em>.</h1>
+  <div class="pills">
+    <div class="pill"><span class="pill-icon">🥐</span><span>Uma massa, seis sabores</span></div>
+    <div class="pill"><span class="pill-icon">🏷️</span><span>Preço já calculado</span></div>
+    <div class="pill"><span class="pill-icon">📦</span><span>Chega inteira na cliente</span></div>
+    <div class="pill"><span class="pill-icon">🔥</span><span>Forno de casa serve</span></div>
+  </div>
+  <img class="hero-img" src="{{IMG:hero:1}}" alt="Caixinha de Canela com quatro rolinhos de sabores diferentes" loading="eager" decoding="async" fetchpriority="high">
+  <p class="hero-sub">Uma fornada de sábado de manhã, <strong>seis sabores saindo da mesma massa</strong>. Rolinho alto, cobertura escorrendo pela lateral, daqueles que <strong>a cliente fotografa antes de comer</strong>.</p>
+  <div class="ps-wrap">
+    <div class="ps-num">R$ 32,90</div>
+    <div class="ps-desc">é o que uma padaria artesanal cobra hoje por uma caixinha de 4 unidades.<br>A mesma que você vai montar na sua cozinha.</div>
+  </div>
+</section>
+
+<div aria-hidden="true"><svg viewBox="0 0 460 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;margin-bottom:-2px"><path d="M0,0 C80,40 180,40 230,20 C280,0 380,0 460,30 L460,0 Z" fill="#FAEEDA"/><rect x="0" y="30" width="460" height="10" fill="#3D2B1F"/></svg></div>
+
+<!-- BLOCO 4 — DEMO -->
+<section class="demo">
+  <div class="demo-inner">
+    <h2>Tudo o que você precisa pra montar a primeira caixinha ainda neste fim de semana.</h2>
+    <p class="demo-sub">Da massa na tigela até a caixinha fechada com o preço na etiqueta. Fácil de seguir, mesmo que você nunca tenha feito massa que cresce na vida.</p>
+  </div>
+  <div class="carousel-wrapper">
+    <div class="carousel-track" id="carouselTrack">
+      <div class="carousel-item"><img src="{{IMG:demo:1}}" alt="{{ALT:demo:1}}" loading="lazy" decoding="async"></div>
+      <div class="carousel-item"><img src="{{IMG:demo:2}}" alt="{{ALT:demo:2}}" loading="lazy" decoding="async"></div>
+      <div class="carousel-item"><img src="{{IMG:demo:3}}" alt="{{ALT:demo:3}}" loading="lazy" decoding="async"></div>
+      <div class="carousel-item"><img src="{{IMG:demo:4}}" alt="{{ALT:demo:4}}" loading="lazy" decoding="async"></div>
+      <div class="carousel-item"><img src="{{IMG:demo:5}}" alt="{{ALT:demo:5}}" loading="lazy" decoding="async"></div>
+      <div class="carousel-item"><img src="{{IMG:demo:6}}" alt="{{ALT:demo:6}}" loading="lazy" decoding="async"></div>
+    </div>
+  </div>
+  <div class="demo-cta"><a href="#plano-basico" class="btn btn-shimmer">Quero minha Caixinha de Canela</a></div>
+</section>
+
+<div aria-hidden="true"><svg viewBox="0 0 460 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;margin-top:-2px"><path d="M0,30 C80,0 180,0 230,20 C280,40 380,40 460,10 L460,40 L0,40 Z" fill="#FAEEDA"/><rect x="0" y="0" width="460" height="10" fill="#3D2B1F"/></svg></div>
+
+<!-- BLOCO 5 — IDEAL PARA VOCÊ QUE DESEJA -->
+<section class="ideal">
+  <h2 class="ideal-titulo">A Caixinha de Canela é pra você se</h2>
+
+  <div class="ideal-card-wrap">
+    <div class="card-icon-emoji"><span style="font-size:38px;line-height:1">🧾</span></div>
+    <div class="ideal-card"><h3>Você já vende alguma coisa, mas sente que trabalha de graça</h3><p>Faz bolo, faz docinho, todo mundo elogia, e no fim do mês a conta não fecha. O problema não é a sua mão. É o preço e o produto.</p></div>
+  </div>
+
+  <div class="ideal-card-wrap">
+    <div class="card-icon-emoji"><span style="font-size:38px;line-height:1">📍</span></div>
+    <div class="ideal-card"><h3>Você quer um produto que ninguém do seu bairro faz ainda</h3><p>Bolo de pote e brownie todo mundo vende, e o preço já é briga de centavo. Rolinho de canela com seis sabores ainda está aberto na maioria das cidades.</p></div>
+  </div>
+
+  <div class="ideal-card-wrap">
+    <div class="card-icon-emoji"><span style="font-size:38px;line-height:1">💬</span></div>
+    <div class="ideal-card"><h3>Você cozinha bem pra família e nunca cobrou de ninguém</h3><p>Nunca vendeu nada na vida e tem vergonha de começar. O roteiro da primeira venda diz exatamente quem chamar e o que escrever, na ordem.</p></div>
+  </div>
+
+  <div class="ideal-card-wrap">
+    <div class="card-icon-emoji"><span style="font-size:38px;line-height:1">🏠</span></div>
+    <div class="ideal-card"><h3>Você não quer abrir empresa nem comprar equipamento</h3><p>Sem CNPJ, sem batedeira planetária, sem forno industrial. Forno de casa, forma comum e ingrediente do mercado do bairro.</p></div>
+  </div>
+
+  <div class="ideal-card-wrap">
+    <div class="card-icon-emoji"><span style="font-size:38px;line-height:1">⏰</span></div>
+    <div class="ideal-card"><h3>Você tem pouco tempo e precisa concentrar tudo num dia</h3><p>Uma fornada no sábado de manhã rende as caixinhas do fim de semana inteiro. Dá pra encaixar em quem trabalha fora e tem filho.</p></div>
+  </div>
+
+  <div class="ideal-cta"><a href="#plano-basico" class="btn btn-shimmer">Quero minha Caixinha de Canela</a></div>
+</section>
+
+<div aria-hidden="true"><svg viewBox="0 0 460 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;margin-bottom:-2px"><path d="M0,10 C100,40 200,40 300,15 C380,0 430,0 460,20 L460,0 L0,0 Z" fill="#FAEEDA"/><path d="M0,40 L460,40 L460,20 C430,0 380,0 300,15 C200,40 100,40 0,10 Z" fill="#3D2B1F"/></svg></div>
+
+<!-- BLOCO 6 — PRODUTO PRINCIPAL -->
+<section class="produto">
+  <p class="produto-eyebrow">VOCÊ VAI RECEBER ACESSO IMEDIATO A:</p>
+  <div class="produto-inner">
+    <img src="{{IMG:mockup-principal:1}}" alt="Caixinha de Canela" loading="lazy" decoding="async" style="width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border-radius:var(--r-md);margin:0 auto 20px;background:var(--creme-dark);">
+    <p class="produto-nome">Caixinha de Canela</p>
+    <p class="produto-sub">uma fornada, seis sabores, seis caixinhas</p>
+    <div class="produto-divider"></div>
+    <ul class="checklist animated">
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>A massa base, passo a passo fotografado, com o ponto certo explicado</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Canela clássica, a receita que todo mundo reconhece</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Doce de leite, o sabor que vende mais rápido</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Cream cheese, a cobertura de cafeteria</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Chocolate, o coringa pra encomenda de criança</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Red velvet, o que ninguém do seu bairro faz</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Goiabada com queijo, o brasileiro que vende no interior</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>A folha de preço da fornada, com custo da forma cheia e preço da caixinha</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Como montar e fechar a caixinha de 4 sabores</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>O roteiro da primeira venda, com as 10 pessoas pra chamar e a ordem de chamar</li>
+    </ul>
+  </div>
+</section>
+
+<!-- BLOCO 7 — BRIDGE DOS BÔNUS -->
+<div class="bonus-bridge">
+  <p class="bridge-eyebrow">E ISSO NÃO É TUDO</p>
+  <p class="bridge-sub">você ainda recebe…</p>
+  <h3 class="bridge-titulo">4 BÔNUS<br>EXCLUSIVOS</h3>
+</div>
+
+<!-- BLOCO 8 — BÔNUS -->
+<section class="bonuses">
+  <div class="bonus-card"><div class="bonus-img-area"><img src="{{IMG:bonus:1}}" alt="As 30 Mensagens Prontas" loading="lazy" decoding="async"></div><div class="bonus-body"><span class="bonus-num-tag">🔥 BÔNUS 1</span><h3>As 30 Mensagens Prontas</h3><div class="bonus-divider"></div><p>30 mensagens escritas pra você copiar e colar no WhatsApp, no status e no grupo do condomínio. Tem a de abrir encomenda, a de avisar que saiu a fornada, a de responder quem pergunta o preço e a de cobrar sem constranger. Serve pra quem trava na hora de oferecer.</p></div></div>
+
+  <div class="bonus-card"><div class="bonus-img-area"><img src="{{IMG:bonus:2}}" alt="Chega Inteira" loading="lazy" decoding="async"></div><div class="bonus-body"><span class="bonus-num-tag">🔥 BÔNUS 2</span><h3>Chega Inteira</h3><div class="bonus-divider"></div><p>O jeito de embalar e de transportar a caixinha pra cobertura não esparramar no caminho. Que caixa usar, como forrar, como acomodar no carro e no ônibus. Cliente que recebe doce bonito manda foto e chama as amigas.</p></div></div>
+
+  <div class="bonus-card"><div class="bonus-img-area"><img src="{{IMG:bonus:3}}" alt="Rótulo pra Imprimir" loading="lazy" decoding="async"></div><div class="bonus-body"><span class="bonus-num-tag">🔥 BÔNUS 3</span><h3>Rótulo pra Imprimir</h3><div class="bonus-divider"></div><p>A etiqueta da caixinha, com espaço pro seu nome e pro seu WhatsApp. É o que faz a caixa parecer de loja em vez de caseira, e é o que faz a cliente saber pra quem pedir de novo. Imprime em folha comum.</p></div></div>
+
+  <div class="bonus-card"><div class="bonus-img-area"><img src="{{IMG:bonus:4}}" alt="Forno de Fogão Comum" loading="lazy" decoding="async"></div><div class="bonus-body"><span class="bonus-num-tag">🔥 BÔNUS 4</span><h3>Forno de Fogão Comum</h3><div class="bonus-divider"></div><p>Os ajustes pra quem não tem forno bom: altura da grade, tempo, como saber que assou sem abrir a porta e o que fazer quando queima embaixo e fica cru em cima. Feito pro forno que você já tem em casa.</p></div></div>
+</section>
+
+<div aria-hidden="true"><svg viewBox="0 0 460 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;margin-top:-2px"><path d="M0,0 L460,0 L460,15 C350,40 250,40 150,20 C80,5 30,5 0,25 Z" fill="#3D2B1F"/><path d="M0,25 C30,5 80,5 150,20 C250,40 350,40 460,15 L460,40 L0,40 Z" fill="#FAEEDA"/></svg></div>
+
+<!-- BLOCO 9 — VALIDAÇÃO DE MERCADO (ocupa a posição do bloco de depoimentos) -->
+<section class="depoimentos">
+  <h2>Não é palpite. O rolinho de canela virou <span>vitrine de padaria</span> no Brasil inteiro.</h2>
+  <p style="font-size:15.5px;color:var(--marrom-light);line-height:1.75;margin-bottom:28px;">Antes de decidir, olhe o que o mercado já está fazendo com esse doce e por quanto ele está sendo vendido hoje.</p>
+
+  <div style="display:flex;flex-direction:column;gap:14px;text-align:left;">
+    <div style="background:var(--branco);border:1.5px solid var(--creme-dark);border-radius:20px;padding:20px 20px 18px;box-shadow:var(--sh-sm);">
+      <p style="font-size:30px;font-weight:900;color:var(--laranja-dark);letter-spacing:-1px;line-height:1.1;margin-bottom:6px;">R$ 32,90</p>
+      <p style="font-size:16px;font-weight:800;color:var(--marrom);line-height:1.35;margin-bottom:6px;">A caixinha de 4 unidades já sai por esse preço</p>
+      <p style="font-size:14.5px;color:var(--marrom-light);line-height:1.7;">Numa padaria artesanal que entrega em casa. A mesma caixinha que você vai montar na sua cozinha.</p>
+      <p style="font-size:12.5px;color:var(--cinza);line-height:1.5;margin-top:8px;">Fonte: Conexão Delícia, padaria artesanal delivery.</p>
+    </div>
+
+    <div style="background:var(--branco);border:1.5px solid var(--creme-dark);border-radius:20px;padding:20px 20px 18px;box-shadow:var(--sh-sm);">
+      <p style="font-size:30px;font-weight:900;color:var(--laranja-dark);letter-spacing:-1px;line-height:1.1;margin-bottom:6px;">R$ 10 a R$ 19</p>
+      <p style="font-size:16px;font-weight:800;color:var(--marrom);line-height:1.35;margin-bottom:6px;">É o que a unidade custa nas cafeterias</p>
+      <p style="font-size:14.5px;color:var(--marrom-light);line-height:1.7;">Rolinho com cobertura de cream cheese passa de R$ 17 em cafeteria de bairro. E é farinha, açúcar, canela, manteiga e leite.</p>
+      <p style="font-size:12.5px;color:var(--cinza);line-height:1.5;margin-top:8px;">Fonte: levantamento de cafeterias de São Paulo, revista Exame e Guia da Semana.</p>
+    </div>
+
+    <div style="background:var(--branco);border:1.5px solid var(--creme-dark);border-radius:20px;padding:20px 20px 18px;box-shadow:var(--sh-sm);">
+      <p style="font-size:30px;font-weight:900;color:var(--laranja-dark);letter-spacing:-1px;line-height:1.1;margin-bottom:6px;">75 mil</p>
+      <p style="font-size:16px;font-weight:800;color:var(--marrom);line-height:1.35;margin-bottom:6px;">Padarias e confeitarias novas em dois anos</p>
+      <p style="font-size:14.5px;color:var(--marrom-light);line-height:1.7;">Crescimento de 26% no setor, com 304 mil estabelecimentos ativos no país. O doce que está na vitrine deles é o que você vai fazer em casa.</p>
+      <p style="font-size:12.5px;color:var(--cinza);line-height:1.5;margin-top:8px;">Fonte: Boletim Trends, junho de 2026.</p>
+    </div>
+
+    <div style="background:var(--branco);border:1.5px solid var(--creme-dark);border-radius:20px;padding:20px 20px 18px;box-shadow:var(--sh-sm);">
+      <p style="font-size:30px;font-weight:900;color:var(--laranja-dark);letter-spacing:-1px;line-height:1.1;margin-bottom:6px;">6 em cada 10</p>
+      <p style="font-size:16px;font-weight:800;color:var(--marrom);line-height:1.35;margin-bottom:6px;">Negócios informais de alimentação são tocados por mulheres</p>
+      <p style="font-size:14.5px;color:var(--marrom-light);line-height:1.7;">E só 37% delas têm CNPJ. Você não precisa abrir empresa pra começar a vender doce por encomenda.</p>
+      <p style="font-size:12.5px;color:var(--cinza);line-height:1.5;margin-top:8px;">Fonte: Sebrae e Pesquisa Sebrae Minas.</p>
+    </div>
+  </div>
+
+  <div style="margin-top:32px;"><a href="#plano-basico" class="btn btn-shimmer">Quero minha Caixinha de Canela</a></div>
+</section>
+
+<!-- BLOCO 10 — BRIDGE DOS PLANOS -->
+<div class="planos-bridge">
+  <p>Um dia você vai falar o seu preço <strong>sem pedir desculpa por ele</strong>.</p>
+  <span class="arrow-bounce">↓</span>
+</div>
+
+<!-- BLOCO 11 — OFERTA (plano único) -->
+<section class="planos" id="plano-basico">
+  <div class="plano-recomendado-wrap">
+    <span class="plano-rec-badge">🔥 Acesso completo, com os 4 bônus</span>
+    <div class="plano-rec-card">
+      <div class="plano-rec-titulo">CAIXINHA<br>DE CANELA</div>
+      <div class="plano-body">
+        <img src="{{IMG:plano-completo:1}}" alt="Caixinha de Canela, acesso completo" loading="lazy" decoding="async" style="width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border-radius:var(--r-md);margin:0 0 20px;background:var(--creme-dark);">
+        <p class="plano-sub">TUDO O QUE VOCÊ VAI RECEBER:</p>
+        <ul class="checklist animated" style="margin-bottom:0;">
+          <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Caixinha de Canela, o passo a passo completo em PDF</li>
+          <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>A massa base e os 6 sabores</li>
+          <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>A folha de preço da fornada pra imprimir</li>
+          <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>O roteiro da primeira venda</li>
+          <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Bônus 1: As 30 Mensagens Prontas</li>
+          <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Bônus 2: Chega Inteira</li>
+          <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Bônus 3: Rótulo pra Imprimir</li>
+          <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Bônus 4: Forno de Fogão Comum</li>
+        </ul>
+        <div class="preco-stack">
+          <div class="preco-de" style="color:var(--marrom-light);text-decoration:none;font-size:14px;font-weight:600;line-height:1.5;margin-bottom:10px;">Uma caixinha de 4 unidades pronta custa<br><strong style="color:var(--marrom);">R$ 32,90</strong> numa padaria artesanal.</div>
+          <div class="preco-hoje-label">Hoje apenas</div>
+          <div class="preco-valor"><span class="preco-moeda">R$</span><span class="preco-num">19</span><span class="preco-cent">,90</span></div>
+        </div>
+        <a href="{{CHECKOUT}}" class="btn btn-laranja btn-shimmer btn-pulse" target="_blank">Quero minha Caixinha de Canela</a>
+        <div class="selos">
+          <div class="selo-item">✅ Compra 100% segura</div>
+          <div class="selo-item">⚡ Acesso imediato após a confirmação do pagamento</div>
+          <div class="selo-item">🛡️ Garantia incondicional de 7 dias</div>
+        </div>
+        <div class="urgencia-final">Comece hoje. A fornada deste fim de semana ainda dá tempo de sair.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div aria-hidden="true"><svg viewBox="0 0 460 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;margin-bottom:-2px"><path d="M0,0 L460,0 L460,20 C360,40 260,40 160,18 C80,0 30,0 0,30 Z" fill="#FAEEDA"/><path d="M0,30 C30,0 80,0 160,18 C260,40 360,40 460,20 L460,40 L0,40 Z" fill="#1A9940"/></svg></div>
+
+<!-- BLOCO 12 — GARANTIA -->
+<section class="garantia">
+  <div class="garantia-card">
+    <div style="display:inline-flex;align-items:center;justify-content:center;background:rgba(255,255,255,0.15);border:2px solid rgba(255,255,255,0.3);border-radius:100px;padding:10px 22px;gap:10px;margin-bottom:24px;">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      <span style="color:#fff;font-size:13px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;">Garantia de 7 dias</span>
+    </div>
+    <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(24px,6.5vw,30px);font-weight:900;color:#fff;margin-bottom:10px;line-height:1.2;">Teste sem<br>nenhum risco</h2>
+    <div style="width:40px;height:3px;background:rgba(255,255,255,0.35);border-radius:2px;margin:0 auto 16px;"></div>
+    <p style="font-size:16px;color:rgba(255,255,255,0.92);line-height:1.8;margin-bottom:0;">Você terá 7 dias pra abrir a Caixinha de Canela, ver todos os sabores, imprimir a folha de preço e fazer a primeira massa. Se sentir que o material não é pra você, é só pedir o reembolso dentro desse prazo e o valor volta integral. O risco de testar é nosso, não seu.</p>
+    <div style="display:flex;flex-direction:column;gap:12px;margin-top:28px;">
+      <div style="display:flex;align-items:center;gap:14px;background:rgba(255,255,255,0.12);border-radius:14px;padding:16px 18px;">
+        <div style="width:44px;height:44px;background:rgba(255,255,255,0.2);border-radius:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        </div>
+        <div style="text-align:left;">
+          <p style="color:#fff;font-size:16px;font-weight:800;margin-bottom:2px;line-height:1.2;">100% do valor devolvido</p>
+          <p style="color:rgba(255,255,255,0.7);font-size:13px;font-weight:500;line-height:1.3;">Reembolso completo, sem descontos</p>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:14px;background:rgba(255,255,255,0.12);border-radius:14px;padding:16px 18px;">
+        <div style="width:44px;height:44px;background:rgba(255,255,255,0.2);border-radius:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        </div>
+        <div style="text-align:left;">
+          <p style="color:#fff;font-size:16px;font-weight:800;margin-bottom:2px;line-height:1.2;">Sem perguntas</p>
+          <p style="color:rgba(255,255,255,0.7);font-size:13px;font-weight:500;line-height:1.3;">Não precisa justificar nada</p>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:14px;background:rgba(255,255,255,0.12);border-radius:14px;padding:16px 18px;">
+        <div style="width:44px;height:44px;background:rgba(255,255,255,0.2);border-radius:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        </div>
+        <div style="text-align:left;">
+          <p style="color:#fff;font-size:16px;font-weight:800;margin-bottom:2px;line-height:1.2;">Sem burocracia</p>
+          <p style="color:rgba(255,255,255,0.7);font-size:13px;font-weight:500;line-height:1.3;">Processo simples e rápido</p>
+        </div>
+      </div>
+    </div>
+    <a href="#plano-basico" class="btn btn-shimmer" style="margin-top:28px;background:#fff;color:var(--verde);">Quero minha Caixinha de Canela</a>
+  </div>
+</section>
+
+<div aria-hidden="true"><svg viewBox="0 0 460 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;margin-top:-2px"><path d="M0,20 C80,40 180,40 260,18 C340,0 400,0 460,25 L460,40 L0,40 Z" fill="#FAEEDA"/><path d="M0,0 L460,0 L460,25 C400,0 340,0 260,18 C180,40 80,40 0,20 Z" fill="#1A9940"/></svg></div>
+
+<!-- BLOCO 13a — AUTORIDADE (pendente: não há expert definido) -->
+<section class="autoridade">
+  <div class="autoridade-inner">
+    <img src="{{IMG:autor:1}}" alt="{{NOME_AUTORIDADE}}" loading="lazy" decoding="async" style="width:100%;height:auto;object-fit:contain;object-position:top center;display:block;">
+    <div class="autoridade-text">
+      <p class="autoridade-eyebrow">Quem está por trás da Caixinha de Canela:</p>
+      <p class="autoridade-nome">{{NOME_AUTORIDADE}}</p>
+      <p class="autoridade-bio">{{BIO_1}}</p>
+      <p class="autoridade-bio">{{BIO_2}}</p>
+      <p class="autoridade-bio">{{BIO_3}}</p>
+      <p class="autoridade-fecho">{{FRASE_DE_FECHO}}</p>
+    </div>
+  </div>
+</section>
+
+<!-- BLOCO 13b — FAQ -->
+<section class="faq">
+  <h2>Perguntas Frequentes</h2>
+
+  <div class="faq-item"><button class="faq-question">Receita de rolinho de canela não tem de graça na internet?<span class="faq-arrow">▼</span></button><div class="faq-answer">Tem, e muita. O que não tem de graça é a conta de quanto custa a sua fornada, por quanto vender a caixinha, como embalar pra não esparramar e o que escrever na hora de oferecer. A receita é a menor parte do que você recebe aqui.</div></div>
+
+  <div class="faq-item"><button class="faq-question">Eu nunca fiz massa que cresce. Vou conseguir?<span class="faq-arrow">▼</span></button><div class="faq-answer">Sim. A massa base é uma só e está fotografada passo a passo, com o ponto certo explicado em cada etapa. É a única massa que você precisa aprender pra fazer os seis sabores.</div></div>
+
+  <div class="faq-item"><button class="faq-question">Meu forno é ruim, queima embaixo e fica cru em cima. Funciona?<span class="faq-arrow">▼</span></button><div class="faq-answer">Funciona. Tem um bônus só pra isso, o Forno de Fogão Comum, com altura de grade, tempo e como saber que assou sem abrir a porta.</div></div>
+
+  <div class="faq-item"><button class="faq-question">Preciso de CNPJ pra vender?<span class="faq-arrow">▼</span></button><div class="faq-answer">Não pra começar a vender por encomenda pra conhecidos, que é como quase todo mundo começa. Segundo o Sebrae, só 37% das mulheres que tocam negócio de alimentação têm CNPJ. Se mais pra frente você quiser formalizar, é uma decisão sua, não uma exigência daqui.</div></div>
+
+  <div class="faq-item"><button class="faq-question">Preciso comprar equipamento?<span class="faq-arrow">▼</span></button><div class="faq-answer">Não. Forno de casa, forma comum, tigela e as mãos. Batedeira ajuda, mas não é obrigatória.</div></div>
+
+  <div class="faq-item"><button class="faq-question">Quanto tempo leva pra fazer uma fornada?<span class="faq-arrow">▼</span></button><div class="faq-answer">Uma manhã, contando o tempo de a massa descansar. É por isso que o material organiza tudo em torno de uma fornada só, que rende as caixinhas do fim de semana.</div></div>
+
+  <div class="faq-item"><button class="faq-question">Como eu recebo o material?<span class="faq-arrow">▼</span></button><div class="faq-answer">Na hora, assim que o pagamento é confirmado, direto no seu {{MEIO_DE_ENTREGA}}. É um PDF pra abrir no celular, com a folha de preço separada pra imprimir.</div></div>
+
+  <div class="faq-item"><button class="faq-question">Por quanto eu devo vender?<span class="faq-arrow">▼</span></button><div class="faq-answer">A folha de preço mostra o custo da sua forma cheia e o preço sugerido da unidade e da caixinha de 4, pra você ajustar ao seu bairro. Hoje a caixinha de 4 pronta sai por R$ 32,90 numa padaria artesanal.</div></div>
+
+  <div class="faq-item"><button class="faq-question">E se eu não gostar?<span class="faq-arrow">▼</span></button><div class="faq-answer">Você tem 7 dias pra pedir o reembolso, sem precisar justificar. O valor volta integral.</div></div>
+
+  <div class="faq-item"><button class="faq-question">O acesso é vitalício?<span class="faq-arrow">▼</span></button><div class="faq-answer">{{CONDICAO_DE_ACESSO}}</div></div>
+
+  <div class="faq-cta"><a href="#plano-basico" class="btn btn-shimmer">Quero minha Caixinha de Canela</a></div>
+</section>
+
+<!-- BLOCO 13c — RODAPÉ -->
+<footer>
+  <strong>Copyright 2026 | Caixinha de Canela</strong><br><br>
+  Material digital, entregue em PDF logo após a confirmação do pagamento. Garantia incondicional de 7 dias. Dúvidas antes ou depois da compra, fale com a gente pelo {{CANAL_DE_SUPORTE}}.<br><br>
+  Este material ensina a preparar e a precificar um produto de confeitaria caseira. Os valores citados nesta página são preços praticados no mercado, levantados em fontes públicas, e servem de referência. O resultado de cada pessoa depende do que ela produz, do preço que pratica e de quanto ela vende.<br><br>
+  Todos os direitos sobre a obra "Caixinha de Canela" são reservados à {{EMPRESA}}, nos termos da Lei nº 9.610/98.
+</footer>
+
+<script>
+window.addEventListener('scroll',()=>{const el=document.getElementById('progressBar');if(!el)return;const t=document.body.scrollHeight-window.innerHeight;el.style.width=Math.min((window.scrollY/t)*100,100)+'%';},{passive:true});
+(function(){const track=document.getElementById('carouselTrack');if(!track||track.dataset.cloned)return;const items=Array.from(track.children);items.forEach(i=>track.appendChild(i.cloneNode(true)));track.dataset.cloned='true';function upd(){const f=track.children[items.length];if(f)track.style.setProperty('--scroll-distance',f.offsetLeft+'px');}upd();track.style.animationPlayState='running';setTimeout(upd,300);setTimeout(upd,1000);window.addEventListener('resize',upd,{passive:true});})();
+(function(){const track=document.getElementById('depoCarouselTrack');if(!track||track.dataset.cloned)return;const items=Array.from(track.children);items.forEach(i=>track.appendChild(i.cloneNode(true)));track.dataset.cloned='true';function upd(){const f=track.children[items.length];if(f)track.style.setProperty('--depo-scroll-distance',f.offsetLeft+'px');}upd();track.style.animationPlayState='running';setTimeout(upd,300);setTimeout(upd,1000);window.addEventListener('resize',upd,{passive:true});})();
+document.querySelectorAll('.faq-question').forEach(btn=>{btn.addEventListener('click',function(){const item=this.closest('.faq-item');const open=item.classList.contains('open');document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('open'));if(!open)item.classList.add('open');});});
+document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',e=>{e.preventDefault();const id=a.getAttribute('href').slice(1);const target=document.getElementById(id);if(target){target.scrollIntoView({behavior:'smooth',block:'start'});}});});
+</script>
+</body>
+</html>

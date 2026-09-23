@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#EF9F27">
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<title>Rolinhos Gourmet Lucrativos — faturar R$6.000 por mês assando só o que já foi pago</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://media.atomicatmedia.net">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Playfair+Display:wght@800;900&display=swap">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:17px;-webkit-text-size-adjust:100%}
+body{font-family:'Plus Jakarta Sans',system-ui,-apple-system,sans-serif;background:var(--creme);color:var(--marrom);overflow-x:hidden;max-width:460px;margin:0 auto;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+img{max-width:100%}
+:root{
+  --creme:#FAEEDA;--creme-dark:#F0DDB8;--creme-line:#E7D2A8;
+  --marrom:#3D2B1F;--marrom-light:#6B4F3A;--marrom-soft:#8A6C54;
+  --laranja:#EF9F27;--laranja-dark:#B06E13;--laranja-mid:#FAC775;--laranja-soft:#FEF3DC;
+  --verde:#3B6D11;--verde-dark:#2F5A0C;--preto:#1E1208;
+  --branco:#FFFFFF;--cinza:#7A6754;
+  /* escala de espaçamento — tudo na página usa estes degraus */
+  --s1:8px;--s2:14px;--s3:22px;--s4:32px;--s5:44px;--s6:60px;
+  --r-sm:12px;--r-md:18px;--r-lg:24px;--r-xl:30px;
+  --sh-1:0 1px 3px rgba(61,43,31,.06),0 4px 16px rgba(61,43,31,.06);
+  --sh-2:0 2px 6px rgba(61,43,31,.07),0 12px 32px rgba(61,43,31,.10);
+  --sh-3:0 4px 12px rgba(61,43,31,.10),0 20px 48px rgba(61,43,31,.14);
+  --px:17px;
+}
+section{padding:var(--s6) var(--px)}
+
+/* ---------- tipografia ---------- */
+h1,h2,h3{font-family:'Playfair Display',Georgia,serif;letter-spacing:-.02em;text-wrap:balance}
+h1{font-size:clamp(28px,7.6vw,35px);font-weight:900;line-height:1.14}
+h2{font-size:clamp(23px,6.2vw,27px);font-weight:800;line-height:1.2}
+h3{font-weight:800}
+p{text-wrap:pretty}
+.eyebrow{font-size:11.5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--laranja-dark)}
+
+/* ---------- topo ---------- */
+.progress-bar{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--laranja),var(--verde));width:0%;z-index:9999;transition:width .1s linear}
+.urgencia-bar{background:var(--laranja);color:var(--marrom);text-align:center;padding:11px var(--px);font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;display:flex;align-items:center;justify-content:center;gap:9px;line-height:1.4}
+.urgencia-dot{width:6px;height:6px;background:rgba(61,43,31,.45);border-radius:50%;flex-shrink:0;animation:pulse 1.8s ease-in-out infinite}
+
+/* ---------- hero ---------- */
+.hero{padding:var(--s5) var(--px) var(--s6);text-align:center}
+.hero h1{margin-bottom:var(--s3)}
+.hero h1 em{font-style:normal;color:var(--laranja-dark)}
+.hero-pills{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:0 0 var(--s4);text-align:left}
+.hero-pill{display:flex;align-items:center;gap:9px;background:var(--verde);border-radius:var(--r-sm);padding:11px 12px;box-shadow:0 2px 10px rgba(59,109,17,.2)}
+.hero-pill svg{flex-shrink:0;width:19px;height:19px;stroke:rgba(255,255,255,.92);fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.hero-pill span{font-size:13px;font-weight:700;color:#fff;line-height:1.3;letter-spacing:-.01em}
+.hero-img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:var(--r-lg);margin-bottom:var(--s4);display:block;background:var(--creme-dark)}
+.hero-sub{font-size:15.5px;line-height:1.68;color:var(--marrom-light);margin-bottom:var(--s4)}
+.hero-sub strong{color:var(--marrom);font-weight:800}
+
+/* ---------- botões ---------- */
+.btn{display:block;width:100%;background:var(--verde);color:#fff;font-family:inherit;font-size:16px;font-weight:800;padding:18px 16px;border-radius:var(--r-sm);border:none;cursor:pointer;text-decoration:none;text-align:center;letter-spacing:.04em;text-transform:uppercase;line-height:1.25;transition:transform .15s ease,box-shadow .15s ease,filter .15s ease;box-shadow:0 4px 16px rgba(59,109,17,.26);position:relative;overflow:hidden}
+.btn:hover{transform:translateY(-1px);filter:brightness(1.06);box-shadow:0 8px 24px rgba(59,109,17,.32)}
+.btn:active{transform:translateY(0)}
+.btn-laranja{background:var(--laranja);color:var(--marrom);box-shadow:0 4px 18px rgba(239,159,39,.34)}
+.btn-laranja:hover{box-shadow:0 8px 26px rgba(239,159,39,.4)}
+/* brilho só no CTA final — repetir em todo botão é o que deixa a página com cara de amadora */
+.btn-shimmer::before{content:'';position:absolute;top:0;left:-100%;width:55%;height:100%;background:linear-gradient(105deg,transparent 20%,rgba(255,255,255,.22) 50%,transparent 80%);animation:shimmer 3.2s ease-in-out infinite}
+.btn-micro{font-size:13px;font-weight:600;color:var(--marrom-soft);text-align:center;margin-top:var(--s2);line-height:1.5;text-wrap:balance}
+.btn-pulse{animation:btnPulse 3s ease-in-out infinite}
+
+/* ---------- dor ---------- */
+.dor{background:var(--marrom);text-align:center}
+.dor h2{color:#fff;margin-bottom:var(--s3)}
+.dor h2 em{font-style:normal;color:var(--laranja)}
+.dor p{font-size:15.5px;color:rgba(255,255,255,.74);line-height:1.7;margin-bottom:var(--s2);text-align:left}
+.dor p:last-child{margin-bottom:0}
+.dor strong{color:#fff;font-weight:800}
+.dor-img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;border-radius:var(--r-md);margin:var(--s4) 0;background:rgba(255,255,255,.06)}
+
+/* ---------- demonstrativo ---------- */
+.demo{padding-left:0;padding-right:0;text-align:center}
+.demo-inner{padding:0 var(--px)}
+.demo h2{margin-bottom:var(--s2)}
+.demo-topo{font-size:11.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--laranja-dark);margin-bottom:var(--s2)}
+.demo-sub{font-size:15px;color:var(--marrom-light);line-height:1.66;text-align:left}
+.demo-eyebrow{font-size:11.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--laranja-dark);text-align:center;margin:var(--s5) 0 var(--s3)}
+.carousel-wrapper{width:100%;overflow:hidden;line-height:0;font-size:0;margin-bottom:var(--s5)}
+.carousel-track{display:flex;gap:12px;width:max-content;animation:scrollCarousel 18s linear infinite;animation-play-state:paused;will-change:transform}
+.carousel-item{flex:0 0 66vw;max-width:270px;border-radius:var(--r-md);overflow:hidden;background:var(--branco);box-shadow:var(--sh-1);display:flex;flex-direction:column}
+.carousel-item img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;background:var(--creme-dark)}
+.carousel-cap{display:block;width:100%;padding:12px 10px 14px;text-align:center;font-size:13.5px;font-weight:800;color:var(--marrom);line-height:1.3;letter-spacing:-.01em}
+.carousel-cap span{display:block;margin-top:5px;font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--laranja-dark)}
+.demo-check{list-style:none;text-align:left;padding:0 var(--px);margin-bottom:var(--s5)}
+.demo-check li{display:flex;align-items:flex-start;gap:12px;font-size:15px;color:var(--marrom);padding:8px 0;line-height:1.5;font-weight:600}
+.demo-cta{padding:0 var(--px)}
+
+/* ---------- razões ---------- */
+.razoes{background:var(--marrom)}
+.razoes h2{color:#fff;text-align:center;margin-bottom:var(--s1)}
+.razoes h2 em{font-style:normal;color:var(--laranja)}
+.razoes-sub{font-size:14.5px;color:rgba(255,255,255,.6);text-align:center;line-height:1.65;margin-bottom:var(--s4)}
+.rz-card{background:var(--creme);border-radius:var(--r-md);padding:20px;margin-bottom:12px;box-shadow:var(--sh-2);display:flex;gap:14px;align-items:flex-start}
+.rz-emoji{width:42px;height:42px;background:var(--laranja-soft);border-radius:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.rz-emoji svg{width:21px;height:21px;stroke:var(--laranja-dark);fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.rz-card h3{font-family:'Plus Jakarta Sans',sans-serif;font-size:16px;font-weight:800;color:var(--marrom);line-height:1.32;margin-bottom:6px;letter-spacing:-.01em}
+.rz-card p{font-size:14.5px;color:var(--marrom-light);line-height:1.62}
+.rz-card b{color:var(--laranja-dark);font-weight:800}
+.razoes-cta{margin-top:var(--s4)}
+
+/* ---------- calculadora ---------- */
+.calc h2{text-align:center;margin-bottom:var(--s1)}
+.calc-sub{font-size:14.5px;color:var(--marrom-light);text-align:center;line-height:1.6;margin-bottom:var(--s4)}
+.calc-box{background:var(--branco);border-radius:var(--r-xl);padding:26px 22px;border:1px solid var(--creme-line);box-shadow:var(--sh-2)}
+.calc-field{margin-bottom:var(--s3)}
+.calc-label{display:flex;justify-content:space-between;align-items:baseline;font-size:14px;font-weight:700;color:var(--marrom);margin-bottom:10px;gap:12px}
+.calc-label b{font-size:20px;font-weight:900;color:var(--laranja-dark);letter-spacing:-.02em;white-space:nowrap}
+.calc-range{width:100%;height:30px;-webkit-appearance:none;appearance:none;background:transparent;outline:none;cursor:pointer;margin:-12px 0}
+.calc-range::-webkit-slider-runnable-track{height:6px;background:var(--creme-dark);border-radius:100px}
+.calc-range::-moz-range-track{height:6px;background:var(--creme-dark);border-radius:100px}
+.calc-range::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;margin-top:-9px;width:24px;height:24px;background:var(--laranja);border:3px solid #fff;border-radius:50%;cursor:pointer;box-shadow:0 2px 8px rgba(239,159,39,.45)}
+.calc-range::-moz-range-thumb{width:24px;height:24px;background:var(--laranja);border:3px solid #fff;border-radius:50%;cursor:pointer;box-shadow:0 2px 8px rgba(239,159,39,.45)}
+.calc-conta{margin-top:var(--s3);border-top:1px solid var(--creme-line);padding-top:6px}
+.calc-linha{display:flex;justify-content:space-between;align-items:baseline;gap:14px;padding:10px 2px;border-bottom:1px solid var(--creme-line);font-size:14px;line-height:1.35}
+.calc-linha span{color:var(--marrom-light);font-weight:600}
+.calc-linha span small{display:block;font-size:11.5px;font-weight:600;color:var(--marrom-soft);margin-top:2px}
+.calc-linha b{font-weight:800;color:var(--marrom);white-space:nowrap;font-size:15px}
+.calc-linha-neg b{color:#B03030}
+.calc-result{background:var(--laranja-soft);border-radius:var(--r-md);padding:22px 18px;text-align:center;margin-top:var(--s3)}
+.calc-res-big{font-size:44px;font-weight:900;color:var(--verde);letter-spacing:-.035em;line-height:1}
+.calc-res-big-lab{font-size:12px;font-weight:800;color:var(--marrom-soft);text-transform:uppercase;letter-spacing:.1em;margin-top:8px}
+.calc-frase{font-size:14.5px;font-weight:700;color:var(--laranja-dark);text-align:center;line-height:1.55;margin-top:var(--s3)}
+.calc-cta{margin-top:var(--s4)}
+
+/* ---------- produto ---------- */
+.produto{background:var(--marrom);text-align:center}
+.produto-eyebrow{font-size:12px;font-weight:800;color:rgba(255,255,255,.62);text-transform:uppercase;letter-spacing:.14em;margin-bottom:var(--s3);line-height:1.5}
+.produto-inner{background:var(--creme);border-radius:var(--r-xl);padding:24px 22px 28px;box-shadow:var(--sh-3)}
+.produto-nome{font-family:'Playfair Display',Georgia,serif;font-size:27px;font-weight:900;color:var(--marrom);margin-bottom:8px;letter-spacing:-.02em;line-height:1.15}
+.produto-sub{font-size:14.5px;color:var(--marrom-light);line-height:1.6}
+.produto-divider{height:1px;background:var(--creme-line);margin:var(--s3) 0}
+.checklist{list-style:none;text-align:left}
+.checklist li{display:flex;align-items:flex-start;gap:12px;font-size:15px;color:var(--marrom);padding:11px 2px;border-bottom:1px solid var(--creme-line);line-height:1.45;font-weight:600}
+.checklist li:last-child{border-bottom:none;padding-bottom:0}
+.check-ico{width:22px;height:22px;background:var(--verde);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
+.check-ico svg{width:12px;height:12px;stroke:#fff;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round;fill:none;display:block}
+.check-ico svg polyline{stroke-dasharray:18;stroke-dashoffset:18}
+.animated .check-ico svg polyline{animation:drawCheck .4s cubic-bezier(.22,1,.36,1) forwards}
+.animated li:nth-child(1) .check-ico svg polyline{animation-delay:0s}
+.animated li:nth-child(2) .check-ico svg polyline{animation-delay:.06s}
+.animated li:nth-child(3) .check-ico svg polyline{animation-delay:.12s}
+.animated li:nth-child(4) .check-ico svg polyline{animation-delay:.18s}
+.animated li:nth-child(5) .check-ico svg polyline{animation-delay:.24s}
+.animated li:nth-child(6) .check-ico svg polyline{animation-delay:.30s}
+.animated li:nth-child(7) .check-ico svg polyline{animation-delay:.36s}
+.animated li:nth-child(8) .check-ico svg polyline{animation-delay:.42s}
+
+/* ---------- ideal para você ---------- */
+.ideal-titulo{font-family:'Playfair Display',Georgia,serif;font-size:24px;font-weight:800;color:var(--marrom);text-align:center;line-height:1.24;margin-bottom:var(--s4);letter-spacing:-.02em}
+.ideal-card-wrap{margin-bottom:12px}
+.ideal-card{background:var(--branco);border:1px solid var(--creme-line);border-left:4px solid var(--laranja);border-radius:var(--r-md);padding:20px;display:flex;gap:14px;align-items:flex-start;box-shadow:var(--sh-1)}
+.card-icon-emoji{width:42px;height:42px;border-radius:12px;background:var(--laranja-soft);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.card-icon-emoji svg{width:21px;height:21px;stroke:var(--laranja-dark);fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.ideal-card h3{font-family:'Plus Jakarta Sans',sans-serif;font-size:16px;font-weight:800;color:var(--marrom);line-height:1.32;margin-bottom:6px;letter-spacing:-.01em}
+.ideal-card p{font-size:14.5px;color:var(--marrom-light);line-height:1.62}
+.ideal-cta{margin-top:var(--s4)}
+
+/* ---------- bônus ---------- */
+.bonus-bridge{background:var(--marrom);text-align:center;padding:var(--s6) var(--px) var(--s4)}
+.bridge-eyebrow{font-size:11.5px;color:rgba(255,255,255,.42);letter-spacing:.16em;text-transform:uppercase;margin-bottom:10px;font-weight:800}
+.bridge-sub{font-size:15px;color:rgba(255,255,255,.6);margin-bottom:10px;font-style:italic}
+.bridge-titulo{font-family:'Playfair Display',Georgia,serif;font-size:40px;font-weight:900;color:#fff;letter-spacing:-.03em;line-height:1.06}
+.bonuses{background:var(--marrom);padding:0 var(--px) var(--s6)}
+.bonus-card{background:var(--creme);border-radius:var(--r-xl);overflow:hidden;margin-bottom:16px;box-shadow:var(--sh-3)}
+.bonus-img-area{background:var(--branco);width:100%;display:block;overflow:hidden;padding:18px 18px 0}
+.bonus-img-area img{width:100%;height:230px;display:block;object-fit:contain;object-position:center}
+.bonus-body{padding:20px 22px 24px;text-align:center}
+.bonus-num-tag{display:inline-block;background:var(--laranja);color:var(--marrom);font-size:11.5px;font-weight:800;padding:6px 16px;border-radius:100px;margin-bottom:12px;letter-spacing:.1em;text-transform:uppercase}
+.bonus-body h3{font-family:'Plus Jakarta Sans',sans-serif;font-size:16.5px;font-weight:800;color:var(--marrom);line-height:1.3;margin-bottom:10px;letter-spacing:-.01em}
+.bonus-divider{height:1px;background:var(--creme-line);margin-bottom:12px}
+.bonus-body p{font-size:14.5px;color:var(--marrom-light);line-height:1.62}
+
+/* ---------- depoimentos ---------- */
+.depoimentos{text-align:center;padding-left:0;padding-right:0}
+.depo-topo{padding:0 var(--px);margin-bottom:var(--s4)}
+.depo-topo .eyebrow{display:block;margin-bottom:10px}
+.depo-topo h2{margin-bottom:12px}
+.depo-sub{font-size:14.5px;color:var(--marrom-light);line-height:1.62;max-width:34ch;margin:0 auto}
+.depo-contagem{display:inline-block;margin-top:16px;background:var(--laranja-soft);border:1px solid var(--creme-line);border-radius:100px;padding:9px 18px;font-size:13.5px;font-weight:700;color:var(--marrom-light);line-height:1.3}
+.depo-contagem b{color:var(--laranja-dark);font-weight:800}
+.depo-carousel-wrapper{width:100%;overflow:hidden}
+.depo-carousel-track{display:flex;gap:12px;width:max-content;animation:scrollDepo 34s linear infinite;animation-play-state:paused;will-change:transform}
+.depo-carousel-item{flex:0 0 84vw;max-width:352px;border-radius:var(--r-md);overflow:hidden;box-shadow:var(--sh-2);background:var(--branco);display:flex;flex-direction:column}
+.depo-legenda{padding:13px 15px 15px;text-align:left;border-top:1px solid var(--creme-line)}
+.depo-legenda strong{display:block;font-size:14.5px;font-weight:800;color:var(--marrom);line-height:1.3;letter-spacing:-.01em}
+.depo-legenda span{display:block;margin-top:3px;font-size:13px;font-weight:700;color:var(--verde);line-height:1.4}
+.depo-arraste{font-size:12.5px;font-weight:700;color:var(--marrom-soft);text-align:center;margin-top:12px;letter-spacing:.02em}
+/* os prints são quadrados: 1/1 mostra a conversa inteira. 4/5 cortava o texto nas laterais. */
+.depo-carousel-item img{width:100%;aspect-ratio:1/1;object-fit:contain;display:block;background:var(--branco)}
+.depoimentos{font-size:17px}
+.depo-cta{margin-top:var(--s5);padding:0 var(--px)}
+
+/* ---------- autoridade ---------- */
+.autoridade{padding-top:var(--s5)}
+.autoridade-inner{background:var(--branco);border-radius:var(--r-xl);overflow:hidden;box-shadow:var(--sh-2);border:1px solid var(--creme-line)}
+.autoridade-inner>img{width:100%;height:auto;object-fit:contain;object-position:top center;display:block;background:var(--branco)}
+.autoridade-text{padding:24px}
+.autoridade-eyebrow{font-size:11.5px;color:var(--marrom-soft);font-weight:800;letter-spacing:.14em;text-transform:uppercase;margin-bottom:8px;text-align:center;line-height:1.5}
+.autoridade-nome{font-family:'Playfair Display',Georgia,serif;font-size:30px;font-weight:900;color:var(--laranja-dark);font-style:italic;letter-spacing:-.02em;margin-bottom:var(--s3);text-align:center}
+.autoridade-bio{font-size:15px;color:var(--marrom-light);line-height:1.72;margin-bottom:12px}
+.autoridade-bio:last-child{margin-bottom:0}
+
+/* ---------- oferta ---------- */
+.planos-bridge{text-align:center;padding:var(--s6) var(--px) var(--s3)}
+.planos-bridge p{font-family:'Playfair Display',Georgia,serif;font-size:21px;font-weight:700;color:var(--marrom);margin-bottom:10px;line-height:1.35}
+.arrow-bounce{display:inline-block;font-size:30px;color:var(--laranja);animation:arrowBounce 1.4s ease-in-out infinite;line-height:1}
+.planos{padding:0 var(--px) var(--s6)}
+.plano-recomendado-wrap{position:relative;padding-top:26px}
+.plano-rec-badge{position:absolute;top:0;left:50%;transform:translateX(-50%);background:#F5C518;color:var(--marrom);font-size:12.5px;font-weight:800;padding:9px 22px;border-radius:100px;white-space:nowrap;z-index:3;box-shadow:0 4px 14px rgba(61,43,31,.2);letter-spacing:.02em}
+.plano-rec-card{position:relative;z-index:1;background:var(--branco);border-radius:var(--r-xl);overflow:hidden;border:2px solid var(--laranja);box-shadow:0 12px 40px rgba(239,159,39,.2)}
+.plano-rec-titulo{background:var(--laranja);color:var(--marrom);font-family:'Playfair Display',Georgia,serif;font-size:26px;font-weight:900;text-align:center;padding:30px var(--px) 20px;letter-spacing:-.02em;line-height:1.12}
+.plano-body{padding:24px 22px}
+.plano-sub{font-size:14px;font-weight:600;color:var(--marrom-light);margin-bottom:var(--s3);line-height:1.6}
+.preco-stack{margin:var(--s4) 0 0;text-align:center;padding:24px 16px;background:var(--laranja-soft);border-radius:var(--r-md)}
+.preco-de{font-size:14px;color:#B03030;text-decoration:line-through;margin-bottom:6px;font-weight:700}
+.preco-hoje-label{font-size:11.5px;color:var(--marrom-soft);font-weight:800;text-transform:uppercase;letter-spacing:.14em;margin-bottom:6px}
+.preco-valor{display:flex;align-items:baseline;justify-content:center;gap:3px;color:var(--marrom);line-height:1}
+.preco-moeda{font-size:22px;font-weight:800;letter-spacing:0}
+.preco-num{font-size:60px;font-weight:900;letter-spacing:-.045em}
+.preco-cent{font-size:22px;font-weight:800;letter-spacing:0}
+.preco-ancora{font-size:14.5px;font-weight:800;color:var(--laranja-dark);text-align:center;line-height:1.55;margin-top:12px}
+.plano-body>.btn{margin-top:var(--s3)}
+.selos{margin-top:var(--s3);display:flex;flex-direction:column;gap:10px}
+.selo-item{font-size:13.5px;color:var(--marrom-light);font-weight:700;display:flex;align-items:center;gap:10px;line-height:1.35}
+.selo-item svg{width:17px;height:17px;flex-shrink:0;stroke:var(--verde);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.fechamento{font-size:15px;font-weight:700;color:var(--marrom);text-align:center;line-height:1.6;margin-top:var(--s3);padding-top:var(--s3);border-top:1px solid var(--creme-line)}
+
+/* ---------- garantia ---------- */
+.garantia{background:#1A9940;text-align:center}
+.garantia-selo{display:inline-flex;align-items:center;justify-content:center;background:rgba(255,255,255,.15);border:1.5px solid rgba(255,255,255,.3);border-radius:100px;padding:9px 20px;gap:9px;margin-bottom:var(--s3)}
+.garantia-selo span{color:#fff;font-size:11.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.garantia h2{color:#fff;margin-bottom:var(--s3)}
+.garantia>p{font-size:15.5px;color:rgba(255,255,255,.9);line-height:1.7;text-align:left}
+.gar-lista{display:flex;flex-direction:column;gap:10px;margin-top:var(--s4)}
+.gar-item{display:flex;align-items:center;gap:14px;background:rgba(255,255,255,.12);border-radius:var(--r-sm);padding:15px 16px;text-align:left}
+.gar-ico{width:40px;height:40px;background:rgba(255,255,255,.2);border-radius:11px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.gar-item strong{display:block;color:#fff;font-size:15px;font-weight:800;margin-bottom:2px;line-height:1.25}
+.gar-item span{display:block;color:rgba(255,255,255,.72);font-size:12.5px;font-weight:500;line-height:1.3}
+.garantia .btn{margin-top:var(--s4);background:#fff;color:#1A9940;box-shadow:0 4px 16px rgba(0,0,0,.14)}
+
+/* ---------- como funciona o acesso ---------- */
+.acesso{background:var(--marrom);text-align:center}
+.acesso .eyebrow{display:block;color:var(--laranja);margin-bottom:10px}
+.acesso h2{color:#fff;margin-bottom:var(--s1)}
+.acesso-sub{font-size:14.5px;color:rgba(255,255,255,.6);line-height:1.6;margin-bottom:var(--s4)}
+.passos{display:flex;flex-direction:column;gap:0;text-align:left;position:relative}
+.passo{display:flex;gap:14px;align-items:flex-start;position:relative;padding-bottom:22px}
+.passo:last-child{padding-bottom:0}
+.passo::before{content:'';position:absolute;left:21px;top:46px;bottom:-2px;width:2px;background:rgba(239,159,39,.28)}
+.passo:last-child::before{display:none}
+.passo-ico{width:44px;height:44px;border-radius:13px;background:var(--laranja-soft);display:flex;align-items:center;justify-content:center;flex-shrink:0;position:relative;z-index:1}
+.passo-ico svg{width:22px;height:22px;stroke:var(--laranja-dark);fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.passo-txt{padding-top:2px}
+.passo-num{font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--laranja);display:block;margin-bottom:3px}
+.passo-txt h3{font-family:'Plus Jakarta Sans',sans-serif;font-size:16.5px;font-weight:800;color:#fff;line-height:1.3;margin-bottom:5px;letter-spacing:-.01em}
+.passo-txt p{font-size:14.5px;color:rgba(255,255,255,.68);line-height:1.6}
+.passo-txt b{color:#fff;font-weight:800}
+
+/* ---------- faq ---------- */
+.faq h2{margin-bottom:var(--s4);text-align:center}
+.faq-item{background:var(--branco);border-radius:var(--r-sm);margin-bottom:9px;overflow:hidden;box-shadow:var(--sh-1);border:1px solid var(--creme-line)}
+.faq-question{width:100%;background:none;border:none;text-align:left;padding:16px 16px;font-family:inherit;font-size:15px;font-weight:700;color:var(--marrom);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;line-height:1.42}
+.faq-arrow{width:26px;height:26px;background:var(--creme);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:10px;color:var(--laranja-dark);transition:transform .25s ease,background .2s ease}
+.faq-item.open .faq-arrow{transform:rotate(180deg);background:var(--laranja);color:var(--marrom)}
+.faq-answer{max-height:0;overflow:hidden;font-size:14.5px;color:var(--marrom-light);line-height:1.7;padding:0 16px;transition:max-height .32s cubic-bezier(.22,1,.36,1),padding .28s ease}
+.faq-item.open .faq-answer{max-height:460px;padding:0 16px 16px}
+
+footer{background:var(--preto);color:rgba(255,255,255,.34);font-size:12.5px;text-align:center;padding:var(--s5) var(--px);line-height:1.85}
+footer strong{color:rgba(255,255,255,.6)}
+
+@keyframes shimmer{0%{left:-100%}100%{left:170%}}
+@keyframes btnPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.012)}}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(1.35)}}
+@keyframes arrowBounce{0%,100%{transform:translateY(0)}50%{transform:translateY(7px)}}
+@keyframes scrollCarousel{from{transform:translateX(0)}to{transform:translateX(calc(-1 * var(--scroll-distance,50%)))}}
+@keyframes scrollDepo{from{transform:translateX(0)}to{transform:translateX(calc(-1 * var(--depo-scroll-distance,50%)))}}
+@keyframes drawCheck{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){
+  *{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+.produto-img{width:100%;aspect-ratio:1/1;object-fit:contain;display:block;border-radius:var(--r-md);margin:0 auto var(--s3);background:var(--branco)}
+/* mockup completo do checkout: a arte tem 6 caixas de bônus ao redor do produto —
+   contain sem recorte e sem aspect-ratio forçado para nenhum bônus ficar cortado */
+.mockup-completo{width:100%;height:auto;aspect-ratio:auto;object-fit:contain;display:block;border-radius:var(--r-md);margin:0 auto var(--s3);background:var(--branco)}
+</style>
+</head>
+<body>
+<div class="progress-bar" id="progressBar"></div>
+<div class="urgencia-bar">
+  <span class="urgencia-dot"></span>
+  <span id="urgencia-txt">🔥 Condição especial por tempo limitado</span>
+  <span class="urgencia-dot"></span>
+</div>
+<script>
+(function(){const t=new Date(),d=String(t.getDate()).padStart(2,'0'),m=String(t.getMonth()+1).padStart(2,'0');document.getElementById('urgencia-txt').textContent='🔥 Oferta especial disponível somente hoje '+d+'/'+m+'/'+t.getFullYear();})();
+</script>
+
+<!-- ============ 1 · VENDA IMEDIATA ============ -->
+<section class="hero">
+  <h1>Rolinho de canela gourmet para <em>faturar R$6.000 por mês</em>, assando só o que já foi pago.</h1>
+
+  <div class="hero-pills">
+    <div class="hero-pill"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Faz numa tarde, vende a semana</span></div>
+    <div class="hero-pill"><svg viewBox="0 0 24 24"><path d="M3 17V11l16-6v12z"/><circle cx="8" cy="13" r="1"/><circle cx="14" cy="12" r="1"/></svg><span>8 recheios, 1 massa só</span></div>
+    <div class="hero-pill"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg><span>Zero sobra, zero prejuízo</span></div>
+    <div class="hero-pill"><svg viewBox="0 0 24 24"><path d="M4 9h13v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M17 10h2a2 2 0 0 1 0 4h-2"/><path d="M8 3v2M12 3v2"/></svg><span>Sem batedeira e sem máquina</span></div>
+  </div>
+  <img class="hero-img" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/rolinhos-gourmet-lucrativos/hero-1.webp" alt="Caixa de papel aberta com 4 rolinhos de canela recém-assados, cobertura de cream cheese escorrendo, ainda soltando vapor, sobre bancada de cozinha doméstica" loading="eager" decoding="async" fetchpriority="high">
+  <p class="hero-sub">Você enrola os rolinhos <strong>numa tarde</strong> e congela crus. Durante a semana, <strong>só assa o que já foi vendido</strong>. O resto fica no freezer, esperando o próximo pedido.</p>
+  <a href="#oferta" class="btn">QUERO COMEÇAR A VENDER</a>
+  <p class="btn-micro">🔓 Acesso imediato · 30 dias de garantia</p>
+</section>
+
+<!-- ============ 2 · DOR ============ -->
+<section class="dor">
+  <h2>Você assa <em>a fornada inteira</em>. E vende metade.</h2>
+  <p>Acorda cedo, faz tudo, enche a bancada. Aí sai oferecendo no grupo do prédio, no status, na porta da vizinha.</p>
+  <p>Vende onze. Sobram treze esfriando.</p>
+  <p>Aquilo ali custou dinheiro. Amanhã não vende mais, e você come o prejuízo com café.</p>
+  <img class="dor-img" src="{{IMG:dor:1}}" alt="Bancada de cozinha no fim do dia com uma assadeira pela metade, rolinhos frios e murchos, embalagens vazias ao lado" loading="lazy" decoding="async">
+  <p>Todo mundo que vende doce em casa faz do mesmo jeito: <strong>produz primeiro e sai atrás de comprador depois.</strong> Brigadeiro, bolo de pote, rolinho, tanto faz.</p>
+  <p>O problema não é o seu doce. É a ordem: <strong>você está assando antes de saber quem vai comprar.</strong></p>
+</section>
+
+<!-- ============ 3 · DEMONSTRATIVO ============ -->
+<section class="demo">
+  <div class="demo-inner">
+    <p class="demo-topo">Faz numa tarde · Congela cru · Assa o que vendeu</p>
+    <h2>O forno só liga depois que o dinheiro entra.</h2>
+    <p class="demo-sub">Chama-se <strong>Fornada Encomendada</strong>: você enrola a massa numa tarde e congela os rolinhos crus. Durante a semana, <strong>assa só as assadeiras que já foram pagas</strong>. Sai quente do forno, que é o que faz a padaria cobrar R$12 na unidade.</p>
+  </div>
+  <p class="demo-eyebrow">Os 8 recheios que você vai aprender</p>
+  <div class="carousel-wrapper">
+    <div class="carousel-track" id="carouselTrack">
+      <div class="carousel-item"><img src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/rolinhos-gourmet-lucrativos/demo-1.webp" alt="Rolinho de canela clássico de canela cortado ao meio, mostrando as camadas enroladas por dentro" loading="lazy" decoding="async"><b class="carousel-cap">Canela clássico<span>o carro-chefe</span></b></div>
+      <div class="carousel-item"><img src="{{IMG:demo:2}}" alt="Rolinho de canela de doce de leite com o recheio escorrendo pela lateral" loading="lazy" decoding="async"><b class="carousel-cap">Doce de leite<span>o mais pedido</span></b></div>
+      <div class="carousel-item"><img src="{{IMG:demo:3}}" alt="Rolinho de canela Romeu e Julieta, goiabada derretida com queijo no recheio" loading="lazy" decoding="async"><b class="carousel-cap">Romeu e Julieta<span>goiabada e queijo</span></b></div>
+      <div class="carousel-item"><img src="{{IMG:demo:4}}" alt="Rolinho de canela de maçã com canela, pedaços de maçã visíveis nas camadas" loading="lazy" decoding="async"><b class="carousel-cap">Maçã com canela<span>o do outono</span></b></div>
+      <div class="carousel-item"><img src="{{IMG:demo:5}}" alt="Rolinho de canela de creme de avelã com avelãs quebradas por cima" loading="lazy" decoding="async"><b class="carousel-cap">Creme de avelã<span>o das crianças</span></b></div>
+      <div class="carousel-item"><img src="{{IMG:demo:6}}" alt="Rolinho de canela de coco queimado, cobertura tostada e coco ralado dourado" loading="lazy" decoding="async"><b class="carousel-cap">Coco queimado<span>o diferente</span></b></div>
+      <div class="carousel-item"><img src="{{IMG:demo:7}}" alt="Rolinho de canela de caramelo salgado com cobertura escorrendo e flor de sal por cima" loading="lazy" decoding="async"><b class="carousel-cap">Caramelo salgado<span>o mais caro de vender</span></b></div>
+      <div class="carousel-item"><img src="{{IMG:demo:8}}" alt="Rolinho de canela de frutas vermelhas, geleia aparecendo entre as camadas" loading="lazy" decoding="async"><b class="carousel-cap">Frutas vermelhas<span>o do fim de semana</span></b></div>
+    </div>
+  </div>
+  <ul class="demo-check">
+    <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>A massa base que rende 24 rolinhos, numa tigela só</li>
+    <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Como congelar os rolinhos crus e assar direto do freezer, sem descongelar</li>
+    <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>As 3 marcas que dizem que está na hora de tirar do forno</li>
+    <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Os 3 tamanhos de caixa, com o preço de cada uma</li>
+  </ul>
+  <div class="demo-cta">
+    <a href="#oferta" class="btn">QUERO COMEÇAR A VENDER</a>
+    <p class="btn-micro">🔓 Você recebe tudo na hora, direto no seu e-mail</p>
+  </div>
+</section>
+
+<!-- ============ 4 · POR QUE VENDE SOZINHO ============ -->
+<section class="razoes">
+  <h2>5 motivos que fazem o rolinho de canela <em>vender caro</em></h2>
+  <p class="razoes-sub">O rolinho de canela é o único doce caseiro que a padaria já ensinou o seu cliente a pagar caro.</p>
+
+  <div class="rz-card">
+    <span class="rz-emoji"><svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/><path d="M6 12h.01M18 12h.01"/></svg></span>
+    <div><h3>Farinha, açúcar e canela viram R$12 a unidade</h3><p>O recheio é o que tem no armário. E a padaria em São Paulo cobra <b>R$12 no rolinho</b>, a cafeteria chega a <b>R$23,50</b>. O preço não é seu: é o que o mercado já pratica.</p></div>
+  </div>
+
+  <div class="rz-card">
+    <span class="rz-emoji"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+    <div><h3>A massa espera. O doce pronto, não</h3><p>Brigadeiro feito é brigadeiro que precisa ser vendido hoje. <b>A massa enrolada fica congelada esperando</b> o pedido chegar — e o que não saiu nesta semana continua lá pra próxima.</p></div>
+  </div>
+
+  <div class="rz-card">
+    <span class="rz-emoji"><svg viewBox="0 0 24 24"><path d="M4 9h13v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M17 10h2a2 2 0 0 1 0 4h-2"/><path d="M8 3v2M12 3v2"/></svg></span>
+    <div><h3>Quente vende por dois</h3><p>Ninguém paga R$12 num rolinho frio de padaria. <b>Você entrega saindo do forno</b>, e é exatamente isso que a confeitaria da esquina não consegue fazer na casa da sua cliente.</p></div>
+  </div>
+
+  <div class="rz-card">
+    <span class="rz-emoji"><svg viewBox="0 0 24 24"><path d="M12 3v18M4.5 7.5l15 9M19.5 7.5l-15 9"/></svg></span>
+    <div><h3>Uma massa, seis sabores, uma vitrine</h3><p>A mesma massa base vira canela, doce de leite, Romeu e Julieta, maçã, avelã e coco queimado. <b>Sua cliente escolhe entre 6</b> e você só fez uma coisa.</p></div>
+  </div>
+
+  <div class="rz-card">
+    <span class="rz-emoji"><svg viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg></span>
+    <div><h3>A primeira caixa já paga tudo</h3><p>Você investe R$27,90 hoje. <b>A primeira caixa de 4 sai por R$30</b>: pagou o ingrediente e ainda sobrou troco. Da segunda em diante é seu.</p></div>
+  </div>
+
+</section>
+
+<!-- ============ 5 · CALCULADORA ============ -->
+<section class="calc">
+  <h2>Faça a conta você mesma</h2>
+  <p class="calc-sub">Com o preço do <b>seu</b> mercado, não com o do meu. Mexa as duas bolinhas.</p>
+
+  <div class="calc-box">
+    <div class="calc-field">
+      <label class="calc-label" for="calcVendas">Caixas de 4 por dia <b id="calcVendasVal">4</b></label>
+      <input class="calc-range" type="range" id="calcVendas" min="1" max="10" step="1" value="4">
+    </div>
+    <div class="calc-field">
+      <label class="calc-label" for="calcPreco">Preço da caixa de 4 <b id="calcPrecoVal">R$ 30</b></label>
+      <input class="calc-range" type="range" id="calcPreco" min="20" max="45" step="5" value="30">
+    </div>
+
+    <div class="calc-conta">
+      <div class="calc-linha"><span>Caixas no mês</span><b id="calcPacotes">120</b></div>
+      <div class="calc-linha"><span>Você recebe<small id="calcFatDet">120 caixas × R$ 30</small></span><b id="calcFat">R$ 3.600</b></div>
+      <div class="calc-linha calc-linha-neg"><span>Ingredientes<small id="calcCustoDet">R$ 0,83 de ingrediente por rolinho</small></span><b id="calcCusto">− R$ 400</b></div>
+    </div>
+
+    <div class="calc-result">
+      <div class="calc-res-big" id="calcLucro">R$ 3.200</div>
+      <div class="calc-res-big-lab">sobra pra você no mês</div>
+    </div>
+
+    <p class="calc-frase" id="calcFrase">São 4 caixas por dia. Uma manhã de WhatsApp resolve.</p>
+  </div>
+
+  <div class="calc-cta"><a href="#oferta" class="btn">QUERO COMEÇAR A VENDER</a></div>
+</section>
+
+<!-- ============ 6 · TUDO O QUE VOCÊ VAI RECEBER ============ -->
+<section class="produto">
+  <p class="produto-eyebrow">VOCÊ VAI RECEBER ACESSO IMEDIATO A:</p>
+  <div class="produto-inner">
+    <img src="{{IMG:produto:1}}" alt="Mockup do Rolinhos Gourmet Lucrativos: celular mostrando o passo a passo da massa ao lado da folha de preço impressa em A4" loading="lazy" decoding="async" class="produto-img">
+    <p class="produto-nome">Rolinhos Gourmet Lucrativos</p>
+    <p class="produto-sub">Uma massa base que rende 24, oito recheios, três coberturas e a Fornada Encomendada: o jeito de vender antes de assar.</p>
+    <div class="produto-divider"></div>
+    <ul class="checklist">
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>A massa base que rende 24 rolinhos, numa tigela e sem batedeira</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Os 8 recheios: canela, doce de leite, Romeu e Julieta, maçã, avelã, coco queimado, caramelo salgado e frutas vermelhas</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>As 3 coberturas: cream cheese, glacê de limão e caramelo salgado</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>As 12 horas na geladeira, hora a hora: o que fazer às 21h e o que conferir às 7h</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>As 3 marcas do ponto do forno, pra tirar na hora certa</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Os 3 tamanhos de caixa (2, 4 e 6), com o preço de cada uma</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Como guardar a massa crua pra assar no dia seguinte</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Tudo passo a passo, mesmo se você nunca fez</li>
+    </ul>
+
+  </div>
+</section>
+
+<!-- ============ 7 · IDEAL PARA VOCÊ ============ -->
+<section class="ideal">
+  <h2 class="ideal-titulo">O Rolinhos Gourmet Lucrativos é para você que:</h2>
+
+  <div class="ideal-card-wrap">
+    <div class="ideal-card"><div class="card-icon-emoji"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></div><div><h3>Já vende doce e está cansada de ver sobrar</h3><p>Você não precisa aprender a fazer. Precisa parar de assar o que ninguém pediu. Aqui a ordem inverte: vende primeiro, assa depois.</p></div></div>
+  </div>
+
+  <div class="ideal-card-wrap">
+    <div class="ideal-card"><div class="card-icon-emoji"><svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/><path d="M6 12h.01M18 12h.01"/></svg></div><div><h3>Cobra R$4 no brigadeiro e sabe que é pouco</h3><p>A padaria cobra R$12 num rolinho de canela. O ingrediente é mais barato que o do seu brigadeiro. O que falta não é preço: é o produto certo.</p></div></div>
+  </div>
+
+  <div class="ideal-card-wrap">
+    <div class="ideal-card"><div class="card-icon-emoji"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div><div><h3>Trabalha fora e só tem o fim de semana</h3><p>Uma tarde de sábado rende a semana inteira de vendas. Depois é só tirar do freezer e assar o que a cliente já pagou.</p></div></div>
+  </div>
+
+  <div class="ideal-card-wrap">
+    <div class="ideal-card"><div class="card-icon-emoji"><svg viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg></div><div><h3>Nunca vendeu nada e tem medo de gastar à toa</h3><p>Esse é o ponto: você não gasta antes de vender. A primeira caixa é feita depois que a primeira cliente já pagou.</p></div></div>
+  </div>
+
+  <div class="ideal-card-wrap">
+    <div class="ideal-card"><div class="card-icon-emoji"><svg viewBox="0 0 24 24"><path d="M4 20l5-14 9 9z"/><path d="M15 3l1 2M20 5l-2 1M19 10l2 1"/></svg></div><div><h3>Não quer depender de festa nem de encomenda grande</h3><p>Ninguém precisa de aniversário para tomar café da manhã. Rolinho de canela vende em terça-feira comum, o ano inteiro.</p></div></div>
+  </div>
+
+  <div class="ideal-cta"><a href="#oferta" class="btn">QUERO COMEÇAR A VENDER</a></div>
+</section>
+
+<!-- ============ 8 · BÔNUS ============ -->
+<div class="bonus-bridge">
+  <p class="bridge-eyebrow">E ISSO NÃO É TUDO</p>
+  <p class="bridge-sub">você ainda recebe…</p>
+  <h3 class="bridge-titulo">6 BÔNUS<br>EXCLUSIVOS</h3>
+</div>
+
+<section class="bonuses">
+  <div class="bonus-card"><div class="bonus-img-area"><img src="{{IMG:bonus:1}}" alt="Bônus 1 — calendário de 30 dias com as tarefas de venda marcadas dia a dia" loading="lazy" decoding="async"></div><div class="bonus-body"><span class="bonus-num-tag">🔥 BÔNUS 1</span><h3>As 30 encomendas do primeiro mês</h3><div class="bonus-divider"></div><p>O que postar e para quem oferecer em cada um dos 30 dias. <b>Abre no dia 1, faz o que está escrito no dia 1, e segue.</b></p></div></div>
+
+  <div class="bonus-card"><div class="bonus-img-area"><img src="{{IMG:bonus:2}}" alt="Bônus 2 — tabela com 10 recheios gourmet extras, cada um com a proporção de ingredientes" loading="lazy" decoding="async"></div><div class="bonus-body"><span class="bonus-num-tag">🔥 BÔNUS 2</span><h3>Mais 10 recheios gourmet</h3><div class="bonus-divider"></div><p>Com os 8 do produto, você fecha <b>18 sabores</b> usando sempre a mesma massa base. <b>Escolhe o da semana e roda.</b></p></div></div>
+
+  <div class="bonus-card"><div class="bonus-img-area"><img src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/rolinhos-gourmet-lucrativos/bonus-3.webp" alt="Bônus 3 — tela de conversa de WhatsApp com as mensagens prontas de encomenda" loading="lazy" decoding="async"></div><div class="bonus-body"><span class="bonus-num-tag">🔥 BÔNUS 3</span><h3>As 15 mensagens que fecham encomenda no WhatsApp</h3><div class="bonus-divider"></div><p>Abrir a encomenda, responder "quanto custa", cobrar o Pix, confirmar a entrega. <b>Copia, cola e manda.</b></p></div></div>
+
+  <div class="bonus-card"><div class="bonus-img-area"><img src="{{IMG:bonus:4}}" alt="Bônus 4 — grade de 10 fotos de rolinho de canela, cada uma com o enquadramento indicado" loading="lazy" decoding="async"></div><div class="bonus-body"><span class="bonus-num-tag">🔥 BÔNUS 4</span><h3>As 10 fotos que vendem, com o roteiro de cada uma</h3><div class="bonus-divider"></div><p>O rolinho cortado ao meio, a cobertura escorrendo, a caixa fechada com laço. <b>Monta igual à referência, posta no status e espera o pedido.</b></p></div></div>
+
+  <div class="bonus-card"><div class="bonus-img-area"><img src="{{IMG:bonus:5}}" alt="Bônus 5 — folha A4 impressa com a tabela de custo, preço e lucro das três caixas, presa na geladeira com ímã" loading="lazy" decoding="async"></div><div class="bonus-body"><span class="bonus-num-tag">🔥 BÔNUS 5</span><h3>A folha de preço pra imprimir</h3><div class="bonus-divider"></div><p>Custo, preço e lucro das 3 caixas, com espaço pra você pôr o preço do seu mercado. <b>Imprime, prende na geladeira e para de chutar preço.</b></p></div></div>
+
+  <div class="bonus-card"><div class="bonus-img-area"><img src="{{IMG:bonus:6}}" alt="Bônus 6 — lista de compras com os oito ingredientes, cada um com a marca e o tipo certo" loading="lazy" decoding="async"></div><div class="bonus-body"><span class="bonus-num-tag">🔥 BÔNUS 6</span><h3>Onde comprar os 8 itens pelo menor preço</h3><div class="bonus-divider"></div><p>Qual canela, qual fermento, qual cream cheese — e onde sai mais barato. <b>Leva a lista no mercado e compra sem errar.</b></p></div></div>
+
+  <div class="bonus-card"><div class="bonus-img-area"><img src="{{IMG:bonus:7}}" alt="Bônus 7 — certificado de produção artesanal em A4, com espaço para o nome" loading="lazy" decoding="async"></div><div class="bonus-body"><span class="bonus-num-tag">🔥 BÔNUS 7</span><h3>Seu certificado de produção artesanal</h3><div class="bonus-divider"></div><p>Com o seu nome, em A4. <b>Para imprimir e pendurar na cozinha.</b></p></div></div>
+</section>
+
+<!-- ============ 10 · OFERTA ============ -->
+<div class="planos-bridge">
+  <p><strong>COMECE HOJE</strong> com tudo o que você precisa:</p>
+  <span class="arrow-bounce">↓</span>
+</div>
+
+<section class="planos" id="oferta">
+  <div class="plano-recomendado-wrap">
+    <span class="plano-rec-badge">🔥 Acesso completo</span>
+    <div class="plano-rec-card">
+      <div class="plano-rec-titulo">ROLINHOS GOURMET<br>LUCRATIVOS</div>
+      <div class="plano-body">
+        <img src="{{IMG:planos:1}}" alt="Mockup completo do Rolinhos Gourmet Lucrativos: celular com o passo a passo, a folha de preço em A4 e as capas dos 6 bônus" loading="lazy" decoding="async" class="mockup-completo">
+        <p class="plano-sub">Tudo o que você precisa para fazer a primeira fornada neste fim de semana e vender a semana inteira, mais os 7 bônus.</p>
+        <ul class="checklist" style="margin-bottom:0;">
+          <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Rolinhos Gourmet Lucrativos: a massa de 24, os 8 recheios e as 3 coberturas</li>
+          <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>As 30 encomendas do primeiro mês</li>
+          <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>As 15 mensagens que fecham encomenda no WhatsApp</li>
+          <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>As 10 fotos que vendem, com o roteiro de cada uma</li>
+          <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>A folha de preço pra imprimir</li>
+          <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Onde comprar os 8 itens pelo menor preço</li>
+          <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Seu certificado de produção artesanal</li>
+          <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Acesso vitalício, pagamento único e sem mensalidade</li>
+        </ul>
+        <div class="preco-stack">
+          <div class="preco-de">De R$197</div>
+          <div class="preco-hoje-label">Hoje apenas</div>
+          <div class="preco-valor"><span class="preco-moeda">R$</span><span class="preco-num">27</span><span class="preco-cent">,90</span></div>
+          <p class="preco-ancora">Você recupera esse valor na sua primeira caixa.</p>
+        </div>
+        <a href="{{CHECKOUT}}" class="btn btn-laranja btn-shimmer btn-pulse" target="_blank" rel="noopener">QUERO COMEÇAR A VENDER</a>
+        <div class="selos">
+          <div class="selo-item"><svg viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Compra segura</div>
+          <div class="selo-item"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Acesso imediato no seu e-mail</div>
+          <div class="selo-item"><svg viewBox="0 0 24 24"><path d="M12 21s7-3.5 7-9V5l-7-2.5L5 5v7c0 5.5 7 9 7 9z"/></svg>Garantia de 30 dias</div>
+        </div>
+        <p class="fechamento">R$27,90 é menos do que duas caixas na cafeteria. E pode ser o começo da sua renda dentro de casa.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 11 · GARANTIA ============ -->
+<section class="garantia">
+  <div class="garantia-selo">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-3.5 7-9V5l-7-2.5L5 5v7c0 5.5 7 9 7 9z"/></svg>
+    <span>Garantia de 30 dias</span>
+  </div>
+  <h2>Faça a primeira fornada.<br>Se não gostar, devolvo tudo.</h2>
+  <p>Você tem 30 dias para testar, mesmo que nunca tenha vendido nada na vida. Dá tempo de comprar o ingrediente, enrolar a massa numa noite e entregar a primeira caixa na manhã seguinte. Se não for para você, é só pedir o reembolso.</p>
+  <div class="gar-lista">
+    <div class="gar-item">
+      <div class="gar-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></div>
+      <div><strong>100% do valor devolvido</strong><span>Os R$27,90 voltam integrais</span></div>
+    </div>
+    <div class="gar-item">
+      <div class="gar-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg></div>
+      <div><strong>Sem perguntas</strong><span>Não precisa dizer por que desistiu</span></div>
+    </div>
+    <div class="gar-item">
+      <div class="gar-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></div>
+      <div><strong>Sem burocracia</strong><span>Uma mensagem e o pedido é feito</span></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============ AUTORIDADE ============ -->
+<section class="autoridade">
+  <div class="autoridade-inner">
+    <img src="{{IMG:autoridade:1}}" alt="Chef Mari Dias na cozinha, ao lado de uma assadeira de rolinhos de canela recém-saídos do forno" loading="lazy" decoding="async">
+    <div class="autoridade-text">
+      <p class="autoridade-eyebrow">Quem está por trás dos Rolinhos Gourmet Lucrativos:</p>
+      <p class="autoridade-nome">Chef Mari Dias</p>
+      <p class="autoridade-bio">Todo mês era a mesma coisa: o dinheiro apertava no fim e sempre faltava um pouco.</p>
+      <p class="autoridade-bio">Eu comecei vendendo doce barato no grupo do bairro. Trabalhava o fim de semana inteiro e via pouco sobrar. Até entender que o problema não era o meu preço, era o meu produto.</p>
+      <p class="autoridade-bio">Quando troquei para rolinho de canela vendido por encomenda, parei de assar o que ninguém tinha pedido — e as mesmas clientes passaram a encomendar toda semana. Hoje eu faturo mais de R$7.000 por mês da minha cozinha, e coloquei aqui o que eu faço no dia a dia.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMO FUNCIONA O ACESSO ============ -->
+<section class="acesso">
+  <span class="eyebrow">Simples e rápido</span>
+  <h2>Como funciona o acesso</h2>
+  <p class="acesso-sub">Da hora que você paga até a primeira encomenda entregue quente.</p>
+
+  <div class="passos">
+    <div class="passo">
+      <span class="passo-ico"><svg viewBox="0 0 24 24"><path d="M3 4h2l2.4 10.5a2 2 0 0 0 2 1.5h7.2a2 2 0 0 0 2-1.5L21 7H6"/><circle cx="10" cy="20" r="1.2"/><circle cx="17" cy="20" r="1.2"/></svg></span>
+      <div class="passo-txt"><span class="passo-num">Passo 1</span><h3>Você paga</h3><p>No <b>Pix ou no cartão</b>, pela Hotmart. No pix a confirmação sai na hora.</p></div>
+    </div>
+
+    <div class="passo">
+      <span class="passo-ico"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+      <div class="passo-txt"><span class="passo-num">Passo 2</span><h3>Chega no seu e-mail</h3><p>Na hora em que o pagamento é confirmado. <b>Sem senha, sem aplicativo e sem espera.</b></p></div>
+    </div>
+
+    <div class="passo">
+      <span class="passo-ico"><svg viewBox="0 0 24 24"><path d="M12 3v11"/><path d="M8 11l4 4 4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg></span>
+      <div class="passo-txt"><span class="passo-num">Passo 3</span><h3>Você baixa os arquivos</h3><p>Abre no celular, no computador ou imprime. <b>São seus para sempre</b>, sem mensalidade.</p></div>
+    </div>
+
+    <div class="passo">
+      <span class="passo-ico"><svg viewBox="0 0 24 24"><path d="M4 9h13v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M17 10h2a2 2 0 0 1 0 4h-2"/><path d="M8 3v2M12 3v2"/></svg></span>
+      <div class="passo-txt"><span class="passo-num">Passo 4</span><h3>Faz a primeira fornada no fim de semana</h3><p>A <b>lista dos 8 itens já vem pronta</b>. Uma tarde na cozinha e você tem rolinhos congelados para a semana inteira.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 13 · FAQ ============ -->
+<section class="faq">
+  <h2>Perguntas Frequentes</h2>
+  <div class="faq-item"><button class="faq-question">Aqui na minha cidade ninguém paga R$30 numa caixa. Vai funcionar?<span class="faq-arrow">▼</span></button><div class="faq-answer">São 4 rolinhos, o que dá R$7,50 cada. Na padaria de São Paulo, um sozinho custa R$12, e na cafeteria passa de R$20. E você tem 3 tamanhos de caixa na folha de preço, então dá para começar pela de 2 se a sua região pedir.</div></div>
+  <div class="faq-item"><button class="faq-question">Por que pagar se tem receita de rolinho de canela de graça na internet?<span class="faq-arrow">▼</span></button><div class="faq-answer">Receita tem de sobra. O que não tem é a Fornada Encomendada: enrolar uma vez, guardar cru no freezer e assar só o que já foi pago. Não tem a folha que diz por quanto vender cada caixa, nem as 15 mensagens que fecham a encomenda. Você não está comprando a receita — está comprando o jeito de vender sem sobrar. E se testar e não for isso, eu devolvo os R$27,90.</div></div>
+  <div class="faq-item"><button class="faq-question">Serve para mim que nunca fiz rolinho de canela na vida?<span class="faq-arrow">▼</span></button><div class="faq-answer">Serve. É massa de pão doce comum, feita numa tigela. Fermento de padaria, do que se compra no mercado. Tudo é explicado passo a passo, do ponto da massa às 3 marcas que dizem a hora de tirar do forno.</div></div>
+  <div class="faq-item"><button class="faq-question">Preciso comprar algum equipamento?<span class="faq-arrow">▼</span></button><div class="faq-answer">Não. Você mistura na tigela, com a mão, e assa em forno comum. Não precisa de batedeira, de masseira nem de forma especial.</div></div>
+  <div class="faq-item"><button class="faq-question">E se eu enrolar e ninguém pedir naquele dia?<span class="faq-arrow">▼</span></button><div class="faq-answer">Esse é justamente o ponto. A massa enrolada fica na geladeira, crua, e vira a fornada do dia seguinte. Você só perde ingrediente se assar antes de vender — e aqui você não assa antes de vender.</div></div>
+  <div class="faq-item"><button class="faq-question">Quanto tempo leva?<span class="faq-arrow">▼</span></button><div class="faq-answer">Uma tarde para misturar, enrolar e congelar. A geladeira trabalha sozinha pelas 12 horas seguintes. Depois é só assar o que vendeu, e assar leva o tempo de tomar um café.</div></div>
+  <div class="faq-item"><button class="faq-question">E se eu não tiver cliente nenhum ainda?<span class="faq-arrow">▼</span></button><div class="faq-answer">Você recebe o roteiro das 10 fotos que fazem o pedido chegar e as 15 mensagens prontas para oferecer, mais o plano das 30 encomendas do primeiro mês. Dá para começar a divulgar hoje, antes de comprar ingrediente, e só produzir depois que o pedido estiver confirmado.</div></div>
+  <div class="faq-item"><button class="faq-question">Como eu recebo as receitas e os bônus?<span class="faq-arrow">▼</span></button><div class="faq-answer">Direto no seu e-mail, na hora em que o pagamento for confirmado. Sem senha, sem aplicativo e sem espera.</div></div>
+  <div class="faq-item"><button class="faq-question">Quais são as formas de pagamento?<span class="faq-arrow">▼</span></button><div class="faq-answer">Pix ou cartão de crédito. No pix o acesso sai na hora.</div></div>
+  <div class="faq-item"><button class="faq-question">Por quanto tempo eu tenho acesso?<span class="faq-arrow">▼</span></button><div class="faq-answer">Para sempre. É pagamento único: você baixa os arquivos e eles são seus, sem mensalidade e sem renovação.</div></div>
+  <div class="faq-item"><button class="faq-question">E se eu não gostar?<span class="faq-arrow">▼</span></button><div class="faq-answer">Você tem 30 dias para testar. Se sentir que não é para você, é só pedir o reembolso e devolvemos o valor inteiro.</div></div>
+  <div class="faq-item"><button class="faq-question">A compra é segura?<span class="faq-arrow">▼</span></button><div class="faq-answer">Sim. O pagamento é processado pela Hotmart, uma das maiores plataformas de produtos digitais do Brasil, que é quem cuida da cobrança e da garantia.</div></div>
+  <div class="demo-cta">
+    <a href="#oferta" class="btn btn-laranja btn-shimmer btn-pulse">QUERO COMEÇAR A VENDER</a>
+    <p class="btn-micro">🛡️ 30 dias de garantia · 🔒 compra segura</p>
+  </div>
+</section>
+
+<!-- ============ 14 · RODAPÉ ============ -->
+<footer>
+  <strong>Copyright 2026 | Rolinhos Gourmet Lucrativos</strong><br><br>
+  Os valores citados nesta página são exemplos e não representam garantia de ganho. Os resultados variam conforme a dedicação, a rotina e a região de cada pessoa.<br><br>
+  Todos os direitos sobre a obra "Rolinhos Gourmet Lucrativos" são reservados nos termos da Lei nº 9.610/98.
+</footer>
+
+<script>
+window.addEventListener('scroll',()=>{const el=document.getElementById('progressBar');if(!el)return;const t=document.body.scrollHeight-window.innerHeight;el.style.width=Math.min((window.scrollY/t)*100,100)+'%';},{passive:true});
+(function(){const track=document.getElementById('carouselTrack');if(!track||track.dataset.cloned)return;const items=Array.from(track.children);items.forEach(i=>track.appendChild(i.cloneNode(true)));track.dataset.cloned='true';function upd(){const f=track.children[items.length];if(f)track.style.setProperty('--scroll-distance',f.offsetLeft+'px');}upd();track.style.animationPlayState='running';setTimeout(upd,300);setTimeout(upd,1000);window.addEventListener('resize',upd,{passive:true});})();
+document.querySelectorAll('.faq-question').forEach(btn=>{btn.addEventListener('click',function(){const item=this.closest('.faq-item');const open=item.classList.contains('open');document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('open'));if(!open)item.classList.add('open');});});
+document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',e=>{e.preventDefault();const id=a.getAttribute('href').slice(1);const t=document.getElementById(id);if(t)t.scrollIntoView({behavior:'smooth',block:'start'});});});
+(function(){
+  const v=document.getElementById('calcVendas'),p=document.getElementById('calcPreco');
+  if(!v||!p)return;
+  const CUSTO=20/24;
+  const vv=document.getElementById('calcVendasVal'),pv=document.getElementById('calcPrecoVal');
+  const luc=document.getElementById('calcLucro'),fr=document.getElementById('calcFrase');
+  const pac=document.getElementById('calcPacotes'),fat=document.getElementById('calcFat'),cus=document.getElementById('calcCusto'),det=document.getElementById('calcFatDet'),cdet=document.getElementById('calcCustoDet');
+  const brl=n=>'R$ '+Math.round(n).toLocaleString('pt-BR');
+  const frases={1:'É uma caixa por dia. Uma só.',2:'São 2 caixas por dia. Dá pra fazer só no grupo da família.',3:'São 3 caixas por dia. Você tem mais de 3 vizinhas.',4:'São 4 caixas por dia. Uma manhã de WhatsApp resolve.',5:'São 5 caixas por dia. Cabe até em quem trabalha fora.',6:'São 6 caixas por dia. Uma massa e meia por manhã.',7:'São 7 caixas por dia. Duas assadeiras antes das oito.',8:'São 8 caixas por dia. Já é encomenda fixa de vizinha.',9:'São 9 caixas por dia. Duas massas por noite.',10:'São 10 caixas por dia. Aí já não cabe mais sozinha.'};
+  function upd(){
+    const q=parseInt(v.value,10), pre=parseInt(p.value,10);
+    const mes=q*30, rolinhos=mes*4;
+    const fatMes=mes*pre, custoMes=rolinhos*CUSTO;
+    vv.textContent=q; pv.textContent='R$ '+pre;
+    pac.textContent=mes;
+    fat.textContent=brl(fatMes);
+    det.textContent=mes+' caixas × R$ '+pre;
+    cus.textContent='− '+brl(custoMes);
+    luc.textContent=brl(fatMes-custoMes);
+    fr.textContent=frases[q]||('São '+q+' caixas por dia. '+mes+' caixas no mês.');
+  }
+  v.addEventListener('input',upd); p.addEventListener('input',upd); upd();
+})();
+(function(){
+  const lists=document.querySelectorAll('.checklist, .demo-check');
+  if(!('IntersectionObserver' in window)){lists.forEach(l=>l.classList.add('animated'));return;}
+  const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('animated');io.unobserve(e.target);}});},{threshold:.25});
+  lists.forEach(l=>io.observe(l));
+})();
+</script>
+</body>
+</html>
