@@ -35,3 +35,8 @@ imagens-novas/
 # o app e o produto que a pessoa paga pra receber. A pagina de vendas e publica
 # por natureza; o app, nao — repo publico daria o produto de graca
 saidas/modelagem/**/app-*.html
+
+# o PDF de acesso e a fonte dele carregam o link de entrega: quem tem o link
+# tem o produto, entao nao vao pro repo publico
+saidas/modelagem/**/pdf-acesso.html
+saidas/modelagem/**/Acesso*.pdf

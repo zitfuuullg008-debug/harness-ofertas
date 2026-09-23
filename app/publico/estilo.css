@@ -508,3 +508,19 @@ code {
 
 /* o Termômetro ocupa a área inteira: ele traz o próprio layout e o próprio tema */
 .conteudo.cheia { padding: 0; position: relative; overflow: hidden; }
+
+/* ------------------------------------------------------------ gate do MVT */
+/* A pergunta que pausa a modelagem. Mora dentro do console, entre a régua de
+   etapas e o corpo: quem olha entende que não terminou, está esperando. */
+.gate { padding: 10px 13px 13px; border-top: 1px solid var(--linha); background: var(--fundo-2); }
+.gate.esconde { display: none; }
+.gate-pergunta { font-weight: 700; font-size: 14px; line-height: 1.4; }
+.gate-contexto { font-size: 12.5px; color: var(--tinta-fraca); line-height: 1.55; margin-top: 6px; white-space: pre-wrap; }
+.gate-opcoes { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+.gate-livre { display: flex; gap: 6px; margin-top: 8px; }
+.gate-livre input {
+  flex: 1; min-width: 0; padding: 8px 11px; border-radius: 9px;
+  border: 1px solid var(--linha); background: var(--fundo); color: var(--tinta);
+  font-family: inherit; font-size: 13px; outline: none;
+}
+.gate-livre input:focus { border-color: var(--roxo); }

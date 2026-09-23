@@ -20,11 +20,38 @@ Abra o `linkVenda` e **classifique o formato do destino**, porque é isso que de
 
 Defina o `<slug>` em kebab-case e crie **`saidas/modelagem/<hoje>-<slug>/`**.
 
-## 2. Dois modos
+## 2. Três modos
 
-### Sem `--auto` — acompanhado
+### Sem bandeira — acompanhado, no chat
 
 Uma etapa por vez, com gate de confirmação no fim de cada uma. O usuário está na frente do teclado: pergunte.
+
+### Com `--gates` — acompanhado, pelo painel (o botão "💬 com você")
+
+A rodada é headless, mas **tem gente olhando a tela do painel**. Você não consegue perguntar no chat — o que escreve ali se perde. Então a pergunta vai para um arquivo, e o painel mostra com botões.
+
+No fim de cada etapa:
+
+1. Escreva o arquivo da etapa normalmente (`01-pesquisa.md`, `02-concepcao.md`, …).
+2. Grave `data/gate.json` na raiz do projeto, exatamente com estas chaves:
+
+```json
+{
+  "pergunta": "A concepção fechou em X. Seguimos com ela?",
+  "contexto": "Nome: ...\nRecorte: ...\nMecanismo: ...\nPreço: ...",
+  "opcoes": ["Seguir para a página", "Mudar o recorte", "Trocar o produto"]
+}
+```
+
+3. **Encerre o turno** — não continue para a etapa seguinte. Quem retoma é a resposta dela.
+
+Regras do gate: a `pergunta` cabe numa linha; o `contexto` traz o que ela precisa para decidir (o resumo do que você acabou de fazer, não a explicação do método); as `opcoes` são no máximo cinco, cada uma uma ação clara, e **a primeira é sempre seguir em frente**. Ela também pode escrever livremente em vez de clicar.
+
+Quando o turno seguinte começar, a resposta dela é a primeira mensagem. Aja de acordo e vá para a etapa seguinte — ou refaça a atual, se foi isso que ela pediu. **Apague o `data/gate.json`** só se ele ainda existir; o painel normalmente já apagou.
+
+### Com `--auto` — sozinho (o botão "★ Modelar página" do painel)
+
+**Ninguém está no teclado.** A rodada é headless: o que você escrever no chat se perde, e uma pergunta de gate trava tudo até o limite de turnos. Nesta modalidade e só nela:
 
 ### Com `--auto` — sozinho (o botão "★ Modelar página" do painel)
 

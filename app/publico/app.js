@@ -177,6 +177,54 @@ function tiqueBarra() {
   }, 1000);
 }
 
+/* ------------------------------------------------------------------ gate */
+
+/* A pergunta que a fase deixou antes de encerrar o turno. Aparece na mesma
+   tela da régua: o trabalho não terminou, só está esperando a sua decisão. */
+function mostraGate(trabalho) {
+  const g = trabalho?.pergunta;
+  const caixa = $("#gate");
+  if (!g) { caixa.classList.add("esconde"); caixa.innerHTML = ""; return; }
+
+  estado.gate = trabalho;
+  caixa.classList.remove("esconde");
+  caixa.innerHTML = `
+    <div class="gate-pergunta">${esc(g.pergunta)}</div>
+    ${g.contexto ? `<div class="gate-contexto">${esc(g.contexto)}</div>` : ""}
+    <div class="gate-opcoes">
+      ${(g.opcoes ?? []).map((o) => `<button class="btn pequeno" data-resposta="${esc(o)}">${esc(o)}</button>`).join("")}
+    </div>
+    <div class="gate-livre">
+      <input id="gate-texto" placeholder="ou escreva o que você quer mudar…" autocomplete="off">
+      <button class="btn pequeno principal" id="gate-enviar">Responder</button>
+    </div>`;
+
+  caixa.querySelectorAll("[data-resposta]").forEach((b) => {
+    b.onclick = () => responde(b.dataset.resposta);
+  });
+  const campo = $("#gate-texto");
+  $("#gate-enviar").onclick = () => responde(campo.value);
+  campo.onkeydown = (e) => { if (e.key === "Enter") responde(campo.value); };
+  campo.focus();
+}
+
+async function responde(texto) {
+  const t = String(texto ?? "").trim();
+  if (!t) return avisa("Escreva a resposta ou escolha uma opção.");
+  $("#gate").classList.add("esconde");
+  try {
+    const novo = await api("/api/responder", { corpo: { resposta: t } });
+    estado.rodando = novo;
+    estado.gate = null;
+    linhaConsole({ hora: new Date().toLocaleTimeString("pt-BR"), nivel: "fala", texto: `Você: ${t}` });
+    pintaStatus();
+    tiqueBarra();
+  } catch (e) {
+    avisa(e.message);
+    mostraGate(estado.gate);   // devolve a pergunta: nada se perdeu
+  }
+}
+
 function pintaStatus() {
   const t = estado.rodando;
   const p = $("#status");
@@ -203,7 +251,22 @@ function ligaEventos() {
     pintaStatus();
   });
   es.addEventListener("linha", (e) => linhaConsole(JSON.parse(e.data)));
+  // Gate: a fase parou pra perguntar. Nada terminou — a barra fica onde está
+  // e a pergunta aparece logo abaixo da régua de etapas.
+  es.addEventListener("pergunta", (e) => {
+    const t = JSON.parse(e.data);
+    estado.rodando = null;
+    estado.ultimaChave = t.chave;
+    $("#btn-parar").classList.add("esconde");
+    $("#console-titulo").textContent = `${t.rotulo} — esperando você`;
+    $("#console-etapa").textContent = "sua vez";
+    $("#console").classList.remove("minimo");
+    mostraGate(t);
+    pintaStatus();
+    avisa("A modelagem parou pra te perguntar uma coisa.");
+  });
   es.addEventListener("fim", async (e) => {
+    mostraGate(null);
     const t = JSON.parse(e.data);
     estado.rodando = null;
     $("#barra").style.width = "100%";
@@ -365,7 +428,7 @@ function cartaoOferta(o, n) {
 
       <div class="pes">
         <button class="btn pequeno principal" data-modelar="${esc(o.pagina)}" title="Roda o pipeline MVT sozinho e grava tudo em saidas/modelagem/">★ Modelar página</button>
-        <button class="btn pequeno" data-modelar-junto="${esc(o.pagina)}" title="Manda o pedido pra conversa do Claude aqui no app — você decide fase por fase por lá">💬 com você</button>
+        <button class="btn pequeno" data-modelar-junto="${esc(o.pagina)}" title="Mesma tela do automático, mas parando em cada fase pra você decidir">💬 com você</button>
         ${o.linkVenda ? `<button class="btn pequeno fantasma" data-link="${esc(o.linkVenda)}">Página de vendas</button>` : ""}
         ${o.urlBiblioteca ? `<button class="btn pequeno fantasma" data-link="${esc(o.urlBiblioteca)}">Este anúncio</button>` : ""}
       </div>
@@ -678,17 +741,9 @@ function liga() {
     b.onclick = () => rodar("modelar", b.dataset.modelar);
   });
   tela.querySelectorAll("[data-modelar-junto]").forEach((b) => {
-    // Em vez de abrir terminal, deixa o pedido na fila que a conversa do Claude
-    // no app vigia. Com ela aberta, a modelagem começa lá na hora; fechada, o
-    // pedido espera — nada se perde, só não é instantâneo.
-    b.onclick = async () => {
-      try {
-        const r = await api("/api/pedir-modelagem", { corpo: { pagina: b.dataset.modelarJunto } });
-        avisa(r.naFila > 1
-          ? `Pedido enviado — ${r.naFila} esperando na conversa do Claude.`
-          : "Pedido enviado. Abra a conversa do Claude no app: ele começa por lá.");
-      } catch (e) { avisa(e.message); }
-    };
+    // Mesma tela do automático, mas parando pra perguntar: a cada fase o
+    // pipeline deixa a pergunta e o console mostra com botões de resposta.
+    b.onclick = () => rodar("modelarJunto", b.dataset.modelarJunto);
   });
 
   tela.querySelectorAll("[data-tarefa]").forEach((b) => {
@@ -764,6 +819,12 @@ $("#console-topo").onclick = () => $("#console").classList.toggle("minimo");
   regua.id = "etapas";
   regua.className = "etapas esconde";
   $("#barra").closest("div").parentElement.after(regua);
+
+  // A caixa do gate: fica entre a régua e o corpo, escondida até ele chegar.
+  const caixa = document.createElement("div");
+  caixa.id = "gate";
+  caixa.className = "gate esconde";
+  regua.after(caixa);
 
   const t = localStorage.getItem("tema");
   if (t) {

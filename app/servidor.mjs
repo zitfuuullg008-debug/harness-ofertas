@@ -20,7 +20,7 @@
 import { createServer } from "node:http";
 import { spawn } from "node:child_process";
 import {
-  createReadStream, existsSync, mkdirSync, readdirSync, readFileSync, renameSync, statSync, writeFileSync,
+  createReadStream, existsSync, mkdirSync, readdirSync, readFileSync, renameSync, statSync, unlinkSync, writeFileSync,
 } from "node:fs";
 import { tmpdir } from "node:os";
 import { basename, dirname, extname, join, resolve } from "node:path";
@@ -69,6 +69,12 @@ const RECEITAS = {
     // --auto: o pipeline decide os gates sozinho e grava tudo em arquivo,
     // porque numa rodada headless não há ninguém pra confirmar fase por fase.
     prompt: (arg) => `/modelar --auto ${arg ?? ""}`.trim(), minutos: 45, turnos: 400,
+  },
+  modelarJunto: {
+    rotulo: "Modelar oferta (com você)", tipo: "claude",
+    // --gates: para em cada fase, escreve a pergunta em data/gate.json e encerra
+    // o turno. O painel mostra, você responde, e a conversa segue com --resume.
+    prompt: (arg) => `/modelar --gates ${arg ?? ""}`.trim(), minutos: 15, turnos: 200,
   },
   termometro: {
     rotulo: "Atualizar o termômetro", tipo: "claude",
@@ -122,6 +128,7 @@ const RECEITAS = {
 
 let contador = 0;
 let emAndamento = null;       // trabalho rodando agora (só um por vez)
+let aguardando = null;        // trabalho parado num gate, esperando resposta
 const ouvintes = new Set();   // respostas SSE abertas
 const historicoVivo = [];     // trabalhos desta sessão, com a saída completa
 
@@ -175,9 +182,32 @@ const resumoTrabalho = (t) => (t ? {
   id: t.id, chave: t.chave, rotulo: t.rotulo, status: t.status,
   inicio: t.inicio, fim: t.fim, minutos: t.minutos,
   segundos: Math.round(((t.fim ?? Date.now()) - t.inicio) / 1000),
+  pergunta: t.pergunta ?? null,
 } : null);
 
-function iniciaTrabalho(chave, argumento) {
+/* O gate em disco. A fase escreve a pergunta aqui e encerra o turno; o painel
+   mostra, a pessoa responde, e a conversa segue com --resume. Um arquivo só
+   basta porque o painel roda uma coisa de cada vez. */
+const ARQ_GATE = join(RAIZ, "data", "gate.json");
+
+function lePergunta() {
+  if (!existsSync(ARQ_GATE)) return null;
+  try {
+    const g = JSON.parse(readFileSync(ARQ_GATE, "utf8"));
+    if (!g?.pergunta) return null;
+    return {
+      pergunta: String(g.pergunta).slice(0, 400),
+      contexto: String(g.contexto ?? "").slice(0, 2000),
+      opcoes: (Array.isArray(g.opcoes) ? g.opcoes : []).slice(0, 5).map((o) => String(o).slice(0, 120)),
+    };
+  } catch { return null; }
+}
+
+function apagaPergunta() {
+  try { if (existsSync(ARQ_GATE)) unlinkSync(ARQ_GATE); } catch { /* já foi */ }
+}
+
+function iniciaTrabalho(chave, argumento, retomar) {
   const receita = RECEITAS[chave];
   if (!receita) throw new Error("Não conheço essa ação.");
   if (emAndamento) throw new Error(`Já tem uma coisa rodando: ${emAndamento.rotulo}. Espere terminar ou clique em parar.`);
@@ -192,19 +222,24 @@ function iniciaTrabalho(chave, argumento) {
     status: "rodando",
     minutos: receita.minutos,
     saida: [],
+    sessaoClaude: null,   // id da conversa, pra retomar num gate
+    pergunta: null,       // o gate em aberto, quando houver
   };
 
   let cmd;
   let args;
   if (receita.tipo === "claude") {
     cmd = CLAUDE;
-    args = [
-      "-p", receita.prompt(argumento),
+    // Retomando de um gate: mesma conversa, a resposta como nova mensagem.
+    args = retomar
+      ? ["-p", retomar.resposta, "--resume", retomar.sessao]
+      : ["-p", receita.prompt(argumento)];
+    args.push(
       "--permission-mode", "acceptEdits",
       "--output-format", "stream-json",
       "--verbose",
       "--max-turns", String(receita.turnos ?? 140),
-    ];
+    );
   } else if (receita.tipo === "node") {
     cmd = process.execPath;
     args = receita.args(argumento);
@@ -237,7 +272,12 @@ function iniciaTrabalho(chave, argumento) {
       const t = linha.trim();
       if (!t) continue;
       try {
-        for (const [nivel, texto] of interpreta(JSON.parse(t))) anota(trabalho, nivel, texto);
+        const evt = JSON.parse(t);
+        // Guarda o id da conversa: é ele que permite retomar num gate com --resume.
+        if (evt.type === "system" && evt.subtype === "init" && evt.session_id) {
+          trabalho.sessaoClaude = evt.session_id;
+        }
+        for (const [nivel, texto] of interpreta(evt)) anota(trabalho, nivel, texto);
       } catch {
         anota(trabalho, "passo", t);
       }
@@ -258,6 +298,21 @@ function iniciaTrabalho(chave, argumento) {
     trabalho.fim = Date.now();
     trabalho.status = trabalho.status === "parado" ? "parado" : codigo === 0 ? "ok" : "erro";
     trabalho.proc = null;
+
+    /* Parou num gate? A fase escreve a pergunta em disco antes de encerrar o
+       turno. O trabalho fica "esperando" em vez de "pronto": nada terminou,
+       ele só está esperando a decisão de quem está olhando. */
+    const gate = trabalho.status === "ok" ? lePergunta() : null;
+    if (gate && trabalho.sessaoClaude) {
+      trabalho.status = "esperando";
+      trabalho.pergunta = gate;
+      anota(trabalho, "info", `Esperando você: ${gate.pergunta}`);
+      emAndamento = null;
+      aguardando = trabalho;
+      transmite("pergunta", resumoTrabalho(trabalho));
+      return;
+    }
+
     anota(trabalho, trabalho.status === "ok" ? "ok" : "erro",
       trabalho.status === "ok" ? "Pronto."
         : trabalho.status === "parado" ? "Parado por você."
@@ -800,6 +855,30 @@ const servidor = createServer(async (req, res) => {
         return manda(res, 500, { erro: `não consegui mover: ${e.message}` });
       }
       return manda(res, 200, { ok: true, lixeira: `saidas/modelagem/.lixeira/${basename(para)}` });
+    }
+
+    /* A resposta ao gate: retoma a MESMA conversa do Claude com o que a pessoa
+       decidiu. O arquivo do gate some antes, senão a pergunta velha reaparece
+       assim que o próximo turno terminar. */
+    if (rota === "/api/responder" && req.method === "POST") {
+      const { resposta } = await corpoDe(req);
+      if (!aguardando?.sessaoClaude) return manda(res, 400, { erro: "não tem nada esperando resposta" });
+      const texto = String(resposta ?? "").trim().slice(0, 1000);
+      if (!texto) return manda(res, 400, { erro: "resposta vazia" });
+
+      const anterior = aguardando;
+      aguardando = null;
+      apagaPergunta();
+      try {
+        const t = iniciaTrabalho(anterior.chave, anterior.argumento, {
+          sessao: anterior.sessaoClaude,
+          resposta: texto,
+        });
+        return manda(res, 200, resumoTrabalho(t));
+      } catch (e) {
+        aguardando = anterior;   // devolve o estado: ninguém perdeu o gate
+        return manda(res, 400, { erro: e.message });
+      }
     }
 
     /* "Com voce" sem terminal: deixa o pedido num arquivo que a conversa do
