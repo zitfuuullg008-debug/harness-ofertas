@@ -1,0 +1,498 @@
+{
+  "data": "2026-09-27",
+  "resumo": "O cache do Ad Hunter só trouxe 4 nichos (receitas, renda extra, maternidade, cristão) — faltam comida_caseira e receitas_infantis, sem categoria mapeada lá ainda — e é a mesma leva de 23/09, sem atualização em 4-6 dias. Depois do filtro low-ticket, do corte de saúde, de tirar as páginas do próprio usuário (revitamulher.online) e da régua de 15+ criativos no mesmo destino, sobraram 7 ofertas: várias que escalavam há 4 dias esfriaram nesse meio-tempo (Luciana Prado zerou os anúncios, Saboaria da Tia Rose e Letrar caíram abaixo da régua) — vale rodar as categorias de novo no Ad Hunter antes da próxima rodada.",
+  "nichosFaltando": [
+    "receitas_infantis",
+    "comida_caseira"
+  ],
+  "padroes": [
+    "Provas sociais quantificadas vendem: '60 mil alunas', '35 mil católicos', 'produto mais vendido do meu delivery'",
+    "Mecanismo nomeado bate catálogo genérico: um produto só (bolo gelado, sabonete glicerinado, congelar) escala mais que 'receitas variadas'",
+    "Preço-isca na manchete segue puxando clique: '7,00 hoje', '+25 mil materiais por R$10'",
+    "Maternidade escala mais em B2B pra profissional (psicopedagoga) e PLR de revenda do que em produto direto pra mãe",
+    "Mudou vs. 23/09: Rolinhos Gourmet (Luciana Prado) zerou os anúncios — campanha parece ter parado",
+    "Mudou vs. 23/09: Saboaria da Tia Rose caiu de 79 pra 15 anúncios, Letrar de 62 pra 42 — as duas saíram do pool"
+  ],
+  "nichos": [
+    {
+      "id": "receitas",
+      "nome": "Receitas",
+      "totalAnuncios": 21,
+      "totalAnunciantes": 21,
+      "ofertas": [
+        {
+          "pagina": "Nutricionista Patrícia Stênico",
+          "paginaId": "107064817659875",
+          "adId": "2059571208259789",
+          "keyword": "receitas fáceis",
+          "novo": false,
+          "vezesVisto": 3,
+          "score": 0,
+          "anunciosNaPagina": 110,
+          "criativosDaOferta": 95,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 4,
+          "diasRodando": 30,
+          "produto": "Refeições Saudáveis para Congelar: +120 receitas, cardápios e lista de compras.",
+          "preco": "R$ 19,90–37 (inferido, anúncio diz 55% OFF)",
+          "promessa": "Organize a semana em poucas horas e tenha comida pronta em minutos.",
+          "hook": "Jantar leve, rotina leve.",
+          "saturacao": "recorte",
+          "formatoDestino": "pagina",
+          "porqueEscala": [
+            "66 criativos no mesmo destino, 110 anúncios na página",
+            "Estreita pelo método de preparo: congelar, não 'receita saudável'",
+            "Cardápio e lista de compras entregam o trabalho já feito",
+            "Recorrente há 3 semanas seguidas no topo do nicho"
+          ],
+          "comoModelar": [
+            "Nomeie o mecanismo pelo preparo, não pelo prato",
+            "Entregue cardápio e lista de compras dentro do produto",
+            "Venda tempo de semana, não nutrição",
+            "Concentre a verba num destino só e varie o criativo"
+          ],
+          "recomendada": true,
+          "porqueRecomendada": "Congelar é mecanismo transportável pra qualquer comida caseira — faz uma vez, guarda, resolve a semana inteira.",
+          "linkVenda": "https://rc.patriciastenico.com.br/55-off-ads-botao-fp2/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2059571208259789",
+          "ofertaDominante": {
+            "destino": "rc.patriciastenico.com.br/55-off-ads-botao-fp2",
+            "criativos": 95
+          },
+          "destinoFinal": "pagina"
+        },
+        {
+          "pagina": "Luana Oliveira",
+          "paginaId": "1108439012356829",
+          "adId": "1022848660751097",
+          "keyword": "receitas fáceis",
+          "novo": false,
+          "vezesVisto": 3,
+          "score": 0,
+          "anunciosNaPagina": 370,
+          "criativosDaOferta": 32,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 12,
+          "diasRodando": 80,
+          "produto": "+365 Receitas Sem Açúcar, Glúten e Lactose: bolo, pizza, lasanha, cookies.",
+          "preco": "R$ 9,90–19,90 (inferido)",
+          "promessa": "Comer bolo, pizza e lasanha sem açúcar, glúten e lactose.",
+          "hook": "Você acredita que essas receitas NÃO têm açúcar, glúten e lactose?",
+          "saturacao": "recorte",
+          "formatoDestino": "pagina",
+          "porqueEscala": [
+            "370 anúncios ativos — maior anunciante de receitas do dia",
+            "Página testa 12 destinos e escala só o vencedor: 30 criativos aqui",
+            "Restrição alimentar sem prometer cura — público já ciente",
+            "Recorrente há 3 semanas seguidas no topo"
+          ],
+          "comoModelar": [
+            "Abra com incredulidade: 'você acredita que não tem...'",
+            "Liste pratos tradicionais, não ingredientes ou nutrientes",
+            "365 receitas = uma por dia; o formato vira promessa",
+            "Rode várias páginas baratas e escale só a vencedora"
+          ],
+          "recomendada": false,
+          "linkVenda": "https://as365receitascheflu.lovable.app/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1022848660751097",
+          "ofertaDominante": {
+            "destino": "as365receitascheflu.lovable.app",
+            "criativos": 32
+          },
+          "destinoFinal": "pagina"
+        }
+      ],
+      "descartados": [
+        {
+          "pagina": "Mariana Talita",
+          "motivo": "nicho black (saúde)"
+        },
+        {
+          "pagina": "Mia Carvalho",
+          "motivo": "nicho black (saúde)"
+        },
+        {
+          "pagina": "Chef Maria",
+          "motivo": "página do próprio usuário"
+        },
+        {
+          "pagina": "Receitas Deliciosas",
+          "motivo": "página do próprio usuário"
+        },
+        {
+          "pagina": "Misturas do Bem",
+          "motivo": "genérico, anúncio sem copy"
+        },
+        {
+          "pagina": "FTW",
+          "motivo": "sem página de vendas"
+        },
+        {
+          "pagina": "Fundació Pasqual Maragall",
+          "motivo": "ONG, destino Facebook"
+        },
+        {
+          "pagina": "Clara - Vianda feliz",
+          "motivo": "mercado espanhol"
+        },
+        {
+          "pagina": "Academia Karina Gao",
+          "motivo": "mercado espanhol"
+        },
+        {
+          "pagina": "Companhia Cozinhando Bem",
+          "motivo": "abaixo da régua (14 criativos, era 38 há 4 dias — já modelada pelo usuário)"
+        }
+      ]
+    },
+    {
+      "id": "renda_extra",
+      "nome": "Renda extra",
+      "totalAnuncios": 19,
+      "totalAnunciantes": 19,
+      "ofertas": [
+        {
+          "pagina": "Mayara Campos Doces",
+          "paginaId": "1717172328593393",
+          "adId": "2241062360027146",
+          "keyword": "aprenda a fazer renda extra",
+          "novo": false,
+          "vezesVisto": 3,
+          "score": 0,
+          "anunciosNaPagina": 82,
+          "criativosDaOferta": 25,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 3,
+          "diasRodando": 39,
+          "produto": "Especialista em Bolos Gelados: 10 sabores sobre a mesma base, o carro-chefe do delivery dela.",
+          "preco": "R$ 19,90–37 (inferido)",
+          "promessa": "Fazer em casa o bolo gelado que garante venda constante.",
+          "hook": "Esse é o produto mais vendido do meu delivery e pode virar o carro-chefe da sua confeitaria.",
+          "saturacao": "recorte",
+          "formatoDestino": "pagina",
+          "porqueEscala": [
+            "25 criativos nessa oferta, virou a dominante da página",
+            "Prova social do próprio negócio: 'produto mais vendido do meu delivery'",
+            "10 sabores sobre a mesma base: variação sem trabalho novo",
+            "Página testa 3 ofertas e migrou a verba pra esta"
+          ],
+          "comoModelar": [
+            "Use a prova social do próprio negócio, não depoimento de aluna",
+            "Conte os sabores no nome: N sabores sobre uma base",
+            "Venda 'vendas constantes', não sabor",
+            "Escolha um produto-carro-chefe, não o catálogo inteiro"
+          ],
+          "recomendada": true,
+          "porqueRecomendada": "'Produto mais vendido do meu delivery' é prova social direta, e 10 sabores sobre uma base é o bônus de variação que transporta pra qualquer receita-base.",
+          "linkVenda": "https://mayaracamposconfeitaria.com.br/especialista-em-bolos-gelados/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2241062360027146",
+          "ofertaDominante": {
+            "destino": "mayaracamposconfeitaria.com.br/especialista-em-bolos-gelados",
+            "criativos": 25
+          },
+          "destinoFinal": "pagina"
+        },
+        {
+          "pagina": "Aisne morelli",
+          "paginaId": "373233815878944",
+          "adId": "1401542428476587",
+          "keyword": "aprenda a fazer renda extra",
+          "novo": false,
+          "vezesVisto": 3,
+          "score": 0,
+          "anunciosNaPagina": 82,
+          "criativosDaOferta": 31,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 4,
+          "diasRodando": 97,
+          "produto": "Guia 20 Receitas de Sabonetes Glicerinados, passo a passo.",
+          "preco": "R$ 9,90–19,90 (copy diz 'valor simbólico')",
+          "promessa": "Começar na saboaria sem desperdiçar material nem errar receita.",
+          "hook": "Você quer começar na saboaria… mas tem medo de desperdiçar material?",
+          "saturacao": "recorte",
+          "formatoDestino": "pagina",
+          "porqueEscala": [
+            "31 criativos nessa oferta, 97 dias rodando — oferta madura",
+            "Abre pelo medo de desperdiçar, não pelo sonho",
+            "'Valor simbólico' evita preço na copy e puxa o clique",
+            "3ª semana seguida no topo do nicho"
+          ],
+          "comoModelar": [
+            "Abra pelo medo do iniciante, não pela promessa",
+            "Número fechado no nome: 20 receitas",
+            "'Valor simbólico' no lugar do preço puxa clique",
+            "Artesanato (não só comida) cabe no molde 'fazer e vender'"
+          ],
+          "recomendada": true,
+          "porqueRecomendada": "Abrir pelo medo do iniciante (não pelo sonho) é gancho transportável pra qualquer produto de 'fazer e vender' que assusta quem nunca tentou.",
+          "linkVenda": "https://aisnemorelli.com.br/e20g-b-29/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1401542428476587",
+          "ofertaDominante": {
+            "destino": "aisnemorelli.com.br/e20g-b-29",
+            "criativos": 31
+          },
+          "destinoFinal": "pagina"
+        }
+      ],
+      "descartados": [
+        {
+          "pagina": "Venda Sem Estoque",
+          "motivo": "funil high-ticket"
+        },
+        {
+          "pagina": "Luciano Fernandes",
+          "motivo": "investimentos, webinário"
+        },
+        {
+          "pagina": "EQI/Research",
+          "motivo": "isca de corretora"
+        },
+        {
+          "pagina": "Maximus Tecidos Finos",
+          "motivo": "abaixo da régua"
+        },
+        {
+          "pagina": "Mariana Talita",
+          "motivo": "nicho black (saúde)"
+        },
+        {
+          "pagina": "Tradeandonet",
+          "motivo": "trading, mercado espanhol"
+        },
+        {
+          "pagina": "Jaime Higuera España",
+          "motivo": "mercado espanhol"
+        },
+        {
+          "pagina": "Fabricio Sampayo",
+          "motivo": "mercado espanhol"
+        },
+        {
+          "pagina": "Saboaria da Tia Rose",
+          "motivo": "abaixo da régua (14 criativos, era 79 anúncios/32 criativos há 4 dias)"
+        },
+        {
+          "pagina": "Luciana Prado",
+          "motivo": "página zerou anúncios (era 170 anúncios/120 criativos há 4 dias — campanha parece parada)"
+        }
+      ]
+    },
+    {
+      "id": "maternidade",
+      "nome": "Maternidade e educação infantil",
+      "totalAnuncios": 18,
+      "totalAnunciantes": 18,
+      "ofertas": [
+        {
+          "pagina": "Clubinho da Família",
+          "paginaId": "109302152055510",
+          "adId": "1403235809529059",
+          "keyword": "atividades tdah",
+          "novo": false,
+          "vezesVisto": 3,
+          "score": 0,
+          "anunciosNaPagina": 92,
+          "criativosDaOferta": 42,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 7,
+          "diasRodando": 16,
+          "produto": "Pacote de testes e instrumentos prontos para avaliação psicopedagógica (oferta dominante da página).",
+          "preco": "R$ 19,90–47 (inferido)",
+          "promessa": "Saber qual teste aplicar em cada dificuldade de aprendizagem.",
+          "hook": "Na hora da avaliação psicopedagógica, fica na dúvida sobre quais testes aplicar?",
+          "saturacao": "recorte",
+          "formatoDestino": "pagina",
+          "porqueEscala": [
+            "42 criativos num link só, 92 anúncios na página",
+            "Abre pela dúvida exata do profissional na hora da sessão",
+            "Página testa 7 destinos e migrou a verba pra este",
+            "Público profissional (psicopedagoga), não pai/mãe direto"
+          ],
+          "comoModelar": [
+            "Abra pela dúvida que a pessoa tem no momento do trabalho",
+            "Venda o instrumento pronto, não o conhecimento",
+            "'Reunimos num material só' resolve arquivo espalhado"
+          ],
+          "recomendada": false,
+          "linkVenda": "https://clubedeavaliacao.site/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1403235809529059",
+          "ofertaDominante": {
+            "destino": "clubedeavaliacao.site",
+            "criativos": 31
+          },
+          "destinoFinal": "pagina"
+        },
+        {
+          "pagina": "Portal da Pedagogia",
+          "paginaId": "1317235804801190",
+          "adId": "2110675936186298",
+          "keyword": "atividades infantis",
+          "novo": false,
+          "vezesVisto": 3,
+          "score": 0,
+          "anunciosNaPagina": 130,
+          "criativosDaOferta": 46,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 3,
+          "diasRodando": 14,
+          "produto": "PLR Pedagógico: +25 mil atividades prontas pra editar e revender, R$ 10.",
+          "preco": "R$ 10",
+          "promessa": "Fazer a primeira venda no digital sem criar produto do zero.",
+          "hook": "+25 MIL MATERIAIS POR APENAS R$10",
+          "saturacao": "generico",
+          "formatoDestino": "pagina",
+          "porqueEscala": [
+            "46 criativos, 130 anúncios ativos em só 14 dias",
+            "Junta dois desejos: renda extra e material pedagógico",
+            "Volume gigante com preço baixo é oferta irrecusável",
+            "Direito de revenda transforma comprador em divulgador"
+          ],
+          "comoModelar": [
+            "Número gigante e preço na mesma manchete",
+            "Venda o atalho: 'sem criar produto do zero'",
+            "Direito de revenda como o bônus de maior valor"
+          ],
+          "recomendada": false,
+          "linkVenda": "https://oferta.portaldapedagogia.com.br/",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=2110675936186298",
+          "ofertaDominante": {
+            "destino": "oferta.portaldapedagogia.com.br",
+            "criativos": 40
+          },
+          "destinoFinal": "pagina"
+        }
+      ],
+      "descartados": [
+        {
+          "pagina": "Carlos Klein - Personal",
+          "motivo": "nicho black (saúde)"
+        },
+        {
+          "pagina": "Chef Maria",
+          "motivo": "página do próprio usuário"
+        },
+        {
+          "pagina": "CriAtivar Recursos Terapêuticos",
+          "motivo": "vai direto ao checkout"
+        },
+        {
+          "pagina": "Nutri Infantil",
+          "motivo": "funil de aula, não página"
+        },
+        {
+          "pagina": "Stella Soragi",
+          "motivo": "destino Instagram"
+        },
+        {
+          "pagina": "PMMinas - Otávio Souza",
+          "motivo": "concurso público"
+        },
+        {
+          "pagina": "João & Maria Editora",
+          "motivo": "provável livro físico"
+        },
+        {
+          "pagina": "Bebê de Nutri",
+          "motivo": "curso longo, abaixo da régua"
+        },
+        {
+          "pagina": "Sara Fialho - Psicopedagoga",
+          "motivo": "abaixo da régua"
+        },
+        {
+          "pagina": "Letrar",
+          "motivo": "abaixo da régua (8 criativos, era 22 há 4 dias)"
+        }
+      ]
+    },
+    {
+      "id": "cristao",
+      "nome": "Cristão / Espiritualidade",
+      "totalAnuncios": 18,
+      "totalAnunciantes": 18,
+      "ofertas": [
+        {
+          "pagina": "Mapa da Bíblia",
+          "paginaId": "699595763247977",
+          "adId": "1570523798104404",
+          "keyword": "estudo bíblico",
+          "novo": false,
+          "vezesVisto": 3,
+          "score": 0,
+          "anunciosNaPagina": 52,
+          "criativosDaOferta": 21,
+          "criativosEstimados": null,
+          "ofertasNaPagina": 2,
+          "diasRodando": 43,
+          "produto": "Mapa da Bíblia: resumo visual de cada um dos 73 livros da Bíblia católica.",
+          "preco": "R$ 19,90–37 (inferido)",
+          "promessa": "Entender todos os livros da Bíblia com resumo visual.",
+          "hook": "Você sabe o que aconteceu depois que Jesus subiu ao Céu?",
+          "saturacao": "recorte",
+          "formatoDestino": "pagina",
+          "porqueEscala": [
+            "21 criativos nessa oferta, 52 anúncios na página",
+            "Abre com a pergunta literal que o público já faz",
+            "'Resumo visual' é mecanismo que se entende na hora",
+            "Prova social: mais de 35 mil católicos dentro"
+          ],
+          "comoModelar": [
+            "Use a pergunta exata que o público já faz",
+            "Transforme conteúdo longo em resumo visual contável",
+            "'Pra vida toda' substitui garantia e justifica preço"
+          ],
+          "recomendada": false,
+          "linkVenda": "http://mapadocatolico.com/mapa-da-biblia",
+          "urlBiblioteca": "https://www.facebook.com/ads/library/?id=1570523798104404",
+          "ofertaDominante": {
+            "destino": "mapadocatolico.com.br",
+            "criativos": 31
+          },
+          "destinoFinal": "pagina"
+        }
+      ],
+      "descartados": [
+        {
+          "pagina": "Pastor Daniel Díaz",
+          "motivo": "mercado espanhol"
+        },
+        {
+          "pagina": "Academia de Pregadores",
+          "motivo": "destino Instagram"
+        },
+        {
+          "pagina": "El Mateus Eleuterio",
+          "motivo": "mercado espanhol"
+        },
+        {
+          "pagina": "Destra For The Nations",
+          "motivo": "funil high-ticket"
+        },
+        {
+          "pagina": "Instituto La Palabra",
+          "motivo": "mercado espanhol"
+        },
+        {
+          "pagina": "João Claudio Rufino",
+          "motivo": "abaixo da régua"
+        },
+        {
+          "pagina": "O VERSO DA VIDA",
+          "motivo": "produto físico"
+        },
+        {
+          "pagina": "Pastor Saulo Daniel",
+          "motivo": "funil de lançamento gratuito"
+        },
+        {
+          "pagina": "Ivna Karla",
+          "motivo": "abaixo da régua"
+        },
+        {
+          "pagina": "Bíblia Online de Estudo",
+          "motivo": "abaixo da régua"
+        }
+      ]
+    }
+  ]
+}

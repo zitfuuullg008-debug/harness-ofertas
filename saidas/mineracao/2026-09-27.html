@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ofertas escaladas — 27 de setembro de 2026</title>
+<style>
+  :root { --bg:#0f1115; --card:#171a21; --line:#262a33; --txt:#e8eaf0; --mut:#9aa1ad; --acc:#8b5cf6; --ok:#22c55e; --warn:#f59e0b; }
+  * { box-sizing:border-box }
+  body { margin:0; background:var(--bg); color:var(--txt); font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+  .wrap { max-width:1280px; margin:0 auto; padding:24px 16px 80px; }
+  h1 { font-size:26px; margin:0 0 4px } h1 small { color:var(--mut); font-weight:400; font-size:15px; display:block }
+  .resumo { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 18px; margin:18px 0; }
+  .aviso { border-color:var(--warn); color:#fcd34d }
+  nav { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0 28px }
+  nav a { color:var(--txt); text-decoration:none; background:var(--card); border:1px solid var(--line); padding:6px 12px; border-radius:999px; font-size:13px }
+  nav a:hover { border-color:var(--acc) }
+  h2 { font-size:20px; margin:36px 0 14px; padding-top:12px; border-top:1px solid var(--line) } h2 small { color:var(--mut); font-size:13px; font-weight:400; margin-left:8px }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:16px }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; overflow:hidden; display:flex; flex-direction:column }
+  .card header { display:flex; justify-content:space-between; align-items:flex-start; gap:8px; padding:14px 16px 10px }
+  .quem strong { display:block; font-size:16px } .quem small { color:var(--mut); font-size:12px }
+  .badge { font-size:11px; padding:3px 8px; border-radius:999px; white-space:nowrap; font-weight:600 }
+  .badge.novo { background:rgba(34,197,94,.15); color:var(--ok) } .badge.rec { background:rgba(245,158,11,.15); color:var(--warn) }
+  .badge.top { background:rgba(139,92,246,.2); color:#c4b5fd; border:1px solid var(--acc) }
+  .badges { display:flex; flex-direction:column; gap:4px; align-items:flex-end }
+  .card.recomendada { border-color:var(--acc); box-shadow:0 0 0 1px var(--acc) }
+  .rec-dt { color:#c4b5fd !important } .rec-dd { color:#ddd6fe }
+  .media { background:#000; aspect-ratio:4/5; display:flex; align-items:center; justify-content:center }
+  .media video, .media img { width:100%; height:100%; object-fit:contain; display:block }
+  .media a { position:relative; display:block; width:100%; height:100% }
+  .media .play { position:absolute; inset:0; margin:auto; width:64px; height:64px; border-radius:50%; background:rgba(139,92,246,.85); color:#fff; font-size:26px; display:flex; align-items:center; justify-content:center; pointer-events:none }
+  .sem-midia { color:var(--mut); text-align:center; font-size:13px }
+  .stats { display:grid; grid-template-columns:repeat(3,1fr); border-top:1px solid var(--line); border-bottom:1px solid var(--line) }
+  .stat { padding:10px 6px; text-align:center; border-right:1px solid var(--line) } .stat:last-child { border-right:0 }
+  .stat b { display:block; font-size:18px; color:var(--acc) } .stat span { font-size:11px; color:var(--mut); text-transform:uppercase; letter-spacing:.03em }
+  dl { margin:0; padding:14px 16px 4px; flex:1 }
+  dt { font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--mut); margin-top:12px } dt:first-child { margin-top:0 }
+  .preco { text-transform:none; letter-spacing:0; color:var(--ok); font-weight:600 }
+  dd { margin:3px 0 0 } dd.hook { font-style:italic; color:#c4b5fd }
+  dd ul { margin:0; padding-left:18px } dd li { margin:2px 0 } ul.modelar li::marker { color:var(--ok) }
+  details { padding:0 16px 10px } summary { cursor:pointer; color:var(--mut); font-size:13px }
+  pre { white-space:pre-wrap; font:13px/1.45 inherit; background:#0f1115; border:1px solid var(--line); border-radius:8px; padding:10px; margin:8px 0 0; max-height:260px; overflow:auto }
+  footer { display:flex; flex-wrap:wrap; gap:8px; padding:12px 16px 16px; border-top:1px solid var(--line) }
+  footer a { color:var(--txt); text-decoration:none; font-size:13px; background:#1f2330; border:1px solid var(--line); padding:8px 12px; border-radius:8px }
+  footer a:hover { border-color:var(--acc) }
+  .descartados { margin-top:14px; color:var(--mut) } .descartados ul { columns:2; gap:24px; font-size:13px } .descartados b { color:var(--txt); font-weight:500 }
+  .padroes ul { margin:6px 0 0; padding-left:20px }
+  @media (max-width:640px) { .descartados ul { columns:1 } }
+</style>
+</head>
+<body><div class="wrap">
+<h1>Ofertas escaladas <small>27 de setembro de 2026 · 7 ofertas em 4 nichos</small></h1>
+<div class="resumo">O cache do Ad Hunter só trouxe 4 nichos (receitas, renda extra, maternidade, cristão) — faltam comida_caseira e receitas_infantis, sem categoria mapeada lá ainda — e é a mesma leva de 23/09, sem atualização em 4-6 dias. Depois do filtro low-ticket, do corte de saúde, de tirar as páginas do próprio usuário (revitamulher.online) e da régua de 15+ criativos no mesmo destino, sobraram 7 ofertas: várias que escalavam há 4 dias esfriaram nesse meio-tempo (Luciana Prado zerou os anúncios, Saboaria da Tia Rose e Letrar caíram abaixo da régua) — vale rodar as categorias de novo no Ad Hunter antes da próxima rodada.</div>
+<div class="resumo aviso">⚠ Nichos que não entraram nesta rodada: receitas_infantis, comida_caseira. Rode <code>node scripts/minerar.mjs --reaproveitar</code> pra completar.</div>
+<nav><a href="#receitas">Receitas</a><a href="#renda_extra">Renda extra</a><a href="#maternidade">Maternidade e educação infantil</a><a href="#cristao">Cristão / Espiritualidade</a></nav>
+
+<section class="nicho" id="receitas">
+  <h2>Receitas <small>21 anúncios · 21 anunciantes · 2 ofertas</small></h2>
+  <div class="grid">
+<article class="card recomendada">
+  <header>
+    <div class="quem">
+      <strong>Nutricionista Patrícia Stênico</strong>
+      <small>receitas fáceis</small>
+    </div>
+    <div class="badges"><span class="badge top">★ modelar</span><span class="badge rec">recorrente · 3ª vez</span></div>
+  </header>
+  <div class="media"><video controls preload="metadata" poster="midia/2059571208259789.jpg" src="midia/2059571208259789.mp4"></video></div>
+  <div class="stats">
+    <div class="stat"><b>110</b><span>anúncios ativos na página</span></div>
+    <div class="stat"><b>95</b><span>criativos da oferta</span></div>
+    <div class="stat"><b>30d</b><span>rodando</span></div>
+  </div>
+  <dl>
+    <dt>Produto · <span class="preco">R$ 19,90–37 (inferido, anúncio diz 55% OFF)</span></dt><dd>Refeições Saudáveis para Congelar: +120 receitas, cardápios e lista de compras.</dd>
+    <dt>Promessa</dt><dd>“Organize a semana em poucas horas e tenha comida pronta em minutos.”</dd>
+    <dt>Hook</dt><dd class="hook">“Jantar leve, rotina leve.”</dd>
+    <dt class="rec-dt">Por que modelar esta</dt><dd class="rec-dd">Congelar é mecanismo transportável pra qualquer comida caseira — faz uma vez, guarda, resolve a semana inteira.</dd>
+    <dt>Por que está escalando</dt><dd><ul><li>66 criativos no mesmo destino, 110 anúncios na página</li><li>Estreita pelo método de preparo: congelar, não 'receita saudável'</li><li>Cardápio e lista de compras entregam o trabalho já feito</li><li>Recorrente há 3 semanas seguidas no topo do nicho</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Nomeie o mecanismo pelo preparo, não pelo prato</li><li>Entregue cardápio e lista de compras dentro do produto</li><li>Venda tempo de semana, não nutrição</li><li>Concentre a verba num destino só e varie o criativo</li></ul></dd>
+  </dl>
+  <details><summary>Copy do anúncio</summary><pre>🔓Você desbloqueou acesso vitalício!✅
+
+Jantar leve, rotina leve.
+
+Organize sua semana em poucas horas e tenha comida de verdade pronta em minutos — com sabor de feita na hora.
+
+No livro Refeições Saudáveis para Congelar, tenho a solução que você precisa:
+
+✅ +120 receitas próprias para congelar
+✅ Macros e calorias calculadas em cada preparo
+✅ Cardápios + lista de compras prontos para usar
+✅ Passo a passo de congelar/descongelar sem perder sabor e textura
+✅ Bônus: inclui receitas doces saudáveis para matar a vontade sem sair da linha
+
+Garanta o seu agora com 55% OFF 👇🏼</pre></details>
+  <footer>
+    <a href="https://rc.patriciastenico.com.br/55-off-ads-botao-fp2/" target="_blank" rel="noopener">Link de venda ↗</a>
+    <a href="https://www.facebook.com/107064817659875" target="_blank" rel="noopener">Perfil do Facebook</a>
+    <a href="https://www.facebook.com/ads/library/?id=2059571208259789" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
+    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=107064817659875&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
+  </footer>
+</article>
+<article class="card">
+  <header>
+    <div class="quem">
+      <strong>Luana Oliveira</strong>
+      <small>receitas fáceis</small>
+    </div>
+    <div class="badges"><span class="badge rec">recorrente · 3ª vez</span></div>
+  </header>
+  <div class="media"><video controls preload="metadata" poster="midia/1578682446934009.jpg" src="midia/1578682446934009.mp4"></video></div>
+  <div class="stats">
+    <div class="stat"><b>370</b><span>anúncios ativos na página</span></div>
+    <div class="stat"><b>32</b><span>criativos da oferta</span></div>
+    <div class="stat"><b>80d</b><span>rodando</span></div>
+  </div>
+  <dl>
+    <dt>Produto · <span class="preco">R$ 9,90–19,90 (inferido)</span></dt><dd>+365 Receitas Sem Açúcar, Glúten e Lactose: bolo, pizza, lasanha, cookies.</dd>
+    <dt>Promessa</dt><dd>“Comer bolo, pizza e lasanha sem açúcar, glúten e lactose.”</dd>
+    <dt>Hook</dt><dd class="hook">“Você acredita que essas receitas NÃO têm açúcar, glúten e lactose?”</dd>
+    
+    <dt>Por que está escalando</dt><dd><ul><li>370 anúncios ativos — maior anunciante de receitas do dia</li><li>Página testa 12 destinos e escala só o vencedor: 30 criativos aqui</li><li>Restrição alimentar sem prometer cura — público já ciente</li><li>Recorrente há 3 semanas seguidas no topo</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Abra com incredulidade: 'você acredita que não tem...'</li><li>Liste pratos tradicionais, não ingredientes ou nutrientes</li><li>365 receitas = uma por dia; o formato vira promessa</li><li>Rode várias páginas baratas e escale só a vencedora</li></ul></dd>
+  </dl>
+  <details><summary>Copy do anúncio</summary><pre>🍟 Sua Air Fryer tá sendo usada só pra fazer batata e frango? 👀
+
+Porque depois de um tempo parece que acaba a criatividade…
+
+você abre a geladeira, pensa no que fazer…
+e acaba repetindo sempre as mesmas receitas.
+
+foi por isso que criamos o +200 Receitas na Air Fryer 💚
+
+pra você aproveitar de verdade a Air Fryer que já tem em casa.
+
+✅ Receitas deliciosas e crocantes
+✅ Refeições completas, petiscos e sobremesas
+✅ Ingredientes fáceis de encontrar
+✅ Preparo simples e rápido
+✅ Ideias pra todos os dias
+
+📲 Receba com ACESSO IMEDIATO POR WHATSAPP e comece hoje mesmo.
+
+👉 Clique em Saiba Mais e veja tudo que tem dentro.</pre></details>
+  <footer>
+    <a href="https://as365receitascheflu.lovable.app/" target="_blank" rel="noopener">Link de venda ↗</a>
+    <a href="https://www.facebook.com/1108439012356829" target="_blank" rel="noopener">Perfil do Facebook</a>
+    <a href="https://www.facebook.com/ads/library/?id=1022848660751097" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
+    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=1108439012356829&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
+  </footer>
+</article></div>
+  <details class="descartados"><summary>Descartados (10)</summary><ul><li><b>Mariana Talita</b> — nicho black (saúde)</li><li><b>Mia Carvalho</b> — nicho black (saúde)</li><li><b>Chef Maria</b> — página do próprio usuário</li><li><b>Receitas Deliciosas</b> — página do próprio usuário</li><li><b>Misturas do Bem</b> — genérico, anúncio sem copy</li><li><b>FTW</b> — sem página de vendas</li><li><b>Fundació Pasqual Maragall</b> — ONG, destino Facebook</li><li><b>Clara - Vianda feliz</b> — mercado espanhol</li><li><b>Academia Karina Gao</b> — mercado espanhol</li><li><b>Companhia Cozinhando Bem</b> — abaixo da régua (14 criativos, era 38 há 4 dias — já modelada pelo usuário)</li></ul></details>
+</section>
+<section class="nicho" id="renda_extra">
+  <h2>Renda extra <small>19 anúncios · 19 anunciantes · 2 ofertas</small></h2>
+  <div class="grid">
+<article class="card recomendada">
+  <header>
+    <div class="quem">
+      <strong>Mayara Campos Doces</strong>
+      <small>aprenda a fazer renda extra</small>
+    </div>
+    <div class="badges"><span class="badge top">★ modelar</span><span class="badge rec">recorrente · 3ª vez</span></div>
+  </header>
+  <div class="media"><div class="sem-midia">sem mídia salva<br><small>abra no Ads Library</small></div></div>
+  <div class="stats">
+    <div class="stat"><b>82</b><span>anúncios ativos na página</span></div>
+    <div class="stat"><b>25</b><span>criativos da oferta</span></div>
+    <div class="stat"><b>39d</b><span>rodando</span></div>
+  </div>
+  <dl>
+    <dt>Produto · <span class="preco">R$ 19,90–37 (inferido)</span></dt><dd>Especialista em Bolos Gelados: 10 sabores sobre a mesma base, o carro-chefe do delivery dela.</dd>
+    <dt>Promessa</dt><dd>“Fazer em casa o bolo gelado que garante venda constante.”</dd>
+    <dt>Hook</dt><dd class="hook">“Esse é o produto mais vendido do meu delivery e pode virar o carro-chefe da sua confeitaria.”</dd>
+    <dt class="rec-dt">Por que modelar esta</dt><dd class="rec-dd">'Produto mais vendido do meu delivery' é prova social direta, e 10 sabores sobre uma base é o bônus de variação que transporta pra qualquer receita-base.</dd>
+    <dt>Por que está escalando</dt><dd><ul><li>25 criativos nessa oferta, virou a dominante da página</li><li>Prova social do próprio negócio: 'produto mais vendido do meu delivery'</li><li>10 sabores sobre a mesma base: variação sem trabalho novo</li><li>Página testa 3 ofertas e migrou a verba pra esta</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Use a prova social do próprio negócio, não depoimento de aluna</li><li>Conte os sabores no nome: N sabores sobre uma base</li><li>Venda 'vendas constantes', não sabor</li><li>Escolha um produto-carro-chefe, não o catálogo inteiro</li></ul></dd>
+  </dl>
+  <details><summary>Copy do anúncio</summary><pre>✨ Quer fazer doces irresistíveis para vender ou simplesmente se deliciar em casa?
+
+O curso “O Segredo das Fatias Perfeitas” ensina 12 receitas práticas, cremosas e de alta aceitação, perfeitas para quem quer renda extra ou para quem ama saborear doces feitos por você. 🍰
+
+✅ Renda extra com baixo investimento
+✅ Ingredientes simples e fáceis de encontrar
+✅ Faça na sua cozinha e aproveite ou venda
+
+🚀 Comece hoje e transforme suas fatias em dinheiro ou momentos de prazer!</pre></details>
+  <footer>
+    <a href="https://mayaracamposconfeitaria.com.br/especialista-em-bolos-gelados/" target="_blank" rel="noopener">Link de venda ↗</a>
+    <a href="https://www.facebook.com/1717172328593393" target="_blank" rel="noopener">Perfil do Facebook</a>
+    <a href="https://www.facebook.com/ads/library/?id=2241062360027146" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
+    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=1717172328593393&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
+  </footer>
+</article>
+<article class="card recomendada">
+  <header>
+    <div class="quem">
+      <strong>Aisne morelli</strong>
+      <small>aprenda a fazer renda extra</small>
+    </div>
+    <div class="badges"><span class="badge top">★ modelar</span><span class="badge rec">recorrente · 3ª vez</span></div>
+  </header>
+  <div class="media"><div class="sem-midia">sem mídia salva<br><small>abra no Ads Library</small></div></div>
+  <div class="stats">
+    <div class="stat"><b>82</b><span>anúncios ativos na página</span></div>
+    <div class="stat"><b>31</b><span>criativos da oferta</span></div>
+    <div class="stat"><b>97d</b><span>rodando</span></div>
+  </div>
+  <dl>
+    <dt>Produto · <span class="preco">R$ 9,90–19,90 (copy diz 'valor simbólico')</span></dt><dd>Guia 20 Receitas de Sabonetes Glicerinados, passo a passo.</dd>
+    <dt>Promessa</dt><dd>“Começar na saboaria sem desperdiçar material nem errar receita.”</dd>
+    <dt>Hook</dt><dd class="hook">“Você quer começar na saboaria… mas tem medo de desperdiçar material?”</dd>
+    <dt class="rec-dt">Por que modelar esta</dt><dd class="rec-dd">Abrir pelo medo do iniciante (não pelo sonho) é gancho transportável pra qualquer produto de 'fazer e vender' que assusta quem nunca tentou.</dd>
+    <dt>Por que está escalando</dt><dd><ul><li>31 criativos nessa oferta, 97 dias rodando — oferta madura</li><li>Abre pelo medo de desperdiçar, não pelo sonho</li><li>'Valor simbólico' evita preço na copy e puxa o clique</li><li>3ª semana seguida no topo do nicho</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Abra pelo medo do iniciante, não pela promessa</li><li>Número fechado no nome: 20 receitas</li><li>'Valor simbólico' no lugar do preço puxa clique</li><li>Artesanato (não só comida) cabe no molde 'fazer e vender'</li></ul></dd>
+  </dl>
+  <details><summary>Copy do anúncio</summary><pre>Você quer começar na saboaria…
+mas tem medo de desperdiçar material, errar receitas ou simplesmente não saber por onde começar?
+
+Com o Guia 20 Receitas de Sabonetes Glicerinados, você aprende:
+
+✨ receitas já testadas
+✨ passo a passo simples
+✨ como fazer sabonetes bonitos e lucrativos
+✨ mesmo começando do zero em casa
+
+Tudo isso por um valor simbólico.
+
+Clique em saiba mais e comece hoje 👇</pre></details>
+  <footer>
+    <a href="https://aisnemorelli.com.br/e20g-b-29/" target="_blank" rel="noopener">Link de venda ↗</a>
+    <a href="https://www.facebook.com/373233815878944" target="_blank" rel="noopener">Perfil do Facebook</a>
+    <a href="https://www.facebook.com/ads/library/?id=1401542428476587" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
+    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=373233815878944&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
+  </footer>
+</article></div>
+  <details class="descartados"><summary>Descartados (10)</summary><ul><li><b>Venda Sem Estoque</b> — funil high-ticket</li><li><b>Luciano Fernandes</b> — investimentos, webinário</li><li><b>EQI/Research</b> — isca de corretora</li><li><b>Maximus Tecidos Finos</b> — abaixo da régua</li><li><b>Mariana Talita</b> — nicho black (saúde)</li><li><b>Tradeandonet</b> — trading, mercado espanhol</li><li><b>Jaime Higuera España</b> — mercado espanhol</li><li><b>Fabricio Sampayo</b> — mercado espanhol</li><li><b>Saboaria da Tia Rose</b> — abaixo da régua (14 criativos, era 79 anúncios/32 criativos há 4 dias)</li><li><b>Luciana Prado</b> — página zerou anúncios (era 170 anúncios/120 criativos há 4 dias — campanha parece parada)</li></ul></details>
+</section>
+<section class="nicho" id="maternidade">
+  <h2>Maternidade e educação infantil <small>18 anúncios · 18 anunciantes · 2 ofertas</small></h2>
+  <div class="grid">
+<article class="card">
+  <header>
+    <div class="quem">
+      <strong>Clubinho da Família</strong>
+      <small>atividades tdah</small>
+    </div>
+    <div class="badges"><span class="badge rec">recorrente · 3ª vez</span></div>
+  </header>
+  <div class="media"><video controls preload="metadata" poster="midia/1403235809529059.jpg" src="midia/1403235809529059.mp4"></video></div>
+  <div class="stats">
+    <div class="stat"><b>92</b><span>anúncios ativos na página</span></div>
+    <div class="stat"><b>42</b><span>criativos da oferta</span></div>
+    <div class="stat"><b>16d</b><span>rodando</span></div>
+  </div>
+  <dl>
+    <dt>Produto · <span class="preco">R$ 19,90–47 (inferido)</span></dt><dd>Pacote de testes e instrumentos prontos para avaliação psicopedagógica (oferta dominante da página).</dd>
+    <dt>Promessa</dt><dd>“Saber qual teste aplicar em cada dificuldade de aprendizagem.”</dd>
+    <dt>Hook</dt><dd class="hook">“Na hora da avaliação psicopedagógica, fica na dúvida sobre quais testes aplicar?”</dd>
+    
+    <dt>Por que está escalando</dt><dd><ul><li>42 criativos num link só, 92 anúncios na página</li><li>Abre pela dúvida exata do profissional na hora da sessão</li><li>Página testa 7 destinos e migrou a verba pra este</li><li>Público profissional (psicopedagoga), não pai/mãe direto</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Abra pela dúvida que a pessoa tem no momento do trabalho</li><li>Venda o instrumento pronto, não o conhecimento</li><li>'Reunimos num material só' resolve arquivo espalhado</li></ul></dd>
+  </dl>
+  <details><summary>Copy do anúncio</summary><pre>🧠 Toda criança tem emoções intensas. O problema é quando ninguém ensina o que fazer com elas.
+
+Crises que duram horas. Birras que parecem &quot;do nada&quot;. Choros que ninguém entende. Pais e professores tentando acalmar gritando, ameaçando ou ignorando — porque ninguém ensinou outro caminho.
+
+A verdade? A criança não está sendo &quot;difícil&quot;. Ela está pedindo ajuda do único jeito que sabe.
+
+📚 Por isso reunimos um sistema completo de regulação emocional infantil, com ferramentas práticas para acolher, prevenir e transformar crises em momentos de aprendizado emocional para casos como:
+
+✔️ Crises em crianças com TEA
+✔️ Desregulação emocional no TDAH
+✔️ Birras intensas e prolongadas
+✔️ Ansiedade infantil e crises de choro
+✔️ Dificuldade de identificar e expressar sentimentos
+
+📘 O material inclui:
+- Manual SOS Crises com 80+ páginas (antes, durante e depois)
+- 28 cartões ilustrados de emoções para a criança apontar
+- Termômetro emocional e Roda dos Sentimentos
+- Caixa da Calma + 30 atividades sensoriais
+- Mapa de gatilhos sensoriais e diário emocional
+- Roteiros prontos para conversar com a escola
+- +100 recursos organizados para uso imediato
+
+Ideal para mães, pais, psicopedagogos, fonoaudiólogos, terapeutas, professores e psicólogos que desejam:
+
+✅ Acolher crises com segurança e menos desgaste
+✅ Ensinar a criança a nomear o que sente
+✅ Prevenir crises identificando os gatilhos antes
+✅ Recursos práticos para casa, sala de aula ou consultório
+
+Um sistema completo, organizado e pronto para aplicar — seja em casa com seu filho, em sala de aula com a turma ou em sessões clínicas.
+
+🎁 BÔNUS: Kit Dinâmica das Emoções (Divertidamente) + 3 manuais TEA + 5 jogos extras
+
+📘 Acesso imediato. Material vitalício. Garantia de 7 dias.
+
+👉 Clique em &quot;Saiba mais&quot; e veja todo o conteúdo do sistema.</pre></details>
+  <footer>
+    <a href="https://clubedeavaliacao.site/" target="_blank" rel="noopener">Link de venda ↗</a>
+    <a href="https://www.facebook.com/109302152055510" target="_blank" rel="noopener">Perfil do Facebook</a>
+    <a href="https://www.facebook.com/ads/library/?id=1403235809529059" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
+    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=109302152055510&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
+  </footer>
+</article>
+<article class="card">
+  <header>
+    <div class="quem">
+      <strong>Portal da Pedagogia</strong>
+      <small>atividades infantis</small>
+    </div>
+    <div class="badges"><span class="badge rec">recorrente · 3ª vez</span></div>
+  </header>
+  <div class="media"><video controls preload="metadata" poster="midia/2110675936186298.jpg" src="midia/2110675936186298.mp4"></video></div>
+  <div class="stats">
+    <div class="stat"><b>130</b><span>anúncios ativos na página</span></div>
+    <div class="stat"><b>46</b><span>criativos da oferta</span></div>
+    <div class="stat"><b>14d</b><span>rodando</span></div>
+  </div>
+  <dl>
+    <dt>Produto · <span class="preco">R$ 10</span></dt><dd>PLR Pedagógico: +25 mil atividades prontas pra editar e revender, R$ 10.</dd>
+    <dt>Promessa</dt><dd>“Fazer a primeira venda no digital sem criar produto do zero.”</dd>
+    <dt>Hook</dt><dd class="hook">“+25 MIL MATERIAIS POR APENAS R$10”</dd>
+    
+    <dt>Por que está escalando</dt><dd><ul><li>46 criativos, 130 anúncios ativos em só 14 dias</li><li>Junta dois desejos: renda extra e material pedagógico</li><li>Volume gigante com preço baixo é oferta irrecusável</li><li>Direito de revenda transforma comprador em divulgador</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Número gigante e preço na mesma manchete</li><li>Venda o atalho: 'sem criar produto do zero'</li><li>Direito de revenda como o bônus de maior valor</li></ul></dd>
+  </dl>
+  <details><summary>Copy do anúncio</summary><pre>Quer fazer sua primeira venda no digital sem criar um produto do zero?
+
+Com este PLR Pedagógico você recebe mais de 25 mil atividades e recursos pedagógicos  prontos para editar, personalizar, vender e lucrar.
+
+Você pode:
+✔️ Revender pelo preço que quiser
+✔️ Editar com a sua marca
+✔️ Usar como isca digital
+✔️ Imprimir ou vender em formato digital
+✔️ Ficar com 100% do lucro de cada venda
+
+📚 O pacote inclui:
+• Atividades Especiais
+• Atividades Infantis de Português
+• Cadernos das Sílabas Simples e Complexas
+• Combo da Multiplicação
+• Combo da Alfabetização
+• Caderno de Interpretação de Textos
+• Kit com 10 Histórias Infantis em Vídeo
+• Modelos de Relatórios
+• Sacola de Textos
+• Crachá Cubo
+• Planner da Coordenação (+15 arquivos editáveis)
+• Datas Comemorativas
+• Adivinha das Profissões
+• Drive Extra com diversos materiais PLR
+• Super Bônus
+• Aulas ensinando a subir qualquer produto na plataforma de vendas
+• Licença PLR Total
+• Acesso Vitalício
+• Garantia de 7 dias
+
+Produto validado e com alta demanda no nicho pedagógico.
+
+🔥 Acesso a partir de R$10
+👉 Clique em **SAIBA MAIS** e comece hoje mesmo a construir sua renda no digital.</pre></details>
+  <footer>
+    <a href="https://oferta.portaldapedagogia.com.br/" target="_blank" rel="noopener">Link de venda ↗</a>
+    <a href="https://www.facebook.com/1317235804801190" target="_blank" rel="noopener">Perfil do Facebook</a>
+    <a href="https://www.facebook.com/ads/library/?id=2110675936186298" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
+    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=1317235804801190&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
+  </footer>
+</article></div>
+  <details class="descartados"><summary>Descartados (10)</summary><ul><li><b>Carlos Klein - Personal</b> — nicho black (saúde)</li><li><b>Chef Maria</b> — página do próprio usuário</li><li><b>CriAtivar Recursos Terapêuticos</b> — vai direto ao checkout</li><li><b>Nutri Infantil</b> — funil de aula, não página</li><li><b>Stella Soragi</b> — destino Instagram</li><li><b>PMMinas - Otávio Souza</b> — concurso público</li><li><b>João &amp; Maria Editora</b> — provável livro físico</li><li><b>Bebê de Nutri</b> — curso longo, abaixo da régua</li><li><b>Sara Fialho - Psicopedagoga</b> — abaixo da régua</li><li><b>Letrar</b> — abaixo da régua (8 criativos, era 22 há 4 dias)</li></ul></details>
+</section>
+<section class="nicho" id="cristao">
+  <h2>Cristão / Espiritualidade <small>18 anúncios · 18 anunciantes · 1 ofertas</small></h2>
+  <div class="grid">
+<article class="card">
+  <header>
+    <div class="quem">
+      <strong>Mapa da Bíblia</strong>
+      <small>estudo bíblico</small>
+    </div>
+    <div class="badges"><span class="badge rec">recorrente · 3ª vez</span></div>
+  </header>
+  <div class="media"><div class="sem-midia">sem mídia salva<br><small>abra no Ads Library</small></div></div>
+  <div class="stats">
+    <div class="stat"><b>52</b><span>anúncios ativos na página</span></div>
+    <div class="stat"><b>21</b><span>criativos da oferta</span></div>
+    <div class="stat"><b>43d</b><span>rodando</span></div>
+  </div>
+  <dl>
+    <dt>Produto · <span class="preco">R$ 19,90–37 (inferido)</span></dt><dd>Mapa da Bíblia: resumo visual de cada um dos 73 livros da Bíblia católica.</dd>
+    <dt>Promessa</dt><dd>“Entender todos os livros da Bíblia com resumo visual.”</dd>
+    <dt>Hook</dt><dd class="hook">“Você sabe o que aconteceu depois que Jesus subiu ao Céu?”</dd>
+    
+    <dt>Por que está escalando</dt><dd><ul><li>21 criativos nessa oferta, 52 anúncios na página</li><li>Abre com a pergunta literal que o público já faz</li><li>'Resumo visual' é mecanismo que se entende na hora</li><li>Prova social: mais de 35 mil católicos dentro</li></ul></dd>
+    <dt>Como modelar</dt><dd><ul class="modelar"><li>Use a pergunta exata que o público já faz</li><li>Transforme conteúdo longo em resumo visual contável</li><li>'Pra vida toda' substitui garantia e justifica preço</li></ul></dd>
+  </dl>
+  <details><summary>Copy do anúncio</summary><pre>✝️ “Padre, por onde eu começo a ler a Bíblia?”
+
+Essa é uma das perguntas mais comuns entre católicos. E a resposta surpreende muita gente. Nesse vídeo a gente te mostra o porquê.
+
+📖 Se você quer entender todos os livros da Bíblia com essa mesma clareza e muito mais, o Mapa da Bíblia foi feito pra isso. São resumos visuais de cada um dos 73 livros da Bíblia Católica.
+
+Simples, completo e para a vida toda.
+Mais de 35 mil católicos já estão dentro.
+
+👉 Para ter acesso, comente “QUERO” ou toque em SAIBA MAIS.</pre></details>
+  <footer>
+    <a href="http://mapadocatolico.com/mapa-da-biblia" target="_blank" rel="noopener">Link de venda ↗</a>
+    <a href="https://www.facebook.com/699595763247977" target="_blank" rel="noopener">Perfil do Facebook</a>
+    <a href="https://www.facebook.com/ads/library/?id=1570523798104404" target="_blank" rel="noopener">Ver no Ads Library ↗</a>
+    <a href="https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&view_all_page_id=699595763247977&search_type=page" target="_blank" rel="noopener">Todos os anúncios</a>
+  </footer>
+</article></div>
+  <details class="descartados"><summary>Descartados (10)</summary><ul><li><b>Pastor Daniel Díaz</b> — mercado espanhol</li><li><b>Academia de Pregadores</b> — destino Instagram</li><li><b>El Mateus Eleuterio</b> — mercado espanhol</li><li><b>Destra For The Nations</b> — funil high-ticket</li><li><b>Instituto La Palabra</b> — mercado espanhol</li><li><b>João Claudio Rufino</b> — abaixo da régua</li><li><b>O VERSO DA VIDA</b> — produto físico</li><li><b>Pastor Saulo Daniel</b> — funil de lançamento gratuito</li><li><b>Ivna Karla</b> — abaixo da régua</li><li><b>Bíblia Online de Estudo</b> — abaixo da régua</li></ul></details>
+</section>
+<section class="resumo padroes"><strong>Padrões da semana</strong><ul><li>Provas sociais quantificadas vendem: '60 mil alunas', '35 mil católicos', 'produto mais vendido do meu delivery'</li><li>Mecanismo nomeado bate catálogo genérico: um produto só (bolo gelado, sabonete glicerinado, congelar) escala mais que 'receitas variadas'</li><li>Preço-isca na manchete segue puxando clique: '7,00 hoje', '+25 mil materiais por R$10'</li><li>Maternidade escala mais em B2B pra profissional (psicopedagoga) e PLR de revenda do que em produto direto pra mãe</li><li>Mudou vs. 23/09: Rolinhos Gourmet (Luciana Prado) zerou os anúncios — campanha parece ter parado</li><li>Mudou vs. 23/09: Saboaria da Tia Rose caiu de 79 pra 15 anúncios, Letrar de 62 pra 42 — as duas saíram do pool</li></ul></section>
+</div></body></html>
