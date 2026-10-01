@@ -1,0 +1,1686 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Pão Recheado Lucrativo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --forest: #B06E13;
+    --forest-light: #FAC775;
+    --forest-deep: #3A2416;
+    --cream: #FFF7EC;
+    --paper: #FBE8CF;
+    --paper-dark:#F0DDB8;
+    --terracotta: #D98326;
+    --terracotta-light: #FAC775;
+    --ink: #3A2416;
+    --ink-soft: #7A6754;
+    --sage: #9BB98C;
+    --line: rgba(43,33,21,0.1);
+    --c-massa: #94530F; --c-massa-bg: #FBE8CF;
+    --c-salgado: #B15748; --c-salgado-bg: #F5DEDA;
+    --c-doce: #7C6BA3; --c-doce-bg: #E9E3F2;
+    --b4: #4F7C9C; --b4-bg: #E0EAF1;
+    --b5: #5F8C60; --b5-bg: #E2EEE0;
+    --b6: #B06E13; --b6-bg: #FBE8CF;
+    --c-m8: #C79433;  --c-m8-bg: #F6ECD3;
+    --c-m10: #5F8C60; --c-m10-bg: #E2EEE0;
+    --c-m12: #4F7C9C; --c-m12-bg: #E0EAF1;
+    --c-m18: #B96C80; --c-m18-bg: #F5E1E7;
+    --b1: #C97088;    --b1-bg: #F8E4EA;
+    --b2: #DB8557;    --b2-bg: #FBEBDF;
+    --b3: #BF9330;    --b3-bg: #F6ECD4;
+    --b7: #5D7F4C;    --b7-bg: #E3EEDD;
+    --bg-guide1: #B15748; --bg-guide1-bg: #F5DEDA;
+    --bg-guide2: #47807F; --bg-guide2-bg: #DCEBEB;
+    --bg-guide3: #7C6BA3; --bg-guide3-bg: #E9E3F2;
+    --radius: 18px;
+    --radius-sm: 10px;
+    --shadow: 0 10px 30px -12px rgba(140,74,38,0.22);
+    --shadow-sm: 0 4px 14px -6px rgba(140,74,38,0.16);
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{background:var(--cream);color:var(--ink);font-family:'Manrope',sans-serif;-webkit-font-smoothing:antialiased;min-height:100vh;}
+  h1,h2,h3,.serif{font-family:'Fraunces',serif;font-weight:600;letter-spacing:-0.01em;margin:0;}
+  .eyebrow{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-soft);}
+  a{text-decoration:none;color:inherit;}
+  button{font-family:inherit;cursor:pointer;border:none;background:none;}
+  ::selection{background:var(--terracotta-light);color:var(--forest-deep);}
+  /* ---------- NAV ---------- */
+  .nav{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;
+    padding:16px 32px;background:rgba(255,248,240,0.86);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);}
+  .logo{font-family:'Fraunces',serif;font-weight:700;font-size:19px;color:var(--forest);}
+  .logo span{color:var(--terracotta);}
+  .nav-links{display:flex;gap:4px;align-items:center;}
+  .nav-links button{padding:9px 16px;border-radius:999px;font-size:14px;font-weight:600;color:var(--ink-soft);transition:all .18s ease;}
+  .nav-links button:hover{background:var(--paper);color:var(--ink);}
+  .nav-links button.active{background:var(--forest);color:#fff;}
+  @media(max-width:820px){ .nav{padding:14px 18px;} .nav-links{display:none;} }
+  .bottom-nav{display:none;}
+  @media(max-width:820px){
+    .bottom-nav{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:60;
+      background:rgba(255,248,240,0.97);backdrop-filter:blur(10px);border-top:1px solid var(--line);
+      padding:8px 6px calc(8px + env(safe-area-inset-bottom));box-shadow:0 -6px 18px -10px rgba(0,0,0,0.15);}
+    .bottom-nav button{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;
+      padding:6px 2px;border-radius:12px;color:var(--ink-soft);transition:color .15s ease, background .15s ease;}
+    .bottom-nav .bn-icon{font-size:20px;line-height:1;}
+    .bottom-nav .bn-label{font-size:10.5px;font-weight:700;}
+    .bottom-nav button.active{color:var(--forest);background:var(--paper);}
+  }
+  .page{max-width:1180px;margin:0 auto;padding:0 32px 100px;}
+  @media(max-width:820px){.page{padding:0 18px 96px;}}
+  /* ---------- HERO ---------- */
+  .hero{display:grid;grid-template-columns:1fr;gap:24px;align-items:center;padding:64px 0 40px;}
+  @media(max-width:900px){.hero{padding:36px 0 20px;gap:20px;}}
+  .hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:var(--paper);padding:6px 14px;border-radius:999px;margin-bottom:22px;}
+  .hero-eyebrow .dot{width:6px;height:6px;border-radius:50%;background:var(--terracotta);}
+  .hero h1{font-size:clamp(38px,5.2vw,60px);line-height:1.05;color:var(--forest);}
+  .hero h1 em{font-style:italic;color:var(--terracotta);font-weight:500;}
+  .hero p.lead{font-size:17px;color:var(--ink-soft);max-width:460px;margin-top:18px;line-height:1.6;}
+  .stat-row{display:flex;gap:36px;margin-top:34px;flex-wrap:wrap;}
+  .stat b{font-family:'Fraunces',serif;font-size:30px;color:var(--forest);display:block;font-weight:600;}
+  .stat span{font-size:12.5px;color:var(--ink-soft);font-family:'Space Mono',monospace;letter-spacing:.04em;}
+  .section-label{text-align:center;margin:8px 0 26px;}
+  .section-label .eyebrow{display:block;}
+  .collections{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;}
+  /* Cards de coleção com capa em MOCKUP (arte oficial da oferta, não foto de comida):
+     a arte precisa aparecer INTEIRA, por isso object-fit:contain sobre fundo tonalizado,
+     com o texto num bloco sólido embaixo — nunca por cima de um gradiente escuro. */
+  .coll-card{border-radius:var(--radius);overflow:hidden;background:#fff;border:1px solid var(--line);
+    box-shadow:var(--shadow-sm);display:flex;flex-direction:column;cursor:pointer;transition:transform .2s ease, box-shadow .2s ease;}
+  .coll-card:hover{transform:translateY(-5px);box-shadow:var(--shadow);}
+  .coll-card:hover .coll-photo{transform:scale(1.05);}
+  .coll-media{position:relative;aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;
+    padding:16px;background:radial-gradient(circle at 50% 38%, #FFFFFF 0%, var(--paper) 82%);}
+  .coll-photo{max-width:100%;max-height:100%;object-fit:contain;display:block;
+    filter:drop-shadow(0 12px 20px rgba(140,74,38,0.30));transition:transform .3s ease;}
+  .coll-badge{position:absolute;top:10px;left:10px;background:var(--forest);color:#fff;
+    font-family:'Space Mono',monospace;font-size:9.5px;letter-spacing:.06em;padding:5px 10px;
+    border-radius:999px;font-weight:700;box-shadow:0 3px 10px -4px rgba(0,0,0,0.35);}
+  .coll-body{padding:14px 16px 18px;border-top:1px solid var(--line);flex:1;display:flex;flex-direction:column;justify-content:flex-start;gap:4px;}
+  .coll-title{font-family:'Fraunces',serif;color:var(--forest-deep);font-size:16.5px;line-height:1.18;font-weight:700;letter-spacing:-0.01em;}
+  .coll-sub{color:var(--ink-soft);font-size:11px;font-family:'Space Mono',monospace;letter-spacing:.03em;}
+  .recipes-head{padding-top:40px;}
+  .back-link{display:inline-flex;align-items:center;gap:6px;color:var(--ink-soft);font-size:13.5px;font-weight:600;margin-bottom:18px;}
+  .back-link:hover{color:var(--forest);}
+  .search-box{display:flex;align-items:center;gap:10px;background:#fff;border:1px solid var(--line);
+    border-radius:999px;padding:13px 20px;margin:22px 0 16px;box-shadow:var(--shadow-sm);}
+  .search-box input{border:none;outline:none;font-size:14.5px;width:100%;background:none;font-family:'Manrope';}
+  .filter-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:30px;}
+  .pill{padding:9px 16px;border-radius:999px;font-size:13.5px;font-weight:700;background:#fff;
+    border:1px solid var(--line);color:var(--ink-soft);display:flex;align-items:center;gap:6px;transition:all .15s ease;}
+  .pill:hover{border-color:var(--forest);}
+  .pill.active{background:var(--forest);color:#fff;border-color:var(--forest);}
+  .recipe-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+  .r-card{background:#fff;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-sm);
+    transition:transform .18s ease, box-shadow .18s ease;cursor:pointer;border:1px solid rgba(43,33,21,0.05);}
+  .r-card:hover{transform:translateY(-4px);box-shadow:0 18px 40px -16px rgba(140,74,38,0.32);}
+  .r-art{aspect-ratio:4/3;position:relative;display:flex;align-items:center;justify-content:center;font-size:46px;overflow:hidden;}
+  .r-art img.r-img{transition:transform .5s cubic-bezier(.2,.8,.2,1);}
+  .r-card:hover .r-art img.r-img{transform:scale(1.1);}
+  .r-art .r-cat-chip{position:absolute;top:10px;left:10px;z-index:2;background:rgba(255,255,255,0.92);
+    backdrop-filter:blur(4px);padding:5px 11px;border-radius:999px;font-family:'Space Mono',monospace;
+    font-size:9.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;box-shadow:0 3px 10px -4px rgba(0,0,0,0.25);}
+  .r-art .r-shade{position:absolute;inset:0;z-index:1;pointer-events:none;
+    background:linear-gradient(180deg, rgba(0,0,0,0.06) 0%, rgba(0,0,0,0) 32%, rgba(0,0,0,0) 60%, rgba(0,0,0,0.14) 100%);}
+  .r-art .fav{position:absolute;top:10px;right:10px;width:32px;height:32px;border-radius:50%;
+    background:rgba(255,255,255,0.85);display:flex;align-items:center;justify-content:center;
+    font-size:15px;transition:transform .15s ease;z-index:2;}
+  .r-art .fav:hover{transform:scale(1.1);}
+  .r-body{padding:14px 15px 17px;}
+  .r-name{font-family:'Fraunces',serif;font-size:16.5px;font-weight:600;margin-top:5px;line-height:1.2;}
+  .r-time{font-size:12px;color:var(--ink-soft);margin-top:8px;display:flex;align-items:center;gap:5px;}
+  .r-age{display:inline-flex;align-items:center;gap:4px;margin-top:8px;background:var(--paper);
+    color:var(--forest-deep);border-radius:999px;padding:4px 9px;font-size:10.5px;font-weight:800;letter-spacing:.02em;}
+  .result-count{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.06em;
+    color:var(--ink-soft);text-transform:uppercase;margin:-14px 0 18px;}
+  .empty-state{text-align:center;padding:60px 20px;color:var(--ink-soft);}
+  .empty-state .big{font-size:38px;margin-bottom:10px;}
+  /* ---------- LISTA DE COMPRAS ---------- */
+  .list-summary{display:flex;flex-direction:column;align-items:center;text-align:center;padding:90px 20px 40px;}
+  .list-cart-icon{width:74px;height:74px;border-radius:50%;background:var(--paper);display:flex;align-items:center;justify-content:center;font-size:30px;margin-bottom:22px;}
+  .list-summary h2{font-family:'Fraunces',serif;font-size:24px;color:var(--forest);}
+  .list-summary p{color:var(--ink-soft);font-size:14px;margin:8px 0 26px;}
+  .list-summary-actions{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;}
+  .btn-outline{background:#fff;border:1px solid var(--line);color:var(--ink);padding:11px 22px;border-radius:999px;
+    font-weight:700;font-size:14px;display:inline-flex;align-items:center;gap:6px;transition:border-color .15s ease;}
+  .btn-outline:hover{border-color:var(--forest);}
+  .btn-terracotta{background:var(--terracotta);color:#fff;padding:11px 22px;border-radius:999px;
+    font-weight:700;font-size:14px;white-space:nowrap;transition:transform .15s ease, background .15s;}
+  .btn-terracotta:hover{background:#B06E13;transform:translateY(-1px);}
+  .btn-terracotta[disabled]{background:var(--paper-dark);color:var(--ink-soft);cursor:not-allowed;}
+  .btn-terracotta[disabled]:hover{transform:none;background:var(--paper-dark);}
+  .list-header{padding-top:36px;display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:14px;}
+  .list-header h1{font-size:30px;color:var(--forest);}
+  .list-progress{font-family:'Space Mono',monospace;font-size:12px;color:var(--ink-soft);margin-top:6px;}
+  .list-actions{display:flex;gap:10px;}
+  .list-groups{margin-top:26px;display:flex;flex-direction:column;gap:22px;}
+  .list-items{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow-sm);overflow:hidden;}
+  .list-item{display:flex;align-items:center;gap:13px;padding:14px 18px;border-bottom:1px solid var(--line);font-size:14.5px;cursor:pointer;}
+  .list-item:last-child{border-bottom:none;}
+  .list-item .box{width:21px;height:21px;border-radius:6px;border:2px solid var(--sage);flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;font-size:12px;color:#fff;transition:all .15s ease;}
+  .list-item.checked .box{background:var(--forest);border-color:var(--forest);}
+  .list-item.checked span.txt{text-decoration:line-through;color:var(--ink-soft);}
+  .list-item .from{font-size:11px;color:var(--ink-soft);margin-left:auto;font-family:'Space Mono',monospace;flex-shrink:0;padding-left:8px;}
+  /* ---------- MODAL ---------- */
+  .modal-overlay{position:fixed;inset:0;background:rgba(30,20,12,0.55);z-index:100;display:none;align-items:center;justify-content:center;padding:20px;}
+  .modal-overlay.open{display:flex;}
+  .modal-box{background:var(--cream);border-radius:22px;max-width:760px;width:100%;max-height:88vh;
+    display:flex;flex-direction:column;box-shadow:0 30px 60px -20px rgba(0,0,0,0.4);overflow:hidden;}
+  .modal-head{display:flex;justify-content:space-between;align-items:flex-start;padding:24px 26px 0;}
+  .modal-close{width:34px;height:34px;border-radius:50%;background:var(--paper);font-size:15px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+  .modal-search-wrap{padding:0 26px;}
+  .modal-body{overflow-y:auto;padding:4px 26px 20px;flex:1;}
+  .modal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+  @media(max-width:600px){.modal-grid{grid-template-columns:repeat(2,1fr);}}
+  .modal-card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:var(--shadow-sm);cursor:pointer;border:2px solid transparent;transition:border-color .15s ease;}
+  .modal-card.selected{border-color:var(--forest);}
+  .modal-art{aspect-ratio:4/3;position:relative;display:flex;align-items:center;justify-content:center;font-size:34px;}
+  .modal-check{position:absolute;top:8px;right:8px;width:24px;height:24px;border-radius:50%;
+    background:rgba(255,255,255,0.9);border:2px solid rgba(0,0,0,0.15);display:flex;align-items:center;justify-content:center;font-size:12px;color:transparent;z-index:2;}
+  .modal-card.selected .modal-check{background:var(--forest);border-color:var(--forest);color:#fff;}
+  .modal-info{padding:9px 11px 12px;}
+  .modal-cat{font-family:'Space Mono',monospace;font-size:9px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;}
+  .modal-name{font-size:13px;font-weight:700;margin-top:3px;line-height:1.25;}
+  .modal-foot{display:flex;justify-content:space-between;align-items:center;padding:16px 26px;border-top:1px solid var(--line);background:#fff;}
+  /* ---------- GUIA (bônus em texto) ---------- */
+  .guide-wrap{max-width:640px;margin:0 auto;padding-top:34px;}
+  .guide-hero{border-radius:22px;padding:34px 28px;color:#fff;margin-bottom:28px;box-shadow:var(--shadow);}
+  .guide-hero .icon{font-size:40px;margin-bottom:12px;}
+  .guide-hero h1{font-size:25px;color:#fff;}
+  .guide-hero p{margin-top:8px;font-size:14.5px;color:rgba(255,255,255,0.85);line-height:1.6;}
+  .guide-tips{display:flex;flex-direction:column;gap:14px;}
+  .guide-tip{display:flex;gap:14px;background:#fff;border-radius:var(--radius);padding:18px 20px;box-shadow:var(--shadow-sm);}
+  .guide-tip .n{width:30px;height:30px;border-radius:50%;background:var(--paper);color:var(--forest);flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;font-family:'Fraunces',serif;}
+  .guide-tip h3{font-size:15.5px;color:var(--forest);margin-bottom:4px;}
+  .guide-tip p{font-size:13.5px;color:var(--ink-soft);line-height:1.6;margin:0;}
+  .guide-note{background:var(--paper);border-radius:14px;padding:16px 18px;font-size:13px;color:var(--ink-soft);line-height:1.6;margin-top:18px;}
+  .guide-note b{color:var(--forest-deep);}
+  /* ---------- CARDÁPIOS ---------- */
+  .cardapio-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;}
+  .cardapio-card{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow-sm);overflow:hidden;cursor:pointer;transition:transform .18s ease, box-shadow .18s ease;}
+  .cardapio-card:hover{transform:translateY(-4px);box-shadow:var(--shadow);}
+  .cardapio-strip{display:grid;grid-template-columns:repeat(5,1fr);height:90px;}
+  .cardapio-strip .cs-item{background-size:cover;background-position:center;position:relative;
+    display:flex;align-items:center;justify-content:center;font-size:20px;border-right:2px solid var(--cream);}
+  .cardapio-strip .cs-item:last-child{border-right:none;}
+  .cardapio-body{padding:16px 18px;}
+  .cardapio-eyebrow{font-family:'Space Mono',monospace;font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--terracotta);}
+  .cardapio-title{font-family:'Fraunces',serif;font-size:19px;font-weight:600;color:var(--forest);margin-top:4px;}
+  .cardapio-sub{font-size:13px;color:var(--ink-soft);margin-top:5px;line-height:1.4;}
+  .meal-slot{display:flex;align-items:center;gap:14px;background:#fff;border-radius:var(--radius);
+    box-shadow:var(--shadow-sm);padding:14px;margin-bottom:14px;cursor:pointer;transition:transform .15s ease;}
+  .meal-slot:hover{transform:translateY(-2px);}
+  .meal-slot .ms-art{width:64px;height:64px;border-radius:12px;flex-shrink:0;background-size:cover;background-position:center;
+    display:flex;align-items:center;justify-content:center;font-size:26px;}
+  .meal-slot .ms-info{flex:1;min-width:0;}
+  .meal-slot .ms-label{font-family:'Space Mono',monospace;font-size:10px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--terracotta);}
+  .meal-slot .ms-name{font-family:'Fraunces',serif;font-size:16px;font-weight:600;color:var(--forest);margin-top:3px;}
+  .meal-slot .ms-time{font-size:12px;color:var(--ink-soft);margin-top:3px;}
+  /* ---------- RECEITA ESTILO CARTÃO (layout de assinatura) ---------- */
+  .card-recipe{max-width:640px;margin:0 auto;padding-top:22px;}
+  .card-banner{position:relative;background:linear-gradient(100deg,#FAC775,#D98326);
+    background-image:linear-gradient(100deg,#FAC775,#D98326), radial-gradient(circle at 90% 10%, rgba(255,255,255,0.25), transparent 40%);
+    border-radius:26px 8px 26px 8px;padding:26px 34px 30px;margin-bottom:22px;box-shadow:0 12px 28px -14px rgba(140,74,38,0.5);}
+  .card-banner-heart{position:absolute;top:14px;right:18px;font-size:19px;opacity:.9;width:34px;height:34px;
+    border-radius:50%;background:rgba(255,255,255,0.28);display:flex;align-items:center;justify-content:center;}
+  .card-banner h1{font-family:'Caveat',cursive;font-weight:700;color:#2B2115;font-size:clamp(30px,7vw,50px);
+    line-height:1.08;margin:0;padding-right:36px;text-shadow:0 1px 0 rgba(255,255,255,0.25);}
+  .card-banner .cb-rule{width:100px;height:3px;background:#2B2115;opacity:.5;border-radius:3px;margin-top:10px;}
+  .card-meta-photo{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center;margin-bottom:22px;}
+  .card-meta-list{display:flex;flex-direction:column;gap:20px;}
+  .card-meta-row{display:flex;align-items:center;gap:14px;}
+  .card-meta-badge{width:52px;height:52px;border-radius:50%;border:2.5px solid #E8946A;flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;font-size:22px;color:#C9703F;background:#fff;}
+  .card-meta-text .cm-label{font-size:14.5px;color:var(--ink);font-weight:500;}
+  .card-meta-text .cm-value{font-size:15px;color:var(--ink);font-weight:700;margin-top:1px;}
+  .card-photo-wrap{position:relative;aspect-ratio:1/1;border-radius:50%;overflow:hidden;border:6px solid #fff;
+    justify-self:center;width:100%;max-width:280px;
+    box-shadow:0 16px 34px -12px rgba(140,74,38,0.4), 0 0 0 1px rgba(255,255,255,0.6) inset;}
+  .card-photo-wrap::after{content:'';position:absolute;inset:-10px;border-radius:50%;border:1.5px dashed rgba(216,123,74,0.35);pointer-events:none;}
+  .card-photo-wrap img{width:100%;height:100%;object-fit:cover;display:block;}
+  .card-photo-wrap .cp-fallback{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:64px;background:var(--paper);}
+  @media(max-width:560px){
+    .card-recipe{padding-top:16px;}
+    .card-banner{padding:22px 26px 26px;border-radius:22px 8px 22px 8px;}
+    .card-meta-photo{grid-template-columns:1fr;gap:0;margin-bottom:20px;}
+    .card-photo-wrap{order:-1;max-width:200px;margin:-28px auto 22px;border-width:5px;position:relative;z-index:2;}
+    .card-meta-list{flex-direction:row;flex-wrap:wrap;gap:14px 20px;justify-content:center;}
+    .card-meta-row{flex:1 1 150px;min-width:150px;}
+    .card-meta-badge{width:44px;height:44px;font-size:19px;}
+    .card-meta-text .cm-label{font-size:12.5px;}
+    .card-meta-text .cm-value{font-size:14px;}
+  }
+  .card-box-label{display:inline-block;border:2.5px solid #E8946A;border-radius:12px;padding:10px 20px;
+    font-family:'Manrope';font-weight:800;font-size:15.5px;color:#2B2115;letter-spacing:.01em;margin-bottom:16px;background:#FFF8F0;}
+  .card-ing-list{list-style:none;margin:0 0 26px;padding:0;}
+  .card-ing-list li{display:flex;align-items:flex-start;gap:10px;font-size:15px;color:var(--ink);padding:7px 0;line-height:1.4;}
+  .card-ing-list li .leaf{color:#5F8C60;font-size:15px;flex-shrink:0;margin-top:1px;}
+  .card-divider{display:flex;align-items:center;justify-content:center;gap:14px;margin:8px 0 26px;color:#E8946A;}
+  .card-divider .line{flex:1;max-width:90px;height:1.5px;background:#E8946A;opacity:.5;}
+  .card-divider .heart{font-size:15px;}
+  .card-steps{list-style:none;margin:0 0 26px;padding:0;}
+  .card-steps li{display:flex;align-items:flex-start;gap:11px;font-size:15px;color:var(--ink);padding:8px 0;line-height:1.5;}
+  .card-steps li .step-n{flex-shrink:0;width:24px;height:24px;border-radius:50%;background:var(--forest);
+    color:#fff;font-size:12px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:1px;font-family:'Manrope',sans-serif;}
+  .card-tip-banner{display:flex;align-items:center;gap:16px;background:linear-gradient(100deg,#FAC775,#D98326);
+    border-radius:16px;padding:16px 22px;margin-bottom:20px;box-shadow:0 10px 22px -12px rgba(140,74,38,0.45);}
+  .card-tip-banner .ct-icon{font-size:26px;flex-shrink:0;}
+  .card-tip-banner .ct-text{font-size:14.5px;color:#2B2115;line-height:1.5;}
+  .card-tip-banner .ct-text b{font-weight:800;}
+  .card-tip-banner .ct-heart{margin-left:auto;font-size:18px;color:#2B2115;opacity:.8;flex-shrink:0;}
+  .card-safety-banner{display:flex;align-items:flex-start;gap:14px;background:var(--paper);border-radius:16px;
+    padding:16px 20px;margin-bottom:30px;border:1px dashed var(--line);}
+  .card-safety-banner .cs-icon{font-size:22px;flex-shrink:0;}
+  .card-safety-banner .cs-text{font-size:13px;color:var(--ink-soft);line-height:1.55;}
+  .card-safety-banner .cs-text b{color:var(--forest-deep);}
+  .card-safety-banner .cs-alerta{display:block;color:var(--forest-deep);font-weight:800;margin-bottom:6px;font-size:13.5px;}
+  .card-download-row{display:flex;justify-content:center;margin:6px 0 22px;}
+  .btn-download{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1.5px solid #E8946A;
+    color:#C9703F;padding:11px 22px;border-radius:999px;font-weight:800;font-size:13.5px;box-shadow:var(--shadow-sm);
+    transition:transform .15s ease, background .15s ease, color .15s ease;}
+  .btn-download:hover{background:#E8946A;color:#fff;transform:translateY(-1px);}
+  .btn-download[disabled]{opacity:.65;cursor:wait;transform:none;}
+  /* ---------- AVALIAÇÃO ---------- */
+  .rating-card{background:#fff;border-radius:22px;box-shadow:var(--shadow-sm);padding:32px 28px;text-align:center;margin:44px 0 36px;border:1px solid var(--line);}
+  .rating-card .rc-icon{font-size:34px;margin-bottom:10px;}
+  .rating-card h3{font-family:'Fraunces',serif;font-size:21px;color:var(--forest);margin-bottom:8px;}
+  .rating-card p{font-size:14px;color:var(--ink-soft);max-width:420px;margin:0 auto 18px;line-height:1.55;}
+  .rc-stars{display:flex;justify-content:center;gap:6px;margin-bottom:6px;}
+  .rc-star{font-size:36px;line-height:1;cursor:pointer;color:var(--paper-dark);transition:transform .12s ease, color .12s ease;background:none;border:none;padding:2px;}
+  .rc-star:hover{transform:scale(1.15);}
+  .rc-star.filled{color:#EDA23E;}
+  .rc-thanks{margin-top:16px;padding:16px 20px;border-radius:14px;background:var(--paper);font-size:13.5px;color:var(--ink);line-height:1.55;}
+  .rc-thanks b{color:var(--terracotta);}
+  .rating-modal-box{background:var(--cream);border-radius:22px;max-width:400px;width:100%;padding:32px 26px 26px;
+    text-align:center;position:relative;box-shadow:0 30px 60px -20px rgba(0,0,0,0.4);}
+  .rating-modal-box .rm-close{position:absolute;top:14px;right:14px;width:32px;height:32px;border-radius:50%;
+    background:var(--paper);font-size:14px;display:flex;align-items:center;justify-content:center;}
+  .rating-modal-box .rc-star{font-size:32px;}
+  /* ---------- DESTAQUE DO PRODUTO PRINCIPAL + AÇÕES RÁPIDAS ---------- */
+  /* A capa do produto é um mockup, então fica ao lado do texto, inteira, nunca cortada como fundo. */
+  .main-feature{position:relative;border-radius:26px;overflow:hidden;cursor:pointer;display:grid;
+    grid-template-columns:0.9fr 1.1fr;gap:28px;align-items:center;padding:30px 34px;
+    background:linear-gradient(135deg, #B06E13 0%, #5A3519 55%, var(--forest-deep) 100%);
+    box-shadow:0 20px 44px -18px rgba(140,74,38,0.45);margin-top:8px;margin-bottom:22px;
+    transition:transform .2s ease, box-shadow .2s ease;}
+  .main-feature::after{content:'';position:absolute;top:-60px;right:-40px;width:260px;height:260px;
+    border-radius:50%;background:rgba(255,255,255,0.05);pointer-events:none;}
+  .main-feature:hover{transform:translateY(-3px);box-shadow:0 26px 54px -18px rgba(140,74,38,0.6);}
+  .main-feature:hover .main-feature-photo{transform:translateY(-4px) scale(1.03);}
+  .main-feature-photo{width:100%;max-width:270px;justify-self:center;display:block;object-fit:contain;
+    border-radius:12px;filter:drop-shadow(0 18px 30px rgba(0,0,0,0.45));transition:transform .35s ease;position:relative;z-index:1;}
+  .main-feature-content{position:relative;z-index:1;}
+  .main-feature-badge{display:inline-flex;align-items:center;gap:6px;background:var(--terracotta);color:#fff;
+    font-family:'Space Mono',monospace;font-size:11px;font-weight:800;letter-spacing:.08em;padding:6px 14px;border-radius:999px;margin-bottom:14px;}
+  .main-feature-title{font-family:'Fraunces',serif;color:#fff;font-size:clamp(24px,3.4vw,34px);font-weight:700;line-height:1.08;}
+  .main-feature-sub{color:rgba(255,255,255,0.85);font-size:14.5px;margin-top:9px;max-width:480px;line-height:1.55;}
+  .main-feature-stats{display:flex;gap:22px;margin-top:16px;flex-wrap:wrap;}
+  .main-feature-stats b{font-family:'Fraunces',serif;color:#fff;font-size:20px;display:block;font-weight:700;}
+  .main-feature-stats span{font-size:10.5px;color:rgba(255,255,255,0.72);font-family:'Space Mono',monospace;letter-spacing:.05em;}
+  .main-feature-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px;}
+  @media(max-width:760px){
+    .main-feature{grid-template-columns:1fr;gap:20px;padding:26px 22px 28px;text-align:center;}
+    .main-feature-photo{max-width:210px;}
+    .main-feature-sub{margin-left:auto;margin-right:auto;}
+    .main-feature-stats{justify-content:center;gap:18px;}
+    .main-feature-actions{justify-content:center;}
+  }
+  .quick-actions-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:34px;}
+  @media(max-width:700px){.quick-actions-row{grid-template-columns:1fr;}}
+  .quick-action-card{background:#fff;border-radius:18px;padding:16px 18px;display:flex;align-items:center;gap:13px;
+    box-shadow:var(--shadow-sm);cursor:pointer;transition:transform .15s ease, box-shadow .15s ease;border:1px solid rgba(43,33,21,0.05);}
+  .quick-action-card:hover{transform:translateY(-2px);box-shadow:var(--shadow);}
+  .qa-icon{width:44px;height:44px;border-radius:50%;background:var(--paper);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;}
+  .qa-text{flex:1;min-width:0;}
+  .qa-text b{display:block;font-family:'Fraunces',serif;font-size:15px;color:var(--forest);font-weight:600;}
+  .qa-text span{display:block;font-size:11.5px;color:var(--ink-soft);margin-top:2px;}
+  .qa-arrow{flex-shrink:0;font-size:18px;color:var(--forest);opacity:.55;transition:transform .15s ease;}
+  .quick-action-card:hover .qa-arrow{transform:translateX(3px);opacity:.9;}
+  .bonus-section-label{margin:4px 0 20px;text-align:center;}
+  .footer{border-top:1px solid var(--line);padding:26px 32px;text-align:center;
+    font-family:'Space Mono',monospace;font-size:11px;color:var(--ink-soft);letter-spacing:.03em;}
+  @media print{ .nav, .bottom-nav, .back-link, .card-download-row, .rating-card, .footer{display:none !important;} body{background:#fff;} }
+  /* ═══════════ REFINAMENTOS MOBILE ═══════════
+     O app é usado com uma mão só, muitas vezes com a criança no colo. */
+  html{ -webkit-text-size-adjust:100%; }
+  *{ -webkit-tap-highlight-color: transparent; }
+  button, .pill, .r-card, .coll-card, .quick-action-card, .meal-slot, .cardapio-card, .list-item{ touch-action: manipulation; }
+  @media (prefers-reduced-motion: reduce){ *{ animation:none !important; transition:none !important; scroll-behavior:auto !important; } }
+  .recipe-grid, .cardapio-grid, .collections{ content-visibility:auto; contain-intrinsic-size: 1px 1200px; }
+  /* Filtros deslizam na horizontal em vez de empilhar */
+  @media(max-width:820px){
+    .filter-row{flex-wrap:nowrap;overflow-x:auto;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;
+      scrollbar-width:none;margin:0 -18px 22px;padding:2px 18px 10px;}
+    .filter-row::-webkit-scrollbar{ display:none; }
+    .pill{ flex:0 0 auto; scroll-snap-align:start; padding:11px 16px; font-size:14px; }
+    .hero h1{ font-size:clamp(30px,8.4vw,40px); text-wrap:balance; }
+    .hero p.lead{ font-size:15.5px; }
+    .hero-eyebrow{ padding:5px 12px; }
+    .hero-eyebrow .eyebrow{ font-size:9.5px; letter-spacing:.08em; }
+    .stat-row{ gap:22px; margin-top:26px; }
+    .stat b{ font-size:25px; }
+    .search-box{ padding:14px 18px; position:sticky; top:60px; z-index:20; }
+    .recipes-head h1{ font-size:27px !important; }
+  }
+  @media(max-width:560px){
+    .card-ing-list li, .card-steps li{ font-size:15.5px; }
+    .card-steps li{ padding:10px 0; }
+    .btn-download{ width:100%; justify-content:center; padding:14px 22px; }
+    .card-tip-banner{ padding:14px 18px; }
+  }
+  /* Botão de voltar ao topo */
+  .to-top{position:fixed;right:16px;bottom:calc(74px + env(safe-area-inset-bottom));z-index:55;
+    width:46px;height:46px;border-radius:50%;background:var(--forest);color:#fff;display:flex;align-items:center;
+    justify-content:center;font-size:19px;box-shadow:0 8px 22px -8px rgba(140,74,38,.7);
+    opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s ease, transform .2s ease;}
+  .to-top.show{ opacity:1; pointer-events:auto; transform:translateY(0); }
+  @media(min-width:821px){ .to-top{ bottom:24px; } }
+    /* ---------- FOLHA DE PREÇO (igual ao app do Rolinhos) ---------- */
+  .pl-wrap{max-width:720px;margin:0 auto;padding-top:34px;}
+  .pl-hero{border-radius:22px;padding:30px 26px;color:#fff;margin-bottom:24px;box-shadow:var(--shadow);}
+  .pl-hero .icon{font-size:38px;margin-bottom:10px;}
+  .pl-hero h1{font-size:24px;color:#fff;}
+  .pl-hero p{margin-top:8px;font-size:14.5px;color:rgba(255,255,255,0.88);line-height:1.6;}
+  .pl-bloco{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:20px 22px;margin-bottom:18px;}
+  .pl-bloco h3{font-family:'Fraunces',serif;font-size:17px;color:var(--forest);margin-bottom:4px;}
+  .pl-bloco .pl-ajuda{font-size:12.5px;color:var(--ink-soft);line-height:1.5;margin:0 0 14px;}
+  .pl-linha{display:flex;align-items:center;gap:12px;padding:9px 0;border-bottom:1px dashed var(--line);}
+  .pl-linha:last-child{border-bottom:none;}
+  .pl-linha label{flex:1;font-size:14px;color:var(--ink);min-width:0;}
+  .pl-linha .pl-sub{display:block;font-size:11.5px;color:var(--ink-soft);margin-top:2px;}
+  .pl-campo{display:flex;align-items:center;gap:4px;background:var(--paper);border:1.5px solid var(--line);border-radius:10px;padding:7px 10px;flex-shrink:0;}
+  .pl-campo:focus-within{border-color:var(--forest);}
+  .pl-campo span{font-size:12.5px;color:var(--ink-soft);font-weight:700;}
+  .pl-campo input{border:none;background:none;outline:none;width:74px;text-align:right;font-family:'Space Mono',monospace;font-size:14px;color:var(--ink);font-weight:700;}
+  .pl-total{display:flex;justify-content:space-between;align-items:baseline;padding:12px 0 0;margin-top:6px;border-top:2px solid var(--line);}
+  .pl-total span{font-size:14px;font-weight:700;}
+  .pl-total b{font-family:'Space Mono',monospace;font-size:20px;color:var(--terracotta);}
+  .pl-tabela{width:100%;border-collapse:collapse;margin-top:6px;min-width:520px;}
+  .pl-tabela th{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-soft);text-align:right;padding:8px 6px;border-bottom:1.5px solid var(--line);font-weight:700;}
+  .pl-tabela th:first-child{text-align:left;}
+  .pl-tabela td{padding:10px 6px;border-bottom:1px solid var(--line);font-size:13.5px;text-align:right;font-family:'Space Mono',monospace;}
+  .pl-tabela td:first-child{text-align:left;font-family:'Manrope';font-weight:700;}
+  .pl-tabela tr:last-child td{border-bottom:none;}
+  .pl-tabela .pl-lucro{color:#3B6D11;font-weight:700;}
+  .pl-tabela .pl-preju{color:#B15748;font-weight:700;}
+  .pl-tabela input{width:62px;text-align:right;font-family:'Space Mono',monospace;font-size:14px;border:1.5px solid var(--line);border-radius:8px;padding:5px 7px;background:var(--paper);outline:none;color:var(--ink);font-weight:700;}
+  .pl-tabela input:focus{border-color:var(--forest);}
+  .pl-acoes{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:18px 0 8px;}
+  /* ---------- PLANILHA DE VENDAS ---------- */
+  .vd-resumo{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:16px;}
+  .vd-resumo div{background:#fff;border-radius:16px;padding:14px 16px;box-shadow:var(--shadow-sm);}
+  .vd-resumo b{display:block;font-family:'Fraunces',serif;font-size:22px;color:var(--forest-deep);}
+  .vd-resumo span{font-size:11.5px;color:var(--ink-soft);font-family:'Space Mono',monospace;letter-spacing:.03em;}
+  .vd-resumo .vd-lucro{background:linear-gradient(135deg,#FAC775,#D98326);}
+  .vd-resumo .vd-lucro b,.vd-resumo .vd-lucro span{color:#3A2416;}
+  .vd-form{display:flex;flex-direction:column;gap:10px;}
+  .vd-input{width:100%;border:1.5px solid var(--line);border-radius:12px;padding:12px 14px;font-family:'Manrope';font-size:15px;background:var(--paper);color:var(--ink);outline:none;}
+  .vd-input:focus{border-color:var(--forest);}
+  .vd-linha{display:flex;gap:10px;align-items:center;}
+  .vd-linha .vd-input{width:84px;flex-shrink:0;}
+  .vd-linha .btn-terracotta{flex:1;padding:13px 16px;}
+  .vd-lista{display:flex;flex-direction:column;gap:10px;}
+  .vd-pedido{background:#fff;border-radius:16px;padding:13px 14px;box-shadow:var(--shadow-sm);display:flex;flex-direction:column;gap:10px;border-left:5px solid var(--terracotta);}
+  .vd-pedido.vd-ok{border-left-color:#3B6D11;opacity:.8;}
+  .vd-info b{display:block;font-size:15px;}
+  .vd-info span{font-size:13px;color:var(--ink-soft);}
+  .vd-botoes{display:flex;gap:8px;flex-wrap:wrap;}
+  .vd-tag{padding:8px 14px;border-radius:999px;border:1.5px solid var(--line);background:var(--paper);font-weight:700;font-size:13px;color:var(--ink-soft);}
+  .vd-tag.on{background:#3B6D11;border-color:#3B6D11;color:#fff;}
+  .vd-del{margin-left:auto;font-size:12.5px;color:#B15748;font-weight:700;padding:8px 6px;}
+  .fornada-conta{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:18px 20px;margin-top:20px;}
+  .fornada-conta h3{font-family:'Fraunces',serif;font-size:17px;color:var(--forest);margin-bottom:8px;}
+  .fc-row{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px dashed var(--line);font-size:14px;}
+  .fc-row b{font-family:'Space Mono',monospace;color:var(--forest-deep);text-align:right;}
+  .fc-row.total{border-bottom:none;border-top:2px solid var(--line);margin-top:4px;font-weight:800;}
+  .fc-row.total b{color:#3B6D11;font-size:18px;}
+  /* ---------- QUEM ESTÁ POR TRÁS ---------- */
+  .expert-card{display:flex;gap:18px;align-items:center;background:#fff;border-radius:22px;padding:20px;box-shadow:var(--shadow-sm);margin:34px 0 0;}
+  .expert-card img{width:110px;height:110px;border-radius:50%;object-fit:cover;flex-shrink:0;border:4px solid var(--paper);}
+  .expert-card h3{font-family:'Fraunces',serif;font-size:20px;color:var(--forest);margin:4px 0 6px;}
+  .expert-card p{font-size:13.5px;color:var(--ink-soft);line-height:1.6;margin:0;}
+  @media(max-width:560px){ .expert-card{flex-direction:column;text-align:center;} .pl-linha{flex-wrap:wrap;} }
+
+  /* ═══════════ GRADE FINAL ═══════════
+     2 colunas em qualquer celular, 3 assim que couber. Este bloco vem por
+     último de propósito: ele manda em todas as regras de grade acima. */
+  .collections, .recipe-grid{ grid-template-columns:repeat(2,1fr); gap:12px; }
+  .cardapio-grid{ grid-template-columns:repeat(2,1fr); gap:12px; }
+  @media(min-width:620px){ .collections, .recipe-grid{ grid-template-columns:repeat(3,1fr); gap:16px; } }
+  @media(min-width:980px){
+    .collections, .recipe-grid{ grid-template-columns:repeat(4,1fr); gap:18px; }
+    .cardapio-grid{ grid-template-columns:repeat(2,1fr); gap:18px; }
+  }
+  @media(max-width:620px){
+    .page{ padding-left:14px; padding-right:14px; }
+    .coll-media{ padding:10px; }
+    .coll-body{ padding:11px 12px 14px; }
+    .coll-title{ font-size:14px; line-height:1.15; }
+    .coll-sub{ font-size:10px; }
+    .coll-badge{ font-size:8.5px; padding:4px 8px; top:8px; left:8px; }
+    .r-body{ padding:10px 11px 13px; }
+    .r-name{ font-size:14px; line-height:1.18; }
+    .r-time{ font-size:11px; margin-top:6px; }
+    .r-age{ font-size:10px; padding:3px 8px; margin-top:6px; }
+    .r-art .r-cat-chip{ font-size:8.5px; padding:4px 8px; top:8px; left:8px; }
+    .r-art .fav{ width:30px; height:30px; font-size:14px; top:8px; right:8px; }
+    .cardapio-strip{ height:64px; }
+    .cardapio-body{ padding:12px 13px 14px; }
+    .cardapio-title{ font-size:15px; line-height:1.15; }
+    .cardapio-sub{ font-size:11.5px; line-height:1.35; }
+    .cardapio-eyebrow{ font-size:9px; }
+    .filter-row{ margin-left:-14px; margin-right:-14px; padding-left:14px; padding-right:14px; }
+  }
+  @media(max-width:340px){
+    .collections, .recipe-grid, .cardapio-grid{ gap:9px; }
+    .coll-title{ font-size:13px; }
+    .r-name{ font-size:13px; }
+  }
+</style>
+</head>
+<body>
+<nav class="nav">
+  <div class="logo">Pão Recheado <span>Lucrativo</span></div>
+  <div class="nav-links" id="navLinks">
+    <button data-route="home">Início</button>
+    <button data-route="recipes">Receitas</button>
+    <button data-route="cardapios">Fornadas</button>
+    <button data-route="vendas">Vendas</button>
+    <button data-route="lista">Lista de Compras</button>
+  </div>
+</nav>
+<main class="page" id="app"></main>
+<nav class="bottom-nav">
+  <button data-route="home"><span class="bn-icon">🏠</span><span class="bn-label">Início</span></button>
+  <button data-route="recipes"><span class="bn-icon">🍽️</span><span class="bn-label">Receitas</span></button>
+  <button data-route="cardapios"><span class="bn-icon">🔥</span><span class="bn-label">Fornadas</span></button>
+  <button data-route="vendas"><span class="bn-icon">💰</span><span class="bn-label">Vendas</span></button>
+  <button data-route="lista"><span class="bn-icon">🛒</span><span class="bn-label">Lista</span></button>
+</nav>
+<div class="modal-overlay" id="listModal" onclick="if(event.target===this) closeListModal()">
+  <div class="modal-box" onclick="event.stopPropagation()">
+    <div class="modal-head">
+      <div>
+        <div class="eyebrow">LISTA INTELIGENTE</div>
+        <h2 style="font-family:'Fraunces',serif;font-size:24px;color:var(--forest);margin-top:4px;">Escolha as receitas</h2>
+      </div>
+      <button class="modal-close" onclick="closeListModal()">✕</button>
+    </div>
+    <div class="modal-search-wrap">
+      <div class="search-box" style="margin:14px 0 12px;">
+        <span>🔍</span>
+        <input placeholder="Buscar por nome ou ingrediente..." value="" oninput="setModalSearch(this.value)">
+      </div>
+      <div class="filter-row" id="modalFilters"></div>
+    </div>
+    <div class="modal-body" id="modalGrid"></div>
+    <div class="modal-foot">
+      <div>
+        <div style="font-weight:800;font-size:14px;" id="modalCount">0 receitas selecionadas</div>
+        <a class="back-link" style="margin:0;" onclick="clearListSelection()">Limpar seleção</a>
+      </div>
+      <button class="btn-terracotta" onclick="closeListModal()">Concluir</button>
+    </div>
+  </div>
+</div>
+<div class="modal-overlay" id="ratingModal" onclick="if(event.target===this) closeRatingModal(true)">
+  <div class="rating-modal-box" onclick="event.stopPropagation()" id="ratingModalContent"></div>
+</div>
+<button class="to-top" id="toTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Voltar ao topo">↑</button>
+<div class="footer">PÃO RECHEADO LUCRATIVO · FEITO COM ♥ PELA CHEF MARI DIAS · FAZ NUM DIA, VENDE A SEMANA INTEIRA</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script>
+/* ==================== DADOS ==================== */
+const IMG = "https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/";
+const APPIMG = "https://zitfuuullg008-debug.github.io/harness-ofertas/apps/pao-recheado-lucrativo/img/";
+const CATS = {
+  massa:   {label:"A massa",  color:"var(--c-massa)",   bg:"var(--c-massa-bg)"},
+  salgado: {label:"Salgados", color:"var(--c-salgado)", bg:"var(--c-salgado-bg)"},
+  doce:    {label:"Doces",    color:"var(--c-doce)",    bg:"var(--c-doce-bg)"},
+};
+const ASSAR = "Deixe crescer coberto por 40 minutos (congelado: descongele na geladeira de um dia pro outro antes) e asse a 180 °C por 30 a 35 minutos, até a casca dourar por igual e o fundo soar oco ao bater com o dedo.";
+const RECIPES = [
+  {id:1, name:"A Massa Base (rende 10 pães)", cat:"massa", icon:"🥖", time:"~1h40 (com o descanso)", portions:"10 pães de 250 g de massa", custo:"R$ 2,40 por pão", preco:"—",
+   img:APPIMG+"massa.webp", stepImgs:[1,2,3,4,5,6].map(n=>APPIMG+"passo-"+n+".webp"),
+   ingredients:["1,4 kg de farinha de trigo (cerca de 10 xícaras de chá)","20 g de fermento biológico seco (2 sachês)","700 ml de leite morno","3 ovos","120 g de manteiga em temperatura ambiente","80 g de açúcar (6 colheres de sopa)","25 g de sal (1 e 1/2 colher de sopa)","1 gema batida, pra pincelar"],
+   tip:"Leite → metade leite e metade água morna, com o mesmo volume total. A massa fica um pouco menos macia, mas o custo cai.",
+   steps:["Numa tigela grande, misture o leite morno (morno no pulso, nunca quente), o fermento e o açúcar e deixe 10 minutos, até formar uma espuminha por cima.","Junte os ovos, a manteiga e metade da farinha e mexa com uma colher até virar um creme grosso, sem pedaços secos.","Acrescente o sal e o resto da farinha aos poucos, misturando com a mão até a massa desgrudar da tigela; sove só 8 minutos, até ficar lisa e macia ao toque.","Cubra e deixe crescer por cerca de 1 hora, até dobrar de volume: afunde um dedo na massa e o buraco volta devagar.","Divida em 10 bolas de 250 g na balança e abra cada uma com o rolo num retângulo de 25 x 15 cm, que é onde entra o recheio.","Recheie, enrole e feche como no guia \"Como fechar sem vazar\"; depois congele cru ou deixe crescer 40 minutos, pincele a gema e asse a 180 °C por 30 a 35 minutos."],
+   alerta:"O fermento morre com leite quente: se queimar o dedo, espere esfriar antes de misturar."},
+  {id:2, name:"Calabresa com Queijo", cat:"salgado", icon:"🌶️", time:"~25 min (recheio)", portions:"Recheio pra 10 pães", custo:"R$ 6,00 por pão", preco:"R$ 30",
+   img:IMG+"demo-1.webp",
+   ingredients:["700 g de calabresa defumada em cubinhos","600 g de muçarela ralada grossa","1 cebola grande picada","1 colher de sopa de azeite","1 colher de chá de orégano"],
+   tip:"Muçarela → queijo prato ralado, na mesma quantidade; derrete igual e às vezes sai mais barato.",
+   steps:["Refogue a cebola no azeite por 3 minutos, junte a calabresa e deixe dourar por mais 5 minutos, mexendo sempre.","Escorra a calabresa sobre papel-toalha e deixe esfriar por completo, porque recheio quente derrete a massa e faz o pão abrir no forno.","Misture a calabresa fria com a muçarela e o orégano numa tigela, até o queijo envolver todos os cubinhos.","Espalhe 150 g de recheio sobre cada retângulo de massa, deixando 2 cm livres nas bordas, e enrole e feche como no guia.",ASSAR],
+   alerta:"Escorra bem a gordura da calabresa: gordura no recheio é o que faz o fundo do pão ficar encharcado."},
+  {id:3, name:"Frango com Requeijão", cat:"salgado", icon:"🍗", time:"~40 min (recheio)", portions:"Recheio pra 10 pães", custo:"R$ 5,40 por pão", preco:"R$ 30",
+   img:IMG+"demo-2.webp",
+   ingredients:["1 kg de peito de frango","400 g de requeijão de corte em cubos","2 tomates sem semente picados","1 cebola picada e 2 dentes de alho amassados","2 colheres de sopa de óleo","Sal, colorau e cheiro-verde: 1 colher de chá de cada"],
+   tip:"Requeijão de corte → requeijão cremoso de copo deixado 2 horas na geladeira, colocado em colheradas na hora de montar.",
+   steps:["Cozinhe o frango em água com sal por 25 minutos, até não sobrar nenhuma parte rosada por dentro, e desfie bem fino com dois garfos.","Refogue a cebola e o alho no óleo, junte o tomate, o colorau e o frango e deixe no fogo até secar todo o caldo da panela, cerca de 8 minutos.","Desligue, misture o cheiro-verde e espere esfriar por completo antes de montar.","Espalhe 110 g de frango em cada retângulo, distribua 40 g de requeijão em cubos por cima, enrole e feche como no guia.",ASSAR],
+   alerta:"O frango tem que sair do fogo sequinho: qualquer caldo que sobrar vaza e abre o pão no forno."},
+  {id:4, name:"Pizza", cat:"salgado", icon:"🍕", time:"~20 min (recheio)", portions:"Recheio pra 10 pães", custo:"R$ 5,80 por pão", preco:"R$ 30",
+   img:IMG+"demo-3.webp",
+   ingredients:["500 g de presunto em cubinhos","600 g de muçarela ralada grossa","3 tomates sem semente em cubinhos","1/2 xícara de molho de tomate bem grosso","2 colheres de chá de orégano"],
+   tip:"Presunto → calabresa em cubinhos refogada e fria, na mesma quantidade, pra uma versão pizza de calabresa.",
+   steps:["Seque os cubinhos de tomate sobre papel-toalha por 10 minutos, pra tirar o excesso de água.","Passe uma colher de sopa rasa de molho no meio de cada retângulo de massa, sem chegar perto das bordas.","Distribua por cima o presunto, a muçarela, o tomate seco no papel e uma pitada de orégano, uns 150 g no total por pão.","Enrole bem justo e feche como no guia, apertando as pontas pra o molho não escapar.",ASSAR],
+   alerta:"Pouco molho: uma colher rasa por pão. Molho a mais é a causa número 1 de pão de pizza aberto."},
+  {id:5, name:"Presunto e Queijo", cat:"salgado", icon:"🧀", time:"~10 min (montagem)", portions:"Recheio pra 10 pães", custo:"R$ 5,90 por pão", preco:"R$ 30",
+   img:IMG+"demo-4.webp",
+   ingredients:["700 g de presunto fatiado","700 g de muçarela fatiada","1 colher de chá de orégano (opcional)"],
+   tip:"Muçarela fatiada → queijo prato fatiado, na mesma quantidade.",
+   steps:["Abra o retângulo de massa e cubra com uma camada de fatias de presunto, deixando 2 cm livres nas bordas.","Cubra o presunto com uma camada de muçarela e repita: presunto e queijo de novo, uns 140 g no total por pão.","Polvilhe uma pitada de orégano, se quiser, e enrole a partir do lado maior, bem justo, pra formar as camadas em espiral.","Feche a emenda e as pontas como no guia e coloque com a emenda pra baixo na assadeira.",ASSAR]},
+  {id:6, name:"Carne Seca com Requeijão", cat:"salgado", icon:"🥩", time:"~1h (recheio, sem contar o dessalgue)", portions:"Recheio pra 10 pães", custo:"R$ 6,80 por pão", preco:"R$ 30",
+   img:IMG+"demo-5.webp",
+   ingredients:["800 g de carne seca dessalgada","400 g de requeijão de corte em cubos","2 cebolas picadas","3 dentes de alho amassados","2 colheres de sopa de manteiga","Cheiro-verde picado: 3 colheres de sopa"],
+   tip:"Carne seca → carne de sol, que já vem menos salgada: dessalgue só 6 horas.",
+   steps:["Dessalgue a carne seca em água na geladeira por 24 horas, trocando a água 4 vezes; depois cozinhe na pressão por 30 minutos.","Desfie bem fino, tirando as gorduras e nervos que sobrarem na carne.","Refogue a cebola e o alho na manteiga até dourar, junte a carne e frite por 5 minutos, até a carne ficar sequinha; finalize com cheiro-verde e deixe esfriar.","Espalhe 110 g de carne em cada retângulo, distribua 40 g de requeijão em cubos, enrole e feche como no guia.",ASSAR],
+   alerta:"Prove a carne antes de montar: se ainda estiver salgada, ferva 10 minutos em água nova."},
+  {id:7, name:"Bacon com Cheddar", cat:"salgado", icon:"🥓", time:"~25 min (recheio)", portions:"Recheio pra 10 pães", custo:"R$ 6,50 por pão", preco:"R$ 30",
+   img:IMG+"demo-6.webp",
+   ingredients:["600 g de bacon em cubinhos","500 g de cheddar fatiado","300 g de muçarela ralada","1 cebola picada"],
+   tip:"Cheddar fatiado → cheddar cremoso de bisnaga gelado, em fios finos, uns 40 g por pão.",
+   steps:["Frite o bacon em fogo médio, sem óleo, até ficar crocante, cerca de 12 minutos; junte a cebola nos últimos 3 minutos.","Escorra tudo sobre papel-toalha, trocando o papel uma vez, e deixe esfriar por completo.","Cubra o retângulo de massa com as fatias de cheddar, espalhe o bacon e finalize com a muçarela, uns 140 g no total por pão.","Enrole bem justo e feche como no guia, conferindo que nenhuma fatia de cheddar ficou encostada na borda.",ASSAR],
+   alerta:"Bacon mal escorrido solta gordura no forno e deixa a casca mole: troque o papel-toalha até sair seco."},
+  {id:8, name:"Goiabada com Queijo", cat:"doce", icon:"🧀", time:"~15 min (recheio)", portions:"Recheio pra 10 pães", custo:"R$ 5,20 por pão", preco:"R$ 28",
+   img:IMG+"demo-7.webp",
+   ingredients:["750 g de goiabada cascão em cubos","750 g de queijo minas padrão (ou muçarela) em cubos","2 colheres de sopa de água"],
+   tip:"Goiabada cascão → goiabada comum: amoleça com 1 colher de água a mais, porque ela é mais dura.",
+   steps:["Leve a goiabada com a água ao fogo baixo por 5 minutos, mexendo, só até amolecer e virar uma pasta grossa.","Deixe esfriar até ficar morna e firme, a ponto de dar pra espalhar com a colher sem escorrer.","Espalhe 75 g de goiabada no meio de cada retângulo e distribua por cima 75 g de queijo em cubos.","Enrole e feche como no guia, apertando bem as pontas, porque a goiabada amolece de novo no forno.",ASSAR],
+   alerta:"Queijo minas frescal solta água e abre o pão: use minas padrão ou muçarela."},
+  {id:9, name:"Chocolate", cat:"doce", icon:"🍫", time:"~25 min (recheio)", portions:"Recheio pra 10 pães", custo:"R$ 5,60 por pão", preco:"R$ 28",
+   img:IMG+"demo-8.webp",
+   ingredients:["3 latas de leite condensado (395 g cada)","6 colheres de sopa de cacau em pó","3 colheres de sopa de manteiga","300 g de chocolate em gotas forneável"],
+   tip:"Cacau em pó → achocolatado em pó, 9 colheres de sopa; fica mais doce e mais claro.",
+   steps:["Leve o leite condensado, o cacau e a manteiga ao fogo baixo, mexendo sem parar, por cerca de 15 minutos, até virar um brigadeiro que desgruda do fundo da panela.","Passe pra um prato untado, cubra com filme encostando no doce e deixe esfriar por completo, até ficar firme.","Espalhe 120 g de brigadeiro em cada retângulo e salpique 30 g de gotas de chocolate por cima.","Enrole e feche como no guia, com a emenda bem apertada.",ASSAR],
+   alerta:"Brigadeiro mole vaza: ele tem que estar firme o bastante pra fazer bolinha antes de rechear."},
+  {id:10, name:"Doce de Leite com Coco", cat:"doce", icon:"🥥", time:"~10 min (montagem)", portions:"Recheio pra 10 pães", custo:"R$ 5,50 por pão", preco:"R$ 28",
+   img:IMG+"demo-9.webp",
+   ingredients:["1 kg de doce de leite de corte ou pastoso bem firme","200 g de coco ralado sem açúcar"],
+   tip:"Doce de leite pastoso mole → leve 10 minutos ao fogo baixo mexendo e deixe esfriar: ele firma.",
+   steps:["Misture o doce de leite com o coco numa tigela até virar uma pasta grossa, que para em pé na colher.","Leve a pasta à geladeira por 30 minutos, pra firmar ainda mais e ficar fácil de espalhar.","Espalhe 120 g de recheio em cada retângulo, deixando 2 cm livres nas bordas.","Enrole e feche como no guia, apertando bem a emenda e as pontas.",ASSAR]},
+  {id:11, name:"Banana com Canela", cat:"doce", icon:"🍌", time:"~25 min (recheio)", portions:"Recheio pra 10 pães", custo:"R$ 4,80 por pão", preco:"R$ 28",
+   img:IMG+"demo-10.webp",
+   ingredients:["12 bananas-prata maduras em rodelas","1/2 xícara de açúcar mascavo","2 colheres de sopa de canela em pó","2 colheres de sopa de manteiga"],
+   tip:"Açúcar mascavo → açúcar comum, na mesma quantidade; perde um pouco do sabor de caramelo.",
+   steps:["Derreta a manteiga numa panela, junte a banana, o açúcar e a canela e cozinhe em fogo médio por 15 minutos, mexendo de vez em quando.","Deixe no fogo até a banana virar um doce grosso e o caldo secar quase todo.","Espalhe num prato e espere esfriar por completo antes de montar.","Espalhe 130 g de doce em cada retângulo, enrole e feche como no guia.",ASSAR],
+   alerta:"Com caldo, a banana vaza: o doce tem que estar seco a ponto de não escorrer do prato inclinado."},
+];
+/* Fornadas prontas: o dia da massa = 5 sabores x 10 pães = 50 pães no freezer. */
+const CARDAPIOS = [
+  {id:1, title:"A fornada dos campeões", sub:"Os 5 sabores que mais vendem. Comece por aqui no seu primeiro dia da massa.", meals:{s1:2, s2:3, s3:4, d1:8, d2:9}},
+  {id:2, title:"A fornada do queijo", sub:"Pra segunda semana: sabores novos pra quem já comprou e quer variar.", meals:{s1:5, s2:7, s3:6, d1:10, d2:11}},
+  {id:3, title:"A fornada da firma", sub:"Pra vender pro pessoal do trabalho: sabores que agradam todo mundo no café.", meals:{s1:5, s2:3, s3:2, d1:8, d2:10}},
+  {id:4, title:"A fornada de custo baixo", sub:"Os sabores mais baratos de fazer, pra semana em que o mercado estiver caro.", meals:{s1:3, s2:4, s3:5, d1:11, d2:8}},
+];
+const MEAL_LABELS = {s1:"Salgado 1 · 10 pães", s2:"Salgado 2 · 10 pães", s3:"Salgado 3 · 10 pães", d1:"Doce 1 · 10 pães", d2:"Doce 2 · 10 pães"};
+const MEAL_ORDER = ["s1","s2","s3","d1","d2"];
+const EXPERT_IMG = IMG+"autoridade-1.webp";
+
+/* Guias do próprio produto (não são bônus). */
+const GUIAS_PRODUTO = [
+  {n:101, icon:"👐", title:"O ponto da massa", text:"Como saber que a massa está pronta pra crescer, pra abrir e pro forno.", cover:IMG+"demo-4.webp"},
+  {n:102, icon:"🔒", title:"Como fechar sem vazar", text:"Enrolar, fechar a emenda e fazer os riscos sem o recheio escapar no forno.", cover:IMG+"demo-1.webp"},
+  {n:103, icon:"❄️", title:"Congelar cru e assar direto", text:"Faz num dia, guarda no freezer e assa só o que foi pedido, sem perder a maciez.", cover:IMG+"demo-2.webp"},
+  {n:104, icon:"📅", title:"O dia da massa: 50 pães", text:"A tarde inteira organizada pra montar 50 pães e deixar a semana pronta.", cover:IMG+"demo-6.webp"},
+  {n:105, icon:"💰", title:"O custo e o preço de cada sabor", text:"Quanto custa, por quanto vender e quanto sobra em cada um dos 10 recheios.", cover:IMG+"demo-5.webp"},
+  {n:106, icon:"🛒", title:"A lista de compras do dia da massa", text:"Tudo o que comprar pra 50 pães, em 5 sabores, numa ida ao mercado.", cover:IMG+"demo-3.webp"},
+];
+
+const BONUSES = [
+  {n:1, kind:"guide", icon:"📈", title:"O plano das 150 vendas", text:"Do primeiro pedido às 150 vendas, no primeiro mês. Você sabe quanto vender em cada semana.", color:"var(--b1)", bg:"var(--b1-bg)", cover:IMG+"bonuses-1.webp"},
+  {n:2, kind:"guide", icon:"💬", title:"15 mensagens que fecham encomenda", text:"Do cardápio de segunda até o Pix cobrado. Copia, cola e manda.", color:"var(--b2)", bg:"var(--b2-bg)", cover:IMG+"bonuses-2.webp"},
+  {n:3, kind:"recipes", icon:"🥖", title:"Mais 10 recheios extras", text:"Com os 10 do produto, você fecha 20 sabores. Escolhe e coloca no cardápio da semana.", color:"var(--b3)", bg:"var(--b3-bg)", cover:IMG+"bonuses-3.webp"},
+  {n:4, kind:"fotos", icon:"📸", title:"30 fotos que dão água na boca", text:"Baixa, posta no status e recebe pedido antes da primeira fornada.", color:"var(--b4)", bg:"var(--b4-bg)", cover:IMG+"bonuses-4.webp"},
+  {n:5, kind:"recipes", icon:"🎄", title:"A Fornada de Natal: 5 pães", text:"Abre a encomenda em novembro e fatura em dezembro.", color:"var(--b5)", bg:"var(--b5-bg)", cover:IMG+"bonuses-5.webp"},
+  {n:6, kind:"certificado", icon:"🏅", title:"Seu certificado de padeira artesanal", text:"Para imprimir e pendurar. A cliente vê que é negócio de verdade.", color:"var(--b6)", bg:"var(--b6-bg)", cover:IMG+"bonuses-6.webp"},
+];
+const MAIN_COVER_IMG = APPIMG+"capa.webp";
+
+const FOTOS = [
+  ...Array.from({length:10},(_,i)=>APPIMG+"fotos/foto-"+String(i+1).padStart(2,"0")+".webp"),
+  ...Array.from({length:20},(_,i)=>APPIMG+"fotos/foto-"+(i+11)+".webp"),
+];
+
+const BONUS_RECIPES = {
+  3: [
+    {id:301, name:"Palmito com Requeijão", icon:"🌿", time:"~20 min", portions:"Recheio pra 10 pães", custo:"R$ 6,20 por pão", preco:"R$ 30", img:APPIMG+"r301.webp",
+     ingredients:["2 vidros de palmito picado (300 g drenados cada)","400 g de requeijão de corte em cubos","1 cebola picada","2 tomates sem semente picados","1 colher de sopa de azeite","2 colheres de sopa de salsinha"],
+     tip:"Palmito → milho verde escorrido, na mesma quantidade; fica mais barato.",
+     steps:["Escorra o palmito numa peneira por 10 minutos e seque bem com papel-toalha.","Refogue a cebola no azeite, junte o tomate e o palmito e deixe no fogo até secar toda a água, uns 6 minutos.","Finalize com a salsinha e espere esfriar por completo.","Espalhe 110 g do refogado e 40 g de requeijão em cubos em cada retângulo da massa base, enrole e feche como no guia.",ASSAR]},
+    {id:302, name:"Atum com Queijo", icon:"🐟", time:"~15 min", portions:"Recheio pra 10 pães", custo:"R$ 6,40 por pão", preco:"R$ 30", img:APPIMG+"r302.webp",
+     ingredients:["4 latas de atum sólido escorrido","500 g de muçarela ralada","1 cebola picada","2 tomates sem semente picados","Azeitonas picadas: 1/2 xícara"],
+     tip:"Atum → sardinha em lata sem espinha, na mesma quantidade.",
+     steps:["Escorra muito bem o atum, apertando com um garfo na peneira até não sair mais óleo.","Misture o atum com a cebola, o tomate seco no papel-toalha e a azeitona.","Junte a muçarela e mexa até o queijo envolver tudo.","Espalhe 150 g em cada retângulo da massa base, enrole e feche como no guia.",ASSAR]},
+    {id:303, name:"Brócolis com Bacon e Queijo", icon:"🥦", time:"~25 min", portions:"Recheio pra 10 pães", custo:"R$ 6,10 por pão", preco:"R$ 30", img:APPIMG+"r303.webp",
+     ingredients:["2 maços de brócolis só os buquês","300 g de bacon em cubinhos","500 g de muçarela ralada","2 dentes de alho amassados"],
+     tip:"Bacon → calabresa em cubinhos, na mesma quantidade.",
+     steps:["Cozinhe os buquês de brócolis no vapor por 5 minutos, só até ficarem verdes e firmes, e pique miúdo.","Frite o bacon até dourar, junte o alho e o brócolis e refogue por 3 minutos.","Escorra num papel-toalha e espere esfriar por completo; depois misture a muçarela.","Espalhe 150 g em cada retângulo da massa base, enrole e feche como no guia.",ASSAR],
+     alerta:"Brócolis cozido demais solta água: tire do vapor ainda bem verde."},
+    {id:304, name:"Carne Moída com Queijo", icon:"🍖", time:"~30 min", portions:"Recheio pra 10 pães", custo:"R$ 6,30 por pão", preco:"R$ 30", img:APPIMG+"r304.webp",
+     ingredients:["800 g de carne moída","500 g de muçarela ralada","1 cebola e 2 dentes de alho picados","2 colheres de sopa de extrato de tomate","Sal e cheiro-verde: 1 colher de chá de cada"],
+     tip:"Carne moída → frango moído, na mesma quantidade e no mesmo preparo.",
+     steps:["Refogue a cebola e o alho, junte a carne e frite em fogo alto, soltando os grumos com a colher, por 10 minutos.","Junte o extrato e o sal e deixe no fogo até a panela secar por completo.","Finalize com o cheiro-verde e espere esfriar; só então misture a muçarela.","Espalhe 150 g em cada retângulo da massa base, enrole e feche como no guia.",ASSAR]},
+    {id:305, name:"Quatro Queijos", icon:"🧀", time:"~10 min", portions:"Recheio pra 10 pães", custo:"R$ 6,60 por pão", preco:"R$ 30", img:APPIMG+"r305.webp",
+     ingredients:["400 g de muçarela ralada","300 g de queijo prato ralado","200 g de requeijão de corte em cubos","100 g de parmesão ralado"],
+     tip:"Parmesão → queijo meia cura ralado, na mesma quantidade.",
+     steps:["Misture a muçarela, o prato e o parmesão numa tigela.","Espalhe 100 g da mistura em cada retângulo da massa base, deixando 2 cm livres nas bordas.","Distribua 20 g de requeijão em cubos por cima de cada um.","Enrole bem justo, sem deixar ar entre as voltas, e feche como no guia.",ASSAR]},
+    {id:306, name:"Escarola com Muçarela", icon:"🥬", time:"~20 min", portions:"Recheio pra 10 pães", custo:"R$ 4,90 por pão", preco:"R$ 30", img:APPIMG+"r306.webp",
+     ingredients:["2 pés de escarola picados","600 g de muçarela ralada","4 dentes de alho fatiados","2 colheres de sopa de azeite","Azeitonas picadas: 1/2 xícara"],
+     tip:"Escarola → couve refogada, na mesma quantidade.",
+     steps:["Doure o alho no azeite, junte a escarola e refogue até murchar e secar, cerca de 8 minutos.","Coloque a escarola numa peneira e aperte com a colher pra tirar toda a água que sobrou.","Espere esfriar, junte a azeitona e a muçarela e misture bem.","Espalhe 150 g em cada retângulo da massa base, enrole e feche como no guia.",ASSAR],
+     alerta:"Escarola guarda muita água: aperte na peneira até sair seca, senão o pão abre."},
+    {id:307, name:"Creme de Confeiteiro", icon:"🍮", time:"~25 min", portions:"Recheio pra 10 pães", custo:"R$ 3,90 por pão", preco:"R$ 28", img:APPIMG+"r307.webp",
+     ingredients:["1 litro de leite","6 gemas","1 xícara de açúcar","1/2 xícara de amido de milho","1 colher de chá de essência de baunilha"],
+     tip:"Polvilhe açúcar e canela por cima do pão assado: vira o pão doce de padaria que todo mundo conhece.",
+     steps:["Misture as gemas, o açúcar e o amido numa panela e junte o leite aos poucos, mexendo até dissolver tudo.","Leve ao fogo médio mexendo sem parar, até engrossar e soltar bolhas grandes, cerca de 10 minutos; desligue e junte a baunilha.","Cubra com filme encostando no creme e leve à geladeira por 2 horas, até ficar firme.","Espalhe 120 g de creme em cada retângulo da massa base, enrole e feche como no guia.",ASSAR],
+     alerta:"Creme quente ou mole vaza: ele só entra na massa bem gelado e firme."},
+    {id:308, name:"Maçã com Canela", icon:"🍎", time:"~25 min", portions:"Recheio pra 10 pães", custo:"R$ 4,60 por pão", preco:"R$ 28", img:APPIMG+"r308.webp",
+     ingredients:["8 maçãs sem casca em cubinhos","3/4 de xícara de açúcar","2 colheres de sopa de canela","2 colheres de sopa de manteiga","1 colher de sopa de amido de milho"],
+     tip:"Maçã → pera, na mesma quantidade e no mesmo preparo.",
+     steps:["Leve a maçã, o açúcar, a canela e a manteiga ao fogo médio por 12 minutos, mexendo, até a maçã ficar macia.","Dissolva o amido em 2 colheres de água, junte à panela e mexa 2 minutos, até a calda engrossar.","Espalhe num prato e deixe esfriar por completo.","Espalhe 130 g em cada retângulo da massa base, enrole e feche como no guia.",ASSAR]},
+    {id:309, name:"Cocada Cremosa", icon:"🥥", time:"~25 min", portions:"Recheio pra 10 pães", custo:"R$ 4,70 por pão", preco:"R$ 28", img:APPIMG+"r309.webp",
+     ingredients:["2 latas de leite condensado","400 g de coco ralado fresco ou úmido","1 xícara de leite","2 colheres de sopa de manteiga"],
+     tip:"Coco fresco → coco ralado seco hidratado em 1/2 xícara de leite morno por 15 minutos.",
+     steps:["Leve todos os ingredientes ao fogo baixo, mexendo sempre.","Cozinhe por cerca de 15 minutos, até a cocada desgrudar do fundo da panela.","Passe pra um prato untado e espere esfriar até ficar firme.","Espalhe 120 g em cada retângulo da massa base, enrole e feche como no guia.",ASSAR]},
+    {id:310, name:"Chocolate com Coco", icon:"🍫", time:"~25 min", portions:"Recheio pra 10 pães", custo:"R$ 5,40 por pão", preco:"R$ 28", img:APPIMG+"r310.webp",
+     ingredients:["2 latas de leite condensado","4 colheres de sopa de cacau em pó","2 colheres de sopa de manteiga","200 g de coco ralado"],
+     tip:"Vire o sabor de vitrine: polvilhe coco ralado por cima do pão logo depois de pincelar a gema.",
+     steps:["Faça um brigadeiro com o leite condensado, o cacau e a manteiga, mexendo em fogo baixo por 15 minutos, até desgrudar da panela.","Desligue, misture o coco ralado e passe pra um prato untado.","Cubra com filme encostando no doce e espere esfriar até ficar firme.","Espalhe 120 g em cada retângulo da massa base, enrole e feche como no guia.",ASSAR]},
+  ],
+  5: [
+    {id:501, name:"Pão de Frutas Cristalizadas e Uva-passa", icon:"🎄", time:"~20 min", portions:"Recheio pra 10 pães", custo:"R$ 6,90 por pão", preco:"R$ 39", img:APPIMG+"r501.webp",
+     ingredients:["500 g de frutas cristalizadas","300 g de uva-passa","1 xícara de suco de laranja","1/2 xícara de açúcar","2 colheres de sopa de manteiga derretida","Raspas de 2 laranjas"],
+     tip:"Quem não gosta de fruta cristalizada: troque por 800 g de gotas de chocolate e vire pão de Natal de chocolate.",
+     steps:["Deixe as frutas e a uva-passa no suco de laranja por 1 hora e escorra bem.","Pincele cada retângulo da massa base com manteiga derretida e polvilhe açúcar e raspas de laranja.","Espalhe 80 g de frutas por cima, enrole bem justo e feche como no guia.","Faça os riscos, pincele a gema e polvilhe açúcar cristal antes de assar.",ASSAR]},
+    {id:502, name:"Pão de Bacalhau com Batata", icon:"🐟", time:"~1h (sem o dessalgue)", portions:"Recheio pra 10 pães", custo:"R$ 9,50 por pão", preco:"R$ 45", img:APPIMG+"r502.webp",
+     ingredients:["700 g de bacalhau dessalgado e desfiado","500 g de batata cozida em cubinhos","2 cebolas fatiadas","1/2 xícara de azeitona preta picada","4 colheres de sopa de azeite","Salsinha: 3 colheres de sopa"],
+     tip:"Bacalhau → pescada amarela cozida e desfiada: o custo cai pela metade.",
+     steps:["Dessalgue o bacalhau por 24 horas na geladeira, trocando a água 4 vezes; aferventa por 5 minutos e desfie sem pele nem espinhas.","Doure a cebola no azeite, junte o bacalhau, a batata e a azeitona e refogue até secar.","Finalize com a salsinha e espere esfriar por completo.","Espalhe 150 g em cada retângulo da massa base, enrole e feche como no guia.",ASSAR],
+     alerta:"Passe os dedos pelo bacalhau desfiado: nenhuma espinha pode ir pro pão."},
+    {id:503, name:"Pão de Tender com Abacaxi", icon:"🍍", time:"~25 min", portions:"Recheio pra 10 pães", custo:"R$ 7,80 por pão", preco:"R$ 39", img:APPIMG+"r503.webp",
+     ingredients:["800 g de tender em cubinhos","1 abacaxi pequeno em cubinhos","1/2 xícara de açúcar mascavo","400 g de muçarela ralada"],
+     tip:"Tender → presunto em cubos, na mesma quantidade.",
+     steps:["Cozinhe o abacaxi com o açúcar mascavo em fogo médio por 15 minutos, até virar uma compota seca.","Espere a compota esfriar e misture o tender e a muçarela.","Espalhe 150 g em cada retângulo da massa base, deixando 2 cm livres nas bordas.","Enrole e feche como no guia, apertando bem as pontas.",ASSAR]},
+    {id:504, name:"Pão de Chocolate com Cereja", icon:"🍒", time:"~25 min", portions:"Recheio pra 10 pães", custo:"R$ 7,20 por pão", preco:"R$ 39", img:APPIMG+"r504.webp",
+     ingredients:["3 latas de leite condensado","6 colheres de sopa de cacau","3 colheres de sopa de manteiga","1 vidro de cereja em calda escorrida e cortada ao meio"],
+     tip:"Cereja → morango picado e seco no papel-toalha, só na época.",
+     steps:["Faça um brigadeiro firme com o leite condensado, o cacau e a manteiga, mexendo por cerca de 15 minutos em fogo baixo.","Passe pra um prato untado e espere esfriar até dar pra fazer bolinha.","Seque as cerejas sobre papel-toalha por 15 minutos.","Espalhe 110 g de brigadeiro e 6 metades de cereja em cada retângulo, enrole e feche como no guia.",ASSAR]},
+    {id:505, name:"Pão de Doce de Leite com Nozes", icon:"🌰", time:"~15 min", portions:"Recheio pra 10 pães", custo:"R$ 8,10 por pão", preco:"R$ 39", img:APPIMG+"r505.webp",
+     ingredients:["1 kg de doce de leite de corte","200 g de nozes picadas","1 colher de chá de canela"],
+     tip:"Nozes → castanha-do-pará picada, na mesma quantidade.",
+     steps:["Torre as nozes numa frigideira seca por 3 minutos, mexendo, até soltarem perfume.","Misture o doce de leite, as nozes e a canela até virar uma pasta grossa.","Espalhe 120 g em cada retângulo da massa base, deixando 2 cm livres nas bordas.","Enrole bem justo, feche como no guia e polvilhe nozes por cima depois da gema.",ASSAR]},
+  ],
+};
+
+const GUIDES = {
+  101:{gradient:"linear-gradient(135deg,#B06E13,#3A2416)", tips:[
+    {img:APPIMG+"passo-2.webp", title:"A massa certa é macia e quase não gruda", text:"Ao final dos 8 minutos de sova, encoste a mão: ela sai limpa, só com um toque de massa. Grudando muito, junte farinha de colher em colher."},
+    {img:APPIMG+"passo-3.webp", title:"O teste do dedo diz se cresceu", text:"Afunde um dedo enfarinhado 2 cm na massa. Se o buraco volta devagar, está no ponto. Se volta rápido, espere mais 15 minutos."},
+    {title:"Balança, não olho", text:"Pese cada bola: 250 g. Pão do mesmo tamanho assa no mesmo tempo, e a cliente recebe sempre o mesmo pão."},
+    {title:"Abrir sem rasgar", text:"Se a massa encolhe quando você passa o rolo, deixe ela descansar coberta por 10 minutos e abra de novo: ela relaxa e obedece."},
+    {title:"Dia frio, massa lenta", text:"No inverno, deixe crescer dentro do forno desligado com uma caneca de água quente ao lado. Ela dobra no mesmo tempo do verão."},
+  ]},
+  102:{gradient:"linear-gradient(135deg,#D98326,#94530F)", tips:[
+    {title:"Recheio frio, sempre", text:"Recheio quente derrete a massa por dentro e abre a emenda no forno. Todo recheio entra frio de geladeira ou em temperatura ambiente."},
+    {img:APPIMG+"passo-4.webp", title:"2 cm de borda livre", text:"Espalhe o recheio deixando 2 cm sem nada em volta. É essa borda que gruda e segura o recheio no lugar."},
+    {title:"Enrole justo, a partir do lado maior", text:"Enrole sem deixar ar entre as voltas, apertando de leve a cada volta. Ar dentro do pão vira buraco e faz o recheio escorrer."},
+    {img:APPIMG+"passo-5.webp", title:"Belisque a emenda e as pontas", text:"Belisque a emenda de ponta a ponta e dobre as duas pontas pra baixo. Coloque na assadeira com a emenda virada pra baixo."},
+    {img:APPIMG+"passo-6.webp", title:"Os riscos de cima", text:"Com uma faca bem afiada, faça riscos diagonais rasos, de 1 cm, só na casca. Risco fundo chega no recheio e abre o pão."},
+  ]},
+  103:{gradient:"linear-gradient(135deg,#4F7C9C,#2C4A5E)", tips:[
+    {title:"Congele logo depois de fechar", text:"Monte, feche e leve ao freezer sem deixar crescer. Massa que cresceu antes de congelar fica pesada depois de assada."},
+    {title:"Primeiro na assadeira, depois no saco", text:"Congele os pães separados numa assadeira por 3 horas. Já duros, passe pra sacos de freezer: assim eles não grudam um no outro."},
+    {title:"Etiqueta com sabor e data", text:"Escreva o sabor e o dia no saco. O pão cru dura até 30 dias no freezer com a mesma maciez."},
+    {title:"Descongele na geladeira", text:"Na véspera da entrega, passe os pães pedidos do freezer pra geladeira. De manhã, deixe crescer 1 hora fora da geladeira, coberto."},
+    {title:"Asse só o que foi pago", text:"Pincele a gema e asse a 180 °C por 30 a 35 minutos. Você assa só a encomenda do dia, entrega quentinho e não sobra nada."},
+  ]},
+  104:{gradient:"linear-gradient(135deg,#8E5B9C,#4A2B55)", tips:[
+    {title:"Na véspera: os recheios", text:"Faça os 5 recheios da semana na véspera e guarde na geladeira. No dia da massa, eles já estão frios e prontos."},
+    {title:"13h — as 5 massas", text:"Faça uma receita de massa base por vez, com 10 minutos de diferença entre uma e outra. Assim elas ficam prontas em sequência, não todas juntas."},
+    {title:"14h30 — dividir e abrir", text:"Divida cada massa em 10 bolas de 250 g e abra os retângulos. Trabalhe uma massa por vez e deixe as outras cobertas."},
+    {title:"15h — rechear e fechar", text:"Um sabor por massa: 10 pães de cada sabor. Recheie, feche e coloque direto na assadeira que vai pro freezer."},
+    {title:"18h — 50 pães no freezer", text:"No fim da tarde, os 50 pães estão congelados crus, etiquetados por sabor. A semana inteira de vendas está pronta."},
+  ]},
+  105:{gradient:"linear-gradient(135deg,#5F8C60,#2F5130)", tips:[
+    {title:"Calabresa com queijo", text:"Custo de R$ 6,00 por pão. Venda por R$ 30. Sobram R$ 24 em cada pão."},
+    {title:"Frango com requeijão", text:"Custo de R$ 5,40. Venda por R$ 30. Sobram R$ 24,60."},
+    {title:"Pizza", text:"Custo de R$ 5,80. Venda por R$ 30. Sobram R$ 24,20."},
+    {title:"Presunto e queijo", text:"Custo de R$ 5,90. Venda por R$ 30. Sobram R$ 24,10."},
+    {title:"Carne seca com requeijão", text:"Custo de R$ 6,80. Venda por R$ 30. Sobram R$ 23,20."},
+    {title:"Bacon com cheddar", text:"Custo de R$ 6,50. Venda por R$ 30. Sobram R$ 23,50."},
+    {title:"Goiabada com queijo", text:"Custo de R$ 5,20. Venda por R$ 28. Sobram R$ 22,80."},
+    {title:"Chocolate", text:"Custo de R$ 5,60. Venda por R$ 28. Sobram R$ 22,40."},
+    {title:"Doce de leite com coco", text:"Custo de R$ 5,50. Venda por R$ 28. Sobram R$ 22,50."},
+    {title:"Banana com canela", text:"Custo de R$ 4,80. Venda por R$ 28. Sobram R$ 23,20."},
+  ], nota:"Os custos são de mercado comum, com a massa (R$ 2,40 por pão) e o saco de celofane já somados. Confira os preços da sua cidade e ajuste: o que importa é o pão sair por perto de R$ 6 e vender por R$ 28 a R$ 30."},
+  106:{gradient:"linear-gradient(135deg,#B15748,#6E2F25)", tips:[
+    {title:"Pras 5 massas (50 pães)", text:"7 kg de farinha de trigo · 10 sachês de fermento biológico seco (100 g) · 3,5 litros de leite · 15 ovos + 5 gemas · 600 g de manteiga · 400 g de açúcar · 125 g de sal."},
+    {title:"Calabresa com queijo (10 pães)", text:"700 g de calabresa defumada · 600 g de muçarela · 1 cebola · orégano."},
+    {title:"Frango com requeijão (10 pães)", text:"1 kg de peito de frango · 400 g de requeijão de corte · 2 tomates · 1 cebola · alho · cheiro-verde."},
+    {title:"Pizza (10 pães)", text:"500 g de presunto · 600 g de muçarela · 3 tomates · molho de tomate · orégano."},
+    {title:"Chocolate (10 pães)", text:"3 latas de leite condensado · cacau em pó · manteiga · 300 g de chocolate em gotas forneável."},
+    {title:"Goiabada com queijo (10 pães)", text:"750 g de goiabada cascão · 750 g de queijo minas padrão ou muçarela."},
+    {title:"Pra embalar e guardar", text:"50 sacos de freezer ou 10 sacos grandes · 50 sacos de celofane pra entrega · fitilho · etiquetas · papel-manteiga."},
+  ], nota:"Esta é a lista da Fornada dos campeões. Pra montar a de outra semana, use a aba Lista: escolha os sabores e o app soma os ingredientes."},
+  1:{gradient:"linear-gradient(135deg,#D98326,#94530F)", tips:[
+    {title:"Semana 1 — 20 pães: as primeiras clientes", text:"Poste as fotos no status na segunda e mande o cardápio pra 30 contatos: vizinhas, família, grupo do condomínio. Meta: 20 pães pagos até quinta."},
+    {title:"Semana 2 — 30 pães: quem comprou volta", text:"Mande a mensagem de recompra pra quem comprou na semana 1 e peça uma foto do pão na mesa delas. Foto de cliente vende mais que a sua."},
+    {title:"Semana 3 — 45 pães: a firma e o grupo", text:"Leve o cardápio pro trabalho e ofereça a encomenda coletiva: 5 pães pra mesma entrega. Um grupo de colegas fecha 10 pães de uma vez."},
+    {title:"Semana 4 — 55 pães: indicação e combo", text:"Ofereça o combo de 2 pães e peça indicação pra cada cliente. Somando as 4 semanas, são 150 pães vendidos no primeiro mês."},
+    {title:"Toda semana, a mesma rotina", text:"Segunda abre a lista, quarta fecha, quinta é o dia da massa, sexta e sábado você assa e entrega. Pix sempre antes do forno."},
+  ]},
+  2:{gradient:"linear-gradient(135deg,#C97088,#7A3A50)", copy:true, tips:[
+    {title:"1. Segunda: abrindo a lista", text:"Bom dia! 🥖 Abri a lista de pães recheados desta semana. Sabores: calabresa, frango com requeijão, pizza, chocolate e goiabada com queijo. R$ 30 cada. Quer que eu separe o seu?"},
+    {title:"2. Pra quem nunca comprou", text:"Oi, tudo bem? Estou fazendo pão recheado caseiro sob encomenda, feito com massa macia e bem recheado. Posso te mandar o cardápio da semana?"},
+    {title:"3. O cardápio", text:"Esses são os sabores desta semana 👇 Os pedidos vão até quarta, e a entrega é na sexta ou no sábado, quentinho. Qual você quer provar?"},
+    {title:"4. Confirmando o pedido", text:"Anotado! 1 pão de [sabor] pra [dia da entrega]. O valor é R$ 30. Pra garantir o seu, me manda o Pix nessa chave: [sua chave]."},
+    {title:"5. Cobrando o Pix com jeitinho", text:"Oi! Passando pra lembrar do seu pão de [sabor] 😊 A lista fecha amanhã. Se ainda quiser, é só mandar o Pix que eu já reservo."},
+    {title:"6. Pix recebido", text:"Recebi, obrigada! ❤️ Seu pão de [sabor] está garantido pra [dia]. Te aviso quando sair do forno."},
+    {title:"7. Saiu do forno", text:"Seu pão acabou de sair do forno 🔥 Estou saindo pra entrega agora. Chego aí em uns 20 minutos!"},
+    {title:"8. Depois da entrega", text:"E aí, gostou do pão? Se puder, me manda uma foto dele na sua mesa. Me ajuda demais! 🥰"},
+    {title:"9. Recompra", text:"Oi! A lista desta semana abriu e tem [sabor] de novo. Quer que eu já separe o seu, como na semana passada?"},
+    {title:"10. Pedindo indicação", text:"Se você conhecer alguém que ia gostar, me indica? Pra cada amiga que comprar, o seu próximo pão sai com R$ 5 de desconto."},
+    {title:"11. Encomenda pro trabalho", text:"Que tal levar pão recheado pro café da firma? Pedindo 5 ou mais, a entrega é grátis e cada um sai por R$ 28."},
+    {title:"12. Último dia da lista", text:"Último dia pra pedir o pão da semana! 🥖 A lista fecha hoje às 20h. Depois disso, só na semana que vem."},
+    {title:"13. Esgotou", text:"Os pães desta semana esgotaram! 🙏 Quer que eu já coloque o seu nome na lista da semana que vem?"},
+    {title:"14. Pra festa ou aniversário", text:"Tem festa chegando? Faço pão recheado em quantidade pra aniversário e encontro de família. Me fala a data e quantas pessoas que eu monto o pedido."},
+    {title:"15. Cliente que sumiu", text:"Oi, sumida! 😊 Tem sabor novo esta semana: [sabor]. Lembrei de você. Quer provar?"},
+  ]},
+};
+
+/* ==================== ESTADO ==================== */
+let state = {
+  route:'home', search:'', filter:'todas',
+  /* As favoritas ficam salvas no aparelho: a pessoa marca hoje e encontra amanhã. */
+  favorites:new Set((function(){ try{ return JSON.parse(localStorage.getItem('app_favs')) || []; }catch(e){ return []; } })()),
+  detailId:null,
+  listSelected:new Set(), listModalSearch:'', listModalFilter:'todas', generatedList:null, checkedItems:new Set(),
+  bonusN:null, bonusSearch:'', bonusDetailId:null, cardapioId:null, certNome:'',
+  /* rating e favoritas: única exceção ao "nunca usar localStorage" — aqui é seguro porque o
+     resultado é um .html standalone entregue ao comprador, não um artifact do preview do chat. */
+  rating: (function(){ try{ return parseInt(localStorage.getItem('app_rating')) || 0; }catch(e){ return 0; } })(),
+};
+function setRating(n){
+  state.rating = n;
+  try{ localStorage.setItem('app_rating', n); }catch(e){}
+  if(state.route==='home') render();
+  const modalEl = document.getElementById('ratingModal');
+  if(modalEl && modalEl.classList.contains('open')) renderRatingModal();
+}
+function openRatingModal(){
+  document.getElementById('ratingModal').classList.add('open');
+  try{ localStorage.setItem('app_popup_seen','1'); }catch(e){}
+  renderRatingModal();
+}
+function closeRatingModal(markDismissed){
+  document.getElementById('ratingModal').classList.remove('open');
+  if(markDismissed){ try{ localStorage.setItem('app_popup_seen','1'); }catch(e){} }
+}
+function renderRatingModal(){
+  const r = state.rating;
+  let thanksHtml = '';
+  if(r >= 4){
+    thanksHtml = `<div class="rc-thanks">Que alegria saber disso! 💛 Se puder, <b>comenta lá no anúncio</b> contando o que achou — isso ajuda outras mulheres a começarem a vender também.</div>`;
+  } else if(r > 0){
+    thanksHtml = `<div class="rc-thanks">Obrigada por avaliar! Sua opinião nos ajuda a melhorar o app a cada atualização. 💛</div>`;
+  }
+  document.getElementById('ratingModalContent').innerHTML = `
+    <button class="rm-close" onclick="closeRatingModal(true)">✕</button>
+    <div class="rc-icon">⭐</div>
+    <h3 style="font-family:'Fraunces',serif;font-size:20px;color:var(--forest);margin-bottom:8px;">O que você achou do app?</h3>
+    <p style="font-size:13.5px;color:var(--ink-soft);line-height:1.55;margin-bottom:16px;">Sua avaliação ajuda a gente a deixar o app cada vez melhor pra você vender mais.</p>
+    <div class="rc-stars">
+      ${[1,2,3,4,5].map(n=>`<button class="rc-star ${n<=r?'filled':''}" onclick="setRating(${n})">${n<=r?'★':'☆'}</button>`).join('')}
+    </div>
+    ${thanksHtml}
+    ${r>0 ? `<button class="btn-terracotta" style="margin-top:18px;" onclick="closeRatingModal(true)">Fechar</button>` : ''}
+  `;
+}
+function setRoute(r){
+  state.route = r;
+  state.search=''; state.filter='todas';
+  document.querySelectorAll('.nav-links button, .bottom-nav button').forEach(b=>b.classList.toggle('active', b.dataset.route===r || (r==='detail'&&b.dataset.route==='recipes') || (r==='cardapioDetail'&&b.dataset.route==='cardapios')));
+  render();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+document.querySelectorAll('.nav-links button, .bottom-nav button').forEach(b=>b.addEventListener('click',()=>setRoute(b.dataset.route)));
+function openDetail(id){ state.detailId=id; state.route='detail'; render(); window.scrollTo({top:0,behavior:'smooth'}); }
+function toggleFav(id, ev){
+  ev && ev.stopPropagation();
+  state.favorites.has(id) ? state.favorites.delete(id) : state.favorites.add(id);
+  try{ localStorage.setItem('app_favs', JSON.stringify(Array.from(state.favorites))); }catch(e){}
+  render();
+}
+/* Gera um PDF da receita a partir da área imprimível do cartão usando html2canvas + jsPDF.
+   Espera as fontes e a foto carregarem antes de fotografar — sem isso o PDF às vezes sai
+   com a fonte padrão do navegador ou sem imagem. */
+function waitForCardAssets(area, timeout){
+  const fontsReady = (document.fonts && document.fonts.ready) ? document.fonts.ready : Promise.resolve();
+  const imgs = Array.from(area.querySelectorAll('img'));
+  const imagesReady = imgs.length
+    ? Promise.all(imgs.map(img=> img.complete ? Promise.resolve() : new Promise(res=>{ img.onload = img.onerror = res; })))
+    : Promise.resolve();
+  return Promise.race([
+    Promise.all([fontsReady, imagesReady]),
+    new Promise(res=>setTimeout(res, timeout || 4000))
+  ]);
+}
+async function downloadRecipePDF(printId, btnId, recipeName){
+  const area = document.getElementById(printId);
+  const btn = document.getElementById(btnId);
+  if(!area) return;
+  const originalLabel = btn ? btn.innerHTML : '';
+  if(typeof html2canvas === 'undefined' || !window.jspdf){ window.print(); return; }
+  if(btn){ btn.disabled = true; btn.innerHTML = '⏳ Preparando...'; }
+  try{
+    await waitForCardAssets(area, 4000);
+    if(btn){ btn.innerHTML = '⏳ Gerando PDF...'; }
+    const canvas = await html2canvas(area, {scale:3, useCORS:true, allowTaint:true, backgroundColor:'#FFF8F0'});
+    const { jsPDF } = window.jspdf;
+    const pdf = new jsPDF('p','mm','a4');
+    const pageWidth = 210, pageHeight = 297, margin = 10;
+    const imgWidth = pageWidth - margin*2;
+    const imgHeight = canvas.height * imgWidth / canvas.width;
+    let heightLeft = imgHeight;
+    let position = margin;
+    const imgData = canvas.toDataURL('image/jpeg', 0.97);
+    pdf.addImage(imgData, 'JPEG', margin, position, imgWidth, imgHeight);
+    heightLeft -= (pageHeight - margin*2);
+    while(heightLeft > 0){
+      position = heightLeft - imgHeight + margin;
+      pdf.addPage();
+      pdf.addImage(imgData, 'JPEG', margin, position, imgWidth, imgHeight);
+      heightLeft -= (pageHeight - margin*2);
+    }
+    const safeName = (recipeName||'receita').normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-zA-Z0-9]+/g,'_').replace(/^_+|_+$/g,'');
+    pdf.save((safeName || 'receita') + '.pdf');
+  }catch(err){
+    alert('Não foi possível gerar o PDF agora. Você pode tentar de novo, ou usar a opção de imprimir do navegador.');
+  }finally{
+    if(btn){ btn.disabled = false; btn.innerHTML = originalLabel; }
+  }
+}
+function openBonusList(n){
+  state.bonusN=n; state.bonusSearch=''; state.route='bonusList';
+  document.querySelectorAll('.nav-links button, .bottom-nav button').forEach(b=>b.classList.remove('active'));
+  render(); window.scrollTo({top:0,behavior:'smooth'});
+}
+function openBonusDetail(n,id){ state.bonusN=n; state.bonusDetailId=id; state.route='bonusDetail'; render(); window.scrollTo({top:0,behavior:'smooth'}); }
+function openGuide(n){
+  state.bonusN=n; state.route='guide';
+  document.querySelectorAll('.nav-links button, .bottom-nav button').forEach(b=>b.classList.remove('active'));
+  render(); window.scrollTo({top:0,behavior:'smooth'});
+}
+/* Ao digitar na busca, o app redesenha a lista inteira — e isso apagaria o campo de texto,
+   fechando o teclado do celular a cada letra. Por isso devolvemos o foco e o cursor ao fim
+   do texto logo depois de redesenhar. Todo campo de busca novo precisa fazer o mesmo. */
+function keepFocus(id){
+  const el = document.getElementById(id);
+  if(!el) return;
+  el.focus({preventScroll:true});
+  try{ const v = el.value; el.setSelectionRange(v.length, v.length); }catch(e){}
+}
+function setBonusSearch(v){ state.bonusSearch=v; render(); keepFocus('bonusSearchInput'); }
+function openCardapio(id){
+  state.cardapioId=id; state.route='cardapioDetail';
+  document.querySelectorAll('.nav-links button, .bottom-nav button').forEach(b=>b.classList.toggle('active', b.dataset.route==='cardapios'));
+  render(); window.scrollTo({top:0,behavior:'smooth'});
+}
+/* ==================== HELPERS ==================== */
+function artStyle(cat){ const c = CATS[cat]; return `background:${c.bg}`; }
+/* Contagens sempre calculadas a partir dos dados reais — nunca escreva um número fixo no
+   hero, porque ele fica desatualizado assim que o cliente manda mais receitas. */
+function mainRecipeCount(){ return RECIPES.length; }
+function bonusRecipeCount(n){ return (BONUS_RECIPES[n]||[]).length; }
+function totalRecipeCount(){ return RECIPES.length + Object.values(BONUS_RECIPES).reduce((sum,arr)=>sum+arr.length,0); }
+function roundedLabel(n){ const floor = Math.floor(n/10)*10; return (floor>0 ? floor : n) + '+'; }
+function heroSection(){
+  return `
+  <section class="hero">
+    <div>
+      <div class="hero-eyebrow"><span class="dot"></span><span class="eyebrow" style="margin:0">Pão Recheado Lucrativo · Acesso Vitalício</span></div>
+      <h1>Faz a massa num dia só,<br><em>vende a semana inteira</em></h1>
+      <p class="lead">A massa base, os 10 recheios e o passo a passo do dia da massa: 50 pães prontos no freezer, assados só depois do Pix.</p>
+      <div class="stat-row">
+        <div class="stat"><b>${totalRecipeCount()-1}</b><span>SABORES NO TOTAL</span></div>
+        <div class="stat"><b>50</b><span>PÃES NUM DIA</span></div>
+        <div class="stat"><b>R$ 30</b><span>PREÇO DE VENDA</span></div>
+      </div>
+    </div>
+  </section>
+  <div class="main-feature" onclick="setRoute('recipes')">
+    <img class="main-feature-photo" src="${MAIN_COVER_IMG}" alt="Pão Recheado Lucrativo" loading="eager" decoding="async" onerror="this.style.display='none'">
+    <div class="main-feature-content">
+      <span class="main-feature-badge">★ COMECE POR AQUI</span>
+      <h2 class="main-feature-title">A massa e os 10 recheios</h2>
+      <p class="main-feature-sub">A massa base que rende 10 pães por receita e os 10 recheios: 6 salgados e 4 doces, com o custo e o preço de cada um.</p>
+      <div class="main-feature-stats">
+        <div><b>10</b><span>RECHEIOS</span></div>
+        <div><b>6 + 4</b><span>SALGADOS + DOCES</span></div>
+        <div><b>${CARDAPIOS.length}</b><span>CARDÁPIOS DA SEMANA</span></div>
+      </div>
+      <div class="main-feature-actions">
+        <button class="btn-terracotta" onclick="event.stopPropagation(); setRoute('recipes')">Ver a massa e os recheios →</button>
+      </div>
+    </div>
+  </div>
+  <div class="quick-actions-row">
+    <div class="quick-action-card" onclick="setRoute('cardapios')">
+      <div class="qa-icon">🔥</div>
+      <div class="qa-text"><b>Fornadas prontas</b><span>${CARDAPIOS.length} dias da massa já montados, com a conta do lucro</span></div>
+      <span class="qa-arrow">→</span>
+    </div>
+    <div class="quick-action-card" onclick="openVendas()">
+      <div class="qa-icon">💰</div>
+      <div class="qa-text"><b>Planilha de vendas</b><span>Anote os pedidos e veja quanto vendeu e quanto sobrou</span></div>
+      <span class="qa-arrow">→</span>
+    </div>
+  </div>
+  <div class="section-label bonus-section-label"><span class="eyebrow">O passo a passo do produto</span></div>
+  <div class="collections">
+    ${GUIAS_PRODUTO.map(g=>collectionCard('GUIA', g.title, g.text, g.cover, `openGuide(${g.n})`, true)).join('')}
+  </div>
+  <div class="section-label bonus-section-label" style="margin-top:34px"><span class="eyebrow">Bônus inclusos no seu acesso</span></div>
+  <div class="collections">
+    ${BONUSES.map(b=>collectionCard(
+      'BÔNUS '+b.n, b.title,
+      b.kind==='recipes' ? bonusRecipeCount(b.n)+' receitas' : b.kind==='fotos' ? FOTOS.length+' fotos pra baixar' : b.kind==='certificado' ? 'pra imprimir' : 'guia prático',
+      b.cover,
+      b.kind==='recipes' ? `openBonusList(${b.n})` : b.kind==='fotos' ? 'openFotos()' : b.kind==='certificado' ? 'openCert()' : `openGuide(${b.n})`
+    )).join('')}
+  </div>
+  ${expertSection()}
+  ${ratingSection()}`;
+}
+function ratingSection(){
+  const r = state.rating;
+  let thanksHtml = '';
+  if(r >= 4){
+    thanksHtml = `<div class="rc-thanks">Que alegria saber disso! 💛 Se puder, <b>comenta lá no anúncio</b> contando o que achou — isso ajuda outras mulheres a começarem a vender também.</div>`;
+  } else if(r > 0){
+    thanksHtml = `<div class="rc-thanks">Obrigada por avaliar! Sua opinião nos ajuda a melhorar o app a cada atualização. 💛</div>`;
+  }
+  return `
+  <div class="rating-card">
+    <div class="rc-icon">⭐</div>
+    <h3>O que você achou do app?</h3>
+    <p>Sua avaliação ajuda a gente a deixar o app cada vez melhor pra você vender mais.</p>
+    <div class="rc-stars">
+      ${[1,2,3,4,5].map(n=>`<button class="rc-star ${n<=r?'filled':''}" onclick="setRating(${n})">${n<=r?'★':'☆'}</button>`).join('')}
+    </div>
+    ${thanksHtml}
+  </div>`;
+}
+/* Card de coleção com a CAPA OFICIAL (mockup). A arte aparece inteira e o texto vive num
+   bloco branco embaixo — nunca por cima da capa. */
+function collectionCard(badge,title,sub,coverImg,action,foto){
+  const imgTag = coverImg
+    ? `<img class="coll-photo" src="${coverImg}" alt="${title}" loading="lazy" decoding="async" ${foto?'style="width:100%;height:100%;object-fit:cover;border-radius:12px;filter:none"':''} onerror="this.style.display='none'">`
+    : '';
+  return `<div class="coll-card" onclick="${action}">
+    <div class="coll-media">
+      ${imgTag}
+      <span class="coll-badge">${badge}</span>
+    </div>
+    <div class="coll-body">
+      <div class="coll-title">${title}</div>
+      <div class="coll-sub">${sub}</div>
+    </div>
+  </div>`;
+}
+function recipesSection(){
+  const list = RECIPES.filter(r=>{
+    const matchCat = state.filter==='todas' ? true : state.filter==='favoritas' ? state.favorites.has(r.id) : r.cat===state.filter;
+    const matchSearch = (r.name.toLowerCase()+r.ingredients.join(' ').toLowerCase()).includes(state.search.toLowerCase());
+    return matchCat && matchSearch;
+  });
+  const counts = {};
+  RECIPES.forEach(r=>counts[r.cat]=(counts[r.cat]||0)+1);
+  return `
+    <div class="recipes-head">
+      <a class="back-link" onclick="setRoute('home')">← Voltar</a>
+      <div class="eyebrow">A MASSA E OS RECHEIOS</div>
+      <h1 style="font-size:34px;margin-top:6px;color:var(--forest)">A massa e os 10 recheios</h1>
+      <div class="search-box">
+        <span>🔍</span>
+        <input id="searchInput" placeholder="Buscar por nome ou ingrediente..." value="${state.search}" oninput="setSearch(this.value)">
+      </div>
+      <div class="filter-row">
+        <button class="pill ${state.filter==='todas'?'active':''}" onclick="setFilter('todas')">Todas (${RECIPES.length})</button>
+        <button class="pill ${state.filter==='favoritas'?'active':''}" onclick="setFilter('favoritas')">♡ Favoritas (${state.favorites.size})</button>
+        ${Object.keys(CATS).map(k=>`<button class="pill ${state.filter===k?'active':''}" onclick="setFilter('${k}')">${CATS[k].label} (${counts[k]||0})</button>`).join('')}
+      </div>
+    </div>
+    ${list.length ? `<div class="result-count">${list.length} ${list.length===1?'receita encontrada':'receitas encontradas'}</div><div class="recipe-grid">${list.map(recipeCard).join('')}</div>` : emptyState()}
+  `;
+}
+function emptyState(){
+  return `<div class="empty-state"><div class="big">🍽️</div><p>Nenhum sabor encontrado.<br>Tente outro nome ou ingrediente.</p></div>`;
+}
+function recipeCard(r){
+  const c = CATS[r.cat];
+  const fav = state.favorites.has(r.id);
+  const art = r.img
+    ? `<img class="r-img" src="${r.img}" alt="${r.name}" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:cover;" onerror="this.replaceWith(Object.assign(document.createElement('div'),{style:'font-size:46px',textContent:'${r.icon}'}))">`
+    : r.icon;
+  return `<div class="r-card" onclick="openDetail(${r.id})">
+    <div class="r-art" style="${artStyle(r.cat)}">
+      ${art}
+      ${r.img ? `<div class="r-shade"></div><div class="r-cat-chip" style="color:${c.color}">${c.label}</div>` : ''}
+      <div class="fav" onclick="toggleFav(${r.id}, event)">${fav?'❤️':'🤍'}</div>
+    </div>
+    <div class="r-body">
+      <div class="r-name">${r.name}</div>
+      <div class="r-time">🕐 ${r.time}</div>
+      ${r.preco && r.preco!=='—' ? `<div class="r-age">💰 vende por ${r.preco}</div>` : ''}
+    </div>
+  </div>`;
+}
+/* Conteúdo interno do cartão de receita, sem o link de voltar nem o botão de baixar. */
+function printCardHTML(r, opts){
+  opts = opts || {};
+  const showFav = opts.showFav !== false;
+  const interactive = opts.interactive !== false;
+  const fav = showFav && state.favorites.has(r.id);
+  const heartHTML = (showFav && interactive)
+    ? `<div class="card-banner-heart" onclick="toggleFav(${r.id}, event)" style="cursor:pointer;">${fav?'❤️':'♡'}</div>`
+    : `<div class="card-banner-heart">${fav?'❤️':'♡'}</div>`;
+  const photo = r.img
+    ? `<img src="${r.img}" alt="${r.name}" crossorigin="anonymous" onerror="this.parentElement.innerHTML='<div class=\\'cp-fallback\\'>${r.icon}</div>'">`
+    : `<div class="cp-fallback">${r.icon}</div>`;
+  const metaRows = [
+    {icon:'🕐', label:'Tempo de preparo:', value:r.time},
+    r.portions ? {icon:'🥖', label:'Rende:', value:r.portions} : null,
+    r.custo ? {icon:'🧾', label:'Custo:', value:r.custo} : null,
+    (r.preco && r.preco!=='—') ? {icon:'💰', label:'Preço sugerido:', value:r.preco} : null,
+  ].filter(Boolean);
+  return `
+    <div class="card-banner">
+      ${heartHTML}
+      <h1>${r.name}</h1>
+      <div class="cb-rule"></div>
+    </div>
+    <div class="card-meta-photo">
+      <div class="card-meta-list">
+        ${metaRows.map(m=>`
+        <div class="card-meta-row">
+          <div class="card-meta-badge">${m.icon}</div>
+          <div class="card-meta-text">
+            <div class="cm-label">${m.label}</div>
+            <div class="cm-value">${m.value}</div>
+          </div>
+        </div>`).join('')}
+      </div>
+      <div class="card-photo-wrap">${photo}</div>
+    </div>
+    <div class="card-box-label">INGREDIENTES:</div>
+    <ul class="card-ing-list">
+      ${r.ingredients.map(i=>`<li><span class="leaf">🌿</span>${i}</li>`).join('')}
+    </ul>
+    <div class="card-divider"><span class="line"></span><span class="heart">♡</span><span class="line"></span></div>
+    <div class="card-box-label">MODO DE PREPARO:</div>
+    <ul class="card-steps">
+      ${r.steps.map((s,i)=>`<li style="flex-wrap:wrap"><span class="step-n">${i+1}</span><span style="flex:1;min-width:0">${s}</span>${r.stepImgs&&r.stepImgs[i]?`<img src="${r.stepImgs[i]}" alt="Passo ${i+1}" loading="lazy" crossorigin="anonymous" style="width:100%;border-radius:14px;margin:10px 0 4px 35px;max-width:calc(100% - 35px)" onerror="this.remove()">`:''}</li>`).join('')}
+    </ul>
+    ${(r.tip || r.substitutions) ? `
+    <div class="card-tip-banner">
+      <div class="ct-icon">💡</div>
+      <div class="ct-text"><b>DICA:</b> ${(r.tip || r.substitutions).replace(/(→)/g,'<b>$1</b>')}</div>
+      <div class="ct-heart">♡</div>
+    </div>` : ''}
+    <div class="card-safety-banner">
+      <div class="cs-icon">🥖</div>
+      <div class="cs-text">${r.alerta ? `<span class="cs-alerta">⚠️ ${r.alerta}</span>` : ''}<b>Pra vender com segurança:</b> recheio sempre frio antes de montar, pão cru no freezer por até 30 dias, e assado consumido em até 2 dias. Etiquete cada pão com o sabor e a data.</div>
+    </div>`;
+}
+function cardStyleDetailSection(r, opts){
+  opts = opts || {};
+  const backAction = opts.backAction || "setRoute('recipes')";
+  const backLabel = opts.backLabel || "← Todas as receitas";
+  const showFav = opts.showFav !== false;
+  const printId = `print-${r.id}`;
+  const btnId = `dl-${r.id}`;
+  const safeTitle = String(r.name).replace(/'/g,"’");
+  return `
+  <div class="card-recipe">
+    <a class="back-link" onclick="${backAction}">${backLabel}</a>
+    <div class="card-download-row">
+      <button class="btn-download" id="${btnId}" onclick="downloadRecipePDF('${printId}','${btnId}','${safeTitle}')">📥 Baixar receita em PDF</button>
+    </div>
+    <div class="card-print-area" id="${printId}">
+    ${printCardHTML(r, {showFav})}
+    </div>
+  </div>`;
+}
+function detailSection(){
+  const r = RECIPES.find(x=>x.id===state.detailId);
+  if(!r) return recipesSection();
+  return cardStyleDetailSection(r, {backAction:"setRoute('recipes')", backLabel:"← Todas as receitas", showFav:true});
+}
+function bonusListSection(){
+  const b = BONUSES.find(x=>x.n===state.bonusN);
+  const pool = BONUS_RECIPES[state.bonusN] || [];
+  const list = pool.filter(r=>(r.name.toLowerCase()+r.ingredients.join(' ').toLowerCase()).includes(state.bonusSearch.toLowerCase()));
+  return `
+    <div class="recipes-head">
+      <a class="back-link" onclick="setRoute('home')">← Voltar para a Home</a>
+      <div class="eyebrow">BÔNUS ${b.n}</div>
+      <h1 style="font-size:30px;margin-top:6px;color:var(--forest)">${b.title}</h1>
+      <p class="lead" style="margin-top:8px;font-size:14.5px;">${b.text}</p>
+      <div class="search-box">
+        <span>🔍</span>
+        <input id="bonusSearchInput" placeholder="Buscar por nome ou ingrediente..." value="${state.bonusSearch}" oninput="setBonusSearch(this.value)">
+      </div>
+    </div>
+    ${list.length ? `<div class="result-count">${list.length} ${list.length===1?'receita encontrada':'receitas encontradas'}</div><div class="recipe-grid">${list.map(r=>bonusRecipeCard(r,b)).join('')}</div>` : emptyState()}
+  `;
+}
+function bonusRecipeCard(r,b){
+  const art = r.img
+    ? `<img class="r-img" src="${r.img}" alt="${r.name}" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:cover;" onerror="this.replaceWith(Object.assign(document.createElement('div'),{style:'font-size:46px',textContent:'${r.icon}'}))">`
+    : r.icon;
+  return `<div class="r-card" onclick="openBonusDetail(${b.n},${r.id})">
+    <div class="r-art" style="background:${b.bg}">
+      ${art}
+      ${r.img ? `<div class="r-shade"></div><div class="r-cat-chip" style="color:${b.color}">BÔNUS ${b.n}</div>` : ''}
+    </div>
+    <div class="r-body">
+      <div class="r-name">${r.name}</div>
+      <div class="r-time">🕐 ${r.time}</div>
+      ${r.preco && r.preco!=='—' ? `<div class="r-age">💰 vende por ${r.preco}</div>` : ''}
+    </div>
+  </div>`;
+}
+function bonusDetailSection(){
+  const b = BONUSES.find(x=>x.n===state.bonusN);
+  const r = (BONUS_RECIPES[state.bonusN]||[]).find(x=>x.id===state.bonusDetailId);
+  if(!r) return bonusListSection();
+  return cardStyleDetailSection(r, {backAction:`openBonusList(${b.n})`, backLabel:`← Voltar pro bônus ${b.n}`, showFav:false});
+}
+function guideSection(){
+  const b = BONUSES.find(x=>x.n===state.bonusN) || GUIAS_PRODUTO.find(x=>x.n===state.bonusN);
+  const g = GUIDES[state.bonusN];
+  const eyebrow = state.bonusN>100 ? 'GUIA DO PRODUTO' : 'BÔNUS '+b.n;
+  return `
+  <div class="guide-wrap">
+    <a class="back-link" onclick="setRoute('home')">← Voltar para o início</a>
+    <div class="guide-hero" style="background:${g.gradient}">
+      <div class="icon">${b.icon}</div>
+      <div class="eyebrow" style="color:rgba(255,255,255,.8)">${eyebrow}</div>
+      <h1>${b.title}</h1>
+      <p>${b.text}</p>
+    </div>
+    <div class="guide-tips">
+      ${g.tips.map((t,i)=>`<div class="guide-tip"><div class="n">${i+1}</div><div style="flex:1;min-width:0">${t.img?`<img src="${t.img}" alt="" loading="lazy" style="width:100%;border-radius:12px;margin-bottom:10px" onerror="this.remove()">`:''}<h3>${t.title.replace(/^\d+\.\s*/,'')}</h3><p id="msg-${i}">${t.text}</p>${g.copy?`<button class="btn-outline" style="margin-top:10px;padding:8px 16px;font-size:13px" onclick="copiar(${i},this)">📋 Copiar mensagem</button>`:''}</div></div>`).join('')}
+    </div>
+    ${g.nota?`<div class="guide-note">${g.nota}</div>`:''}
+  </div>`;
+}
+function copiar(i,btn){
+  const t = document.getElementById('msg-'+i).textContent;
+  const ok = ()=>{ btn.textContent='✓ Copiada'; setTimeout(()=>btn.textContent='📋 Copiar mensagem',1800); };
+  if(navigator.clipboard){ navigator.clipboard.writeText(t).then(ok).catch(()=>fallbackCopy(t,ok)); } else fallbackCopy(t,ok);
+}
+function fallbackCopy(t,ok){ const a=document.createElement('textarea'); a.value=t; document.body.appendChild(a); a.select(); try{document.execCommand('copy'); ok();}catch(e){} a.remove(); }
+/* ---------------- BÔNUS 4: FOTOS ---------------- */
+function openFotos(){ state.route='fotos'; document.querySelectorAll('.nav-links button, .bottom-nav button').forEach(b=>b.classList.remove('active')); render(); window.scrollTo({top:0,behavior:'smooth'}); }
+function fotosSection(){
+  return `
+  <div class="recipes-head">
+    <a class="back-link" onclick="setRoute('home')">← Voltar para o início</a>
+    <div class="eyebrow">BÔNUS 4</div>
+    <h1 style="font-size:30px;margin-top:6px;color:var(--forest)">${FOTOS.length} fotos que dão água na boca</h1>
+    <p class="lead" style="margin-top:8px;font-size:14.5px;">Toque em <b>Baixar</b>, poste no status e no Instagram e comece a receber pedido antes da primeira fornada.</p>
+  </div>
+  <div class="recipe-grid" style="margin-top:22px">
+    ${FOTOS.map((f,i)=>`<div class="r-card" style="cursor:default">
+      <div class="r-art"><img class="r-img" src="${f}" alt="Foto ${i+1} de pão recheado" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:cover"></div>
+      <div class="r-body" style="display:flex;justify-content:space-between;align-items:center">
+        <span class="r-time" style="margin:0">Foto ${i+1}</span>
+        <a class="btn-outline" style="padding:7px 14px;font-size:12.5px" href="${f}" download="pao-recheado-${i+1}.webp">📥 Baixar</a>
+      </div>
+    </div>`).join('')}
+  </div>`;
+}
+/* ---------------- BÔNUS 6: CERTIFICADO ---------------- */
+function openCert(){ state.route='cert'; document.querySelectorAll('.nav-links button, .bottom-nav button').forEach(b=>b.classList.remove('active')); render(); window.scrollTo({top:0,behavior:'smooth'}); }
+function setCertNome(v){ state.certNome=v; const el=document.getElementById('certNomeTxt'); if(el) el.textContent = v || 'Seu nome aqui'; }
+function certSection(){
+  const nome = state.certNome || '';
+  const hoje = new Date().toLocaleDateString('pt-BR',{day:'2-digit',month:'long',year:'numeric'});
+  return `
+  <div class="guide-wrap" style="max-width:720px">
+    <a class="back-link" onclick="setRoute('home')">← Voltar para o início</a>
+    <div class="eyebrow">BÔNUS 6</div>
+    <h1 style="font-size:28px;margin:6px 0 8px;color:var(--forest)">Seu certificado de padeira artesanal</h1>
+    <p class="lead" style="font-size:14.5px;margin-bottom:16px">Escreva seu nome, baixe em PDF, imprima e pendure na cozinha. A cliente vê que é negócio de verdade.</p>
+    <div class="search-box" style="margin:0 0 18px"><span>✍️</span><input placeholder="Seu nome completo" value="${nome}" oninput="setCertNome(this.value)"></div>
+    <div id="certArea" style="background:#FFF7EC;border:10px double #B06E13;border-radius:6px;padding:40px 28px;text-align:center;box-shadow:var(--shadow)">
+      <div style="font-size:34px">🥖</div>
+      <div class="eyebrow" style="margin-top:8px;color:#94530F">Certificado de</div>
+      <div style="font-family:'Fraunces',serif;font-size:clamp(26px,6vw,38px);color:#3A2416;font-weight:700;margin-top:4px">Padeira Artesanal</div>
+      <p style="margin:22px 0 6px;color:#7A6754;font-size:14px">Certificamos que</p>
+      <div id="certNomeTxt" style="font-family:'Caveat',cursive;font-size:clamp(34px,8vw,52px);color:#B06E13;line-height:1.1;border-bottom:1.5px solid #E7D2A8;display:inline-block;padding:0 18px 4px;min-width:60%">${nome || 'Seu nome aqui'}</div>
+      <p style="margin:18px auto 0;color:#3A2416;font-size:14.5px;line-height:1.6;max-width:480px">concluiu a formação <b>Pão Recheado Lucrativo</b>: a massa base, os 10 recheios, o dia da massa e a produção artesanal de pães recheados sob encomenda.</p>
+      <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-top:34px;gap:16px;flex-wrap:wrap">
+        <div style="text-align:left"><div style="font-family:'Caveat',cursive;font-size:28px;color:#3A2416">Mari Dias</div><div style="border-top:1px solid #7A6754;font-size:11.5px;color:#7A6754;padding-top:4px">Chef Mari Dias</div></div>
+        <div style="text-align:right;font-size:12px;color:#7A6754">${hoje}</div>
+      </div>
+    </div>
+    <div class="card-download-row" style="margin-top:22px"><button class="btn-download" id="certBtn" onclick="downloadRecipePDF('certArea','certBtn','certificado-padeira-artesanal')">📥 Baixar certificado em PDF</button></div>
+  </div>`;
+}
+/* ---------------- CARDÁPIOS ---------------- */
+function cardapioStripItem(recipeId){
+  const r = RECIPES.find(x=>x.id===recipeId);
+  if(!r) return `<div class="cs-item" style="background:var(--paper)">🍽️</div>`;
+  return r.img
+    ? `<div class="cs-item" style="background-image:url('${r.img}')"></div>`
+    : `<div class="cs-item" style="background:${CATS[r.cat].bg}">${r.icon}</div>`;
+}
+function cardapiosSection(){
+  return `
+    <div class="recipes-head">
+      <a class="back-link" onclick="setRoute('home')">← Voltar</a>
+      <div class="eyebrow">FORNADAS PRONTAS</div>
+      <h1 style="font-size:34px;margin-top:6px;color:var(--forest)">O dia da massa: 50 pães</h1>
+      <p class="lead" style="margin-top:8px;font-size:14.5px;">Combinações já montadas pra uma tarde de massa: 5 sabores, 10 pães de cada. Você faz numa tarde, congela cru e assa só o que for vendido.</p>
+    </div>
+    <div class="cardapio-grid" style="margin-top:26px;">
+      ${CARDAPIOS.map(c=>`
+        <div class="cardapio-card" onclick="openCardapio(${c.id})">
+          <div class="cardapio-strip">
+            ${MEAL_ORDER.map(m=>cardapioStripItem(c.meals[m])).join('')}
+          </div>
+          <div class="cardapio-body">
+            <div class="cardapio-eyebrow">FORNADA ${c.id}</div>
+            <div class="cardapio-title">${c.title}</div>
+            <div class="cardapio-sub">${c.sub}</div>
+          </div>
+        </div>
+      `).join('')}
+    </div>`;
+}
+function mealSlotRow(mealKey, recipeId){
+  const r = RECIPES.find(x=>x.id===recipeId);
+  if(!r) return '';
+  const art = r.img ? `style="background-image:url('${r.img}')"` : `style="background:${CATS[r.cat].bg}"`;
+  return `<div class="meal-slot" onclick="openDetail(${r.id})">
+    <div class="ms-art" ${art}>${r.img ? '' : r.icon}</div>
+    <div class="ms-info">
+      <div class="ms-label">${MEAL_LABELS[mealKey]}</div>
+      <div class="ms-name">${r.name}</div>
+      <div class="ms-time">🕐 ${r.time}</div>
+    </div>
+  </div>`;
+}
+function cardapioDetailSection(){
+  const c = CARDAPIOS.find(x=>x.id===state.cardapioId);
+  if(!c) return cardapiosSection();
+  return `
+  <div class="detail" style="max-width:640px;margin:0 auto;padding-top:34px;">
+    <a class="back-link" onclick="setRoute('cardapios')">← Todas as fornadas</a>
+    <div class="eyebrow">FORNADA ${c.id}</div>
+    <h1 style="font-size:30px;">${c.title}</h1>
+    <p class="lead" style="margin-top:8px;font-size:14.5px;max-width:none;">${c.sub}</p>
+    <div style="margin-top:24px;">
+      ${MEAL_ORDER.map(m=>mealSlotRow(m, c.meals[m])).join('')}
+    </div>
+    ${contaFornada(c)}
+  </div>`;
+}
+/* ---------------- FERRAMENTAS DE VENDA ----------------
+   Igual ao app do Rolinhos: o estado vive em memória e só ESPELHA no localStorage.
+   Se o armazenamento falhar (aba anônima, dados bloqueados), tudo continua funcionando na
+   sessão; só não lembra amanhã. */
+function lerSalvo(chave, padrao){
+  try{ const v = JSON.parse(localStorage.getItem(chave)); if(v && typeof v === "object") return Object.assign(JSON.parse(JSON.stringify(padrao)), v); }catch(e){}
+  return JSON.parse(JSON.stringify(padrao));
+}
+function salvar(chave, valor){ try{ localStorage.setItem(chave, JSON.stringify(valor)); }catch(e){} }
+const reais = (v)=> "R$ " + (Math.round(v*100)/100).toLocaleString("pt-BR",{minimumFractionDigits:2, maximumFractionDigits:2});
+function numero(v, padrao){ const n = Number(String(v).replace(",", ".")); return (v === "" || v === null || v === undefined || isNaN(n)) ? padrao : n; }
+function todosSabores(){ return [...RECIPES.filter(r=>r.cat!=="massa"), ...Object.values(BONUS_RECIPES).flat()]; }
+function precoPadrao(r){ return numero(String(r.preco||"").replace(/[^\d,]/g,""), 30); }
+function custoRecheioPadrao(r){ const total = numero(String(r.custo||"").replace(/[^\d,]/g,""), 6); return Math.max(0, total - 2.55); } /* o custo da ficha já soma massa (R$ 2,40) e saco (R$ 0,15) */
+
+/* ===== FOLHA DE PREÇO ===== */
+const ITENS_MASSA = [
+  {id:"farinha",  nome:"Farinha de trigo",           pacote:"1 kg",      usa:1.4,   usaTexto:"a receita usa 1,4 kg",       preco:5.50},
+  {id:"fermento", nome:"Fermento biológico seco",    pacote:"3 sachês",  usa:0.67,  usaTexto:"usa 2 sachês",               preco:4.50},
+  {id:"leite",    nome:"Leite",                      pacote:"1 litro",   usa:0.7,   usaTexto:"usa 700 ml",                 preco:5.00},
+  {id:"ovos",     nome:"Ovos",                       pacote:"dúzia",     usa:0.34,  usaTexto:"usa 3 ovos + 1 gema",        preco:12.00},
+  {id:"manteiga", nome:"Manteiga",                   pacote:"500 g",     usa:0.24,  usaTexto:"usa 120 g",                  preco:22.00},
+  {id:"acucar",   nome:"Açúcar",                     pacote:"1 kg",      usa:0.08,  usaTexto:"usa 80 g",                   preco:4.50},
+  {id:"sal",      nome:"Sal",                        pacote:"1 kg",      usa:0.025, usaTexto:"usa 25 g",                   preco:3.00},
+];
+const FOLHA_PADRAO = {itens:{}, recheio:{}, preco:{}, pacoteSaco:15, qtdSaco:100};
+let folha = lerSalvo("app_folha", FOLHA_PADRAO);
+function guardaFolha(){ salvar("app_folha", folha); }
+function valorItem(i){ return numero(folha.itens[i.id], i.preco); }
+function custoMassaReceita(){ return ITENS_MASSA.reduce((s,i)=>s + valorItem(i)*i.usa, 0); }
+function custoMassaPao(){ return custoMassaReceita() / 10; }
+function custoSaco(){ const q = numero(folha.qtdSaco, 100); return q>0 ? numero(folha.pacoteSaco, 15)/q : 0; }
+function custoRecheio(r){ return numero(folha.recheio[r.id], custoRecheioPadrao(r)); }
+function precoVenda(r){ return numero(folha.preco[r.id], precoPadrao(r)); }
+function custoPao(r){ return custoMassaPao() + custoRecheio(r) + custoSaco(); }
+function setFolha(grupo, id, v){ if(grupo) folha[grupo][id] = v; else folha[id] = v; guardaFolha(); render(); keepFocus(state.focoFolha); }
+function zerarFolha(){ folha = JSON.parse(JSON.stringify(FOLHA_PADRAO)); guardaFolha(); render(); }
+function openFolha(){ state.route = "folha"; marcaNav("vendas"); render(); window.scrollTo({top:0, behavior:"smooth"}); }
+function folhaSection(){
+  const campoItem = ITENS_MASSA.map(i=>`
+    <div class="pl-linha">
+      <label for="pl-${i.id}">${i.nome}<span class="pl-sub">${i.pacote} · ${i.usaTexto} · entra na conta por ${reais(valorItem(i)*i.usa)}</span></label>
+      <div class="pl-campo"><span>R$</span><input id="pl-${i.id}" type="number" inputmode="decimal" min="0" step="0.5" value="${valorItem(i)}" onfocus="state.focoFolha=this.id" oninput="setFolha('itens','${i.id}', this.value)"></div>
+    </div>`).join("");
+  const linhas = todosSabores().map(r=>{
+    const custo = custoPao(r), preco = precoVenda(r), lucro = preco - custo;
+    const margem = preco>0 ? Math.round(lucro/preco*100) : 0;
+    const cl = lucro >= 0 ? "pl-lucro" : "pl-preju";
+    return `<tr>
+      <td>${r.name}</td>
+      <td><input id="rc-${r.id}" type="number" inputmode="decimal" min="0" step="0.1" value="${custoRecheio(r).toFixed(2)}" onfocus="state.focoFolha=this.id" oninput="setFolha('recheio',${r.id},this.value)" aria-label="Custo do recheio de ${r.name}"></td>
+      <td>${reais(custo)}</td>
+      <td><input id="pv-${r.id}" type="number" inputmode="decimal" min="0" step="1" value="${preco}" onfocus="state.focoFolha=this.id" oninput="setFolha('preco',${r.id},this.value)" aria-label="Preço de ${r.name}"></td>
+      <td class="${cl}">${reais(lucro)}</td>
+      <td class="${cl}">${margem}%</td>
+    </tr>`;
+  }).join("");
+  return `
+  <div class="pl-wrap">
+    <a class="back-link" onclick="openVendas()">← Voltar pras vendas</a>
+    <div class="pl-hero" style="background:linear-gradient(135deg,#5F8C60,#2F5130)">
+      <div class="icon">🧾</div>
+      <h1>A folha de preço</h1>
+      <p>Ponha o que você pagou de verdade no mercado. O custo, o lucro e a margem de cada sabor se calculam sozinhos e ficam salvos neste aparelho.</p>
+    </div>
+    <div class="pl-bloco">
+      <h3>1. A massa: o que você pagou pelo pacote</h3>
+      <p class="pl-ajuda">Ponha o preço do <b>pacote inteiro</b>. A folha já sabe quanto uma receita usa de cada um. Os valores daqui são média de supermercado, só pra você ver a conta rodando.</p>
+      ${campoItem}
+      <div class="pl-total"><span>Uma receita de massa (10 pães)</span><b>${reais(custoMassaReceita())}</b></div>
+      <div class="pl-total"><span>A massa de cada pão</span><b>${reais(custoMassaPao())}</b></div>
+    </div>
+    <div class="pl-bloco">
+      <h3>2. A embalagem</h3>
+      <div class="pl-linha"><label for="pl-pac">Pacote de sacos de celofane<span class="pl-sub">o valor que você pagou</span></label><div class="pl-campo"><span>R$</span><input id="pl-pac" type="number" inputmode="decimal" min="0" step="1" value="${numero(folha.pacoteSaco,15)}" onfocus="state.focoFolha=this.id" oninput="setFolha(null,'pacoteSaco',this.value)"></div></div>
+      <div class="pl-linha"><label for="pl-qtd">Quantos sacos vieram<span class="pl-sub">pra saber o preço de um</span></label><div class="pl-campo"><input id="pl-qtd" type="number" inputmode="numeric" min="1" step="1" value="${numero(folha.qtdSaco,100)}" onfocus="state.focoFolha=this.id" oninput="setFolha(null,'qtdSaco',this.value)"></div></div>
+      <div class="pl-total"><span>Cada saco sai por</span><b>${reais(custoSaco())}</b></div>
+    </div>
+    <div class="pl-bloco">
+      <h3>3. Custo, preço e lucro de cada sabor</h3>
+      <p class="pl-ajuda">Você edita o <b>custo do recheio de um pão</b> e o <b>preço</b>. O custo do pão (massa + recheio + saco) e o lucro se recalculam na hora.</p>
+      <div style="overflow-x:auto;margin:0 -6px"><table class="pl-tabela">
+        <thead><tr><th>Sabor</th><th>Recheio</th><th>Custo</th><th>Preço</th><th>Lucro</th><th>Margem</th></tr></thead>
+        <tbody>${linhas}</tbody>
+      </table></div>
+    </div>
+    <div class="pl-acoes">
+      <button class="btn-outline" onclick="zerarFolha()">Voltar aos valores de exemplo</button>
+    </div>
+    <div class="guide-note">A regra que sustenta esses números: <b>o pão custa perto de R$ 6 e vende por R$ 28 a R$ 30</b>. Nunca tente cobrar a sua hora de trabalho no preço: o número fica alto demais e ninguém paga.</div>
+  </div>`;
+}
+
+/* ===== PLANILHA DE VENDAS ===== */
+const VENDAS_PADRAO = {pedidos:[], semanas:[]};
+let vendas = lerSalvo("app_vendas", VENDAS_PADRAO);
+function guardaVendas(){ salvar("app_vendas", vendas); }
+function marcaNav(r){ document.querySelectorAll(".nav-links button, .bottom-nav button").forEach(b=>b.classList.toggle("active", b.dataset.route===r)); }
+function openVendas(){ state.route = "vendas"; marcaNav("vendas"); render(); window.scrollTo({top:0, behavior:"smooth"}); }
+function saborPorId(id){ return todosSabores().find(r=>r.id===Number(id)); }
+function totaisSemana(){
+  let paes=0, faturado=0, recebido=0, custo=0;
+  vendas.pedidos.forEach(p=>{
+    const r = saborPorId(p.sabor); const q = numero(p.qtd,1); const v = numero(p.valor,30)*q;
+    paes += q; faturado += v; if(p.pago) recebido += v; custo += (r ? custoPao(r) : 6)*q;
+  });
+  return {paes, faturado, recebido, aReceber: faturado-recebido, custo, lucro: faturado-custo};
+}
+function addPedido(){
+  const nome = document.getElementById("vd-cliente").value.trim();
+  const sabor = document.getElementById("vd-sabor").value;
+  const qtd = Math.max(1, Math.round(numero(document.getElementById("vd-qtd").value, 1)));
+  const r = saborPorId(sabor);
+  if(!nome){ document.getElementById("vd-cliente").focus(); return; }
+  vendas.pedidos.unshift({id:Date.now(), cliente:nome, sabor:Number(sabor), qtd, valor: r ? precoVenda(r) : 30, pago:false, entregue:false});
+  guardaVendas(); render();
+}
+function marcar(id, campo){ const p = vendas.pedidos.find(x=>x.id===id); if(p){ p[campo] = !p[campo]; guardaVendas(); render(); } }
+function apagarPedido(id){
+  const btn = document.getElementById("del-"+id);
+  if(btn && !btn.dataset.ok){ btn.dataset.ok = "1"; btn.textContent = "Toque de novo pra apagar"; setTimeout(()=>{ if(btn){ btn.dataset.ok=""; btn.textContent="Apagar"; } }, 2500); return; }
+  vendas.pedidos = vendas.pedidos.filter(x=>x.id!==id); guardaVendas(); render();
+}
+function fecharSemana(){
+  const btn = document.getElementById("vd-fechar");
+  if(btn && !btn.dataset.ok){ btn.dataset.ok = "1"; btn.textContent = "Toque de novo pra fechar a semana"; setTimeout(()=>{ if(btn){ btn.dataset.ok=""; btn.textContent="Fechar a semana"; } }, 3000); return; }
+  const t = totaisSemana();
+  vendas.semanas.unshift({data: new Date().toLocaleDateString("pt-BR"), paes:t.paes, faturado:t.faturado, lucro:t.lucro});
+  vendas.pedidos = []; guardaVendas(); render();
+}
+function copiarResumo(btn){
+  const t = totaisSemana();
+  const porSabor = {};
+  vendas.pedidos.forEach(p=>{ const r = saborPorId(p.sabor); const n = r ? r.name : "Pão"; porSabor[n] = (porSabor[n]||0) + numero(p.qtd,1); });
+  const txt = "Pedidos da semana 🥖\n" + Object.entries(porSabor).map(([n,q])=>`${q}x ${n}`).join("\n") + `\nTotal: ${t.paes} pães · ${reais(t.faturado)}`;
+  const ok = ()=>{ btn.textContent = "✓ Copiado"; setTimeout(()=>btn.textContent="📋 Copiar a lista de produção", 1800); };
+  if(navigator.clipboard){ navigator.clipboard.writeText(txt).then(ok).catch(()=>fallbackCopy(txt, ok)); } else fallbackCopy(txt, ok);
+}
+function vendasSection(){
+  const t = totaisSemana();
+  const opcoes = todosSabores().map(r=>`<option value="${r.id}">${r.name} · ${reais(precoVenda(r))}</option>`).join("");
+  const linhas = vendas.pedidos.map(p=>{
+    const r = saborPorId(p.sabor);
+    return `<div class="vd-pedido ${p.pago&&p.entregue?'vd-ok':''}">
+      <div class="vd-info"><b>${p.cliente}</b><span>${numero(p.qtd,1)}x ${r ? r.name : "Pão"} · ${reais(numero(p.valor,30)*numero(p.qtd,1))}</span></div>
+      <div class="vd-botoes">
+        <button class="vd-tag ${p.pago?'on':''}" onclick="marcar(${p.id},'pago')">${p.pago?'✓ Pago':'Pix?'}</button>
+        <button class="vd-tag ${p.entregue?'on':''}" onclick="marcar(${p.id},'entregue')">${p.entregue?'✓ Entregue':'Entregar'}</button>
+        <button class="vd-del" id="del-${p.id}" onclick="apagarPedido(${p.id})">Apagar</button>
+      </div>
+    </div>`;
+  }).join("");
+  const historico = vendas.semanas.slice(0,8).map(s=>`<div class="fc-row"><span>${s.data} · ${s.paes} pães</span><b>${reais(s.faturado)} · lucro ${reais(s.lucro)}</b></div>`).join("");
+  return `
+  <div class="pl-wrap">
+    <div class="eyebrow">PLANILHA DE VENDAS</div>
+    <h1 style="font-size:30px;margin:6px 0 8px;color:var(--forest)">Os pedidos da semana</h1>
+    <p class="lead" style="font-size:14.5px;margin-bottom:18px">Anote cada pedido assim que ele chega. O app soma quanto você vendeu, quanto já caiu no Pix e quanto sobra de lucro.</p>
+    <div class="vd-resumo">
+      <div><b>${t.paes}</b><span>pães vendidos</span></div>
+      <div><b>${reais(t.faturado)}</b><span>vendido</span></div>
+      <div><b>${reais(t.recebido)}</b><span>já no Pix</span></div>
+      <div class="vd-lucro"><b>${reais(t.lucro)}</b><span>de lucro</span></div>
+    </div>
+    ${t.aReceber>0?`<div class="guide-note" style="margin:0 0 16px">Falta receber <b>${reais(t.aReceber)}</b>. Lembre: o pão só vai pro forno depois do Pix.</div>`:''}
+    <div class="pl-bloco">
+      <h3>Novo pedido</h3>
+      <div class="vd-form">
+        <input id="vd-cliente" class="vd-input" placeholder="Nome da cliente" autocomplete="off">
+        <select id="vd-sabor" class="vd-input">${opcoes}</select>
+        <div class="vd-linha"><input id="vd-qtd" class="vd-input" type="number" inputmode="numeric" min="1" value="1" aria-label="Quantidade"><button class="btn-terracotta" onclick="addPedido()">+ Anotar pedido</button></div>
+      </div>
+    </div>
+    ${vendas.pedidos.length ? `<div class="vd-lista">${linhas}</div>
+      <div class="pl-acoes"><button class="btn-outline" onclick="copiarResumo(this)">📋 Copiar a lista de produção</button><button class="btn-outline" id="vd-fechar" onclick="fecharSemana()">Fechar a semana</button></div>`
+      : `<div class="empty-state" style="padding:26px 10px"><div class="big">🥖</div><p>Nenhum pedido anotado ainda.<br>Mande o cardápio com a mensagem 1 do bônus 2.</p></div>`}
+    <div class="quick-action-card" style="margin-top:14px" onclick="openFolha()">
+      <div class="qa-icon">🧾</div>
+      <div class="qa-text"><b>A folha de preço</b><span>Quanto custa, por quanto vender e quanto sobra em cada sabor</span></div>
+      <span class="qa-arrow">→</span>
+    </div>
+    ${historico?`<div class="fornada-conta"><h3>As semanas fechadas</h3>${historico}</div>`:''}
+  </div>`;
+}
+
+/* ===== A CONTA DA FORNADA (tela de cada fornada pronta) ===== */
+function contaFornada(c){
+  const ids = MEAL_ORDER.map(m=>c.meals[m]);
+  const sab = ids.map(id=>RECIPES.find(r=>r.id===id)).filter(Boolean);
+  const fat = sab.reduce((s,r)=>s + precoVenda(r)*10, 0);
+  const custo = sab.reduce((s,r)=>s + custoPao(r)*10, 0);
+  return `<div class="fornada-conta">
+    <h3>A conta desta fornada</h3>
+    <div class="fc-row"><span>5 sabores, 10 pães de cada</span><b>50 pães</b></div>
+    <div class="fc-row"><span>Vendendo todos ao seu preço</span><b>${reais(fat)}</b></div>
+    <div class="fc-row"><span>O que você gasta pra fazer</span><b>${reais(custo)}</b></div>
+    <div class="fc-row total"><span>Sobra de lucro num dia de massa</span><b>${reais(fat-custo)}</b></div>
+    <p style="font-size:12px;color:var(--ink-soft);margin:12px 0 0;line-height:1.5;">Conta feita com os preços da sua <a onclick="openFolha()" style="color:var(--forest);font-weight:700;cursor:pointer">folha de preço</a>. Ajuste lá pro que você paga e cobra na sua cidade.</p>
+  </div>`;
+}
+
+/* ===== QUEM ESTÁ POR TRÁS ===== */
+function expertSection(){
+  return `<div class="expert-card">
+    <img src="${EXPERT_IMG}" alt="Chef Mari Dias" loading="lazy" onerror="this.remove()">
+    <div><div class="eyebrow">QUEM ESTÁ POR TRÁS</div><h3>Chef Mari Dias</h3>
+    <p>Comecei vendendo o que todo mundo vendia e assava muito pra sobrar pouco. Quando passei a fazer a massa num dia só e assar só o que já estava pago, a conta fechou. Coloquei aqui o que faço no dia a dia.</p></div>
+  </div>`;
+}
+
+/* ---------------- LISTA DE COMPRAS ---------------- */
+function openListModal(){ document.getElementById('listModal').classList.add('open'); renderModal(); }
+function closeListModal(){ document.getElementById('listModal').classList.remove('open'); render(); }
+function clearListSelection(){ state.listSelected.clear(); renderModal(); }
+function setModalSearch(v){ state.listModalSearch=v; renderModal(); }
+function setModalFilter(f){ state.listModalFilter=f; renderModal(); }
+function toggleListSelect(id){
+  state.listSelected.has(id) ? state.listSelected.delete(id) : state.listSelected.add(id);
+  renderModal();
+}
+function renderModal(){
+  const filters = ['todas', ...Object.keys(CATS)];
+  document.getElementById('modalFilters').innerHTML = filters.map(f=>{
+    const count = f==='todas' ? RECIPES.length : RECIPES.filter(r=>r.cat===f).length;
+    const label = f==='todas' ? 'Todas' : CATS[f].label;
+    return `<button class="pill ${state.listModalFilter===f?'active':''}" onclick="setModalFilter('${f}')">${label} (${count})</button>`;
+  }).join('');
+  const list = RECIPES.filter(r=>{
+    const matchCat = state.listModalFilter==='todas' ? true : r.cat===state.listModalFilter;
+    const matchSearch = (r.name.toLowerCase()+r.ingredients.join(' ').toLowerCase()).includes(state.listModalSearch.toLowerCase());
+    return matchCat && matchSearch;
+  });
+  document.getElementById('modalGrid').innerHTML = `<div class="modal-grid">${list.map(r=>{
+    const sel = state.listSelected.has(r.id);
+    const art = r.img
+      ? `<img src="${r.img}" alt="${r.name}" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:cover;" onerror="this.replaceWith(Object.assign(document.createElement('div'),{style:'font-size:34px',textContent:'${r.icon}'}))">`
+      : r.icon;
+    return `<div class="modal-card ${sel?'selected':''}" onclick="toggleListSelect(${r.id})">
+      <div class="modal-art" style="${artStyle(r.cat)}">${art}<div class="modal-check">✓</div></div>
+      <div class="modal-info">
+        <div class="modal-cat" style="color:${CATS[r.cat].color}">${CATS[r.cat].label}</div>
+        <div class="modal-name">${r.name}</div>
+      </div>
+    </div>`;
+  }).join('') || '<div class="empty-state" style="grid-column:1/-1"><div class="big">🍽️</div><p>Nenhuma receita encontrada.</p></div>'}</div>`;
+  document.getElementById('modalCount').textContent = `${state.listSelected.size} receita${state.listSelected.size===1?'':'s'} selecionada${state.listSelected.size===1?'':'s'}`;
+}
+function normalizeIng(str){ return str.trim().toLowerCase().replace(/\s+/g,' '); }
+function generateShoppingList(){
+  const chosen = RECIPES.filter(r=>state.listSelected.has(r.id));
+  const seen = new Map();
+  chosen.forEach(r=>{
+    r.ingredients.forEach(ing=>{
+      const key = normalizeIng(ing);
+      if(!seen.has(key)) seen.set(key, {text:ing, from:new Set()});
+      seen.get(key).from.add(r.name);
+    });
+  });
+  state.generatedList = Array.from(seen.values()).sort((a,b)=>a.text.localeCompare(b.text,'pt-BR'));
+  state.checkedItems = new Set();
+  render();
+}
+function toggleChecked(idx){
+  state.checkedItems.has(idx) ? state.checkedItems.delete(idx) : state.checkedItems.add(idx);
+  render();
+}
+function resetList(){ state.generatedList=null; render(); }
+function listaSection(){
+  if(!state.generatedList){
+    const n = state.listSelected.size;
+    return `
+      <div class="list-summary">
+        <div class="list-cart-icon">🛒</div>
+        <h2>${n>0?`${n} receita${n===1?'':'s'} selecionada${n===1?'':'s'}`:'Nenhuma receita selecionada'}</h2>
+        <p>${n>0?'Pronta pra gerar sua lista de compras.':'Escolha os sabores da semana e o app soma os ingredientes do dia da massa.'}</p>
+        <div class="list-summary-actions">
+          <button class="btn-outline" onclick="openListModal()">+ Ajustar receitas</button>
+          <button class="btn-terracotta" ${n===0?'disabled':''} onclick="${n>0?'generateShoppingList()':''}">Gerar lista</button>
+        </div>
+      </div>`;
+  }
+  const total = state.generatedList.length;
+  const done = state.checkedItems.size;
+  return `
+    <div class="list-header">
+      <div>
+        <a class="back-link" onclick="resetList()">← Nova lista</a>
+        <h1>Sua lista de compras</h1>
+        <div class="list-progress">${done} DE ${total} ITENS MARCADOS · ${state.listSelected.size} RECEITAS</div>
+      </div>
+      <div class="list-actions">
+        <button class="btn-outline" onclick="openListModal()">+ Ajustar receitas</button>
+      </div>
+    </div>
+    <div class="list-groups">
+      <div class="list-items">
+        ${state.generatedList.map((item,idx)=>{
+          const checked = state.checkedItems.has(idx);
+          const fromLabel = item.from.size>1 ? `${item.from.size} receitas` : Array.from(item.from)[0];
+          return `<div class="list-item ${checked?'checked':''}" onclick="toggleChecked(${idx})">
+            <div class="box">${checked?'✓':''}</div>
+            <span class="txt">${item.text}</span>
+            <span class="from">${fromLabel}</span>
+          </div>`;
+        }).join('')}
+      </div>
+    </div>`;
+}
+function setFilter(f){ state.filter=f; render(); }
+function setSearch(v){ state.search=v; render(); keepFocus('searchInput'); }
+function render(){
+  const app = document.getElementById('app');
+  if(state.route==='home') app.innerHTML = heroSection();
+  else if(state.route==='recipes') app.innerHTML = recipesSection();
+  else if(state.route==='detail') app.innerHTML = detailSection();
+  else if(state.route==='lista') app.innerHTML = listaSection();
+  else if(state.route==='bonusList') app.innerHTML = bonusListSection();
+  else if(state.route==='bonusDetail') app.innerHTML = bonusDetailSection();
+  else if(state.route==='guide') app.innerHTML = guideSection();
+  else if(state.route==='cardapios') app.innerHTML = cardapiosSection();
+  else if(state.route==='cardapioDetail') app.innerHTML = cardapioDetailSection();
+  else if(state.route==='fotos') app.innerHTML = fotosSection();
+  else if(state.route==='vendas') app.innerHTML = vendasSection();
+  else if(state.route==='folha') app.innerHTML = folhaSection();
+  else if(state.route==='cert') app.innerHTML = certSection();
+}
+setRoute('home');
+/* Botão de voltar ao topo: aparece só depois que a rolagem passa da primeira tela. */
+(function(){
+  const b = document.getElementById('toTop');
+  if(!b) return;
+  const upd = () => b.classList.toggle('show', window.scrollY > 600);
+  window.addEventListener('scroll', upd, {passive:true});
+  upd();
+})();
+/* Popup de avaliação: aparece uma única vez, depois de um tempinho navegando,
+   só se a pessoa ainda não avaliou nem fechou o popup antes. */
+(function(){
+  let jaVisto = false;
+  try{ jaVisto = localStorage.getItem('app_popup_seen') === '1'; }catch(e){}
+  if(!jaVisto && state.rating === 0){
+    setTimeout(()=>{ if(state.rating === 0) openRatingModal(); }, 12000);
+  }
+})();
+</script>
+</body>
+</html>
