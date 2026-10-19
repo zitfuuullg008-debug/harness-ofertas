@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta name="robots" content="noindex">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#D98326">
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<title>Pão Recheado Lucrativo — fature R$5.000 já no primeiro mês</title>
+<link rel="preconnect" href="https://zitfuuullg008-debug.github.io" crossorigin>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Bricolage+Grotesque:opsz,wght@12..96,800&display=swap">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:17px;-webkit-text-size-adjust:100%}
+body{font-family:'Plus Jakarta Sans',system-ui,-apple-system,sans-serif;background:var(--creme);color:var(--marrom);overflow-x:hidden;max-width:460px;margin:0 auto;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+img{max-width:100%}
+:root{
+  --creme:#FAEEDA;--creme-dark:#F0DDB8;--creme-line:#E7D2A8;
+  --marrom:#3D2B1F;--marrom-light:#6B4F3A;--marrom-soft:#8A6C54;
+  --laranja:#D98326;--laranja-dark:#B06E13;--laranja-mid:#FAC775;--laranja-soft:#FEF3DC;
+  --verde:#3B6D11;--verde-dark:#2F5A0C;--preto:#1E1208;
+  --branco:#FFFFFF;--cinza:#7A6754;
+  --s1:8px;--s2:14px;--s3:22px;--s4:32px;--s5:44px;--s6:60px;
+  --r-sm:12px;--r-md:18px;--r-lg:24px;--r-xl:30px;
+  --sh-1:0 1px 3px rgba(61,43,31,.06),0 4px 16px rgba(61,43,31,.06);
+  --sh-2:0 2px 6px rgba(61,43,31,.07),0 12px 32px rgba(61,43,31,.10);
+  --sh-3:0 4px 12px rgba(61,43,31,.10),0 20px 48px rgba(61,43,31,.14);
+  --px:17px;
+}
+section{padding:var(--s6) var(--px)}
+h1,h2,h3{font-family:'Playfair Display',Georgia,serif;letter-spacing:-.02em;text-wrap:balance}
+h1{font-size:clamp(28px,7.6vw,35px);font-weight:900;line-height:1.14}
+h2{font-size:clamp(23px,6.2vw,27px);font-weight:800;line-height:1.2}
+h3{font-weight:800}
+p{text-wrap:pretty}
+.eyebrow{font-size:11.5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--laranja-dark)}
+.progress-bar{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--laranja),var(--verde));width:0%;z-index:9999;transition:width .1s linear}
+.urgencia-bar{background:var(--laranja);color:var(--marrom);text-align:center;padding:11px var(--px);font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;display:flex;align-items:center;justify-content:center;gap:9px;line-height:1.4}
+.urgencia-dot{width:6px;height:6px;background:rgba(61,43,31,.45);border-radius:50%;flex-shrink:0;animation:pulse 1.8s ease-in-out infinite}
+.hero{padding:var(--s5) var(--px) var(--s6);text-align:center}
+.hero h1{margin-bottom:var(--s3)}
+.hero h1 em{font-style:normal;color:var(--laranja-dark)}
+.hero-pills{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:0 0 var(--s4);text-align:left}
+.hero-pill{display:flex;align-items:center;gap:9px;background:var(--verde);border-radius:var(--r-sm);padding:11px 12px;box-shadow:0 2px 10px rgba(59,109,17,.2)}
+.hero-pill svg{flex-shrink:0;width:19px;height:19px;stroke:rgba(255,255,255,.92);fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.hero-pill span{font-size:13px;font-weight:700;color:#fff;line-height:1.3;letter-spacing:-.01em}
+.hero-img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:var(--r-lg);margin-bottom:var(--s4);display:block;background:var(--creme-dark)}
+.hero-sub{font-size:15.5px;line-height:1.68;color:var(--marrom-light);margin-bottom:var(--s4)}
+.hero-sub strong{color:var(--marrom);font-weight:800}
+.btn{display:block;width:100%;background:var(--verde);color:#fff;font-family:inherit;font-size:16px;font-weight:800;padding:18px 16px;border-radius:var(--r-sm);border:none;cursor:pointer;text-decoration:none;text-align:center;letter-spacing:.04em;text-transform:uppercase;line-height:1.25;transition:transform .15s ease,box-shadow .15s ease,filter .15s ease;box-shadow:0 4px 16px rgba(59,109,17,.26);position:relative;overflow:hidden}
+.btn:hover{transform:translateY(-1px);filter:brightness(1.06);box-shadow:0 8px 24px rgba(59,109,17,.32)}
+.btn:active{transform:translateY(0)}
+.btn-laranja{background:var(--laranja);color:var(--marrom);box-shadow:0 4px 18px rgba(217,131,38,.34)}
+.btn-laranja:hover{box-shadow:0 8px 26px rgba(217,131,38,.4)}
+.btn-shimmer::before{content:'';position:absolute;top:0;left:-100%;width:55%;height:100%;background:linear-gradient(105deg,transparent 20%,rgba(255,255,255,.22) 50%,transparent 80%);animation:shimmer 3.2s ease-in-out infinite}
+.btn-micro{font-size:13px;font-weight:600;color:var(--marrom-soft);text-align:center;margin-top:var(--s2);line-height:1.5;text-wrap:balance}
+.btn-pulse{animation:btnPulse 3s ease-in-out infinite}
+.dor{background:var(--marrom);text-align:center}
+.dor h2{color:#fff;margin-bottom:var(--s3)}
+.dor h2 em{font-style:normal;color:var(--laranja)}
+.dor p{font-size:15.5px;color:rgba(255,255,255,.74);line-height:1.7;margin-bottom:var(--s2);text-align:left}
+.dor p:last-child{margin-bottom:0}
+.dor strong{color:#fff;font-weight:800}
+.dor-img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;border-radius:var(--r-md);margin:var(--s4) 0;background:rgba(255,255,255,.06)}
+.demo{padding-left:0;padding-right:0;text-align:center}
+.demo-inner{padding:0 var(--px)}
+.demo h2{margin-bottom:var(--s2)}
+.demo-topo{font-size:11.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--laranja-dark);margin-bottom:var(--s2)}
+.demo-sub{font-size:15px;color:var(--marrom-light);line-height:1.66;text-align:left}
+.demo-eyebrow{font-size:11.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--laranja-dark);text-align:center;margin:var(--s5) 0 var(--s3)}
+.carousel-wrapper{width:100%;overflow:hidden;line-height:0;font-size:0;margin-bottom:var(--s5)}
+.carousel-track{display:flex;gap:12px;width:max-content;animation:scrollCarousel 18s linear infinite;animation-play-state:paused;will-change:transform}
+.carousel-item{flex:0 0 66vw;max-width:270px;border-radius:var(--r-md);overflow:hidden;background:var(--branco);box-shadow:var(--sh-1);display:flex;flex-direction:column}
+.carousel-item img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;background:var(--creme-dark)}
+.carousel-cap{display:block;width:100%;padding:12px 10px 14px;text-align:center;font-size:13.5px;font-weight:800;color:var(--marrom);line-height:1.3;letter-spacing:-.01em}
+.carousel-cap span{display:block;margin-top:5px;font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--laranja-dark)}
+.demo-check{list-style:none;text-align:left;padding:0 var(--px);margin-bottom:var(--s5)}
+.demo-check li{display:flex;align-items:flex-start;gap:12px;font-size:15px;color:var(--marrom);padding:8px 0;line-height:1.5;font-weight:600}
+.demo-cta{padding:0 var(--px)}
+.razoes{background:var(--marrom)}
+.razoes h2{color:#fff;text-align:center;margin-bottom:var(--s1)}
+.razoes h2 em{font-style:normal;color:var(--laranja)}
+.razoes-sub{font-size:14.5px;color:rgba(255,255,255,.6);text-align:center;line-height:1.65;margin-bottom:var(--s4)}
+.rz-card{background:var(--creme);border-radius:var(--r-md);padding:20px;margin-bottom:12px;box-shadow:var(--sh-2);display:flex;gap:14px;align-items:flex-start}
+.rz-emoji{width:42px;height:42px;background:var(--laranja-soft);border-radius:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.rz-emoji svg{width:21px;height:21px;stroke:var(--laranja-dark);fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.rz-card h3{font-family:'Plus Jakarta Sans',sans-serif;font-size:16px;font-weight:800;color:var(--marrom);line-height:1.32;margin-bottom:6px;letter-spacing:-.01em}
+.rz-card p{font-size:14.5px;color:var(--marrom-light);line-height:1.62}
+.rz-card b{color:var(--laranja-dark);font-weight:800}
+.razoes-cta{margin-top:var(--s4)}
+.calc h2{text-align:center;margin-bottom:var(--s1)}
+.calc-sub{font-size:14.5px;color:var(--marrom-light);text-align:center;line-height:1.6;margin-bottom:var(--s4)}
+.calc-box{background:var(--branco);border-radius:var(--r-xl);padding:26px 22px;border:1px solid var(--creme-line);box-shadow:var(--sh-2)}
+.calc-field{margin-bottom:var(--s3)}
+.calc-label{display:flex;justify-content:space-between;align-items:baseline;font-size:14px;font-weight:700;color:var(--marrom);margin-bottom:10px;gap:12px}
+.calc-label b{font-size:20px;font-weight:900;color:var(--laranja-dark);letter-spacing:-.02em;white-space:nowrap}
+.calc-range{width:100%;height:30px;-webkit-appearance:none;appearance:none;background:transparent;outline:none;cursor:pointer;margin:-12px 0}
+.calc-range::-webkit-slider-runnable-track{height:6px;background:var(--creme-dark);border-radius:100px}
+.calc-range::-moz-range-track{height:6px;background:var(--creme-dark);border-radius:100px}
+.calc-range::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;margin-top:-9px;width:24px;height:24px;background:var(--laranja);border:3px solid #fff;border-radius:50%;cursor:pointer;box-shadow:0 2px 8px rgba(217,131,38,.45)}
+.calc-range::-moz-range-thumb{width:24px;height:24px;background:var(--laranja);border:3px solid #fff;border-radius:50%;cursor:pointer;box-shadow:0 2px 8px rgba(217,131,38,.45)}
+.calc-conta{margin-top:var(--s3);border-top:1px solid var(--creme-line);padding-top:6px}
+.calc-linha{display:flex;justify-content:space-between;align-items:baseline;gap:14px;padding:10px 2px;border-bottom:1px solid var(--creme-line);font-size:14px;line-height:1.35}
+.calc-linha span{color:var(--marrom-light);font-weight:600}
+.calc-linha span small{display:block;font-size:11.5px;font-weight:600;color:var(--marrom-soft);margin-top:2px}
+.calc-linha b{font-weight:800;color:var(--marrom);white-space:nowrap;font-size:15px}
+.calc-linha-neg b{color:#B03030}
+.calc-result{background:var(--laranja-soft);border-radius:var(--r-md);padding:22px 18px;text-align:center;margin-top:var(--s3)}
+.calc-res-big{font-size:44px;font-weight:900;color:var(--verde);letter-spacing:-.035em;line-height:1}
+.calc-res-big-lab{font-size:12px;font-weight:800;color:var(--marrom-soft);text-transform:uppercase;letter-spacing:.1em;margin-top:8px}
+.calc-frase{font-size:14.5px;font-weight:700;color:var(--laranja-dark);text-align:center;line-height:1.55;margin-top:var(--s3)}
+.calc-cta{margin-top:var(--s4)}
+.produto{background:var(--marrom);text-align:center}
+.produto-eyebrow{font-size:12px;font-weight:800;color:rgba(255,255,255,.62);text-transform:uppercase;letter-spacing:.14em;margin-bottom:var(--s3);line-height:1.5}
+.produto-inner{background:var(--creme);border-radius:var(--r-xl);padding:24px 22px 28px;box-shadow:var(--sh-3)}
+.produto-nome{font-family:'Playfair Display',Georgia,serif;font-size:27px;font-weight:900;color:var(--marrom);margin-bottom:8px;letter-spacing:-.02em;line-height:1.15}
+.produto-sub{font-size:14.5px;color:var(--marrom-light);line-height:1.6}
+.produto-divider{height:1px;background:var(--creme-line);margin:var(--s3) 0}
+.checklist{list-style:none;text-align:left}
+.checklist li{display:flex;align-items:flex-start;gap:12px;font-size:15px;color:var(--marrom);padding:11px 2px;border-bottom:1px solid var(--creme-line);line-height:1.45;font-weight:600}
+.checklist li:last-child{border-bottom:none;padding-bottom:0}
+.check-ico{width:22px;height:22px;background:var(--verde);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
+.check-ico svg{width:12px;height:12px;stroke:#fff;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round;fill:none;display:block}
+.check-ico svg polyline{stroke-dasharray:18;stroke-dashoffset:18}
+.animated .check-ico svg polyline{animation:drawCheck .4s cubic-bezier(.22,1,.36,1) forwards}
+.animated li:nth-child(1) .check-ico svg polyline{animation-delay:0s}
+.animated li:nth-child(2) .check-ico svg polyline{animation-delay:.06s}
+.animated li:nth-child(3) .check-ico svg polyline{animation-delay:.12s}
+.animated li:nth-child(4) .check-ico svg polyline{animation-delay:.18s}
+.animated li:nth-child(5) .check-ico svg polyline{animation-delay:.24s}
+.animated li:nth-child(6) .check-ico svg polyline{animation-delay:.30s}
+.animated li:nth-child(7) .check-ico svg polyline{animation-delay:.36s}
+.animated li:nth-child(8) .check-ico svg polyline{animation-delay:.42s}
+.ideal-titulo{font-family:'Playfair Display',Georgia,serif;font-size:24px;font-weight:800;color:var(--marrom);text-align:center;line-height:1.24;margin-bottom:var(--s4);letter-spacing:-.02em}
+.ideal-card-wrap{margin-bottom:12px}
+.ideal-card{background:var(--branco);border:1px solid var(--creme-line);border-left:4px solid var(--laranja);border-radius:var(--r-md);padding:20px;display:flex;gap:14px;align-items:flex-start;box-shadow:var(--sh-1)}
+.card-icon-emoji{width:42px;height:42px;border-radius:12px;background:var(--laranja-soft);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.card-icon-emoji svg{width:21px;height:21px;stroke:var(--laranja-dark);fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.ideal-card h3{font-family:'Plus Jakarta Sans',sans-serif;font-size:16px;font-weight:800;color:var(--marrom);line-height:1.32;margin-bottom:6px;letter-spacing:-.01em}
+.ideal-card p{font-size:14.5px;color:var(--marrom-light);line-height:1.62}
+.ideal-cta{margin-top:var(--s4)}
+.bonus-bridge{background:var(--marrom);text-align:center;padding:var(--s6) var(--px) var(--s4)}
+.bridge-eyebrow{font-size:11.5px;color:rgba(255,255,255,.42);letter-spacing:.16em;text-transform:uppercase;margin-bottom:10px;font-weight:800}
+.bridge-sub{font-size:15px;color:rgba(255,255,255,.6);margin-bottom:10px;font-style:italic}
+.bridge-titulo{font-family:'Playfair Display',Georgia,serif;font-size:40px;font-weight:900;color:#fff;letter-spacing:-.03em;line-height:1.06}
+.bonuses{background:var(--marrom);padding:0 var(--px) var(--s6)}
+.bonus-card{background:var(--creme);border-radius:var(--r-xl);overflow:hidden;margin-bottom:16px;box-shadow:var(--sh-3)}
+.bonus-img-area{background:var(--branco);width:100%;display:block;overflow:hidden;padding:18px 18px 0}
+.bonus-img-area img{width:100%;height:230px;display:block;object-fit:contain;object-position:center}
+.bonus-body{padding:20px 22px 24px;text-align:center}
+.bonus-num-tag{display:inline-block;background:var(--laranja);color:var(--marrom);font-size:11.5px;font-weight:800;padding:6px 16px;border-radius:100px;margin-bottom:12px;letter-spacing:.1em;text-transform:uppercase}
+.bonus-body h3{font-family:'Plus Jakarta Sans',sans-serif;font-size:16.5px;font-weight:800;color:var(--marrom);line-height:1.3;margin-bottom:10px;letter-spacing:-.01em}
+.bonus-divider{height:1px;background:var(--creme-line);margin-bottom:12px}
+.bonus-body p{font-size:14.5px;color:var(--marrom-light);line-height:1.62}
+.depoimentos{text-align:center;padding-left:0;padding-right:0}
+.depo-topo{padding:0 var(--px);margin-bottom:var(--s4)}
+.depo-topo .eyebrow{display:block;margin-bottom:10px}
+.depo-topo h2{margin-bottom:12px}
+.depo-sub{font-size:14.5px;color:var(--marrom-light);line-height:1.62;max-width:34ch;margin:0 auto}
+.depo-contagem{display:inline-block;margin-top:16px;background:var(--laranja-soft);border:1px solid var(--creme-line);border-radius:100px;padding:9px 18px;font-size:13.5px;font-weight:700;color:var(--marrom-light);line-height:1.3}
+.depo-contagem b{color:var(--laranja-dark);font-weight:800}
+.depo-carousel-wrapper{width:100%;overflow:hidden}
+.depo-carousel-track{display:flex;gap:12px;width:max-content;animation:scrollDepo 34s linear infinite;animation-play-state:paused;will-change:transform}
+.depo-carousel-item{flex:0 0 84vw;max-width:352px;border-radius:var(--r-md);overflow:hidden;box-shadow:var(--sh-2);background:var(--branco);display:flex;flex-direction:column}
+.depo-legenda{padding:13px 15px 15px;text-align:left;border-top:1px solid var(--creme-line)}
+.depo-legenda strong{display:block;font-size:14.5px;font-weight:800;color:var(--marrom);line-height:1.3;letter-spacing:-.01em}
+.depo-legenda span{display:block;margin-top:3px;font-size:13px;font-weight:700;color:var(--verde);line-height:1.4}
+.depo-arraste{font-size:12.5px;font-weight:700;color:var(--marrom-soft);text-align:center;margin-top:12px;letter-spacing:.02em}
+.depo-carousel-item img{width:100%;aspect-ratio:1/1;object-fit:contain;display:block;background:var(--branco)}
+.depoimentos{font-size:17px}
+.depo-cta{margin-top:var(--s5);padding:0 var(--px)}
+.depo-placeholder{width:100%;aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;background:repeating-linear-gradient(45deg,var(--creme-dark),var(--creme-dark) 10px,var(--creme) 10px,var(--creme) 20px);color:var(--marrom-soft);font-size:12px;font-weight:800;text-align:center;padding:12px}
+.autoridade{padding-top:var(--s5)}
+.autoridade-inner{background:var(--branco);border-radius:var(--r-xl);overflow:hidden;box-shadow:var(--sh-2);border:1px solid var(--creme-line)}
+.autoridade-inner>img{width:100%;height:auto;object-fit:contain;object-position:top center;display:block;background:var(--branco)}
+.autoridade-text{padding:24px}
+.autoridade-eyebrow{font-size:11.5px;color:var(--marrom-soft);font-weight:800;letter-spacing:.14em;text-transform:uppercase;margin-bottom:8px;text-align:center;line-height:1.5}
+.autoridade-nome{font-family:'Playfair Display',Georgia,serif;font-size:30px;font-weight:900;color:var(--laranja-dark);font-style:italic;letter-spacing:-.02em;margin-bottom:var(--s3);text-align:center}
+.autoridade-bio{font-size:15px;color:var(--marrom-light);line-height:1.72;margin-bottom:12px}
+.autoridade-bio:last-child{margin-bottom:0}
+.planos-bridge{text-align:center;padding:var(--s6) var(--px) var(--s3)}
+.planos-bridge p{font-family:'Playfair Display',Georgia,serif;font-size:21px;font-weight:700;color:var(--marrom);margin-bottom:10px;line-height:1.35}
+.arrow-bounce{display:inline-block;font-size:30px;color:var(--laranja);animation:arrowBounce 1.4s ease-in-out infinite;line-height:1}
+.planos{padding:0 var(--px) var(--s6)}
+.plano-recomendado-wrap{position:relative;padding-top:26px}
+.plano-rec-badge{position:absolute;top:0;left:50%;transform:translateX(-50%);background:#F5C518;color:var(--marrom);font-size:12.5px;font-weight:800;padding:9px 22px;border-radius:100px;white-space:nowrap;z-index:3;box-shadow:0 4px 14px rgba(61,43,31,.2);letter-spacing:.02em}
+.plano-rec-card{position:relative;z-index:1;background:var(--branco);border-radius:var(--r-xl);overflow:hidden;border:2px solid var(--laranja);box-shadow:0 12px 40px rgba(217,131,38,.2)}
+.plano-rec-titulo{background:var(--laranja);color:var(--marrom);font-family:'Playfair Display',Georgia,serif;font-size:26px;font-weight:900;text-align:center;padding:30px var(--px) 20px;letter-spacing:-.02em;line-height:1.12}
+.plano-body{padding:24px 22px}
+.plano-sub{font-size:14px;font-weight:600;color:var(--marrom-light);margin-bottom:var(--s3);line-height:1.6}
+.preco-stack{margin:var(--s4) 0 0;text-align:center;padding:24px 16px;background:var(--laranja-soft);border-radius:var(--r-md)}
+.preco-de{font-size:14px;color:#B03030;text-decoration:line-through;margin-bottom:6px;font-weight:700}
+.preco-hoje-label{font-size:11.5px;color:var(--marrom-soft);font-weight:800;text-transform:uppercase;letter-spacing:.14em;margin-bottom:6px}
+.preco-valor{display:flex;align-items:baseline;justify-content:center;gap:3px;color:var(--marrom);line-height:1}
+.preco-moeda{font-size:22px;font-weight:800;letter-spacing:0}
+.preco-num{font-size:60px;font-weight:900;letter-spacing:-.045em}
+.preco-cent{font-size:22px;font-weight:800;letter-spacing:0}
+.preco-ancora{font-size:14.5px;font-weight:800;color:var(--laranja-dark);text-align:center;line-height:1.55;margin-top:12px}
+.plano-body>.btn{margin-top:var(--s3)}
+.selos{margin-top:var(--s3);display:flex;flex-direction:column;gap:10px}
+.selo-item{font-size:13.5px;color:var(--marrom-light);font-weight:700;display:flex;align-items:center;gap:10px;line-height:1.35}
+.selo-item svg{width:17px;height:17px;flex-shrink:0;stroke:var(--verde);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.fechamento{font-size:15px;font-weight:700;color:var(--marrom);text-align:center;line-height:1.6;margin-top:var(--s3);padding-top:var(--s3);border-top:1px solid var(--creme-line)}
+.garantia{background:#1A9940;text-align:center}
+.garantia-selo{display:inline-flex;align-items:center;justify-content:center;background:rgba(255,255,255,.15);border:1.5px solid rgba(255,255,255,.3);border-radius:100px;padding:9px 20px;gap:9px;margin-bottom:var(--s3)}
+.garantia-selo span{color:#fff;font-size:11.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.garantia h2{color:#fff;margin-bottom:var(--s3)}
+.garantia>p{font-size:15.5px;color:rgba(255,255,255,.9);line-height:1.7;text-align:left}
+.gar-lista{display:flex;flex-direction:column;gap:10px;margin-top:var(--s4)}
+.gar-item{display:flex;align-items:center;gap:14px;background:rgba(255,255,255,.12);border-radius:var(--r-sm);padding:15px 16px;text-align:left}
+.gar-ico{width:40px;height:40px;background:rgba(255,255,255,.2);border-radius:11px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.gar-item strong{display:block;color:#fff;font-size:15px;font-weight:800;margin-bottom:2px;line-height:1.25}
+.gar-item span{display:block;color:rgba(255,255,255,.72);font-size:12.5px;font-weight:500;line-height:1.3}
+.garantia .btn{margin-top:var(--s4);background:#fff;color:#1A9940;box-shadow:0 4px 16px rgba(0,0,0,.14)}
+.acesso{background:var(--marrom);text-align:center}
+.acesso .eyebrow{display:block;color:var(--laranja);margin-bottom:10px}
+.acesso h2{color:#fff;margin-bottom:var(--s1)}
+.acesso-sub{font-size:14.5px;color:rgba(255,255,255,.6);line-height:1.6;margin-bottom:var(--s4)}
+.passos{display:flex;flex-direction:column;gap:0;text-align:left;position:relative}
+.passo{display:flex;gap:14px;align-items:flex-start;position:relative;padding-bottom:22px}
+.passo:last-child{padding-bottom:0}
+.passo::before{content:'';position:absolute;left:21px;top:46px;bottom:-2px;width:2px;background:rgba(217,131,38,.28)}
+.passo:last-child::before{display:none}
+.passo-ico{width:44px;height:44px;border-radius:13px;background:var(--laranja-soft);display:flex;align-items:center;justify-content:center;flex-shrink:0;position:relative;z-index:1}
+.passo-ico svg{width:22px;height:22px;stroke:var(--laranja-dark);fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.passo-txt{padding-top:2px}
+.passo-num{font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--laranja);display:block;margin-bottom:3px}
+.passo-txt h3{font-family:'Plus Jakarta Sans',sans-serif;font-size:16.5px;font-weight:800;color:#fff;line-height:1.3;margin-bottom:5px;letter-spacing:-.01em}
+.passo-txt p{font-size:14.5px;color:rgba(255,255,255,.68);line-height:1.6}
+.passo-txt b{color:#fff;font-weight:800}
+.faq h2{margin-bottom:var(--s4);text-align:center}
+.faq-item{background:var(--branco);border-radius:var(--r-sm);margin-bottom:9px;overflow:hidden;box-shadow:var(--sh-1);border:1px solid var(--creme-line)}
+.faq-question{width:100%;background:none;border:none;text-align:left;padding:16px 16px;font-family:inherit;font-size:15px;font-weight:700;color:var(--marrom);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;line-height:1.42}
+.faq-arrow{width:26px;height:26px;background:var(--creme);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:10px;color:var(--laranja-dark);transition:transform .25s ease,background .2s ease}
+.faq-item.open .faq-arrow{transform:rotate(180deg);background:var(--laranja);color:var(--marrom)}
+.faq-answer{max-height:0;overflow:hidden;font-size:14.5px;color:var(--marrom-light);line-height:1.7;padding:0 16px;transition:max-height .32s cubic-bezier(.22,1,.36,1),padding .28s ease}
+.faq-item.open .faq-answer{max-height:460px;padding:0 16px 16px}
+footer{background:var(--preto);color:rgba(255,255,255,.34);font-size:12.5px;text-align:center;padding:var(--s5) var(--px);line-height:1.85}
+footer strong{color:rgba(255,255,255,.6)}
+@keyframes shimmer{0%{left:-100%}100%{left:170%}}
+@keyframes btnPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.012)}}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(1.35)}}
+@keyframes arrowBounce{0%,100%{transform:translateY(0)}50%{transform:translateY(7px)}}
+@keyframes scrollCarousel{from{transform:translateX(0)}to{transform:translateX(calc(-1 * var(--scroll-distance,50%)))}}
+@keyframes scrollDepo{from{transform:translateX(0)}to{transform:translateX(calc(-1 * var(--depo-scroll-distance,50%)))}}
+@keyframes drawCheck{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){
+  *{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+.produto-img{width:100%;aspect-ratio:1/1;object-fit:contain;display:block;border-radius:var(--r-md);margin:0 auto var(--s3);background:var(--branco)}
+.mockup-completo{width:100%;height:auto;aspect-ratio:auto;object-fit:contain;display:block;border-radius:var(--r-md);margin:0 auto var(--s3);background:var(--branco)}
+
+/* ===================== SKIN v2 — camada visual por cima do molde ===================== */
+:root{--creme:#FFF7EC;--creme-dark:#F4E3CB;--creme-line:#EAD0AC;--marrom:#3A2416;--marrom-light:#6A4A33;--marrom-soft:#8E7158;--laranja:#D98326;--laranja-dark:#94530F;--laranja-soft:#FBE8CF;--ink:#3A2416}
+h1,h2,h3,.ideal-titulo,.produto-nome,.bridge-titulo,.autoridade-nome,.plano-rec-titulo{font-family:'Bricolage Grotesque','Plus Jakarta Sans',system-ui,sans-serif;letter-spacing:-.035em}
+h1{font-weight:800;font-size:clamp(32px,9vw,40px);line-height:1.02}
+h2{font-weight:800;line-height:1.08}
+.hero h1 em{background:linear-gradient(transparent 60%,rgba(217,131,38,.55) 60%);color:var(--marrom);padding:0 2px}
+.autoridade-nome{font-style:normal}
+
+/* hero */
+.hero-img{border:none;box-shadow:none;background:none;border-radius:0;object-fit:contain}
+.hero-pill{background:#fff;border:1.5px solid rgba(58,36,22,.22);border-radius:999px;padding:10px 12px}
+.hero-pill svg{stroke:var(--marrom)}
+.hero-pill span{color:var(--marrom);font-size:12.5px}
+
+/* botões */
+.btn{border-radius:999px;border:2px solid var(--marrom);box-shadow:3px 3px 0 var(--marrom);transition:transform .12s ease,box-shadow .12s ease}
+.btn:hover{transform:translate(1px,1px);box-shadow:1px 1px 0 var(--marrom);filter:none}
+.btn-pulse{animation:none}
+.garantia .btn{border-color:#fff;box-shadow:none}
+
+/* cartões: contorno grosso + sombra dura */
+.rz-card,.ideal-card,.faq-item,.calc-box,.bonus-card,.autoridade-inner,.carousel-item,.depo-carousel-item{border:1px solid rgba(58,36,22,.16);box-shadow:var(--sh-1)}
+.ideal-card{border-left:4px solid var(--laranja)}
+.ideal-card-wrap:nth-child(even) .ideal-card{background:var(--laranja-soft)}
+.carousel-item:nth-child(odd){transform:rotate(-1.6deg)}
+.carousel-item:nth-child(even){transform:rotate(1.6deg) translateY(6px)}
+.carousel-track{padding:10px 8px 14px}
+.carousel-item{margin:0 4px}
+.bonus-num-tag{transform:none}
+.bonus-img-area{border-bottom:1px solid var(--creme-line)}
+.rz-emoji,.card-icon-emoji{border-radius:14px;background:var(--laranja)}
+.rz-emoji svg,.card-icon-emoji svg{stroke:var(--marrom)}
+.calc-box{border-radius:28px}
+.calc-result{background:#fff;border:1px solid var(--creme-line)}
+.calc-res-big{font-family:'Bricolage Grotesque',sans-serif;font-size:52px}
+.calc-range::-webkit-slider-thumb{background:var(--laranja);border:3px solid var(--marrom)}
+.calc-range::-moz-range-thumb{background:var(--laranja);border:3px solid var(--marrom)}
+
+/* faixas escuras ganham um degradê de fundo */
+.dor,.razoes,.produto,.acesso,.bonus-bridge,.bonuses{background:radial-gradient(120% 60% at 100% 0%,#5A3418 0%,var(--marrom) 60%)}
+.produto-inner{box-shadow:var(--sh-3)}
+.dor-img{border:2px solid rgba(255,255,255,.2)}
+
+/* oferta */
+.plano-rec-card{border:2px solid var(--marrom);box-shadow:6px 6px 0 var(--laranja)}
+.plano-rec-titulo{font-size:30px}
+.plano-rec-badge{border:2px solid var(--marrom)}
+.preco-stack{background:#fff;border:1px solid var(--creme-line)}
+.preco-num{font-family:'Bricolage Grotesque',sans-serif;font-size:68px}
+.passo-ico{border:2px solid var(--laranja);background:transparent}
+
+/* ===== camada de movimento "produzido": só transform/opacity, melhora progressiva ===== */
+/* brilho quente que respira atrás do topo */
+.hero{position:relative;isolation:isolate;overflow:hidden}
+.hero::before{content:'';position:absolute;z-index:-1;left:-25%;right:-25%;top:-60px;height:430px;background:radial-gradient(closest-side,rgba(217,131,38,.38),rgba(217,131,38,0));animation:blob 11s ease-in-out infinite alternate}
+@keyframes blob{from{transform:translate3d(-6%,0,0) scale(1)}to{transform:translate3d(6%,18px,0) scale(1.12)}}
+/* chuva de pães no fundo do topo: só emoji (zero download), só transform/opacity, atrás do texto */
+.chuva-pao{position:absolute;inset:0;z-index:-1;pointer-events:none;overflow:hidden}
+.chuva-pao span{position:absolute;top:-70px;left:var(--x);font-size:var(--t);opacity:0;animation:caiPao var(--d) linear var(--a) infinite;will-change:transform}
+@keyframes caiPao{0%{transform:translate3d(0,0,0) rotate(0deg);opacity:0}8%{opacity:.5}85%{opacity:.5}100%{transform:translate3d(var(--v),1150px,0) rotate(var(--r));opacity:0}}
+@media (prefers-reduced-motion:reduce){.chuva-pao{display:none}}
+/* marca-texto que "passa" por cima da frase de dinheiro */
+.hero h1 em,.prat h2 em{background-repeat:no-repeat;background-position:0 100%;animation:sweep .9s .5s cubic-bezier(.22,1,.36,1) both}
+@keyframes sweep{from{background-size:0% 100%}to{background-size:100% 100%}}
+/* bordas dos carrosséis se desfazendo, como em app */
+.carousel-wrapper,.depo-carousel-wrapper{-webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent)}
+/* toque nos cartões */
+.rz-card,.ideal-card,.bonus-card{transition:transform .25s ease}
+@media (hover:hover){.rz-card:hover,.ideal-card:hover,.bonus-card:hover{transform:translateY(-3px)}}
+.btn:active{transform:scale(.98)}
+
+/* atrelado à rolagem (Chrome, Edge, Safari 18+, Firefox 132+). Quem não tem, vê tudo parado e bonito. */
+@supports (animation-timeline:view()){
+  .progress-bar{width:100%!important;transform-origin:0 50%;transform:scaleX(0);animation:prog linear both;animation-timeline:scroll(root)}
+  @keyframes prog{to{transform:scaleX(1)}}
+  .prat-img img{animation:parallax linear both;animation-timeline:view();animation-range:entry 0% cover 60%}
+  @keyframes parallax{from{transform:translateY(46px) scale(.9) rotate(-2deg);opacity:.2}to{transform:none;opacity:1}}
+  .prat h2 em{animation:sweep linear both;animation-timeline:view();animation-range:entry 40% cover 35%}
+}
+
+/* NOVO BLOCO: a conta fecha */
+.prat{padding:var(--s6) var(--px) var(--s5);text-align:center;background:radial-gradient(90% 50% at 50% 0%,var(--laranja-soft),var(--creme))}
+.prat .eyebrow{display:block;margin-bottom:12px}
+.prat h2{font-size:clamp(28px,8vw,34px);line-height:1.04;margin-bottom:14px}
+.prat h2 em{font-style:normal;background:linear-gradient(transparent 62%,rgba(217,131,38,.55) 62%);padding:0 2px}
+.prat-sub{font-size:15.5px;line-height:1.65;color:var(--marrom-light);max-width:34ch;margin:0 auto}
+.prat-sub strong{color:var(--marrom);font-weight:800}
+.prat-img{margin:var(--s5) auto var(--s4);max-width:420px}
+.prat-img img{display:block;width:100%;height:auto;border-radius:26px;box-shadow:0 26px 40px -22px rgba(58,36,22,.55)}
+.prat-fotos{display:none}
+.pf{position:absolute;border-radius:20px;border:4px solid #fff;box-shadow:0 18px 30px -14px rgba(58,36,22,.45);object-fit:cover;aspect-ratio:1/1;background:var(--creme-dark)}
+.pf1{width:48%;left:0;top:46px;transform:rotate(-6deg)}
+.pf3{width:48%;right:0;top:62px;transform:rotate(6deg)}
+.pf2{width:60%;left:20%;top:0;z-index:2}
+.etq{position:absolute;z-index:3;right:6%;top:-10px;width:88px;height:88px;border-radius:50%;background:var(--laranja);color:var(--marrom);display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:26px;line-height:1;transform:rotate(9deg);box-shadow:0 10px 18px -8px rgba(58,36,22,.5)}
+.etq small{font-family:'Plus Jakarta Sans',sans-serif;font-size:9.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-top:3px}
+.etq2{position:absolute;z-index:3;left:50%;bottom:0;transform:translateX(-50%);white-space:nowrap;background:var(--marrom);color:#fff;font-size:12.5px;font-weight:800;padding:9px 16px;border-radius:999px}
+.prat-prova{list-style:none;display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:0 0 var(--s4)}
+.prat-prova li{background:#fff;border:1px solid var(--creme-line);border-radius:999px;padding:9px 13px;font-size:12.5px;font-weight:700;color:var(--marrom)}
+.prat-prova li b{color:var(--verde)}
+
+/* barra de compra fixa */
+.stick{position:fixed;left:0;right:0;bottom:0;z-index:9000;max-width:460px;margin:0 auto;display:flex;align-items:center;gap:12px;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(255,249,240,.97);backdrop-filter:blur(8px);border-top:2px solid var(--marrom);transform:translateY(115%);transition:transform .3s ease}
+.stick.show{transform:none}
+.stick div{flex:1;font-size:12px;font-weight:700;color:var(--marrom-light);line-height:1.25}
+.stick div b{display:block;font-family:'Bricolage Grotesque',sans-serif;font-size:20px;color:var(--marrom)}
+.stick .btn{width:auto;padding:13px 18px;font-size:13.5px;white-space:nowrap}
+.planos-bridge p{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;letter-spacing:-.03em}
+footer{padding-bottom:96px}
+
+/* ===== movimento leve: só transform e opacity ===== */
+.rv{opacity:0;transform:translateY(22px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);transition-delay:var(--d,0s)}
+.rv.in{opacity:1;transform:none}
+.hero h1,.hero-pill,.hero-img{animation:heroIn .7s cubic-bezier(.22,1,.36,1) both}
+.hero-pill:nth-child(1){animation-delay:.10s}.hero-pill:nth-child(2){animation-delay:.16s}.hero-pill:nth-child(3){animation-delay:.22s}.hero-pill:nth-child(4){animation-delay:.28s}
+.hero-img{animation-delay:.2s}
+@keyframes heroIn{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.calc-res-big.bump{animation:bump .25s ease}
+@keyframes bump{50%{transform:scale(1.06)}}
+
+
+/* imagem da dor inteira (a arte tem selo em cima e plaquinha embaixo) */
+.dor-img{aspect-ratio:auto;height:auto;object-fit:contain}
+
+/* expert: foto de ponta a ponta com curva suave embaixo */
+.autoridade-inner>img{width:100%;height:auto;aspect-ratio:1/1.02;object-fit:cover;object-position:50% 12%;clip-path:ellipse(118% 94% at 50% 0)}
+.autoridade-text{padding-top:6px}
+.hero .btn-micro{margin-bottom:26px}
+</style>
+</head>
+<body>
+<div class="progress-bar" id="progressBar"></div>
+<div class="urgencia-bar">
+  <span class="urgencia-dot"></span>
+  <span id="urgencia-txt">🔥 Condição especial por tempo limitado</span>
+  <span class="urgencia-dot"></span>
+</div>
+<script>
+(function(){const t=new Date(),d=String(t.getDate()).padStart(2,'0'),m=String(t.getMonth()+1).padStart(2,'0');document.getElementById('urgencia-txt').textContent='🔥 Oferta especial disponível somente hoje '+d+'/'+m+'/'+t.getFullYear();})();
+</script>
+
+<!-- ============ 1 · VENDA IMEDIATA ============ -->
+<section class="hero">
+  <div class="chuva-pao" aria-hidden="true"><span style="--x:6%;--t:42px;--d:13s;--a:-2s;--v:30px;--r:200deg">🥖</span><span style="--x:22%;--t:34px;--d:16s;--a:-9s;--v:-20px;--r:-160deg">🍞</span><span style="--x:38%;--t:38px;--d:14s;--a:-5s;--v:25px;--r:240deg">🥖</span><span style="--x:55%;--t:32px;--d:17s;--a:-12s;--v:-15px;--r:-200deg">🍞</span><span style="--x:70%;--t:44px;--d:12s;--a:-7s;--v:20px;--r:180deg">🥖</span><span style="--x:86%;--t:36px;--d:15s;--a:-1s;--v:-25px;--r:-220deg">🍞</span><span style="--x:14%;--t:30px;--d:18s;--a:-14s;--v:15px;--r:160deg">🍞</span><span style="--x:78%;--t:32px;--d:19s;--a:-4s;--v:-10px;--r:210deg">🥖</span></div>
+  <h1>Pão recheado sob encomenda para <em>faturar R$5.000 já no primeiro mês</em>.</h1>
+
+  <p class="hero-sub">Cada pão custa <strong>R$6</strong> e você vende por <strong>R$30</strong>: sobram <strong>R$24</strong> em cada um. Você faz a massa <strong>num dia só</strong>, as clientes pagam antes e <strong>na semana seguinte elas já pedem de novo</strong>.</p>
+  <a href="#oferta" class="btn">QUERO COMEÇAR A VENDER</a>
+  <p class="btn-micro">🔓 Acesso imediato · 30 dias de garantia</p>
+  <div class="hero-pills">
+    <div class="hero-pill"><svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/><path d="M6 12h.01M18 12h.01"/></svg><span>Custa R$6, vende por R$30</span></div>
+    <div class="hero-pill"><svg viewBox="0 0 24 24"><path d="M3 17V11l16-6v12z"/><circle cx="8" cy="13" r="1"/><circle cx="14" cy="12" r="1"/></svg><span>10 recheios</span></div>
+    <div class="hero-pill"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span>Massa num dia só</span></div>
+    <div class="hero-pill"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg><span>Pago antes de assar</span></div>
+  </div>
+  <img loading="eager" fetchpriority="high" class="hero-img" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/hero-1.webp?v=52681d27" alt="Pão Recheado Lucrativo: a massa, os 10 recheios e as receitas no celular" decoding="async">
+</section>
+
+<!-- ============ 2 · DOR ============ -->
+<section class="dor">
+  <h2>Quem trabalha fora tenta <em>marmita e bolo de pote</em>. E desiste no primeiro mês.</h2>
+  <p>A marmita pede fogão todo dia, antes do trabalho. Na segunda semana você já não aguenta.</p>
+  <p>O bolo de pote tem cinco vendendo na mesma rua. Você faz no domingo, sobra metade na geladeira e o lucro vai junto pro lixo.</p>
+  <p>O problema não é você. É o produto.</p>
+  <img loading="lazy" class="dor-img" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/dor-1.webp?v=04231038" alt="Bolo de pote sobrando e marmitas empilhadas" decoding="async">
+  <p>Pão recheado bonito, feito em casa, <strong>quase ninguém vende na sua rua</strong>. E todo mundo quer no café da manhã de domingo.</p>
+  <p>E como você só assa o que já foi pago, <strong>não sobra nada e não tem prejuízo.</strong></p>
+</section>
+
+<!-- ============ 3 · DEMONSTRATIVO ============ -->
+<section class="demo">
+  <div class="demo-inner">
+    <p class="demo-topo">No café da manhã · No lanche da firma · No domingo em família</p>
+    <h2>Tudo o que você precisa para vender a sua primeira fornada já nesta semana.</h2>
+    <p class="demo-sub">Do ponto da massa ao pão fechado sem vazar, tudo com foto. Fácil de seguir, <strong>mesmo que você nunca tenha feito pão na vida</strong>.</p>
+  </div>
+  <p class="demo-eyebrow">Os 10 recheios que você vai aprender</p>
+  <div class="carousel-wrapper">
+    <div class="carousel-track" id="carouselTrack">
+      <div class="carousel-item"><img loading="lazy" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/demo-1.webp?v=2f71fba3" alt="Pão recheado de calabresa com queijo" decoding="async"><b class="carousel-cap">Calabresa com queijo<span>salgado</span></b></div>
+      <div class="carousel-item"><img loading="lazy" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/demo-2.webp?v=0b0aa3cb" alt="Pão recheado de frango com requeijão" decoding="async"><b class="carousel-cap">Frango com requeijão<span>salgado</span></b></div>
+      <div class="carousel-item"><img loading="lazy" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/demo-3.webp?v=e80c2eb7" alt="Pão recheado de pizza" decoding="async"><b class="carousel-cap">Pizza<span>salgado</span></b></div>
+      <div class="carousel-item"><img loading="lazy" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/demo-4.webp?v=d581b5ae" alt="Pão recheado de presunto e queijo" decoding="async"><b class="carousel-cap">Presunto e queijo<span>salgado</span></b></div>
+      <div class="carousel-item"><img loading="lazy" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/demo-5.webp?v=b8aff332" alt="Pão recheado de carne seca com requeijão" decoding="async"><b class="carousel-cap">Carne seca com requeijão<span>salgado</span></b></div>
+      <div class="carousel-item"><img loading="lazy" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/demo-6.webp?v=a6636ac5" alt="Pão recheado de bacon com cheddar" decoding="async"><b class="carousel-cap">Bacon com cheddar<span>salgado</span></b></div>
+      <div class="carousel-item"><img loading="lazy" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/demo-7.webp?v=3bdd3dd3" alt="Pão recheado de goiabada com queijo" decoding="async"><b class="carousel-cap">Goiabada com queijo<span>doce</span></b></div>
+      <div class="carousel-item"><img loading="lazy" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/demo-8.webp?v=42b8e3ea" alt="Pão recheado de chocolate" decoding="async"><b class="carousel-cap">Chocolate<span>doce</span></b></div>
+      <div class="carousel-item"><img loading="lazy" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/demo-9.webp?v=f658d2f3" alt="Pão recheado de doce de leite com coco" decoding="async"><b class="carousel-cap">Doce de leite com coco<span>doce</span></b></div>
+      <div class="carousel-item"><img loading="lazy" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/demo-10.webp?v=2467d213" alt="Pão recheado de banana com canela" decoding="async"><b class="carousel-cap">Banana com canela<span>doce</span></b></div>
+    </div>
+  </div>
+  <ul class="demo-check">
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Os 10 recheios: 6 salgados e 4 doces, na mesma massa</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>A massa que você amassa pouco e monta num dia só</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Como fechar o pão sem o recheio vazar no forno</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>O custo e o preço de cada sabor</li>
+  </ul>
+  <div class="demo-cta">
+    <a href="#oferta" class="btn">QUERO COMEÇAR A VENDER</a>
+    <p class="btn-micro">🔓 Você recebe tudo na hora, direto no seu e-mail</p>
+  </div>
+</section>
+
+<!-- ============ 4 · POR QUE VENDE SOZINHO ============ -->
+<section class="razoes">
+  <h2>5 motivos que fazem o pão recheado <em>vender sozinho</em></h2>
+  <p class="razoes-sub">Margem alta, pedido pago antes e cliente que volta toda semana.</p>
+
+  <div class="rz-card">
+    <span class="rz-emoji"><svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/><path d="M6 12h.01M18 12h.01"/></svg></span>
+    <div><h3>R$6 para fazer. R$30 para vender.</h3><p>O pão custa perto de <b>R$6</b> e você vende por <b>R$30</b>: <b>sobram R$24 em cada pão</b>. É <b>4 vezes o que você gastou</b>.</p></div>
+  </div>
+
+  <div class="rz-card">
+    <span class="rz-emoji"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg></span>
+    <div><h3>O Pix cai antes do forno</h3><p>Você fecha a lista e <b>só assa o que já foi pago</b>. Não sobra pão e não tem ingrediente perdido.</p></div>
+  </div>
+
+  <div class="rz-card">
+    <span class="rz-emoji"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span>
+    <div><h3>Massa num dia só, venda a semana inteira</h3><p>Você monta os pães já recheados num dia e guarda no freezer. <b>Quando a encomenda chega, tira só os que foram pagos e assa no forno de casa.</b></p></div>
+  </div>
+
+  <div class="rz-card">
+    <span class="rz-emoji"><svg viewBox="0 0 24 24"><path d="M17 2l3 3-3 3"/><path d="M4 12V9a4 4 0 0 1 4-4h12"/><path d="M7 22l-3-3 3-3"/><path d="M20 12v3a4 4 0 0 1-4 4H4"/></svg></span>
+    <div><h3>Acaba, e ela pede de novo</h3><p>Pão é da semana. A cliente come no domingo e <b>na semana seguinte já quer de novo</b>. Você não precisa caçar cliente novo toda semana.</p></div>
+  </div>
+
+  <div class="rz-card">
+    <span class="rz-emoji"><svg viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg></span>
+    <div><h3>Um pão e já pagou</h3><p>Você investe R$27,90 hoje. <b>No primeiro pão vendido você já recebe R$30</b>. Pagou tudo e ainda sobrou.</p></div>
+  </div>
+
+</section>
+
+<!-- ============ 5 · CALCULADORA ============ -->
+<section class="calc">
+  <h2>Faça a conta você mesma</h2>
+  <p class="calc-sub">Mexa as bolinhas e veja quanto entra no fim do mês.</p>
+
+  <div class="calc-box">
+    <div class="calc-field">
+      <label class="calc-label" for="calcVendas">Vendas por dia <b id="calcVendasVal">6</b></label>
+      <input class="calc-range" type="range" id="calcVendas" min="1" max="15" step="1" value="6">
+    </div>
+    <div class="calc-field">
+      <label class="calc-label" for="calcPreco">Preço do pão <b id="calcPrecoVal">R$ 30</b></label>
+      <input class="calc-range" type="range" id="calcPreco" min="25" max="40" step="1" value="30">
+    </div>
+
+    <div class="calc-result">
+      <div class="calc-res-big" id="calcLucro">R$ 5.400</div>
+      <div class="calc-res-big-lab">você fatura no mês · <span id="calcFatDet">180 pães × R$ 30</span></div>
+    </div>
+
+    <div class="calc-conta">
+      <div class="calc-linha"><span>Pães no mês</span><b id="calcPacotes">180</b></div>
+      <div class="calc-linha-neg calc-linha"><span>Ingredientes<small>R$ 6 para fazer cada pão</small></span><b id="calcCusto">− R$ 1.080</b></div>
+      <div class="calc-linha"><span>Sobra pra você<small>depois dos ingredientes</small></span><b id="calcFat">R$ 4.320</b></div>
+    </div>
+
+    <p class="calc-frase" id="calcFrase">São 6 pães por dia. Um grupo de condomínio resolve.</p>
+  </div>
+
+  <div class="calc-cta"><a href="#oferta" class="btn">QUERO COMEÇAR A VENDER</a></div>
+</section>
+
+<!-- ============ NOVO · A CONTA FECHA ============ -->
+<section class="prat">
+  <span class="eyebrow">A melhor renda extra pra quem trabalha fora</span>
+  <h2>Custa <em>R$6</em>. Vende por <em>R$30</em>. E a cliente volta toda semana.</h2>
+  <p class="prat-sub">Lucro de 4 vezes o custo. Pedido pago antes de ligar o forno. Cliente que pede de novo na semana seguinte. <strong>Nenhuma outra renda extra feita em casa junta as três.</strong></p>
+  <div class="prat-img"><img loading="lazy" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/app-1.webp?v=28496026" alt="Receitas do Pão Recheado Lucrativo no celular" decoding="async"></div>
+  <ul class="prat-prova">
+    <li><b>50 pães</b> num dia só</li>
+    <li><b>10</b> recheios</li>
+    <li><b>R$24</b> de lucro por pão</li>
+  </ul>
+  <a href="#oferta" class="btn">QUERO VENDER ESSES PÃES</a>
+  <p class="btn-micro">🔓 Acesso imediato · 30 dias de garantia</p>
+</section>
+
+<!-- ============ 6 · TUDO O QUE VOCÊ VAI RECEBER ============ -->
+<section class="produto">
+  <p class="produto-eyebrow">VOCÊ VAI RECEBER ACESSO IMEDIATO A:</p>
+  <div class="produto-inner">
+    <img loading="lazy" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/planos-1.webp?v=96d1a1e8" alt="Pão Recheado Lucrativo com os 6 bônus" decoding="async" class="produto-img">
+    <p class="produto-nome">Pão Recheado Lucrativo</p>
+    <p class="produto-sub">A massa, os 10 recheios e o dia da massa, tudo com foto do passo a passo.</p>
+    <div class="produto-divider"></div>
+    <ul class="checklist">
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>A massa base que rende 10 pães por receita, amassando pouco</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Os 10 recheios: 6 salgados e 4 doces</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>O ponto da massa em fotos</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Como fechar o pão sem o recheio vazar</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Como congelar cru e assar direto pra entrega, sem perder a maciez</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>O dia da massa: 50 pães montados e guardados no freezer</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>O custo e o preço de cada sabor</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>A lista de compras do dia da massa: 50 pães</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Tudo com foto do passo a passo, mesmo se você nunca fez pão</li>
+    </ul>
+
+  </div>
+</section>
+
+<!-- ============ 7 · IDEAL PARA VOCÊ ============ -->
+<section class="ideal">
+  <h2 class="ideal-titulo">O Pão Recheado Lucrativo é para você que:</h2>
+
+  <div class="ideal-card-wrap">
+    <div class="ideal-card"><div class="card-icon-emoji"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div><div><h3>Trabalha fora e tem pouco tempo</h3><p>Você monta os pães num dia de folga. Na semana, recebe as encomendas pelo celular e só assa o que já foi pago.</p></div></div>
+  </div>
+
+  <div class="ideal-card-wrap">
+    <div class="ideal-card"><div class="card-icon-emoji"><svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/><path d="M6 12h.01M18 12h.01"/></svg></div><div><h3>Vê o salário acabar antes do fim do mês</h3><p>6 pães por dia a R$30 dão R$5.400 de faturamento no mês, sem largar o emprego.</p></div></div>
+  </div>
+
+  <div class="ideal-card-wrap">
+    <div class="ideal-card"><div class="card-icon-emoji"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg></div><div><h3>Tem medo de gastar com ingrediente e não vender</h3><p>Você só compra e só assa depois que o Pix caiu. Não sobra pão em cima da mesa.</p></div></div>
+  </div>
+
+  <div class="ideal-card-wrap">
+    <div class="ideal-card"><div class="card-icon-emoji"><svg viewBox="0 0 24 24"><path d="M3 17V11l16-6v12z"/><circle cx="8" cy="13" r="1"/><circle cx="14" cy="12" r="1"/></svg></div><div><h3>Quer vender algo que ninguém da sua rua vende</h3><p>Bolo de pote tem em toda esquina. Pão recheado caprichado, feito em casa, quase ninguém faz.</p></div></div>
+  </div>
+
+  <div class="ideal-card-wrap">
+    <div class="ideal-card"><div class="card-icon-emoji"><svg viewBox="0 0 24 24"><path d="M4 20l5-14 9 9z"/><path d="M15 3l1 2M20 5l-2 1M19 10l2 1"/></svg></div><div><h3>Nunca fez pão na vida</h3><p>A massa não precisa de batedeira e você amassa pouco. Cada passo tem foto pra você comparar com o seu.</p></div></div>
+  </div>
+
+  <div class="ideal-cta"><a href="#oferta" class="btn">QUERO COMEÇAR A VENDER</a></div>
+</section>
+
+<!-- ============ 8 · BÔNUS ============ -->
+<div class="bonus-bridge">
+  <p class="bridge-eyebrow">E ISSO NÃO É TUDO</p>
+  <p class="bridge-sub">você ainda recebe…</p>
+  <h3 class="bridge-titulo">6 BÔNUS<br>EXCLUSIVOS</h3>
+</div>
+
+<section class="bonuses">
+  <div class="bonus-card"><div class="bonus-img-area"><img loading="lazy" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/bonuses-1.webp?v=76caa693" alt="Bônus 1 — O plano das 150 vendas" decoding="async"></div><div class="bonus-body"><span class="bonus-num-tag">🔥 BÔNUS 1</span><h3>O plano das 150 vendas</h3><div class="bonus-divider"></div><p><b>Do primeiro pedido às 150 vendas, no primeiro mês.</b> Você sabe quanto vender em cada semana.</p></div></div>
+
+  <div class="bonus-card"><div class="bonus-img-area"><img loading="lazy" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/bonuses-2.webp?v=6bb407db" alt="Bônus 2 — 15 mensagens que fecham encomenda" decoding="async"></div><div class="bonus-body"><span class="bonus-num-tag">🔥 BÔNUS 2</span><h3>15 mensagens que fecham encomenda</h3><div class="bonus-divider"></div><p>Do cardápio de segunda até o Pix cobrado. <b>Copia, cola e manda.</b></p></div></div>
+
+  <div class="bonus-card"><div class="bonus-img-area"><img loading="lazy" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/bonuses-3.webp?v=5977daa7" alt="Bônus 3 — Mais 10 recheios extras" decoding="async"></div><div class="bonus-body"><span class="bonus-num-tag">🔥 BÔNUS 3</span><h3>Mais 10 recheios extras</h3><div class="bonus-divider"></div><p>Com os 10 do produto, você fecha <b>20 sabores</b>. Escolhe e coloca no cardápio da semana.</p></div></div>
+
+  <div class="bonus-card"><div class="bonus-img-area"><img loading="lazy" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/bonuses-4.webp?v=ecb28488" alt="Bônus 4 — 30 fotos que dão água na boca" decoding="async"></div><div class="bonus-body"><span class="bonus-num-tag">🔥 BÔNUS 4</span><h3>30 fotos que dão água na boca</h3><div class="bonus-divider"></div><p>Baixa, posta no status e recebe pedido antes da primeira fornada.</p></div></div>
+
+  <div class="bonus-card"><div class="bonus-img-area"><img loading="lazy" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/bonuses-5.webp?v=9d2720a4" alt="Bônus 5 — A Fornada de Natal: 5 pães" decoding="async"></div><div class="bonus-body"><span class="bonus-num-tag">🔥 BÔNUS 5</span><h3>A Fornada de Natal: 5 pães</h3><div class="bonus-divider"></div><p>Abre a encomenda em novembro e fatura em dezembro.</p></div></div>
+
+  <div class="bonus-card"><div class="bonus-img-area"><img loading="lazy" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/bonuses-6.webp?v=138742d1" alt="Bônus 6 — Seu certificado de padeira artesanal" decoding="async"></div><div class="bonus-body"><span class="bonus-num-tag">🔥 BÔNUS 6</span><h3>Seu certificado de padeira artesanal</h3><div class="bonus-divider"></div><p>Para imprimir e pendurar. A cliente vê que é negócio de verdade.</p></div></div>
+</section>
+
+<!-- ============ 9 · PROVA SOCIAL ============ -->
+<section class="depoimentos">
+  <div class="depo-topo">
+    <span class="eyebrow">Resultados reais</span>
+    <h2>Quem começou a fazer<br>já está vendendo</h2>
+    <p class="depo-sub">Histórias de quem abriu a lista, assou a primeira fornada e transformou em encomenda.</p>
+    <p class="depo-contagem"><b>+17.800 alunas</b> já receberam as receitas</p>
+  </div>
+  <div class="depo-carousel-wrapper">
+    <div class="depo-carousel-track" id="depoCarouselTrack">
+      <div class="depo-carousel-item"><img loading="lazy" src="https://raw.githubusercontent.com/zitfuuullg008-debug/harness-ofertas/main/imagens/pao-recheado/depo-1.webp" width="640" height="640" alt="Depoimento de Bia Mendes: 18 pães vendidos no grupo do condomínio" decoding="async"><div class="depo-legenda"><strong>Bia Mendes</strong><span>18 pães vendidos no grupo do condomínio</span></div></div>
+      <div class="depo-carousel-item"><img loading="lazy" src="https://raw.githubusercontent.com/zitfuuullg008-debug/harness-ofertas/main/imagens/pao-recheado/depo-2.webp" width="640" height="640" alt="Depoimento de Mariana Costa: R$ 620 no primeiro fim de semana" decoding="async"><div class="depo-legenda"><strong>Mariana Costa</strong><span>R$ 620 no primeiro fim de semana</span></div></div>
+      <div class="depo-carousel-item"><img loading="lazy" src="https://raw.githubusercontent.com/zitfuuullg008-debug/harness-ofertas/main/imagens/pao-recheado/depo-3.webp" width="640" height="640" alt="Depoimento de Juliana Ferreira: 35 encomendas na primeira semana" decoding="async"><div class="depo-legenda"><strong>Juliana Ferreira</strong><span>35 encomendas na primeira semana</span></div></div>
+      <div class="depo-carousel-item"><img loading="lazy" src="https://raw.githubusercontent.com/zitfuuullg008-debug/harness-ofertas/main/imagens/pao-recheado/depo-4.webp" width="640" height="640" alt="Depoimento de Nati Alves: 22 pães vendidos num sábado" decoding="async"><div class="depo-legenda"><strong>Nati Alves</strong><span>22 pães vendidos num sábado</span></div></div>
+      <div class="depo-carousel-item"><img loading="lazy" src="https://raw.githubusercontent.com/zitfuuullg008-debug/harness-ofertas/main/imagens/pao-recheado/depo-5.webp" width="640" height="640" alt="Depoimento de Talita Rocha: 11 encomendas antes da primeira fornada" decoding="async"><div class="depo-legenda"><strong>Talita Rocha</strong><span>11 encomendas antes da primeira fornada</span></div></div>
+      <div class="depo-carousel-item"><img loading="lazy" src="https://raw.githubusercontent.com/zitfuuullg008-debug/harness-ofertas/main/imagens/pao-recheado/depo-6.webp" width="640" height="640" alt="Depoimento de Cintia Ferraz: R$ 480 no segundo fim de semana" decoding="async"><div class="depo-legenda"><strong>Cintia Ferraz</strong><span>R$ 480 no segundo fim de semana</span></div></div>
+      <div class="depo-carousel-item"><img loading="lazy" src="https://raw.githubusercontent.com/zitfuuullg008-debug/harness-ofertas/main/imagens/pao-recheado/depo-7.webp" width="640" height="640" alt="Depoimento de Paolla Santos: 28 pedidos em cinco dias" decoding="async"><div class="depo-legenda"><strong>Paolla Santos</strong><span>28 pedidos em cinco dias</span></div></div>
+      <div class="depo-carousel-item"><img loading="lazy" src="https://raw.githubusercontent.com/zitfuuullg008-debug/harness-ofertas/main/imagens/pao-recheado/depo-8.webp" width="640" height="640" alt="Depoimento de Larissa Martins: 11 encomendas só postando os sabores" decoding="async"><div class="depo-legenda"><strong>Larissa Martins</strong><span>11 encomendas só postando os sabores</span></div></div>
+    </div>
+  </div>
+  <div class="depo-cta"><a href="#oferta" class="btn">QUERO COMEÇAR A VENDER</a></div>
+</section>
+
+<!-- ============ 10 · OFERTA ============ -->
+<div class="planos-bridge">
+  <p><strong>COMECE HOJE</strong> com tudo o que você precisa:</p>
+  <span class="arrow-bounce">↓</span>
+</div>
+
+<section class="planos" id="oferta">
+  <div class="plano-recomendado-wrap">
+    <span class="plano-rec-badge">🔥 Acesso completo</span>
+    <div class="plano-rec-card">
+      <div class="plano-rec-titulo">PÃO RECHEADO<br>LUCRATIVO</div>
+      <div class="plano-body">
+        <img loading="lazy" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/planos-1.webp?v=96d1a1e8" alt="Pão Recheado Lucrativo com os 6 bônus" decoding="async" class="mockup-completo">
+        <p class="plano-sub">Tudo o que você precisa para abrir a lista, assar e vender a sua primeira fornada, mais os 6 bônus.</p>
+        <ul class="checklist" style="margin-bottom:0;">
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Pão Recheado Lucrativo: a massa e os 10 recheios</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>O plano das 150 vendas</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>15 mensagens que fecham encomenda</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Mais 10 recheios extras</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>30 fotos que dão água na boca</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>A Fornada de Natal: 5 pães</li>
+      <li><span class="check-ico"><svg viewBox="0 0 12 10"><polyline points="1.5,5 4.5,8.5 10.5,1.5"/></svg></span>Seu certificado de padeira artesanal</li>
+        </ul>
+        <div class="preco-stack">
+          <div class="preco-de">De R$197</div>
+          <div class="preco-hoje-label">Hoje apenas</div>
+          <div class="preco-valor"><span class="preco-moeda">R$</span><span class="preco-num">27</span><span class="preco-cent">,90</span></div>
+          <p class="preco-ancora">Um pão vendido e você já recuperou esse valor.</p>
+        </div>
+        <a href="{{CHECKOUT}}" class="btn-pulse btn-shimmer btn-laranja btn" target="_blank" rel="noopener">QUERO COMEÇAR A VENDER</a>
+        <div class="selos">
+          <div class="selo-item"><svg viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Compra segura</div>
+          <div class="selo-item"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Acesso imediato no seu e-mail</div>
+          <div class="selo-item"><svg viewBox="0 0 24 24"><path d="M12 21s7-3.5 7-9V5l-7-2.5L5 5v7c0 5.5 7 9 7 9z"/></svg>Garantia de 30 dias</div>
+        </div>
+        <p class="fechamento">R$27,90 é menos do que um pão recheado. E pode ser o começo da sua renda extra.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 11 · GARANTIA ============ -->
+<section class="garantia">
+  <div class="garantia-selo">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-3.5 7-9V5l-7-2.5L5 5v7c0 5.5 7 9 7 9z"/></svg>
+    <span>Garantia de 30 dias</span>
+  </div>
+  <h2>Faça a primeira fornada.<br>Se não gostar, devolvo tudo.</h2>
+  <p>Você tem 30 dias para testar, mesmo que nunca tenha vendido nada na vida. Dá tempo de abrir a lista, assar e vender por quatro semanas. Se não for para você, é só pedir o reembolso.</p>
+  <div class="gar-lista">
+    <div class="gar-item">
+      <div class="gar-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></div>
+      <div><strong>100% do valor devolvido</strong><span>Os R$27,90 voltam integrais</span></div>
+    </div>
+    <div class="gar-item">
+      <div class="gar-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg></div>
+      <div><strong>Sem perguntas</strong><span>Não precisa dizer por que desistiu</span></div>
+    </div>
+    <div class="gar-item">
+      <div class="gar-ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></div>
+      <div><strong>Sem burocracia</strong><span>Uma mensagem e o pedido é feito</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 12 · AUTORIDADE ============ -->
+<section class="autoridade">
+  <div class="autoridade-inner">
+    <img loading="lazy" src="https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/pao-recheado-lucrativo/autoridade-1.webp?v=82739516" alt="Chef Mari Dias na cozinha" decoding="async">
+    <div class="autoridade-text">
+      <p class="autoridade-eyebrow">Quem está por trás do Pão Recheado Lucrativo:</p>
+      <p class="autoridade-nome">Chef Mari Dias</p>
+      <p class="autoridade-bio">Todo mês era a mesma coisa: o dinheiro apertava no fim e sempre faltava um pouco.</p>
+      <p class="autoridade-bio">Eu comecei vendendo doce barato no grupo do bairro. Trabalhava o fim de semana inteiro e via pouco sobrar. Até entender que o problema não era o meu preço, era o meu produto.</p>
+      <p class="autoridade-bio">Quando troquei para pão recheado sob encomenda, as clientes passaram a pedir toda semana e eu parei de assar o que ninguém tinha comprado. Hoje eu faturo mais de R$5.000 por mês da minha cozinha, e coloquei aqui o que eu faço no dia a dia.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMO FUNCIONA O ACESSO ============ -->
+<section class="acesso">
+  <span class="eyebrow">Simples e rápido</span>
+  <h2>Como funciona o acesso</h2>
+  <p class="acesso-sub">Da hora que você paga até a primeira fornada.</p>
+
+  <div class="passos">
+    <div class="passo">
+      <span class="passo-ico"><svg viewBox="0 0 24 24"><path d="M3 4h2l2.4 10.5a2 2 0 0 0 2 1.5h7.2a2 2 0 0 0 2-1.5L21 7H6"/><circle cx="10" cy="20" r="1.2"/><circle cx="17" cy="20" r="1.2"/></svg></span>
+      <div class="passo-txt"><span class="passo-num">Passo 1</span><h3>Você paga</h3><p>No <b>Pix ou no cartão</b>, no checkout seguro. No Pix a confirmação sai na hora.</p></div>
+    </div>
+
+    <div class="passo">
+      <span class="passo-ico"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+      <div class="passo-txt"><span class="passo-num">Passo 2</span><h3>O acesso chega no seu e-mail</h3><p>Na hora em que o pagamento é confirmado. <b>Sem espera.</b></p></div>
+    </div>
+
+    <div class="passo">
+      <span class="passo-ico"><svg viewBox="0 0 24 24"><path d="M12 3v11"/><path d="M8 11l4 4 4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg></span>
+      <div class="passo-txt"><span class="passo-num">Passo 3</span><h3>Você entra e começa</h3><p>Abre pelo celular ou pelo computador. <b>É seu para sempre</b>, sem mensalidade.</p></div>
+    </div>
+
+    <div class="passo">
+      <span class="passo-ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg></span>
+      <div class="passo-txt"><span class="passo-num">Passo 4</span><h3>Faz a primeira fornada</h3><p>A <b>lista de compras já vem pronta</b>. Na primeira semana você já tem pão pra entregar.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 13 · FAQ ============ -->
+<section class="faq">
+  <h2>Perguntas Frequentes</h2>
+  <div class="faq-item"><button class="faq-question">Aqui na minha cidade alguém paga R$30 num pão?<span class="faq-arrow">▼</span></button><div class="faq-answer">O pão francês da padaria custa pouco. Mas pão recheado, grande e caprichado, vende de R$25 a R$40 em padaria boa e em grupo de bairro. É outro produto. E na calculadora você escolhe o preço que cabe na sua cidade.</div></div>
+  <div class="faq-item"><button class="faq-question">Por que pagar se tem receita de pão de graça na internet?<span class="faq-arrow">▼</span></button><div class="faq-answer">Receita de pão tem de sobra. O que não tem é a massa que rende 10 pães amassando pouco, o jeito de fechar sem vazar, o dia da massa que rende 50 pães, o preço de cada sabor e as 15 mensagens que fecham a encomenda. Você não está comprando a receita. Está comprando o negócio montado. E se testar e não for isso, eu devolvo os R$27,90.</div></div>
+  <div class="faq-item"><button class="faq-question">Serve para mim que nunca fiz pão na vida?<span class="faq-arrow">▼</span></button><div class="faq-answer">Serve. A massa não precisa de batedeira e você amassa pouco, e cada passo tem foto pra você comparar com o seu. Você não precisa ter experiência nenhuma.</div></div>
+  <div class="faq-item"><button class="faq-question">Preciso de forno industrial?<span class="faq-arrow">▼</span></button><div class="faq-answer">Não. Tudo é feito no forno de casa. Você assa só os pães da encomenda, numa assadeira comum.</div></div>
+  <div class="faq-item"><button class="faq-question">Trabalho a semana inteira. Dá tempo?<span class="faq-arrow">▼</span></button><div class="faq-answer">Dá. Você faz a massa e monta os pães num dia de folga, e guarda no freezer. Na semana, recebe as encomendas pelo celular e só assa o que já foi pago.</div></div>
+  <div class="faq-item"><button class="faq-question">Pão congelado fica bom?<span class="faq-arrow">▼</span></button><div class="faq-answer">Fica. Você congela cru, já recheado. Na véspera, passa pra geladeira. No dia, ele cresce e vai pro forno. A cliente recebe pão quentinho, assado no dia.</div></div>
+  <div class="faq-item"><button class="faq-question">E se sobrar pão?<span class="faq-arrow">▼</span></button><div class="faq-answer">Não sobra, porque você só assa o que já foi pago. O Pix cai antes e você assa a conta certa. O resto fica no freezer, esperando a próxima encomenda.</div></div>
+  <div class="faq-item"><button class="faq-question">E se eu não tiver cliente nenhum ainda?<span class="faq-arrow">▼</span></button><div class="faq-answer">Você recebe 30 fotos prontas pra postar no status e no grupo, e 15 mensagens prontas pra oferecer. O plano das 150 vendas começa com 20 pães na primeira semana. Dá pra começar a divulgar hoje.</div></div>
+  <div class="faq-item"><button class="faq-question">Como eu recebo as receitas?<span class="faq-arrow">▼</span></button><div class="faq-answer">O acesso chega direto no seu e-mail, na hora em que o pagamento for confirmado. Sem espera.</div></div>
+  <div class="faq-item"><button class="faq-question">Quais são as formas de pagamento?<span class="faq-arrow">▼</span></button><div class="faq-answer">Pix ou cartão de crédito. No pix o acesso sai na hora.</div></div>
+  <div class="faq-item"><button class="faq-question">Por quanto tempo eu tenho acesso?<span class="faq-arrow">▼</span></button><div class="faq-answer">Para sempre. O acesso que chega no seu e-mail é seu, sem mensalidade e sem renovação.</div></div>
+  <div class="faq-item"><button class="faq-question">E se eu não gostar?<span class="faq-arrow">▼</span></button><div class="faq-answer">Você tem 30 dias para testar. Se sentir que não é para você, é só pedir o reembolso e devolvemos o valor inteiro.</div></div>
+  <div class="faq-item"><button class="faq-question">A compra é segura?<span class="faq-arrow">▼</span></button><div class="faq-answer">Sim. Você paga no checkout seguro, com Pix ou cartão de crédito. Seus dados ficam protegidos e você tem 30 dias de garantia.</div></div>
+  <div class="demo-cta">
+    <a href="#oferta" class="btn-shimmer btn-laranja btn-pulse btn">QUERO COMEÇAR A VENDER</a>
+    <p class="btn-micro">🛡️ 30 dias de garantia · 🔒 compra segura</p>
+  </div>
+</section>
+
+<!-- ============ 14 · RODAPÉ ============ -->
+<footer>
+  <strong>Copyright 2026 | Pão Recheado Lucrativo</strong><br><br>
+  Os valores citados nesta página são exemplos e não representam garantia de ganho. Os resultados variam conforme a dedicação, a rotina e a região de cada pessoa.<br><br>
+  Todos os direitos sobre a obra "Pão Recheado Lucrativo" são reservados nos termos da Lei nº 9.610/98.
+</footer>
+
+<script>
+window.addEventListener('scroll',()=>{const el=document.getElementById('progressBar');if(!el)return;const t=document.body.scrollHeight-window.innerHeight;el.style.width=Math.min((window.scrollY/t)*100,100)+'%';},{passive:true});
+(function(){const track=document.getElementById('carouselTrack');if(!track||track.dataset.cloned)return;const items=Array.from(track.children);items.forEach(i=>track.appendChild(i.cloneNode(true)));track.dataset.cloned='true';function upd(){const f=track.children[items.length];if(f)track.style.setProperty('--scroll-distance',f.offsetLeft+'px');}upd();track.style.animationPlayState='running';setTimeout(upd,300);setTimeout(upd,1000);window.addEventListener('resize',upd,{passive:true});})();
+(function(){const track=document.getElementById('depoCarouselTrack');if(!track||track.dataset.cloned)return;const items=Array.from(track.children);items.forEach(i=>track.appendChild(i.cloneNode(true)));track.dataset.cloned='true';function upd(){const f=track.children[items.length];if(f)track.style.setProperty('--depo-scroll-distance',f.offsetLeft+'px');}upd();track.style.animationPlayState='running';setTimeout(upd,300);setTimeout(upd,1000);window.addEventListener('resize',upd,{passive:true});})();
+document.querySelectorAll('.faq-question').forEach(btn=>{btn.addEventListener('click',function(){const item=this.closest('.faq-item');const open=item.classList.contains('open');document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('open'));if(!open)item.classList.add('open');});});
+document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',e=>{e.preventDefault();const id=a.getAttribute('href').slice(1);const t=document.getElementById(id);if(t)t.scrollIntoView({behavior:'smooth',block:'start'});});});
+(function(){
+  const v=document.getElementById('calcVendas'),p=document.getElementById('calcPreco');
+  if(!v||!p)return;
+  const CUSTO=6;
+  const vv=document.getElementById('calcVendasVal'),pv=document.getElementById('calcPrecoVal');
+  const luc=document.getElementById('calcLucro'),fr=document.getElementById('calcFrase');
+  const pac=document.getElementById('calcPacotes'),fat=document.getElementById('calcFat'),cus=document.getElementById('calcCusto'),det=document.getElementById('calcFatDet');
+  const brl=n=>'R$ '+Math.round(n).toLocaleString('pt-BR');
+  const frases={1:'É um pão por dia. Um só.',2:'São 2 pães por dia. Dá só com a família e os vizinhos.',3:'São 3 pães por dia. Você tem mais de 3 vizinhas.',4:'São 4 pães por dia. Cabe até em quem trabalha fora.',5:'São 5 pães por dia. Uma mensagem no grupo resolve.',6:'São 6 pães por dia. Um grupo de condomínio resolve.',7:'São 7 pães por dia. O lanche da firma inteira.',8:'São 8 pães por dia. Menos de um pão por hora acordada.'};
+  function upd(){
+    const q=parseInt(v.value,10), pre=parseInt(p.value,10), mes=q*30;
+    const fatMes=mes*pre, custoMes=mes*CUSTO;
+    vv.textContent=q; pv.textContent='R$ '+pre;
+    pac.textContent=mes;
+    fat.textContent=brl(fatMes-custoMes);
+    det.textContent=mes+' pães × R$ '+pre;
+    cus.textContent='− '+brl(custoMes);
+    luc.textContent=brl(fatMes);
+    fr.textContent=frases[q]||('São '+q+' pães por dia. '+mes+' pães no mês.');
+  }
+  v.addEventListener('input',upd); p.addEventListener('input',upd); upd();
+})();
+(function(){
+  const lists=document.querySelectorAll('.checklist, .demo-check');
+  if(!('IntersectionObserver' in window)){lists.forEach(l=>l.classList.add('animated'));return;}
+  const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('animated');io.unobserve(e.target);}});},{threshold:.25});
+  lists.forEach(l=>io.observe(l));
+})();
+</script>
+<div class="stick" id="stick"><div><b>R$ 27,90</b>pagamento único · vitalício</div><a href="#oferta" class="btn btn-laranja">QUERO COMEÇAR</a></div>
+<script>
+(function(){
+  var s=document.getElementById('stick'),o=document.querySelector('.plano-rec-card')||document.getElementById('oferta'),seen=false;
+  /* A barra só aparece depois que a pessoa ROLOU até os planos. Medir pela posição na rolagem,
+     não por IntersectionObserver: no carregamento as fotos (lazy) ainda não têm altura, a
+     página fica curta e a oferta "aparece" na tela por um instante — a barra subia com o preço
+     antes de ela ver os planos. */
+  function u(){
+    if(!seen && window.scrollY>400 && o.getBoundingClientRect().top < window.innerHeight*0.8) seen=true;
+    s.classList.toggle('show',seen);
+  }
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+    var sel='.rz-card,.ideal-card-wrap,.bonus-card,.calc-box,.gar-item,.passo,.autoridade-inner,.produto-inner,.plano-rec-card,.prat-img,.demo-check li';
+    document.querySelectorAll(sel).forEach(function(el,i){el.classList.add('rv');el.style.setProperty('--d',((i%3)*.07)+'s');io.observe(el)});
+  }
+  window.addEventListener('scroll',u,{passive:true});u();
+  var big=document.getElementById('calcLucro');
+  if(big){new MutationObserver(function(){big.classList.remove('bump');void big.offsetWidth;big.classList.add('bump')}).observe(big,{childList:true,characterData:true,subtree:true})}
+})();
+</script>
+</body>
+</html>
