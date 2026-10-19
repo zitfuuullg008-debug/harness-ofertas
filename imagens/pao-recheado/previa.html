@@ -274,7 +274,7 @@ h2{font-weight:800;line-height:1.08}
 .garantia .btn{border-color:#fff;box-shadow:none}
 
 /* cartões: contorno grosso + sombra dura */
-.rz-card,.ideal-card,.faq-item,.bonus-card,.autoridade-inner,.carousel-item,.depo-carousel-item{border:1px solid rgba(58,36,22,.16);box-shadow:var(--sh-1)}
+.rz-card,.ideal-card,.faq-item,.calc-box,.bonus-card,.autoridade-inner,.carousel-item,.depo-carousel-item{border:1px solid rgba(58,36,22,.16);box-shadow:var(--sh-1)}
 .ideal-card{border-left:4px solid var(--laranja)}
 .ideal-card-wrap:nth-child(even) .ideal-card{background:var(--laranja-soft)}
 .carousel-item:nth-child(odd){transform:rotate(-1.6deg)}
@@ -285,6 +285,11 @@ h2{font-weight:800;line-height:1.08}
 .bonus-img-area{border-bottom:1px solid var(--creme-line)}
 .rz-emoji,.card-icon-emoji{border-radius:14px;background:var(--laranja)}
 .rz-emoji svg,.card-icon-emoji svg{stroke:var(--marrom)}
+.calc-box{border-radius:28px}
+.calc-result{background:#fff;border:1px solid var(--creme-line)}
+.calc-res-big{font-family:'Bricolage Grotesque',sans-serif;font-size:52px}
+.calc-range::-webkit-slider-thumb{background:var(--laranja);border:3px solid var(--marrom)}
+.calc-range::-moz-range-thumb{background:var(--laranja);border:3px solid var(--marrom)}
 
 /* faixas escuras ganham um degradê de fundo */
 .dor,.razoes,.produto,.acesso,.bonus-bridge,.bonuses{background:radial-gradient(120% 60% at 100% 0%,#5A3418 0%,var(--marrom) 60%)}
@@ -486,7 +491,7 @@ footer{padding-bottom:96px}
 <!-- ============ 5 · CALCULADORA ============ -->
 <section class="calc">
   <h2>Faça a conta você mesma</h2>
-  <p class="calc-sub">Mexa a bolinha e veja quanto sobra no seu bolso no fim do mês.</p>
+  <p class="calc-sub">Mexa as bolinhas e veja quanto entra no fim do mês.</p>
 
   <div class="calc-box">
     <div class="calc-field">
@@ -495,18 +500,18 @@ footer{padding-bottom:96px}
     </div>
     <div class="calc-field">
       <label class="calc-label" for="calcPreco">Preço do pão <b id="calcPrecoVal">R$ 30</b></label>
-      <input class="calc-range" type="range" id="calcPreco" min="20" max="50" step="5" value="30">
+      <input class="calc-range" type="range" id="calcPreco" min="25" max="40" step="1" value="30">
+    </div>
+
+    <div class="calc-result">
+      <div class="calc-res-big" id="calcLucro">R$ 5.400</div>
+      <div class="calc-res-big-lab">você fatura no mês · <span id="calcFatDet">180 pães × R$ 30</span></div>
     </div>
 
     <div class="calc-conta">
       <div class="calc-linha"><span>Pães no mês</span><b id="calcPacotes">180</b></div>
-      <div class="calc-linha"><span>Você recebe<small id="calcFatDet">180 pães × R$ 30</small></span><b id="calcFat">R$ 5.400</b></div>
-      <div class="calc-linha calc-linha-neg"><span>Ingredientes<small>R$ 6 para fazer cada pão</small></span><b id="calcCusto">− R$ 1.080</b></div>
-    </div>
-
-    <div class="calc-result">
-      <div class="calc-res-big" id="calcLucro">R$ 4.320</div>
-      <div class="calc-res-big-lab">sobra pra você no mês</div>
+      <div class="calc-linha-neg calc-linha"><span>Ingredientes<small>R$ 6 para fazer cada pão</small></span><b id="calcCusto">− R$ 1.080</b></div>
+      <div class="calc-linha"><span>Sobra pra você<small>depois dos ingredientes</small></span><b id="calcFat">R$ 4.320</b></div>
     </div>
 
     <p class="calc-frase" id="calcFrase">São 6 pães por dia. Um grupo de condomínio resolve.</p>
@@ -781,10 +786,10 @@ document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click'
     const fatMes=mes*pre, custoMes=mes*CUSTO;
     vv.textContent=q; pv.textContent='R$ '+pre;
     pac.textContent=mes;
-    fat.textContent=brl(fatMes);
+    fat.textContent=brl(fatMes-custoMes);
     det.textContent=mes+' pães × R$ '+pre;
     cus.textContent='− '+brl(custoMes);
-    luc.textContent=brl(fatMes-custoMes);
+    luc.textContent=brl(fatMes);
     fr.textContent=frases[q]||('São '+q+' pães por dia. '+mes+' pães no mês.');
   }
   v.addEventListener('input',upd); p.addEventListener('input',upd); upd();
