@@ -308,6 +308,7 @@ scripts = scripts.replace(/<div class="stick" id="stick">.*\n/, `<div class="sti
 const m2 = scripts.match(/(function(){const track=document.getElementById('carouselTrack')[sS]*?})();/);
 if (m2) scripts = scripts.replace("</body>", `<script>${m2[0].replace("'carouselTrack'", "'carouselTrack2'")}</script>
 </body>`);
+</body>`);
 const html = cabeca + "\n" + corpo + "\n" + scripts;
 writeFileSync(join(AQUI, "04-pagina.html"), html);
 console.log("04-pagina.html:", (html.length / 1024).toFixed(1), "KB");
