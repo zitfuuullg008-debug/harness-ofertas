@@ -31,3 +31,11 @@ Todas escolhidas por ela no chat, na modelagem padrão, com o pedido "copy bem p
 - **Ícones "é para você que":** Flaticon sticker, meus (`icones/ideal-N.webp`, base64 na página). Os do Codex ficaram em `codex-trocadas/`.
 - Para recolocar as imagens depois de reconstruir a página: `bash scratch/recolocar.sh`.
 - **Bloco de dor removido** (pedido dela, 23/10): saiu do build; cópia antiga em build-pagina.com-dor.bak.
+
+## App (23/10/2026)
+- Feito pelo template `app/app-template.html` + `app/gerar-dados.mjs` (receitas por código, contagem calculada) + `app/montar-app.mjs`. Layout igual ao app do concorrente (barra marrom, fundo creme, aulas com Anterior/Próxima/Concluir), com a paleta A.
+- 200 receitas (150 + 50 do bônus), todas com fios/gramas, mapa, rodadas com total, montagem e dicas. Contagem calculada, peças NÃO testadas fisicamente.
+- Videoaulas: 8 vídeos públicos do YouTube (canal Onda Criativa), os mesmos do app do concorrente, por ordem dela. Página passou de "12 videoaulas curtas" para "8 videoaulas completas".
+- Assistente: perguntas e respostas prontas (30), NÃO é IA. A página ainda diz "assistente de crochê com IA".
+- Comunidade e suporte: `COMUNIDADE_URL` e `SUPORTE_URL` vazios no topo do script até ela mandar os links.
+- Desenhos das plantinhas: SVG por código (não são fotos).

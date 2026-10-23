@@ -8,6 +8,7 @@
 - [x] 04 Página (copy e estrutura) · verificador 0 problemas · animações 0 erros
 - [x] 05 Auditoria da página (8,2/10, sem imagens)
 - [ ] Imagens: faltam o topo (mockup, Codex) e os 8 depoimentos (dela)
-- [ ] App, PDF de acesso, checkout
+- [x] App (v1, 23/10): app-jardim-de-amigurumi.html
+- [ ] PDF de acesso, checkout
 
 Pendências: `{{CHECKOUT}}`; como entregar as 12 videoaulas, o assistente de IA (e o nome dele) e a comunidade; depoimentos (dela, com o Codex); conferir por amostra a contagem das rodadas das receitas.
