@@ -305,7 +305,7 @@ scripts = scripts.replace(/\(function\(\)\{\n  const v=document\.getElementById\
 scripts = scripts.replace(/<div class="stick" id="stick">.*\n/, `<div class="stick" id="stick"><div><b>R$ 27,90</b>Acesso completo · vitalício</div><a href="{{CHECKOUT}}" class="btn btn-laranja" target="_blank" rel="noopener">QUERO O COMPLETO</a></div>\n`);
 
 // segundo carrossel (receitas por dentro): mesma animação, outro id
-const m2 = scripts.match(/(function(){const track=document.getElementById('carouselTrack')[sS]*?})();/);
+const m2 = scripts.match(/[(]function[(][)][{]const track=document[.]getElementById[(]'carouselTrack'[)][^]*?[}][)][(][)];/);
 if (m2) scripts = scripts.replace('</body>', '<script>' + m2[0].replace("'carouselTrack'", "'carouselTrack2'") + '</script></body>');
 const html = cabeca + "\n" + corpo + "\n" + scripts;
 writeFileSync(join(AQUI, "04-pagina.html"), html);
