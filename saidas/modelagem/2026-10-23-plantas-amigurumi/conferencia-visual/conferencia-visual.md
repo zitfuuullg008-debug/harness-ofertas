@@ -7,8 +7,7 @@
 - imagens visíveis: 50 · sem texto alternativo: 0
 - fotos: 12 (em conferencia-visual/)
 
-## 124 problema(s), 0 aviso(s)
-- PROBLEMA celular: imagem QUEBRADA [hero] hero-img → odelagem/2026-10-23-plantas-amigurumi/%7B%7BIMG:hero:1%7D%7D
+## 122 problema(s), 0 aviso(s)
 - PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-3.webp?v=c22ab170
 - PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-4.webp?v=82d3f7ac
 - PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-5.webp?v=cc07cc09
@@ -48,29 +47,28 @@
 - PROBLEMA celular: [demo] img passa da tela (direita em 551, tela 390)
 - PROBLEMA celular: [demo] carousel-item passa da tela (direita em 829, tela 390)
 - PROBLEMA celular: [demo] img passa da tela (direita em 818, tela 390)
-- PROBLEMA celular: [demo] carousel-item passa da tela (direita em 1106, tela 390)
-- PROBLEMA celular: [demo] img passa da tela (direita em 1105, tela 390)
+- PROBLEMA celular: [demo] carousel-item passa da tela (direita em 1107, tela 390)
+- PROBLEMA celular: [demo] img passa da tela (direita em 1106, tela 390)
 - PROBLEMA celular: [demo] carousel-item passa da tela (direita em 1384, tela 390)
 - PROBLEMA celular: [demo] img passa da tela (direita em 1373, tela 390)
-- PROBLEMA celular: [demo] carousel-item passa da tela (direita em 1661, tela 390)
+- PROBLEMA celular: [demo] carousel-item passa da tela (direita em 1662, tela 390)
 - PROBLEMA celular: [demo] img passa da tela (direita em 1660, tela 390)
 - PROBLEMA celular: [demo] carousel-item passa da tela (direita em 1939, tela 390)
-- PROBLEMA celular: texto difícil de ler, span "🪴 Pagamento único · acesso imediato · 3" contraste 2.8:1
-- PROBLEMA celular: texto difícil de ler, [demo] demo-topo "Suculentas · Cactos · Flores · Folhagens" contraste 3.9:1
-- PROBLEMA celular: texto difícil de ler, [demo] demo-eyebrow "Veja exemplos de receitas dentro do Jard" contraste 3.9:1
-- PROBLEMA celular: texto difícil de ler, [ideal] h3 "Faz crochê por hobby e quer transformar " contraste 2.8:1
-- PROBLEMA celular: texto difícil de ler, [ideal] p "Você já faz peças bonitas, mas não sabe " contraste 2.8:1
-- PROBLEMA celular: texto difícil de ler, [ideal] h3 "Está começando agora e tem medo de errar" contraste 2.8:1
-- PROBLEMA celular: texto difícil de ler, [ideal] p "Cada receita traz os fios, as cores e a " contraste 2.8:1
-- PROBLEMA celular: texto difícil de ler, [ideal] h3 "Não tem tempo para inventar modelo" contraste 2.8:1
-- PROBLEMA celular: texto difícil de ler, [ideal] p "As +150 receitas já estão prontas, em 5 " contraste 2.8:1
-- PROBLEMA celular: texto difícil de ler, [ideal] h3 "Quer vender e não sabe quanto cobrar" contraste 2.8:1
-- PROBLEMA celular: texto difícil de ler, [ideal] p "A tabela de preços das 150 plantinhas mo" contraste 2.8:1
-- PROBLEMA celular: texto difícil de ler, [ideal] h3 "Quer um presente que não murcha" contraste 2.8:1
-- PROBLEMA celular: texto difícil de ler, [ideal] p "Plantinha de crochê não precisa de água " contraste 2.8:1
-- PROBLEMA celular: texto difícil de ler, [bonuses] bonus-num-tag "#1 · BÔNUS HOJE!" contraste 2.8:1
-- PROBLEMA celular: texto difícil de ler, [bonuses] bonus-num-tag "#2 · BÔNUS HOJE!" contraste 2.8:1
-- PROBLEMA computador: imagem QUEBRADA [hero] hero-img → odelagem/2026-10-23-plantas-amigurumi/%7B%7BIMG:hero:1%7D%7D
+- PROBLEMA celular: texto difícil de ler, span "🪴 Pagamento único · acesso imediato · 3" contraste 3.8:1
+- PROBLEMA celular: texto difícil de ler, [demo] demo-topo "Suculentas · Cactos · Flores · Folhagens" contraste 3.8:1
+- PROBLEMA celular: texto difícil de ler, [demo] demo-eyebrow "Veja exemplos de receitas dentro do Jard" contraste 3.8:1
+- PROBLEMA celular: texto difícil de ler, [ideal] h3 "Faz crochê por hobby e quer transformar " contraste 3.8:1
+- PROBLEMA celular: texto difícil de ler, [ideal] p "Você já faz peças bonitas, mas não sabe " contraste 3.8:1
+- PROBLEMA celular: texto difícil de ler, [ideal] h3 "Está começando agora e tem medo de errar" contraste 3.8:1
+- PROBLEMA celular: texto difícil de ler, [ideal] p "Cada receita traz os fios, as cores e a " contraste 3.8:1
+- PROBLEMA celular: texto difícil de ler, [ideal] h3 "Não tem tempo para inventar modelo" contraste 3.8:1
+- PROBLEMA celular: texto difícil de ler, [ideal] p "As +150 receitas já estão prontas, em 5 " contraste 3.8:1
+- PROBLEMA celular: texto difícil de ler, [ideal] h3 "Quer vender e não sabe quanto cobrar" contraste 3.8:1
+- PROBLEMA celular: texto difícil de ler, [ideal] p "A tabela de preços das 150 plantinhas mo" contraste 3.8:1
+- PROBLEMA celular: texto difícil de ler, [ideal] h3 "Quer um presente que não murcha" contraste 3.8:1
+- PROBLEMA celular: texto difícil de ler, [ideal] p "Plantinha de crochê não precisa de água " contraste 3.8:1
+- PROBLEMA celular: texto difícil de ler, [bonuses] bonus-num-tag "#1 · BÔNUS HOJE!" contraste 3.8:1
+- PROBLEMA celular: texto difícil de ler, [bonuses] bonus-num-tag "#2 · BÔNUS HOJE!" contraste 3.8:1
 - PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-3.webp?v=c22ab170
 - PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-4.webp?v=82d3f7ac
 - PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-5.webp?v=cc07cc09
@@ -107,30 +105,30 @@
 - PROBLEMA computador: [demo] carousel-track passa da tela (direita em 5634, tela 1280)
 - PROBLEMA computador: [demo] carousel-item passa da tela (direita em 1567, tela 1280)
 - PROBLEMA computador: [demo] img passa da tela (direita em 1566, tela 1280)
-- PROBLEMA computador: [demo] carousel-item passa da tela (direita em 1857, tela 1280)
-- PROBLEMA computador: [demo] img passa da tela (direita em 1846, tela 1280)
+- PROBLEMA computador: [demo] carousel-item passa da tela (direita em 1858, tela 1280)
+- PROBLEMA computador: [demo] img passa da tela (direita em 1845, tela 1280)
 - PROBLEMA computador: [demo] carousel-item passa da tela (direita em 2147, tela 1280)
 - PROBLEMA computador: [demo] img passa da tela (direita em 2146, tela 1280)
-- PROBLEMA computador: [demo] carousel-item passa da tela (direita em 2437, tela 1280)
-- PROBLEMA computador: [demo] img passa da tela (direita em 2426, tela 1280)
+- PROBLEMA computador: [demo] carousel-item passa da tela (direita em 2438, tela 1280)
+- PROBLEMA computador: [demo] img passa da tela (direita em 2425, tela 1280)
 - PROBLEMA computador: [demo] carousel-item passa da tela (direita em 2727, tela 1280)
 - PROBLEMA computador: [demo] img passa da tela (direita em 2726, tela 1280)
-- PROBLEMA computador: [demo] carousel-item passa da tela (direita em 3017, tela 1280)
-- PROBLEMA computador: [demo] img passa da tela (direita em 3006, tela 1280)
-- PROBLEMA computador: texto difícil de ler, span "🪴 Pagamento único · acesso imediato · 3" contraste 2.8:1
-- PROBLEMA computador: texto difícil de ler, [demo] demo-topo "Suculentas · Cactos · Flores · Folhagens" contraste 3.9:1
-- PROBLEMA computador: texto difícil de ler, [demo] demo-eyebrow "Veja exemplos de receitas dentro do Jard" contraste 3.9:1
-- PROBLEMA computador: texto difícil de ler, [ideal] h3 "Faz crochê por hobby e quer transformar " contraste 2.8:1
-- PROBLEMA computador: texto difícil de ler, [ideal] p "Você já faz peças bonitas, mas não sabe " contraste 2.8:1
-- PROBLEMA computador: texto difícil de ler, [ideal] h3 "Está começando agora e tem medo de errar" contraste 2.8:1
-- PROBLEMA computador: texto difícil de ler, [ideal] p "Cada receita traz os fios, as cores e a " contraste 2.8:1
-- PROBLEMA computador: texto difícil de ler, [ideal] h3 "Não tem tempo para inventar modelo" contraste 2.8:1
-- PROBLEMA computador: texto difícil de ler, [ideal] p "As +150 receitas já estão prontas, em 5 " contraste 2.8:1
-- PROBLEMA computador: texto difícil de ler, [ideal] h3 "Quer vender e não sabe quanto cobrar" contraste 2.8:1
-- PROBLEMA computador: texto difícil de ler, [ideal] p "A tabela de preços das 150 plantinhas mo" contraste 2.8:1
-- PROBLEMA computador: texto difícil de ler, [ideal] h3 "Quer um presente que não murcha" contraste 2.8:1
-- PROBLEMA computador: texto difícil de ler, [ideal] p "Plantinha de crochê não precisa de água " contraste 2.8:1
-- PROBLEMA computador: texto difícil de ler, [bonuses] bonus-num-tag "#1 · BÔNUS HOJE!" contraste 2.8:1
-- PROBLEMA computador: texto difícil de ler, [bonuses] bonus-num-tag "#2 · BÔNUS HOJE!" contraste 2.8:1
+- PROBLEMA computador: [demo] carousel-item passa da tela (direita em 3018, tela 1280)
+- PROBLEMA computador: [demo] img passa da tela (direita em 3005, tela 1280)
+- PROBLEMA computador: texto difícil de ler, span "🪴 Pagamento único · acesso imediato · 3" contraste 3.8:1
+- PROBLEMA computador: texto difícil de ler, [demo] demo-topo "Suculentas · Cactos · Flores · Folhagens" contraste 3.8:1
+- PROBLEMA computador: texto difícil de ler, [demo] demo-eyebrow "Veja exemplos de receitas dentro do Jard" contraste 3.8:1
+- PROBLEMA computador: texto difícil de ler, [ideal] h3 "Faz crochê por hobby e quer transformar " contraste 3.8:1
+- PROBLEMA computador: texto difícil de ler, [ideal] p "Você já faz peças bonitas, mas não sabe " contraste 3.8:1
+- PROBLEMA computador: texto difícil de ler, [ideal] h3 "Está começando agora e tem medo de errar" contraste 3.8:1
+- PROBLEMA computador: texto difícil de ler, [ideal] p "Cada receita traz os fios, as cores e a " contraste 3.8:1
+- PROBLEMA computador: texto difícil de ler, [ideal] h3 "Não tem tempo para inventar modelo" contraste 3.8:1
+- PROBLEMA computador: texto difícil de ler, [ideal] p "As +150 receitas já estão prontas, em 5 " contraste 3.8:1
+- PROBLEMA computador: texto difícil de ler, [ideal] h3 "Quer vender e não sabe quanto cobrar" contraste 3.8:1
+- PROBLEMA computador: texto difícil de ler, [ideal] p "A tabela de preços das 150 plantinhas mo" contraste 3.8:1
+- PROBLEMA computador: texto difícil de ler, [ideal] h3 "Quer um presente que não murcha" contraste 3.8:1
+- PROBLEMA computador: texto difícil de ler, [ideal] p "Plantinha de crochê não precisa de água " contraste 3.8:1
+- PROBLEMA computador: texto difícil de ler, [bonuses] bonus-num-tag "#1 · BÔNUS HOJE!" contraste 3.8:1
+- PROBLEMA computador: texto difícil de ler, [bonuses] bonus-num-tag "#2 · BÔNUS HOJE!" contraste 3.8:1
 
 As fotos estão nesta pasta: ABRA e olhe uma por uma (nada cortado, nada faltando, texto legível, botão visível) antes de mostrar para ela.

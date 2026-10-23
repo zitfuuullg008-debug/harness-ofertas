@@ -117,7 +117,7 @@ ${chuva.replace(/<!--[\s\S]*?-->\s*/, "").replace(/<style>[\s\S]*?<\/style>\s*/,
     <div class="hero-pill"><i class="emo">🪴</i><span>Peças que não murcham</span></div>
     <div class="hero-pill"><i class="emo">💰</i><span>Tabela de preços incluída</span></div>
   </div>
-  <img class="hero-img" src="{{IMG:hero:1}}" alt="Plantinhas e suculentas de amigurumi em vasinhos, com o aplicativo de receitas no celular" loading="eager" decoding="async" fetchpriority="high" width="832" height="670">
+  <img class="hero-img" src="{{IMG:hero:1}}" alt="Mockup do Jardim de Amigurumi: celular com o aplicativo, capas das receitas e plantinhas de crochê com a placa do nome" loading="eager" decoding="async" fetchpriority="high" width="600" height="600">
   <p class="hero-sub">O <strong>${NOME}</strong> traz <strong>+150 receitas de plantinhas e suculentas</strong> em amigurumi para você fazer e vender, cada uma com os fios, as cores e a contagem de cada rodada, e mais <strong>50 plantinhas de bônus</strong>, <strong>mesmo se você está começando agora</strong>.</p>
   <a href="#plano-completo" class="btn">QUERO AS PLANTINHAS AGORA</a>
   <ul class="trust"><li>🔒 Compra segura</li><li>⚡ Acesso imediato</li><li>🛡️ 30 dias de garantia</li></ul>
