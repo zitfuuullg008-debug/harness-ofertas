@@ -62,7 +62,12 @@ const idealCards = IDEAL.map(([t, d], i) =>
   `  <div class="ideal-card-wrap"><div class="ideal-card"><div class="card-icon-img"><img src="${ICONE(i + 1)}" alt="Ícone: ${["crochê", "novelo", "relógio", "etiqueta de preço", "presente"][i]}" width="84" height="84" loading="lazy" decoding="async"></div><div><h3>${t}</h3><p>${d}</p></div></div></div>`
 ).join("\n");
 
-const DEMO = Array.from({ length: 9 }, (_, i) => `      <div class="carousel-item"><img src="{{IMG:demo:${i + 1}}}" alt="Exemplo de receita do ${NOME}, ${i + 1} de 9" loading="lazy" decoding="async"></div>`).join("\n");
+import { createHash as _h } from "node:crypto";
+const BASE = "https://zitfuuullg008-debug.github.io/harness-ofertas/imagens/jardim-de-amigurumi/";
+const IMG = (n) => `${BASE}${n}?v=${_h("md5").update(_rf(join(RAIZ, "imagens/jardim-de-amigurumi", n))).digest("hex").slice(0, 8)}`;
+const PLANTAS = ["Tulipa rosa", "Peônia coral", "Lavanda", "Miosótis azul", "Zínia laranja", "Margarida branca", "Amarílis vermelha", "Antúrio vermelho", "Capuchinha laranja", "Cravina rosa", "Flor-estrela vermelha", "Flores do campo", "Hibisco vermelho", "Hortênsia verde", "Mimosa amarela", "Papoula laranja"];
+const DEMO = PLANTAS.map((n, i) => `      <div class="carousel-item"><img src="${IMG(`galeria-${String(i + 1).padStart(2, "0")}.webp`)}" alt="Plantinha de crochê em amigurumi: ${n.toLowerCase()}, em vasinho" loading="lazy" decoding="async" width="640" height="640"></div>`).join("\n");
+const RECEITAS = Array.from({ length: 5 }, (_, i) => `      <div class="carousel-item"><img src="${IMG(`receita-${i + 1}.webp`)}" alt="Página de receita em PDF ilustrado, ${i + 1} de 5: fios, cores e contagem rodada a rodada" loading="lazy" decoding="async" width="720" height="1019"></div>`).join("\n");
 const DEPO = Array.from({ length: 8 }, (_, i) => `      <div class="depo-carousel-item"><img src="{{IMG:depoimentos:${i + 1}}}" alt="Depoimento de aluna ${i + 1} de 8" loading="lazy" decoding="async"></div>`).join("\n");
 
 const FAQ = [
@@ -130,9 +135,9 @@ ${chuva.replace(/<!--[\s\S]*?-->\s*/, "").replace(/<style>[\s\S]*?<\/style>\s*/,
     <h2>Plantinhas de crochê que não murcham e vendem.</h2>
     <p class="demo-sub">Em cada receita você vê os fios, as cores, o tamanho final e <strong>a contagem de cada rodada</strong>, do anel mágico ao acabamento.</p>
   </div>
-  <p class="demo-eyebrow">Veja exemplos de receitas dentro do ${NOME}</p>
+  <p class="demo-eyebrow">Veja algumas das +150 plantinhas do ${NOME}</p>
   <div class="carousel-wrapper">
-    <div class="carousel-track" id="carouselTrack">
+    <div class="carousel-track" id="carouselTrack" style="animation-duration:46s">
 ${DEMO}
     </div>
   </div>
@@ -152,6 +157,20 @@ ${idealCards}
   <p class="prat-sub">Você abre o aplicativo, busca a plantinha, vê os fios e a contagem de cada rodada e começa. <strong>Se travar</strong>, assiste à videoaula ou pergunta ao assistente de crochê.</p>
   <div class="prat-img"><img src="{{IMG:app:1}}" alt="Tela do aplicativo com a busca de plantinhas, a receita rodada a rodada e as videoaulas" loading="lazy" decoding="async" width="900" height="900"></div>
   <a href="#plano-completo" class="btn">QUERO AS PLANTINHAS</a>
+</section>
+
+<!-- ============ 4b · A RECEITA POR DENTRO ============ -->
+<section class="demo demo-receitas">
+  <div class="demo-inner">
+    <h2>Cada plantinha vem explicada assim.</h2>
+    <p class="demo-sub">Cada plantinha tem a <strong>receita completa em PDF ilustrado</strong>, com os fios, as cores e a contagem rodada a rodada. Dê uma olhada numa <strong>prévia</strong> do que você vai receber:</p>
+  </div>
+  <div class="carousel-wrapper">
+    <div class="carousel-track" id="carouselTrack2" style="animation-duration:26s">
+${RECEITAS}
+    </div>
+  </div>
+  <div class="demo-cta"><a href="#plano-completo" class="btn">QUERO AS PLANTINHAS AGORA</a></div>
 </section>
 
 <!-- ============ 5 · TUDO O QUE VOCÊ VAI RECEBER ============ -->

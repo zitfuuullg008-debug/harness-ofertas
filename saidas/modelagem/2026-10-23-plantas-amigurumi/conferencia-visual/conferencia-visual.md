@@ -2,28 +2,28 @@
 
 ### celular
 - imagens visíveis: 50 · sem texto alternativo: 0
-- fotos: 12 (em conferencia-visual/)
+- fotos: 11 (em conferencia-visual/)
 ### computador
 - imagens visíveis: 50 · sem texto alternativo: 0
 - fotos: 12 (em conferencia-visual/)
 
 ## 122 problema(s), 0 aviso(s)
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-3.webp?v=c22ab170
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-4.webp?v=82d3f7ac
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-5.webp?v=cc07cc09
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-6.webp?v=be88d8ee
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-7.webp?v=5a04e98e
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-8.webp?v=907ec4f0
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-9.webp?v=70e87b77
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-1.webp?v=dd88d151
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-2.webp?v=b97cc443
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-3.webp?v=c22ab170
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-4.webp?v=82d3f7ac
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-5.webp?v=cc07cc09
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-6.webp?v=be88d8ee
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-7.webp?v=5a04e98e
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-8.webp?v=907ec4f0
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-9.webp?v=70e87b77
+- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-3.webp?v=e73bef70
+- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-4.webp?v=87261711
+- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-5.webp?v=160d49a8
+- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-6.webp?v=4960f53e
+- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-7.webp?v=c14c9724
+- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-8.webp?v=9baf4eb9
+- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-9.webp?v=6e3aefdb
+- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-1.webp?v=25e24eec
+- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-2.webp?v=424641cf
+- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-3.webp?v=e73bef70
+- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-4.webp?v=87261711
+- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-5.webp?v=160d49a8
+- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-6.webp?v=4960f53e
+- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-7.webp?v=c14c9724
+- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-8.webp?v=9baf4eb9
+- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-9.webp?v=6e3aefdb
 - PROBLEMA celular: imagem QUEBRADA [depoimentos] img → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:1%7D%7D
 - PROBLEMA celular: imagem QUEBRADA [depoimentos] img → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:2%7D%7D
 - PROBLEMA celular: imagem QUEBRADA [depoimentos] img → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:3%7D%7D
@@ -69,22 +69,22 @@
 - PROBLEMA celular: texto difícil de ler, [ideal] p "Plantinha de crochê não precisa de água " contraste 3.8:1
 - PROBLEMA celular: texto difícil de ler, [bonuses] bonus-num-tag "#1 · BÔNUS HOJE!" contraste 3.8:1
 - PROBLEMA celular: texto difícil de ler, [bonuses] bonus-num-tag "#2 · BÔNUS HOJE!" contraste 3.8:1
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-3.webp?v=c22ab170
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-4.webp?v=82d3f7ac
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-5.webp?v=cc07cc09
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-6.webp?v=be88d8ee
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-7.webp?v=5a04e98e
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-8.webp?v=907ec4f0
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-9.webp?v=70e87b77
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-1.webp?v=dd88d151
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-2.webp?v=b97cc443
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-3.webp?v=c22ab170
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-4.webp?v=82d3f7ac
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-5.webp?v=cc07cc09
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-6.webp?v=be88d8ee
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-7.webp?v=5a04e98e
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-8.webp?v=907ec4f0
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-9.webp?v=70e87b77
+- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-3.webp?v=e73bef70
+- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-4.webp?v=87261711
+- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-5.webp?v=160d49a8
+- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-6.webp?v=4960f53e
+- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-7.webp?v=c14c9724
+- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-8.webp?v=9baf4eb9
+- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-9.webp?v=6e3aefdb
+- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-1.webp?v=25e24eec
+- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-2.webp?v=424641cf
+- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-3.webp?v=e73bef70
+- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-4.webp?v=87261711
+- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-5.webp?v=160d49a8
+- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-6.webp?v=4960f53e
+- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-7.webp?v=c14c9724
+- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-8.webp?v=9baf4eb9
+- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → s-ofertas/imagens/jardim-de-amigurumi/demo-9.webp?v=6e3aefdb
 - PROBLEMA computador: imagem QUEBRADA [depoimentos] img → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:1%7D%7D
 - PROBLEMA computador: imagem QUEBRADA [depoimentos] img → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:2%7D%7D
 - PROBLEMA computador: imagem QUEBRADA [depoimentos] img → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:3%7D%7D
