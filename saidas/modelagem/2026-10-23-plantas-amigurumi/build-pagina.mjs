@@ -29,7 +29,7 @@ const PRODUTO = [
   "<strong>Em cada receita:</strong> os fios, as cores, o tamanho final, o tempo e a contagem rodada a rodada",
   "<strong>1 PDF por receita</strong>, para imprimir e deixar ao lado do crochê",
   "<strong>Aplicativo</strong> com busca, filtro por grupo e por tempo, favoritos e “marcar como feita”",
-  "<strong>12 videoaulas curtas</strong> de técnica: anel mágico, aumentos, diminuições, montagem e acabamento",
+  "<strong>8 videoaulas completas</strong>, passo a passo: suculenta, mini antúrio, vasinho com flores, cactos, girassol e mais",
   "<strong>Assistente de crochê com IA</strong> dentro do aplicativo, para tirar dúvidas a qualquer hora",
   "<strong>Comunidade das alunas</strong> e suporte",
   "<strong>Acabamento e embalagem:</strong> como montar e embalar cada peça para vender",
@@ -71,11 +71,11 @@ const RECEITAS = Array.from({ length: 5 }, (_, i) => `      <div class="carousel
 const DEPO = Array.from({ length: 8 }, (_, i) => `      <div class="depo-carousel-item"><img src="{{IMG:depoimentos:${i + 1}}}" alt="Depoimento de aluna ${i + 1} de 8" loading="lazy" decoding="async"></div>`).join("\n");
 
 const FAQ = [
-  ["Preciso saber crochê para começar?", "Se você sabe fazer o ponto baixo, já consegue. As 12 videoaulas ensinam o anel mágico, os aumentos, as diminuições, a montagem e o acabamento, e cada receita traz a contagem de cada rodada."],
+  ["Preciso saber crochê para começar?", "Se você sabe fazer o ponto baixo, já consegue. As 8 videoaulas mostram, passo a passo, como fazer a suculenta, o mini antúrio, o vasinho com flores, os cactos, o girassol e outras plantinhas, e cada receita traz a contagem de cada rodada."],
   ["Leva muito tempo para fazer uma plantinha?", "Depende da peça. Cada receita traz o tempo de feitura, e no aplicativo você filtra pelas mais rápidas para começar."],
   ["Que material eu preciso comprar?", "Cada receita lista os fios, as cores e o tamanho final. A lista de materiais das 150 plantinhas (bônus) mostra o que comprar de uma vez: fio, enchimento e vasinho."],
   ["Posso vender as peças que eu fizer?", "Pode. As peças são suas e você vende onde quiser. Os bônus trazem a tabela de preços, as 30 mensagens prontas, o kit de papelaria e as 20 ideias de kit presente."],
-  ["Preciso saber costurar?", "Não. A montagem de cada peça está explicada na receita e nas videoaulas de montagem e acabamento."],
+  ["Preciso saber costurar?", "Não. A montagem de cada peça está explicada na receita, e as videoaulas mostram a costura e o acabamento."],
   ["Como funciona o assistente de crochê com IA?", "Ele fica dentro do aplicativo. Se você travar numa rodada, pergunta e recebe a resposta na hora, a qualquer hora do dia."],
   ["Como recebo o acesso?", "Assim que o pagamento é confirmado, o acesso chega no seu e-mail. Você abre pelo celular ou pelo computador e o acesso é vitalício, sem mensalidade."],
   ["Posso imprimir as receitas?", "Sim. Cada receita tem o seu PDF, feito para imprimir. A papelaria digital (bônus) também: você imprime as etiquetas e os cartões."],
@@ -118,7 +118,7 @@ ${chuva.replace(/<!--[\s\S]*?-->\s*/, "").replace(/<style>[\s\S]*?<\/style>\s*/,
   <h1>Faça e venda <em>+200 plantinhas e suculentas de crochê</em>, com a receita pronta, rodada a rodada.</h1>
   <div class="hero-pills">
     <div class="hero-pill"><i class="emo">🧶</i><span>Receita rodada a rodada</span></div>
-    <div class="hero-pill"><i class="emo">🎥</i><span>12 videoaulas de técnica</span></div>
+    <div class="hero-pill"><i class="emo">🎥</i><span>8 videoaulas passo a passo</span></div>
     <div class="hero-pill"><i class="emo">🪴</i><span>Peças que não murcham</span></div>
     <div class="hero-pill"><i class="emo">💰</i><span>Tabela de preços incluída</span></div>
   </div>
@@ -261,7 +261,7 @@ ${DEPO}
       <p class="autoridade-eyebrow">Quem criou o ${NOME}:</p>
       <p class="autoridade-nome">${MARCA}</p>
       <p class="autoridade-bio">O ${MARCA} criou o ${NOME} depois de perceber que muitas mulheres faziam crochê por prazer, mas travavam sempre nos mesmos pontos: não saber o que vender, não saber quanto cobrar e não ter uma receita pronta para seguir.</p>
-      <p class="autoridade-bio">Por isso reuniu +150 plantinhas e suculentas com a contagem de cada rodada, videoaulas curtas e a tabela de preços, tudo num aplicativo só.</p>
+      <p class="autoridade-bio">Por isso reuniu +150 plantinhas e suculentas com a contagem de cada rodada, 8 videoaulas e a tabela de preços, tudo num aplicativo só.</p>
       <p class="autoridade-bio">A ideia não é te transformar em profissional. É te dar receitas que funcionam e um jeito simples de vender o que você faz.</p>
     </div>
   </div>
