@@ -7,7 +7,10 @@ import { fileURLToPath } from "node:url";
 const AQUI = dirname(fileURLToPath(import.meta.url));
 const RAIZ = resolve(AQUI, "../../..");
 const molde = readFileSync(join(RAIZ, "templates/lanchinhos layout moderno.html"), "utf8").split("\n");
-const css = molde[13]; // linha única com <style>…</style>
+// Paleta A (verde-sálvia, creme, terracota): troca só os tokens do :root do molde.
+const PALETA = { "--creme": "#F6F1E4", "--creme-dark": "#EADFC6", "--creme-line": "#DCCDA9", "--laranja": "#C8683F", "--laranja-dark": "#9C4A28", "--laranja-mid": "#E5A582", "--laranja-soft": "#FBEADC", "--verde": "#5F8458", "--verde-dark": "#456A40" };
+let css = molde[13]; // linha única com <style>…</style>
+for (const [k, v] of Object.entries(PALETA)) css = css.replace(new RegExp(`${k}:#[0-9A-Fa-f]{6}`), `${k}:${v}`);
 const chuva = readFileSync(join(RAIZ, "templates/blocos/chuva-produto.html"), "utf8");
 const NOME = "Jardim de Amigurumi";
 const chuvaCss = (chuva.match(/<style>([\s\S]*?)<\/style>/) || [, ""])[1].trim();
@@ -42,6 +45,9 @@ const bonusCards = BONUS.map(([t, d], i) =>
   `  <div class="bonus-card"><div class="bonus-img-area"><img src="{{IMG:bonuses:${i + 1}}}" alt="Bônus ${i + 1}: ${t}" loading="lazy" decoding="async"></div><div class="bonus-body"><span class="bonus-num-tag">#${i + 1} · BÔNUS HOJE!</span><h3>${t}</h3><div class="bonus-divider"></div><p>${d}</p></div></div>`
 ).join("\n");
 
+// Ícones do "é para você que": Flaticon (sticker), meus, embutidos em base64 (regra do /modelar).
+import { readFileSync as _rf } from "node:fs";
+const ICONE = (n) => "data:image/webp;base64," + _rf(join(AQUI, "icones", `ideal-${n}.webp`)).toString("base64");
 const IDEAL = [
   ["Faz crochê por hobby e quer transformar em renda", "Você já faz peças bonitas, mas não sabe o que as pessoas compram. Aqui você começa por plantinhas que vendem."],
   ["Está começando agora e tem medo de errar a peça", "Cada receita traz os fios, as cores e a contagem de cada rodada. Você segue a receita e a peça sai igual à da foto."],
@@ -50,10 +56,10 @@ const IDEAL = [
   ["Quer um presente que não murcha", "Plantinha de crochê não precisa de água nem de sol. É um presente fácil de vender e de entregar."],
 ];
 const idealCards = IDEAL.map(([t, d], i) =>
-  `  <div class="ideal-card-wrap"><div class="ideal-card"><div class="card-icon-img"><img src="{{IMG:ideal:${i + 1}}}" alt="Ícone: ${["crochê", "novelo", "relógio", "etiqueta de preço", "presente"][i]}" width="56" height="56" loading="lazy" decoding="async"></div><div><h3>${t}</h3><p>${d}</p></div></div></div>`
+  `  <div class="ideal-card-wrap"><div class="ideal-card"><div class="card-icon-img"><img src="${ICONE(i + 1)}" alt="Ícone: ${["crochê", "novelo", "relógio", "etiqueta de preço", "presente"][i]}" width="84" height="84" loading="lazy" decoding="async"></div><div><h3>${t}</h3><p>${d}</p></div></div></div>`
 ).join("\n");
 
-const DEMO = Array.from({ length: 5 }, (_, i) => `      <div class="carousel-item"><img src="{{IMG:demo:${i + 1}}}" alt="Exemplo de receita do ${NOME}, ${i + 1} de 5" loading="lazy" decoding="async"></div>`).join("\n");
+const DEMO = Array.from({ length: 9 }, (_, i) => `      <div class="carousel-item"><img src="{{IMG:demo:${i + 1}}}" alt="Exemplo de receita do ${NOME}, ${i + 1} de 9" loading="lazy" decoding="async"></div>`).join("\n");
 const DEPO = Array.from({ length: 8 }, (_, i) => `      <div class="depo-carousel-item"><img src="{{IMG:depoimentos:${i + 1}}}" alt="Depoimento de aluna ${i + 1} de 8" loading="lazy" decoding="async"></div>`).join("\n");
 
 const FAQ = [
@@ -79,7 +85,7 @@ const cabeca = `<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#EF9F27">
+<meta name="theme-color" content="#C8683F">
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <title>${NOME} — +200 plantinhas e suculentas de crochê para vender</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
