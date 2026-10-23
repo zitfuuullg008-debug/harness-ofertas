@@ -11,6 +11,9 @@ const molde = readFileSync(join(RAIZ, "templates/lanchinhos layout moderno.html"
 const PALETA = { "--creme": "#F6F1E4", "--creme-dark": "#EADFC6", "--creme-line": "#DCCDA9", "--laranja": "#C8683F", "--laranja-dark": "#9C4A28", "--laranja-mid": "#E5A582", "--laranja-soft": "#FBEADC", "--verde": "#5F8458", "--verde-dark": "#456A40" };
 let css = molde[13]; // linha única com <style>…</style>
 for (const [k, v] of Object.entries(PALETA)) css = css.replace(new RegExp(`${k}:#[0-9A-Fa-f]{6}`), `${k}:${v}`);
+// cores fixas da camada "moderna" do molde -> paleta A
+const HEX = { "#FF6B4A": "#C8683F", "#FF9F1C": "#D9A066", "#1A9940": "#5B8352", "#2B1220": "#33402E", "#F5C518": "#E3B65A", "#FFE9E2": "#F9E3D6", "#FFF0D6": "#F3ECD9", "#FFF6E3": "#F8F3E6", "#FFF9F0": "#FBF8EF", "#F6E7D3": "#EFE4CC" };
+for (const [k, v] of Object.entries(HEX)) css = css.replace(new RegExp(k, "gi"), v);
 const chuva = readFileSync(join(RAIZ, "templates/blocos/chuva-produto.html"), "utf8");
 const NOME = "Jardim de Amigurumi";
 const chuvaCss = (chuva.match(/<style>([\s\S]*?)<\/style>/) || [, ""])[1].trim();
