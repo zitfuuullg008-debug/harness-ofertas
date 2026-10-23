@@ -30,3 +30,4 @@ Todas escolhidas por ela no chat, na modelagem padrão, com o pedido "copy bem p
 - **Receitas de exemplo:** voltaram as 9 do Codex (com o nome Jardim de Amigurumi). As 5 folhas do concorrente ficam em `info/jardim-de-amigurumi/originais-concorrente/`.
 - **Ícones "é para você que":** Flaticon sticker, meus (`icones/ideal-N.webp`, base64 na página). Os do Codex ficaram em `codex-trocadas/`.
 - Para recolocar as imagens depois de reconstruir a página: `bash scratch/recolocar.sh`.
+- **Bloco de dor removido** (pedido dela, 23/10): saiu do build; cópia antiga em build-pagina.com-dor.bak.
