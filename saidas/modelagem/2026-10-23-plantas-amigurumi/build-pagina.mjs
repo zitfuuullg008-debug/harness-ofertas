@@ -68,7 +68,6 @@ const IMG = (n) => `${BASE}${n}?v=${_h("md5").update(_rf(join(RAIZ, "imagens/jar
 const PLANTAS = ["Tulipa rosa", "Peônia coral", "Lavanda", "Miosótis azul", "Zínia laranja", "Margarida branca", "Amarílis vermelha", "Antúrio vermelho", "Capuchinha laranja", "Cravina rosa", "Flor-estrela vermelha", "Flores do campo", "Hibisco vermelho", "Hortênsia verde", "Mimosa amarela", "Papoula laranja"];
 const DEMO = PLANTAS.map((n, i) => `      <div class="carousel-item"><img src="${IMG(`galeria-${String(i + 1).padStart(2, "0")}.webp`)}" alt="Plantinha de crochê em amigurumi: ${n.toLowerCase()}, em vasinho" loading="lazy" decoding="async" width="640" height="640"></div>`).join("\n");
 const RECEITAS = Array.from({ length: 5 }, (_, i) => `      <div class="carousel-item"><img src="${IMG(`receita-${i + 1}.webp`)}" alt="Página de receita em PDF ilustrado, ${i + 1} de 5: fios, cores e contagem rodada a rodada" loading="lazy" decoding="async" width="720" height="1019"></div>`).join("\n");
-const DEPO = Array.from({ length: 8 }, (_, i) => `      <div class="depo-carousel-item"><img src="{{IMG:depoimentos:${i + 1}}}" alt="Depoimento de aluna ${i + 1} de 8" loading="lazy" decoding="async"></div>`).join("\n");
 
 const FAQ = [
   ["Preciso saber crochê para começar?", "Se você sabe fazer o ponto baixo, já consegue. As 8 videoaulas mostram, passo a passo, como fazer a suculenta, o mini antúrio, o vasinho com flores, os cactos, o girassol e outras plantinhas, e cada receita traz a contagem de cada rodada."],
@@ -199,11 +198,7 @@ ${bonusCards}
   <div class="depo-topo">
     <h2>Veja a opinião das alunas que usam o ${NOME}</h2>
   </div>
-  <div class="depo-carousel-wrapper">
-    <div class="depo-carousel-track" id="depoCarouselTrack">
-${DEPO}
-    </div>
-  </div>
+  <div class="depo-unico" style="max-width:460px;margin:0 auto;padding:0 var(--px)"><img src="${IMG("depoimento-1.webp")}" alt="Comentários de alunas que compraram e receberam as receitas na hora" loading="lazy" decoding="async" width="720" height="1049" style="width:100%;height:auto;display:block;border-radius:16px;box-shadow:var(--sh-1)"></div>
   <div class="depo-cta"><a href="#plano-completo" class="btn">QUERO O JARDIM DE AMIGURUMI</a></div>
 </section>
 
