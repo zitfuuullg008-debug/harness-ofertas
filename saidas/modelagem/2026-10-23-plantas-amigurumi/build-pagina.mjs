@@ -52,7 +52,7 @@ const bonusCards = BONUS.map(([t, d], i) =>
 import { readFileSync as _rf } from "node:fs";
 const ICONE = (n) => "data:image/webp;base64," + _rf(join(AQUI, "icones", `ideal-${n}.webp`)).toString("base64");
 const IDEAL = [
-  ["Faz crochê por hobby e quer transformar em renda", "Você já faz peças bonitas, mas não sabe o que as pessoas compram. Aqui você começa por plantinhas que vendem."],
+  ["Faz crochê por hobby e quer transformar em renda", "Você já faz peças bonitas, mas não sabe o que as pessoas compram. Aqui você começa por plantinhas com receita pronta e tabela de preços."],
   ["Está começando agora e tem medo de errar a peça", "Cada receita traz os fios, as cores e a contagem de cada rodada. Você segue a receita e a peça sai igual à da foto."],
   ["Não tem tempo para inventar modelo", "As +150 receitas já estão prontas, em 5 grupos de 30. Você escolhe uma, abre a receita e começa."],
   ["Quer vender e não sabe quanto cobrar", "A tabela de preços das 150 plantinhas mostra quanto cobrar por peça. Você não precisa chutar."],
@@ -124,7 +124,7 @@ ${chuva.replace(/<!--[\s\S]*?-->\s*/, "").replace(/<style>[\s\S]*?<\/style>\s*/,
   </div>
   <img class="hero-img" src="{{IMG:hero:1}}" alt="Mockup do Jardim de Amigurumi: celular com o aplicativo, capas das receitas e plantinhas de crochê com a placa do nome" loading="eager" decoding="async" fetchpriority="high" width="600" height="600">
   <p class="hero-sub">O <strong>${NOME}</strong> traz <strong>+150 receitas de plantinhas e suculentas</strong> em amigurumi para você fazer e vender, cada uma com os fios, as cores e a contagem de cada rodada, e mais <strong>50 plantinhas de bônus</strong>, <strong>mesmo se você está começando agora</strong>.</p>
-  <a href="#plano-completo" class="btn">QUERO AS PLANTINHAS AGORA</a>
+  <a href="#plano-completo" class="btn">QUERO O JARDIM DE AMIGURUMI</a>
   <ul class="trust"><li>🔒 Compra segura</li><li>⚡ Acesso imediato</li><li>🛡️ 30 dias de garantia</li></ul>
 </section>
 
@@ -141,14 +141,14 @@ ${chuva.replace(/<!--[\s\S]*?-->\s*/, "").replace(/<style>[\s\S]*?<\/style>\s*/,
 ${DEMO}
     </div>
   </div>
-  <div class="demo-cta"><a href="#plano-completo" class="btn">QUERO AS PLANTINHAS AGORA</a></div>
+  <div class="demo-cta"><a href="#plano-completo" class="btn">QUERO O JARDIM DE AMIGURUMI</a></div>
 </section>
 
 <!-- ============ 4 · IDEAL PARA VOCÊ ============ -->
 <section class="ideal">
   <h2 class="ideal-titulo">Ideal para você que:</h2>
 ${idealCards}
-  <div class="ideal-cta"><a href="#plano-completo" class="btn">QUERO COMEÇAR HOJE</a></div>
+  <div class="ideal-cta"><a href="#plano-completo" class="btn">QUERO O JARDIM DE AMIGURUMI</a></div>
 </section>
 
 <!-- ============ A ROTINA RESOLVIDA ============ -->
@@ -156,7 +156,7 @@ ${idealCards}
   <h2>Receita, videoaula e assistente. <em>Tudo no seu celular.</em></h2>
   <p class="prat-sub">Você abre o aplicativo, busca a plantinha, vê os fios e a contagem de cada rodada e começa. <strong>Se travar</strong>, assiste à videoaula ou pergunta ao assistente de crochê.</p>
   <div class="prat-img"><img src="{{IMG:app:1}}" alt="Tela do aplicativo com a busca de plantinhas, a receita rodada a rodada e as videoaulas" loading="lazy" decoding="async" width="900" height="900"></div>
-  <a href="#plano-completo" class="btn">QUERO AS PLANTINHAS</a>
+  <a href="#plano-completo" class="btn">QUERO O JARDIM DE AMIGURUMI</a>
 </section>
 
 <!-- ============ 4b · A RECEITA POR DENTRO ============ -->
@@ -170,7 +170,7 @@ ${idealCards}
 ${RECEITAS}
     </div>
   </div>
-  <div class="demo-cta"><a href="#plano-completo" class="btn">QUERO AS PLANTINHAS AGORA</a></div>
+  <div class="demo-cta"><a href="#plano-completo" class="btn">QUERO O JARDIM DE AMIGURUMI</a></div>
 </section>
 
 <!-- ============ 5 · TUDO O QUE VOCÊ VAI RECEBER ============ -->
@@ -204,7 +204,7 @@ ${bonusCards}
 ${DEPO}
     </div>
   </div>
-  <div class="depo-cta"><a href="#plano-completo" class="btn">QUERO COMEÇAR HOJE</a></div>
+  <div class="depo-cta"><a href="#plano-completo" class="btn">QUERO O JARDIM DE AMIGURUMI</a></div>
 </section>
 
 <!-- ============ 8 · OFERTA ============ -->
@@ -302,7 +302,7 @@ ${faqHtml}
 let fim = molde.slice(molde.findIndex((l) => l.trim() === "</footer>") + 1);
 let scripts = fim.join("\n");
 scripts = scripts.replace(/\(function\(\)\{\n  const v=document\.getElementById\('calcVendas'\)[\s\S]*?\n\}\)\(\);\n/, "");
-scripts = scripts.replace(/<div class="stick" id="stick">.*\n/, `<div class="stick" id="stick"><div><b>R$ 27,90</b>Acesso completo · vitalício</div><a href="{{CHECKOUT}}" class="btn btn-laranja" target="_blank" rel="noopener">QUERO O COMPLETO</a></div>\n`);
+scripts = scripts.replace(/<div class="stick" id="stick">.*\n/, `<div class="stick" id="stick"><div><b>R$ 27,90</b>Acesso completo · vitalício</div><a href="{{CHECKOUT}}" class="btn btn-laranja" target="_blank" rel="noopener">QUERO O JARDIM DE AMIGURUMI</a></div>\n`);
 
 // segundo carrossel (receitas por dentro): mesma animação, outro id
 const m2 = scripts.match(/[(]function[(][)][{]const track=document[.]getElementById[(]'carouselTrack'[)][^]*?[}][)][(][)];/);
