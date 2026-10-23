@@ -23,3 +23,10 @@ Todas escolhidas por ela no chat, na modelagem padrão, com o pedido "copy bem p
 - **Autoridade:** assina "Fio Encantado" (nome da página que ela criou hoje para os moldes de crochê), sem credencial e sem número de alunas; foto = a da mulher fazendo crochê (`autoridade-1.webp`). Resolve a pendência "quem assina".
 - **Depoimentos:** 8 espaços para ela e o Codex. Nada inventado.
 - **Pendentes:** `{{CHECKOUT}}` (2×), 33 `{{IMG:…}}` (Codex), a entrega das videoaulas, do assistente de IA e da comunidade.
+
+## Correções de 23/10 (tarde) — depois da reprovação dela
+- **Paleta A** (verde-sálvia, creme, terracota): proposta a ela com 3 opções; aplicada nos tokens do molde e nas cores fixas (ver `PALETA`/`HEX` no `build-pagina.mjs`). Antes eu tinha usado a do molde sozinha: errado.
+- **Topo:** mockup padrão da skill (celular + capas + placa com o nome, PNG transparente 600x600), pedido ao Codex pela skill `info-imagens`. A foto das tulipas do concorrente saiu.
+- **Receitas de exemplo:** voltaram as 9 do Codex (com o nome Jardim de Amigurumi). As 5 folhas do concorrente ficam em `info/jardim-de-amigurumi/originais-concorrente/`.
+- **Ícones "é para você que":** Flaticon sticker, meus (`icones/ideal-N.webp`, base64 na página). Os do Codex ficaram em `codex-trocadas/`.
+- Para recolocar as imagens depois de reconstruir a página: `bash scratch/recolocar.sh`.
