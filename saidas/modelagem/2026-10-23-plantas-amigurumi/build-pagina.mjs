@@ -139,17 +139,6 @@ ${DEMO}
   <div class="demo-cta"><a href="#plano-completo" class="btn">QUERO AS PLANTINHAS AGORA</a></div>
 </section>
 
-<!-- ============ 3 · DOR ============ -->
-<section class="dor">
-  <h2>Todo mundo que faz crochê para vender faz <em>bichinhos e bonequinhos</em>.</h2>
-  <p>Ursinho, coelhinho, bonequinha: é o que mais se vê na feira, no grupo do bairro e no Instagram. Quando tem muita gente vendendo a mesma coisa, <strong>sobra só baixar o preço</strong>.</p>
-  <p>E muita gente nem chega a vender: faz peças bonitas por hobby, <strong>mas não sabe o que as pessoas compram</strong> nem quanto cobrar.</p>
-  <p>O problema não é o seu crochê. É que ninguém te deu uma peça diferente, com a receita pronta e o preço já pensado.</p>
-  <p>Plantinha de crochê <strong>não murcha, não precisa de água e combina com qualquer mesa</strong>. É presente fácil, peça fácil de entregar.</p>
-  <p>O <strong>${NOME}</strong> foi criado para isso: <strong>+150 plantinhas e suculentas</strong> com a receita pronta, rodada a rodada, para você montar a sua coleção e vender.</p>
-  <div style="margin-top:28px"><a href="#plano-completo" class="btn">QUERO AS PLANTINHAS AGORA</a></div>
-</section>
-
 <!-- ============ 4 · IDEAL PARA VOCÊ ============ -->
 <section class="ideal">
   <h2 class="ideal-titulo">Ideal para você que:</h2>
