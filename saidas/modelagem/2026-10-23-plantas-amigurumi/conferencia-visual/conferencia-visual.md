@@ -1,13 +1,13 @@
 # Conferência visual de 04-pagina.html
 
 ### celular
-- imagens visíveis: 74 · sem texto alternativo: 0
+- imagens visíveis: 59 · sem texto alternativo: 0
 - fotos: 12 (em conferencia-visual/)
 ### computador
-- imagens visíveis: 74 · sem texto alternativo: 0
-- fotos: 12 (em conferencia-visual/)
+- imagens visíveis: 59 · sem texto alternativo: 0
+- fotos: 13 (em conferencia-visual/)
 
-## 168 problema(s), 0 aviso(s)
+## 136 problema(s), 0 aviso(s)
 - PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-03.webp?v=363d4265
 - PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-04.webp?v=dcaf8b36
 - PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-05.webp?v=7efe83c1
@@ -46,22 +46,6 @@
 - PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → fertas/imagens/jardim-de-amigurumi/receita-3.webp?v=bfa49e44
 - PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → fertas/imagens/jardim-de-amigurumi/receita-4.webp?v=9b6c26d3
 - PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → fertas/imagens/jardim-de-amigurumi/receita-5.webp?v=604df722
-- PROBLEMA celular: imagem QUEBRADA [depoimentos] img → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:1%7D%7D
-- PROBLEMA celular: imagem QUEBRADA [depoimentos] img → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:2%7D%7D
-- PROBLEMA celular: imagem QUEBRADA [depoimentos] img → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:3%7D%7D
-- PROBLEMA celular: imagem QUEBRADA [depoimentos] img → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:4%7D%7D
-- PROBLEMA celular: imagem QUEBRADA [depoimentos] img → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:5%7D%7D
-- PROBLEMA celular: imagem QUEBRADA [depoimentos] img → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:6%7D%7D
-- PROBLEMA celular: imagem QUEBRADA [depoimentos] img → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:7%7D%7D
-- PROBLEMA celular: imagem QUEBRADA [depoimentos] img → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:8%7D%7D
-- PROBLEMA celular: imagem QUEBRADA [depoimentos] img (não carregou) → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:1%7D%7D
-- PROBLEMA celular: imagem QUEBRADA [depoimentos] img (não carregou) → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:2%7D%7D
-- PROBLEMA celular: imagem QUEBRADA [depoimentos] img (não carregou) → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:3%7D%7D
-- PROBLEMA celular: imagem QUEBRADA [depoimentos] img (não carregou) → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:4%7D%7D
-- PROBLEMA celular: imagem QUEBRADA [depoimentos] img (não carregou) → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:5%7D%7D
-- PROBLEMA celular: imagem QUEBRADA [depoimentos] img (não carregou) → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:6%7D%7D
-- PROBLEMA celular: imagem QUEBRADA [depoimentos] img (não carregou) → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:7%7D%7D
-- PROBLEMA celular: imagem QUEBRADA [depoimentos] img (não carregou) → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:8%7D%7D
 - PROBLEMA celular: imagem [demo] img passa da caixa carousel-wrapper e é cortada
 - PROBLEMA celular: imagem [demo] img passa da caixa carousel-wrapper e é cortada
 - PROBLEMA celular: [demo] img passa da tela (287 a 549, tela 390)
@@ -130,22 +114,6 @@
 - PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → fertas/imagens/jardim-de-amigurumi/receita-3.webp?v=bfa49e44
 - PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → fertas/imagens/jardim-de-amigurumi/receita-4.webp?v=9b6c26d3
 - PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → fertas/imagens/jardim-de-amigurumi/receita-5.webp?v=604df722
-- PROBLEMA computador: imagem QUEBRADA [depoimentos] img → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:1%7D%7D
-- PROBLEMA computador: imagem QUEBRADA [depoimentos] img → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:2%7D%7D
-- PROBLEMA computador: imagem QUEBRADA [depoimentos] img → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:3%7D%7D
-- PROBLEMA computador: imagem QUEBRADA [depoimentos] img → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:4%7D%7D
-- PROBLEMA computador: imagem QUEBRADA [depoimentos] img → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:5%7D%7D
-- PROBLEMA computador: imagem QUEBRADA [depoimentos] img → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:6%7D%7D
-- PROBLEMA computador: imagem QUEBRADA [depoimentos] img → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:7%7D%7D
-- PROBLEMA computador: imagem QUEBRADA [depoimentos] img → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:8%7D%7D
-- PROBLEMA computador: imagem QUEBRADA [depoimentos] img (não carregou) → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:1%7D%7D
-- PROBLEMA computador: imagem QUEBRADA [depoimentos] img (não carregou) → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:2%7D%7D
-- PROBLEMA computador: imagem QUEBRADA [depoimentos] img (não carregou) → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:3%7D%7D
-- PROBLEMA computador: imagem QUEBRADA [depoimentos] img (não carregou) → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:4%7D%7D
-- PROBLEMA computador: imagem QUEBRADA [depoimentos] img (não carregou) → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:5%7D%7D
-- PROBLEMA computador: imagem QUEBRADA [depoimentos] img (não carregou) → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:6%7D%7D
-- PROBLEMA computador: imagem QUEBRADA [depoimentos] img (não carregou) → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:7%7D%7D
-- PROBLEMA computador: imagem QUEBRADA [depoimentos] img (não carregou) → m/2026-10-23-plantas-amigurumi/%7B%7BIMG:depoimentos:8%7D%7D
 - PROBLEMA computador: imagem [demo] img passa da caixa carousel-wrapper e é cortada
 - PROBLEMA computador: imagem [demo] img passa da caixa carousel-wrapper e é cortada
 - PROBLEMA computador: [demo] carousel-track passa da tela (direita em 9694, tela 1280)

@@ -1,0 +1,48 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--a:#B3532F;--a2:#8A3F22;--t:#2F4A2C;--c:#F6F1E4}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1024px;height:400px;overflow:hidden}
+body{font-family:'Poppins',sans-serif;display:flex;align-items:center;padding:0 14px 0 6px;position:relative;
+ background:linear-gradient(118deg,var(--c) 0%,color-mix(in srgb,var(--c) 70%,var(--a)) 55%,color-mix(in srgb,var(--c) 45%,var(--a)) 100%)}
+.bg{position:absolute;inset:0;overflow:hidden;z-index:0}
+.bl{position:absolute;border-radius:50%;filter:blur(48px)}
+.b1{width:430px;height:430px;left:-70px;top:-50px;background:color-mix(in srgb,var(--a) 55%,#fff);opacity:.7}
+.b2{width:380px;height:380px;right:-100px;top:-160px;background:var(--a);opacity:.42}
+.b3{width:320px;height:320px;right:200px;bottom:-210px;background:color-mix(in srgb,var(--a2) 60%,#ffb0a0);opacity:.4}
+.dots{position:absolute;inset:0;background-image:radial-gradient(color-mix(in srgb,var(--a2) 28%,transparent) 1.3px,transparent 1.4px);background-size:18px 18px;
+ -webkit-mask-image:linear-gradient(90deg,transparent 35%,#000 72%);mask-image:linear-gradient(90deg,transparent 35%,#000 72%)}
+.risco{position:absolute;width:900px;height:120px;left:120px;top:120px;transform:rotate(-14deg);
+ background:linear-gradient(90deg,transparent,rgba(255,255,255,.5),transparent)}
+.anel{position:absolute;width:350px;height:350px;left:16px;top:25px;border-radius:50%;border:2px dashed color-mix(in srgb,var(--a) 45%,transparent);opacity:.55}
+.pack{flex:0 0 var(--packw,372px);min-width:0;height:400px;display:flex;align-items:center;justify-content:center;position:relative;z-index:1}
+.pack::before{content:'';position:absolute;width:350px;height:350px;border-radius:50%;
+ background:radial-gradient(circle,#fff 0%,rgba(255,255,255,.75) 38%,rgba(255,255,255,0) 70%)}
+.pack img{position:relative;max-width:min(380px,100%);max-height:384px;filter:drop-shadow(0 18px 22px color-mix(in srgb,var(--t) 40%,transparent))}
+.lado{flex:1;min-width:0;position:relative;z-index:1;padding:0 0 0 42px} /* respiro entre o pack e o texto (pedido dela) */
+/* 14/10 (2ª rodada dela): sem caixa branca; título SEMPRE numa linha; lista bem grande, que se lê no celular
+   (o banner aparece com ~400px de largura, menos da metade do tamanho original). */
+h1{font-weight:900;font-size:35px;line-height:1.02;letter-spacing:-.8px;white-space:nowrap;
+ color:color-mix(in srgb,var(--a2) 82%,#000);text-shadow:0 2px 0 rgba(255,255,255,.75)} /* 14/10: cor sólida e escura (o degradê sumia no fundo) */
+.barra{width:84px;height:7px;border-radius:7px;margin:10px 0 14px;background:linear-gradient(90deg,var(--a2),var(--a))}
+ul{list-style:none;display:flex;flex-direction:column;gap:9px}
+li{display:flex;align-items:center;gap:14px;font-weight:700;color:var(--t);font-size:26px;line-height:1.08;letter-spacing:-.2px;white-space:nowrap;
+ text-shadow:0 1px 0 rgba(255,255,255,.7)}
+li span.tx{min-width:0;overflow:visible}
+.ck{flex:0 0 40px;height:40px;border-radius:11px;position:relative;overflow:hidden;
+ background:linear-gradient(135deg,var(--a),var(--a2));display:flex;align-items:center;justify-content:center;
+ box-shadow:0 3px 0 color-mix(in srgb,var(--a2) 80%,#000),0 8px 14px -6px color-mix(in srgb,var(--a2) 70%,transparent)}
+.ck::after{content:'';position:absolute;left:-30%;top:-60%;width:120%;height:70%;background:rgba(255,255,255,.35);transform:rotate(-20deg)}
+.ck svg{position:relative;width:26px;height:26px;stroke:#fff;stroke-width:3.8;fill:none;stroke-linecap:round;stroke-linejoin:round}
+</style></head><body>
+<div class="bg"><div class="bl b1"></div><div class="bl b2"></div><div class="bl b3"></div><div class="dots"></div><div class="risco"></div><div class="anel"></div></div>
+<div class="pack"><img src="file:///C:/Users/maria/Desktop/harness-ofertas/saidas/modelagem/2026-10-23-plantas-amigurumi/pack-completo.png"></div>
+<div class="lado"><h1>JARDIM DE AMIGURUMI</h1><div class="barra"></div><ul>
+<li><span class="ck"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="tx">+150 PLANTINHAS E SUCULENTAS</span></li>
+<li><span class="ck"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="tx">A CONTAGEM DE CADA RODADA</span></li>
+<li><span class="ck"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="tx">8 VIDEOAULAS PASSO A PASSO</span></li>
+<li><span class="ck"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="tx">TABELA DE PREÇOS INCLUÍDA</span></li>
+<li><span class="ck"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="tx">ACESSO IMEDIATO E VITALÍCIO</span></li>
+<li><span class="ck"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="tx">6 BÔNUS EXCLUSIVOS</span></li>
+</ul></div></body></html>
