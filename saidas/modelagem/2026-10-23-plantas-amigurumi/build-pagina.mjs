@@ -303,6 +303,9 @@ scripts = scripts.replace(/<div class="stick" id="stick">.*\n/, `<div class="sti
 // segundo carrossel (receitas por dentro): mesma animação, outro id
 const m2 = scripts.match(/[(]function[(][)][{]const track=document[.]getElementById[(]'carouselTrack'[)][^]*?[}][)][(][)];/);
 if (m2) scripts = scripts.replace('</body>', '<script>' + m2[0].replace("'carouselTrack'", "'carouselTrack2'") + '</script></body>');
-const html = cabeca + "\n" + corpo + "\n" + scripts;
+let html = cabeca + "\n" + corpo + "\n" + scripts;
+// Checkout do Atomify (link que ela mandou em 23/10/2026). Troca os dois marcadores {{CHECKOUT}}.
+const CHECKOUT = "https://checkout.atomify.com.br/pay/JW2NNB4956";
+html = html.split("{{CHECKOUT}}").join(CHECKOUT);
 writeFileSync(join(AQUI, "04-pagina.html"), html);
 console.log("04-pagina.html:", (html.length / 1024).toFixed(1), "KB");
