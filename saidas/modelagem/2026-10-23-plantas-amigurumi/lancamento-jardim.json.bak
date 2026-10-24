@@ -1,0 +1,26 @@
+{
+  "envios": {
+    "public:21d1410d3e45c45472bf09155434310c": {
+      "key": "6d457971-a800-4936-81ae-fbf60645992c.png",
+      "publicUrl": "https://ypplpvmjcptwomkncdbd.supabase.co/storage/v1/object/public/product-media/6d457971-a800-4936-81ae-fbf60645992c.png",
+      "nome": "produto.png"
+    },
+    "public:34c0ab82135b859bcdddbf3222a417dd": {
+      "key": "446aa796-46f5-4730-ada7-5e2d4b5ada3b.png",
+      "publicUrl": "https://ypplpvmjcptwomkncdbd.supabase.co/storage/v1/object/public/product-media/446aa796-46f5-4730-ada7-5e2d4b5ada3b.png",
+      "nome": "banner.png"
+    },
+    "private:9236feb4ec9802c9a63c8cbdb76ff28b": {
+      "key": "943fe097-d697-43da-a2ab-6dbfe2c1f16b.pdf",
+      "publicUrl": null,
+      "nome": "acesso-jardim-de-amigurumi.pdf"
+    }
+  },
+  "slug": "jardim",
+  "produtoId": "cmvln9uw20000kw07glbji4my",
+  "checkout": "https://pagamento.revitamulher.online/pay/92KQM3RHJQ",
+  "app": "https://jardim.revitamulher.online/app",
+  "pagina": "https://jardim.revitamulher.online",
+  "dashboardId": "cmvln9v850008kw07gvws1zvj",
+  "atualizadoEm": "2026-10-24T00:12:23.835Z"
+}

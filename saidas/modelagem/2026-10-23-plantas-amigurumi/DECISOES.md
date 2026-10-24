@@ -47,3 +47,8 @@ Todas escolhidas por ela no chat, na modelagem padrão, com o pedido "copy bem p
 - Página: https://pagamento.revitamulher.online/s/jardim (e jardim.revitamulher.online depois do CNAME: nome "jardim" → 6d24bd65ded35237.vercel-dns-017.com). App em /s/jardim/app.
 - O lancar substituiu o pixel colado por um único t.js com o id do produto novo (sem duplicar).
 - Falta: CNAME na GoDaddy; pixel da conta de anúncio (--pixel --conta ID); links COMUNIDADE_URL e SUPORTE_URL no app (depois rodar o lancar de novo); decidir "com IA".
+
+## Endereço trocado de "jardim" para "croche" (23/10/2026, pedido dela)
+- Republicado com `lancar.mjs --slug croche`: produto NOVO cmvlnmez80009kw0747zwrh0w, checkout https://pagamento.revitamulher.online/pay/YFZEMAGDT6, página https://croche.revitamulher.online, app /app. O PDF de acesso passou a apontar para croche.revitamulher.online/app.
+- GoDaddy: criado CNAME croche → 6d24bd65ded35237.vercel-dns-017.com; removido o CNAME jardim (que eu tinha criado).
+- SOBRAM no painel do Atomify dois produtos que não valem mais: o do slug "jardim" (cmvln9uw20000kw07glbji4my, checkout 92KQM3RHJQ) e o que ela criou à mão (pay/JW2NNB4956). O lancar não apaga produto.
