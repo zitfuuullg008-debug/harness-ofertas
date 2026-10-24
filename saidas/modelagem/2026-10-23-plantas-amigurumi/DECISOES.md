@@ -52,3 +52,8 @@ Todas escolhidas por ela no chat, na modelagem padrão, com o pedido "copy bem p
 - Republicado com `lancar.mjs --slug croche`: produto NOVO cmvlnmez80009kw0747zwrh0w, checkout https://pagamento.revitamulher.online/pay/YFZEMAGDT6, página https://croche.revitamulher.online, app /app. O PDF de acesso passou a apontar para croche.revitamulher.online/app.
 - GoDaddy: criado CNAME croche → 6d24bd65ded35237.vercel-dns-017.com; removido o CNAME jardim (que eu tinha criado).
 - SOBRAM no painel do Atomify dois produtos que não valem mais: o do slug "jardim" (cmvln9uw20000kw07glbji4my, checkout 92KQM3RHJQ) e o que ela criou à mão (pay/JW2NNB4956). O lancar não apaga produto.
+
+## CORREÇÃO GRAVE (24/10/2026): botões quebrados no ar
+- O rastreador do nosso checkout (croche.revitamulher.online/t.js) trocava, ao abrir a página, os botões para pagamento.revitamulher.online/pay/JW2NNB4956 ("Produto indisponível"). Eu só tinha conferido o HTML, não o que o navegador faz depois.
+- Correção no projeto do checkout (src/lib/launch.ts, preparePageHtml): se a página traz um t.js de checkout de FORA (ex.: checkout.atomify.com.br), ele fica e o nosso não entra. Deploy em produção 24/10 00:47Z.
+- Página publicada só com o script dela no head: <script src="https://checkout.atomify.com.br/t.js?p=cmvlinupr0011jt08rvg7lsfd" async></script>; botões em https://checkout.atomify.com.br/pay/JW2NNB4956 (conferido no navegador depois de carregar).
