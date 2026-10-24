@@ -30,7 +30,8 @@ const PRODUTO = [
   "<strong>1 PDF por receita</strong>, para imprimir e deixar ao lado do crochê",
   "<strong>Aplicativo</strong> com busca, filtro por grupo e por tempo, favoritos e “marcar como feita”",
   "<strong>8 videoaulas completas</strong>, passo a passo: suculenta, mini antúrio, vasinho com flores, cactos, girassol e mais",
-  "<strong>Assistente de crochê com IA</strong> dentro do aplicativo, para tirar dúvidas a qualquer hora",
+  "<strong>Assistente de crochê</strong> dentro do aplicativo, com respostas prontas para as dúvidas mais comuns, a qualquer hora",
+  "<strong>Contador de pontos</strong> e <strong>calculadora de preços</strong>, para não perder a conta da carreira e saber quanto cobrar",
   "<strong>Comunidade das alunas</strong> e suporte",
   "<strong>Acabamento e embalagem:</strong> como montar e embalar cada peça para vender",
 ];
@@ -75,7 +76,7 @@ const FAQ = [
   ["Que material eu preciso comprar?", "Cada receita lista os fios, as cores e o tamanho final. A lista de materiais das 150 plantinhas (bônus) mostra o que comprar de uma vez: fio, enchimento e vasinho."],
   ["Posso vender as peças que eu fizer?", "Pode. As peças são suas e você vende onde quiser. Os bônus trazem a tabela de preços, as 30 mensagens prontas, o kit de papelaria e as 20 ideias de kit presente."],
   ["Preciso saber costurar?", "Não. A montagem de cada peça está explicada na receita, e as videoaulas mostram a costura e o acabamento."],
-  ["Como funciona o assistente de crochê com IA?", "Ele fica dentro do aplicativo. Se você travar numa rodada, pergunta e recebe a resposta na hora, a qualquer hora do dia."],
+  ["Como funciona o assistente de crochê?", "Ele fica dentro do aplicativo, com respostas prontas para as dúvidas mais comuns de crochê (anel mágico, enchimento, contagem de pontos e outras). Você digita a dúvida e a resposta aparece na hora, a qualquer hora do dia."],
   ["Como recebo o acesso?", "Assim que o pagamento é confirmado, o acesso chega no seu e-mail. Você abre pelo celular ou pelo computador e o acesso é vitalício, sem mensalidade."],
   ["Posso imprimir as receitas?", "Sim. Cada receita tem o seu PDF, feito para imprimir. A papelaria digital (bônus) também: você imprime as etiquetas e os cartões."],
   ["E se eu não gostar?", "Você tem 30 dias para testar. Se sentir que não é para você, é só pedir o reembolso e devolvemos o valor inteiro."],
