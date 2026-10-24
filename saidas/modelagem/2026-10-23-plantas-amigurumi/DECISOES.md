@@ -40,3 +40,4 @@ Todas escolhidas por ela no chat, na modelagem padrão, com o pedido "copy bem p
 - Comunidade e suporte: `COMUNIDADE_URL` e `SUPORTE_URL` vazios no topo do script até ela mandar os links.
 - Desenhos das plantinhas: SVG por código (não são fotos).
 - **Pixel Atomify** (t.js?p=cmvlinupr0011jt08rvg7lsfd) colado no head da página a pedido dela. Conferir duplicidade com o rastreamento que o lancar.mjs injeta ao publicar.
+- **Checkout** colado nos 2 botões: https://checkout.atomify.com.br/pay/JW2NNB4956 (produto já criado por ela no Atomify). Ao publicar, não deixar o lancar.mjs criar produto duplicado.
