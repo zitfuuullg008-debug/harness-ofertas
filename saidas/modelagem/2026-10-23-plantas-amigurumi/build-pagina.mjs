@@ -101,7 +101,7 @@ const cabeca = `<!DOCTYPE html>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&display=swap">
 ${css}
 <style>.hero-img{border:none;box-shadow:none;background:none;border-radius:0;object-fit:contain}.passo-num{color:var(--laranja-mid)}.urgencia-bar,.urgencia-bar span{color:#fff}.hero{position:relative;isolation:isolate;overflow:hidden}${chuvaCss}@media (prefers-reduced-motion:reduce){.rv{opacity:1!important;transform:none!important}}</style>
-<script>document.write('<scr'+'ipt src="https://checkout.atomify.com.br/t.js?p=cmvlinupr0011jt08rvg7lsfd"></scr'+'ipt>')</script>
+<script src="https://checkout.atomify.com.br/t.js?p=cmvlinupr0011jt08rvg7lsfd" async></script>
 </head>`;
 
 const corpo = `<body>
