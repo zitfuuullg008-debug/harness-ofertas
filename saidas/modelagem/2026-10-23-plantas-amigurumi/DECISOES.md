@@ -39,3 +39,4 @@ Todas escolhidas por ela no chat, na modelagem padrão, com o pedido "copy bem p
 - Assistente: perguntas e respostas prontas (30), NÃO é IA. A página ainda diz "assistente de crochê com IA".
 - Comunidade e suporte: `COMUNIDADE_URL` e `SUPORTE_URL` vazios no topo do script até ela mandar os links.
 - Desenhos das plantinhas: SVG por código (não são fotos).
+- **Pixel Atomify** (t.js?p=cmvlinupr0011jt08rvg7lsfd) colado no head da página a pedido dela. Conferir duplicidade com o rastreamento que o lancar.mjs injeta ao publicar.
