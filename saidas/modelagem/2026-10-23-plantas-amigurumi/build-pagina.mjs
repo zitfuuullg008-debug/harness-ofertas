@@ -306,6 +306,6 @@ if (m2) scripts = scripts.replace('</body>', '<script>' + m2[0].replace("'carous
 let html = cabeca + "\n" + corpo + "\n" + scripts;
 // Checkout do Atomify (link que ela mandou em 23/10/2026). Troca os dois marcadores {{CHECKOUT}}.
 const CHECKOUT = "https://checkout.atomify.com.br/pay/JW2NNB4956";
-html = html.split("{{CHECKOUT}}").join(CHECKOUT);
+if (process.env.CHECKOUT_FIXO) html = html.split("{{CHECKOUT}}").join(CHECKOUT); // sem isso, o lancar.mjs preenche com o checkout do produto que ele cria
 writeFileSync(join(AQUI, "04-pagina.html"), html);
 console.log("04-pagina.html:", (html.length / 1024).toFixed(1), "KB");
