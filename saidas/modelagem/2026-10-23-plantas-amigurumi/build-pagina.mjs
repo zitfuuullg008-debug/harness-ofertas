@@ -164,7 +164,6 @@ ${idealCards}
 <section class="demo demo-receitas">
   <div class="demo-inner">
     <h2>Cada plantinha vem explicada assim.</h2>
-    <p class="demo-sub">Cada plantinha tem a <strong>receita completa em PDF ilustrado</strong>, com os fios, as cores e a contagem rodada a rodada. Dê uma olhada numa <strong>prévia</strong> do que você vai receber:</p>
   </div>
   <div class="carousel-wrapper">
     <div class="carousel-track" id="carouselTrack2" style="animation-duration:26s">
