@@ -41,3 +41,9 @@ Todas escolhidas por ela no chat, na modelagem padrão, com o pedido "copy bem p
 - Desenhos das plantinhas: SVG por código (não são fotos).
 - **Pixel Atomify** (t.js?p=cmvlinupr0011jt08rvg7lsfd) colado no head da página a pedido dela. Conferir duplicidade com o rastreamento que o lancar.mjs injeta ao publicar.
 - **Checkout** colado nos 2 botões: https://checkout.atomify.com.br/pay/JW2NNB4956 (produto já criado por ela no Atomify). Ao publicar, não deixar o lancar.mjs criar produto duplicado.
+
+## PUBLICADO em 23/10/2026 (lancar.mjs --slug jardim)
+- Checkout NOVO criado pelo lancar: https://pagamento.revitamulher.online/pay/92KQM3RHJQ (produto cmvln9uw20000kw07glbji4my). O link que ela tinha mandado (pay/JW2NNB4956) NÃO é o usado: aquele produto não tem PDF/app/banner.
+- Página: https://pagamento.revitamulher.online/s/jardim (e jardim.revitamulher.online depois do CNAME: nome "jardim" → 6d24bd65ded35237.vercel-dns-017.com). App em /s/jardim/app.
+- O lancar substituiu o pixel colado por um único t.js com o id do produto novo (sem duplicar).
+- Falta: CNAME na GoDaddy; pixel da conta de anúncio (--pixel --conta ID); links COMUNIDADE_URL e SUPORTE_URL no app (depois rodar o lancar de novo); decidir "com IA".
