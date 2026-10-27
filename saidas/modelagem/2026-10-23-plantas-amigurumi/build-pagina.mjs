@@ -255,8 +255,8 @@ ${bonusCards}
     <img src="{{IMG:autoridade:1}}" alt="Criadora do ${NOME}, segurando um novelo de fio vermelho" loading="lazy" decoding="async">
     <div class="autoridade-text">
       <p class="autoridade-eyebrow">Quem criou o ${NOME}:</p>
-      <p class="autoridade-nome">${MARCA}</p>
-      <p class="autoridade-bio">O ${MARCA} criou o ${NOME} depois de perceber que muitas mulheres faziam crochê por prazer, mas travavam sempre nos mesmos pontos: não saber o que vender, não saber quanto cobrar e não ter uma receita pronta para seguir.</p>
+      <p class="autoridade-nome">Fernanda Vasconcellos</p>
+      <p class="autoridade-bio">Fernanda Vasconcellos tem 9 anos de experiência com crochê e é a criadora do Instagram ${MARCA}. Ela criou o ${NOME} depois de perceber que muitas mulheres faziam crochê por prazer, mas travavam sempre nos mesmos pontos: não saber o que vender, não saber quanto cobrar e não ter uma receita pronta para seguir.</p>
       <p class="autoridade-bio">Por isso reuniu +150 plantinhas e suculentas com a contagem de cada rodada, 8 videoaulas e a tabela de preços, tudo num aplicativo só.</p>
       <p class="autoridade-bio">A ideia não é te transformar em profissional. É te dar receitas que funcionam e um jeito simples de vender o que você faz.</p>
     </div>
