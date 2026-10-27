@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Combo Completo de Crochê</title>
+<meta name="theme-color" content="#9D5126">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FBF3EA;--bg2:#F3E2D0;--card:#FFFAF4;--brown:#9D5126;--brown-d:#6D3515;--ink:#3F2316;--soft:#735E50;--terra:#B95E17;--terra-d:#8A4210;--sage:#2F8F5A;--sage-l:#FBE3D6;--line:rgba(109,53,21,.14);--r:18px;--sh:0 6px 20px -10px rgba(109,53,21,.45)}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Plus Jakarta Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased;padding-bottom:84px}
+h1,h2,h3{font-family:'Fraunces',Georgia,serif;margin:0;letter-spacing:-.01em}
+button{font-family:inherit;cursor:pointer;border:0;background:none;color:inherit}
+.top{position:sticky;top:0;z-index:30;background:var(--brown);color:#fff;display:flex;align-items:center;gap:10px;padding:12px 16px calc(12px) 16px}
+.top .logo{font-family:'Fraunces',serif;font-weight:700;font-size:18px;flex:1}
+.top .back{width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,.14);color:#fff;font-size:18px;display:none}
+.top.has-back .back{display:block}
+.wrap{max-width:1000px;margin:0 auto;padding:18px 16px 24px}
+.hello{font-size:13px;color:var(--soft);font-weight:600}
+.hello b{color:var(--brown-d)}
+.hero{background:linear-gradient(135deg,var(--brown),var(--brown-d));color:#fff;border-radius:24px;padding:22px 20px;display:grid;grid-template-columns:1fr;gap:12px;align-items:center;box-shadow:var(--sh);margin:12px 0 18px}
+.hero img{width:100%;max-width:300px;justify-self:center;border-radius:12px;background:transparent}
+.hero h1{font-size:25px;line-height:1.1}.hero p{margin:6px 0 0;color:rgba(255,255,255,.85);font-size:14px;line-height:1.5}
+.bar{height:8px;background:rgba(255,255,255,.22);border-radius:99px;margin-top:12px;overflow:hidden}.bar i{display:block;height:100%;background:#F2CB8A;border-radius:99px}
+.prog{font-size:12px;margin-top:6px;opacity:.9}
+h2.sec{font-size:19px;margin:22px 0 10px;color:var(--brown-d)}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+@media(min-width:640px){.grid{grid-template-columns:repeat(3,1fr)}}@media(min-width:900px){.grid{grid-template-columns:repeat(4,1fr)}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--sh);overflow:hidden;cursor:pointer;display:flex;flex-direction:column;transition:transform .15s}
+.card:active{transform:scale(.98)}
+.card .art{aspect-ratio:1/1;background:radial-gradient(circle at 50% 40%,#fff,var(--bg2));display:flex;align-items:center;justify-content:center;position:relative}
+.card .art svg{width:88%;height:88%}
+.card .art img{width:100%;height:100%;object-fit:contain;padding:8px}
+.card .tx{padding:10px 12px 12px;border-top:1px solid var(--line)}
+.card .tt{font-weight:700;font-size:14px;line-height:1.2}
+.card .st{font-size:11.5px;color:var(--soft);margin-top:4px}
+.badge{position:absolute;top:8px;left:8px;background:var(--brown);color:#fff;font-size:10px;font-weight:800;padding:4px 9px;border-radius:99px;letter-spacing:.04em}
+.badge.ok{background:var(--sage)}
+.fav{position:absolute;top:6px;right:6px;width:30px;height:30px;border-radius:50%;background:rgba(255,255,255,.85);font-size:15px}
+.tiles{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+@media(min-width:640px){.tiles{grid-template-columns:repeat(4,1fr)}}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:14px;display:flex;gap:10px;align-items:center;box-shadow:var(--sh);cursor:pointer}
+.tile .ic{width:42px;height:42px;border-radius:50%;background:var(--sage-l);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0}
+.tile b{display:block;font-size:14px}.tile span{font-size:11.5px;color:var(--soft)}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:2px 0 10px;scrollbar-width:none}.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;padding:9px 14px;border-radius:99px;background:var(--card);border:1px solid var(--line);font-size:13px;font-weight:700;color:var(--soft)}
+.chip.on{background:var(--brown);color:#fff;border-color:var(--brown)}
+.search{display:flex;gap:8px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:99px;padding:12px 16px;margin:10px 0}
+.search input{border:0;outline:0;background:none;width:100%;font:inherit;font-size:14.5px;color:var(--ink)}
+.rec-art{background:radial-gradient(circle at 50% 40%,#fff,var(--bg2));border-radius:24px;aspect-ratio:1/1;max-width:340px;margin:6px auto 14px;display:flex;align-items:center;justify-content:center;box-shadow:var(--sh)}
+.rec-art svg{width:90%;height:90%}
+.rec h1{font-size:26px;text-align:center}
+.meta{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:12px 0}
+.meta span{background:var(--card);border:1px solid var(--line);border-radius:99px;padding:7px 12px;font-size:12.5px;font-weight:700}
+.acts{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin:10px 0 4px}
+.btn{background:var(--terra);color:#fff;border-radius:99px;padding:12px 20px;font-weight:800;font-size:14px;box-shadow:0 8px 18px -10px var(--terra-d)}
+.btn.sec{background:var(--card);color:var(--brown-d);border:1px solid var(--line);box-shadow:none}
+.btn.ok{background:var(--sage)}
+.btn[disabled]{opacity:.5}
+.box{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin:14px 0}
+.box h3{font-size:17px;margin-bottom:10px;color:var(--brown-d)}
+.fio{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px dashed var(--line);font-size:14px}.fio:last-child{border:0}
+.sw{width:22px;height:22px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px var(--line);flex-shrink:0}
+.fio b{margin-left:auto;font-variant-numeric:tabular-nums}
+.mapa{display:flex;flex-wrap:wrap;gap:8px}.mapa span{background:var(--sage-l);border-radius:12px;padding:8px 12px;font-size:13px;font-weight:700}
+.mapa span i{font-style:normal;background:var(--sage);color:#fff;border-radius:50%;width:20px;height:20px;display:inline-flex;align-items:center;justify-content:center;font-size:11px;margin-right:6px}
+.parte h4{margin:0 0 8px;font-size:15px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.parte h4 small{font-weight:600;color:var(--soft);font-size:12px}
+.ln{display:flex;gap:10px;align-items:flex-start;padding:7px 0;border-bottom:1px solid var(--line);font-size:14px;line-height:1.45;cursor:pointer}
+.ln:last-child{border:0}
+.ln .ck{width:20px;height:20px;border-radius:6px;border:2px solid var(--sage);flex-shrink:0;margin-top:1px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px}
+.ln.on .ck{background:var(--sage)}.ln.on .t{text-decoration:line-through;color:var(--soft)}
+ol.steps{margin:0;padding-left:0;list-style:none}ol.steps li{display:flex;gap:10px;padding:8px 0;font-size:14px;line-height:1.5}
+ol.steps li i{font-style:normal;flex-shrink:0;width:24px;height:24px;border-radius:50%;background:var(--terra);color:#fff;font-size:12px;font-weight:800;display:flex;align-items:center;justify-content:center}
+.dica{background:#F9E3D6;border-radius:14px;padding:12px 14px;font-size:13.5px;margin-top:8px}
+.note{font-size:12px;color:var(--soft);margin-top:10px;line-height:1.5}
+.bottom{position:fixed;left:0;right:0;bottom:0;z-index:40;background:var(--brown);display:flex;padding:8px 6px calc(8px + env(safe-area-inset-bottom));box-shadow:0 -8px 20px -10px rgba(0,0,0,.4)}
+.bottom button{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;color:rgba(255,255,255,.7);padding:6px 2px;border-radius:12px;font-size:10.5px;font-weight:700}
+.bottom button i{font-style:normal;font-size:20px}
+.bottom button.on{color:#fff;background:rgba(255,255,255,.14)}
+.aula{display:flex;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:10px;margin:10px 0;cursor:pointer;box-shadow:var(--sh)}
+.aula img{width:120px;aspect-ratio:16/9;object-fit:cover;border-radius:12px;background:#ccc;flex-shrink:0}
+.aula b{font-size:15px;display:block}.aula span{font-size:12px;color:var(--soft)}
+.video{position:relative;padding-top:56.25%;border-radius:16px;overflow:hidden;background:#000;box-shadow:var(--sh)}.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.nav2{display:flex;gap:8px;margin:14px 0;flex-wrap:wrap}
+table.pr{width:100%;border-collapse:collapse;font-size:13px}.pr th,.pr td{padding:8px 6px;border-bottom:1px solid var(--line);text-align:left}.pr th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--soft)}.pr td.n{font-weight:800;color:var(--terra-d);white-space:nowrap}
+.fld{display:grid;grid-template-columns:1fr 1fr;gap:10px}.fld label{font-size:12px;font-weight:700;color:var(--soft);display:block}.fld input{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:#fff;font:inherit;font-size:15px;margin-top:4px}
+.msg{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:14px;margin:10px 0;font-size:14px;line-height:1.55}.msg small{display:block;color:var(--terra-d);font-weight:800;font-size:11px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px}
+.msg .btn{margin-top:10px;padding:9px 16px;font-size:13px}
+.etq{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.etq div{border:2px dashed var(--brown);border-radius:12px;padding:12px 8px;text-align:center;font-size:12px;background:#fff;min-height:84px;display:flex;flex-direction:column;justify-content:center}
+.etq div b{font-family:'Fraunces',serif;font-size:14px}
+.sheet{background:#fff;border-radius:14px;padding:14px;margin:12px 0;border:1px solid var(--line);overflow-x:auto}.sheet table{width:100%;border-collapse:collapse;font-size:12px;min-width:520px}.sheet td,.sheet th{border:1px solid #bbb;padding:9px 6px;height:30px}
+.empty{text-align:center;color:var(--soft);padding:40px 10px}
+.go-top{display:none}
+@media print{.top,.bottom,.acts,.nav2,.no-print{display:none!important}body{background:#fff;padding:0}.sheet{border:0}}
+</style>
+</head>
+<body>
+<div class="top" id="top"><button class="back" id="back" aria-label="Voltar">←</button><div class="logo">Combo Completo de Crochê</div></div>
+<div class="wrap" id="app"></div>
+<nav class="bottom" id="nav">
+  <button data-r="home"><i>🏠</i>Início</button>
+  <button data-r="materiais"><i>📚</i>Materiais</button>
+  <button data-r="ferramentas"><i>🧰</i>Ferramentas</button>
+  <button data-r="comunidade"><i>💬</i>Comunidade</button>
+</nav>
+<script>
+const COMUNIDADE_URL = "";   /* link do grupo das alunas (WhatsApp) */
+const SUPORTE_URL = "";      /* link do WhatsApp de suporte */
+const DADOS = {"cats": [{"id": 1, "nome": "Amigurumis", "emoji": "🧸"}, {"id": 2, "nome": "Para bebês", "emoji": "👶"}, {"id": 3, "nome": "Mesa posta", "emoji": "🍽️"}, {"id": 4, "nome": "Decoração da casa", "emoji": "🏡"}, {"id": 5, "nome": "Acessórios", "emoji": "💍"}, {"id": 6, "nome": "Para os pets", "emoji": "🐾"}, {"id": 7, "nome": "Roupas e moda", "emoji": "👗"}, {"id": 8, "nome": "Linha católica", "emoji": "✝️"}], "itens": [{"id": 1, "nome": "Animais Amigurumi", "cat": 1, "emoji": "🧸"}, {"id": 2, "nome": "Bonecas Amigurumi", "cat": 1, "emoji": "🧸"}, {"id": 3, "nome": "Ursinhos Amigurumi", "cat": 1, "emoji": "🧸"}, {"id": 4, "nome": "Chaveiros Amigurumi", "cat": 1, "emoji": "🧸"}, {"id": 5, "nome": "Amigurumi para Bebês", "cat": 1, "emoji": "🧸"}, {"id": 6, "nome": "Roupinhas para Bebês", "cat": 2, "emoji": "👶"}, {"id": 7, "nome": "Jogo Americano", "cat": 3, "emoji": "🍽️"}, {"id": 8, "nome": "Porta Copos", "cat": 3, "emoji": "🍽️"}, {"id": 9, "nome": "Descanso de Panela", "cat": 3, "emoji": "🍽️"}, {"id": 10, "nome": "Centros de Mesa", "cat": 3, "emoji": "🍽️"}, {"id": 11, "nome": "Sousplat", "cat": 3, "emoji": "🍽️"}, {"id": 12, "nome": "Tapetes", "cat": 4, "emoji": "🏡"}, {"id": 13, "nome": "Tapetes para Banheiro", "cat": 4, "emoji": "🏡"}, {"id": 14, "nome": "Capas de Almofada", "cat": 4, "emoji": "🏡"}, {"id": 15, "nome": "Brincos", "cat": 5, "emoji": "💍"}, {"id": 16, "nome": "Colares", "cat": 5, "emoji": "💍"}, {"id": 17, "nome": "Pulseiras", "cat": 5, "emoji": "💍"}, {"id": 18, "nome": "Bolsas", "cat": 5, "emoji": "💍"}, {"id": 19, "nome": "Roupas para Cachorro", "cat": 6, "emoji": "🐾"}, {"id": 20, "nome": "Roupas para Gatos", "cat": 6, "emoji": "🐾"}, {"id": 21, "nome": "Croppeds", "cat": 7, "emoji": "👗"}, {"id": 22, "nome": "Mantas para Sofá", "cat": 4, "emoji": "🏡"}, {"id": 23, "nome": "Biquínis", "cat": 7, "emoji": "👗"}, {"id": 24, "nome": "Cestos", "cat": 4, "emoji": "🏡"}, {"id": 25, "nome": "Capas de Bíblia", "cat": 8, "emoji": "✝️"}, {"id": 26, "nome": "Brincos Católicos", "cat": 8, "emoji": "✝️"}, {"id": 27, "nome": "Colares Católicos", "cat": 8, "emoji": "✝️"}, {"id": 28, "nome": "Almofadas Católicas", "cat": 8, "emoji": "✝️"}, {"id": 29, "nome": "Sousplat Católico", "cat": 8, "emoji": "✝️"}, {"id": 30, "nome": "Jogo Americano Católico", "cat": 8, "emoji": "✝️"}, {"id": 31, "nome": "Tapetes Católicos", "cat": 8, "emoji": "✝️"}, {"id": 32, "nome": "Bonés", "cat": 7, "emoji": "👗"}, {"id": 33, "nome": "Calças", "cat": 7, "emoji": "👗"}, {"id": 34, "nome": "Shorts", "cat": 7, "emoji": "👗"}, {"id": 35, "nome": "Camisetas", "cat": 7, "emoji": "👗"}, {"id": 36, "nome": "Ponchos", "cat": 7, "emoji": "👗"}, {"id": 37, "nome": "Camisa Social Masculina", "cat": 7, "emoji": "👗"}, {"id": 38, "nome": "Vestidos", "cat": 7, "emoji": "👗"}, {"id": 39, "nome": "Casacos", "cat": 7, "emoji": "👗"}, {"id": 40, "nome": "Cardigans", "cat": 7, "emoji": "👗"}, {"id": 41, "nome": "Saídas de Praia", "cat": 7, "emoji": "👗"}, {"id": 42, "nome": "Sapatinhos de Bebê", "cat": 2, "emoji": "👶"}, {"id": 43, "nome": "Marcadores de Página", "cat": 5, "emoji": "💍"}, {"id": 44, "nome": "Terços", "cat": 8, "emoji": "✝️"}], "pdfs": {}};
+const SABER = [{"p": "O anel mágico abre quando eu puxo o fio. O que fazer?", "r": "Depois de fazer os 6 pontos baixos, puxe o fio solto até o anel fechar por completo. Em seguida, faça um nó com as duas pontas, ou passe o fio por dentro de 2 a 3 pontos antes de cortar. Não corte rente: deixe 5 cm."}, {"p": "Como sei onde termina cada volta?", "r": "Use um marcador de ponto no primeiro ponto da volta. Ao chegar nele, mova o marcador para o primeiro ponto da volta nova. Contar os pontos no fim de cada volta também ajuda: o total está escrito ao lado da volta, entre parênteses."}, {"p": "Como ler (2 pb, aum) x6?", "r": "Quer dizer: faça 2 pontos baixos, depois 1 aumento (2 pontos baixos no mesmo ponto), e repita isso 6 vezes na volta. No fim da volta, o total de pontos bate com o número entre parênteses."}, {"p": "A minha volta ficou com pontos a mais ou a menos.", "r": "Conte a volta antes de seguir. Se faltou ou sobrou, desmanche essa volta e refaça com calma. Uma volta errada vira uma peça torta. Use o marcador e conte de 6 em 6."}, {"p": "A peça ficou torta ou espiralada.", "r": "Em amigurumi em espiral isso é normal: a volta sobe levemente. Para endireitar, aperte um pouco o fio e esconda o início da volta no lado de trás da peça."}, {"p": "Dá para ver o enchimento entre os pontos.", "r": "O fio está largo para a agulha. Use agulha um número menor (2,0 mm), ou segure o fio mais firme. Cor de enchimento clara em peça escura também aparece, então use enchimento da cor do fio, quando puder."}, {"p": "Quanto de enchimento devo colocar?", "r": "Encha em camadas pequenas, empurrando primeiro para as pontas. A peça deve ficar firme ao toque, sem marcar o ponto. Se amassar muito fácil, falta enchimento; se os pontos abrirem, é demais."}, {"p": "Como trocar de cor sem ficar feio?", "r": "Termine o último ponto da cor antiga puxando a nova cor no último laço. Passe a ponta antiga por dentro da peça. Faça a troca sempre no primeiro ponto da volta."}, {"p": "Como escondo as pontas de fio?", "r": "Passe a ponta com a agulha de tapeçaria por dentro da peça, por uns 3 cm, e saia por outro lado. Corte rente. Se for peça para vender, dê um pequeno nó antes."}, {"p": "Posso usar outro fio, além do algodão?", "r": "Pode, mas o tamanho final muda. Fio mais grosso faz a peça maior e exige agulha maior. Algodão 8/6 com agulha de 2,5 mm é o que as receitas usam como medida."}, {"p": "Como aumentar o tamanho da peça?", "r": "Acrescente voltas de aumento no disco, de 6 em 6 pontos, e as mesmas voltas retas a mais na altura. Faça a conta: cada volta de aumento soma 6 pontos."}, {"p": "Como diminuir o tamanho da peça?", "r": "Termine os aumentos uma volta antes e faça menos voltas retas. Cada volta a menos tira cerca de meio centímetro."}, {"p": "O que é amostra e por que fazer?", "r": "É uma peça pequena, só para testar o fio e a agulha. Faça um disco de 3 voltas e confira se mede perto de 3 cm. Se estiver bem maior ou menor, troque a agulha."}, {"p": "Meu ponto baixo está apertado.", "r": "Relaxe a mão e puxe o fio com menos força. Se ainda apertar, use uma agulha meio número maior. Ponto apertado dificulta fechar a volta."}, {"p": "Como faço o ponto baixíssimo para fechar?", "r": "Insira a agulha no primeiro ponto da volta, puxe um laço e passe pelo laço que já estava na agulha. Corte o fio deixando uma ponta longa."}, {"p": "Como tirar boas fotos para vender?", "r": "Luz de janela, fundo liso e claro, a peça sozinha. Tire de frente, de lado, de cima e na mão, para mostrar o tamanho."}, {"p": "Como embalo para enviar pelo correio?", "r": "Envolva em papel de seda, ponha em uma caixa com enchimento de papel em volta, para não amassar. Cole a etiqueta com o nome e o cuidado."}, {"p": "Preciso de agulha de crochê de qual medida?", "r": "As receitas usam agulha de 2,5 mm com algodão 8/6. Se o seu fio for mais fino ou mais grosso, faça a amostra e ajuste a agulha."}, {"p": "Quanto cobrar por uma peça?", "r": "Abra a Calculadora de preços aqui no app: ela soma o seu fio, os extras e a sua hora de trabalho e acrescenta a margem. Troque os campos pelos seus valores."}, {"p": "Posso vender as peças que eu fizer?", "r": "Pode. As peças que você faz são suas e você vende onde quiser. Use o kit de papelaria e as mensagens prontas para organizar as vendas."}, {"p": "Onde está o PDF de cada material?", "r": "Entre em Materiais, escolha a categoria e toque no produto. Lá tem o botão para abrir o PDF, que você também pode salvar ou imprimir."}, {"p": "Como sei qual material fazer primeiro?", "r": "Comece pelo que você mais quer ter em casa ou pelo que mais combina com o seu estilo. Quem quer vender pode começar pelos chaveiros, porta copos e brincos: são peças pequenas e rápidas."}];
+const MENSAGENS = [{"c": "Primeiro contato", "t": "Oi, [nome]! Tudo bem? Eu faço peças de crochê feitas à mão. Posso te mandar as fotos das que estão prontas?"}, {"c": "Primeiro contato", "t": "Bom dia, [nome]! Fiz umas peças novas de crochê e lembrei de você. Quer dar uma olhada?"}, {"c": "Primeiro contato", "t": "Oi! Vi que você gosta de peças feitas à mão. Trabalho com crochê e posso fazer na cor que você quiser. Quer ver o catálogo?"}, {"c": "Primeiro contato", "t": "Oi, [nome]! Você já viu amigurumi? Faço bichinhos e bonecas de crochê, cada um feito à mão. Te mando as fotos?"}, {"c": "Primeiro contato", "t": "Oi! Estou com peças de crochê para a casa: jogo americano, sousplat e porta copos. Quer ver as cores?"}, {"c": "Catálogo", "t": "Separei as peças que tenho prontas: amigurumis, decoração e acessórios. Qual combina mais com você?"}, {"c": "Catálogo", "t": "Posso fazer na cor que você preferir. Me diz a cor do ambiente ou da roupa e eu escolho os fios."}, {"c": "Catálogo", "t": "Também faço conjuntos: jogo americano com porta copos e descanso de panela, tudo na mesma cor. Quer ver?"}, {"c": "Catálogo", "t": "Tenho brincos, colares e pulseiras de crochê. Posso fazer combinando com a sua bolsa. Quer ver as fotos?"}, {"c": "Preço", "t": "A [peça] sai por R$ [valor]. Já vai embalada, pronta para presente."}, {"c": "Preço", "t": "O conjunto fica R$ [valor], e se levar 2 conjuntos eu faço R$ [valor] no total."}, {"c": "Preço", "t": "O valor é R$ [valor] e leva [dias] dias para ficar pronta, porque é feita à mão, uma por uma."}, {"c": "Fechamento", "t": "Posso reservar a sua peça? Para começar eu peço R$ [valor] de sinal e o resto na entrega."}, {"c": "Fechamento", "t": "Fechado! Me manda a cor e o endereço, que eu já separo os fios e começo a fazer hoje."}, {"c": "Fechamento", "t": "Combinado! Aceito Pix ou cartão. Te mando a chave Pix agora, pode ser?"}, {"c": "Entrega", "t": "A sua peça ficou pronta! Vou te mandar as fotos antes de embalar. Posso enviar?"}, {"c": "Entrega", "t": "Já saiu a sua encomenda! Código de rastreio: [código]. Qualquer coisa me chama."}, {"c": "Pós-venda", "t": "Oi, [nome]! A sua peça chegou direitinho? Se puder, me manda uma foto dela na sua casa, eu adoro ver."}, {"c": "Pós-venda", "t": "Que bom que gostou! Se quiser indicar para uma amiga, eu faço um desconto para vocês duas."}, {"c": "Pós-venda", "t": "Oi, [nome]! Tenho peças novas parecidas com a que você levou. Quer ver as fotos?"}];
+const CATS = DADOS.cats, ITENS = DADOS.itens, PDFS = DADOS.pdfs || {};
+const ls = {get(k,d){try{const v=localStorage.getItem('cmb_'+k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem('cmb_'+k,JSON.stringify(v))}catch(e){}}};
+let fav=new Set(ls.get('fav',[])), feitos=new Set(ls.get('feitos',[]));
+const sv=()=>{ls.set('fav',[...fav]);ls.set('feitos',[...feitos])};
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const brl=n=>'R$ '+Number(n).toFixed(2).replace('.',',');
+const $app=document.getElementById('app'),$top=document.getElementById('top');
+let hist=[], rota={r:'home'};
+const cat=id=>CATS.find(c=>c.id===id);
+function go(r,p,push=true){ if(push)hist.push(rota); rota={r,p}; draw(); window.scrollTo(0,0); }
+document.getElementById('back').onclick=()=>{const a=hist.pop(); if(a){rota=a;draw();window.scrollTo(0,0)}else go('home',null,false)};
+document.querySelectorAll('#nav button').forEach(b=>b.onclick=()=>{hist=[];go(b.dataset.r,null,false)});
+const arte=(e)=>`<div style="font-size:54px;line-height:1">${e}</div>`;
+function cardItem(x){const ok=feitos.has(x.id),f=fav.has(x.id);return `<div class="card" onclick="go('item',${x.id})"><div class="art">${arte(x.emoji)}<span class="badge ${ok?'ok':''}">${ok?'FEITO ✓':'Nº '+x.id}</span><button class="fav" onclick="event.stopPropagation();tfav(${x.id})">${f?'❤️':'🤍'}</button></div><div class="tx"><div class="tt">${esc(x.nome)}</div><div class="st">${esc(cat(x.cat).nome)} · PDF</div></div></div>`}
+function tfav(id){fav.has(id)?fav.delete(id):fav.add(id);sv();draw(true)}
+function tfeito(id){feitos.has(id)?feitos.delete(id):feitos.add(id);sv();draw(true)}
+function home(){
+  const fe=feitos.size;
+  return `<div class="hello">Que bom ter você aqui 🧶 <b>Seu acesso é para sempre.</b></div>
+  <div class="hero"><div><h1>Combo Completo de Crochê</h1><p>${ITENS.length} materiais digitais em PDF, de amigurumi a roupas, decoração e acessórios. Escolha um e comece hoje.</p><div class="bar"><i style="width:${Math.round(fe/ITENS.length*100)}%"></i></div><div class="prog">${fe} de ${ITENS.length} materiais feitos</div></div></div>
+  <div class="tiles">
+    <div class="tile" onclick="go('materiais')"><div class="ic">📚</div><div><b>Meus 44 materiais</b><span>Todos os PDFs</span></div></div>
+    <div class="tile" onclick="go('favoritos')"><div class="ic">❤️</div><div><b>Favoritos</b><span>${fav.size} salvos</span></div></div>
+    <div class="tile" onclick="go('contador')"><div class="ic">🔢</div><div><b>Contador de pontos</b><span>Nunca perca a conta</span></div></div>
+    <div class="tile" onclick="go('precos')"><div class="ic">💰</div><div><b>Calculadora de preços</b><span>Quanto cobrar</span></div></div>
+    <div class="tile" onclick="go('assistente')"><div class="ic">🤖</div><div><b>Assistente de crochê</b><span>Tire dúvidas na hora</span></div></div>
+    <div class="tile" onclick="go('mensagens')"><div class="ic">💬</div><div><b>Mensagens para vender</b><span>20 prontas</span></div></div>
+  </div>
+  <h2 class="sec">Seus materiais</h2>
+  <div class="grid">${CATS.map(c=>{const l=ITENS.filter(x=>x.cat===c.id);return `<div class="card" onclick="go('cat',${c.id})"><div class="art">${arte(c.emoji)}<span class="badge">${l.length} materiais</span></div><div class="tx"><div class="tt">${c.nome}</div><div class="st">${l.filter(x=>feitos.has(x.id)).length} feitos</div></div></div>`}).join('')}</div>
+  <div class="note">Cada material é um PDF com passo a passo, lista de materiais e abreviações. As medidas são aproximadas: faça sempre uma amostra pequena antes de começar a peça.</div>`;
+}
+let fQ='';
+function materiais(){const l=ITENS.filter(x=>!fQ||x.nome.toLowerCase().includes(fQ.toLowerCase()));return `<h1 style="font-size:26px">Meus 44 materiais</h1><div class="note" style="margin:4px 0 0">Toque no material para abrir o PDF.</div><div class="search"><span>🔍</span><input id="q" placeholder="Buscar material..." value="${esc(fQ)}" oninput="fQ=this.value;draw(true,'q')"></div>${l.length?`<div class="grid">${l.map(cardItem).join('')}</div>`:'<div class="empty">Nenhum material com esse nome.</div>'}`}
+function categoria(id){const l=ITENS.filter(x=>x.cat===id);return `<h1 style="font-size:24px">${cat(id).emoji} ${cat(id).nome}</h1><div class="note" style="margin:4px 0 12px">${l.length} materiais</div><div class="grid">${l.map(cardItem).join('')}</div>`}
+function favoritos(){const l=ITENS.filter(x=>fav.has(x.id));return `<h1 style="font-size:26px">Favoritos</h1>${l.length?`<div class="grid" style="margin-top:12px">${l.map(cardItem).join('')}</div>`:'<div class="empty">Toque no coração de um material para guardar aqui.</div>'}`}
+function item(id){
+  const x=ITENS.find(i=>i.id===id); if(!x)return ''; const url=PDFS[id]||'';
+  return `<div class="rec"><div class="rec-art" style="display:grid;place-items:center;font-size:90px;padding:26px 0">${x.emoji}</div><h1>${esc(x.nome)}</h1>
+  <div class="meta"><span>📚 ${esc(cat(x.cat).nome)}</span><span>📄 PDF</span><span>#${x.id} de ${ITENS.length}</span></div>
+  <div class="box"><h3>O que vem neste material</h3><div style="font-size:14px;line-height:1.55">Passo a passo com fotos, lista de materiais e abreviações, para você acompanhar no seu ritmo.</div>
+  <div class="acts no-print" style="margin-top:12px">${url?`<a class="btn" href="${esc(url)}" target="_blank" rel="noopener" style="display:inline-block;text-decoration:none">📥 Abrir o PDF</a>`:'<button class="btn" disabled>PDF em breve</button>'}</div></div>
+  <div class="acts no-print"><button class="btn ${feitos.has(id)?'ok':'sec'}" onclick="tfeito(${id})">${feitos.has(id)?'✓ Feito':'Marcar como feito'}</button><button class="btn sec" onclick="tfav(${id})">${fav.has(id)?'❤️ Favorito':'🤍 Favoritar'}</button><button class="btn sec" onclick="go('precos')">💰 Quanto cobrar</button><button class="btn sec" onclick="go('contador')">🔢 Contador</button></div></div>`;
+}
+let qa='';
+function assistente(){const l=SABER.filter(x=>!qa||(x.p+' '+x.r).toLowerCase().includes(qa.toLowerCase()));return `<h1 style="font-size:26px">Assistente de crochê</h1><div class="note" style="margin:4px 0 8px">Digite a sua dúvida (ex.: anel mágico, enchimento, agulha). Responde na hora, mesmo sem internet.</div><div class="search"><span>🔍</span><input id="qa" placeholder="Qual é a sua dúvida?" value="${esc(qa)}" oninput="qa=this.value;draw(true,'qa')"></div>${l.length?l.map(x=>`<div class="box"><h3>${esc(x.p)}</h3><div style="font-size:14px;line-height:1.55">${esc(x.r)}</div></div>`).join(''):`<div class="empty">Não achei essa dúvida.${SUPORTE_URL?` <a href="${SUPORTE_URL}" target="_blank" rel="noopener">Fale com o suporte</a>.`:''}</div>`}<div class="note">Este assistente responde as dúvidas mais comuns de crochê com respostas prontas.</div>`}
+function comunidade(){return `<h1 style="font-size:26px">Comunidade e suporte</h1><div class="box"><p style="margin:0 0 12px;line-height:1.55">Um espaço para mostrar as suas peças, tirar dúvidas e trocar ideia com outras crocheteiras.</p>${COMUNIDADE_URL?`<a class="btn" href="${COMUNIDADE_URL}" target="_blank" rel="noopener" style="display:inline-block;text-decoration:none">Entrar no grupo</a>`:'<button class="btn" disabled>Link do grupo em breve</button>'}${SUPORTE_URL?`<a class="btn sec" href="${SUPORTE_URL}" target="_blank" rel="noopener" style="display:inline-block;text-decoration:none;margin-left:8px">Falar com o suporte</a>`:''}</div><div class="box"><h3>Combinados do grupo</h3><ol class="steps"><li><i>1</i><span>Poste foto da sua peça pronta: todo mundo gosta de ver.</span></li><li><i>2</i><span>Travou? Diga em qual material e em que volta, para a resposta ser rápida.</span></li><li><i>3</i><span>Respeite as colegas e não divulgue o conteúdo fora do grupo.</span></li></ol></div>`}
+function ferramentas(){return `<h1 style="font-size:26px">Ferramentas</h1><div class="note" style="margin:4px 0 12px">Tudo para fazer e vender as suas peças.</div><div class="tiles">
+  <div class="tile" onclick="go('contador')"><div class="ic">🔢</div><div><b>Contador de pontos</b><span>Conte as carreiras</span></div></div>
+  <div class="tile" onclick="go('precos')"><div class="ic">💰</div><div><b>Calculadora de preços</b><span>Quanto cobrar</span></div></div>
+  <div class="tile" onclick="go('assistente')"><div class="ic">🤖</div><div><b>Assistente de crochê</b><span>Tire dúvidas</span></div></div>
+  <div class="tile" onclick="go('papelaria')"><div class="ic">🏷️</div><div><b>Kit de papelaria</b><span>Pedidos e etiquetas</span></div></div>
+  <div class="tile" onclick="go('mensagens')"><div class="ic">💬</div><div><b>Mensagens para vender</b><span>20 prontas</span></div></div>
+  <div class="tile" onclick="go('acabamento')"><div class="ic">🎀</div><div><b>Acabamento e embalagem</b><span>Prepare para vender</span></div></div></div>`}
+function acabamento(){const t=[["Fio solto, peça feia","Esconda todas as pontas passando a agulha de tapeçaria por dentro da peça por 3 cm, e corte rente."],["Enchimento por igual","Nos amigurumis, encha em camadas pequenas, empurrando para os cantos primeiro. A peça deve ficar firme, sem marcar o ponto."],["Peça lisa e sem ondas","Em tapetes, jogo americano e sousplat, estique a peça úmida sobre uma superfície plana e deixe secar. Ela fica reta e sem ondas."],["Fotos que vendem","Luz de janela, fundo liso e claro, a peça sozinha e depois em um cantinho da casa. Tire 4 fotos: frente, lado, de cima e na mão."],["Embalagem","Papel de seda, uma caixinha ou saquinho de papel kraft e o cartão de agradecimento do kit de papelaria."],["Etiqueta","Cole a etiqueta com o nome da peça e o cuidado de lavagem."],["Entrega","Combine local e prazo antes de fazer a peça. Mande foto da peça embalada antes de enviar."]];return `<h1 style="font-size:26px">Acabamento e embalagem</h1><div class="note" style="margin:4px 0 8px">Como finalizar e embalar cada peça para vender.</div>${t.map((x,i)=>`<div class="box"><h3>${i+1}. ${x[0]}</h3><div style="font-size:14px;line-height:1.55">${x[1]}</div></div>`).join('')}`}
+const PR=Object.assign({fio:18,hora:12,margem:30,extra:3,g:100,h:3},ls.get('pr',{}));
+function precos(){const f=(k,t,s='0.5')=>`<div><label>${t}<input type="number" inputmode="decimal" min="0" step="${s}" value="${PR[k]}" onchange="PR['${k}']=Number(this.value)||0;ls.set('pr',PR);draw(true)"></label></div>`;
+ const mat=PR.g/100*PR.fio+PR.extra,mo=PR.h*PR.hora,tot=Math.ceil((mat+mo)*(1+PR.margem/100));
+ return `<h1 style="font-size:26px">Calculadora de preços</h1><div class="note" style="margin:4px 0 10px">Preencha com a <b>sua</b> peça, o <b>seu</b> fio e a <b>sua</b> hora. O preço sugerido aparece na hora.</div>
+ <div class="box"><h3>A peça</h3><div class="fld">${f('g','Fio usado (gramas)','10')}${f('h','Horas para fazer','0.5')}${f('extra','Extras (enchimento, olhos, forro): R$')}</div></div>
+ <div class="box"><h3>O seu custo</h3><div class="fld">${f('fio','Fio: R$ por 100 g')}${f('hora','Sua hora de trabalho: R$')}${f('margem','Margem de lucro: %','5')}</div></div>
+ <div class="box" style="text-align:center"><div style="font-size:12px;font-weight:800;letter-spacing:.14em;color:var(--soft)">PREÇO SUGERIDO</div><div style="font-family:Fraunces,serif;font-size:64px;font-weight:700;color:var(--terra-d);line-height:1.1;margin:6px 0">${brl(tot)}</div><div class="note">Material ${brl(mat)} + mão de obra ${brl(mo)}, mais ${PR.margem}% de margem, arredondado para cima.</div></div>`}
+function papelaria(){const e=["Obrigada pela compra!","Feito à mão com carinho","Cuidados: lavar à mão","Peça única, feita à mão","Presente para você","Crochê feito com amor","Pedido nº ____","Para: __________","De: __________","Siga no Instagram: @_____","Obrigada por apoiar o meu trabalho","Gostou? Me conta e indica para uma amiga"];return `<h1 style="font-size:26px">Kit de papelaria digital</h1><div class="note" style="margin:4px 0 8px">Imprima direto desta tela (botão abaixo) ou salve em PDF.</div><div class="acts no-print"><button class="btn" onclick="window.print()">🖨️ Imprimir / salvar em PDF</button></div>
+ <h2 class="sec">Planilha de pedidos</h2><div class="sheet"><table><tr><th>Data</th><th>Cliente</th><th>Peça</th><th>Valor</th><th>Pago?</th><th>Entrega</th></tr>${'<tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>'.repeat(10)}</table></div>
+ <h2 class="sec">Planilha de produção</h2><div class="sheet"><table><tr><th>Peça</th><th>Fios separados</th><th>Início</th><th>Pronta</th><th>Embalada</th><th>Obs.</th></tr>${'<tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>'.repeat(10)}</table></div>
+ <h2 class="sec">12 etiquetas e cartões</h2><div class="etq">${e.map((x,i)=>`<div><b>${i<6?'Etiqueta':'Cartão'} ${i%6+1}</b>${x}</div>`).join('')}</div>`}
+function mensagens(){return `<h1 style="font-size:26px">20 mensagens prontas</h1><div class="note" style="margin:4px 0 8px">Toque em "Copiar", troque o que estiver entre [colchetes] e envie.</div>${MENSAGENS.map((m,i)=>`<div class="msg"><small>${i+1} · ${esc(m.c)}</small>${esc(m.t)}<br><button class="btn" onclick="cp(${i},this)">Copiar</button></div>`).join('')}`}
+function cp(i,b){const t=MENSAGENS[i].t;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>{b.textContent='Copiado ✓'}).catch(()=>{const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');b.textContent='Copiado ✓'}catch(e){}ta.remove()});setTimeout(()=>b.textContent='Copiar',1800)}
+const CT=Object.assign({nome:'',carreira:0,meta:30,pontos:0},ls.get('ct',{}));
+function ctSave(){ls.set('ct',CT)}
+function ctMais(d){CT.carreira=Math.max(0,CT.carreira+d);ctSave();draw(true)}
+function contador(){
+  const pct=CT.meta>0?Math.min(100,Math.round(CT.carreira/CT.meta*100)):0;
+  const fd=CT.carreira*CT.pontos;
+  return `<h1 style="font-size:26px">Contador de pontos</h1><div class="note" style="margin:4px 0 12px">Toque em + a cada carreira (volta) que terminar. O número fica salvo neste aparelho, mesmo se você fechar o app.</div>
+  <div class="box"><label style="font-size:12px;font-weight:700;color:var(--soft)">Meu projeto</label>
+  <input id="ctn" style="width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:#fff;font:inherit;font-size:15px;margin-top:4px" placeholder="Ex.: Ursinho bege, tapete redondo" value="${esc(CT.nome)}" oninput="CT.nome=this.value;ctSave()"></div>
+  <div class="box" style="text-align:center"><div style="font-size:12px;font-weight:800;letter-spacing:.14em;color:var(--soft)">CARREIRA ATUAL</div>
+  <div style="font-family:Fraunces,serif;font-size:84px;font-weight:700;color:var(--terra-d);line-height:1.05;margin:6px 0">${CT.carreira}</div>
+  <div class="acts" style="margin:6px 0"><button class="btn sec" style="font-size:26px;padding:8px 26px" onclick="ctMais(-1)" aria-label="Voltar uma carreira">−</button><button class="btn" style="font-size:26px;padding:8px 40px" onclick="ctMais(1)" aria-label="Mais uma carreira">+</button></div>
+  <div class="note">${CT.pontos>0?CT.pontos+' pontos por carreira · '+fd+' pontos feitos':'Preencha os pontos por carreira para ver o total feito'}</div></div>
+  <div class="box"><div class="fld"><div><label>Meta de carreiras<input type="number" inputmode="numeric" min="0" value="${CT.meta}" onchange="CT.meta=Number(this.value)||0;ctSave();draw(true)"></label></div><div><label>Pontos por carreira<input type="number" inputmode="numeric" min="0" value="${CT.pontos}" onchange="CT.pontos=Number(this.value)||0;ctSave();draw(true)"></label></div></div>
+  <div style="margin-top:14px;font-size:12px;font-weight:800;letter-spacing:.1em;color:var(--soft)">PROGRESSO · ${pct}%</div><div class="bar" style="background:var(--bg2)"><i style="width:${pct}%;background:var(--sage)"></i></div>
+  <div class="acts no-print" style="margin-top:14px"><button class="btn sec" onclick="if(confirm('Zerar o contador?')){CT.carreira=0;ctSave();draw(true)}">Zerar contador</button></div></div>
+  <div class="note">Dica: no PDF de cada material, a contagem de cada volta mostra quantos pontos ela leva. Use esse número em "Pontos por carreira".</div>`}
+function draw(keep,focusId){
+  const r=rota; let h='';
+  const m={home:()=>home(),materiais:()=>materiais(),cat:()=>categoria(r.p),item:()=>item(r.p),favoritos:()=>favoritos(),ferramentas:()=>ferramentas(),assistente:()=>assistente(),comunidade:()=>comunidade(),acabamento:()=>acabamento(),precos:()=>precos(),papelaria:()=>papelaria(),mensagens:()=>mensagens(),contador:()=>contador()};
+  h=(m[r.r]||m.home)();
+  const y=window.scrollY;$app.innerHTML=h;
+  $top.classList.toggle('has-back',r.r!=='home');
+  const tab={home:'home',materiais:'materiais',cat:'materiais',item:'materiais',favoritos:'materiais'}[r.r]||(r.r==='comunidade'?'comunidade':'ferramentas');
+  document.querySelectorAll('#nav button').forEach(b=>b.classList.toggle('on',b.dataset.r===tab));
+  if(keep)window.scrollTo(0,y);
+  if(focusId){const el=document.getElementById(focusId);if(el){el.focus();const v=el.value;try{el.setSelectionRange(v.length,v.length)}catch(e){}}}
+}
+draw();
+</script>
+</body>
+</html>
