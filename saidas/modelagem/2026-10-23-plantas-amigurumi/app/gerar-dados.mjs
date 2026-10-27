@@ -212,6 +212,40 @@ T.mini = (s) => {
   return { partes, mont: ["Costure a terra por dentro do vaso grande.", "Monte cada plantinha pelas partes indicadas (sem o vaso, só a parte da planta).", "Costure as plantas na terra, uma ao lado da outra, com alturas diferentes.", "Prenda cada uma por baixo, com pontos escondidos, e termine com pedrinhas de crochê ou musgo de fio verde."], dicas: ["Faça primeiro a maior planta e deixe as menores para a frente."], desenho: { tipo: "mini", q: s.itens.length, pot: s.pot, c1: s.cor1 || "verdeSalvia", c2: s.cor2 || "rosaCha" }, cm: Number(cmVaso(k)) + 9 };
 };
 
+// ---------- coleções extras (ofertas do checkout, 25/10/2026): orquídeas, buquês e bonsais ----------
+T.orquidea = (s) => {
+  const { out, k } = potParts(s.vaso || "M", s.pot, "marrom", s.barra);
+  const fl = s.flores || 3;
+  const partes = [...out, P("Pétala grande (9 corr)", s.cor, 2 * fl, folha(9)), P("Sépala lateral (7 corr)", s.cor, 3 * fl, folha(7)), P("Labelo (lábio da flor)", s.labelo, fl, cupula(2, 1)), P("Haste de arame", "verdeFolha", 1, arame(s.haste || 26)), P("Folha larga (13 corr)", "verdeFolha", 3, folha(13))];
+  return { partes, mont: ["Costure a terra por dentro do vaso.", "Cubra o arame com fio verde, enrolando bem juntinho de baixo para cima. Dobre a haste em arco suave.", `Monte ${fl} flores: 2 pétalas grandes abertas como asas, 1 sépala em cima e 2 sépalas embaixo, formando uma estrela.`, "Encha o labelo bem pouco e costure no centro de cada flor.", "Costure as flores ao longo do arco da haste, a maior perto da base e a menor na ponta.", "Costure as 3 folhas largas na base da haste e prenda o arame dentro do vaso, com enchimento ao redor."], dicas: ["Para o efeito de orquídea de verdade, deixe cada flor virada um pouco para um lado.", "Dobre as pontas das pétalas para trás com o dedo: elas ganham forma."], desenho: { tipo: "orquidea", cor: s.cor, centro: s.labelo, q: fl, pot: s.pot }, cm: Number(cmVaso(k)) + (s.haste || 26) - 4 };
+};
+T.buque = (s) => {
+  const partes = [P(`Pétala (${s.n} corr)`, s.cor, s.p * s.q, folha(s.n)), P("Miolo da flor", s.centro, s.q, disco(s.k || 2)), P("Haste de arame", "verdeFolha", s.q, arame(18)), P("Folha (9 corr)", "verdeFolha", s.fo || s.q, folha(9)), P("Embalagem do buquê (retângulo)", s.emb, 1, retangulo(26, 20)), P("Laço (cordão 45)", s.laco, 1, cordao(45))];
+  if (s.cor2) partes.splice(1, 0, P(`Pétala da 2ª cor (${s.n} corr)`, s.cor2, s.p * (s.q2 || 2), folha(s.n)));
+  return { partes, mont: [`Monte ${s.q} flores: ${s.p} pétalas em volta de cada miolo, uma sobre a outra.`, "Cubra cada arame com fio verde e costure uma flor na ponta de cada um.", "Costure as folhas nas hastes, em alturas diferentes.", "Junte as hastes em leque, as flores maiores no centro, e amarre com um pedaço de fio.", "Enrole a embalagem em cone em volta das hastes e costure a lateral.", "Dê um nó no laço e costure na frente do cone."], dicas: ["Use flores de alturas diferentes: o buquê fica cheio e natural.", "Para presente, encha o cone com um pouquinho de enchimento e firme as hastes."], desenho: { tipo: "buque", cor: s.cor, cor2: s.cor2 || s.cor, q: s.q, pot: s.emb }, cm: 28 };
+};
+T.bonsai = (s) => {
+  const { out, k } = potParts(s.vaso || "P", s.pot, "marrom", s.barra);
+  const partes = [...out, P(`Tronco (cordão ${s.tr || 36})`, "marrom", 2, cordao(s.tr || 36)), P("Galho (cordão 20)", "marrom", s.gal || 3, cordao(20)), P("Bolinha da copa", s.copa, s.q, cupula(2, 1)), P("Haste de arame (miolo do tronco)", "marrom", 1, arame(20))];
+  if (s.flor) partes.push(P("Florzinha (pétala 5 corr)", s.flor, s.fl * 4, folha(5)));
+  if (s.fruto) partes.push(P("Fruto (bolinha)", s.fruto, s.nf, corpo(2, 0)));
+  if (s.pedras) partes.push(P("Pedrinha", "cinza", s.pedras, cupula(2, 0)));
+  return { partes, mont: ["Costure a terra por dentro do vaso.", "Dobre o arame em S e prenda no meio do vaso, com enchimento ao redor.", "Enrole os 2 cordões do tronco em volta do arame, de baixo para cima, e costure as pontas.", `Costure os ${s.gal || 3} galhos em alturas diferentes, saindo do tronco.`, `Costure as ${s.q} bolinhas da copa nas pontas dos galhos, formando 2 ou 3 nuvens.`, s.flor ? "Costure as florzinhas entre as bolinhas da copa, algumas caindo para um lado." : s.fruto ? "Costure os frutinhos no tronco e nos galhos, bem juntinhos." : "Ajuste a forma da copa com pontos escondidos.", s.pedras ? "Distribua as pedrinhas sobre a terra, em volta do tronco." : "Cubra a terra com um pouco de musgo de fio verde."], dicas: ["O tronco torto é o que faz o bonsai: dobre o arame com calma, uma curva só.", "Deixe a copa mais pesada de um lado: é assim que o bonsai de verdade cresce."], desenho: { tipo: "bonsai", copa: s.copa, flor: s.flor || s.fruto || s.copa, pot: s.pot, q: s.q }, cm: Number(cmVaso(k)) + 14 };
+};
+
+// ---------- coleção extra 4: cogumelos e casinhas (25/10/2026) ----------
+T.cogumelo = (s) => {
+  const partes = [P("Chapéu do cogumelo", s.chapeu, 1, cupula(s.m || 4, s.s || 2)), P("Caule", s.caule || "creme", 1, corpo(2, s.h || 6)), P("Base de grama (disco)", "verdeMusgo", 1, disco(s.g || 4))];
+  if (s.pint) partes.splice(1, 0, P("Bolinha do chapéu", s.pint, s.np || 6, disco(2)));
+  if (s.laco) partes.push(P("Lacinho (cordão 24)", s.laco, 1, cordao(24)));
+  return { partes, mont: ["Encha o chapéu até ficar firme e redondo e feche com costura invisível.", "Encha o caule bem pouco, só para ficar em pé, e feche.", "Costure o caule no centro da base de grama, por baixo, com pontos escondidos.", "Costure o chapéu em cima do caule, deixando uma pontinha de folga para a cabeça pender para a frente.", s.pint ? `Costure as ${s.np || 6} bolinhas no chapéu, bem espalhadas, sem alinhar.` : "Se quiser, borde bolinhas claras com fio branco.", s.laco ? "Dê um nó no lacinho e prenda na base do chapéu." : "Passe um pouquinho de blush na base do chapéu para dar charme."], dicas: ["Faça o chapéu um ponto mais frouxo do que o caule: ele fica mais redondinho.", "Para uma coleção, varie o tamanho do caule: eles ficam ótimos juntos."], desenho: { tipo: "cogumelo", copa: s.chapeu, flor: s.pint || s.chapeu, caule: s.caule || "creme", q: s.np || 6 }, cm: (s.m || 4) * 2 + (s.h || 6) * 0.5 };
+};
+T.casinha = (s) => {
+  const partes = [P("Telhado (chapéu)", s.chapeu, 1, cupula(s.m || 5, s.s || 3)), P("Parede (cilindro)", s.parede || "creme", 1, corpo(4, s.h || 6)), P("Porta (retângulo)", s.porta || "marrom", 1, retangulo(5, 7)), P("Janela (disco)", s.janela || "amarelo", 2, disco(2)), P("Bolinha do telhado", s.pint || "branco", s.np || 5, disco(2)), P("Base de grama (disco)", "verdeMusgo", 1, disco(6))];
+  if (s.chamine) partes.push(P("Chaminé (cilindro)", s.chamine, 1, corpo(2, 4)));
+  return { partes, mont: ["Encha o telhado e a parede e feche com costura invisível.", "Costure a parede no centro da base de grama.", "Costure a porta na frente da parede, na altura da base, e as 2 janelas dos lados.", "Costure o telhado em cima da parede, com uma pontinha de beiral.", `Costure as ${s.np || 5} bolinhas no telhado, bem espalhadas.`, s.chamine ? "Costure a chaminé no lado do telhado e borde uma fumacinha em ponto de haste." : "Borde uma maçaneta com 1 ponto de nó na porta."], dicas: ["Prenda a porta com pontos pequenos nas 4 pontas: ela fica reta.", "Ponha um pouco mais de enchimento no telhado para ele ficar arredondado."], desenho: { tipo: "casinha", copa: s.chapeu, flor: s.pint || "branco", caule: s.parede || "creme", q: s.np || 5 }, cm: 14 };
+};
+
 // ---------- finalização de cada receita ----------
 const nivelDe = (pontos, partes) => (pontos < 700 && partes <= 5 ? "Iniciante" : pontos < 1500 ? "Intermediário" : "Avançado");
 function finalizar(id, grupo, extra, nome, tipo, spec) {
@@ -402,6 +436,50 @@ const E5 = [
 // corrige cores "X" que não existem na paleta
 const fix = (s) => { for (const k of Object.keys(s)) { if (s[k] === "rosaChaX") s[k] = "rosaPink"; if (s[k] === "vinho") s[k] = "roxo"; } return s; };
 
+
+// coleções extras
+const BX1 = [
+  ["Orquídea Phalaenopsis Branca", "orquidea", { cor: "branco", labelo: "amarelo", flores: 3, ...V("terracota") }],
+  ["Orquídea Rosa", "orquidea", { cor: "rosaCha", labelo: "rosaPink", flores: 3, ...V("creme") }],
+  ["Orquídea Lilás", "orquidea", { cor: "lilas", labelo: "roxo", flores: 4, haste: 30, vaso: "G", ...V("bege") }],
+  ["Orquídea Amarela", "orquidea", { cor: "amarelo", labelo: "laranja", flores: 3, ...V("terracota") }],
+];
+const BX2 = [
+  ["Buquê de Rosas Vermelhas", "buque", { n: 6, p: 7, q: 5, cor: "vermelho", centro: "vermelho", emb: "creme", laco: "rosaPink" }],
+  ["Buquê de Margaridas", "buque", { n: 7, p: 9, q: 7, cor: "branco", centro: "amarelo", emb: "bege", laco: "verdeSalvia" }],
+  ["Buquê de Tulipas Coloridas", "buque", { n: 7, p: 5, q: 6, cor: "rosaPink", cor2: "amarelo", q2: 3, centro: "creme", emb: "creme", laco: "lilas" }],
+  ["Buquê de Girassóis", "buque", { n: 8, p: 12, q: 3, cor: "amarelo", centro: "marrom", k: 3, emb: "bege", laco: "terracota" }],
+];
+const BX3 = [
+  ["Bonsai Clássico Verde", "bonsai", { copa: "verdeFolha", q: 9, ...V("terracota") }],
+  ["Bonsai Cerejeira em Flor", "bonsai", { copa: "rosaCha", flor: "rosaPink", fl: 10, q: 8, ...V("creme") }],
+  ["Bonsai Ipê Amarelo", "bonsai", { copa: "amarelo", q: 9, ...V("terracota") }],
+  ["Bonsai Outonal", "bonsai", { copa: "laranja", flor: "vermelho", fl: 6, q: 8, ...V("bege") }],
+  ["Bonsai Pinheiro", "bonsai", { copa: "verdeMusgo", q: 7, tr: 44, gal: 4, ...V("terracota") }],
+  ["Bonsai Jabuticabeira", "bonsai", { copa: "verdeFolha", fruto: "roxo", nf: 12, q: 8, ...V("creme") }],
+  ["Bonsai de Azaleia", "bonsai", { copa: "verdeSalvia", flor: "rosaPink", fl: 12, q: 7, ...V("bege") }],
+  ["Bonsai Zen com Pedrinhas", "bonsai", { copa: "verdeClaro", pedras: 6, q: 8, vaso: "M", ...V("bege") }],
+];
+
+const BX4 = [
+  ["Cogumelo Amanita Vermelho", "cogumelo", { chapeu: "vermelho", pint: "branco", np: 7, m: 4, s: 2, h: 6 }],
+  ["Cogumelo Amanita Rosa", "cogumelo", { chapeu: "rosaPink", pint: "branco", np: 6, m: 4, s: 2, h: 6 }],
+  ["Cogumelo Laranja Sol", "cogumelo", { chapeu: "laranja", pint: "creme", np: 6, m: 4, s: 2, h: 7 }],
+  ["Cogumelo Azul Encantado", "cogumelo", { chapeu: "azul", pint: "branco", np: 6, m: 4, s: 2, h: 6 }],
+  ["Cogumelo Roxo Místico", "cogumelo", { chapeu: "roxo", pint: "lilas", np: 7, m: 4, s: 2, h: 6 }],
+  ["Cogumelo Amarelo Manteiga", "cogumelo", { chapeu: "amarelo", pint: "branco", np: 5, m: 4, s: 2, h: 5 }],
+  ["Cogumelo Marrom da Floresta", "cogumelo", { chapeu: "marrom", caule: "bege", m: 5, s: 2, h: 7 }],
+  ["Cogumelo Verde Musgo", "cogumelo", { chapeu: "verdeMusgo", pint: "creme", np: 6, m: 4, s: 2, h: 6 }],
+  ["Cogumelo Rosa-chá com Lacinho", "cogumelo", { chapeu: "rosaCha", pint: "branco", np: 5, m: 4, s: 2, h: 6, laco: "rosaPink" }],
+  ["Cogumelo Gigante", "cogumelo", { chapeu: "vermelho", pint: "branco", np: 9, m: 6, s: 3, h: 9, g: 5 }],
+  ["Cogumelo Pêssego", "cogumelo", { chapeu: "pessego", pint: "branco", np: 6, m: 4, s: 2, h: 6 }],
+  ["Cogumelo Mini de Mesa", "cogumelo", { chapeu: "vermelho", pint: "branco", np: 4, m: 3, s: 1, h: 4, g: 3 }],
+  ["Casinha de Cogumelo Vermelha", "casinha", { chapeu: "vermelho", pint: "branco", np: 6 }],
+  ["Casinha de Cogumelo Rosa", "casinha", { chapeu: "rosaPink", pint: "branco", np: 6, parede: "bege" }],
+  ["Casinha de Cogumelo Azul", "casinha", { chapeu: "azul", pint: "creme", np: 5, janela: "laranja" }],
+  ["Casinha de Cogumelo com Chaminé", "casinha", { chapeu: "laranja", pint: "creme", np: 5, chamine: "marrom", janela: "amarelo" }],
+];
+
 export function gerar() {
   const grupos = [
     { id: 1, nome: "Suculentas", lista: G1 }, { id: 2, nome: "Cactos", lista: G2 }, { id: 3, nome: "Flores", lista: G3 }, { id: 4, nome: "Folhagens e pendentes", lista: G4 }, { id: 5, nome: "Mini jardins e vasinhos", lista: G5 },
@@ -416,7 +494,9 @@ export function gerar() {
     if (lista.length !== 10) throw new Error(`Extra ${gi + 1} tem ${lista.length}`);
     lista.forEach(([nome, tipo, spec]) => { if (nomes.has(nome)) throw new Error("nome repetido: " + nome); nomes.add(nome); fix(spec); rec.push(finalizar(id++, gi + 1, true, nome, tipo, spec)); });
   });
-  return { grupos: grupos.map((g) => ({ id: g.id, nome: g.nome })), cores: Object.fromEntries(Object.entries(COR).map(([k, v]) => [k, v[1]])), nomes: Object.fromEntries(Object.entries(COR).map(([k, v]) => [k, v[0]])), receitas: rec };
+  const colecoes = [{ id: 6, nome: "Orquídeas", chave: "orquideas", lista: BX1 }, { id: 7, nome: "Buquês", chave: "buques", lista: BX2 }, { id: 8, nome: "Bonsais", chave: "bonsais", lista: BX3 }, { id: 9, nome: "Cogumelos", chave: "cogumelos", lista: BX4 }];
+  colecoes.forEach((c) => c.lista.forEach(([nome, tipo, spec]) => { if (nomes.has(nome)) throw new Error("nome repetido: " + nome); nomes.add(nome); fix(spec); const r = finalizar(id++, c.id, false, nome, tipo, spec); r.bump = c.chave; rec.push(r); }));
+  return { colecoes: colecoes.map((c) => ({ id: c.id, nome: c.nome, chave: c.chave, n: c.lista.length })), grupos: grupos.map((g) => ({ id: g.id, nome: g.nome })), cores: Object.fromEntries(Object.entries(COR).map(([k, v]) => [k, v[1]])), nomes: Object.fromEntries(Object.entries(COR).map(([k, v]) => [k, v[0]])), receitas: rec };
 }
 if (process.argv[1] && process.argv[1].endsWith("gerar-dados.mjs")) {
   const d = gerar();

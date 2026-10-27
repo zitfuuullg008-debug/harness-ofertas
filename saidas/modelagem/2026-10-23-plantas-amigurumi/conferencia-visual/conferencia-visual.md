@@ -1,148 +1,48 @@
-# Conferência visual de 04-pagina.html
+# Conferência visual de app-jardim-de-amigurumi.html
 
-### celular
-- imagens visíveis: 59 · sem texto alternativo: 0
-- fotos: 12 (em conferencia-visual/)
-### computador
-- imagens visíveis: 59 · sem texto alternativo: 0
-- fotos: 13 (em conferencia-visual/)
+### celular #/home
+- imagens visíveis: 7 · sem texto alternativo: 0
+- fotos: 3 (em conferencia-visual/)
+### computador #/home
+- imagens visíveis: 7 · sem texto alternativo: 0
+- fotos: 2 (em conferencia-visual/)
+### celular #/g/6
+- imagens visíveis: 7 · sem texto alternativo: 0
+- fotos: 3 (em conferencia-visual/)
+### computador #/g/6
+- imagens visíveis: 7 · sem texto alternativo: 0
+- fotos: 2 (em conferencia-visual/)
+### celular #/g/7
+- imagens visíveis: 7 · sem texto alternativo: 0
+- fotos: 3 (em conferencia-visual/)
+### computador #/g/7
+- imagens visíveis: 7 · sem texto alternativo: 0
+- fotos: 2 (em conferencia-visual/)
+### celular #/g/8
+- imagens visíveis: 7 · sem texto alternativo: 0
+- fotos: 3 (em conferencia-visual/)
+### computador #/g/8
+- imagens visíveis: 7 · sem texto alternativo: 0
+- fotos: 2 (em conferencia-visual/)
+### celular #/r/201
+- imagens visíveis: 7 · sem texto alternativo: 0
+- fotos: 3 (em conferencia-visual/)
+### computador #/r/201
+- imagens visíveis: 7 · sem texto alternativo: 0
+- fotos: 2 (em conferencia-visual/)
+### celular #/r/205
+- imagens visíveis: 7 · sem texto alternativo: 0
+- fotos: 3 (em conferencia-visual/)
+### computador #/r/205
+- imagens visíveis: 7 · sem texto alternativo: 0
+- fotos: 2 (em conferencia-visual/)
+### celular #/r/209
+- imagens visíveis: 7 · sem texto alternativo: 0
+- fotos: 3 (em conferencia-visual/)
+### computador #/r/209
+- imagens visíveis: 7 · sem texto alternativo: 0
+- fotos: 2 (em conferencia-visual/)
 
-## 136 problema(s), 0 aviso(s)
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-03.webp?v=363d4265
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-04.webp?v=dcaf8b36
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-05.webp?v=7efe83c1
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-06.webp?v=739fe1a3
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-07.webp?v=906e88c9
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-08.webp?v=2cf585f8
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-09.webp?v=332e28e8
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-10.webp?v=5dc15e42
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-11.webp?v=f26feeed
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-12.webp?v=cc3b84c9
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-13.webp?v=98355835
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-14.webp?v=61c2612d
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-15.webp?v=ed5c7b20
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-16.webp?v=eb7b979d
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-01.webp?v=2a0bec07
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-02.webp?v=d198e257
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-03.webp?v=363d4265
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-04.webp?v=dcaf8b36
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-05.webp?v=7efe83c1
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-06.webp?v=739fe1a3
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-07.webp?v=906e88c9
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-08.webp?v=2cf585f8
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-09.webp?v=332e28e8
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-10.webp?v=5dc15e42
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-11.webp?v=f26feeed
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-12.webp?v=cc3b84c9
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-13.webp?v=98355835
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-14.webp?v=61c2612d
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-15.webp?v=ed5c7b20
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-16.webp?v=eb7b979d
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → fertas/imagens/jardim-de-amigurumi/receita-3.webp?v=bfa49e44
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → fertas/imagens/jardim-de-amigurumi/receita-4.webp?v=9b6c26d3
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → fertas/imagens/jardim-de-amigurumi/receita-5.webp?v=604df722
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → fertas/imagens/jardim-de-amigurumi/receita-1.webp?v=ad16a43b
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → fertas/imagens/jardim-de-amigurumi/receita-2.webp?v=14438043
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → fertas/imagens/jardim-de-amigurumi/receita-3.webp?v=bfa49e44
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → fertas/imagens/jardim-de-amigurumi/receita-4.webp?v=9b6c26d3
-- PROBLEMA celular: imagem QUEBRADA [demo] img (não carregou) → fertas/imagens/jardim-de-amigurumi/receita-5.webp?v=604df722
-- PROBLEMA celular: imagem [demo] img passa da caixa carousel-wrapper e é cortada
-- PROBLEMA celular: imagem [demo] img passa da caixa carousel-wrapper e é cortada
-- PROBLEMA celular: [demo] img passa da tela (287 a 549, tela 390)
-- PROBLEMA celular: [demo] img passa da tela (285 a 551, tela 390)
-- PROBLEMA celular: [demo] carousel-track passa da tela (direita em 8881, tela 390)
-- PROBLEMA celular: [demo] carousel-item passa da tela (direita em 550, tela 390)
-- PROBLEMA celular: [demo] img passa da tela (direita em 549, tela 390)
-- PROBLEMA celular: [demo] carousel-item passa da tela (direita em 828, tela 390)
-- PROBLEMA celular: [demo] img passa da tela (direita em 820, tela 390)
-- PROBLEMA celular: [demo] carousel-item passa da tela (direita em 1105, tela 390)
-- PROBLEMA celular: [demo] img passa da tela (direita em 1104, tela 390)
-- PROBLEMA celular: [demo] carousel-item passa da tela (direita em 1382, tela 390)
-- PROBLEMA celular: [demo] img passa da tela (direita em 1374, tela 390)
-- PROBLEMA celular: [demo] carousel-item passa da tela (direita em 1660, tela 390)
-- PROBLEMA celular: [demo] img passa da tela (direita em 1659, tela 390)
-- PROBLEMA celular: texto difícil de ler, span "🪴 Pagamento único · acesso imediato · 3" contraste 3.8:1
-- PROBLEMA celular: texto difícil de ler, [demo] demo-topo "Suculentas · Cactos · Flores · Folhagens" contraste 3.8:1
-- PROBLEMA celular: texto difícil de ler, [demo] demo-eyebrow "Veja algumas das +150 plantinhas do Jard" contraste 3.8:1
-- PROBLEMA celular: texto difícil de ler, [ideal] h3 "Faz crochê por hobby e quer transformar " contraste 3.8:1
-- PROBLEMA celular: texto difícil de ler, [ideal] p "Você já faz peças bonitas, mas não sabe " contraste 3.8:1
-- PROBLEMA celular: texto difícil de ler, [ideal] h3 "Está começando agora e tem medo de errar" contraste 3.8:1
-- PROBLEMA celular: texto difícil de ler, [ideal] p "Cada receita traz os fios, as cores e a " contraste 3.8:1
-- PROBLEMA celular: texto difícil de ler, [ideal] h3 "Não tem tempo para inventar modelo" contraste 3.8:1
-- PROBLEMA celular: texto difícil de ler, [ideal] p "As +150 receitas já estão prontas, em 5 " contraste 3.8:1
-- PROBLEMA celular: texto difícil de ler, [ideal] h3 "Quer vender e não sabe quanto cobrar" contraste 3.8:1
-- PROBLEMA celular: texto difícil de ler, [ideal] p "A tabela de preços das 150 plantinhas mo" contraste 3.8:1
-- PROBLEMA celular: texto difícil de ler, [ideal] h3 "Quer um presente que não murcha" contraste 3.8:1
-- PROBLEMA celular: texto difícil de ler, [ideal] p "Plantinha de crochê não precisa de água " contraste 3.8:1
-- PROBLEMA celular: texto difícil de ler, [bonuses] bonus-num-tag "#1 · BÔNUS HOJE!" contraste 3.8:1
-- PROBLEMA celular: texto difícil de ler, [bonuses] bonus-num-tag "#2 · BÔNUS HOJE!" contraste 3.8:1
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-03.webp?v=363d4265
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-04.webp?v=dcaf8b36
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-05.webp?v=7efe83c1
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-06.webp?v=739fe1a3
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-07.webp?v=906e88c9
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-08.webp?v=2cf585f8
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-09.webp?v=332e28e8
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-10.webp?v=5dc15e42
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-11.webp?v=f26feeed
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-12.webp?v=cc3b84c9
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-13.webp?v=98355835
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-14.webp?v=61c2612d
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-15.webp?v=ed5c7b20
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-16.webp?v=eb7b979d
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-01.webp?v=2a0bec07
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-02.webp?v=d198e257
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-03.webp?v=363d4265
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-04.webp?v=dcaf8b36
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-05.webp?v=7efe83c1
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-06.webp?v=739fe1a3
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-07.webp?v=906e88c9
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-08.webp?v=2cf585f8
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-09.webp?v=332e28e8
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-10.webp?v=5dc15e42
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-11.webp?v=f26feeed
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-12.webp?v=cc3b84c9
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-13.webp?v=98355835
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-14.webp?v=61c2612d
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-15.webp?v=ed5c7b20
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → ertas/imagens/jardim-de-amigurumi/galeria-16.webp?v=eb7b979d
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → fertas/imagens/jardim-de-amigurumi/receita-3.webp?v=bfa49e44
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → fertas/imagens/jardim-de-amigurumi/receita-4.webp?v=9b6c26d3
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → fertas/imagens/jardim-de-amigurumi/receita-5.webp?v=604df722
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → fertas/imagens/jardim-de-amigurumi/receita-1.webp?v=ad16a43b
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → fertas/imagens/jardim-de-amigurumi/receita-2.webp?v=14438043
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → fertas/imagens/jardim-de-amigurumi/receita-3.webp?v=bfa49e44
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → fertas/imagens/jardim-de-amigurumi/receita-4.webp?v=9b6c26d3
-- PROBLEMA computador: imagem QUEBRADA [demo] img (não carregou) → fertas/imagens/jardim-de-amigurumi/receita-5.webp?v=604df722
-- PROBLEMA computador: imagem [demo] img passa da caixa carousel-wrapper e é cortada
-- PROBLEMA computador: imagem [demo] img passa da caixa carousel-wrapper e é cortada
-- PROBLEMA computador: [demo] carousel-track passa da tela (direita em 9694, tela 1280)
-- PROBLEMA computador: [demo] carousel-item passa da tela (direita em 1566, tela 1280)
-- PROBLEMA computador: [demo] img passa da tela (direita em 1565, tela 1280)
-- PROBLEMA computador: [demo] carousel-item passa da tela (direita em 1856, tela 1280)
-- PROBLEMA computador: [demo] img passa da tela (direita em 1847, tela 1280)
-- PROBLEMA computador: [demo] carousel-item passa da tela (direita em 2146, tela 1280)
-- PROBLEMA computador: [demo] img passa da tela (direita em 2145, tela 1280)
-- PROBLEMA computador: [demo] carousel-item passa da tela (direita em 2436, tela 1280)
-- PROBLEMA computador: [demo] img passa da tela (direita em 2427, tela 1280)
-- PROBLEMA computador: [demo] carousel-item passa da tela (direita em 2726, tela 1280)
-- PROBLEMA computador: [demo] img passa da tela (direita em 2725, tela 1280)
-- PROBLEMA computador: [demo] carousel-item passa da tela (direita em 3016, tela 1280)
-- PROBLEMA computador: [demo] img passa da tela (direita em 3007, tela 1280)
-- PROBLEMA computador: texto difícil de ler, span "🪴 Pagamento único · acesso imediato · 3" contraste 3.8:1
-- PROBLEMA computador: texto difícil de ler, [demo] demo-topo "Suculentas · Cactos · Flores · Folhagens" contraste 3.8:1
-- PROBLEMA computador: texto difícil de ler, [demo] demo-eyebrow "Veja algumas das +150 plantinhas do Jard" contraste 3.8:1
-- PROBLEMA computador: texto difícil de ler, [ideal] h3 "Faz crochê por hobby e quer transformar " contraste 3.8:1
-- PROBLEMA computador: texto difícil de ler, [ideal] p "Você já faz peças bonitas, mas não sabe " contraste 3.8:1
-- PROBLEMA computador: texto difícil de ler, [ideal] h3 "Está começando agora e tem medo de errar" contraste 3.8:1
-- PROBLEMA computador: texto difícil de ler, [ideal] p "Cada receita traz os fios, as cores e a " contraste 3.8:1
-- PROBLEMA computador: texto difícil de ler, [ideal] h3 "Não tem tempo para inventar modelo" contraste 3.8:1
-- PROBLEMA computador: texto difícil de ler, [ideal] p "As +150 receitas já estão prontas, em 5 " contraste 3.8:1
-- PROBLEMA computador: texto difícil de ler, [ideal] h3 "Quer vender e não sabe quanto cobrar" contraste 3.8:1
-- PROBLEMA computador: texto difícil de ler, [ideal] p "A tabela de preços das 150 plantinhas mo" contraste 3.8:1
-- PROBLEMA computador: texto difícil de ler, [ideal] h3 "Quer um presente que não murcha" contraste 3.8:1
-- PROBLEMA computador: texto difícil de ler, [ideal] p "Plantinha de crochê não precisa de água " contraste 3.8:1
-- PROBLEMA computador: texto difícil de ler, [bonuses] bonus-num-tag "#1 · BÔNUS HOJE!" contraste 3.8:1
-- PROBLEMA computador: texto difícil de ler, [bonuses] bonus-num-tag "#2 · BÔNUS HOJE!" contraste 3.8:1
+## 0 problema(s), 0 aviso(s)
 
 As fotos estão nesta pasta: ABRA e olhe uma por uma (nada cortado, nada faltando, texto legível, botão visível) antes de mostrar para ela.

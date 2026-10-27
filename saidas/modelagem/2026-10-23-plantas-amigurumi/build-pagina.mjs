@@ -184,6 +184,15 @@ ${RECEITAS}
   </div>
 </section>
 
+<!-- ============ 7 · PROVA SOCIAL ============ -->
+<section class="depoimentos">
+  <div class="depo-topo">
+    <h2>Veja a opinião das alunas que usam o ${NOME}</h2>
+  </div>
+  <div class="depo-unico" style="max-width:460px;margin:0 auto;padding:0 var(--px)"><img src="${IMG("depoimento-1.webp")}" alt="Comentários de alunas que compraram e receberam as receitas na hora" loading="lazy" decoding="async" width="720" height="1049" style="width:100%;height:auto;display:block;border-radius:16px;box-shadow:var(--sh-1)"></div>
+  <div class="depo-cta"><a href="#plano-completo" class="btn">QUERO O JARDIM DE AMIGURUMI</a></div>
+</section>
+
 <!-- ============ 6 · BÔNUS ============ -->
 <div class="bonus-bridge">
   <p class="bridge-eyebrow">E NÃO PARA POR AÍ</p>
@@ -192,15 +201,6 @@ ${RECEITAS}
 </div>
 <section class="bonuses">
 ${bonusCards}
-</section>
-
-<!-- ============ 7 · PROVA SOCIAL ============ -->
-<section class="depoimentos">
-  <div class="depo-topo">
-    <h2>Veja a opinião das alunas que usam o ${NOME}</h2>
-  </div>
-  <div class="depo-unico" style="max-width:460px;margin:0 auto;padding:0 var(--px)"><img src="${IMG("depoimento-1.webp")}" alt="Comentários de alunas que compraram e receberam as receitas na hora" loading="lazy" decoding="async" width="720" height="1049" style="width:100%;height:auto;display:block;border-radius:16px;box-shadow:var(--sh-1)"></div>
-  <div class="depo-cta"><a href="#plano-completo" class="btn">QUERO O JARDIM DE AMIGURUMI</a></div>
 </section>
 
 <!-- ============ 8 · OFERTA ============ -->
