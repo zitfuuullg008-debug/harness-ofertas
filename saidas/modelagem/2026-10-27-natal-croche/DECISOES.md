@@ -29,3 +29,10 @@ Pedido dela no chat: produto de decoração de Natal em crochê, no molde do Jar
 - **5 bônus** (ordem dela): 1) 20 peças de mesa posta para o Natal; 2) 15 meias e botinhas de lareira; 3) 10 mini amigurumis para pendurar na árvore; 4) Tabela de preços dos 120 enfeites; 5) 30 mensagens prontas para vender. O plano de 8 semanas saiu.
 - Imagens: bonuses-4 e -5 reaproveitam as capas antigas (tabela, mensagens); bonuses-1 a -3 e o mockup `produto-5-bonus.png` foram pedidos ao Codex (27/10). Página NÃO republicada até elas chegarem.
 - A fazer no app: as 20 peças de mesa, 15 meias/botinhas e 10 minis precisam de receita com contagem.
+
+## App (27/10, noite)
+- `app/gerar-dados.mjs` gera as 165 receitas por código (120 em 6 grupos de 20 + bônus: 20 mesa posta, 15 meias e botinhas, 10 mini amigurumis), com a contagem de cada rodada calculada. `app/fazer-template.cjs` + `app/montar-app.mjs` montam `app-enfeites-de-croche-natalinos.html` (molde do app do Jardim, paleta de Natal, desenhos SVG por código, sem Codex).
+- Telas: Início, Enfeites (busca e grupos, filtro por tempo/nível, favoritos, feito, PDF por receita), Ferramentas (bolinhas engomadas passo a passo, contador, calculadora, acabamento e embalagem, dúvidas), Bônus (3 coleções + tabela de preços + 30 mensagens).
+- No ar: https://croche.revitamulher.online/natal/app
+- A VERIFICAR POR ELA: proporção de cola e água das bolinhas (1:1, alternativa 2:1) é a receita comum de artesanato, não testei; fazer uma bolinha de teste antes de vender.
+- Falta: PDF de acesso, banner do checkout, pixel, entregável no checkout.
